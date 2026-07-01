@@ -29,7 +29,7 @@ const content = {
         eyebrow: "FAQ",
         title: "Questions fréquentes",
         description:
-          "Tout ce que vous devez savoir avant de démarrer votre collaboration avec Moutaoua.",
+          "Tout ce que vous devez savoir avant de démarrer votre collaboration avec Mohtaoua.",
       },
       cta: {
         badge: "Audit gratuit & sans engagement",
@@ -215,7 +215,7 @@ const content = {
         eyebrow: "FAQ",
         title: "Frequently asked questions",
         description:
-          "Everything you need to know before starting your collaboration with Moutaoua.",
+          "Everything you need to know before starting your collaboration with Mohtaoua.",
       },
       cta: {
         badge: "Free audit & no commitment",
@@ -400,7 +400,7 @@ const content = {
       faq: {
         eyebrow: "الأسئلة الشائعة",
         title: "أسئلة متكررة",
-        description: "كل ما تحتاجون معرفته قبل بدء التعاون مع متوى.",
+        description: "كل ما تحتاجون معرفته قبل بدء التعاون مع موحتاوة.",
       },
       cta: {
         badge: "تدقيق مجاني وبدون التزام",

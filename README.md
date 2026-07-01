@@ -1,6 +1,6 @@
-# Moutaoua
+# Mohtaoua
 
-Site vitrine pour **Moutaoua**, agence de marketing digital spécialisée dans les centres de formation au Maroc. UI premium, animations Framer Motion, mode sombre, i18n FR / EN / AR.
+Site vitrine pour **Mohtaoua**, agence de marketing digital spécialisée dans les centres de formation au Maroc. UI premium, animations Framer Motion, mode sombre, i18n FR / EN / AR.
 
 ## Stack
 

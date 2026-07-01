@@ -1,8 +1,8 @@
 import type { Stat } from "./types";
 
 export const siteConfig = {
-  name: "Moutaoua",
-  shortName: "Moutaoua",
+  name: "Mohtaoua",
+  shortName: "Mohtaoua",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://mohtaoua.ma",
   email: "contact@mohtaoua.ma",
   phone: "+212 642-830060",
@@ -16,10 +16,10 @@ export const siteConfig = {
   tagline:
     "Agence marketing pour centres de formation au Maroc — Meta Ads, Google Ads, landing pages.",
   social: {
-    linkedin: "https://www.linkedin.com/company/moutaoua",
-    instagram: "https://www.instagram.com/moutaoua",
-    youtube: "https://www.youtube.com/@moutaoua",
-    twitter: "https://twitter.com/moutaoua",
+    linkedin: "https://www.linkedin.com/company/mohtaoua",
+    instagram: "https://www.instagram.com/mohtaoua",
+    youtube: "https://www.youtube.com/@mohtaoua",
+    twitter: "https://twitter.com/mohtaoua",
   },
 };
 

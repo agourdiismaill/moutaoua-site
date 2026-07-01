@@ -157,7 +157,7 @@ const adResultsFr = [
 const videosFr = [
   { id: "v1", title: "Comment nous avons généré 1 200 leads/mois pour Skola", client: "Skola Formation", description: "Étude de cas vidéo détaillant notre stratégie Meta Ads et le tunnel de conversion mis en place.", category: "Étude de cas" },
   { id: "v2", title: "Témoignage client — Directeur de CampusUp", client: "CampusUp", description: "Le directeur de CampusUp partage les résultats obtenus après 6 mois de collaboration.", category: "Témoignage" },
-  { id: "v3", title: "Stratégie Google Ads pour centres de formation", client: "Moutaoua", description: "Masterclass : structurer ses campagnes Search pour capter une demande à forte intention.", category: "Masterclass" },
+  { id: "v3", title: "Stratégie Google Ads pour centres de formation", client: "Mohtaoua", description: "Masterclass : structurer ses campagnes Search pour capter une demande à forte intention.", category: "Masterclass" },
   { id: "v4", title: "Avant / Après : refonte d'une landing page", client: "FormaPro", description: "Comment nous avons doublé le taux de conversion d'une landing page de formation.", category: "CRO" },
   { id: "v5", title: "Marketing automation : le scénario de nurturing parfait", client: "EduNext", description: "Décryptage d'une séquence de nurturing email + WhatsApp qui convertit les leads dormants.", category: "Automation" },
   { id: "v6", title: "Témoignage — Responsable acquisition LearnLab", client: "LearnLab", description: "Retour d'expérience sur la mise en place d'un pilotage data et d'un CRM performant.", category: "Témoignage" },

@@ -1,4 +1,4 @@
-/** Paths extracted from logon.svg — Moutaoua brand */
+/** Paths extracted from logon.svg — Mohtaoua brand */
 
 export const MARK_VIEWBOX = "0 0 422.67 443.82";
 export const MARK_OFFSET_X = 993.93;

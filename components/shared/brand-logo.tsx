@@ -42,7 +42,7 @@ export function BrandLogo({
     <motion.span
       layout
       className={cn("inline-flex items-center", className)}
-      aria-label="Moutaoua"
+      aria-label="Mohtaoua"
       transition={{ duration: 0.35, ease }}
     >
       <LogoMark className={cn(markSize[size], "shrink-0")} />

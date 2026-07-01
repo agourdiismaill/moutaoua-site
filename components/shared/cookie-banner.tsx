@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 
-const CONSENT_KEY = "moutaoua-cookie-consent";
+const CONSENT_KEY = "mohtaoua-cookie-consent";
 
 export function CookieBanner() {
   const t = useTranslations("shared");
