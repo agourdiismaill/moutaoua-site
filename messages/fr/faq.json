@@ -1,0 +1,44 @@
+{
+  "items": {
+    "f1": {
+      "question": "Sous combien de temps puis-je espérer des résultats ?",
+      "answer": "Les premières demandes de renseignements arrivent généralement dès les 7 à 14 premiers jours après le lancement des campagnes. Les performances se stabilisent et s'optimisent sur 30 à 90 jours, à mesure que l'algorithme apprend et que nous affinons le ciblage.",
+      "category": "Résultats"
+    },
+    "f2": {
+      "question": "Travaillez-vous uniquement avec des centres de formation ?",
+      "answer": "Notre spécialité est le secteur de l'éducation et de la formation (organismes de formation, écoles, e-learning, formations professionnelles). Cette spécialisation nous permet de maîtriser les enjeux de conformité, de saisonnalité et de tunnel d'inscription propres à votre métier.",
+      "category": "Général"
+    },
+    "f3": {
+      "question": "Le budget publicitaire est-il inclus dans vos honoraires ?",
+      "answer": "Non. Nos honoraires couvrent la stratégie, la gestion et l'optimisation. Le budget média (dépensé directement sur Meta ou Google) est facturé séparément par les plateformes et reste votre propriété. Nous vous conseillons sur le budget optimal selon vos objectifs.",
+      "category": "Tarifs"
+    },
+    "f4": {
+      "question": "Y a-t-il un engagement de durée ?",
+      "answer": "Nous recommandons un engagement initial de 3 mois, le temps nécessaire pour collecter suffisamment de données et atteindre un régime optimal. Au-delà, nos contrats sont sans engagement et résiliables avec un préavis de 30 jours.",
+      "category": "Tarifs"
+    },
+    "f5": {
+      "question": "Comment suivez-vous les performances ?",
+      "answer": "Vous disposez d'un dashboard en temps réel (leads, coût par lead, ROAS, taux de conversion) accessible 24 h/24. Nous organisons également des points réguliers et un reporting mensuel détaillé orienté résultats business.",
+      "category": "Résultats"
+    },
+    "f6": {
+      "question": "Gérez-vous aussi la création des publicités et landing pages ?",
+      "answer": "Oui. Notre équipe créative produit les visuels, vidéos et copies publicitaires, ainsi que des landing pages optimisées pour la conversion. Tout est inclus dans nos offres Performance et Premium.",
+      "category": "Services"
+    },
+    "f7": {
+      "question": "Pouvez-vous vous connecter à mon CRM existant ?",
+      "answer": "Absolument. Nous nous intégrons aux principaux CRM (HubSpot, Pipedrive, Salesforce, etc.) ainsi qu'aux outils de réservation et de marketing automation pour centraliser et qualifier automatiquement vos leads.",
+      "category": "Services"
+    },
+    "f8": {
+      "question": "Que se passe-t-il lors de l'audit gratuit ?",
+      "answer": "Nous analysons votre présence digitale actuelle, vos campagnes existantes et votre tunnel de conversion. Vous repartez avec un diagnostic clair et un plan d'action concret, que vous décidiez ou non de travailler avec nous.",
+      "category": "Général"
+    }
+  }
+}

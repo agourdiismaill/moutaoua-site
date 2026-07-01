@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* High-Velocity Marketing System — Racing Red, Obsidian, Snow */
+    --background: 20 33% 98%; /* #fcf9f8 snow */
+    --foreground: 0 2% 11%; /* #1c1b1b obsidian ink */
+
+    --surface: 20 33% 98%;
+    --surface-bright: 20 14% 96%; /* #f6f3f2 subtle section tint */
+    --surface-lowest: 0 0% 100%;
+    --surface-container: 0 6% 93%; /* #f0eded */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 2% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 2% 11%;
+
+    --primary: 355 100% 33%; /* #a8000d racing red */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 2% 16%; /* obsidian */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 6% 93%;
+    --muted-foreground: 8 16% 49%; /* #926f6a warm slate */
+
+    --accent: 7 100% 94%; /* #ffe5e2 light red wash */
+    --accent-foreground: 356 100% 31%;
+
+    --destructive: 0 76% 42%; /* #ba1a1a */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 8% 88%;
+    --input: 20 8% 90%;
+    --ring: 355 100% 33%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    /* Obsidian theme — deep charcoal with glowing red */
+    --background: 0 3% 8%;
+    --foreground: 20 14% 95%; /* #f3f0ef */
+
+    --surface: 0 2% 11%;
+    --surface-bright: 0 3% 15%;
+    --surface-lowest: 0 4% 6%;
+    --surface-container: 0 4% 16%;
+
+    --card: 0 4% 13%;
+    --card-foreground: 20 14% 95%;
+
+    --popover: 0 4% 13%;
+    --popover-foreground: 20 14% 95%;
+
+    --primary: 358 80% 52%; /* vivid red on dark */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 2% 22%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 4% 16%;
+    --muted-foreground: 8 14% 69%;
+
+    --accent: 6 26% 18%;
+    --accent-foreground: 5 100% 84%;
+
+    --destructive: 4 100% 64%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 4% 22%;
+    --input: 0 4% 23%;
+    --ring: 358 80% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  /* Anybody for high-impact headings, Hanken Grotesk for everything else */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-anybody), "Anybody", system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-primary;
+  }
+}
+
+@layer components {
+  /* Glassmorphism — warm frosted surfaces */
+  .glass {
+    background: rgba(252, 249, 248, 0.72);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 20px 40px rgba(28, 27, 27, 0.05);
+  }
+
+  .dark .glass {
+    background: rgba(28, 27, 27, 0.62);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .glass-nav {
+    background: rgba(252, 249, 248, 0.74);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+  }
+
+  .dark .glass-nav {
+    background: rgba(20, 19, 19, 0.74);
+  }
+
+  /* Racing red -> obsidian brand gradient text */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(110deg, #a8000d 0%, #d31219 50%, #ff4d40 100%);
+  }
+
+  .bg-gradient-brand {
+    background-image: linear-gradient(110deg, #a8000d 0%, #d31219 100%);
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer utilities {
+  .container-max {
+    @apply mx-auto w-full max-w-container px-5 md:px-8;
+  }
+
+  .section-pad {
+    @apply py-section-mobile md:py-section-desktop;
+  }
+
+  /* Animated grid backdrop */
+  .grid-backdrop {
+    background-size: 48px 48px;
+    background-image:
+      linear-gradient(to right, hsl(var(--border) / 0.4) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--border) / 0.4) 1px, transparent 1px);
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+  }
+}

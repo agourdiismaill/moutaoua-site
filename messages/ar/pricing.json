@@ -1,0 +1,54 @@
+{
+  "items": {
+    "start": {
+      "name": "باقة Start",
+      "packLabel": "Start",
+      "description": "الأساسيات لإطلاق حضوركم الرقمي وحملاتكم الأولى.",
+      "period": "/ شهر",
+      "cta": "اختيار Start",
+      "features": [
+        "2 Reels احترافية",
+        "إدارة شبكات التواصل",
+        "تصميم جرافيك",
+        "تقويم نشر",
+        "إطلاق وإدارة حملات Ads (Meta وGoogle وTikTok)",
+        "متابعة شهرية"
+      ]
+    },
+    "performance": {
+      "name": "باقة Performance",
+      "packLabel": "Performance",
+      "description": "كل ما في Start، معزّز لتسريع نتائجكم.",
+      "period": "/ شهر",
+      "cta": "اختيار Performance",
+      "badge": "كل ما في Start +",
+      "features": [
+        "3 Reels احترافية",
+        "مزيد من المحتوى الجرافيكي",
+        "مزيد من Stories",
+        "تحسين متقدم للحملات (Meta وGoogle وTikTok)",
+        "تحليل الأداء",
+        "استشارات تسويقية"
+      ]
+    },
+    "premium": {
+      "name": "باقة Premium",
+      "packLabel": "Premium",
+      "description": "أكمل باقة لنمو رقمي بلا حدود.",
+      "period": "/ شهر",
+      "cta": "اختيار Premium",
+      "badge": "أكمل باقة لدينا.",
+      "featuresIntro": "تشمل:",
+      "features": [
+        "4 Reels احترافية",
+        "إدارة كاملة لشبكات التواصل",
+        "تصميم جرافيك غير محدود حسب التخطيط",
+        "Stories منتظمة",
+        "حملات Ads محسّنة (Meta وGoogle وTikTok)",
+        "تقارير شهرية مفصلة",
+        "استراتيجية رقمية مخصصة",
+        "أولوية في الطلبات"
+      ]
+    }
+  }
+}

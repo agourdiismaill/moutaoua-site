@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "title": "Moutaoua | Marketing Agency for Training Centers in Morocco",
+    "description": "Moutaoua turns your training center into a lead generation machine in Morocco: Meta Ads, Google Ads, TikTok Ads, content creation and marketing automation.",
+    "tagline": "Premium Marketing Agency for Training Centers",
+    "keywords": [
+      "training center marketing agency",
+      "education marketing",
+      "lead generation training",
+      "Meta Ads training",
+      "Google Ads training",
+      "student acquisition"
+    ]
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "results": "Results",
+    "caseStudies": "Case Studies",
+    "videos": "Videos",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "freeAudit": "Free audit",
+    "requestAudit": "Request a free audit",
+    "openMenu": "Open menu"
+  },
+  "footer": {
+    "description": "Moutaoua turns your training center into a lead generation machine: Meta Ads, Google Ads, TikTok Ads, content creation and marketing automation for education.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies"
+  },
+  "hero": {
+    "badge": "Premium Marketing Agency for Training Centers",
+    "title": "Turn Your Training Center into a <highlight>Lead Generation Machine</highlight>",
+    "description": "Meta Ads • Google Ads • Content Creation • Social Media Management • Landing Pages. We fuel your educational growth.",
+    "ctaPrimary": "Request a free audit",
+    "ctaSecondary": "See our results",
+    "socialProof": "<strong>150+ centers</strong> trust us",
+    "avatarNames": ["Center Casablanca", "School Rabat", "Training Marrakech", "Campus Tangier"],
+    "costPerLead": "Cost per lead",
+    "avgRoas": "Average ROAS",
+    "clientAlt": "Training center client",
+    "dashboardAlt": "Marketing dashboard showing 2,459 prospects generated at 0.20 MAD per prospect"
+  },
+  "contactForm": {
+    "successTitle": "Message sent!",
+    "successMessage": "Thank you for your request. Our team will get back to you within 24 business hours to schedule your free audit.",
+    "sendAnother": "Send another message",
+    "name": "Full name",
+    "company": "Center / Organization",
+    "email": "Email",
+    "phone": "Phone",
+    "budget": "Monthly media budget",
+    "budgetPlaceholder": "Select a range",
+    "budgetUnder10k": "Under 10,000 MAD",
+    "budget10to30k": "10,000 – 30,000 MAD",
+    "budget30to100k": "30,000 – 100,000 MAD",
+    "budgetOver100k": "Over 100,000 MAD",
+    "message": "Your project",
+    "messagePlaceholder": "Tell us about your acquisition goals…",
+    "submit": "Request my free audit",
+    "submitting": "Sending…",
+    "disclaimer": "By submitting this form, you agree to be contacted by our team and accept our <privacyLink>privacy policy</privacyLink>.",
+    "errorGeneric": "Something went wrong. Please try again or email us at contact@mohtaoua.ma.",
+    "errorNotConfigured": "The form is not configured on the server yet. Please contact us directly by email.",
+    "namePlaceholder": "John Smith",
+    "companyPlaceholder": "My Training Center",
+    "emailPlaceholder": "john@example.com",
+    "phonePlaceholder": "+212 6 12 34 56 78"
+  },
+  "localeSwitcher": {
+    "label": "Change language",
+    "fr": "FR",
+    "en": "EN",
+    "ar": "AR"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "home": "Back to home",
+    "contact": "Contact us"
+  }
+}

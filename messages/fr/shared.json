@@ -1,0 +1,18 @@
+{
+  "whatsappMessage": "Bonjour, je souhaite un audit gratuit pour mon centre de formation.",
+  "whatsappAria": "Nous contacter sur WhatsApp",
+  "themeLight": "Activer le mode clair",
+  "themeDark": "Activer le mode sombre",
+  "lightboxClose": "Fermer",
+  "lightboxPrev": "Précédent",
+  "lightboxNext": "Suivant",
+  "videoFilterAll": "Tous",
+  "videoPlayAria": "Lire la vidéo : {title}",
+  "city": "Casablanca",
+  "streetAddress": "Lotissement Attaoufik, Millenium, Zénith",
+  "fullAddress": "Lotissement Attaoufik, Millenium, Zénith, Casablanca 20270",
+  "cookieBannerTitle": "Cookies",
+  "cookieBannerMessage": "Nous utilisons des cookies essentiels (langue, thème) et mémorisons votre choix cookies. Aucun outil analytics n'est actif pour l'instant. Consultez notre <link>politique cookies</link>.",
+  "cookieBannerAccept": "J'accepte",
+  "cookieBannerReject": "Refuser"
+}

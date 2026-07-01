@@ -1,0 +1,164 @@
+{
+  "items": {
+    "meta-ads": {
+      "platform": "Meta Ads",
+      "title": "Meta Ads — Facebook & Instagram",
+      "description": "Campagnes d'acquisition à grande échelle avec un coût par lead maîtrisé pour les centres de formation.",
+      "metrics": [
+        {
+          "label": "Leads / mois"
+        },
+        {
+          "label": "CPL moyen"
+        },
+        {
+          "label": "ROAS"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Tableau de bord Meta Ads Manager",
+          "caption": "Ads Manager — performance 30 jours"
+        },
+        {
+          "alt": "Graphique de performance des campagnes",
+          "caption": "Évolution du CPL"
+        },
+        {
+          "alt": "Rapport de conversions Meta",
+          "caption": "Conversions par campagne"
+        }
+      ]
+    },
+    "tiktok-ads": {
+      "platform": "TikTok Ads",
+      "title": "TikTok Ads — Acquisition Vidéo",
+      "description": "Créatives vidéo natives et ciblage précis pour toucher une audience jeune au coût par lead le plus bas.",
+      "metrics": [
+        {
+          "label": "Leads / mois"
+        },
+        {
+          "label": "CPL moyen"
+        },
+        {
+          "label": "ROAS"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Tableau de bord TikTok Ads Manager",
+          "caption": "TikTok Ads Manager — 30 jours"
+        },
+        {
+          "alt": "Performance des créatives vidéo TikTok",
+          "caption": "Top créatives vidéo"
+        }
+      ]
+    },
+    "google-ads": {
+      "platform": "Google Ads",
+      "title": "Google Ads — Search & PMax",
+      "description": "Capture de la demande à forte intention avec un quality score optimisé et des extensions performantes.",
+      "metrics": [
+        {
+          "label": "Conversions"
+        },
+        {
+          "label": "CPC moyen"
+        },
+        {
+          "label": "Taux conv."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Tableau de bord Google Ads",
+          "caption": "Vue d'ensemble campagnes Search"
+        },
+        {
+          "alt": "Performance Performance Max",
+          "caption": "Performance Max — assets"
+        }
+      ]
+    },
+    "lead-forms": {
+      "platform": "Lead Forms",
+      "title": "Formulaires Lead — Instantanés",
+      "description": "Formulaires natifs pré-remplis qui maximisent le taux de complétion sur mobile.",
+      "metrics": [
+        {
+          "label": "Taux complétion"
+        },
+        {
+          "label": "Leads qualifiés"
+        },
+        {
+          "label": "Coût / formulaire"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Formulaire de génération de leads",
+          "caption": "Lead form mobile"
+        },
+        {
+          "alt": "Analyse de complétion des formulaires",
+          "caption": "Funnel de complétion"
+        }
+      ]
+    },
+    "crm": {
+      "platform": "CRM",
+      "title": "CRM — Suivi & Conversion",
+      "description": "Pipeline structuré, scoring automatique et relances pour transformer les leads en inscriptions.",
+      "metrics": [
+        {
+          "label": "Taux d'inscription"
+        },
+        {
+          "label": "Temps de réponse"
+        },
+        {
+          "label": "Pipeline suivi"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Pipeline CRM des leads",
+          "caption": "Pipeline Kanban"
+        },
+        {
+          "alt": "Tableau de bord CRM",
+          "caption": "Taux de conversion par étape"
+        }
+      ]
+    },
+    "whatsapp": {
+      "platform": "WhatsApp",
+      "title": "WhatsApp — Conversation & Closing",
+      "description": "Conversations automatisées et humaines pour engager les prospects là où ils répondent le plus.",
+      "metrics": [
+        {
+          "label": "Taux d'ouverture"
+        },
+        {
+          "label": "Taux de réponse"
+        },
+        {
+          "label": "Leads closés"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Conversation WhatsApp Business",
+          "caption": "WhatsApp Business API"
+        },
+        {
+          "alt": "Automatisation WhatsApp",
+          "caption": "Scénarios automatisés"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "items": {
+    "f1": {
+      "question": "How soon can I expect results?",
+      "answer": "The first inquiries usually arrive within 7 to 14 days after campaigns go live. Performance stabilizes and improves over 30 to 90 days as the algorithm learns and we refine targeting.",
+      "category": "Results"
+    },
+    "f2": {
+      "question": "Do you work exclusively with training centers?",
+      "answer": "We specialize in education and training (training providers, schools, e-learning, professional development). That focus helps us master compliance, seasonality, and enrollment funnel challenges specific to your industry.",
+      "category": "General"
+    },
+    "f3": {
+      "question": "Is ad spend included in your fees?",
+      "answer": "No. Our fees cover strategy, management, and optimization. Media budget (spent directly on Meta or Google) is billed separately by the platforms and remains yours. We advise you on the optimal budget for your goals.",
+      "category": "Pricing"
+    },
+    "f4": {
+      "question": "Is there a minimum commitment?",
+      "answer": "We recommend an initial 3-month commitment—the time needed to gather enough data and reach a steady performance level. After that, contracts are non-binding and can be cancelled with 30 days' notice.",
+      "category": "Pricing"
+    },
+    "f5": {
+      "question": "How do you track performance?",
+      "answer": "You get a real-time dashboard (leads, cost per lead, ROAS, conversion rate) available 24/7. We also run regular check-ins and detailed monthly reporting focused on business outcomes.",
+      "category": "Results"
+    },
+    "f6": {
+      "question": "Do you also create ads and landing pages?",
+      "answer": "Yes. Our creative team produces visuals, videos, and ad copy, plus conversion-optimized landing pages. This is included in our Performance and Premium plans.",
+      "category": "Services"
+    },
+    "f7": {
+      "question": "Can you connect to my existing CRM?",
+      "answer": "Absolutely. We integrate with major CRMs (HubSpot, Pipedrive, Salesforce, etc.) as well as booking and marketing automation tools to centralize and qualify your leads automatically.",
+      "category": "Services"
+    },
+    "f8": {
+      "question": "What happens during the free audit?",
+      "answer": "We review your current digital presence, existing campaigns, and conversion funnel. You leave with a clear diagnosis and a concrete action plan—whether or not you choose to work with us.",
+      "category": "General"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "categoryKeys": [
+    "all",
+    "caseStudy",
+    "testimonial",
+    "masterclass",
+    "cro",
+    "automation"
+  ],
+  "categories": {
+    "all": "All",
+    "caseStudy": "Case study",
+    "testimonial": "Testimonial",
+    "masterclass": "Masterclass",
+    "cro": "CRO",
+    "automation": "Automation"
+  },
+  "items": {
+    "v1": {
+      "title": "How we generated 1,200 leads/month for Skola",
+      "client": "Skola Formation",
+      "description": "Video case study detailing our Meta Ads strategy and the conversion funnel we implemented.",
+      "categoryKey": "caseStudy"
+    },
+    "v2": {
+      "title": "Client testimonial — CampusUp Director",
+      "client": "CampusUp",
+      "description": "CampusUp's director shares results after 6 months of working together.",
+      "categoryKey": "testimonial"
+    },
+    "v3": {
+      "title": "Google Ads strategy for training centers",
+      "client": "EduGrowth Digital",
+      "description": "Masterclass: structuring Search campaigns to capture high-intent demand.",
+      "categoryKey": "masterclass"
+    },
+    "v4": {
+      "title": "Before / After: landing page redesign",
+      "client": "FormaPro",
+      "description": "How we doubled the conversion rate of a training landing page.",
+      "categoryKey": "cro"
+    },
+    "v5": {
+      "title": "Marketing automation: the perfect nurturing workflow",
+      "client": "EduNext",
+      "description": "Breakdown of an email + WhatsApp nurturing sequence that converts dormant leads.",
+      "categoryKey": "automation"
+    },
+    "v6": {
+      "title": "Testimonial — LearnLab acquisition lead",
+      "client": "LearnLab",
+      "description": "Feedback on implementing data-driven management and a high-performing CRM.",
+      "categoryKey": "testimonial"
+    }
+  }
+}

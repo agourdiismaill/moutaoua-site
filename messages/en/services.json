@@ -1,0 +1,70 @@
+{
+  "items": {
+    "meta-ads": {
+      "title": "Facebook & Meta Ads",
+      "description": "Ultra-precise targeting to reach the most qualified prospects for your training programs.",
+      "longDescription": "We build custom audiences, high-converting creatives, and continuously optimized acquisition funnels on Meta (Facebook and Instagram).",
+      "features": [
+        "Lookalike audiences and retargeting",
+        "A/B-tested video and static creatives",
+        "Daily budget optimization",
+        "Advanced conversion tracking (CAPI)"
+      ]
+    },
+    "google-ads": {
+      "title": "Google Ads",
+      "description": "Capture search intent the moment your future students look for a training program.",
+      "longDescription": "Search, Performance Max, and YouTube Ads driven by data to capture high-intent demand and maximize your advertising ROI.",
+      "features": [
+        "Search and Performance Max campaigns",
+        "High-intent keyword research",
+        "Optimized extensions and landing pages",
+        "Call and form conversion tracking"
+      ]
+    },
+    "marketing-automation": {
+      "title": "Marketing Automation",
+      "description": "Automated email sequences to nurture your leads through to enrollment.",
+      "longDescription": "Multichannel nurturing scenarios (email, SMS, WhatsApp) connected to your CRM to turn cold leads into enrollments.",
+      "features": [
+        "Multichannel nurturing workflows",
+        "Lead scoring and segmentation",
+        "Native CRM integration",
+        "Smart automated follow-ups"
+      ]
+    },
+    "landing-pages": {
+      "title": "Landing Pages & CRO",
+      "description": "Fast, conversion-focused landing pages that turn traffic into qualified inquiries.",
+      "longDescription": "Design, copywriting, and conversion rate optimization (CRO) with ongoing A/B testing to maximize every dirham you invest.",
+      "features": [
+        "Mobile-first, high-converting design",
+        "A/B tests and heatmaps",
+        "Speed and technical SEO",
+        "Integrated forms and appointment booking"
+      ]
+    },
+    "social-media": {
+      "title": "Social Media Management",
+      "description": "A consistent social presence that strengthens your brand and feeds your pipeline.",
+      "longDescription": "Editorial strategy, content production, and community management to build a strong, desirable education brand.",
+      "features": [
+        "Strategy and editorial calendar",
+        "Reels and carousel production",
+        "Community management",
+        "Monthly engagement reporting"
+      ]
+    },
+    "crm-data": {
+      "title": "CRM & Data Analytics",
+      "description": "Centralize your leads and steer acquisition with clear dashboards.",
+      "longDescription": "CRM setup and optimization, real-time dashboards, and attribution for data-driven decisions.",
+      "features": [
+        "CRM implementation and integration",
+        "Real-time dashboards",
+        "Multi-touch attribution",
+        "Automated reporting"
+      ]
+    }
+  }
+}

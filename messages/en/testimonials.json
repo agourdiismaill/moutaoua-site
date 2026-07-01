@@ -1,0 +1,40 @@
+{
+  "items": {
+    "t1": {
+      "quote": "Within three months, our qualified leads doubled. The team runs our Meta campaigns with a level of rigor we didn't have in-house.",
+      "author": "Karim B.",
+      "role": "Director",
+      "company": "Language center · Casablanca"
+    },
+    "t2": {
+      "quote": "Reels and landing pages clearly improved lead quality. We get fewer inquiries, but far more relevant ones.",
+      "author": "Salma E.",
+      "role": "Marketing manager",
+      "company": "Private school · Rabat"
+    },
+    "t3": {
+      "quote": "Weekly reporting and creative recommendations helped us lower cost per lead while increasing volume.",
+      "author": "Youssef A.",
+      "role": "Founder",
+      "company": "Professional training org · Marrakech"
+    },
+    "t4": {
+      "quote": "We had tried several vendors. Moutaoua is the only one that speaks acquisition, content and enrollment journeys fluently.",
+      "author": "Nadia L.",
+      "role": "General manager",
+      "company": "Training center · Tangier"
+    },
+    "t5": {
+      "quote": "WhatsApp and email automation changed how we handle warm leads. Our sales team saves hours every week.",
+      "author": "Mehdi R.",
+      "role": "Sales director",
+      "company": "School group · Casablanca"
+    },
+    "t6": {
+      "quote": "Transparent numbers, creatives tailored to our audience and day-to-day responsiveness — exactly what we expect from a partner agency.",
+      "author": "Imane T.",
+      "role": "Communications lead",
+      "company": "Higher education school · Agadir"
+    }
+  }
+}

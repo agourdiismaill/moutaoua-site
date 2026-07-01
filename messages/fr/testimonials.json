@@ -1,0 +1,40 @@
+{
+  "items": {
+    "t1": {
+      "quote": "En trois mois, nos leads qualifiés ont doublé. L'équipe structure nos campagnes Meta avec une rigueur que nous n'avions pas en interne.",
+      "author": "Karim B.",
+      "role": "Directeur",
+      "company": "Centre de langues · Casablanca"
+    },
+    "t2": {
+      "quote": "Les Reels et les landing pages ont clairement amélioré la qualité des demandes. On reçoit moins de contacts, mais beaucoup plus pertinents.",
+      "author": "Salma E.",
+      "role": "Responsable marketing",
+      "company": "École privée · Rabat"
+    },
+    "t3": {
+      "quote": "Le suivi hebdomadaire et les recommandations créatives nous ont permis de baisser le coût par lead tout en augmentant le volume.",
+      "author": "Youssef A.",
+      "role": "Fondateur",
+      "company": "Organisme de formation pro · Marrakech"
+    },
+    "t4": {
+      "quote": "Nous avions testé plusieurs prestataires. Moutaoua est le seul à parler à la fois acquisition, contenu et parcours d'inscription.",
+      "author": "Nadia L.",
+      "role": "Directrice générale",
+      "company": "Centre de formation · Tanger"
+    },
+    "t5": {
+      "quote": "L'automatisation WhatsApp et email a transformé notre traitement des prospects tièdes. L'équipe commerciale gagne un temps précieux.",
+      "author": "Mehdi R.",
+      "role": "Directeur commercial",
+      "company": "Groupe scolaire · Casablanca"
+    },
+    "t6": {
+      "quote": "Transparence sur les chiffres, créas adaptées à notre cible et réactivité au quotidien : exactement ce qu'on attend d'une agence partenaire.",
+      "author": "Imane T.",
+      "role": "Responsable communication",
+      "company": "École supérieure · Agadir"
+    }
+  }
+}

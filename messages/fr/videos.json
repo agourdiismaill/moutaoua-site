@@ -1,0 +1,56 @@
+{
+  "categoryKeys": [
+    "all",
+    "caseStudy",
+    "testimonial",
+    "masterclass",
+    "cro",
+    "automation"
+  ],
+  "categories": {
+    "all": "Tous",
+    "caseStudy": "Étude de cas",
+    "testimonial": "Témoignage",
+    "masterclass": "Masterclass",
+    "cro": "CRO",
+    "automation": "Automation"
+  },
+  "items": {
+    "v1": {
+      "title": "Comment nous avons généré 1 200 leads/mois pour Skola",
+      "client": "Skola Formation",
+      "description": "Étude de cas vidéo détaillant notre stratégie Meta Ads et le tunnel de conversion mis en place.",
+      "categoryKey": "caseStudy"
+    },
+    "v2": {
+      "title": "Témoignage client — Directeur de CampusUp",
+      "client": "CampusUp",
+      "description": "Le directeur de CampusUp partage les résultats obtenus après 6 mois de collaboration.",
+      "categoryKey": "testimonial"
+    },
+    "v3": {
+      "title": "Stratégie Google Ads pour centres de formation",
+      "client": "Moutaoua",
+      "description": "Masterclass : structurer ses campagnes Search pour capter une demande à forte intention.",
+      "categoryKey": "masterclass"
+    },
+    "v4": {
+      "title": "Avant / Après : refonte d'une landing page",
+      "client": "FormaPro",
+      "description": "Comment nous avons doublé le taux de conversion d'une landing page de formation.",
+      "categoryKey": "cro"
+    },
+    "v5": {
+      "title": "Marketing automation : le scénario de nurturing parfait",
+      "client": "EduNext",
+      "description": "Décryptage d'une séquence de nurturing email + WhatsApp qui convertit les leads dormants.",
+      "categoryKey": "automation"
+    },
+    "v6": {
+      "title": "Témoignage — Responsable acquisition LearnLab",
+      "client": "LearnLab",
+      "description": "Retour d'expérience sur la mise en place d'un pilotage data et d'un CRM performant.",
+      "categoryKey": "testimonial"
+    }
+  }
+}

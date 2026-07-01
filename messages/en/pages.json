@@ -1,0 +1,68 @@
+{
+  "services": {
+    "metaTitle": "Marketing Services for Training Centers | Moutaoua Morocco",
+    "metaDescription": "Meta Ads, Google Ads, marketing automation, landing pages, social media and CRM: our complete acquisition ecosystem for training centers.",
+    "eyebrow": "Our Services",
+    "title": "More visibility. More enrollments. <highlight>More growth.</highlight>",
+    "description": "Every lever is data-driven and focused on one goal: filling your training sessions."
+  },
+  "results": {
+    "metaTitle": "Meta Ads & Google Ads Results | Moutaoua Morocco",
+    "metaDescription": "Sample advertising performance for training centers: Meta Ads, Google Ads, Lead Forms, CRM and WhatsApp. Detailed data available on request.",
+    "eyebrow": "Advertising Results",
+    "title": "<highlight>Proof</highlight> in numbers",
+    "description": "Meta Ads, Google Ads, Lead Forms, CRM and WhatsApp: explore real campaign screenshots and their performance in a gallery."
+  },
+  "pricing": {
+    "metaTitle": "Pricing",
+    "metaDescription": "Start, Performance and Premium packs: clear offers in dirhams for your digital presence, Reels and ad campaigns (Meta, Google, TikTok).",
+    "eyebrow": "Pricing",
+    "title": "Plans tailored to your <highlight>growth</highlight>",
+    "description": "Choose the support that matches your ambitions. No commitment after 3 months, no hidden fees."
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Request your free marketing audit. Our team will get back to you within 24 hours to turn your training center into a lead machine.",
+    "eyebrow": "Contact",
+    "title": "Let's talk about your <highlight>growth</highlight>",
+    "description": "Get a free audit and a concrete action plan for your training center. Guaranteed response within 24 business hours.",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Hours",
+    "hoursValue": "Mon – Fri, 9am – 6pm",
+    "mapTitle": "Location {name}"
+  },
+  "videos": {
+    "metaTitle": "Videos",
+    "metaDescription": "Case studies, client testimonials and video masterclasses: discover the behind-the-scenes of our marketing campaigns for training centers.",
+    "eyebrow": "Video library",
+    "title": "Our <highlight>videos</highlight> & testimonials",
+    "description": "Filmed case studies, client feedback and masterclasses to understand our method and results."
+  },
+  "caseStudies": {
+    "metaTitle": "Case Studies | Training Center Marketing Morocco",
+    "metaDescription": "Anonymized missions: Meta Ads strategy, budget, leads, CPL and ROAS for training centers in Morocco.",
+    "eyebrow": "Case Studies",
+    "title": "<highlight>Measurable</highlight> transformations",
+    "description": "Dive into our missions: strategy, budget, leads generated, cost per lead and advertising return on investment."
+  },
+  "caseStudyDetail": {
+    "backLink": "All case studies",
+    "clientLabel": "Client:",
+    "disclaimer": "Anonymized case study for illustration. Visuals are representative; performance varies by context.",
+    "budget": "Budget",
+    "leads": "Leads generated",
+    "cpl": "CPL",
+    "roas": "ROAS",
+    "timeline": "Duration",
+    "objectives": "Objectives",
+    "strategy": "Strategy",
+    "gallery": "Gallery",
+    "videos": "Videos",
+    "related": "Other case studies",
+    "galleryAlt": "{title} — visual {n}",
+    "videoTitle": "{client} — video {n}",
+    "videoCategory": "Case study"
+  }
+}

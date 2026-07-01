@@ -1,0 +1,18 @@
+{
+  "whatsappMessage": "Hello, I would like a free audit for my training center.",
+  "whatsappAria": "Contact us on WhatsApp",
+  "themeLight": "Switch to light mode",
+  "themeDark": "Switch to dark mode",
+  "lightboxClose": "Close",
+  "lightboxPrev": "Previous",
+  "lightboxNext": "Next",
+  "videoFilterAll": "All",
+  "videoPlayAria": "Play video: {title}",
+  "city": "Casablanca",
+  "streetAddress": "Lotissement Attaoufik, Millenium, Zénith",
+  "fullAddress": "Lotissement Attaoufik, Millenium, Zénith, Casablanca 20270",
+  "cookieBannerTitle": "Cookies",
+  "cookieBannerMessage": "We use essential cookies (language, theme) and store your cookie choice. No analytics tool is active yet. See our <link>cookie policy</link>.",
+  "cookieBannerAccept": "Accept",
+  "cookieBannerReject": "Decline"
+}

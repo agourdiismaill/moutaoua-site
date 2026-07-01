@@ -1,0 +1,88 @@
+{
+  "services": {
+    "eyebrow": "Notre Expertise 360°",
+    "title": "Un écosystème complet d'acquisition",
+    "description": "De la première impression publicitaire jusqu'à l'inscription finale, nous couvrons chaque étape de la conversion de vos futurs étudiants."
+  },
+  "stats": {
+    "eyebrow": "Performances",
+    "title": "Des Résultats Concrets",
+    "description": "L'impact mesurable de nos stratégies sur les centres de formation.",
+    "disclaimer": "Chiffres cumulés sur l'ensemble de nos missions — résultats variables selon chaque client."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "description": "Tout ce que vous devez savoir avant de démarrer votre collaboration avec Moutaoua."
+  },
+  "cta": {
+    "badge": "Audit gratuit & sans engagement",
+    "title": "Prêt à remplir vos sessions de formation ?",
+    "description": "Recevez un diagnostic complet de votre acquisition et un plan d'action concret, que vous décidiez ou non de travailler avec nous.",
+    "ctaPrimary": "Demander mon audit gratuit",
+    "ctaSecondary": "Voir nos études de cas"
+  },
+  "testimonials": {
+    "eyebrow": "Témoignages",
+    "title": "Ce que disent nos partenaires",
+    "description": "Retours de directeurs et responsables marketing de centres de formation au Maroc. Identités abrégées sur demande de confidentialité."
+  },
+  "clientLogos": {
+    "heading": "Ils nous font confiance",
+    "disclaimer": "Secteurs et villes représentés — noms anonymisés.",
+    "names": [
+      "Centre · Casablanca",
+      "École · Rabat",
+      "Organisme · Marrakech",
+      "Formation · Tanger",
+      "Groupe · Fès",
+      "Académie · Agadir",
+      "Institut · Meknès",
+      "Campus · Oujda",
+      "École · Kenitra"
+    ]
+  },
+  "results": {
+    "eyebrow": "Résultats Publicitaires",
+    "title": "La preuve par les chiffres",
+    "description": "Exemples de tableaux de bord et de performances typiques sur Meta Ads, Google Ads, Lead Forms, CRM et WhatsApp.",
+    "disclaimer": "Captures et métriques à titre illustratif — données réelles disponibles lors d'un audit ou d'un échange commercial.",
+    "screenshotCount": "{count} captures",
+    "viewGallery": "Voir la galerie",
+    "viewImageAria": "Voir {alt}"
+  },
+  "pricing": {
+    "eyebrow": "Tarifs",
+    "title": "Des offres adaptées à votre croissance",
+    "description": "Trois packs clairs et sans frais cachés. Le budget publicitaire est payé séparément par le client.",
+    "packLabel": "Pack",
+    "adBudgetNote": "Budget publicitaire payé séparément par le client.",
+    "adPlatformsHeading": "Nous gérons vos campagnes Ads sur :"
+  },
+  "videoCarousel": {
+    "eyebrow": "Vidéos",
+    "title": "Contenus & Reels",
+    "description": "Exemples de formats vidéo produits pour nos clients centres de formation.",
+    "playAria": "Lire {title}",
+    "close": "Fermer",
+    "prev": "Précédent",
+    "next": "Suivant"
+  },
+  "videoShowcase": {
+    "eyebrow": "Vidéothèque",
+    "title": "Nos vidéos & témoignages",
+    "description": "Études de cas filmées, retours clients et masterclass.",
+    "cta": "Voir toutes les vidéos"
+  },
+  "portfolio": {
+    "eyebrow": "Réalisations",
+    "title": "Créations social media",
+    "description": "Sélection de visuels conçus pour des centres de formation — identité, offres et temps forts.",
+    "cta": "Voir l'étude de cas complète"
+  },
+  "caseStudyCard": {
+    "leads": "Leads",
+    "cpl": "CPL",
+    "roas": "ROAS"
+  }
+}

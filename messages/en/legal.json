@@ -1,0 +1,160 @@
+{
+  "privacy": {
+    "metaTitle": "Privacy Policy",
+    "metaDescription": "How Moutaoua collects, uses and protects your personal data when you visit our site or submit a contact request.",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: July 1, 2026",
+    "sections": [
+      {
+        "title": "Data controller",
+        "paragraphs": [
+          "Moutaoua, located at Lotissement Attaoufik, Millenium, Zénith, Casablanca 20270 (Morocco), is responsible for processing data collected through this website and the contact form.",
+          "Contact: contact@mohtaoua.ma — Tel. +212 642-830060",
+          "Legal identifiers (ICE, trade register, legal form): available on request at contact@mohtaoua.ma."
+        ]
+      },
+      {
+        "title": "Data we collect",
+        "paragraphs": [
+          "Via the contact form: name, email, phone, organization, media budget and message.",
+          "Technical data: IP address, browser type, pages viewed and timestamps, logged by our hosting provider for security and operation.",
+          "Cookie preference: your choice (accept / decline) is stored locally in your browser (localStorage)."
+        ]
+      },
+      {
+        "title": "Purposes",
+        "paragraphs": [
+          "Respond to audit, quote or information requests.",
+          "Ensure site security and maintenance.",
+          "Comply with legal and accounting obligations."
+        ]
+      },
+      {
+        "title": "Legal basis and retention",
+        "paragraphs": [
+          "Processing is based on your consent (form) and Moutaoua's legitimate interest (site security).",
+          "Contact data: kept for up to 3 years after the last business exchange, unless a longer period is required by law.",
+          "Technical logs: kept for up to 12 months."
+        ]
+      },
+      {
+        "title": "Subprocessors",
+        "paragraphs": [
+          "Vercel Inc. (United States) — website hosting and delivery.",
+          "Resend Inc. (United States) — sending emails from the contact form.",
+          "These providers process data only on our behalf under contractual data protection measures."
+        ]
+      },
+      {
+        "title": "Transfers outside Morocco",
+        "paragraphs": [
+          "Hosting and email delivery may involve transfers to servers outside Morocco (including the United States). We ensure appropriate safeguards are in place."
+        ]
+      },
+      {
+        "title": "Security",
+        "paragraphs": [
+          "We implement reasonable technical and organizational measures to protect your information (HTTPS, restricted access, certified providers)."
+        ]
+      },
+      {
+        "title": "Your rights",
+        "paragraphs": [
+          "Under Moroccan law n° 09-08 on personal data protection, you may request access, correction or deletion of your data.",
+          "To exercise your rights: contact@mohtaoua.ma. You may also lodge a complaint with the CNDP (Morocco's data protection authority)."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Terms of Use",
+    "metaDescription": "Terms of use for the Moutaoua website and general framework for our marketing services for training centers.",
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: July 1, 2026",
+    "sections": [
+      {
+        "title": "Purpose",
+        "paragraphs": [
+          "This website presents Moutaoua's marketing services for training centers and educational organizations in Morocco. Use of the site implies acceptance of these terms."
+        ]
+      },
+      {
+        "title": "Services and quotes",
+        "paragraphs": [
+          "Deliverables (paid advertising, content creation, automation, landing pages, etc.) are subject to a separate written quote or contract.",
+          "Prices shown on the site are indicative and may change. Media budgets are generally billed separately by platforms (Meta, Google, TikTok)."
+        ]
+      },
+      {
+        "title": "Published results and content",
+        "paragraphs": [
+          "Figures, screenshots, case studies and testimonials are illustrative or based on real anonymized client work.",
+          "Performance (leads, CPL, ROAS) varies by sector, budget, seasonality and training offer quality. No results are guaranteed without a specific contract.",
+          "Client names may be anonymized or replaced with generic labels when public citation is not authorized."
+        ]
+      },
+      {
+        "title": "Intellectual property",
+        "paragraphs": [
+          "Site texts, visuals, logos and content belong to Moutaoua or its clients and are protected.",
+          "Any reproduction or extraction without written permission is prohibited."
+        ]
+      },
+      {
+        "title": "Liability",
+        "paragraphs": [
+          "Moutaoua strives to keep information accurate but does not guarantee error-free or uninterrupted service.",
+          "The site may be modified or interrupted for maintenance without notice."
+        ]
+      },
+      {
+        "title": "External links",
+        "paragraphs": [
+          "The site may link to third-party sites (social networks, YouTube). Moutaoua is not responsible for their content or privacy practices."
+        ]
+      },
+      {
+        "title": "Governing law",
+        "paragraphs": [
+          "These terms are governed by Moroccan law. Disputes fall under the competent courts of Casablanca."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "metaTitle": "Cookie Policy",
+    "metaDescription": "Information about cookies and trackers used on the Moutaoua website.",
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: July 1, 2026",
+    "sections": [
+      {
+        "title": "What is a cookie?",
+        "paragraphs": [
+          "A cookie is a small file stored on your device when you visit a website. It helps remember preferences or, where applicable, measure traffic."
+        ]
+      },
+      {
+        "title": "Cookies and storage on this site",
+        "paragraphs": [
+          "Essential cookies / storage: language, display theme (light/dark) and your cookie banner choice (localStorage).",
+          "Analytics: no analytics cookies are currently placed without your explicit consent. If a statistics tool is enabled later, this page will be updated.",
+          "Third-party cookies: embedded YouTube videos may set cookies when you start playback. Social links open third-party sites with their own policies."
+        ]
+      },
+      {
+        "title": "Managing preferences",
+        "paragraphs": [
+          "Via the banner: you can accept or decline non-essential cookies.",
+          "Via your browser: you can delete cookies and localStorage at any time. Some features (language, theme) may reset."
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Cookie-related questions: contact@mohtaoua.ma"
+        ]
+      }
+    ]
+  },
+  "contactLink": "Contact us"
+}

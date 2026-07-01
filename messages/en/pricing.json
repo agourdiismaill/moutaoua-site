@@ -1,0 +1,54 @@
+{
+  "items": {
+    "start": {
+      "name": "Start Pack",
+      "packLabel": "Start",
+      "description": "Everything you need to launch your digital presence and first campaigns.",
+      "period": "/ month",
+      "cta": "Choose Start",
+      "features": [
+        "2 professional Reels",
+        "Social media management",
+        "Graphic design",
+        "Publishing calendar",
+        "Launch and management of ad campaigns (Meta, Google, TikTok)",
+        "Monthly follow-up"
+      ]
+    },
+    "performance": {
+      "name": "Performance Pack",
+      "packLabel": "Performance",
+      "description": "Everything in Start, enhanced to accelerate your results.",
+      "period": "/ month",
+      "cta": "Choose Performance",
+      "badge": "Everything in Start +",
+      "features": [
+        "3 professional Reels",
+        "More graphic content",
+        "More Stories",
+        "Advanced ad campaign optimization (Meta, Google, TikTok)",
+        "Performance analysis",
+        "Marketing advisory"
+      ]
+    },
+    "premium": {
+      "name": "Premium Pack",
+      "packLabel": "Premium",
+      "description": "Our most complete pack for unlimited digital growth.",
+      "period": "/ month",
+      "cta": "Choose Premium",
+      "badge": "Our most complete pack.",
+      "featuresIntro": "Includes:",
+      "features": [
+        "4 professional Reels",
+        "Full social media management",
+        "Unlimited graphic design within the schedule",
+        "Regular Stories",
+        "Optimized ad campaigns (Meta, Google, TikTok)",
+        "Detailed monthly reports",
+        "Personalized digital strategy",
+        "Priority support"
+      ]
+    }
+  }
+}

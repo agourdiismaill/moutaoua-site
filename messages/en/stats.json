@@ -1,0 +1,16 @@
+{
+  "items": {
+    "impressions": {
+      "label": "Impressions delivered"
+    },
+    "leads": {
+      "label": "Leads generated"
+    },
+    "roas": {
+      "label": "Average ROAS"
+    },
+    "campaigns": {
+      "label": "Active campaigns"
+    }
+  }
+}

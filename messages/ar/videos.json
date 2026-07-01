@@ -1,0 +1,56 @@
+{
+  "categoryKeys": [
+    "all",
+    "caseStudy",
+    "testimonial",
+    "masterclass",
+    "cro",
+    "automation"
+  ],
+  "categories": {
+    "all": "الكل",
+    "caseStudy": "دراسة حالة",
+    "testimonial": "شهادة",
+    "masterclass": "ماستركلاس",
+    "cro": "CRO",
+    "automation": "أتمتة"
+  },
+  "items": {
+    "v1": {
+      "title": "كيف ولّدنا 1 200 lead/شهر لـ Skola",
+      "client": "Skola Formation",
+      "description": "دراسة حالة بالفيديو تفصّل استراتيجية Meta Ads ومسار التحويل الذي أنشأناه.",
+      "categoryKey": "caseStudy"
+    },
+    "v2": {
+      "title": "شهادة عميل — مدير CampusUp",
+      "client": "CampusUp",
+      "description": "مدير CampusUp يشارك النتائج بعد 6 أشهر من التعاون.",
+      "categoryKey": "testimonial"
+    },
+    "v3": {
+      "title": "استراتيجية Google Ads لمراكز التكوين",
+      "client": "EduGrowth Digital",
+      "description": "ماستركلاس: هيكلة حملات Search لالتقاط الطلب عالي النية.",
+      "categoryKey": "masterclass"
+    },
+    "v4": {
+      "title": "قبل / بعد: إعادة تصميم landing page",
+      "client": "FormaPro",
+      "description": "كيف ضاعفنا معدل تحويل صفحة هبوط تكوينية.",
+      "categoryKey": "cro"
+    },
+    "v5": {
+      "title": "أتمتة تسويقية: سيناريو الرعاية المثالي",
+      "client": "EduNext",
+      "description": "تحليل لسلسلة رعاية بريد + WhatsApp تحوّل العملاء الخاملين.",
+      "categoryKey": "automation"
+    },
+    "v6": {
+      "title": "شهادة — مسؤول الاستقطاب LearnLab",
+      "client": "LearnLab",
+      "description": "تجربة في إعداد قيادة بالبيانات وCRM عالي الأداء.",
+      "categoryKey": "testimonial"
+    }
+  }
+}

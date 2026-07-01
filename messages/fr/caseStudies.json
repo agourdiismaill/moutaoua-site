@@ -1,0 +1,217 @@
+{
+  "tags": {
+    "metaAds": "Meta Ads",
+    "cro": "CRO",
+    "automation": "Automation",
+    "googleAds": "Google Ads",
+    "performanceMax": "Performance Max",
+    "crm": "CRM",
+    "whatsApp": "WhatsApp",
+    "socialMedia": "Social Media",
+    "branding": "Branding",
+    "visualCreation": "Création visuelle",
+    "multilingual": "Multilingue"
+  },
+  "items": {
+    "skola-formation": {
+      "title": "1 200 leads/mois pour un organisme de formation",
+      "client": "Centre de formation pro. (anonymisé)",
+      "industry": "Formation professionnelle",
+      "description": "Refonte complète de l'acquisition payante de Skola, passant d'un volume irrégulier de leads à une machine prévisible générant plus de 1 200 demandes qualifiées par mois.",
+      "objectives": [
+        "Générer un volume de leads prévisible et scalable",
+        "Réduire le coût par lead sous la barre des 55 DH",
+        "Améliorer la qualité des leads transmis aux conseillers"
+      ],
+      "strategy": [
+        "Restructuration complète du compte Meta Ads en campagnes ABO",
+        "Production de créatives vidéo natives orientées bénéfices",
+        "Mise en place du tracking conversions côté serveur (CAPI)",
+        "Landing pages dédiées par formation avec tests A/B continus",
+        "Séquence de nurturing email + WhatsApp pour les leads tièdes"
+      ],
+      "budget": "88 000 DH / mois",
+      "cpl": "53 DH",
+      "roas": "5,2x",
+      "timeline": "6 mois",
+      "structural": {
+        "leads": 1240,
+        "cover": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [
+          "ysz5S6PUM-U"
+        ],
+        "featured": true,
+        "tags": [
+          "metaAds",
+          "cro",
+          "automation"
+        ]
+      },
+      "testimonials": [
+        {
+          "quote": "En 6 mois, EduGrowth a multiplié par 4 nos inscriptions. Une équipe data-driven et transparente.",
+          "author": "Camille Robert",
+          "role": "Directrice, Skola Formation"
+        }
+      ]
+    },
+    "campusup-search": {
+      "title": "ROAS 6,1x via Google Ads pour CampusUp",
+      "client": "École supérieure (anonymisée)",
+      "industry": "E-learning",
+      "description": "Conquête de la demande à forte intention sur Google pour CampusUp, avec une structure Search + Performance Max qui a fait exploser le retour sur investissement.",
+      "objectives": [
+        "Capter la demande de recherche sur les formations certifiantes",
+        "Maximiser le ROAS sur un budget contraint",
+        "Diminuer le CPA tout en augmentant le volume"
+      ],
+      "strategy": [
+        "Audit & recherche de mots-clés à forte intention",
+        "Architecture Search par thématique de formation",
+        "Campagnes Performance Max alimentées par des assets premium",
+        "Optimisation continue des enchères et du quality score",
+        "Connexion CRM pour l'optimisation sur les leads qualifiés"
+      ],
+      "budget": "132 000 DH / mois",
+      "cpl": "68 DH",
+      "roas": "6,1x",
+      "timeline": "5 mois",
+      "structural": {
+        "leads": 980,
+        "cover": "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [
+          "aqz-KE-bpKQ"
+        ],
+        "featured": true,
+        "tags": [
+          "googleAds",
+          "performanceMax"
+        ]
+      },
+      "testimonials": [
+        {
+          "quote": "Un CPL divisé par deux et un pipeline enfin lisible. L'équipe est réactive et transparente.",
+          "author": "Mehdi Lefort",
+          "role": "Responsable acquisition, CampusUp"
+        }
+      ]
+    },
+    "edunext-automation": {
+      "title": "Tunnel d'inscription automatisé pour EduNext",
+      "client": "Organisme e-learning (anonymisé)",
+      "industry": "Formation en ligne",
+      "description": "Construction d'une machine de nurturing multicanal qui convertit les leads dormants en inscriptions, sans intervention humaine sur les premières étapes.",
+      "objectives": [
+        "Réactiver une base de leads froids",
+        "Automatiser la qualification et les relances",
+        "Augmenter le taux de transformation lead → inscription"
+      ],
+      "strategy": [
+        "Scoring et segmentation des leads dans le CRM",
+        "Scénarios email + SMS + WhatsApp déclenchés par comportement",
+        "Webinaires automatisés en milieu de tunnel",
+        "Optimisation des séquences par tests A/B"
+      ],
+      "budget": "55 000 DH / mois",
+      "cpl": "65 DH",
+      "roas": "4,7x",
+      "timeline": "4 mois",
+      "structural": {
+        "leads": 720,
+        "cover": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [
+          "ScMzIvxBSi4"
+        ],
+        "featured": false,
+        "tags": [
+          "automation",
+          "crm",
+          "whatsApp"
+        ]
+      },
+      "testimonials": [
+        {
+          "quote": "Le tunnel qu'ils ont construit tourne tout seul. Nous remplissons nos sessions à l'avance.",
+          "author": "Sophie Nguyen",
+          "role": "Fondatrice, EduNext"
+        }
+      ]
+    },
+    "millennia-group-prive": {
+      "title": "Identité social-media & acquisition pour Millennia (Marrakech)",
+      "client": "Groupe scolaire privé (anonymisé)",
+      "industry": "Centre de formation linguistique",
+      "description": "Pilotage complet de la communication digitale de Millennia Group Privé, centre de formation à Marrakech (langues, informatique, préparation TELC/Goethe). Création d'une ligne graphique premium et de campagnes social-media multilingues (arabe, français) qui ont fait décoller les demandes d'inscription.",
+      "objectives": [
+        "Construire une identité visuelle cohérente et reconnaissable sur les réseaux",
+        "Générer un flux régulier de demandes d'inscription aux formations",
+        "Couvrir l'ensemble de l'offre : allemand, anglais, français, espagnol, informatique",
+        "Animer la communauté autour des temps forts (Ramadan, Aïd, recrutement, actualité)"
+      ],
+      "strategy": [
+        "Direction artistique et déclinaison de templates aux couleurs de la marque",
+        "Calendrier éditorial multilingue (arabe / français) publié sur Instagram & Facebook",
+        "Visuels d'offres promotionnelles (packs langues + informatique offert)",
+        "Campagnes de recrutement de formateurs et posts de marque",
+        "Contenus saisonniers et de notoriété pour maximiser l'engagement"
+      ],
+      "budget": "Sur devis",
+      "cpl": "—",
+      "roas": "—",
+      "timeline": "Mission continue",
+      "structural": {
+        "leads": 480,
+        "cover": "/realisations/millennia/millennia-04.png",
+        "images": [
+          "/realisations/millennia/millennia-01.png",
+          "/realisations/millennia/millennia-02.png",
+          "/realisations/millennia/millennia-03.png",
+          "/realisations/millennia/millennia-04.png",
+          "/realisations/millennia/millennia-05.png",
+          "/realisations/millennia/millennia-06.png",
+          "/realisations/millennia/millennia-07.png",
+          "/realisations/millennia/millennia-08.png",
+          "/realisations/millennia/millennia-09.png",
+          "/realisations/millennia/millennia-10.png",
+          "/realisations/millennia/millennia-11.png",
+          "/realisations/millennia/millennia-12.png",
+          "/realisations/millennia/millennia-13.png",
+          "/realisations/millennia/millennia-14.png",
+          "/realisations/millennia/millennia-15.png",
+          "/realisations/millennia/millennia-16.png",
+          "/realisations/millennia/millennia-17.png",
+          "/realisations/millennia/millennia-18.png",
+          "/realisations/millennia/millennia-19.png"
+        ],
+        "videos": [],
+        "featured": true,
+        "tags": [
+          "socialMedia",
+          "branding",
+          "visualCreation",
+          "multilingual"
+        ]
+      },
+      "testimonials": [
+        {
+          "quote": "Notre présence sur les réseaux est devenue professionnelle et constante. Les visuels reflètent enfin l'image de notre centre.",
+          "author": "Direction",
+          "role": "Millennia Group Privé, Marrakech"
+        }
+      ]
+    }
+  }
+}

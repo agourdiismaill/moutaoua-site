@@ -1,0 +1,88 @@
+{
+  "services": {
+    "eyebrow": "Our 360° Expertise",
+    "title": "A complete acquisition ecosystem",
+    "description": "From the first ad impression to final enrollment, we cover every step of converting your future students."
+  },
+  "stats": {
+    "eyebrow": "Performance",
+    "title": "Concrete Results",
+    "description": "The measurable impact of our strategies on training centers.",
+    "disclaimer": "Cumulative figures across our client portfolio — results vary by client."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "description": "Everything you need to know before starting your collaboration with Moutaoua."
+  },
+  "cta": {
+    "badge": "Free audit & no commitment",
+    "title": "Ready to fill your training sessions?",
+    "description": "Get a complete diagnosis of your acquisition and a concrete action plan, whether or not you decide to work with us.",
+    "ctaPrimary": "Request my free audit",
+    "ctaSecondary": "See our case studies"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What our partners say",
+    "description": "Feedback from directors and marketing leads at training centers in Morocco. Identities abbreviated for confidentiality."
+  },
+  "clientLogos": {
+    "heading": "They trust us",
+    "disclaimer": "Sectors and cities represented — client names anonymized.",
+    "names": [
+      "Center · Casablanca",
+      "School · Rabat",
+      "Training org · Marrakech",
+      "Academy · Tangier",
+      "Group · Fes",
+      "Campus · Agadir",
+      "Institute · Meknes",
+      "School · Oujda",
+      "Center · Kenitra"
+    ]
+  },
+  "results": {
+    "eyebrow": "Advertising Results",
+    "title": "Proof in numbers",
+    "description": "Sample dashboards and typical performance across Meta Ads, Google Ads, Lead Forms, CRM and WhatsApp.",
+    "disclaimer": "Screenshots and metrics are illustrative — real data available during an audit or sales conversation.",
+    "screenshotCount": "{count} screenshots",
+    "viewGallery": "View gallery",
+    "viewImageAria": "View {alt}"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Plans tailored to your growth",
+    "description": "Three clear packages with no hidden fees. Ad budget is paid separately by the client.",
+    "packLabel": "Pack",
+    "adBudgetNote": "Ad budget paid separately by the client.",
+    "adPlatformsHeading": "We manage your ad campaigns on:"
+  },
+  "videoCarousel": {
+    "eyebrow": "Videos",
+    "title": "Content & Reels",
+    "description": "Sample video formats produced for our training center clients.",
+    "playAria": "Play {title}",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "videoShowcase": {
+    "eyebrow": "Video library",
+    "title": "Our videos & testimonials",
+    "description": "Filmed case studies, client feedback and masterclasses.",
+    "cta": "View all videos"
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Social media creations",
+    "description": "A selection of visuals designed for training centers — identity, offers and key moments.",
+    "cta": "View the full case study"
+  },
+  "caseStudyCard": {
+    "leads": "Leads",
+    "cpl": "CPL",
+    "roas": "ROAS"
+  }
+}

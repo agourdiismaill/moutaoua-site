@@ -1,0 +1,70 @@
+{
+  "items": {
+    "meta-ads": {
+      "title": "Facebook & Meta Ads",
+      "description": "Ciblage ultra-précis pour atteindre les prospects les plus qualifiés pour vos formations.",
+      "longDescription": "Nous construisons des audiences sur mesure, des créatives qui convertissent et des tunnels d'acquisition optimisés en continu sur Meta (Facebook et Instagram).",
+      "features": [
+        "Audiences lookalike et retargeting",
+        "Créatives vidéo et statiques A/B testées",
+        "Optimisation quotidienne du budget",
+        "Tracking conversions avancé (CAPI)"
+      ]
+    },
+    "google-ads": {
+      "title": "Google Ads",
+      "description": "Capturez l'intention de recherche au moment exact où vos futurs élèves cherchent une formation.",
+      "longDescription": "Search, Performance Max et YouTube Ads pilotés par la data pour capter une demande chaude et maximiser votre retour sur investissement publicitaire.",
+      "features": [
+        "Campagnes Search et Performance Max",
+        "Recherche de mots-clés à forte intention",
+        "Extensions et landing pages optimisées",
+        "Suivi des appels et formulaires"
+      ]
+    },
+    "marketing-automation": {
+      "title": "Marketing Automation",
+      "description": "Séquences d'e-mails automatisées pour nourrir vos leads jusqu'à l'inscription finale.",
+      "longDescription": "Scénarios de nurturing multicanal (e-mail, SMS, WhatsApp) connectés à votre CRM pour transformer un lead froid en inscription.",
+      "features": [
+        "Scénarios de nurturing multicanal",
+        "Scoring et segmentation des leads",
+        "Intégration CRM native",
+        "Relances automatiques intelligentes"
+      ]
+    },
+    "landing-pages": {
+      "title": "Landing Pages & CRO",
+      "description": "Des pages d'atterrissage rapides et optimisées pour convertir le trafic en demandes d'information.",
+      "longDescription": "Conception, copywriting et optimisation du taux de conversion (CRO) avec tests A/B continus pour maximiser chaque dirham investi.",
+      "features": [
+        "Design haute conversion mobile-first",
+        "Tests A/B et heatmaps",
+        "Vitesse et SEO technique",
+        "Formulaires et prise de rendez-vous intégrés"
+      ]
+    },
+    "social-media": {
+      "title": "Gestion des réseaux sociaux",
+      "description": "Une présence sociale cohérente qui renforce votre marque et alimente votre pipeline.",
+      "longDescription": "Ligne éditoriale, production de contenu et community management pour bâtir une marque éducative forte et désirable.",
+      "features": [
+        "Stratégie et calendrier éditorial",
+        "Production de Reels et carrousels",
+        "Community management",
+        "Reporting d'engagement mensuel"
+      ]
+    },
+    "crm-data": {
+      "title": "CRM & Pilotage Data",
+      "description": "Centralisez vos leads et pilotez votre acquisition avec des tableaux de bord clairs.",
+      "longDescription": "Mise en place et optimisation de votre CRM, dashboards temps réel et attribution pour des décisions guidées par la donnée.",
+      "features": [
+        "Implémentation et intégration CRM",
+        "Dashboards temps réel",
+        "Attribution multi-touch",
+        "Rapports automatisés"
+      ]
+    }
+  }
+}

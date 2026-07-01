@@ -1,0 +1,160 @@
+{
+  "privacy": {
+    "metaTitle": "Politique de confidentialité",
+    "metaDescription": "Comment Moutaoua collecte, utilise et protège vos données personnelles lors de votre visite ou de votre demande de contact.",
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 1er juillet 2026",
+    "sections": [
+      {
+        "title": "Responsable du traitement",
+        "paragraphs": [
+          "Moutaoua, situé au Lotissement Attaoufik, Millenium, Zénith, Casablanca 20270 (Maroc), est responsable du traitement des données collectées via ce site et le formulaire de contact.",
+          "Contact : contact@mohtaoua.ma — Tél. +212 642-830060",
+          "Identifiants légaux (ICE, RC, forme juridique) : disponibles sur demande à contact@mohtaoua.ma."
+        ]
+      },
+      {
+        "title": "Données collectées",
+        "paragraphs": [
+          "Via le formulaire de contact : nom, email, téléphone, organisme, budget média et message.",
+          "Données techniques : adresse IP, type de navigateur, pages consultées et horodatages, enregistrés par notre hébergeur à des fins de sécurité et de bon fonctionnement.",
+          "Préférence cookies : votre choix (accepter / refuser) est mémorisé localement dans votre navigateur (localStorage)."
+        ]
+      },
+      {
+        "title": "Finalités",
+        "paragraphs": [
+          "Répondre à vos demandes d'audit, de devis ou d'information.",
+          "Assurer la sécurité et la maintenance du site.",
+          "Respecter nos obligations légales et comptables."
+        ]
+      },
+      {
+        "title": "Base légale et conservation",
+        "paragraphs": [
+          "Le traitement repose sur votre consentement (formulaire) et sur l'intérêt légitime de Moutaoua (sécurité du site).",
+          "Données de contact : conservées jusqu'à 3 ans après le dernier échange commercial, sauf obligation légale contraire.",
+          "Journaux techniques : conservés jusqu'à 12 mois."
+        ]
+      },
+      {
+        "title": "Sous-traitants",
+        "paragraphs": [
+          "Vercel Inc. (États-Unis) — hébergement et diffusion du site.",
+          "Resend Inc. (États-Unis) — envoi des emails issus du formulaire de contact.",
+          "Ces prestataires traitent les données uniquement pour notre compte et dans le cadre de mesures contractuelles de protection."
+        ]
+      },
+      {
+        "title": "Transferts hors Maroc",
+        "paragraphs": [
+          "L'hébergement et l'envoi d'emails peuvent impliquer un transfert de données vers des serveurs situés hors du Maroc (notamment aux États-Unis). Nous veillons à ce que des garanties appropriées soient en place."
+        ]
+      },
+      {
+        "title": "Sécurité",
+        "paragraphs": [
+          "Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables pour protéger vos informations (HTTPS, accès restreint, prestataires certifiés)."
+        ]
+      },
+      {
+        "title": "Vos droits",
+        "paragraphs": [
+          "Conformément à la loi marocaine n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel, vous pouvez demander l'accès, la rectification ou la suppression de vos données.",
+          "Pour exercer vos droits : contact@mohtaoua.ma. Vous pouvez également introduire une réclamation auprès de la CNDP (Commission Nationale de contrôle de la protection des Données à caractère Personnel)."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Conditions générales",
+    "metaDescription": "Conditions d'utilisation du site Moutaoua et cadre général de nos prestations marketing pour centres de formation.",
+    "title": "Conditions générales d'utilisation",
+    "lastUpdated": "Dernière mise à jour : 1er juillet 2026",
+    "sections": [
+      {
+        "title": "Objet",
+        "paragraphs": [
+          "Le site présente les services marketing de Moutaoua à destination des centres de formation et organismes de formation au Maroc. L'utilisation du site implique l'acceptation des présentes conditions."
+        ]
+      },
+      {
+        "title": "Services et devis",
+        "paragraphs": [
+          "Les prestations (publicité payante, création de contenu, automation, landing pages, etc.) font l'objet d'un devis ou contrat écrit distinct.",
+          "Les tarifs affichés sur le site sont indicatifs et peuvent évoluer. Le budget média publicitaire est généralement facturé séparément par les plateformes (Meta, Google, TikTok)."
+        ]
+      },
+      {
+        "title": "Résultats et contenus publiés",
+        "paragraphs": [
+          "Les chiffres, captures d'écran, études de cas et témoignages publiés sont présentés à titre illustratif ou sur la base de missions réelles anonymisées.",
+          "Les performances (leads, CPL, ROAS) varient selon le secteur, le budget, la saisonnalité et la qualité de l'offre de formation. Aucun résultat n'est garanti sans contrat spécifique.",
+          "Les noms de clients peuvent être anonymisés ou remplacés par des libellés génériques lorsque l'autorisation de citation n'est pas publique."
+        ]
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "paragraphs": [
+          "Textes, visuels, logos et contenus du site sont la propriété de Moutaoua ou de ses clients et sont protégés.",
+          "Toute reproduction, représentation ou extraction sans autorisation écrite est interdite."
+        ]
+      },
+      {
+        "title": "Responsabilité",
+        "paragraphs": [
+          "Moutaoua s'efforce d'assurer l'exactitude des informations publiées mais ne garantit pas l'absence d'erreurs ou d'interruptions.",
+          "Le site peut être modifié ou interrompu pour maintenance sans préavis."
+        ]
+      },
+      {
+        "title": "Liens externes",
+        "paragraphs": [
+          "Le site peut contenir des liens vers des sites tiers (réseaux sociaux, YouTube). Moutaoua n'est pas responsable de leur contenu ni de leurs pratiques de confidentialité."
+        ]
+      },
+      {
+        "title": "Droit applicable",
+        "paragraphs": [
+          "Les présentes conditions sont régies par le droit marocain. Tout litige relève des tribunaux compétents de Casablanca."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "metaTitle": "Politique cookies",
+    "metaDescription": "Informations sur l'utilisation des cookies et traceurs sur le site Moutaoua.",
+    "title": "Politique cookies",
+    "lastUpdated": "Dernière mise à jour : 1er juillet 2026",
+    "sections": [
+      {
+        "title": "Qu'est-ce qu'un cookie ?",
+        "paragraphs": [
+          "Un cookie est un petit fichier déposé sur votre appareil lors de la visite d'un site. Il permet de mémoriser des préférences ou, le cas échéant, de mesurer l'audience."
+        ]
+      },
+      {
+        "title": "Cookies et stockage utilisés sur ce site",
+        "paragraphs": [
+          "Cookies / stockage essentiels : mémorisation de la langue, du thème d'affichage (clair/sombre) et de votre choix concernant la bannière cookies (localStorage).",
+          "Mesure d'audience : aucun cookie analytics n'est actuellement déposé sans votre consentement explicite. Si un outil de statistiques est activé ultérieurement, cette page sera mise à jour.",
+          "Cookies tiers : les vidéos YouTube intégrées peuvent déposer des cookies lorsque vous lancez la lecture. Les liens vers les réseaux sociaux ouvrent des sites tiers soumis à leurs propres politiques."
+        ]
+      },
+      {
+        "title": "Gestion de vos préférences",
+        "paragraphs": [
+          "Via la bannière : vous pouvez accepter ou refuser les cookies non essentiels.",
+          "Via votre navigateur : vous pouvez supprimer les cookies et le localStorage à tout moment. Certaines fonctionnalités (langue, thème) pourront être réinitialisées."
+        ]
+      },
+      {
+        "title": "Contact",
+        "paragraphs": [
+          "Pour toute question relative aux cookies : contact@mohtaoua.ma"
+        ]
+      }
+    ]
+  },
+  "contactLink": "Nous contacter"
+}

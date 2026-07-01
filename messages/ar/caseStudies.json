@@ -1,0 +1,217 @@
+{
+  "tags": {
+    "metaAds": "Meta Ads",
+    "cro": "CRO",
+    "automation": "أتمتة",
+    "googleAds": "Google Ads",
+    "performanceMax": "Performance Max",
+    "crm": "CRM",
+    "whatsApp": "WhatsApp",
+    "socialMedia": "السوشيال ميديا",
+    "branding": "الهوية البصرية",
+    "visualCreation": "إبداع بصري",
+    "multilingual": "متعدد اللغات"
+  },
+  "items": {
+    "skola-formation": {
+      "title": "1 200 lead/شهر لمؤسسة تكوين",
+      "client": "مركز تكوين مهني (مجهول)",
+      "industry": "تكوين مهني",
+      "description": "إعادة هيكلة كاملة للاستقطاب المدفوع لـ Skola — من حجم leads غير منتظم إلى آلة قابلة للتنبؤ تولّد أكثر من 1 200 طلب مؤهل شهرياً.",
+      "objectives": [
+        "توليد حجم leads متوقع وقابل للتوسع",
+        "خفض تكلفة الـ lead دون 55 درهم",
+        "تحسين جودة الـ leads المُمرّرة للمستشارين"
+      ],
+      "strategy": [
+        "إعادة هيكلة كاملة لحساب Meta Ads بحملات ABO",
+        "إبداعات فيديو أصلية موجهة بالفوائد",
+        "تتبع تحويلات من جهة الخادم (CAPI)",
+        "صفحات هبوط مخصصة لكل تكوين مع اختبارات A/B",
+        "رعاية e-mail + WhatsApp للـ leads الدافئة"
+      ],
+      "budget": "88 000 درهم / شهر",
+      "cpl": "53 درهم",
+      "roas": "5,2x",
+      "timeline": "6 أشهر",
+      "testimonials": [
+        {
+          "quote": "في 6 أشهر، ضاعف EduGrowth تسجيلاتنا 4 مرات. فريق مدفوع بالبيانات وشفاف.",
+          "author": "Camille Robert",
+          "role": "مديرة، Skola Formation"
+        }
+      ],
+      "structural": {
+        "leads": 1240,
+        "cover": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [
+          "ysz5S6PUM-U"
+        ],
+        "featured": true,
+        "tags": [
+          "metaAds",
+          "cro",
+          "automation"
+        ]
+      }
+    },
+    "campusup-search": {
+      "title": "ROAS 6,1x عبر Google Ads لـ CampusUp",
+      "client": "مدرسة عليا (مجهولة)",
+      "industry": "تعلم إلكتروني",
+      "description": "التقاط الطلب عالي النية على Google لـ CampusUp بهيكلة Search + Performance Max التي رفعت العائد على الاستثمار.",
+      "objectives": [
+        "التقاط طلب البحث على التكوينات المعتمدة",
+        "تعظيم ROAS بميزانية محدودة",
+        "خفض CPA مع زيادة الحجم"
+      ],
+      "strategy": [
+        "تدقيق وبحث كلمات مفتاحية عالية النية",
+        "هيكلة Search حسب موضوع التكوين",
+        "حملات Performance Max بأصول premium",
+        "تحسين مستمر للمزايدات وQuality Score",
+        "ربط CRM للتحسين على leads مؤهلين"
+      ],
+      "budget": "132 000 درهم / شهر",
+      "cpl": "68 درهم",
+      "roas": "6,1x",
+      "timeline": "5 أشهر",
+      "testimonials": [
+        {
+          "quote": "CPL انقسم إلى النصف ومسار أصبح واضحاً أخيراً. فريق سريع الاستجابة وشفاف.",
+          "author": "Mehdi Lefort",
+          "role": "مسؤول الاستقطاب، CampusUp"
+        }
+      ],
+      "structural": {
+        "leads": 980,
+        "cover": "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [
+          "aqz-KE-bpKQ"
+        ],
+        "featured": true,
+        "tags": [
+          "googleAds",
+          "performanceMax"
+        ]
+      }
+    },
+    "edunext-automation": {
+      "title": "مسار تسجيل آلي لـ EduNext",
+      "client": "مؤسسة e-learning (مجهولة)",
+      "industry": "تكوين عن بُعد",
+      "description": "محرك رعاية متعدد القنوات يحوّل leads خاملة إلى تسجيلات دون تدخل بشري في المراحل الأولى.",
+      "objectives": [
+        "إعادة تنشيط قاعدة leads باردة",
+        "أتمتة التأهيل والمتابعات",
+        "رفع معدل تحويل lead → تسجيل"
+      ],
+      "strategy": [
+        "Scoring وتقسيم في CRM",
+        "سيناريوهات e-mail + SMS + WhatsApp حسب السلوك",
+        "webinars آلية في منتصف المسار",
+        "تحسين السلاسل باختبارات A/B"
+      ],
+      "budget": "55 000 درهم / شهر",
+      "cpl": "65 درهم",
+      "roas": "4,7x",
+      "timeline": "4 أشهر",
+      "testimonials": [
+        {
+          "quote": "المسار الذي بنوه يعمل وحده. نملأ دوراتنا مسبقاً.",
+          "author": "Sophie Nguyen",
+          "role": "مؤسسة، EduNext"
+        }
+      ],
+      "structural": {
+        "leads": 720,
+        "cover": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [
+          "ScMzIvxBSi4"
+        ],
+        "featured": false,
+        "tags": [
+          "automation",
+          "crm",
+          "whatsApp"
+        ]
+      }
+    },
+    "millennia-group-prive": {
+      "title": "هوية سوشيال ميديا واستقطاب لـ Millennia (مراكش)",
+      "client": "مجموعة مدارس خاصة (مجهولة)",
+      "industry": "مركز تكوين لغوي",
+      "description": "قيادة كاملة للتواصل الرقمي لـ Millennia Group Privé بمراكش (لغات، معلوميات، تحضير TELC/Goethe). هوية بصرية فاخرة وحملات سوشيال متعددة اللغات (عربي، فرنسي) رفعت طلبات التسجيل.",
+      "objectives": [
+        "بناء هوية بصرية متسقة ومعروفة على الشبكات",
+        "توليد تدفق منتظم لطلبات التسجيل",
+        "تغطية العرض: ألماني، إنجليزي، فرنسي، إسباني، معلوميات",
+        "تحريك المجتمع حول المناسبات (رمضان، العيد، التوظيف، الأخبار)"
+      ],
+      "strategy": [
+        "توجيه فني وقوالب بألوان العلامة",
+        "تقويم تحريري متعدد اللغات (عربي / فرنسي) على Instagram وFacebook",
+        "مرئيات عروض (حزم لغات + معلوميات مجاني)",
+        "حملات توظيف مدربين ومنشورات العلامة",
+        "محتوى موسمي ووعي لزيادة engagement"
+      ],
+      "budget": "حسب العرض",
+      "cpl": "—",
+      "roas": "—",
+      "timeline": "مهمة مستمرة",
+      "testimonials": [
+        {
+          "quote": "حضورنا على الشبكات أصبح احترافياً ومستمراً. المرئيات تعكس أخيراً صورة مركزنا.",
+          "author": "الإدارة",
+          "role": "Millennia Group Privé، مراكش"
+        }
+      ],
+      "structural": {
+        "leads": 480,
+        "cover": "/realisations/millennia/millennia-04.png",
+        "images": [
+          "/realisations/millennia/millennia-01.png",
+          "/realisations/millennia/millennia-02.png",
+          "/realisations/millennia/millennia-03.png",
+          "/realisations/millennia/millennia-04.png",
+          "/realisations/millennia/millennia-05.png",
+          "/realisations/millennia/millennia-06.png",
+          "/realisations/millennia/millennia-07.png",
+          "/realisations/millennia/millennia-08.png",
+          "/realisations/millennia/millennia-09.png",
+          "/realisations/millennia/millennia-10.png",
+          "/realisations/millennia/millennia-11.png",
+          "/realisations/millennia/millennia-12.png",
+          "/realisations/millennia/millennia-13.png",
+          "/realisations/millennia/millennia-14.png",
+          "/realisations/millennia/millennia-15.png",
+          "/realisations/millennia/millennia-16.png",
+          "/realisations/millennia/millennia-17.png",
+          "/realisations/millennia/millennia-18.png",
+          "/realisations/millennia/millennia-19.png"
+        ],
+        "videos": [],
+        "featured": true,
+        "tags": [
+          "socialMedia",
+          "branding",
+          "visualCreation",
+          "multilingual"
+        ]
+      }
+    }
+  }
+}

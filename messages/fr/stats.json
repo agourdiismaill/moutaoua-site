@@ -1,0 +1,16 @@
+{
+  "items": {
+    "impressions": {
+      "label": "Impressions générées"
+    },
+    "leads": {
+      "label": "Leads générés"
+    },
+    "roas": {
+      "label": "ROAS moyen"
+    },
+    "campaigns": {
+      "label": "Campagnes actives"
+    }
+  }
+}

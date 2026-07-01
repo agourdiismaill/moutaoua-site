@@ -1,0 +1,164 @@
+{
+  "items": {
+    "meta-ads": {
+      "platform": "Meta Ads",
+      "title": "Meta Ads — Facebook & Instagram",
+      "description": "Large-scale acquisition campaigns with controlled cost per lead for training centers.",
+      "metrics": [
+        {
+          "label": "Leads / month"
+        },
+        {
+          "label": "Avg. CPL"
+        },
+        {
+          "label": "ROAS"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Meta Ads Manager dashboard",
+          "caption": "Ads Manager — 30-day performance"
+        },
+        {
+          "alt": "Campaign performance chart",
+          "caption": "CPL trend"
+        },
+        {
+          "alt": "Meta conversions report",
+          "caption": "Conversions by campaign"
+        }
+      ]
+    },
+    "tiktok-ads": {
+      "platform": "TikTok Ads",
+      "title": "TikTok Ads — Video Acquisition",
+      "description": "Native video creatives and precise targeting to reach a young audience at the lowest cost per lead.",
+      "metrics": [
+        {
+          "label": "Leads / month"
+        },
+        {
+          "label": "Avg. CPL"
+        },
+        {
+          "label": "ROAS"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "TikTok Ads Manager dashboard",
+          "caption": "TikTok Ads Manager — 30 days"
+        },
+        {
+          "alt": "TikTok video creative performance",
+          "caption": "Top video creatives"
+        }
+      ]
+    },
+    "google-ads": {
+      "platform": "Google Ads",
+      "title": "Google Ads — Search & PMax",
+      "description": "Capture high-intent demand with optimized Quality Score and high-performing extensions.",
+      "metrics": [
+        {
+          "label": "Conversions"
+        },
+        {
+          "label": "Avg. CPC"
+        },
+        {
+          "label": "Conv. rate"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Google Ads dashboard",
+          "caption": "Search campaigns overview"
+        },
+        {
+          "alt": "Performance Max results",
+          "caption": "Performance Max — assets"
+        }
+      ]
+    },
+    "lead-forms": {
+      "platform": "Lead Forms",
+      "title": "Lead Forms — Instant",
+      "description": "Native pre-filled forms that maximize completion rates on mobile.",
+      "metrics": [
+        {
+          "label": "Completion rate"
+        },
+        {
+          "label": "Qualified leads"
+        },
+        {
+          "label": "Cost / form"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Lead generation form",
+          "caption": "Mobile lead form"
+        },
+        {
+          "alt": "Form completion analytics",
+          "caption": "Completion funnel"
+        }
+      ]
+    },
+    "crm": {
+      "platform": "CRM",
+      "title": "CRM — Tracking & Conversion",
+      "description": "Structured pipeline, automatic scoring, and follow-ups to turn leads into enrollments.",
+      "metrics": [
+        {
+          "label": "Enrollment rate"
+        },
+        {
+          "label": "Response time"
+        },
+        {
+          "label": "Pipeline tracked"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "CRM lead pipeline",
+          "caption": "Kanban pipeline"
+        },
+        {
+          "alt": "CRM dashboard",
+          "caption": "Conversion rate by stage"
+        }
+      ]
+    },
+    "whatsapp": {
+      "platform": "WhatsApp",
+      "title": "WhatsApp — Conversation & Closing",
+      "description": "Automated and human conversations to engage prospects where they respond most.",
+      "metrics": [
+        {
+          "label": "Open rate"
+        },
+        {
+          "label": "Reply rate"
+        },
+        {
+          "label": "Closed leads"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "WhatsApp Business conversation",
+          "caption": "WhatsApp Business API"
+        },
+        {
+          "alt": "WhatsApp automation",
+          "caption": "Automated scenarios"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "items": {
+    "meta-ads": {
+      "platform": "Meta Ads",
+      "title": "Meta Ads — Facebook وInstagram",
+      "description": "حملات استقطاب واسعة النطاق مع تكلفة lead مضبوطة لمراكز التكوين.",
+      "metrics": [
+        {
+          "label": "Leads / شهر"
+        },
+        {
+          "label": "متوسط CPL"
+        },
+        {
+          "label": "ROAS"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "لوحة Meta Ads Manager",
+          "caption": "Ads Manager — أداء 30 يوماً"
+        },
+        {
+          "alt": "رسم أداء الحملات",
+          "caption": "تطور CPL"
+        },
+        {
+          "alt": "تقرير تحويلات Meta",
+          "caption": "تحويلات حسب الحملة"
+        }
+      ]
+    },
+    "tiktok-ads": {
+      "platform": "TikTok Ads",
+      "title": "TikTok Ads — استقطاب بالفيديو",
+      "description": "إبداعات فيديو أصلية واستهداف دقيق للوصول لجمهور شاب بأقل تكلفة lead.",
+      "metrics": [
+        {
+          "label": "Leads / شهر"
+        },
+        {
+          "label": "متوسط CPL"
+        },
+        {
+          "label": "ROAS"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "لوحة TikTok Ads Manager",
+          "caption": "TikTok Ads Manager — 30 يوماً"
+        },
+        {
+          "alt": "أداء إبداعات TikTok",
+          "caption": "أفضل إبداعات الفيديو"
+        }
+      ]
+    },
+    "google-ads": {
+      "platform": "Google Ads",
+      "title": "Google Ads — Search وPMax",
+      "description": "التقاط الطلب عالي النية مع Quality Score محسّن وإضافات فعّالة.",
+      "metrics": [
+        {
+          "label": "التحويلات"
+        },
+        {
+          "label": "متوسط CPC"
+        },
+        {
+          "label": "معدل التحويل"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "لوحة Google Ads",
+          "caption": "نظرة عامة على Search"
+        },
+        {
+          "alt": "أداء Performance Max",
+          "caption": "Performance Max — الأصول"
+        }
+      ]
+    },
+    "lead-forms": {
+      "platform": "Lead Forms",
+      "title": "نماذج Lead — فورية",
+      "description": "نماذج أصلية معبأة مسبقاً تعظم معدل الإكمال على الجوال.",
+      "metrics": [
+        {
+          "label": "معدل الإكمال"
+        },
+        {
+          "label": "Leads مؤهلون"
+        },
+        {
+          "label": "تكلفة / نموذج"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "نموذج توليد leads",
+          "caption": "نموذج lead على الجوال"
+        },
+        {
+          "alt": "تحليل إكمال النماذج",
+          "caption": "مسار الإكمال"
+        }
+      ]
+    },
+    "crm": {
+      "platform": "CRM",
+      "title": "CRM — متابعة وتحويل",
+      "description": "مسار منظم، scoring آلي ومتابعات لتحويل العملاء المحتملين إلى تسجيلات.",
+      "metrics": [
+        {
+          "label": "معدل التسجيل"
+        },
+        {
+          "label": "زمن الاستجابة"
+        },
+        {
+          "label": "المسار المتابَع"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "مسار CRM للـ leads",
+          "caption": "Kanban pipeline"
+        },
+        {
+          "alt": "لوحة CRM",
+          "caption": "معدل التحويل حسب المرحلة"
+        }
+      ]
+    },
+    "whatsapp": {
+      "platform": "WhatsApp",
+      "title": "WhatsApp — محادثة وإغلاق",
+      "description": "محادثات آلية وبشرية لإشراك العملاء حيث يردون بأكثر.",
+      "metrics": [
+        {
+          "label": "معدل الفتح"
+        },
+        {
+          "label": "معدل الرد"
+        },
+        {
+          "label": "Leads مغلقة"
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "محادثة WhatsApp Business",
+          "caption": "WhatsApp Business API"
+        },
+        {
+          "alt": "أتمتة WhatsApp",
+          "caption": "سيناريوهات آلية"
+        }
+      ]
+    }
+  }
+}

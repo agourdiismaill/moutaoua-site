@@ -1,0 +1,69 @@
+{
+  "services": {
+    "metaTitle": "Services Marketing Centres de Formation",
+    "metaDescription": "Meta Ads, Google Ads, marketing automation, landing pages, réseaux sociaux et CRM : notre écosystème complet d'acquisition pour les centres de formation.",
+    "eyebrow": "Nos Services",
+    "title": "Plus de visibilité. Plus d'inscriptions. <highlight>Plus de croissance.</highlight>",
+    "description": "Chaque levier est piloté par la data et orienté vers un seul objectif : remplir vos sessions de formation."
+  },
+  "results": {
+    "metaTitle": "Résultats Meta Ads & Google Ads | Moutaoua Maroc",
+    "metaDescription": "Exemples de performances publicitaires pour centres de formation : Meta Ads, Google Ads, Lead Forms, CRM et WhatsApp. Données détaillées sur demande.",
+    "eyebrow": "Résultats Publicitaires",
+    "title": "La <highlight>preuve</highlight> par les chiffres",
+    "titleHighlight": "preuve",
+    "description": "Meta Ads, Google Ads, Lead Forms, CRM et WhatsApp : explorez des captures réelles de campagnes et leurs performances, en galerie."
+  },
+  "pricing": {
+    "metaTitle": "Tarifs",
+    "metaDescription": "Pack Start, Performance et Premium : des offres claires en dirhams pour votre présence digitale, vos Reels et vos campagnes Ads (Meta, Google, TikTok).",
+    "eyebrow": "Tarifs",
+    "title": "Des offres adaptées à votre <highlight>croissance</highlight>",
+    "description": "Choisissez l'accompagnement qui correspond à vos ambitions. Sans engagement après 3 mois, sans frais cachés."
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Demandez votre audit marketing gratuit. Notre équipe vous recontacte sous 24h pour transformer votre centre de formation en machine à leads.",
+    "eyebrow": "Contact",
+    "title": "Parlons de votre <highlight>croissance</highlight>",
+    "description": "Recevez un audit gratuit et un plan d'action concret pour votre centre de formation. Réponse garantie sous 24h ouvrées.",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "hoursValue": "Lun – Ven, 9h – 18h",
+    "mapTitle": "Localisation {name}"
+  },
+  "videos": {
+    "metaTitle": "Vidéos",
+    "metaDescription": "Études de cas, témoignages clients et masterclass en vidéo : découvrez les coulisses de nos campagnes marketing pour centres de formation.",
+    "eyebrow": "Vidéothèque",
+    "title": "Nos <highlight>vidéos</highlight> & témoignages",
+    "description": "Études de cas filmées, retours clients et masterclass pour comprendre notre méthode et nos résultats."
+  },
+  "caseStudies": {
+    "metaTitle": "Études de cas | Marketing centres de formation Maroc",
+    "metaDescription": "Missions anonymisées : objectifs, stratégie Meta Ads, budget, leads, CPL et ROAS pour des centres de formation au Maroc.",
+    "eyebrow": "Études de cas",
+    "title": "Des transformations <highlight>mesurables</highlight>",
+    "description": "Plongez dans nos missions : stratégie, budget, leads générés, coût par lead et retour sur investissement publicitaire."
+  },
+  "caseStudyDetail": {
+    "backLink": "Toutes les études de cas",
+    "clientLabel": "Client :",
+    "disclaimer": "Étude de cas anonymisée à titre illustratif. Les visuels sont représentatifs ; les performances varient selon chaque contexte.",
+    "budget": "Budget",
+    "leads": "Leads générés",
+    "cpl": "CPL",
+    "roas": "ROAS",
+    "timeline": "Durée",
+    "objectives": "Objectifs",
+    "strategy": "Stratégie",
+    "gallery": "Galerie",
+    "videos": "Vidéos",
+    "related": "Autres études de cas",
+    "galleryAlt": "{title} — visuel {n}",
+    "videoTitle": "{client} — vidéo {n}",
+    "videoCategory": "Étude de cas"
+  }
+}
