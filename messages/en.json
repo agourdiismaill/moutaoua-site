@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Mohtaoua | Marketing Agency for Training Centers in Morocco",
+    "title": "Marketing Agency for Training Centers in Morocco",
     "description": "Mohtaoua turns your training center into a lead generation machine in Morocco: Meta Ads, Google Ads, TikTok Ads, content creation and marketing automation.",
     "tagline": "Premium Marketing Agency for Training Centers",
     "keywords": [
@@ -33,7 +33,11 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy",
     "terms": "Terms",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "resources": "Resources",
+    "guideMetaAds": "Meta Ads Guide",
+    "guideGoogleAds": "Google Ads Guide",
+    "compareMetaGoogle": "Meta vs Google Ads"
   },
   "hero": {
     "badge": "Premium Marketing Agency for Training Centers",

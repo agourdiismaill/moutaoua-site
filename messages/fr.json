@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Mohtaoua | Agence Marketing Centres de Formation au Maroc",
+    "title": "Agence Marketing Centres de Formation au Maroc",
     "description": "Mohtaoua transforme votre centre de formation en machine à générer des leads au Maroc : Meta Ads, Google Ads, TikTok Ads, création de contenu et marketing automation.",
     "tagline": "Agence Marketing Premium pour Centres de Formation",
     "keywords": [
@@ -33,7 +33,11 @@
     "rights": "Tous droits réservés.",
     "privacy": "Confidentialité",
     "terms": "Conditions",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "resources": "Ressources",
+    "guideMetaAds": "Guide Meta Ads",
+    "guideGoogleAds": "Guide Google Ads",
+    "compareMetaGoogle": "Meta vs Google Ads"
   },
   "hero": {
     "badge": "Agence Marketing Premium pour Centres de Formation",

@@ -1,0 +1,48 @@
+# Mohtaoua
+
+> Agence marketing digital spécialisée dans l'acquisition de leads pour centres de formation au Maroc.
+> Services : Meta Ads, Google Ads, landing pages, marketing automation, CRM, réseaux sociaux.
+
+Site officiel : https://mohtaoua.ma
+Langues : français (fr), anglais (en), arabe (ar)
+Contact : contact@mohtaoua.ma | +212 642-830060
+Localisation : Casablanca, Maroc
+
+## Pages principales
+
+- Accueil : https://mohtaoua.ma/fr
+- Services : https://mohtaoua.ma/fr/services
+- Tarifs : https://mohtaoua.ma/fr/pricing
+- Résultats : https://mohtaoua.ma/fr/results
+- Études de cas : https://mohtaoua.ma/fr/case-studies
+- Blog : https://mohtaoua.ma/fr/blog
+- Contact / audit gratuit : https://mohtaoua.ma/fr/contact
+
+## Services
+
+- Meta Ads : https://mohtaoua.ma/fr/services/meta-ads
+- Google Ads : https://mohtaoua.ma/fr/services/google-ads
+- Marketing Automation : https://mohtaoua.ma/fr/services/marketing-automation
+- Landing Pages & CRO : https://mohtaoua.ma/fr/services/landing-pages
+- Réseaux sociaux : https://mohtaoua.ma/fr/services/social-media
+- CRM & Data : https://mohtaoua.ma/fr/services/crm-data
+
+## Guides
+
+- Meta Ads pour centres de formation : https://mohtaoua.ma/fr/guides/meta-ads-centre-formation
+- Google Ads pour centres de formation : https://mohtaoua.ma/fr/guides/google-ads-centre-formation
+
+## Comparatif
+
+- Meta Ads vs Google Ads : https://mohtaoua.ma/fr/compare/meta-ads-vs-google-ads
+
+## Articles récents (blog)
+
+- Générer des leads formation au Maroc : https://mohtaoua.ma/fr/blog/generer-leads-centre-formation-maroc
+- Meta Ads vs Google Ads : https://mohtaoua.ma/fr/blog/meta-ads-vs-google-ads-formation
+- Checklist landing page formation : https://mohtaoua.ma/fr/blog/checklist-landing-page-formation
+- WhatsApp : convertir les leads en inscriptions : https://mohtaoua.ma/fr/blog/whatsapp-convertir-leads-formation-maroc
+
+## Sitemap
+
+https://mohtaoua.ma/sitemap.xml
