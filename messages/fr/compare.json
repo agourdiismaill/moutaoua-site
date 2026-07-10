@@ -1,0 +1,23 @@
+{
+  "metaTitle": "Comparatifs Marketing Formation | Mohtaoua",
+  "metaDescription": "Comparez Meta Ads, Google Ads et les stratégies d'acquisition pour centres de formation.",
+  "items": {
+    "meta-ads-vs-google-ads": {
+      "title": "Meta Ads vs Google Ads pour centres de formation",
+      "description": "Comparaison détaillée : coût, intention, délai de résultats et cas d'usage.",
+      "rows": [
+        { "criteria": "Type de demande", "meta": "Demande créée (interruption)", "google": "Demande existante (recherche)" },
+        { "criteria": "Délai premiers leads", "meta": "7-14 jours", "google": "3-10 jours" },
+        { "criteria": "CPL moyen formation", "meta": "Souvent plus bas en volume", "google": "Souvent plus qualifié" },
+        { "criteria": "Format créatif", "meta": "Vidéo, image, carrousel", "google": "Texte, extensions" },
+        { "criteria": "Meilleur pour", "meta": "Lancement, notoriété, promo", "google": "Formations recherchées" },
+        { "criteria": "Budget minimum conseillé", "meta": "8 000 MAD/mois", "google": "6 000 MAD/mois" }
+      ],
+      "verdict": "Combinez les deux : Meta pour le volume et la notoriété, Google pour la conversion à forte intention.",
+      "faqs": [
+        { "question": "Dois-je choisir un seul canal ?", "answer": "Non, la synergie Meta + Google est la stratégie la plus performante pour la plupart des centres." },
+        { "question": "Lequel prioriser avec un petit budget ?", "answer": "Google si votre formation est recherchée ; Meta si vous devez créer la demande." }
+      ]
+    }
+  }
+}

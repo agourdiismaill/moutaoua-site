@@ -4,8 +4,10 @@ import * as React from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
-
-const CONSENT_KEY = "mohtaoua-cookie-consent";
+import {
+  COOKIE_CONSENT_KEY,
+  notifyConsentUpdated,
+} from "@/lib/cookie-consent";
 
 export function CookieBanner() {
   const t = useTranslations("shared");
@@ -13,18 +15,20 @@ export function CookieBanner() {
 
   React.useEffect(() => {
     if (typeof window === "undefined") return;
-    if (!localStorage.getItem(CONSENT_KEY)) {
+    if (!localStorage.getItem(COOKIE_CONSENT_KEY)) {
       setVisible(true);
     }
   }, []);
 
   function accept() {
-    localStorage.setItem(CONSENT_KEY, "accepted");
+    localStorage.setItem(COOKIE_CONSENT_KEY, "accepted");
+    notifyConsentUpdated();
     setVisible(false);
   }
 
   function reject() {
-    localStorage.setItem(CONSENT_KEY, "rejected");
+    localStorage.setItem(COOKIE_CONSENT_KEY, "rejected");
+    notifyConsentUpdated();
     setVisible(false);
   }
 

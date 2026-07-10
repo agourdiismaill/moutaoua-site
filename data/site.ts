@@ -29,6 +29,7 @@ export const mainNav = [
   { key: "results", href: "/results" },
   { key: "caseStudies", href: "/case-studies" },
   { key: "videos", href: "/videos" },
+  { key: "blog", href: "/blog" },
   { key: "pricing", href: "/pricing" },
   { key: "contact", href: "/contact" },
 ] as const;

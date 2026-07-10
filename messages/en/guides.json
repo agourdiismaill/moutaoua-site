@@ -1,0 +1,52 @@
+{
+  "metaTitle": "Training Marketing Guides | Mohtaoua",
+  "metaDescription": "Complete Meta Ads and Google Ads guides for training centers in Morocco.",
+  "eyebrow": "Guides",
+  "title": "<highlight>Practical</highlight> guides",
+  "description": "Detailed guides to master digital acquisition for your training center.",
+  "readGuide": "Read guide",
+  "items": {
+    "meta-ads-centre-formation": {
+      "title": "Complete Meta Ads guide for training centers",
+      "description": "From strategy to scaling: audiences, creatives, budget, and optimization for the training sector.",
+      "steps": [
+        "Define the offer and learner persona",
+        "Structure the ad account by training program",
+        "Create cold and warm audiences",
+        "Produce video and static creatives",
+        "Install conversion tracking (Pixel + CAPI)",
+        "Launch, analyze, optimize every week"
+      ],
+      "mistakes": [
+        "Targeting too broadly without exclusions",
+        "Sending traffic to the homepage",
+        "Stopping campaigns before 14 days of learning"
+      ],
+      "faqs": [
+        { "question": "What Meta budget to start with?", "answer": "8,000 MAD/month minimum to test one offer in one geographic area." },
+        { "question": "How many creatives to test?", "answer": "At least 3-5 variants per offer in continuous A/B testing." }
+      ]
+    },
+    "google-ads-centre-formation": {
+      "title": "Google Ads guide for training centers",
+      "description": "Search, Performance Max, and landing pages to capture high-intent searches.",
+      "steps": [
+        "Commercial-intent keyword research",
+        "Create a Search campaign per training program",
+        "Write ads with extensions",
+        "Deploy dedicated landing pages",
+        "Configure conversion tracking",
+        "Optimize bids and negative keywords"
+      ],
+      "mistakes": [
+        "Keywords too generic (\"training\" alone)",
+        "No mobile-optimized page",
+        "Ignoring actual search terms"
+      ],
+      "faqs": [
+        { "question": "Search or PMax first?", "answer": "Search for control, PMax to scale once conversions are tracked." },
+        { "question": "What Quality Score to aim for?", "answer": "7+ on your main keywords through ad-page relevance." }
+      ]
+    }
+  }
+}

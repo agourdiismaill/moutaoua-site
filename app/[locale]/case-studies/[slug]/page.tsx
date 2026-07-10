@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -20,9 +21,13 @@ import { VideoGrid } from "@/components/sections/video-grid";
 import { CtaSection } from "@/components/sections/cta-section";
 import { Reveal } from "@/components/shared/reveal";
 import { JsonLd } from "@/components/shared/json-ld";
+import { Breadcrumb } from "@/components/seo/breadcrumb";
+import { InternalLinkingSections } from "@/components/seo/internal-linking/internal-linking-sections";
+import { buildArticleSchema } from "@/lib/seo/schema";
+import { buildContentBreadcrumb } from "@/lib/seo/breadcrumbs";
 import { getCaseStudySlugs } from "@/data/case-studies";
 import { CASE_STUDY_PUBLISHED } from "@/data/meta";
-import { getLocalizedCaseStudies, getLocalizedCaseStudy } from "@/lib/i18n-content";
+import { getLocalizedCaseStudy } from "@/lib/i18n-content";
 import { buildLocalizedAlternates, buildPageOpenGraph, buildPageUrl } from "@/lib/i18n-metadata";
 import { withOgImage } from "@/lib/metadata";
 import { formatNumber } from "@/lib/utils";
@@ -66,11 +71,21 @@ export default async function CaseStudyPage({
 
   const t = await getTranslations("caseStudies");
   const tp = await getTranslations("pages.caseStudyDetail");
+  const tServicePages = await getTranslations("servicePages");
+  const tNav = await getTranslations("nav");
+  const ti = await getTranslations("internalLinking");
   const study = getLocalizedCaseStudy(t, slug);
   if (!study) notFound();
 
-  const allStudies = getLocalizedCaseStudies(t);
-  const related = allStudies.filter((c) => c.slug !== study.slug).slice(0, 2);
+  const breadcrumb = buildContentBreadcrumb("case-study", {
+    home: tServicePages("labels.home"),
+    services: "",
+    blog: "",
+    guides: ti("breadcrumb.guides"),
+    caseStudies: tNav("caseStudies"),
+    compare: ti("breadcrumb.compare"),
+    current: study.title,
+  });
 
   const galleryImages = study.images.map((src, i) => ({
     src,
@@ -102,23 +117,21 @@ export default async function CaseStudyPage({
   return (
     <>
       <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "Article",
+        data={buildArticleSchema({
           headline: study.title,
           description: study.description,
-          image: study.cover,
           url: buildPageUrl(locale, path),
+          image: study.cover,
           datePublished: published,
           dateModified: published,
-          inLanguage: hreflangByLocale[locale as Locale],
-          author: { "@type": "Organization", name: siteConfig.name },
-          publisher: { "@type": "Organization", name: siteConfig.name },
-        }}
+          locale: hreflangByLocale[locale as Locale],
+          authorName: siteConfig.name,
+        })}
       />
 
       <section className="relative pt-32 md:pt-40">
         <div className="container-max">
+          <Breadcrumb className="mb-6" items={breadcrumb} />
           <Button asChild variant="ghost" size="sm" className="mb-6 -ms-2">
             <Link href="/case-studies">
               <ArrowLeft className="size-4" />
@@ -262,40 +275,9 @@ export default async function CaseStudyPage({
         </section>
       )}
 
-      {related.length > 0 && (
-        <section className="pb-16">
-          <div className="container-max">
-            <h2 className="mb-8 text-2xl font-semibold tracking-tight">{tp("related")}</h2>
-            <div className="grid gap-6 md:grid-cols-2">
-              {related.map((r) => (
-                <Link
-                  key={r.slug}
-                  href={`/case-studies/${r.slug}`}
-                  className="group flex items-center gap-5 rounded-2xl border border-border bg-card p-4 shadow-soft transition-all hover:-translate-y-1 hover:shadow-soft-lg"
-                >
-                  <div className="relative size-24 shrink-0 overflow-hidden rounded-xl">
-                    <Image
-                      src={r.cover}
-                      alt={r.title}
-                      fill
-                      sizes="96px"
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                  </div>
-                  <div>
-                    <p className="text-xs font-medium uppercase tracking-wide text-primary">
-                      {r.client}
-                    </p>
-                    <p className="mt-1 font-semibold leading-snug tracking-tight">
-                      {r.title}
-                    </p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      <Suspense fallback={null}>
+        <InternalLinkingSections type="case-study" slug={slug} locale={locale} />
+      </Suspense>
 
       <CtaSection />
     </>

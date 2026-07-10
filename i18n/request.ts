@@ -17,6 +17,13 @@ const modules = [
   "showcase",
   "portfolio",
   "legal",
+  "servicePages",
+  "seo",
+  "blog",
+  "pageSeo",
+  "guides",
+  "compare",
+  "internalLinking",
 ] as const;
 
 async function loadMessages(locale: string) {

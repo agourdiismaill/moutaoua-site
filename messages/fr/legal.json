@@ -137,7 +137,7 @@
         "title": "Cookies et stockage utilisés sur ce site",
         "paragraphs": [
           "Cookies / stockage essentiels : mémorisation de la langue, du thème d'affichage (clair/sombre) et de votre choix concernant la bannière cookies (localStorage).",
-          "Mesure d'audience : aucun cookie analytics n'est actuellement déposé sans votre consentement explicite. Si un outil de statistiques est activé ultérieurement, cette page sera mise à jour.",
+          "Mesure d'audience : Google Tag Manager (Google Ireland Limited) est activé uniquement si vous acceptez les cookies via la bannière. Il peut charger Google Analytics (G-F58Z3G6GFF) pour mesurer le trafic et l'utilisation du site.",
           "Cookies tiers : les vidéos YouTube intégrées peuvent déposer des cookies lorsque vous lancez la lecture. Les liens vers les réseaux sociaux ouvrent des sites tiers soumis à leurs propres politiques."
         ]
       },

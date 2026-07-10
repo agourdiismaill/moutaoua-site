@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "what": "This page presents Mohtaoua's pricing plans to support training centers.",
+    "who": "Center directors comparing Start, Performance, and Premium packs.",
+    "benefits": ["Transparent pricing in dirhams", "Packs tailored to each growth stage", "No commitment after 3 months"],
+    "topics": ["Start Pack", "Performance Pack", "Premium Pack", "Media budget"],
+    "takeaways": ["Media budget is billed separately by the platforms", "The free audit helps calibrate the right pack"]
+  },
+  "contact": {
+    "what": "Contact page to request a free marketing audit for your training center.",
+    "who": "Decision-makers ready to discuss acquisition, budget, and enrollment goals.",
+    "benefits": ["Response within 24 business hours", "Free audit with no commitment", "Team based in Casablanca"],
+    "topics": ["Free audit", "Contact form", "WhatsApp", "Location"],
+    "takeaways": ["Prepare your goals and estimated media budget", "We cover all of Morocco"]
+  },
+  "results": {
+    "what": "Gallery of real advertising performance for training centers.",
+    "who": "Marketing managers who want proof before committing.",
+    "benefits": ["Meta, Google, CRM screenshots", "CPL and ROAS metrics", "Transparency on results"],
+    "topics": ["Meta Ads", "Google Ads", "Lead Forms", "WhatsApp"],
+    "takeaways": ["Performance varies by offer and market", "Detailed data available on request"]
+  },
+  "videos": {
+    "what": "Video library of testimonials, filmed case studies, and training marketing masterclasses.",
+    "who": "Prospects who prefer video format to evaluate the agency.",
+    "benefits": ["Client testimonials", "Campaign behind the scenes", "Actionable advice"],
+    "topics": ["Video case studies", "Testimonials", "Masterclass"],
+    "takeaways": ["Video format builds trust", "Content updated regularly"]
+  },
+  "caseStudies": {
+    "what": "Detailed case studies: goals, strategy, budget, leads, and ROAS for training centers.",
+    "who": "Decision-makers who want a concrete example before starting a collaboration.",
+    "benefits": ["Transparent methodology", "Key figures per project", "Applicable lessons"],
+    "topics": ["Meta Ads", "Google Ads", "Automation", "ROAS"],
+    "takeaways": ["Anonymized cases for illustration", "Each center has a unique context"]
+  },
+  "blog": {
+    "what": "Expert blog on digital acquisition for training centers in Morocco.",
+    "who": "Marketers and education sector leaders who want to learn.",
+    "benefits": ["Practical guides", "Channel comparisons", "Conversion checklists"],
+    "topics": ["Training leads", "Meta vs Google", "Landing pages", "CRO"],
+    "takeaways": ["Content optimized for search and AI engines", "Updated regularly"]
+  }
+}

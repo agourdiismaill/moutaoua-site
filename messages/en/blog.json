@@ -1,0 +1,350 @@
+{
+  "metaTitle": "Training Marketing Blog | Mohtaoua",
+  "metaDescription": "Guides, strategies, and best practices to generate leads and fill your training sessions in Morocco.",
+  "eyebrow": "Blog",
+  "title": "<highlight>Marketing</highlight> resources for training centers",
+  "description": "Practical articles on acquisition, digital advertising, and conversion for the training sector.",
+  "readMore": "Read article",
+  "allCategories": "All",
+  "categories": {
+    "acquisition": "Acquisition",
+    "publicite": "Advertising",
+    "conversion": "Conversion"
+  },
+  "author": {
+    "name": "Mohtaoua Team",
+    "role": "Training marketing agency",
+    "bio": "Specialists in digital acquisition for training centers in Morocco."
+  },
+  "labels": {
+    "relatedPosts": "Related articles",
+    "tableOfContents": "Table of contents",
+    "published": "Published on",
+    "updated": "Updated on",
+    "category": "Category",
+    "share": "Share",
+    "backToBlog": "Back to blog"
+  },
+  "posts": {
+    "generer-leads-centre-formation-maroc": {
+      "title": "How to generate leads for a training center in Morocco",
+      "excerpt": "Complete strategy to attract qualified prospects: channels, budget, funnel, and KPIs to track.",
+      "category": "acquisition",
+      "cover": "/logo-full.svg",
+      "sections": [
+        {
+          "id": "contexte",
+          "heading": "Why lead generation is critical",
+          "paragraphs": [
+            "Training centers in Morocco face increased competition and shorter enrollment cycles. Without a pipeline of qualified prospects, sessions start below capacity.",
+            "Lead generation is not optional: it is the most predictable growth engine for a training organization."
+          ]
+        },
+        {
+          "id": "canaux",
+          "heading": "Channels that work in 2026",
+          "paragraphs": [
+            "Meta Ads remains the fastest channel to create demand. Google Ads captures high-intent searches (\"training X Casablanca\"). SEO and content build long-term credibility."
+          ],
+          "bullets": [
+            "Meta Ads: volume and speed",
+            "Google Ads: high purchase intent",
+            "Dedicated landing pages: conversion",
+            "CRM + automation: follow-up and closing"
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "What budget should you plan for?",
+          "paragraphs": [
+            "For a center in the digital launch phase, plan for 8,000 to 25,000 MAD/month in media budget, excluding agency fees. The optimal budget depends on the training price and target acquisition cost."
+          ]
+        },
+        {
+          "id": "kpis",
+          "heading": "KPIs to track",
+          "paragraphs": [
+            "Don't stop at the number of leads. Track cost per lead (CPL), contact rate, appointment rate, and especially customer acquisition cost (CAC) per training program."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many leads do you need to fill a session?",
+          "answer": "Generally 3 to 5 qualified leads per enrollment depending on your conversion rate. For 20 seats, aim for 60 to 100 qualified leads over the cycle."
+        },
+        {
+          "question": "Do you need to be on every channel?",
+          "answer": "No. Start with 1-2 mastered channels (often Meta + Google) before expanding."
+        }
+      ]
+    },
+    "meta-ads-vs-google-ads-formation": {
+      "title": "Meta Ads vs Google Ads: which channel for your training center?",
+      "excerpt": "Objective comparison of the two advertising levers for education in Morocco.",
+      "category": "publicite",
+      "cover": "/logo-full.svg",
+      "sections": [
+        {
+          "id": "meta",
+          "heading": "Meta Ads: creating demand",
+          "paragraphs": [
+            "Meta (Facebook & Instagram) excels at reaching audiences who are not yet actively searching for training. Ideal for launches, promotions, and brand awareness."
+          ]
+        },
+        {
+          "id": "google",
+          "heading": "Google Ads: capturing demand",
+          "paragraphs": [
+            "Google intercepts searches with commercial intent. Perfect for in-demand training programs (languages, IT, healthcare) with often higher short-term ROAS."
+          ]
+        },
+        {
+          "id": "verdict",
+          "heading": "Our recommendation",
+          "paragraphs": [
+            "For most centers, the combination of Meta (volume) + Google (intent) over 3 months offers the best cost/quality balance."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Which channel has the lowest CPL?",
+          "answer": "It varies by training program. Meta is often cheaper in volume; Google can be more qualified."
+        }
+      ]
+    },
+    "checklist-landing-page-formation": {
+      "title": "Checklist: training landing page that converts",
+      "excerpt": "10 essential elements to turn advertising traffic into enrollment inquiries.",
+      "category": "conversion",
+      "cover": "/logo-full.svg",
+      "sections": [
+        {
+          "id": "hero",
+          "heading": "1. A clear, benefit-driven hero",
+          "paragraphs": [
+            "Headline = promised outcome. Subheadline = target audience. CTA visible without scrolling on mobile."
+          ]
+        },
+        {
+          "id": "preuves",
+          "heading": "2. Social proof",
+          "paragraphs": [
+            "Testimonials, enrollment numbers, certifications, partner logos."
+          ]
+        },
+        {
+          "id": "formulaire",
+          "heading": "3. Short form",
+          "paragraphs": [
+            "Name, phone, and email are enough in the first step. Qualify further with automation."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you need one page per training program?",
+          "answer": "Yes, to align the advertising message and maximize conversion rate."
+        }
+      ]
+    },
+    "whatsapp-convertir-leads-formation-maroc": {
+      "title": "WhatsApp: turn training leads into enrollments in Morocco",
+      "excerpt": "Scripts, response times, automation, and CRM: the complete method to turn WhatsApp prospects into enrolled students without losing leads.",
+      "category": "conversion",
+      "cover": "/logo-full.svg",
+      "relatedServices": ["marketing-automation", "crm-data"],
+      "overview": {
+        "what": "Expert guide on using WhatsApp to qualify, follow up, and convert leads from Meta, Google, or your website campaigns.",
+        "who": "Training center directors, sales managers, and admissions teams who receive inquiries via WhatsApp but struggle to turn them into enrollments.",
+        "benefits": [
+          "Reduce first-response time to under 5 minutes",
+          "Structure a WhatsApp → appointment → enrollment funnel",
+          "Automate follow-ups without losing the human touch"
+        ],
+        "topics": [
+          "Qualification scripts",
+          "WhatsApp Business API",
+          "CRM integration",
+          "Lead conversion KPIs"
+        ],
+        "takeaways": [
+          "In Morocco, 70%+ of training leads prefer WhatsApp over email",
+          "Response speed is the #1 conversion factor",
+          "Without a CRM, you lose an average of 40% of leads during follow-up"
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Introduction: the missing link in your acquisition",
+          "paragraphs": [
+            "You invest in Meta Ads, Google Ads, or SEO. Your landing page generates leads. Then… silence. Prospects stop replying, your team follows up too late, and enrollments never come.",
+            "In Morocco, this scenario is almost systematic among centers that treat WhatsApp as a \"personal messenger\" rather than a structured sales channel. Yet WhatsApp is the preferred contact point for most prospective learners after an information request.",
+            "This article details the method we deploy at Mohtaoua for our training clients: from the first automated response to enrollment confirmation, through qualification and CRM integration."
+          ]
+        },
+        {
+          "id": "probleme",
+          "heading": "The problem: you generate leads you don't convert",
+          "paragraphs": [
+            "Most centers measure success by CPL (cost per lead) and stop there. Yet a 15 MAD lead that never replies costs infinitely more than a 40 MAD lead converted into an enrollment.",
+            "Recurring causes: response delay over 2 hours, generic copy-paste messages, no qualification (budget, availability, level), forgotten follow-ups in personal conversations, and no visibility for management on the pipeline."
+          ],
+          "bullets": [
+            "Leads handled on the salesperson's personal WhatsApp",
+            "No consistent qualification script",
+            "Manual follow-ups forgotten after 48h",
+            "No link between ad campaign and final enrollment"
+          ]
+        },
+        {
+          "id": "solution",
+          "heading": "The solution: a structured, measurable WhatsApp funnel",
+          "paragraphs": [
+            "Conversion starts the moment the prospect clicks \"Send\" or leaves their number. Every minute counts: a response in under 5 minutes triples the chances of booking an appointment.",
+            "The solution is not sending more messages, but building a clear journey: immediate welcome → 3-question qualification → slot proposal → D+1/D+3 reminder → sales handoff if hot lead.",
+            "This funnel relies on WhatsApp Business (or API for high volumes), a connected CRM, and automation scenarios for standard follow-ups — while keeping human intervention for qualified leads."
+          ]
+        },
+        {
+          "id": "maroc",
+          "heading": "Why WhatsApp dominates training in Morocco",
+          "paragraphs": [
+            "In Morocco, WhatsApp far exceeds email and often phone for the first interaction after an ad. Prospects want a quick response, in Darija, French, or Arabic, with the ability to send documents (CV, diplomas) in one click.",
+            "Top-performing centers understand that WhatsApp is not an \"extra\" channel: it is often the main closing channel, especially for professional training, languages, and bootcamps where the average ticket justifies a human exchange."
+          ]
+        },
+        {
+          "id": "etapes",
+          "heading": "Step by step: setting up your WhatsApp funnel",
+          "paragraphs": [
+            "Here are the six steps we recommend to any center starting out or looking to professionalize its WhatsApp flow."
+          ],
+          "bullets": [
+            "Step 1 — Centralize: a dedicated WhatsApp Business number (not the owner's personal one)",
+            "Step 2 — Auto welcome: welcome message in under 60 seconds with callback promise",
+            "Step 3 — Qualification: 3 questions (target training, city, enrollment timeline)",
+            "Step 4 — Appointment booking: Calendly link or slots offered directly in chat",
+            "Step 5 — D+1, D+3, D+7 follow-ups if no reply (short messages, no spam)",
+            "Step 6 — CRM closure: status \"enrolled\", \"lost\", \"to recontact\" with reason"
+          ]
+        },
+        {
+          "id": "scripts",
+          "heading": "Message scripts that convert",
+          "paragraphs": [
+            "A good WhatsApp script is short, personalized, and focused on a single action. Avoid long blocks copied from your sales brochure.",
+            "Welcome example: \"Hello [First name], thank you for your interest in [Training] at [Center]. I'm [Advisor name]. Do you have 2 minutes for 3 quick questions so I can guide you to the next session?\"",
+            "D+3 follow-up example: \"Hello [First name], following up on [Training]. The next session starts on [Date] — [X] spots left. Would you like a 10-min call to discuss?\""
+          ]
+        },
+        {
+          "id": "automation",
+          "heading": "Automation: what to automate (and what to keep human)",
+          "paragraphs": [
+            "Automate welcome, standard follow-ups, appointment reminders, and post-visit messages. Keep negotiation, price objections, and enrollment closing human.",
+            "Tools like Make, Zapier, HubSpot, or local solutions connect your Meta/Google form → CRM → WhatsApp. Goal: zero leads without a first response, even outside business hours (auto message + callback promise next day at 9am)."
+          ]
+        },
+        {
+          "id": "crm",
+          "heading": "Integrating WhatsApp with your CRM",
+          "paragraphs": [
+            "Without a CRM, you cannot know which lead came from which campaign, which salesperson followed up, or your real lead → enrollment conversion rate. This is the blind spot for most centers in Morocco.",
+            "A well-configured CRM shows: source (Meta, Google, organic), lead date, WhatsApp history, status (new, contacted, appointment, enrolled, lost), and owner. You can then calculate real CAC per channel and optimize ad budgets accordingly."
+          ]
+        },
+        {
+          "id": "bonnes-pratiques",
+          "heading": "Best practices from top-converting centers",
+          "paragraphs": [
+            "Centers with the best WhatsApp conversion rates share common habits, regardless of sector (languages, IT, healthcare, management)."
+          ],
+          "bullets": [
+            "Median response under 5 minutes during business hours",
+            "One pro WhatsApp number displayed everywhere (site, ads, signature)",
+            "Validated scripts adapted to each advisor's tone",
+            "Systematic follow-up at D+1, D+3, D+7 then archive",
+            "Appointment confirmed the day before with video link or address",
+            "Weekly management feedback: leads, appointments, enrollments, CAC"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Common mistakes to avoid",
+          "paragraphs": [
+            "These mistakes cost dearly in lost leads. We see them every week during our free audits."
+          ],
+          "bullets": [
+            "Replying 24h later with \"Sorry for the delay\" — the prospect is already with a competitor",
+            "Sending the PDF brochure without a qualification question",
+            "Using personal WhatsApp with no backup or handoff",
+            "Spamming 5 messages in a row with no reply",
+            "Not tracking lead source in the CRM",
+            "Confusing \"seen\" with \"handled\" — a read message with no reply = cold lead"
+          ]
+        },
+        {
+          "id": "kpis",
+          "heading": "KPIs to track every week",
+          "paragraphs": [
+            "Measure what matters for conversion, not just message volume."
+          ],
+          "bullets": [
+            "Median first-response time",
+            "Contact rate (leads who replied at least once)",
+            "Appointment rate / contacted leads",
+            "Enrollment rate / completed appointments",
+            "CAC per channel (Meta, Google, organic)",
+            "Loss reason (price, timing, competition, no reply)"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion: WhatsApp is your closing room",
+          "paragraphs": [
+            "Generating leads without structuring WhatsApp is like filling a leaky tank. In Morocco, conversion happens in the conversation — speed, clarity, follow-up.",
+            "Start with a pro number, a welcome script, three automated follow-ups, and a minimal CRM. Then refine with automation and advisor training.",
+            "Need an audit of your current funnel? Our team analyzes your leads → WhatsApp → enrollment flow and delivers a concrete action plan within 24h."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you need WhatsApp Business or the WhatsApp API?",
+          "answer": "WhatsApp Business is enough up to ~50 leads/week with 2-3 advisors. Beyond that, or to connect to CRM and automate at scale, the API via a partner (Twilio, 360dialog, etc.) becomes necessary."
+        },
+        {
+          "question": "What response time should you aim for?",
+          "answer": "Under 5 minutes during business hours. Outside hours, an immediate auto message + promised callback the next morning maintains engagement."
+        },
+        {
+          "question": "How many follow-ups before giving up on a lead?",
+          "answer": "Three spaced follow-ups (D+1, D+3, D+7) is the standard. Beyond that, archive as \"to recontact\" for a monthly reactivation campaign."
+        },
+        {
+          "question": "Can you send messages in Darija?",
+          "answer": "Yes, and it is often more effective for first contact. Adapt tone to your audience: Darija, French, or Arabic depending on profile."
+        },
+        {
+          "question": "How do you link WhatsApp to Meta Ads?",
+          "answer": "Use Lead Ads forms with a phone field, or a WhatsApp button on the landing page. Connect the flow to your CRM via Zapier/Make to centralize leads."
+        },
+        {
+          "question": "What lead → enrollment conversion rate is realistic?",
+          "answer": "Between 8% and 25% depending on price, seasonality, and follow-up quality. With an optimized WhatsApp funnel, +5 conversion points is an achievable goal in 60 days."
+        },
+        {
+          "question": "Doesn't automation feel robotic?",
+          "answer": "Welcome and follow-ups can be automated while staying personalized (first name, training). The closing phase remains human."
+        },
+        {
+          "question": "Can Mohtaoua set up this funnel?",
+          "answer": "Yes. We integrate CRM, automation, and WhatsApp scripts in our Performance and Premium packs. Request a free audit to assess your current situation."
+        }
+      ]
+    }
+  }
+}

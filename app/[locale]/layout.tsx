@@ -9,6 +9,8 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { WhatsAppButton } from "@/components/shared/whatsapp-button";
 import { CookieBanner } from "@/components/shared/cookie-banner";
+import { GoogleTagManager } from "@/components/shared/google-tag-manager";
+import { SiteSchemas } from "@/components/seo/site-schemas";
 import { withOgImage } from "@/lib/metadata";
 import { routing, isRtlLocale, type Locale } from "@/i18n/routing";
 import { siteConfig } from "@/data/site";
@@ -117,6 +119,8 @@ export default async function LocaleLayout({
           rtl ? "font-arabic" : "font-sans"
         )}
       >
+        <GoogleTagManager />
+        <SiteSchemas locale={locale} />
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"

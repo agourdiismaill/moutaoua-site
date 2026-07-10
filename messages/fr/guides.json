@@ -1,0 +1,52 @@
+{
+  "metaTitle": "Guides Marketing Formation | Mohtaoua",
+  "metaDescription": "Guides complets Meta Ads et Google Ads pour centres de formation au Maroc.",
+  "eyebrow": "Guides",
+  "title": "Guides <highlight>pratiques</highlight>",
+  "description": "Des guides détaillés pour maîtriser l'acquisition digitale de votre centre de formation.",
+  "readGuide": "Lire le guide",
+  "items": {
+    "meta-ads-centre-formation": {
+      "title": "Guide complet Meta Ads pour centres de formation",
+      "description": "De la stratégie au scaling : audiences, créatives, budget et optimisation pour le secteur formation.",
+      "steps": [
+        "Définir l'offre et le persona apprenant",
+        "Structurer le compte publicitaire par formation",
+        "Créer des audiences froides et chaudes",
+        "Produire des créatives vidéo et statiques",
+        "Installer le tracking conversions (Pixel + CAPI)",
+        "Lancer, analyser, optimiser chaque semaine"
+      ],
+      "mistakes": [
+        "Cibler trop large sans exclusion",
+        "Envoyer le trafic vers la page d'accueil",
+        "Arrêter les campagnes avant 14 jours d'apprentissage"
+      ],
+      "faqs": [
+        { "question": "Quel budget Meta pour débuter ?", "answer": "8 000 MAD/mois minimum pour tester une offre sur une zone géographique." },
+        { "question": "Combien de créatives tester ?", "answer": "Au moins 3-5 variantes par offre en A/B continu." }
+      ]
+    },
+    "google-ads-centre-formation": {
+      "title": "Guide Google Ads pour centres de formation",
+      "description": "Search, Performance Max et landing pages pour capter les recherches à forte intention.",
+      "steps": [
+        "Recherche de mots-clés à intention commerciale",
+        "Créer une campagne Search par formation",
+        "Rédiger des annonces avec extensions",
+        "Déployer des landing pages dédiées",
+        "Configurer le suivi conversions",
+        "Optimiser enchères et mots-clés négatifs"
+      ],
+      "mistakes": [
+        "Mots-clés trop génériques (« formation » seul)",
+        "Pas de page mobile optimisée",
+        "Ignorer les termes de recherche réels"
+      ],
+      "faqs": [
+        { "question": "Search ou PMax en premier ?", "answer": "Search pour le contrôle, PMax pour scaler une fois les conversions trackées." },
+        { "question": "Quel Quality Score viser ?", "answer": "7+ sur vos mots-clés principaux grâce à la pertinence annonce-page." }
+      ]
+    }
+  }
+}

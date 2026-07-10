@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "what": "Cette page présente les offres tarifaires Mohtaoua pour accompagner les centres de formation.",
+    "who": "Directeurs de centres qui comparent les packs Start, Performance et Premium.",
+    "benefits": ["Tarifs transparents en dirhams", "Packs adaptés à chaque stade de croissance", "Sans engagement après 3 mois"],
+    "topics": ["Pack Start", "Pack Performance", "Pack Premium", "Budget média"],
+    "takeaways": ["Le budget média est facturé séparément par les plateformes", "L'audit gratuit permet de calibrer le bon pack"]
+  },
+  "contact": {
+    "what": "Page de contact pour demander un audit marketing gratuit de votre centre de formation.",
+    "who": "Décideurs prêts à discuter acquisition, budget et objectifs d'inscription.",
+    "benefits": ["Réponse sous 24h ouvrées", "Audit gratuit sans engagement", "Équipe basée à Casablanca"],
+    "topics": ["Audit gratuit", "Formulaire contact", "WhatsApp", "Localisation"],
+    "takeaways": ["Préparez vos objectifs et budget média estimé", "Nous couvrons tout le Maroc"]
+  },
+  "results": {
+    "what": "Galerie de performances publicitaires réelles pour centres de formation.",
+    "who": "Responsables marketing qui veulent des preuves avant de s'engager.",
+    "benefits": ["Captures Meta, Google, CRM", "Métriques CPL et ROAS", "Transparence sur les résultats"],
+    "topics": ["Meta Ads", "Google Ads", "Lead Forms", "WhatsApp"],
+    "takeaways": ["Les performances varient selon l'offre et le marché", "Données détaillées disponibles sur demande"]
+  },
+  "videos": {
+    "what": "Vidéothèque de témoignages, études de cas filmées et masterclass marketing formation.",
+    "who": "Prospects qui préfèrent le format vidéo pour évaluer l'agence.",
+    "benefits": ["Témoignages clients", "Coulisses de campagnes", "Conseils actionnables"],
+    "topics": ["Études de cas vidéo", "Témoignages", "Masterclass"],
+    "takeaways": ["Le format vidéo renforce la confiance", "Contenu mis à jour régulièrement"]
+  },
+  "caseStudies": {
+    "what": "Études de cas détaillées : objectifs, stratégie, budget, leads et ROAS pour des centres de formation.",
+    "who": "Décideurs qui veulent un cas concret avant de lancer une collaboration.",
+    "benefits": ["Méthodologie transparente", "Chiffres clés par mission", "Leçons applicables"],
+    "topics": ["Meta Ads", "Google Ads", "Automation", "ROAS"],
+    "takeaways": ["Cas anonymisés à titre illustratif", "Chaque centre a un contexte unique"]
+  },
+  "blog": {
+    "what": "Blog expert sur l'acquisition digitale pour centres de formation au Maroc.",
+    "who": "Marketeurs et dirigeants du secteur éducation qui veulent se former.",
+    "benefits": ["Guides pratiques", "Comparaisons de canaux", "Checklists conversion"],
+    "topics": ["Leads formation", "Meta vs Google", "Landing pages", "CRO"],
+    "takeaways": ["Contenu optimisé pour la recherche et les moteurs IA", "Mis à jour régulièrement"]
+  }
+}

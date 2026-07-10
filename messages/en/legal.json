@@ -137,7 +137,7 @@
         "title": "Cookies and storage on this site",
         "paragraphs": [
           "Essential cookies / storage: language, display theme (light/dark) and your cookie banner choice (localStorage).",
-          "Analytics: no analytics cookies are currently placed without your explicit consent. If a statistics tool is enabled later, this page will be updated.",
+          "Analytics: Google Tag Manager (Google Ireland Limited) is enabled only if you accept cookies via the banner. It may load Google Analytics (G-F58Z3G6GFF) to measure traffic and site usage.",
           "Third-party cookies: embedded YouTube videos may set cookies when you start playback. Social links open third-party sites with their own policies."
         ]
       },

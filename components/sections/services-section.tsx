@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import { Icon } from "@/components/shared/icon";
@@ -50,6 +51,7 @@ export function ServicesSection({
                 service.highlighted && "ring-1 ring-primary/20"
               )}
             >
+              <Link href={`/services/${service.slug}`} className="flex flex-col gap-4">
               <span className="grid size-14 place-items-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/10 text-primary transition-transform duration-300 group-hover:scale-110">
                 <Icon name={service.icon} className="size-7" />
               </span>
@@ -57,6 +59,7 @@ export function ServicesSection({
               <p className="text-sm leading-relaxed text-muted-foreground">
                 {service.description}
               </p>
+              </Link>
 
               {withFeatures && (
                 <ul className="mt-2 space-y-2.5 border-t border-border pt-4">

@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "relatedServices": "خدمات ذات صلة",
+    "relatedArticles": "مقالات ذات صلة",
+    "relatedGuides": "أدلة عملية",
+    "relatedCaseStudies": "دراسات حالة",
+    "relatedComparisons": "مقارنات",
+    "relatedResources": "موارد مفيدة"
+  },
+  "sidebar": {
+    "relatedContent": "محتوى ذو صلة",
+    "popularArticles": "مقالات شائعة",
+    "latestArticles": "أحدث المقالات",
+    "popularGuides": "أدلة شائعة"
+  },
+  "navigation": {
+    "previous": "المقال السابق",
+    "next": "المقال التالي"
+  },
+  "resources": {
+    "case-studies": {
+      "title": "دراسات حالة العملاء",
+      "description": "نتائج ملموسة لمراكز التدريب في المغرب."
+    },
+    "pricing": {
+      "title": "الأسعار والباقات",
+      "description": "باقات Start وPerformance وPremium لمركزك."
+    },
+    "results": {
+      "title": "نتائجنا",
+      "description": "العملاء المحتملون وROAS والأداء حسب القناة."
+    },
+    "videos": {
+      "title": "فيديوهات وشهادات",
+      "description": "Masterclass وقصص نجاح العملاء."
+    },
+    "contact": {
+      "title": "طلب تدقيق مجاني",
+      "description": "تحليل مخصص لاكتسابك خلال 24 ساعة."
+    },
+    "blog": {
+      "title": "مدونة تسويق التدريب",
+      "description": "أدلة واستراتيجيات وأفضل الممارسات لمركزك."
+    }
+  },
+  "anchors": {
+    "default": ["{title}"],
+    "service": [
+      "اكتشف خدمة {title}",
+      "المزيد عن {title}",
+      "كيف ندير {title}"
+    ],
+    "blog": [
+      "قراءة المقال كاملاً",
+      "دليل عملي: {title}",
+      "تعمق في الموضوع: {title}"
+    ],
+    "guide": [
+      "قراءة الدليل الكامل",
+      "دليل خطوة بخطوة: {title}",
+      "إتقان {title}"
+    ],
+    "case-study": [
+      "دراسة حالة عملية",
+      "نتائج العملاء: {title}",
+      "مثال واقعي: {title}"
+    ],
+    "comparison": [
+      "عرض المقارنة الكاملة",
+      "Meta مقابل Google: {title}",
+      "قارن القنوات"
+    ],
+    "resource": [
+      "الوصول إلى {title}",
+      "استكشف {title}",
+      "اطلع على {title}"
+    ]
+  },
+  "breadcrumb": {
+    "guides": "الأدلة",
+    "compare": "المقارنات"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "relatedServices": "Services associés",
+    "relatedArticles": "Articles connexes",
+    "relatedGuides": "Guides pratiques",
+    "relatedCaseStudies": "Études de cas",
+    "relatedComparisons": "Comparatifs",
+    "relatedResources": "Ressources utiles"
+  },
+  "sidebar": {
+    "relatedContent": "Contenu lié",
+    "popularArticles": "Articles populaires",
+    "latestArticles": "Derniers articles",
+    "popularGuides": "Guides populaires"
+  },
+  "navigation": {
+    "previous": "Article précédent",
+    "next": "Article suivant"
+  },
+  "resources": {
+    "case-studies": {
+      "title": "Études de cas clients",
+      "description": "Résultats concrets de centres de formation au Maroc."
+    },
+    "pricing": {
+      "title": "Tarifs et packs",
+      "description": "Formules Start, Performance et Premium adaptées à votre centre."
+    },
+    "results": {
+      "title": "Nos résultats",
+      "description": "Leads, ROAS et performances par canal publicitaire."
+    },
+    "videos": {
+      "title": "Vidéos et témoignages",
+      "description": "Masterclass et retours d'expérience clients."
+    },
+    "contact": {
+      "title": "Demander un audit gratuit",
+      "description": "Analyse personnalisée de votre acquisition en 24h."
+    },
+    "blog": {
+      "title": "Blog marketing formation",
+      "description": "Guides, stratégies et bonnes pratiques pour votre centre."
+    }
+  },
+  "anchors": {
+    "default": ["{title}"],
+    "service": [
+      "Découvrez notre service {title}",
+      "En savoir plus sur {title}",
+      "Comment nous gérons {title}"
+    ],
+    "blog": [
+      "Lire l'article complet",
+      "Guide pratique : {title}",
+      "Approfondir le sujet : {title}"
+    ],
+    "guide": [
+      "Consulter le guide complet",
+      "Guide pas à pas : {title}",
+      "Maîtriser {title}"
+    ],
+    "case-study": [
+      "Étude de cas concrète",
+      "Résultats clients : {title}",
+      "Cas pratique : {title}"
+    ],
+    "comparison": [
+      "Voir le comparatif complet",
+      "Meta vs Google : {title}",
+      "Comparer les canaux"
+    ],
+    "resource": [
+      "Accéder à {title}",
+      "Explorer {title}",
+      "Consulter {title}"
+    ]
+  },
+  "breadcrumb": {
+    "guides": "Guides",
+    "compare": "Comparatifs"
+  }
+}

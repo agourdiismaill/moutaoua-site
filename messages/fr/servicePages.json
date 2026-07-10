@@ -1,0 +1,210 @@
+{
+  "labels": {
+    "aiOverview": "Résumé de la page",
+    "what": "De quoi parle cette page ?",
+    "who": "À qui s'adresse-t-elle ?",
+    "benefits": "Bénéfices clés",
+    "topics": "Sujets couverts",
+    "takeaways": "Points à retenir",
+    "readingTime": "{minutes} min de lecture",
+    "problem": "Le problème",
+    "solution": "Notre solution",
+    "howItWorks": "Comment ça marche",
+    "industries": "Secteurs concernés",
+    "relatedServices": "Services associés",
+    "trustTitle": "Expertise & confiance",
+    "trustCompany": "Entreprise",
+    "trustExperience": "Expérience",
+    "trustMethodology": "Méthodologie",
+    "trustUpdated": "Dernière mise à jour",
+    "trustReferences": "Références sectorielles",
+    "share": "Partager",
+    "home": "Accueil",
+    "services": "Services",
+    "breadcrumbServices": "Services",
+    "caseStudies": "Études de cas"
+  },
+  "homeOverview": {
+    "what": "Mohtaoua est une agence marketing spécialisée dans l'acquisition de leads pour les centres de formation au Maroc.",
+    "who": "Directeurs de centres de formation, responsables marketing éducatif et dirigeants d'organismes de formation professionnelle.",
+    "benefits": [
+      "Plus de demandes qualifiées pour vos sessions",
+      "Campagnes Meta, Google et TikTok pilotées par la data",
+      "Tunnel complet : ads, landing pages, CRM et automation"
+    ],
+    "topics": [
+      "Meta Ads formation",
+      "Google Ads centres de formation",
+      "Landing pages & CRO",
+      "Marketing automation éducation"
+    ],
+    "takeaways": [
+      "Spécialisation 100 % secteur formation au Maroc",
+      "Résultats mesurables : leads, CPL, ROAS",
+      "Audit gratuit sous 24h"
+    ]
+  },
+  "trust": {
+    "experience": "Plus de 150 campagnes menées pour des centres de formation et organismes éducatifs au Maroc.",
+    "methodology": "Audit → stratégie → lancement → optimisation continue avec reporting transparent.",
+    "updatedAt": "10 juillet 2026",
+    "references": [
+      "Centres de formation professionnelle",
+      "Écoles privées et groupes éducatifs",
+      "Organismes e-learning",
+      "Formations certifiantes et continues"
+    ]
+  },
+  "items": {
+    "meta-ads": {
+      "metaTitle": "Meta Ads pour Centres de Formation | Mohtaoua",
+      "metaDescription": "Campagnes Facebook & Instagram pour générer des leads qualifiés pour vos formations au Maroc : ciblage, créatives, tracking et optimisation.",
+      "overview": {
+        "what": "Service d'acquisition payante sur Meta (Facebook & Instagram) pour remplir vos sessions de formation.",
+        "who": "Centres de formation qui veulent générer des leads rapidement avec un budget média maîtrisé.",
+        "benefits": ["Leads qualifiés en 7-14 jours", "Ciblage précis par intention et profil", "Créatives testées A/B en continu"],
+        "topics": ["Audiences lookalike", "Retargeting", "CAPI & tracking", "Tunnel lead → inscription"],
+        "takeaways": ["Meta reste le canal #1 pour la génération de leads formation au Maroc", "La qualité créative détermine 60 % des performances", "L'optimisation hebdomadaire est indispensable"]
+      },
+      "problem": "Votre centre investit en publicité mais obtient des leads peu qualifiés, un coût par lead instable ou des campagnes qui ne convertissent pas en inscriptions.",
+      "solution": "Nous construisons des campagnes Meta structurées par objectif (lead, trafic, conversion) avec des audiences sur mesure, des créatives adaptées au secteur formation et un suivi des conversions fiable.",
+      "howItWorks": ["Audit de votre offre et de votre tunnel", "Stratégie média et plan de tests créatifs", "Lancement et optimisation quotidienne", "Reporting leads, CPL et recommandations"],
+      "industries": ["Formation professionnelle", "Langues", "Informatique & digital", "Santé & paramédical", "Management & soft skills"],
+      "faqs": [
+        { "question": "Combien de budget Meta faut-il pour un centre de formation ?", "answer": "Nous recommandons généralement 8 000 à 25 000 MAD/mois selon la concurrence et la saisonnalité. Nous calibrons le budget après l'audit gratuit." },
+        { "question": "En combien de temps obtient-on les premiers leads ?", "answer": "Les premières demandes arrivent souvent entre 7 et 14 jours après le lancement, le temps que l'algorithme apprenne et que nous optimisions les audiences." },
+        { "question": "Gérez-vous la création des visuels et vidéos ?", "answer": "Oui, nos offres Performance et Premium incluent la production de créatives (statiques, carrousels, Reels) adaptées à votre secteur." },
+        { "question": "Comment mesurez-vous la qualité des leads Meta ?", "answer": "Nous suivons le coût par lead, le taux de contact, la qualification CRM et le taux de conversion en inscription lorsque votre CRM est connecté." },
+        { "question": "Pouvez-vous relancer les visiteurs qui n'ont pas converti ?", "answer": "Oui, via des campagnes de retargeting sur les visiteurs du site, les engagés vidéo et les leads non convertis." },
+        { "question": "Travaillez-vous avec le Conversions API (CAPI) ?", "answer": "Oui, nous configurons le pixel et le CAPI pour améliorer le tracking et la stabilité des performances post-iOS14." },
+        { "question": "Quelle est la différence entre Meta Ads et Google Ads pour la formation ?", "answer": "Meta génère de la demande (interruption marketing) ; Google capte une intention de recherche existante. Les deux sont complémentaires." },
+        { "question": "Y a-t-il un engagement minimum ?", "answer": "Nous recommandons 3 mois pour atteindre un régime de performance stable, puis contrat résiliable avec 30 jours de préavis." }
+      ]
+    },
+    "google-ads": {
+      "metaTitle": "Google Ads pour Centres de Formation | Mohtaoua",
+      "metaDescription": "Search, Performance Max et YouTube Ads pour capter les futurs apprenants au moment où ils recherchent une formation au Maroc.",
+      "overview": {
+        "what": "Service Google Ads (Search, PMax, YouTube) pour capter une demande à forte intention sur vos formations.",
+        "who": "Centres de formation avec des offres recherchées (langues, IT, santé, management) souhaitant un ROAS élevé.",
+        "benefits": ["Trafic qualifié à forte intention", "Search + Performance Max complémentaires", "Suivi des conversions appels et formulaires"],
+        "topics": ["Mots-clés formation", "Performance Max", "Extensions d'annonce", "Landing pages dédiées"],
+        "takeaways": ["Google Ads excelle sur la demande existante", "La structure de compte impacte directement le CPL", "Les landing pages dédiées sont indispensables"]
+      },
+      "problem": "Vos concurrents apparaissent en premier sur Google quand un prospect cherche une formation, et votre budget est gaspillé sur des mots-clés trop larges.",
+      "solution": "Nous structurons des campagnes Search et PMax orientées conversion avec un ciblage sémantique précis, des annonces optimisées et des pages d'atterrissage dédiées.",
+      "howItWorks": ["Recherche de mots-clés à intention commerciale", "Architecture de compte et campagnes", "Rédaction d'annonces et extensions", "Optimisation CPL/ROAS hebdomadaire"],
+      "industries": ["Formation certifiante", "Préparation concours", "Bootcamps tech", "Formations continues B2B"],
+      "faqs": [
+        { "question": "Search ou Performance Max pour un centre de formation ?", "answer": "Search pour le contrôle sémantique ; PMax pour élargir sur Display, YouTube et Discover. Nous combinons souvent les deux selon le budget." },
+        { "question": "Quel budget Google Ads est réaliste au Maroc ?", "answer": "À partir de 6 000 MAD/mois pour tester un marché ; 15 000+ MAD/mois pour scaler sur plusieurs formations." },
+        { "question": "Comment éviter les clics non qualifiés ?", "answer": "Via des mots-clés négatifs, un ciblage géographique précis, des annonces explicites et des landing pages alignées sur l'intention." },
+        { "question": "Suivez-vous les appels générés par Google ?", "answer": "Oui, avec le suivi des conversions appels, formulaires et événements CRM lorsque l'infrastructure le permet." },
+        { "question": "Faut-il une page par formation ?", "answer": "Idéalement oui : une landing page par offre améliore le Quality Score et le taux de conversion." },
+        { "question": "Combien de temps pour optimiser le ROAS ?", "answer": "Les premières optimisations sont visibles sous 30 jours ; la stabilisation se fait sur 60-90 jours." },
+        { "question": "Pouvez-vous gérer YouTube Ads ?", "answer": "Oui, pour la notoriété et le retargeting vidéo, notamment via PMax et campagnes YouTube dédiées." },
+        { "question": "Le budget média est-il inclus ?", "answer": "Non, le budget est payé directement à Google. Nos honoraires couvrent la stratégie, la gestion et l'optimisation." }
+      ]
+    },
+    "marketing-automation": {
+      "metaTitle": "Marketing Automation Formation | Mohtaoua",
+      "metaDescription": "Scénarios e-mail, SMS et WhatsApp pour convertir vos leads formation en inscriptions avec nurturing et scoring automatisé.",
+      "overview": {
+        "what": "Automatisation du nurturing multicanal pour transformer les leads en inscrits.",
+        "who": "Centres avec un volume de leads suffisant mais un faible taux de conversion post-demande.",
+        "benefits": ["Relances automatiques intelligentes", "Scoring et segmentation", "Intégration CRM native"],
+        "topics": ["Séquences e-mail", "WhatsApp business", "Lead scoring", "Intégration CRM"],
+        "takeaways": ["70 % des leads nécessitent un nurturing", "L'automation réduit le temps de réponse", "Le CRM connecté est un prérequis"]
+      },
+      "problem": "Vos leads refroidissent faute de relance rapide et structurée, et votre équipe commerciale perd du temps sur des tâches répétitives.",
+      "solution": "Nous concevons des scénarios automation connectés à votre CRM pour qualifier, relancer et convertir automatiquement selon le comportement du prospect.",
+      "howItWorks": ["Cartographie du parcours lead → inscription", "Création des scénarios multicanal", "Intégration CRM et tracking", "Optimisation des taux d'ouverture et conversion"],
+      "industries": ["E-learning", "Formation continue", "Écoles multi-campus", "Organismes avec cycle long"],
+      "faqs": [
+        { "question": "Quels outils d'automation utilisez-vous ?", "answer": "HubSpot, ActiveCampaign, Brevo, Make/Zapier selon votre stack existante et votre budget." },
+        { "question": "L'automation remplace-t-elle l'équipe commerciale ?", "answer": "Non, elle qualifie et réchauffe les leads pour que vos commerciaux se concentrent sur les prospects chauds." },
+        { "question": "Peut-on automatiser WhatsApp ?", "answer": "Oui, avec des relances structurées et des scénarios de prise de rendez-vous selon votre outil." },
+        { "question": "Combien de séquences faut-il ?", "answer": "En général 3 à 5 séquences selon la durée du cycle de vente (courte vs longue formation)." },
+        { "question": "Comment mesurer le ROI de l'automation ?", "answer": "Via le taux de conversion lead → RDV → inscription et la réduction du temps de traitement." },
+        { "question": "Faut-il un CRM avant de commencer ?", "answer": "Recommandé. Nous pouvons aussi implémenter un CRM léger si vous n'en avez pas." },
+        { "question": "L'automation fonctionne-t-elle en arabe et français ?", "answer": "Oui, nous créons des parcours multilingues adaptés à votre audience." },
+        { "question": "Quel délai de mise en place ?", "answer": "2 à 4 semaines selon la complexité des scénarios et les intégrations." }
+      ]
+    },
+    "landing-pages": {
+      "metaTitle": "Landing Pages & CRO Formation | Mohtaoua",
+      "metaDescription": "Pages d'atterrissage rapides et optimisées pour convertir le trafic publicitaire en demandes d'information pour vos formations.",
+      "overview": {
+        "what": "Conception et optimisation de landing pages orientées conversion pour vos campagnes ads.",
+        "who": "Centres qui envoient du trafic payant vers des pages génériques peu performantes.",
+        "benefits": ["Taux de conversion amélioré", "Mobile-first et rapide", "Tests A/B continus"],
+        "topics": ["Copywriting conversion", "CRO", "Vitesse Core Web Vitals", "Formulaires optimisés"],
+        "takeaways": ["Une bonne landing peut diviser le CPL par 2", "La vitesse impacte SEO et ads", "Un message = une offre = une page"]
+      },
+      "problem": "Votre trafic publicitaire arrive sur une page lente ou générique qui ne convertit pas, augmentant votre coût par lead.",
+      "solution": "Nous créons des landing pages dédiées par formation avec copywriting orienté conversion, design mobile-first et tests A/B.",
+      "howItWorks": ["Analyse du tunnel actuel", "Wireframe et copywriting", "Développement Next.js rapide", "Tests A/B et optimisation CRO"],
+      "industries": ["Toute formation avec acquisition payante", "Lancements de nouvelles sessions", "Campagnes saisonnières"],
+      "faqs": [
+        { "question": "Combien de landing pages faut-il ?", "answer": "Au minimum une par offre principale ; idéalement une par campagne ou segment d'audience." },
+        { "question": "Utilisez-vous WordPress ou Next.js ?", "answer": "Nous privilégions Next.js pour la vitesse, le SEO et l'intégration avec votre site existant." },
+        { "question": "Quel taux de conversion viser ?", "answer": "Entre 8 % et 25 % selon le secteur, le prix et la qualification du trafic." },
+        { "question": "Faites-vous des tests A/B ?", "answer": "Oui, sur titres, CTA, formulaires et preuves sociales pour améliorer continuellement le taux de conversion." },
+        { "question": "Les pages sont-elles optimisées SEO ?", "answer": "Oui : balises, structure sémantique, performance et données structurées lorsque pertinent." },
+        { "question": "Intégrez-vous WhatsApp et calendrier ?", "answer": "Oui, boutons WhatsApp, prise de RDV Calendly/HubSpot et formulaires multi-étapes." },
+        { "question": "Quel délai de livraison ?", "answer": "5 à 10 jours ouvrés par landing selon la complexité." },
+        { "question": "Puis-je modifier le contenu moi-même ?", "answer": "Nous livrons une structure claire ; des modifications peuvent être gérées via notre équipe ou un CMS selon le setup." }
+      ]
+    },
+    "social-media": {
+      "metaTitle": "Réseaux Sociaux pour Centres de Formation | Mohtaoua",
+      "metaDescription": "Stratégie éditoriale, Reels et community management pour renforcer la notoriété de votre centre de formation au Maroc.",
+      "overview": {
+        "what": "Gestion stratégique des réseaux sociaux pour bâtir une marque éducative forte et alimenter l'acquisition.",
+        "who": "Centres qui veulent une présence cohérente et du contenu qui génère de l'engagement et des leads.",
+        "benefits": ["Image de marque professionnelle", "Contenu vidéo performant", "Engagement communautaire"],
+        "topics": ["Reels & carrousels", "Calendrier éditorial", "Community management", "Reporting"],
+        "takeaways": ["Le social nourrit le retargeting ads", "La régularité prime sur la viralité", "Le contenu doit vendre sans vendre"]
+      },
+      "problem": "Votre présence sociale est irrégulière, peu engageante et ne soutient pas vos campagnes publicitaires.",
+      "solution": "Nous définissons une ligne éditoriale, produisons des Reels et carrousels, et animons votre communauté avec un reporting mensuel.",
+      "howItWorks": ["Audit de l'existant et benchmark", "Stratégie éditoriale mensuelle", "Production et publication", "Analyse et ajustements"],
+      "industries": ["Formation professionnelle", "Écoles privées", "Coachs et formateurs indépendants"],
+      "faqs": [
+        { "question": "Quels réseaux gérez-vous ?", "answer": "Instagram, Facebook, LinkedIn et TikTok selon votre audience cible." },
+        { "question": "Produisez-vous les Reels sur place ?", "answer": "Oui, tournage sur site ou remote selon le pack choisi." },
+        { "question": "Combien de publications par semaine ?", "answer": "De 3 à 7 selon le pack : posts, stories et Reels." },
+        { "question": "Le social génère-t-il des leads ?", "answer": "Indirectement via notoriété, preuve sociale et retargeting ; nous lions social et ads." },
+        { "question": "Rédigez-vous en arabe et français ?", "answer": "Oui, contenu bilingue ou trilingue selon votre marché." },
+        { "question": "Gérez-vous les commentaires et messages ?", "answer": "Oui en community management avec SLA de réponse défini." },
+        { "question": "Fournissez-vous un reporting ?", "answer": "Rapport mensuel : portée, engagement, croissance, top contenus." },
+        { "question": "Peut-on coupler social et Meta Ads ?", "answer": "Absolument — c'est notre approche recommandée pour maximiser le ROAS." }
+      ]
+    },
+    "crm-data": {
+      "metaTitle": "CRM & Data pour Centres de Formation | Mohtaoua",
+      "metaDescription": "Implémentation CRM, dashboards et attribution pour piloter l'acquisition de votre centre de formation avec des données fiables.",
+      "overview": {
+        "what": "Mise en place et optimisation CRM avec tableaux de bord pour piloter l'acquisition formation.",
+        "who": "Centres qui perdent des leads faute d'outil centralisé ou qui ne savent pas quel canal performe.",
+        "benefits": ["Vision temps réel des leads", "Attribution multi-touch", "Décisions data-driven"],
+        "topics": ["HubSpot / Pipedrive", "Dashboards", "Attribution", "Intégrations ads"],
+        "takeaways": ["Sans CRM, impossible d'optimiser le CPL réel", "L'attribution révèle les vrais canaux performants", "Les dashboards alignent marketing et commercial"]
+      },
+      "problem": "Vos leads sont dispersés (Excel, WhatsApp, e-mail) et vous ne savez pas quel canal ou campagne génère réellement des inscriptions.",
+      "solution": "Nous implémentons un CRM adapté, connectons vos sources de leads et créons des dashboards temps réel pour piloter l'acquisition.",
+      "howItWorks": ["Audit des flux de leads actuels", "Choix et setup CRM", "Intégrations ads et formulaires", "Dashboards et formation équipe"],
+      "industries": ["Centres multi-formations", "Groupes avec plusieurs campus", "Organismes en croissance"],
+      "faqs": [
+        { "question": "Quels CRM recommandez-vous ?", "answer": "HubSpot pour l'écosystème complet ; Pipedrive pour la simplicité commerciale ; Salesforce pour les grands groupes." },
+        { "question": "Pouvez-vous migrer nos données existantes ?", "answer": "Oui, import depuis Excel, Google Sheets ou un ancien CRM." },
+        { "question": "Connectez-vous Meta et Google au CRM ?", "answer": "Oui, via intégrations natives, Zapier/Make ou API selon le setup." },
+        { "question": "Quels KPI suivre pour la formation ?", "answer": "Leads, CPL, taux de contact, RDV, taux d'inscription, CAC et ROAS par formation." },
+        { "question": "Créez-vous des dashboards sur mesure ?", "answer": "Oui, dashboards temps réel (Looker Studio, HubSpot, Notion) selon vos besoins." },
+        { "question": "Formez-vous nos équipes ?", "answer": "Oui, session de prise en main et documentation incluse." },
+        { "question": "Quel délai d'implémentation ?", "answer": "2 à 6 semaines selon la complexité et le nombre d'intégrations." },
+        { "question": "Le CRM est-il inclus dans vos packs ?", "answer": "L'implémentation de base est incluse en pack Premium ; les licences CRM sont à votre charge." }
+      ]
+    }
+  }
+}

@@ -6,8 +6,11 @@ import { Stats } from "@/components/sections/stats";
 import { ClientLogos } from "@/components/sections/client-logos";
 import { ServicesSection } from "@/components/sections/services-section";
 import { OrganizationJsonLd, FaqPageJsonLd } from "@/components/shared/json-ld";
-import { buildLocalizedAlternates, buildPageOpenGraph } from "@/lib/i18n-metadata";
-import { withOgImage } from "@/lib/metadata";
+import { AIOverview } from "@/components/seo/ai-overview";
+import { TrustSection } from "@/components/seo/trust-section";
+import { buildSeoMetadata } from "@/lib/seo/metadata";
+import { getHomeOverview } from "@/lib/i18n-content";
+import { buildPageOpenGraph } from "@/lib/i18n-metadata";
 
 const ResultsSection = dynamic(() =>
   import("@/components/sections/results-section").then((m) => m.ResultsSection)
@@ -41,10 +44,14 @@ export async function generateMetadata({
   const title = t("title");
   const description = t("description");
 
-  return withOgImage({
-    alternates: buildLocalizedAlternates(locale, ""),
+  return buildSeoMetadata({
+    locale,
+    path: "",
+    title,
+    description,
+    keywords: t.raw("keywords") as string[],
     openGraph: buildPageOpenGraph(locale, "", title, description),
-  }, locale);
+  });
 }
 
 export default async function HomePage({
@@ -54,12 +61,31 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const tServicePages = await getTranslations("servicePages");
+
+  const overviewLabels = {
+    title: tServicePages("labels.aiOverview"),
+    what: tServicePages("labels.what"),
+    who: tServicePages("labels.who"),
+    benefits: tServicePages("labels.benefits"),
+    topics: tServicePages("labels.topics"),
+    takeaways: tServicePages("labels.takeaways"),
+    readingTime: tServicePages("labels.readingTime"),
+  };
 
   return (
     <>
       <OrganizationJsonLd />
       <FaqPageJsonLd />
       <Hero />
+      <section className="section-pad pt-0" aria-label={overviewLabels.title}>
+        <div className="container-max">
+          <AIOverview
+            content={getHomeOverview(tServicePages)}
+            labels={overviewLabels}
+          />
+        </div>
+      </section>
       <Stats />
       <ClientLogos />
       <ServicesSection />
@@ -69,6 +95,20 @@ export default async function HomePage({
       <Testimonials />
       <PricingSection />
       <FaqSection />
+      <TrustSection
+        labels={{
+          title: tServicePages("labels.trustTitle"),
+          company: tServicePages("labels.trustCompany"),
+          experience: tServicePages("labels.trustExperience"),
+          methodology: tServicePages("labels.trustMethodology"),
+          updated: tServicePages("labels.trustUpdated"),
+          references: tServicePages("labels.trustReferences"),
+        }}
+        experience={tServicePages.raw("trust.experience") as string}
+        methodology={tServicePages.raw("trust.methodology") as string}
+        updatedAt={tServicePages.raw("trust.updatedAt") as string}
+        references={tServicePages.raw("trust.references") as string[]}
+      />
       <CtaSection />
     </>
   );

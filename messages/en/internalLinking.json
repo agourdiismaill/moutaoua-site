@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "relatedServices": "Related services",
+    "relatedArticles": "Related articles",
+    "relatedGuides": "Practical guides",
+    "relatedCaseStudies": "Case studies",
+    "relatedComparisons": "Comparisons",
+    "relatedResources": "Useful resources"
+  },
+  "sidebar": {
+    "relatedContent": "Related content",
+    "popularArticles": "Popular articles",
+    "latestArticles": "Latest articles",
+    "popularGuides": "Popular guides"
+  },
+  "navigation": {
+    "previous": "Previous article",
+    "next": "Next article"
+  },
+  "resources": {
+    "case-studies": {
+      "title": "Client case studies",
+      "description": "Concrete results from training centers in Morocco."
+    },
+    "pricing": {
+      "title": "Pricing and packs",
+      "description": "Start, Performance, and Premium plans for your center."
+    },
+    "results": {
+      "title": "Our results",
+      "description": "Leads, ROAS, and performance by ad channel."
+    },
+    "videos": {
+      "title": "Videos and testimonials",
+      "description": "Masterclasses and client success stories."
+    },
+    "contact": {
+      "title": "Request a free audit",
+      "description": "Personalized acquisition analysis within 24h."
+    },
+    "blog": {
+      "title": "Training marketing blog",
+      "description": "Guides, strategies, and best practices for your center."
+    }
+  },
+  "anchors": {
+    "default": ["{title}"],
+    "service": [
+      "Discover our {title} service",
+      "Learn more about {title}",
+      "How we manage {title}"
+    ],
+    "blog": [
+      "Read the full article",
+      "Practical guide: {title}",
+      "Go deeper: {title}"
+    ],
+    "guide": [
+      "Read the complete guide",
+      "Step-by-step guide: {title}",
+      "Master {title}"
+    ],
+    "case-study": [
+      "A practical case study",
+      "Client results: {title}",
+      "Real-world example: {title}"
+    ],
+    "comparison": [
+      "See the full comparison",
+      "Meta vs Google: {title}",
+      "Compare the channels"
+    ],
+    "resource": [
+      "Access {title}",
+      "Explore {title}",
+      "View {title}"
+    ]
+  },
+  "breadcrumb": {
+    "guides": "Guides",
+    "compare": "Comparisons"
+  }
+}

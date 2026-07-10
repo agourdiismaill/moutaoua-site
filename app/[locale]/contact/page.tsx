@@ -4,6 +4,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { LocalizedPageHeader, getPageMetadata } from "@/components/shared/localized-page-header";
 import { ContactForm } from "@/components/sections/contact-form";
 import { Reveal } from "@/components/shared/reveal";
+import { PageSeoShell } from "@/components/seo/page-seo-shell";
+import { getPageOverview } from "@/lib/i18n-content";
 import { siteConfig } from "@/data/site";
 
 export async function generateMetadata({
@@ -24,6 +26,9 @@ export default async function ContactPage({
   setRequestLocale(locale);
   const t = await getTranslations("pages.contact");
   const ts = await getTranslations("shared");
+  const tServicePages = await getTranslations("servicePages");
+  const tPageSeo = await getTranslations("pageSeo");
+  const tNav = await getTranslations("nav");
 
   const infos = [
     { icon: Mail, label: t("email"), value: siteConfig.email, href: `mailto:${siteConfig.email}` },
@@ -36,6 +41,22 @@ export default async function ContactPage({
   return (
     <>
       <LocalizedPageHeader page="contact" />
+      <PageSeoShell
+        breadcrumb={[
+          { label: tServicePages("labels.home"), href: "/" },
+          { label: tNav("contact") },
+        ]}
+        overview={getPageOverview(tPageSeo, "contact")}
+        overviewLabels={{
+          title: tServicePages("labels.aiOverview"),
+          what: tServicePages("labels.what"),
+          who: tServicePages("labels.who"),
+          benefits: tServicePages("labels.benefits"),
+          topics: tServicePages("labels.topics"),
+          takeaways: tServicePages("labels.takeaways"),
+          readingTime: tServicePages("labels.readingTime"),
+        }}
+      />
 
       <section className="section-pad pt-0">
         <div className="container-max grid items-start gap-10 lg:grid-cols-[1fr_1.4fr]">

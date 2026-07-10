@@ -12,7 +12,18 @@ import type {
 import {
   CASE_STUDY_SLUGS,
   FAQ_IDS,
+  SERVICE_SLUGS,
+  type ServiceSlug,
 } from "@/data/meta";
+import {
+  BLOG_POST_SLUGS,
+  BLOG_PUBLISHED,
+  GUIDE_SLUGS,
+  COMPARISON_SLUGS,
+  type BlogPostSlug,
+} from "@/data/blog";
+import type { AIOverviewContent } from "@/lib/seo/types";
+import { estimateReadingTimeFromParts } from "@/lib/seo/reading-time";
 import { serviceMeta } from "@/data/services";
 import { pricingMeta } from "@/data/pricing";
 import { statMeta } from "@/data/site";
@@ -178,5 +189,123 @@ export function getPageMeta(t: TFunction, page: string) {
     title: t(`${page}.title`),
     titleHighlight: t(`${page}.titleHighlight`),
     description: t(`${page}.description`),
+  };
+}
+
+export function getServicePageSlugs(): ServiceSlug[] {
+  return [...SERVICE_SLUGS];
+}
+
+export function getLocalizedServicePage(t: TFunction, slug: string) {
+  const overviewRaw = t.raw(`items.${slug}.overview`) as Omit<AIOverviewContent, "readingTimeMinutes">;
+  const textParts = [
+    t(`items.${slug}.problem`),
+    t(`items.${slug}.solution`),
+    ...((t.raw(`items.${slug}.howItWorks`) as string[]) ?? []),
+    ...overviewRaw.benefits,
+    ...overviewRaw.takeaways,
+  ];
+
+  return {
+    slug,
+    metaTitle: t(`items.${slug}.metaTitle`),
+    metaDescription: t(`items.${slug}.metaDescription`),
+    overview: {
+      ...overviewRaw,
+      readingTimeMinutes: estimateReadingTimeFromParts(textParts),
+    } satisfies AIOverviewContent,
+    problem: t(`items.${slug}.problem`),
+    solution: t(`items.${slug}.solution`),
+    howItWorks: t.raw(`items.${slug}.howItWorks`) as string[],
+    industries: t.raw(`items.${slug}.industries`) as string[],
+    faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
+  };
+}
+
+export function getHomeOverview(t: TFunction): AIOverviewContent {
+  const overview = t.raw("homeOverview") as Omit<AIOverviewContent, "readingTimeMinutes">;
+  const textParts = [
+    overview.what,
+    overview.who,
+    ...overview.benefits,
+    ...overview.topics,
+    ...overview.takeaways,
+  ];
+  return {
+    ...overview,
+    readingTimeMinutes: estimateReadingTimeFromParts(textParts),
+  };
+}
+
+export function getPageOverview(t: TFunction, pageKey: string): AIOverviewContent {
+  const overview = t.raw(pageKey) as Omit<AIOverviewContent, "readingTimeMinutes">;
+  const textParts = [
+    overview.what,
+    overview.who,
+    ...overview.benefits,
+    ...overview.topics,
+    ...overview.takeaways,
+  ];
+  return {
+    ...overview,
+    readingTimeMinutes: estimateReadingTimeFromParts(textParts),
+  };
+}
+
+export type BlogSection = {
+  id: string;
+  heading: string;
+  paragraphs: string[];
+  bullets?: string[];
+};
+
+export function getLocalizedBlogPosts(t: TFunction) {
+  return BLOG_POST_SLUGS.map((slug) => {
+    const post = t.raw(`posts.${slug}`) as {
+      title: string;
+      excerpt: string;
+      category: string;
+      cover: string;
+      sections: BlogSection[];
+      faqs: { question: string; answer: string }[];
+      overview?: Omit<AIOverviewContent, "readingTimeMinutes">;
+      relatedServices?: string[];
+    };
+    const categoryLabel = t(`categories.${post.category}`);
+    return {
+      slug,
+      ...post,
+      categoryLabel,
+      published: BLOG_PUBLISHED[slug],
+    };
+  });
+}
+
+export function getLocalizedBlogPost(t: TFunction, slug: string) {
+  if (!BLOG_POST_SLUGS.includes(slug as BlogPostSlug)) return null;
+  return getLocalizedBlogPosts(t).find((p) => p.slug === slug) ?? null;
+}
+
+export function getLocalizedGuide(t: TFunction, slug: string) {
+  if (!GUIDE_SLUGS.includes(slug as (typeof GUIDE_SLUGS)[number])) return null;
+  return {
+    slug,
+    title: t(`items.${slug}.title`),
+    description: t(`items.${slug}.description`),
+    steps: t.raw(`items.${slug}.steps`) as string[],
+    mistakes: t.raw(`items.${slug}.mistakes`) as string[],
+    faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
+  };
+}
+
+export function getLocalizedComparison(t: TFunction, slug: string) {
+  if (!COMPARISON_SLUGS.includes(slug as (typeof COMPARISON_SLUGS)[number])) return null;
+  return {
+    slug,
+    title: t(`items.${slug}.title`),
+    description: t(`items.${slug}.description`),
+    rows: t.raw(`items.${slug}.rows`) as { criteria: string; meta: string; google: string }[],
+    verdict: t(`items.${slug}.verdict`),
+    faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
   };
 }

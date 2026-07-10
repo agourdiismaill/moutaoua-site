@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { PageHeader } from "@/components/shared/page-header";
-import { buildLocalizedAlternates, buildPageOpenGraph } from "@/lib/i18n-metadata";
-import { withOgImage } from "@/lib/metadata";
+import { buildPageOpenGraph } from "@/lib/i18n-metadata";
+import { buildSeoMetadata } from "@/lib/seo/metadata";
 
 type PageKey =
   | "services"
@@ -44,10 +44,11 @@ export async function getPageMetadata(
   const title = t("metaTitle");
   const description = t("metaDescription");
 
-  return withOgImage({
+  return buildSeoMetadata({
+    locale,
+    path,
     title,
     description,
-    alternates: buildLocalizedAlternates(locale, path),
     openGraph: buildPageOpenGraph(locale, path, title, description),
-  }, locale);
+  });
 }

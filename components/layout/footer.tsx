@@ -52,7 +52,7 @@ export async function Footer() {
             {services.slice(0, 5).map((s) => (
               <li key={s.slug}>
                 <Link
-                  href="/services"
+                  href={`/services/${s.slug}`}
                   className="text-sm text-muted-foreground transition-colors hover:text-primary"
                 >
                   {s.title}

@@ -1,6 +1,12 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/data/site";
 import { getCaseStudySlugs } from "@/data/case-studies";
+import { SERVICE_SLUGS } from "@/data/meta";
+import {
+  BLOG_POST_SLUGS,
+  GUIDE_SLUGS,
+  COMPARISON_SLUGS,
+} from "@/data/blog";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -13,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/results",
     "/case-studies",
     "/videos",
+    "/blog",
     "/pricing",
     "/contact",
     "/legal/privacy",
@@ -57,5 +64,59 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...routes, ...caseStudyRoutes];
+  const serviceRoutes = routing.locales.flatMap((locale) =>
+    SERVICE_SLUGS.map((slug) => {
+      const path = `/services/${slug}`;
+      return {
+        url: `${base}/${locale}${path}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.85,
+        alternates: {
+          languages: buildLanguages(path),
+        },
+      };
+    })
+  );
+
+  const blogRoutes = routing.locales.flatMap((locale) =>
+    BLOG_POST_SLUGS.map((slug) => {
+      const path = `/blog/${slug}`;
+      return {
+        url: `${base}/${locale}${path}`,
+        lastModified: now,
+        changeFrequency: "weekly" as const,
+        priority: 0.75,
+        alternates: { languages: buildLanguages(path) },
+      };
+    })
+  );
+
+  const guideRoutes = routing.locales.flatMap((locale) =>
+    GUIDE_SLUGS.map((slug) => {
+      const path = `/guides/${slug}`;
+      return {
+        url: `${base}/${locale}${path}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.8,
+        alternates: { languages: buildLanguages(path) },
+      };
+    })
+  );
+
+  const compareRoutes = routing.locales.flatMap((locale) =>
+    COMPARISON_SLUGS.map((slug) => {
+      const path = `/compare/${slug}`;
+      return {
+        url: `${base}/${locale}${path}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.8,
+        alternates: { languages: buildLanguages(path) },
+      };
+    })
+  );
+
+  return [...routes, ...caseStudyRoutes, ...serviceRoutes, ...blogRoutes, ...guideRoutes, ...compareRoutes];
 }

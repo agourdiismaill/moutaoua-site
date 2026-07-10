@@ -1,0 +1,209 @@
+{
+  "labels": {
+    "aiOverview": "Page summary",
+    "what": "What is this page about?",
+    "who": "Who is it for?",
+    "benefits": "Key benefits",
+    "topics": "Topics covered",
+    "takeaways": "Key takeaways",
+    "readingTime": "{minutes} min read",
+    "problem": "The problem",
+    "solution": "Our solution",
+    "howItWorks": "How it works",
+    "industries": "Industries served",
+    "relatedServices": "Related services",
+    "trustTitle": "Expertise & trust",
+    "trustCompany": "Company",
+    "trustExperience": "Experience",
+    "trustMethodology": "Methodology",
+    "trustUpdated": "Last updated",
+    "trustReferences": "Industry references",
+    "share": "Share",
+    "home": "Home",
+    "services": "Services",
+    "breadcrumbServices": "Services"
+  },
+  "homeOverview": {
+    "what": "Mohtaoua is a marketing agency specialized in lead acquisition for training centers in Morocco.",
+    "who": "Training center directors, education marketing managers, and leaders of professional training organizations.",
+    "benefits": [
+      "More qualified requests for your sessions",
+      "Meta, Google, and TikTok campaigns driven by data",
+      "Full funnel: ads, landing pages, CRM, and automation"
+    ],
+    "topics": [
+      "Meta Ads for training",
+      "Google Ads for training centers",
+      "Landing pages & CRO",
+      "Education marketing automation"
+    ],
+    "takeaways": [
+      "100% specialization in the training sector in Morocco",
+      "Measurable results: leads, CPL, ROAS",
+      "Free audit within 24 hours"
+    ]
+  },
+  "trust": {
+    "experience": "Over 150 campaigns run for training centers and educational organizations in Morocco.",
+    "methodology": "Audit → strategy → launch → continuous optimization with transparent reporting.",
+    "updatedAt": "July 10, 2026",
+    "references": [
+      "Professional training centers",
+      "Private schools and educational groups",
+      "E-learning organizations",
+      "Certifying and continuing education programs"
+    ]
+  },
+  "items": {
+    "meta-ads": {
+      "metaTitle": "Meta Ads for Training Centers | Mohtaoua",
+      "metaDescription": "Facebook & Instagram campaigns to generate qualified leads for your training programs in Morocco: targeting, creatives, tracking, and optimization.",
+      "overview": {
+        "what": "Paid acquisition service on Meta (Facebook & Instagram) to fill your training sessions.",
+        "who": "Training centers that want to generate leads quickly with a controlled media budget.",
+        "benefits": ["Qualified leads in 7-14 days", "Precise targeting by intent and profile", "Continuous A/B-tested creatives"],
+        "topics": ["Lookalike audiences", "Retargeting", "CAPI & tracking", "Lead → enrollment funnel"],
+        "takeaways": ["Meta remains the #1 channel for training lead generation in Morocco", "Creative quality determines 60% of performance", "Weekly optimization is essential"]
+      },
+      "problem": "Your center invests in advertising but gets poorly qualified leads, an unstable cost per lead, or campaigns that don't convert into enrollments.",
+      "solution": "We build structured Meta campaigns by objective (lead, traffic, conversion) with custom audiences, training-sector creatives, and reliable conversion tracking.",
+      "howItWorks": ["Audit of your offer and funnel", "Media strategy and creative testing plan", "Launch and daily optimization", "Leads, CPL, and recommendations reporting"],
+      "industries": ["Professional training", "Languages", "IT & digital", "Healthcare & paramedical", "Management & soft skills"],
+      "faqs": [
+        { "question": "How much Meta budget does a training center need?", "answer": "We generally recommend 8,000 to 25,000 MAD/month depending on competition and seasonality. We calibrate the budget after the free audit." },
+        { "question": "How long until we get the first leads?", "answer": "The first requests often arrive between 7 and 14 days after launch, while the algorithm learns and we optimize audiences." },
+        { "question": "Do you handle visual and video creation?", "answer": "Yes, our Performance and Premium packages include creative production (static, carousels, Reels) tailored to your sector." },
+        { "question": "How do you measure Meta lead quality?", "answer": "We track cost per lead, contact rate, CRM qualification, and enrollment conversion rate when your CRM is connected." },
+        { "question": "Can you retarget visitors who didn't convert?", "answer": "Yes, through retargeting campaigns for site visitors, video engagers, and unconverted leads." },
+        { "question": "Do you work with the Conversions API (CAPI)?", "answer": "Yes, we set up the pixel and CAPI to improve tracking and performance stability post-iOS14." },
+        { "question": "What's the difference between Meta Ads and Google Ads for training?", "answer": "Meta generates demand (interruption marketing); Google captures existing search intent. Both are complementary." },
+        { "question": "Is there a minimum commitment?", "answer": "We recommend 3 months to reach stable performance, then a cancellable contract with 30 days' notice." }
+      ]
+    },
+    "google-ads": {
+      "metaTitle": "Google Ads for Training Centers | Mohtaoua",
+      "metaDescription": "Search, Performance Max, and YouTube Ads to capture future learners when they search for training in Morocco.",
+      "overview": {
+        "what": "Google Ads service (Search, PMax, YouTube) to capture high-intent demand for your training programs.",
+        "who": "Training centers with in-demand offerings (languages, IT, healthcare, management) seeking high ROAS.",
+        "benefits": ["High-intent qualified traffic", "Complementary Search + Performance Max", "Call and form conversion tracking"],
+        "topics": ["Training keywords", "Performance Max", "Ad extensions", "Dedicated landing pages"],
+        "takeaways": ["Google Ads excels on existing demand", "Account structure directly impacts CPL", "Dedicated landing pages are essential"]
+      },
+      "problem": "Your competitors appear first on Google when a prospect searches for training, and your budget is wasted on overly broad keywords.",
+      "solution": "We structure conversion-focused Search and PMax campaigns with precise semantic targeting, optimized ads, and dedicated landing pages.",
+      "howItWorks": ["Commercial-intent keyword research", "Account architecture and campaigns", "Ad copywriting and extensions", "Weekly CPL/ROAS optimization"],
+      "industries": ["Certifying training", "Exam preparation", "Tech bootcamps", "B2B continuing education"],
+      "faqs": [
+        { "question": "Search or Performance Max for a training center?", "answer": "Search for semantic control; PMax to expand on Display, YouTube, and Discover. We often combine both depending on budget." },
+        { "question": "What is a realistic Google Ads budget in Morocco?", "answer": "From 6,000 MAD/month to test a market; 15,000+ MAD/month to scale across multiple training programs." },
+        { "question": "How do you avoid unqualified clicks?", "answer": "Through negative keywords, precise geographic targeting, explicit ads, and landing pages aligned with intent." },
+        { "question": "Do you track calls generated by Google?", "answer": "Yes, with call conversion tracking, forms, and CRM events when the infrastructure allows." },
+        { "question": "Do you need one page per training program?", "answer": "Ideally yes: one landing page per offering improves Quality Score and conversion rate." },
+        { "question": "How long to optimize ROAS?", "answer": "First optimizations are visible within 30 days; stabilization happens over 60-90 days." },
+        { "question": "Can you manage YouTube Ads?", "answer": "Yes, for awareness and video retargeting, especially via PMax and dedicated YouTube campaigns." },
+        { "question": "Is the media budget included?", "answer": "No, the budget is paid directly to Google. Our fees cover strategy, management, and optimization." }
+      ]
+    },
+    "marketing-automation": {
+      "metaTitle": "Training Marketing Automation | Mohtaoua",
+      "metaDescription": "Email, SMS, and WhatsApp scenarios to convert your training leads into enrollments with nurturing and automated scoring.",
+      "overview": {
+        "what": "Multichannel nurturing automation to turn leads into enrolled students.",
+        "who": "Centers with sufficient lead volume but a low post-inquiry conversion rate.",
+        "benefits": ["Smart automatic follow-ups", "Scoring and segmentation", "Native CRM integration"],
+        "topics": ["Email sequences", "WhatsApp Business", "Lead scoring", "CRM integration"],
+        "takeaways": ["70% of leads require nurturing", "Automation reduces response time", "A connected CRM is a prerequisite"]
+      },
+      "problem": "Your leads go cold due to lack of fast, structured follow-up, and your sales team wastes time on repetitive tasks.",
+      "solution": "We design automation scenarios connected to your CRM to qualify, follow up, and convert automatically based on prospect behavior.",
+      "howItWorks": ["Lead → enrollment journey mapping", "Multichannel scenario creation", "CRM integration and tracking", "Open rate and conversion optimization"],
+      "industries": ["E-learning", "Continuing education", "Multi-campus schools", "Organizations with long sales cycles"],
+      "faqs": [
+        { "question": "What automation tools do you use?", "answer": "HubSpot, ActiveCampaign, Brevo, Make/Zapier depending on your existing stack and budget." },
+        { "question": "Does automation replace the sales team?", "answer": "No, it qualifies and warms up leads so your salespeople focus on hot prospects." },
+        { "question": "Can WhatsApp be automated?", "answer": "Yes, with structured follow-ups and appointment booking scenarios depending on your tool." },
+        { "question": "How many sequences are needed?", "answer": "Generally 3 to 5 sequences depending on sales cycle length (short vs. long training programs)." },
+        { "question": "How do you measure automation ROI?", "answer": "Through lead → appointment → enrollment conversion rate and reduced processing time." },
+        { "question": "Do you need a CRM before starting?", "answer": "Recommended. We can also implement a lightweight CRM if you don't have one." },
+        { "question": "Does automation work in Arabic and French?", "answer": "Yes, we create multilingual journeys tailored to your audience." },
+        { "question": "What is the setup timeline?", "answer": "2 to 4 weeks depending on scenario complexity and integrations." }
+      ]
+    },
+    "landing-pages": {
+      "metaTitle": "Training Landing Pages & CRO | Mohtaoua",
+      "metaDescription": "Fast, optimized landing pages to convert advertising traffic into information requests for your training programs.",
+      "overview": {
+        "what": "Conversion-focused landing page design and optimization for your ad campaigns.",
+        "who": "Centers sending paid traffic to generic, underperforming pages.",
+        "benefits": ["Improved conversion rate", "Mobile-first and fast", "Continuous A/B testing"],
+        "topics": ["Conversion copywriting", "CRO", "Core Web Vitals speed", "Optimized forms"],
+        "takeaways": ["A good landing page can cut CPL in half", "Speed impacts SEO and ads", "One message = one offer = one page"]
+      },
+      "problem": "Your advertising traffic lands on a slow or generic page that doesn't convert, increasing your cost per lead.",
+      "solution": "We create dedicated landing pages per training program with conversion-focused copywriting, mobile-first design, and A/B testing.",
+      "howItWorks": ["Current funnel analysis", "Wireframe and copywriting", "Fast Next.js development", "A/B testing and CRO optimization"],
+      "industries": ["Any training with paid acquisition", "New session launches", "Seasonal campaigns"],
+      "faqs": [
+        { "question": "How many landing pages are needed?", "answer": "At minimum one per main offering; ideally one per campaign or audience segment." },
+        { "question": "Do you use WordPress or Next.js?", "answer": "We prefer Next.js for speed, SEO, and integration with your existing site." },
+        { "question": "What conversion rate should we aim for?", "answer": "Between 8% and 25% depending on sector, price, and traffic quality." },
+        { "question": "Do you run A/B tests?", "answer": "Yes, on headlines, CTAs, forms, and social proof to continuously improve conversion rate." },
+        { "question": "Are pages SEO optimized?", "answer": "Yes: tags, semantic structure, performance, and structured data when relevant." },
+        { "question": "Do you integrate WhatsApp and scheduling?", "answer": "Yes, WhatsApp buttons, Calendly/HubSpot appointment booking, and multi-step forms." },
+        { "question": "What is the delivery timeline?", "answer": "5 to 10 business days per landing page depending on complexity." },
+        { "question": "Can I edit the content myself?", "answer": "We deliver a clear structure; edits can be handled through our team or a CMS depending on the setup." }
+      ]
+    },
+    "social-media": {
+      "metaTitle": "Social Media for Training Centers | Mohtaoua",
+      "metaDescription": "Editorial strategy, Reels, and community management to strengthen your training center's brand awareness in Morocco.",
+      "overview": {
+        "what": "Strategic social media management to build a strong educational brand and fuel acquisition.",
+        "who": "Centers that want a consistent presence and content that generates engagement and leads.",
+        "benefits": ["Professional brand image", "High-performing video content", "Community engagement"],
+        "topics": ["Reels & carousels", "Editorial calendar", "Community management", "Reporting"],
+        "takeaways": ["Social feeds ad retargeting", "Consistency beats virality", "Content should sell without selling"]
+      },
+      "problem": "Your social presence is irregular, unengaging, and doesn't support your advertising campaigns.",
+      "solution": "We define an editorial line, produce Reels and carousels, and manage your community with monthly reporting.",
+      "howItWorks": ["Existing audit and benchmark", "Monthly editorial strategy", "Production and publishing", "Analysis and adjustments"],
+      "industries": ["Professional training", "Private schools", "Coaches and independent trainers"],
+      "faqs": [
+        { "question": "Which social networks do you manage?", "answer": "Instagram, Facebook, LinkedIn, and TikTok depending on your target audience." },
+        { "question": "Do you produce Reels on-site?", "answer": "Yes, on-site filming or remote depending on the chosen package." },
+        { "question": "How many posts per week?", "answer": "From 3 to 7 depending on the package: posts, stories, and Reels." },
+        { "question": "Does social media generate leads?", "answer": "Indirectly through awareness, social proof, and retargeting; we link social and ads." },
+        { "question": "Do you write in Arabic and French?", "answer": "Yes, bilingual or trilingual content depending on your market." },
+        { "question": "Do you manage comments and messages?", "answer": "Yes, with community management and a defined response SLA." },
+        { "question": "Do you provide reporting?", "answer": "Monthly report: reach, engagement, growth, top content." },
+        { "question": "Can social and Meta Ads be combined?", "answer": "Absolutely — it's our recommended approach to maximize ROAS." }
+      ]
+    },
+    "crm-data": {
+      "metaTitle": "CRM & Data for Training Centers | Mohtaoua",
+      "metaDescription": "CRM implementation, dashboards, and attribution to manage your training center's acquisition with reliable data.",
+      "overview": {
+        "what": "CRM setup and optimization with dashboards to manage training acquisition.",
+        "who": "Centers losing leads due to lack of a centralized tool or unsure which channel performs.",
+        "benefits": ["Real-time lead visibility", "Multi-touch attribution", "Data-driven decisions"],
+        "topics": ["HubSpot / Pipedrive", "Dashboards", "Attribution", "Ads integrations"],
+        "takeaways": ["Without a CRM, optimizing real CPL is impossible", "Attribution reveals truly performing channels", "Dashboards align marketing and sales"]
+      },
+      "problem": "Your leads are scattered (Excel, WhatsApp, email) and you don't know which channel or campaign actually generates enrollments.",
+      "solution": "We implement a suitable CRM, connect your lead sources, and create real-time dashboards to manage acquisition.",
+      "howItWorks": ["Audit of current lead flows", "CRM selection and setup", "Ads and form integrations", "Dashboards and team training"],
+      "industries": ["Multi-program centers", "Groups with multiple campuses", "Growing organizations"],
+      "faqs": [
+        { "question": "Which CRMs do you recommend?", "answer": "HubSpot for the full ecosystem; Pipedrive for sales simplicity; Salesforce for large groups." },
+        { "question": "Can you migrate our existing data?", "answer": "Yes, import from Excel, Google Sheets, or a legacy CRM." },
+        { "question": "Do you connect Meta and Google to the CRM?", "answer": "Yes, via native integrations, Zapier/Make, or API depending on the setup." },
+        { "question": "Which KPIs should we track for training?", "answer": "Leads, CPL, contact rate, appointments, enrollment rate, CAC, and ROAS per program." },
+        { "question": "Do you create custom dashboards?", "answer": "Yes, real-time dashboards (Looker Studio, HubSpot, Notion) based on your needs." },
+        { "question": "Do you train our teams?", "answer": "Yes, onboarding session and documentation included." },
+        { "question": "What is the implementation timeline?", "answer": "2 to 6 weeks depending on complexity and number of integrations." },
+        { "question": "Is the CRM included in your packages?", "answer": "Basic implementation is included in the Premium package; CRM licenses are at your expense." }
+      ]
+    }
+  }
+}
