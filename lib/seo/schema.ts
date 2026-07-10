@@ -13,6 +13,7 @@ export function buildOrganizationSchema(input: {
   description: string;
   streetAddress: string;
   city: string;
+  aggregateRating?: { ratingValue: number; reviewCount: number };
 }): SchemaRecord {
   return {
     "@context": "https://schema.org",
@@ -32,6 +33,16 @@ export function buildOrganizationSchema(input: {
     },
     sameAs: Object.values(siteConfig.social),
     logo: `${siteConfig.url}/logo-full.svg`,
+    ...(input.aggregateRating
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: input.aggregateRating.ratingValue,
+            reviewCount: input.aggregateRating.reviewCount,
+            bestRating: 5,
+          },
+        }
+      : {}),
   };
 }
 
@@ -40,6 +51,7 @@ export function buildLocalBusinessSchema(input: {
   description: string;
   streetAddress: string;
   city: string;
+  aggregateRating?: { ratingValue: number; reviewCount: number };
 }): SchemaRecord {
   return {
     "@context": "https://schema.org",
@@ -80,6 +92,16 @@ export function buildLocalBusinessSchema(input: {
       availableLanguage: ["French", "Arabic", "English"],
     },
     sameAs: Object.values(siteConfig.social),
+    ...(input.aggregateRating
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: input.aggregateRating.ratingValue,
+            reviewCount: input.aggregateRating.reviewCount,
+            bestRating: 5,
+          },
+        }
+      : {}),
   };
 }
 

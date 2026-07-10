@@ -101,6 +101,12 @@ const blogMeta: Record<
     topics: ["whatsapp", "conversion", "crm-data", "marketing-automation"],
     priority: 95,
   },
+  "budget-marketing-centre-formation-maroc": {
+    category: "acquisition",
+    services: ["meta-ads", "google-ads", "landing-pages"],
+    topics: ["acquisition", "budget", "cpl", "meta-ads", "google-ads"],
+    priority: 88,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
@@ -198,6 +204,12 @@ export const EXPLICIT_RELATIONS: Record<
     service: ["marketing-automation", "crm-data"],
     blog: ["checklist-landing-page-formation", "generer-leads-centre-formation-maroc"],
     "case-study": ["edunext-automation"],
+  },
+  "budget-marketing-centre-formation-maroc": {
+    service: ["meta-ads", "google-ads", "landing-pages"],
+    blog: ["generer-leads-centre-formation-maroc", "meta-ads-vs-google-ads-formation"],
+    guide: ["meta-ads-centre-formation", "google-ads-centre-formation"],
+    comparison: ["meta-ads-vs-google-ads"],
   },
   "meta-ads-centre-formation": {
     service: ["meta-ads", "landing-pages", "google-ads"],

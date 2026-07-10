@@ -345,6 +345,145 @@
           "answer": "Oui. Nous intégrons CRM, automation et scripts WhatsApp dans nos packs Performance et Premium. Demandez un audit gratuit pour évaluer votre situation actuelle."
         }
       ]
+    },
+    "budget-marketing-centre-formation-maroc": {
+      "title": "Quel budget marketing pour un centre de formation au Maroc ?",
+      "excerpt": "Fourchettes réalistes en MAD, répartition Meta/Google, CPL cible et méthode pour calculer votre budget acquisition sans gaspiller.",
+      "category": "acquisition",
+      "cover": "/logo-full.svg",
+      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "overview": {
+        "what": "Guide chiffré pour définir le budget marketing d'un centre de formation au Maroc : média, production, outils et prestation agence.",
+        "who": "Directeurs de centres, responsables marketing ou gérants qui lancent ou optimisent leur acquisition digitale.",
+        "benefits": [
+          "Fourchettes budget 2026 adaptées au marché marocain",
+          "Méthode de calcul CPL → CAC → budget mensuel",
+          "Répartition optimale Meta Ads vs Google Ads"
+        ],
+        "topics": [
+          "Budget média formation",
+          "CPL et CAC",
+          "Meta Ads vs Google Ads",
+          "Saisonnalité inscriptions"
+        ],
+        "takeaways": [
+          "Comptez 8 000 à 25 000 MAD/mois de média pour démarrer une offre",
+          "Le CPL seul ne suffit pas : suivez le coût par inscription",
+          "70/30 Meta/Google est un bon point de départ, à ajuster par data"
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Introduction : pourquoi le budget marketing fait peur (à tort)",
+          "paragraphs": [
+            "« Combien dois-je dépenser en publicité ? » est la première question que nous entendons lors d'un audit. Pourtant, la bonne question est : combien coûte une inscription, et combien en avez-vous besoin pour remplir vos sessions ?",
+            "Au Maroc, les centres qui sous-investissent stagnent ; ceux qui sur-investissent sans suivi brûlent leur trésorerie. Cet article vous donne des fourchettes concrètes et une méthode de calcul reproductible."
+          ]
+        },
+        {
+          "id": "postes",
+          "heading": "Les 4 postes de budget à distinguer",
+          "paragraphs": [
+            "Confondre budget média et budget total est l'erreur n°1. Voici la décomposition que nous utilisons chez Mohtaoua."
+          ],
+          "bullets": [
+            "Budget média : Meta Ads, Google Ads, TikTok — payé aux plateformes",
+            "Production : créatives vidéo, photos, landing pages",
+            "Outils : CRM, automation, tracking, hébergement landing",
+            "Prestation agence : stratégie, gestion, optimisation, reporting"
+          ]
+        },
+        {
+          "id": "fourchettes",
+          "heading": "Fourchettes réalistes au Maroc en 2026",
+          "paragraphs": [
+            "Ces chiffres concernent le budget média mensuel, hors honoraires agence, pour un centre avec 1 à 3 formations actives."
+          ],
+          "bullets": [
+            "Lancement / test : 8 000 – 12 000 MAD/mois",
+            "Croissance : 15 000 – 25 000 MAD/mois",
+            "Scale multi-villes ou multi-offres : 30 000 – 80 000 MAD/mois",
+            "CPL formation pro typique : 25 – 80 MAD selon niche et ville"
+          ]
+        },
+        {
+          "id": "calcul",
+          "heading": "La méthode de calcul : de l'inscription au budget",
+          "paragraphs": [
+            "Partez de votre objectif commercial, pas du budget disponible.",
+            "Exemple : 20 inscriptions × 3 mois = 60 inscriptions. Taux de conversion lead → inscription : 15 %. Il vous faut ~400 leads qualifiés. CPL cible : 40 MAD → budget média ≈ 16 000 MAD/mois sur 3 mois."
+          ]
+        },
+        {
+          "id": "repartition",
+          "heading": "Comment répartir entre Meta Ads et Google Ads",
+          "paragraphs": [
+            "La répartition dépend de votre maturité et de la demande existante sur votre offre."
+          ],
+          "bullets": [
+            "Phase lancement : 70 % Meta / 30 % Google — créer la demande",
+            "Offre mature (langues, IT) : 50/50 ou 40 % Meta / 60 % Google",
+            "Réallocation mensuelle selon CPL et taux de conversion par canal",
+            "Toujours réserver 10–15 % du budget pour tests créatifs"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Erreurs budget qui coûtent cher",
+          "paragraphs": [
+            "Ces pièges apparaissent dans 8 audits sur 10."
+          ],
+          "bullets": [
+            "Arrêter les campagnes avant 14 jours d'apprentissage algorithmique",
+            "Comparer le CPL sans regarder la qualité des leads",
+            "Oublier le coût de production créative dans le calcul global",
+            "Augmenter le budget de 300 % d'un coup (reset learning phase)",
+            "Ne pas tracker les inscriptions jusqu'à la source publicitaire"
+          ]
+        },
+        {
+          "id": "saisonnalite",
+          "heading": "Saisonnalité des inscriptions au Maroc",
+          "paragraphs": [
+            "Anticiper les pics (rentrée septembre, janvier, pré-été) permet d'optimiser le ROAS. Montez le budget 4–6 semaines avant la date d'ouverture des inscriptions, pas la veille."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion : investir avec méthode, pas au feeling",
+          "paragraphs": [
+            "Un budget marketing formation n'est pas une dépense : c'est un levier d'inscription mesurable. Fixez votre CAC cible, calculez le volume de leads nécessaire, testez sur 90 jours, puis scalez ce qui convertit.",
+            "Notre équipe réalise un audit budget gratuit : analyse de votre offre, simulation CPL/CAC et recommandation de répartition Meta/Google."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quel budget minimum pour tester Meta Ads ?",
+          "answer": "8 000 MAD/mois de média sur une zone (ex. Casablanca) et une offre, pendant 60 à 90 jours, pour obtenir des données exploitables."
+        },
+        {
+          "question": "Faut-il inclure les honoraires agence dans le budget média ?",
+          "answer": "Non. Le budget média va aux plateformes. Les honoraires agence sont un poste séparé, souvent 15–25 % du média ou forfait mensuel."
+        },
+        {
+          "question": "Quel CPL est considéré comme bon au Maroc ?",
+          "answer": "Entre 25 et 55 MAD pour une formation pro bien ciblée. Au-delà de 80 MAD, vérifiez ciblage, créatives et landing page."
+        },
+        {
+          "question": "Peut-on démarrer avec moins de 8 000 MAD/mois ?",
+          "answer": "Possible pour une niche très localisée, mais les volumes seront faibles et l'apprentissage Meta/Google sera lent. Mieux vaut concentrer sur une offre et une ville."
+        },
+        {
+          "question": "Comment Mohtaoua structure ses packs tarifaires ?",
+          "answer": "Nos packs Start, Performance et Premium incluent gestion, création et reporting. Le budget média reste à votre charge et est piloté avec vous. Voir /pricing."
+        },
+        {
+          "question": "Quand augmenter le budget ?",
+          "answer": "Quand le CPL est stable, le taux lead → RDV > 30 % et le CAC reste sous votre marge cible pendant 2 semaines consécutives."
+        }
+      ]
     }
   }
 }

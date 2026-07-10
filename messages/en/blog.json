@@ -345,6 +345,145 @@
           "answer": "Yes. We integrate CRM, automation, and WhatsApp scripts in our Performance and Premium packs. Request a free audit to assess your current situation."
         }
       ]
+    },
+    "budget-marketing-centre-formation-maroc": {
+      "title": "What marketing budget for a training center in Morocco?",
+      "excerpt": "Realistic MAD ranges, Meta/Google split, target CPL, and a method to calculate acquisition budget without waste.",
+      "category": "acquisition",
+      "cover": "/logo-full.svg",
+      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "overview": {
+        "what": "A numbers-driven guide to define marketing budget for training centers in Morocco: media, production, tools, and agency fees.",
+        "who": "Training center directors and marketing managers launching or optimizing digital acquisition.",
+        "benefits": [
+          "2026 budget ranges adapted to the Moroccan market",
+          "CPL → CAC → monthly budget calculation method",
+          "Optimal Meta Ads vs Google Ads allocation"
+        ],
+        "topics": [
+          "Training media budget",
+          "CPL and CAC",
+          "Meta Ads vs Google Ads",
+          "Enrollment seasonality"
+        ],
+        "takeaways": [
+          "Plan 8,000 to 25,000 MAD/month media to launch an offer",
+          "CPL alone is not enough — track cost per enrollment",
+          "70/30 Meta/Google is a solid starting split, adjust with data"
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Introduction: why marketing budget feels scary (but shouldn't)",
+          "paragraphs": [
+            "« How much should I spend on ads? » is the first question we hear in audits. The better question: what does an enrollment cost, and how many do you need to fill sessions?",
+            "In Morocco, under-investing centers stagnate; over-investing without tracking burns cash. This article gives concrete ranges and a repeatable calculation method."
+          ]
+        },
+        {
+          "id": "postes",
+          "heading": "The 4 budget lines to separate",
+          "paragraphs": [
+            "Confusing media budget with total budget is mistake #1. Here is the breakdown we use at Mohtaoua."
+          ],
+          "bullets": [
+            "Media budget: Meta Ads, Google Ads, TikTok — paid to platforms",
+            "Production: video creatives, photos, landing pages",
+            "Tools: CRM, automation, tracking, landing hosting",
+            "Agency fees: strategy, management, optimization, reporting"
+          ]
+        },
+        {
+          "id": "fourchettes",
+          "heading": "Realistic ranges in Morocco in 2026",
+          "paragraphs": [
+            "These figures are monthly media budget, excluding agency fees, for a center with 1–3 active training programs."
+          ],
+          "bullets": [
+            "Launch / test: 8,000 – 12,000 MAD/month",
+            "Growth: 15,000 – 25,000 MAD/month",
+            "Multi-city or multi-offer scale: 30,000 – 80,000 MAD/month",
+            "Typical pro training CPL: 25 – 80 MAD depending on niche and city"
+          ]
+        },
+        {
+          "id": "calcul",
+          "heading": "Calculation method: from enrollment to budget",
+          "paragraphs": [
+            "Start from your commercial goal, not available cash.",
+            "Example: 20 enrollments × 3 months = 60 enrollments. Lead → enrollment rate: 15%. You need ~400 qualified leads. Target CPL: 40 MAD → media budget ≈ 16,000 MAD/month over 3 months."
+          ]
+        },
+        {
+          "id": "repartition",
+          "heading": "How to split Meta Ads and Google Ads",
+          "paragraphs": [
+            "Split depends on maturity and existing demand for your offer."
+          ],
+          "bullets": [
+            "Launch phase: 70% Meta / 30% Google — create demand",
+            "Mature offer (languages, IT): 50/50 or 40% Meta / 60% Google",
+            "Monthly reallocation based on CPL and conversion by channel",
+            "Always reserve 10–15% for creative testing"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Budget mistakes that cost dearly",
+          "paragraphs": [
+            "These traps appear in 8 out of 10 audits."
+          ],
+          "bullets": [
+            "Stopping campaigns before 14 days of algorithm learning",
+            "Comparing CPL without looking at lead quality",
+            "Forgetting creative production cost in total calculation",
+            "Increasing budget 300% at once (resets learning phase)",
+            "Not tracking enrollments back to ad source"
+          ]
+        },
+        {
+          "id": "saisonnalite",
+          "heading": "Enrollment seasonality in Morocco",
+          "paragraphs": [
+            "Anticipate peaks (September, January, pre-summer) to optimize ROAS. Increase budget 4–6 weeks before enrollment opens, not the day before."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion: invest with method, not gut feeling",
+          "paragraphs": [
+            "Training marketing budget is not an expense: it's a measurable enrollment lever. Set target CAC, calculate required lead volume, test for 90 days, then scale what converts.",
+            "Our team offers a free budget audit: offer analysis, CPL/CAC simulation, and Meta/Google allocation recommendation."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What minimum budget to test Meta Ads?",
+          "answer": "8,000 MAD/month media in one area (e.g. Casablanca) and one offer, for 60–90 days, to get usable data."
+        },
+        {
+          "question": "Should agency fees be included in media budget?",
+          "answer": "No. Media budget goes to platforms. Agency fees are separate, often 15–25% of media or a monthly flat fee."
+        },
+        {
+          "question": "What CPL is considered good in Morocco?",
+          "answer": "Between 25 and 55 MAD for well-targeted professional training. Above 80 MAD, check targeting, creatives, and landing page."
+        },
+        {
+          "question": "Can you start with less than 8,000 MAD/month?",
+          "answer": "Possible for a very local niche, but volumes will be low and Meta/Google learning will be slow. Better to focus on one offer and one city."
+        },
+        {
+          "question": "How does Mohtaoua structure pricing packs?",
+          "answer": "Our Start, Performance, and Premium packs include management, creation, and reporting. Media budget remains yours and is managed with you. See /pricing."
+        },
+        {
+          "question": "When to increase budget?",
+          "answer": "When CPL is stable, lead → appointment rate > 30%, and CAC stays below your target margin for 2 consecutive weeks."
+        }
+      ]
     }
   }
 }
