@@ -107,6 +107,12 @@ const blogMeta: Record<
     topics: ["acquisition", "budget", "cpl", "meta-ads", "google-ads"],
     priority: 88,
   },
+  "campagne-inscriptions-rentree-formation-maroc": {
+    category: "acquisition",
+    services: ["meta-ads", "google-ads", "landing-pages", "marketing-automation"],
+    topics: ["acquisition", "rentree", "saisonnalite", "meta-ads", "google-ads"],
+    priority: 92,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
@@ -154,24 +160,24 @@ export const EXPLICIT_RELATIONS: Record<
     service: ["google-ads", "landing-pages", "marketing-automation", "crm-data"],
     guide: ["meta-ads-centre-formation"],
     "case-study": ["skola-formation"],
-    blog: ["meta-ads-vs-google-ads-formation", "generer-leads-centre-formation-maroc"],
+    blog: ["meta-ads-vs-google-ads-formation", "generer-leads-centre-formation-maroc", "campagne-inscriptions-rentree-formation-maroc"],
     comparison: ["meta-ads-vs-google-ads"],
   },
   "google-ads": {
     service: ["meta-ads", "landing-pages", "crm-data"],
     guide: ["google-ads-centre-formation"],
     "case-study": ["campusup-search"],
-    blog: ["meta-ads-vs-google-ads-formation", "generer-leads-centre-formation-maroc"],
+    blog: ["meta-ads-vs-google-ads-formation", "generer-leads-centre-formation-maroc", "campagne-inscriptions-rentree-formation-maroc"],
     comparison: ["meta-ads-vs-google-ads"],
   },
   "marketing-automation": {
     service: ["crm-data", "landing-pages", "meta-ads"],
     "case-study": ["edunext-automation"],
-    blog: ["whatsapp-convertir-leads-formation-maroc", "checklist-landing-page-formation"],
+    blog: ["whatsapp-convertir-leads-formation-maroc", "checklist-landing-page-formation", "campagne-inscriptions-rentree-formation-maroc"],
   },
   "landing-pages": {
     service: ["meta-ads", "google-ads", "marketing-automation"],
-    blog: ["checklist-landing-page-formation", "generer-leads-centre-formation-maroc"],
+    blog: ["checklist-landing-page-formation", "generer-leads-centre-formation-maroc", "campagne-inscriptions-rentree-formation-maroc"],
     "case-study": ["skola-formation"],
   },
   "social-media": {
@@ -207,13 +213,20 @@ export const EXPLICIT_RELATIONS: Record<
   },
   "budget-marketing-centre-formation-maroc": {
     service: ["meta-ads", "google-ads", "landing-pages"],
-    blog: ["generer-leads-centre-formation-maroc", "meta-ads-vs-google-ads-formation"],
+    blog: ["generer-leads-centre-formation-maroc", "meta-ads-vs-google-ads-formation", "campagne-inscriptions-rentree-formation-maroc"],
     guide: ["meta-ads-centre-formation", "google-ads-centre-formation"],
     comparison: ["meta-ads-vs-google-ads"],
   },
+  "campagne-inscriptions-rentree-formation-maroc": {
+    service: ["meta-ads", "google-ads", "landing-pages", "marketing-automation"],
+    blog: ["budget-marketing-centre-formation-maroc", "generer-leads-centre-formation-maroc", "whatsapp-convertir-leads-formation-maroc"],
+    guide: ["meta-ads-centre-formation", "google-ads-centre-formation"],
+    comparison: ["meta-ads-vs-google-ads"],
+    "case-study": ["skola-formation", "campusup-search"],
+  },
   "meta-ads-centre-formation": {
     service: ["meta-ads", "landing-pages", "google-ads"],
-    blog: ["meta-ads-vs-google-ads-formation", "generer-leads-centre-formation-maroc"],
+    blog: ["meta-ads-vs-google-ads-formation", "generer-leads-centre-formation-maroc", "campagne-inscriptions-rentree-formation-maroc"],
     guide: ["google-ads-centre-formation"],
     "case-study": ["skola-formation"],
     comparison: ["meta-ads-vs-google-ads"],

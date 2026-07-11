@@ -484,6 +484,163 @@
           "answer": "Quand le CPL est stable, le taux lead → RDV > 30 % et le CAC reste sous votre marge cible pendant 2 semaines consécutives."
         }
       ]
+    },
+    "campagne-inscriptions-rentree-formation-maroc": {
+      "title": "Campagne rentrée : comment remplir vos sessions de formation au Maroc",
+      "excerpt": "Calendrier juillet–septembre, structure Meta/Google, offres early-bird et plan d'action pour maximiser les inscriptions de la rentrée.",
+      "category": "acquisition",
+      "cover": "/logo-full.svg",
+      "relatedServices": ["meta-ads", "google-ads", "landing-pages", "marketing-automation"],
+      "overview": {
+        "what": "Plan opérationnel pour lancer et piloter une campagne d'inscriptions rentrée (septembre) pour centres de formation au Maroc.",
+        "who": "Directeurs et responsables marketing qui préparent la rentrée de septembre ou janvier et doivent remplir leurs sessions à temps.",
+        "benefits": [
+          "Calendrier semaine par semaine (juillet → septembre)",
+          "Structure de campagnes Meta Ads et Google Ads adaptée à la saisonnalité",
+          "Scripts d'offre, landing page et relances WhatsApp prêts à déployer"
+        ],
+        "topics": [
+          "Rentrée formation Maroc",
+          "Saisonnalité inscriptions",
+          "Meta Ads rentrée",
+          "Google Ads rentrée",
+          "Early-bird et urgence"
+        ],
+        "takeaways": [
+          "Lancez vos campagnes 6 semaines avant l'ouverture des inscriptions, pas la veille",
+          "Préparez 3 angles créatifs : projet pro, urgence places, preuve sociale",
+          "Augmentez le budget de 30–50 % en août, puis basculez en retargeting en septembre"
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Introduction : la rentrée se joue en juillet–août",
+          "paragraphs": [
+            "Chaque année, les mêmes centres appellent fin août : « On n'a que 40 % des places remplies, que faire ? » La réponse est presque toujours la même : c'est trop tard pour construire une machine d'acquisition. La rentrée de septembre se prépare dès juillet.",
+            "Au Maroc, la demande formation explose entre mi-août et mi-septembre : reconversions professionnelles, jeunes diplômés, salariés en attente de promotion. Ceux qui captent cette fenêtre avec des campagnes structurées remplissent leurs sessions. Les autres brûlent du budget en urgence, avec un CPL 2× plus élevé."
+          ]
+        },
+        {
+          "id": "calendrier",
+          "heading": "Le calendrier idéal : juillet → septembre",
+          "paragraphs": [
+            "Voici le planning que nous appliquons chez Mohtaoua pour nos clients centres de formation."
+          ],
+          "bullets": [
+            "Juillet (S1–S2) : audit offre, landing page rentrée, créatives vidéo, tracking inscriptions",
+            "Juillet (S3–S4) : lancement campagnes test Meta + Google, budget modéré (60 % du pic)",
+            "Août (S1–S2) : scale des audiences gagnantes, +30 % budget, lancement offre early-bird",
+            "Août (S3–S4) : intensification, retargeting visiteurs, campagnes WhatsApp sur leads tièdes",
+            "Septembre (S1) : urgence « dernières places », retargeting agressif, relances conseillers",
+            "Septembre (S2+) : bascule acquisition → nurturing sur liste d'attente session suivante"
+          ]
+        },
+        {
+          "id": "offre",
+          "heading": "Structurer l'offre rentrée qui convertit",
+          "paragraphs": [
+            "Une campagne rentrée ne vend pas une formation : elle vend une session avec une date, des places limitées et un bénéfice concret.",
+            "Les messages qui performent le mieux au Maroc combinent clarté du débouché (emploi, certification, salaire) et réduction de friction (paiement échelonné, session du soir, présentiel + online)."
+          ],
+          "bullets": [
+            "Early-bird : -10 à -15 % ou frais d'inscription offerts jusqu'à une date fixe",
+            "Urgence réelle : places limitées par session (afficher le chiffre, pas « bientôt complet »)",
+            "Preuve sociale : témoignages vidéo d'anciens, taux d'insertion, logos entreprises partenaires",
+            "CTA unique : « Réserver ma place rentrée » plutôt que « En savoir plus »"
+          ]
+        },
+        {
+          "id": "meta-ads",
+          "heading": "Meta Ads : structure de campagne rentrée",
+          "paragraphs": [
+            "Sur Meta, la rentrée est une période d'audience froide réceptive. Structurez en 3 campagnes distinctes pour garder le contrôle du budget."
+          ],
+          "bullets": [
+            "Campagne 1 — Prospection : Advantage+ ou CBO, 3–5 créatives (vidéo 15–30 s, carrousel témoignages)",
+            "Campagne 2 — Retargeting : visiteurs landing 7/14/30 jours, engagement page Facebook/Instagram",
+            "Campagne 3 — Leads chauds : lookalike 1–3 % sur inscrits N-1 ou clients convertis",
+            "Ciblage : 22–45 ans, centres d'intérêt formation + métiers cibles, géo ville + 25 km",
+            "Budget : démarrer 150–250 MAD/jour par offre, monter à 400–600 MAD/jour en pic août"
+          ]
+        },
+        {
+          "id": "google-ads",
+          "heading": "Google Ads : capter l'intention recherche",
+          "paragraphs": [
+            "En rentrée, Google Ads devient stratégique : les prospects tapent « formation [métier] Casablanca », « inscription rentrée [domaine] ». Ne laissez pas ces clics à vos concurrents."
+          ],
+          "bullets": [
+            "Campagnes Search : mots-clés transactionnels (inscription, prix, rentrée, session septembre)",
+            "Campagnes Performance Max : avec assets rentrée + feed si catalogue multi-formations",
+            "Annonces RSA : mentionner date de début, early-bird, ville, certification",
+            "Extensions : liens annexes (programme, témoignages, contact), appel, lieu",
+            "Enchères : Target CPA une fois 30+ conversions/mois, sinon Maximize Conversions plafonné"
+          ]
+        },
+        {
+          "id": "conversion",
+          "heading": "Landing page, WhatsApp et relances",
+          "paragraphs": [
+            "Le trafic rentrée est cher. Chaque visiteur non converti doit entrer dans un funnel de relance.",
+            "Votre landing page rentrée doit afficher la date de session, le nombre de places restantes (même approximatif), le programme en 5 points et un formulaire court (nom, téléphone, formation)."
+          ],
+          "bullets": [
+            "WhatsApp : réponse < 5 min, script accueil avec date session + lien paiement acompte",
+            "Relance J+1, J+3, J+7 sur leads non convertis (automation ou CRM)",
+            "Retargeting : annonce « Votre place rentrée vous attend » avec countdown",
+            "Tracking : pixel Meta + conversions Google + événement inscription CRM"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "5 erreurs qui font rater la rentrée",
+          "paragraphs": [
+            "Ces erreurs reviennent chaque année dans nos audits pré-rentrée."
+          ],
+          "bullets": [
+            "Attendre septembre pour lancer les campagnes (CPL ×2, pression commerciale maximale)",
+            "Une seule créative pendant 6 semaines (fatigue audience, baisse CTR)",
+            "Landing page générique sans mention « rentrée septembre »",
+            "Pas de retargeting : 97 % des visiteurs partent sans convertir",
+            "Équipe commerciale sous-dimensionnée en août (leads non traités = budget gaspillé)"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion : anticipez, structurez, scalez",
+          "paragraphs": [
+            "La rentrée n'est pas une surprise : c'est un pic prévisible. Les centres qui planifient en juillet, testent en août et intensifient en septembre remplissent leurs sessions avec un CAC maîtrisé.",
+            "Besoin d'un plan rentrée clé en main ? Notre équipe audite votre offre, structure vos campagnes Meta/Google, optimise votre landing et configure vos relances WhatsApp — livrable sous 7 jours."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Quand lancer les campagnes rentrée septembre ?",
+          "answer": "Idéalement mi-juillet pour les tests, scale mi-août. Minimum : début août avec budget agressif et offre early-bird."
+        },
+        {
+          "question": "Quel budget média pour une campagne rentrée ?",
+          "answer": "15 000 à 30 000 MAD/mois sur juillet–août pour une offre principale en ville unique. Multiplier par le nombre d'offres actives."
+        },
+        {
+          "question": "Meta Ads ou Google Ads en priorité pour la rentrée ?",
+          "answer": "Meta pour créer la demande et toucher les indécis. Google pour capter la recherche active. Commencez 65/35 Meta/Google, ajustez selon CPL et taux de conversion."
+        },
+        {
+          "question": "Faut-il une landing page dédiée rentrée ?",
+          "answer": "Oui. Une page spécifique avec date, places, early-bird et témoignages convertit 2 à 3× mieux qu'une page formation générique."
+        },
+        {
+          "question": "Comment gérer les leads qui ne convertissent pas avant septembre ?",
+          "answer": "Relances automatisées, retargeting, puis bascule en liste d'attente pour la session d'octobre ou janvier. Ne jetez pas les leads : la rentrée dure 6 semaines."
+        },
+        {
+          "question": "Mohtaoua peut-elle gérer notre campagne rentrée ?",
+          "answer": "Oui. Nous proposons un pack rentrée : stratégie, création, gestion Meta/Google, landing page et automation WhatsApp. Demandez un audit gratuit sur /contact."
+        }
+      ]
     }
   }
 }

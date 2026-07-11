@@ -6,6 +6,7 @@ export const BLOG_POST_SLUGS = [
   "checklist-landing-page-formation",
   "whatsapp-convertir-leads-formation-maroc",
   "budget-marketing-centre-formation-maroc",
+  "campagne-inscriptions-rentree-formation-maroc",
 ] as const;
 
 export const BLOG_CATEGORIES = [
@@ -33,6 +34,7 @@ export const BLOG_PUBLISHED: Record<BlogPostSlug, string> = {
   "checklist-landing-page-formation": "2026-05-10",
   "whatsapp-convertir-leads-formation-maroc": "2026-07-10",
   "budget-marketing-centre-formation-maroc": "2026-07-11",
+  "campagne-inscriptions-rentree-formation-maroc": "2026-07-12",
 };
 
 export const AUTHOR = {

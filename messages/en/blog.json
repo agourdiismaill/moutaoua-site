@@ -484,6 +484,163 @@
           "answer": "When CPL is stable, lead → appointment rate > 30%, and CAC stays below your target margin for 2 consecutive weeks."
         }
       ]
+    },
+    "campagne-inscriptions-rentree-formation-maroc": {
+      "title": "Back-to-school campaign: how to fill your training sessions in Morocco",
+      "excerpt": "July–September calendar, Meta/Google structure, early-bird offers, and action plan to maximize back-to-school enrollments.",
+      "category": "acquisition",
+      "cover": "/logo-full.svg",
+      "relatedServices": ["meta-ads", "google-ads", "landing-pages", "marketing-automation"],
+      "overview": {
+        "what": "Operational plan to launch and manage a September back-to-school enrollment campaign for training centers in Morocco.",
+        "who": "Directors and marketing managers preparing September or January intake who need to fill sessions on time.",
+        "benefits": [
+          "Week-by-week calendar (July → September)",
+          "Meta Ads and Google Ads campaign structure adapted to seasonality",
+          "Offer scripts, landing page, and WhatsApp follow-ups ready to deploy"
+        ],
+        "topics": [
+          "Training back-to-school Morocco",
+          "Enrollment seasonality",
+          "Meta Ads back-to-school",
+          "Google Ads back-to-school",
+          "Early-bird and urgency"
+        ],
+        "takeaways": [
+          "Launch campaigns 6 weeks before enrollment opens, not the day before",
+          "Prepare 3 creative angles: career project, seat urgency, social proof",
+          "Increase budget 30–50% in August, then switch to retargeting in September"
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Introduction: back-to-school is won in July–August",
+          "paragraphs": [
+            "Every year, the same centers call in late August: « We only have 40% of seats filled, what do we do? » The answer is almost always the same: it's too late to build an acquisition machine. The September intake is prepared from July.",
+            "In Morocco, training demand surges between mid-August and mid-September: career changers, recent graduates, employees waiting for promotion. Those who capture this window with structured campaigns fill their sessions. Others burn budget in panic mode, with CPL 2× higher."
+          ]
+        },
+        {
+          "id": "calendrier",
+          "heading": "The ideal calendar: July → September",
+          "paragraphs": [
+            "Here is the schedule we apply at Mohtaoua for our training center clients."
+          ],
+          "bullets": [
+            "July (W1–W2): offer audit, back-to-school landing page, video creatives, enrollment tracking",
+            "July (W3–W4): launch test Meta + Google campaigns, moderate budget (60% of peak)",
+            "August (W1–W2): scale winning audiences, +30% budget, launch early-bird offer",
+            "August (W3–W4): intensify, retarget visitors, WhatsApp campaigns on warm leads",
+            "September (W1): urgency « last seats », aggressive retargeting, advisor follow-ups",
+            "September (W2+): shift acquisition → nurturing on waitlist for next session"
+          ]
+        },
+        {
+          "id": "offre",
+          "heading": "Structuring the back-to-school offer that converts",
+          "paragraphs": [
+            "A back-to-school campaign doesn't sell a training program: it sells a session with a date, limited seats, and a concrete benefit.",
+            "Top-performing messages in Morocco combine clarity on outcomes (job, certification, salary) and reduced friction (installments, evening sessions, in-person + online)."
+          ],
+          "bullets": [
+            "Early-bird: -10 to -15% or waived registration fees until a fixed date",
+            "Real urgency: limited seats per session (show the number, not « almost full »)",
+            "Social proof: alumni video testimonials, placement rate, partner company logos",
+            "Single CTA: « Reserve my back-to-school seat » instead of « Learn more »"
+          ]
+        },
+        {
+          "id": "meta-ads",
+          "heading": "Meta Ads: back-to-school campaign structure",
+          "paragraphs": [
+            "On Meta, back-to-school is a period when cold audiences are receptive. Structure in 3 separate campaigns to control budget."
+          ],
+          "bullets": [
+            "Campaign 1 — Prospecting: Advantage+ or CBO, 3–5 creatives (15–30s video, testimonial carousel)",
+            "Campaign 2 — Retargeting: landing visitors 7/14/30 days, Facebook/Instagram page engagement",
+            "Campaign 3 — Warm leads: 1–3% lookalike on last year's enrollments or converted clients",
+            "Targeting: 22–45 years, training + target job interests, city geo + 25 km",
+            "Budget: start 150–250 MAD/day per offer, scale to 400–600 MAD/day in August peak"
+          ]
+        },
+        {
+          "id": "google-ads",
+          "heading": "Google Ads: capture search intent",
+          "paragraphs": [
+            "During back-to-school, Google Ads becomes strategic: prospects search « training [job] Casablanca », « September enrollment [field] ». Don't let competitors take those clicks."
+          ],
+          "bullets": [
+            "Search campaigns: transactional keywords (enrollment, price, back-to-school, September session)",
+            "Performance Max: with back-to-school assets + feed if multi-program catalog",
+            "RSA ads: mention start date, early-bird, city, certification",
+            "Extensions: sitelinks (program, testimonials, contact), call, location",
+            "Bidding: Target CPA once 30+ conversions/month, otherwise capped Maximize Conversions"
+          ]
+        },
+        {
+          "id": "conversion",
+          "heading": "Landing page, WhatsApp, and follow-ups",
+          "paragraphs": [
+            "Back-to-school traffic is expensive. Every non-converting visitor must enter a follow-up funnel.",
+            "Your back-to-school landing page should show session date, remaining seats (even approximate), 5-point program, and a short form (name, phone, training)."
+          ],
+          "bullets": [
+            "WhatsApp: reply < 5 min, welcome script with session date + deposit payment link",
+            "Follow-up D+1, D+3, D+7 on non-converted leads (automation or CRM)",
+            "Retargeting: « Your back-to-school seat awaits » ad with countdown",
+            "Tracking: Meta pixel + Google conversions + CRM enrollment event"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "5 mistakes that ruin back-to-school",
+          "paragraphs": [
+            "These mistakes come back every year in our pre-back-to-school audits."
+          ],
+          "bullets": [
+            "Waiting until September to launch campaigns (CPL ×2, maximum sales pressure)",
+            "One creative for 6 weeks (audience fatigue, CTR drop)",
+            "Generic landing page without « September back-to-school » mention",
+            "No retargeting: 97% of visitors leave without converting",
+            "Understaffed sales team in August (untreated leads = wasted budget)"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion: anticipate, structure, scale",
+          "paragraphs": [
+            "Back-to-school isn't a surprise: it's a predictable peak. Centers that plan in July, test in August, and intensify in September fill sessions with controlled CAC.",
+            "Need a turnkey back-to-school plan? Our team audits your offer, structures Meta/Google campaigns, optimizes your landing page, and configures WhatsApp follow-ups — delivered within 7 days."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "When to launch September back-to-school campaigns?",
+          "answer": "Ideally mid-July for tests, scale mid-August. Minimum: early August with aggressive budget and early-bird offer."
+        },
+        {
+          "question": "What media budget for a back-to-school campaign?",
+          "answer": "15,000 to 30,000 MAD/month in July–August for one main offer in a single city. Multiply by number of active offers."
+        },
+        {
+          "question": "Meta Ads or Google Ads priority for back-to-school?",
+          "answer": "Meta to create demand and reach undecided prospects. Google to capture active search. Start 65/35 Meta/Google, adjust by CPL and conversion rate."
+        },
+        {
+          "question": "Do you need a dedicated back-to-school landing page?",
+          "answer": "Yes. A specific page with date, seats, early-bird, and testimonials converts 2–3× better than a generic training page."
+        },
+        {
+          "question": "How to handle leads who don't convert before September?",
+          "answer": "Automated follow-ups, retargeting, then shift to waitlist for October or January session. Don't discard leads: back-to-school lasts 6 weeks."
+        },
+        {
+          "question": "Can Mohtaoua manage our back-to-school campaign?",
+          "answer": "Yes. We offer a back-to-school pack: strategy, creation, Meta/Google management, landing page, and WhatsApp automation. Request a free audit at /contact."
+        }
+      ]
     }
   }
 }
