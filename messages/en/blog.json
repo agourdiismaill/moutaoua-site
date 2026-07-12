@@ -641,6 +641,181 @@
           "answer": "Yes. We offer a back-to-school pack: strategy, creation, Meta/Google management, landing page, and WhatsApp automation. Request a free audit at /contact."
         }
       ]
+    },
+    "retargeting-leads-formation-maroc": {
+      "title": "Meta & Google retargeting: win back prospects who haven't enrolled yet",
+      "excerpt": "Audiences, time windows, budgets, and creatives to turn 20–35% of your visitors and warm leads into enrollments.",
+      "category": "publicite",
+      "cover": "/logo-full.svg",
+      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "overview": {
+        "what": "Practical guide to structuring Meta Ads and Google Ads retargeting campaigns and recovering training prospects who didn't convert on their first visit.",
+        "who": "Marketing managers and training center directors who generate leads but struggle to convert them into enrollments.",
+        "benefits": [
+          "Meta and Google audience structure ready to deploy",
+          "Prospecting vs retargeting budget split",
+          "Creative scripts and urgency messages that convert"
+        ],
+        "topics": [
+          "Training retargeting Morocco",
+          "Meta Ads remarketing",
+          "Google Ads remarketing",
+          "Warm lead conversion",
+          "Custom audiences"
+        ],
+        "takeaways": [
+          "Allocate 20–30% of media budget to retargeting once you have 500+ visitors/month",
+          "Segment by intent: landing visitors, form leads, social engagers",
+          "A warm lead converts 3–5× better in retargeting than a cold audience"
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Introduction: why retargeting delivers your best ROI",
+          "paragraphs": [
+            "97% of visitors leave your landing page without sharing contact details. Of the 3% who become leads, only 10–20% enroll on first contact. The rest isn't lost — it's warm.",
+            "Retargeting (remarketing) shows your ads again to people who already know your center. In Morocco, for professional training, cost per enrollment in retargeting is often 40–60% lower than cold traffic — if you structure audiences correctly."
+          ]
+        },
+        {
+          "id": "funnel",
+          "heading": "Understand the funnel: who to retarget and when",
+          "paragraphs": [
+            "Not all warm audiences are equal. Prioritize by intent level."
+          ],
+          "bullets": [
+            "Level 1 — Landing visitors 7 days: saw your offer, didn't convert (top priority)",
+            "Level 2 — Unconverted form leads 14 days: shared contact details",
+            "Level 3 — Social engagement 30 days: 50%+ video, Messenger click, comment",
+            "Level 4 — Visitors 30–90 days: broad audience, soft reminder messages",
+            "Always exclude: enrollees, customers, converted leads < 30 days"
+          ]
+        },
+        {
+          "id": "meta-ads",
+          "heading": "Meta Ads: audiences and campaign structure",
+          "paragraphs": [
+            "On Meta, create a dedicated retargeting campaign separate from prospecting. CBO (Campaign Budget Optimization) works well with 2–4 ad sets per intent level."
+          ],
+          "bullets": [
+            "Custom Audience: site visitors 7/14/30 days (Meta pixel + ViewContent event)",
+            "Custom Audience: leads (Lead event or hashed CRM list upload)",
+            "Engagement Audience: Facebook/Instagram page visitors, 30-day interactions",
+            "Exclusion: buyers/enrollees + converted leads (CompleteRegistration event)",
+            "Placements: Advantage+ placements, unless vertical videos → Stories/Reels only",
+            "Budget: 20–30% of total budget, minimum 80–120 MAD/day per offer"
+          ]
+        },
+        {
+          "id": "google-ads",
+          "heading": "Google Ads: Search and Display remarketing",
+          "paragraphs": [
+            "Google offers two levers: Display/YouTube remarketing for visual reminders, and remarketing audiences in Search to capture follow-up searches (« training X price », « center Y reviews »)."
+          ],
+          "bullets": [
+            "Site remarketing list: Google Ads tag + consent mode (GDPR/cookies)",
+            "Responsive Display campaign: back-to-school banners, testimonials, early-bird",
+            "RLSA (Remarketing Lists for Search Ads): +20 to +50% bids on warm audiences",
+            "Performance Max: remarketing audience signal in dedicated asset group",
+            "Window: 7 days for urgency, 30 days for reminder, 90 days max for training",
+            "Exclusion: 30-day converters in all acquisition campaigns"
+          ]
+        },
+        {
+          "id": "creatives",
+          "heading": "Creatives and messages that convert in retargeting",
+          "paragraphs": [
+            "Don't reuse prospecting creatives. Retargeting speaks to someone who knows you: be direct, personal, action-oriented."
+          ],
+          "bullets": [
+            "Urgency angle: « Only X seats left for the [month] session »",
+            "Reminder angle: « You viewed [training] — any questions? »",
+            "Social proof angle: 15s video testimonial from a graduate of the same program",
+            "Offer angle: early-bird reminder with visible deadline",
+            "Format: short video > static image; carousel to compare sessions",
+            "CTA: « Reserve my seat » / « Talk to an advisor » — not « Discover »"
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Budget and prospecting / retargeting split",
+          "paragraphs": [
+            "The rule we apply at Mohtaoua: until you have fewer than 300 unique visitors/month on the landing, retargeting lacks volume. Beyond 500, activate it systematically."
+          ],
+          "bullets": [
+            "Test phase (< 500 visitors/month): 90% prospecting / 10% retargeting",
+            "Growth phase (500–2,000 visitors): 75% prospecting / 25% retargeting",
+            "Scale phase (> 2,000 visitors): 65–70% prospecting / 30–35% retargeting",
+            "Seasonal peak (back-to-school): raise retargeting to 40% in September",
+            "Meta frequency: monitor, cap at 3–4 impressions/day per person",
+            "Retargeting KPI: cost per enrollment, not CPL (leads already exist)"
+          ]
+        },
+        {
+          "id": "tracking",
+          "heading": "Essential tracking before launch",
+          "paragraphs": [
+            "Without clean tracking, your audiences will be empty or polluted. Check these prerequisites."
+          ],
+          "bullets": [
+            "Meta pixel installed + Lead and CompleteRegistration events configured",
+            "Google tag + imported conversions (form, phone click, thank-you page)",
+            "Consent mode v2 enabled (compliant cookie banner)",
+            "Consistent UTMs on all campaigns for CRM attribution",
+            "Exclude internal teams and bots (IP filter if needed)"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Common retargeting mistakes",
+          "paragraphs": [
+            "These mistakes explain why many centers abandon retargeting after 2 weeks."
+          ],
+          "bullets": [
+            "Mixing prospecting and retargeting in the same CBO campaign",
+            "Retargeting all site traffic (blog, contact) instead of training landing",
+            "Frequency too high → fatigue, unsubscribes, rising CPL",
+            "No exclusion of enrollees → waste and poor experience",
+            "Same creatives as prospecting → no personalization",
+            "Stopping retargeting as soon as a lead is created (a lead isn't an enrollment)"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion: retargeting complements, doesn't replace",
+          "paragraphs": [
+            "Retargeting doesn't create demand — it recovers it. Used alongside prospecting campaigns and WhatsApp follow-ups, it can represent 20–35% of monthly enrollments at lower cost.",
+            "Our team configures your Meta/Google audiences, CRM exclusions, and retargeting creatives in under a week. Request a free audit at /contact."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many visitors before activating retargeting?",
+          "answer": "From 500 unique visitors/month on your training landing. Below that, audiences are too small and CPM stays high."
+        },
+        {
+          "question": "What's the minimum daily budget for Meta retargeting?",
+          "answer": "80 to 120 MAD/day per offer. Below 50 MAD/day, delivery is too irregular to exit the learning phase."
+        },
+        {
+          "question": "Should you retarget leads who filled out the form?",
+          "answer": "Yes, it's the most profitable audience. Combine Meta/Google retargeting with WhatsApp follow-ups D+1, D+3, D+7 to maximize conversion."
+        },
+        {
+          "question": "Meta Ads or Google Ads priority for retargeting?",
+          "answer": "Meta first: more volume, engaging video formats, often lower cost. Google as complement for RLSA and Display reminders on brand searches."
+        },
+        {
+          "question": "How to avoid ad over-frequency?",
+          "answer": "Cap frequency at 3–4/day on Meta, use short windows (7–14 days) for urgency, and rotate 2–3 creatives per week."
+        },
+        {
+          "question": "Can Mohtaoua set up our retargeting campaigns?",
+          "answer": "Yes. We install tracking, create audiences, produce creatives, and manage prospecting/retargeting budget. See our packs at /pricing or request an audit at /contact."
+        }
+      ]
     }
   }
 }
