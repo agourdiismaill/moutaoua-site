@@ -641,6 +641,181 @@
           "answer": "Oui. Nous proposons un pack rentrée : stratégie, création, gestion Meta/Google, landing page et automation WhatsApp. Demandez un audit gratuit sur /contact."
         }
       ]
+    },
+    "retargeting-leads-formation-maroc": {
+      "title": "Retargeting Meta & Google : récupérer les prospects qui n'ont pas encore inscrit",
+      "excerpt": "Audiences, fenêtres temporelles, budgets et créatives pour transformer 20–35 % de vos visiteurs et leads tièdes en inscriptions.",
+      "category": "publicite",
+      "cover": "/logo-full.svg",
+      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "overview": {
+        "what": "Guide pratique pour structurer vos campagnes de retargeting Meta Ads et Google Ads et récupérer les prospects formation qui n'ont pas converti au premier passage.",
+        "who": "Responsables marketing et directeurs de centres de formation qui génèrent des leads mais peinent à les convertir en inscriptions.",
+        "benefits": [
+          "Structure d'audiences Meta et Google prête à déployer",
+          "Répartition budget prospection vs retargeting",
+          "Scripts créatifs et messages d'urgence qui convertissent"
+        ],
+        "topics": [
+          "Retargeting formation Maroc",
+          "Meta Ads remarketing",
+          "Google Ads remarketing",
+          "Conversion leads tièdes",
+          "Audiences personnalisées"
+        ],
+        "takeaways": [
+          "Consacrez 20–30 % du budget média au retargeting une fois 500+ visiteurs/mois",
+          "Segmentez par intention : visiteurs landing, leads formulaire, engagés réseaux sociaux",
+          "Un lead tiède convertit 3 à 5× mieux en retargeting qu'une audience froide"
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Introduction : pourquoi le retargeting est votre meilleur ROI",
+          "paragraphs": [
+            "97 % des visiteurs quittent votre landing page sans laisser de coordonnées. Parmi les 3 % qui deviennent leads, seulement 10 à 20 % s'inscrivent au premier contact. Le reste n'est pas perdu : il est tiède.",
+            "Le retargeting (remarketing) permet de réafficher vos annonces aux personnes qui connaissent déjà votre centre. Au Maroc, sur les formations professionnelles, le coût par inscription en retargeting est souvent 40 à 60 % inférieur au trafic froid — à condition de structurer correctement vos audiences."
+          ]
+        },
+        {
+          "id": "funnel",
+          "heading": "Comprendre le funnel : qui retargeter et quand",
+          "paragraphs": [
+            "Toutes les audiences chaudes ne se valent pas. Priorisez par niveau d'intention."
+          ],
+          "bullets": [
+            "Niveau 1 — Visiteurs landing 7 jours : ont vu votre offre, pas converti (priorité max)",
+            "Niveau 2 — Leads formulaire non convertis 14 jours : ont laissé leurs coordonnées",
+            "Niveau 3 — Engagement social 30 jours : vidéo 50 %+, clic Messenger, commentaire",
+            "Niveau 4 — Visiteurs 30–90 jours : audience large, messages de rappel doux",
+            "Exclure systématiquement : inscrits, clients, leads convertis < 30 jours"
+          ]
+        },
+        {
+          "id": "meta-ads",
+          "heading": "Meta Ads : audiences et structure de campagne",
+          "paragraphs": [
+            "Sur Meta, créez une campagne dédiée retargeting séparée de la prospection. Le CBO (Campaign Budget Optimization) fonctionne bien avec 2 à 4 ad sets par niveau d'intention."
+          ],
+          "bullets": [
+            "Audience Custom : visiteurs site 7/14/30 jours (pixel Meta + événement ViewContent)",
+            "Audience Custom : leads (événement Lead ou liste CRM uploadée, hashée)",
+            "Audience Engagement : visiteurs page Facebook/Instagram, interactions 30 jours",
+            "Exclusion : acheteurs/inscrits + leads convertis (événement CompleteRegistration)",
+            "Placements : Advantage+ placements, sauf si vidéos verticales → Stories/Reels only",
+            "Budget : 20–30 % du budget total, minimum 80–120 MAD/jour par offre"
+          ]
+        },
+        {
+          "id": "google-ads",
+          "heading": "Google Ads : remarketing Search et Display",
+          "paragraphs": [
+            "Google offre deux leviers : le remarketing Display/YouTube pour le rappel visuel, et les audiences de remarketing en Search pour capter les recherches de rappel (« formation X prix », « centre Y avis »)."
+          ],
+          "bullets": [
+            "Liste remarketing site : tag Google Ads + consent mode (RGPD/cookies)",
+            "Campagne Display responsive : bannières rentrée, témoignages, early-bird",
+            "RLSA (Remarketing Lists for Search Ads) : +20 à +50 % enchères sur audiences chaudes",
+            "Performance Max : signal audience remarketing en asset group dédié",
+            "Fenêtre : 7 jours pour urgence, 30 jours pour rappel, 90 jours max formation",
+            "Exclusion : converters 30 jours dans toutes les campagnes acquisition"
+          ]
+        },
+        {
+          "id": "creatives",
+          "heading": "Créatives et messages qui convertissent en retargeting",
+          "paragraphs": [
+            "Ne réutilisez pas vos créatives prospection. Le retargeting parle à quelqu'un qui vous connaît : soyez direct, personnel, orienté action."
+          ],
+          "bullets": [
+            "Angle urgence : « Il reste X places pour la session de [mois] »",
+            "Angle rappel : « Vous aviez consulté [formation] — une question ? »",
+            "Angle preuve sociale : témoignage vidéo 15 s d'un ancien de la même formation",
+            "Angle offre : rappel early-bird avec date limite visible",
+            "Format : vidéo courte > image statique ; carrousel pour comparer sessions",
+            "CTA : « Réserver ma place » / « Parler à un conseiller » — pas « Découvrir »"
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Budget et répartition prospection / retargeting",
+          "paragraphs": [
+            "La règle que nous appliquons chez Mohtaoua : tant que vous avez moins de 300 visiteurs uniques/mois sur la landing, le retargeting manque de volume. Au-delà de 500, activez-le systématiquement."
+          ],
+          "bullets": [
+            "Phase test (< 500 visiteurs/mois) : 90 % prospection / 10 % retargeting",
+            "Phase croissance (500–2 000 visiteurs) : 75 % prospection / 25 % retargeting",
+            "Phase scale (> 2 000 visiteurs) : 65–70 % prospection / 30–35 % retargeting",
+            "Pic saisonnier (rentrée) : monter retargeting à 40 % en septembre",
+            "Fréquence Meta : surveiller, plafonner à 3–4 impressions/jour par personne",
+            "KPI retargeting : coût par inscription, pas CPL (les leads existent déjà)"
+          ]
+        },
+        {
+          "id": "tracking",
+          "heading": "Tracking indispensable avant de lancer",
+          "paragraphs": [
+            "Sans tracking propre, vos audiences seront vides ou polluées. Vérifiez ces prérequis."
+          ],
+          "bullets": [
+            "Pixel Meta installé + événements Lead et CompleteRegistration configurés",
+            "Google tag + conversions importées (formulaire, clic téléphone, page merci)",
+            "Consent mode v2 activé (bannière cookies conforme)",
+            "UTM cohérents sur toutes les campagnes pour attribution CRM",
+            "Exclusion des équipes internes et bots (filtre IP si nécessaire)"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Erreurs retargeting fréquentes",
+          "paragraphs": [
+            "Ces erreurs expliquent pourquoi beaucoup de centres abandonnent le retargeting après 2 semaines."
+          ],
+          "bullets": [
+            "Mélanger prospection et retargeting dans la même campagne CBO",
+            "Retargeter tout le trafic site (blog, contact) au lieu de la landing formation",
+            "Fréquence trop élevée → fatigue, désabonnements, CPL qui grimpe",
+            "Pas d'exclusion des inscrits → gaspillage et mauvaise expérience",
+            "Créatives identiques à la prospection → pas de personnalisation",
+            "Arrêter le retargeting dès qu'un lead est créé (le lead n'est pas une inscription)"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion : le retargeting complète, ne remplace pas",
+          "paragraphs": [
+            "Le retargeting ne crée pas la demande : il la récupère. Utilisé en complément de vos campagnes prospection et de vos relances WhatsApp, il peut représenter 20 à 35 % de vos inscriptions mensuelles à coût réduit.",
+            "Notre équipe configure vos audiences Meta/Google, vos exclusions CRM et vos créatives retargeting en moins d'une semaine. Demandez un audit gratuit sur /contact."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "À partir de combien de visiteurs activer le retargeting ?",
+          "answer": "Dès 500 visiteurs uniques/mois sur votre landing formation. En dessous, les audiences sont trop petites et le CPM reste élevé."
+        },
+        {
+          "question": "Quel budget quotidien minimum pour du retargeting Meta ?",
+          "answer": "80 à 120 MAD/jour par offre. En dessous de 50 MAD/jour, la diffusion est trop irrégulière pour sortir de la phase d'apprentissage."
+        },
+        {
+          "question": "Faut-il retargeter les leads qui ont rempli le formulaire ?",
+          "answer": "Oui, c'est l'audience la plus rentable. Combinez retargeting Meta/Google avec relances WhatsApp J+1, J+3, J+7 pour maximiser la conversion."
+        },
+        {
+          "question": "Meta Ads ou Google Ads en priorité pour le retargeting ?",
+          "answer": "Meta en premier : plus de volume, formats vidéo engageants, coût souvent inférieur. Google en complément pour RLSA et rappel Display sur recherches de marque."
+        },
+        {
+          "question": "Comment éviter la sur-fréquence des annonces ?",
+          "answer": "Plafonnez la fréquence à 3–4/jour sur Meta, utilisez des fenêtres courtes (7–14 jours) pour l'urgence, et faites tourner 2–3 créatives par semaine."
+        },
+        {
+          "question": "Mohtaoua peut-elle configurer nos campagnes retargeting ?",
+          "answer": "Oui. Nous installons le tracking, créons les audiences, produisons les créatives et pilotons le budget prospection/retargeting. Voir nos packs sur /pricing ou demandez un audit sur /contact."
+        }
+      ]
     }
   }
 }
