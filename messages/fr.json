@@ -1,24 +1,28 @@
 {
   "metadata": {
-    "title": "Agence Marketing Centres de Formation au Maroc",
-    "description": "Mohtaoua transforme votre centre de formation en machine à générer des leads au Maroc : Meta Ads, Google Ads, TikTok Ads, création de contenu et marketing automation.",
-    "tagline": "Agence Marketing Premium pour Centres de Formation",
+    "title": "Agence Digitale Premium 360° au Maroc",
+    "description": "Mohtaoua — agence digitale, créative et technologique au Maroc. Marketing, développement web, logiciels, mobile, design, IA, automatisation et événements pour tous les secteurs.",
+    "tagline": "Agence Digitale Premium 360°",
     "keywords": [
-      "agence marketing formation",
-      "marketing centre de formation",
-      "génération de leads formation",
-      "Meta Ads formation",
-      "Google Ads formation",
-      "acquisition étudiants"
+      "agence digitale maroc",
+      "agence marketing maroc",
+      "développement web maroc",
+      "agence créative maroc",
+      "logiciel sur mesure maroc",
+      "automatisation IA maroc",
+      "transformation digitale maroc"
     ]
   },
   "nav": {
     "home": "Accueil",
     "services": "Services",
-    "results": "Résultats",
+    "industries": "Industries",
+    "portfolio": "Portfolio",
     "caseStudies": "Études de cas",
+    "insights": "Insights",
+    "results": "Résultats",
     "videos": "Vidéos",
-    "blog": "Blog",
+    "blog": "Insights",
     "pricing": "Tarifs",
     "contact": "Contact",
     "freeAudit": "Audit gratuit",
@@ -26,7 +30,7 @@
     "openMenu": "Ouvrir le menu"
   },
   "footer": {
-    "description": "Mohtaoua transforme votre centre de formation en machine à générer des leads : Meta Ads, Google Ads, TikTok Ads, création de contenu et marketing automation pour l'éducation.",
+    "description": "Mohtaoua est une agence digitale premium 360° au Maroc : marketing, technologie, design, automatisation et IA pour entreprises de tous secteurs.",
     "navigation": "Navigation",
     "services": "Services",
     "contact": "Contact",
@@ -40,41 +44,48 @@
     "compareMetaGoogle": "Meta vs Google Ads"
   },
   "hero": {
-    "badge": "Agence Marketing Premium pour Centres de Formation",
-    "title": "Transformez votre Centre de Formation en <highlight>Machine à Générer des Leads</highlight>",
-    "description": "Meta Ads • Google Ads • Création de contenu • Gestion des réseaux sociaux • Landing Pages. Nous propulsons votre croissance éducative.",
+    "badge": "Agence Digitale Premium 360° — Maroc",
+    "title": "Votre partenaire de <highlight>transformation digitale</highlight>",
+    "description": "Nous créons des marques. Nous construisons des sites web. Nous développons des logiciels. Nous générons des leads. Nous automatisons vos business.",
     "ctaPrimary": "Demander un audit gratuit",
-    "ctaSecondary": "Voir nos résultats",
-    "socialProof": "<strong>+150 centres</strong> nous font confiance",
-    "avatarNames": ["Centre Casablanca", "École Rabat", "Formation Marrakech", "Campus Tanger"],
-    "costPerLead": "Coût par lead",
-    "avgRoas": "ROAS moyen",
-    "clientAlt": "Client centre de formation",
-    "dashboardAlt": "Tableau de bord marketing affichant 2 459 prospects générés à 0,20 DH par prospect"
+    "ctaSecondary": "Voir nos réalisations",
+    "socialProof": "<strong>+200 projets</strong> livrés dans 15+ secteurs",
+    "avatarNames": [
+      "E-commerce · Casa",
+      "Clinique · Rabat",
+      "Hôtel · Marrakech",
+      "Startup · Tanger"
+    ],
+    "costPerLead": "Projets livrés",
+    "avgRoas": "Secteurs",
+    "clientAlt": "Client entreprise",
+    "dashboardAlt": "Tableau de bord digital affichant les performances marketing et technologiques",
+    "statProjects": "200+",
+    "statSectors": "15+"
   },
   "contactForm": {
     "successTitle": "Message envoyé !",
     "successMessage": "Merci pour votre demande. Notre équipe vous recontacte sous 24h ouvrées pour planifier votre audit gratuit.",
     "sendAnother": "Envoyer un autre message",
     "name": "Nom complet",
-    "company": "Centre / Organisme",
+    "company": "Entreprise",
     "email": "Email",
     "phone": "Téléphone",
-    "budget": "Budget média mensuel",
+    "budget": "Budget projet mensuel",
     "budgetPlaceholder": "Sélectionnez une fourchette",
     "budgetUnder10k": "Moins de 10 000 DH",
     "budget10to30k": "10 000 – 30 000 DH",
     "budget30to100k": "30 000 – 100 000 DH",
     "budgetOver100k": "Plus de 100 000 DH",
     "message": "Votre projet",
-    "messagePlaceholder": "Parlez-nous de vos objectifs d'acquisition…",
+    "messagePlaceholder": "Parlez-nous de vos objectifs de croissance…",
     "submit": "Demander mon audit gratuit",
     "submitting": "Envoi en cours…",
     "disclaimer": "En soumettant ce formulaire, vous acceptez d'être recontacté par notre équipe et notre <privacyLink>politique de confidentialité</privacyLink>.",
     "errorGeneric": "Une erreur est survenue. Réessayez ou écrivez-nous à contact@mohtaoua.ma.",
     "errorNotConfigured": "Le formulaire n'est pas encore configuré côté serveur. Contactez-nous directement par email.",
     "namePlaceholder": "Yassine El Amrani",
-    "companyPlaceholder": "Mon Centre de Formation",
+    "companyPlaceholder": "Mon Entreprise",
     "emailPlaceholder": "yassine@exemple.ma",
     "phonePlaceholder": "+212 6 12 34 56 78"
   },
@@ -89,5 +100,9 @@
     "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
     "home": "Retour à l'accueil",
     "contact": "Nous contacter"
+  },
+  "navMega": {
+    "viewAllServices": "Voir tous les services",
+    "viewAllIndustries": "Voir toutes les industries"
   }
 }

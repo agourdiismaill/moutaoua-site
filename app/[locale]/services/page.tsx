@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { LocalizedPageHeader, getPageMetadata } from "@/components/shared/localized-page-header";
-import { ServicesSection } from "@/components/sections/services-section";
+import { ServicesByPillar } from "@/components/sections/services-by-pillar";
 import { Stats } from "@/components/sections/stats";
 import { CtaSection } from "@/components/sections/cta-section";
 import { AIOverview } from "@/components/seo/ai-overview";
@@ -55,7 +55,7 @@ export default async function ServicesPage({
           />
         </div>
       </section>
-      <ServicesSection withFeatures heading={false} className="pt-0" />
+      <ServicesByPillar withFeatures heading={false} className="pt-0" />
       <Stats heading={false} className="bg-surface-bright" />
       <SeoFaqSection
         eyebrow="FAQ"

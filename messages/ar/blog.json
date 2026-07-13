@@ -1,20 +1,30 @@
 {
-  "metaTitle": "مدونة تسويق التدريب",
-  "metaDescription": "أدلة واستراتيجيات وأفضل الممارسات لجذب العملاء المحتملين وملء جلسات التدريب في المغرب.",
-  "eyebrow": "المدونة",
-  "title": "موارد <highlight>تسويقية</highlight> لمراكز التدريب",
-  "description": "مقالات عملية حول الاكتساب والإعلان الرقمي والتحويل في قطاع التدريب.",
+  "metaTitle": "Insights — تسويق وتقنية وذكاء اصطناعي",
+  "metaDescription": "مركز معرفة موحتاوة: تسويق وتطوير وذكاء اصطناعي وأتمتة وعلامة تجارية.",
+  "eyebrow": "Insights",
+  "title": "مركز المعرفة <highlight>الرقمية</highlight>",
+  "description": "تسويق وتطوير وذكاء اصطناعي وأتمتة وعلامة تجارية.",
   "readMore": "قراءة المقال",
   "allCategories": "الكل",
   "categories": {
-    "acquisition": "الاكتساب",
+    "marketing": "التسويق",
+    "development": "التطوير",
+    "ai": "الذكاء الاصطناعي",
+    "automation": "الأتمتة",
+    "business": "الأعمال",
+    "branding": "العلامة التجارية",
+    "design": "التصميم",
+    "seo": "SEO",
+    "geo": "GEO",
+    "case-studies": "دراسات الحالة",
+    "acquisition": "الاستقطاب",
     "publicite": "الإعلان",
     "conversion": "التحويل"
   },
   "author": {
-    "name": "فريق Mohtaoua",
-    "role": "وكالة تسويق التدريب",
-    "bio": "متخصصون في الاكتساب الرقمي لمراكز التدريب في المغرب."
+    "name": "فريق موحتاوة",
+    "role": "وكالة رقمية متميزة",
+    "bio": "خبراء في التسويق والتكنولوجيا والتصميم والأتمتة للشركات في جميع القطاعات بالمغرب."
   },
   "labels": {
     "relatedPosts": "مقالات ذات صلة",
@@ -23,11 +33,11 @@
     "updated": "تم التحديث في",
     "category": "الفئة",
     "share": "مشاركة",
-    "backToBlog": "العودة إلى المدونة"
+    "backToBlog": "العودة إلى Insights"
   },
   "posts": {
     "generer-leads-centre-formation-maroc": {
-      "title": "كيفية جذب العملاء المحتملين لمركز تدريب في المغرب",
+      "title": "كيفية توليد عملاء محتملين مؤهلين لشركتكم في المغرب",
       "excerpt": "استراتيجية شاملة لجذب عملاء محتملين مؤهلين: القنوات والميزانية ومسار التحويل ومؤشرات الأداء الرئيسية.",
       "category": "acquisition",
       "cover": "/logo-full.svg",
@@ -80,7 +90,7 @@
       ]
     },
     "meta-ads-vs-google-ads-formation": {
-      "title": "إعلانات Meta مقابل إعلانات Google: أي قناة لمركز التدريب الخاص بك؟",
+      "title": "Meta Ads مقابل Google Ads: أي قناة لشركتكم؟",
       "excerpt": "مقارنة موضوعية بين الرافعتين الإعلانيتين للتعليم في المغرب.",
       "category": "publicite",
       "cover": "/logo-full.svg",
@@ -115,7 +125,7 @@
       ]
     },
     "checklist-landing-page-formation": {
-      "title": "قائمة تحقق: صفحة هبوط تدريب تحقق التحويل",
+      "title": "قائمة تحقق: صفحة هبوط عالية التحويل (2026)",
       "excerpt": "10 عناصر أساسية لتحويل حركة الإعلانات إلى طلبات تسجيل.",
       "category": "conversion",
       "cover": "/logo-full.svg",
@@ -150,11 +160,14 @@
       ]
     },
     "whatsapp-convertir-leads-formation-maroc": {
-      "title": "واتساب: تحويل عملاء التدريب المحتملين إلى مسجلين في المغرب",
+      "title": "WhatsApp: تحويل العملاء المحتملين إلى عملاء",
       "excerpt": "نصوص وجداول الرد والأتمتة وCRM: الطريقة الكاملة لتحويل عملاء واتساب المحتملين إلى مسجلين دون فقدان العملاء.",
       "category": "conversion",
       "cover": "/logo-full.svg",
-      "relatedServices": ["marketing-automation", "crm-data"],
+      "relatedServices": [
+        "marketing-automation",
+        "crm-data"
+      ],
       "overview": {
         "what": "دليل خبير حول استخدام واتساب لتأهيل ومتابعة وتحويل العملاء المحتملين من حملات Meta أو Google أو موقعك.",
         "who": "مديرو مراكز التدريب ومسؤولو المبيعات وفرق القبول الذين يتلقون طلبات عبر واتساب لكن يواجهون صعوبة في تحويلها إلى تسجيلات.",
@@ -347,11 +360,15 @@
       ]
     },
     "budget-marketing-centre-formation-maroc": {
-      "title": "ما ميزانية التسويق لمركز تدريب في المغرب؟",
+      "title": "ميزانية التسويق الرقمي في المغرب",
       "excerpt": "نطاقات واقعية بالدرهم، توزيع Meta/Google، CPL المستهدف وطريقة حساب ميزانية الاكتساب دون هدر.",
       "category": "acquisition",
       "cover": "/logo-full.svg",
-      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "landing-pages"
+      ],
       "overview": {
         "what": "دليل رقمي لتحديد ميزانية التسويق لمراكز التدريب في المغرب: الإعلام، الإنتاج، الأدوات وأتعاب الوكالة.",
         "who": "مديرو مراكز التدريب ومسؤولو التسويق الذين يطلقون أو يحسّنون الاكتساب الرقمي.",
@@ -486,11 +503,16 @@
       ]
     },
     "campagne-inscriptions-rentree-formation-maroc": {
-      "title": "حملة العودة للدراسة: كيف تملأ جلسات التدريب في المغرب",
+      "title": "إطلاق حملة اكتساب رقمية فعّالة",
       "excerpt": "تقويم يوليو–سبتمبر، هيكل Meta/Google، عروض early-bird وخطة عمل لتعظيم تسجيلات العودة للدراسة.",
       "category": "acquisition",
       "cover": "/logo-full.svg",
-      "relatedServices": ["meta-ads", "google-ads", "landing-pages", "marketing-automation"],
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "landing-pages",
+        "marketing-automation"
+      ],
       "overview": {
         "what": "خطة تشغيلية لإطلاق وإدارة حملة تسجيل العودة للدراسة (سبتمبر) لمراكز التدريب في المغرب.",
         "who": "المديرون ومسؤولو التسويق الذين يحضّرون دخول سبتمبر أو يناير ويحتاجون لملء الجلسات في الوقت المناسب.",
@@ -572,7 +594,7 @@
           ],
           "bullets": [
             "حملات Search: كلمات معاملاتية (تسجيل، سعر، عودة للدراسة، جلسة سبتمبر)",
-            "Performance Max: بأصول العودة للدراسة + feed إن كان كتالوج multi-formations",
+            "Performance Max: بأصول العودة للدراسة + feed إن كان كتالوج multi-offres",
             "إعلانات RSA: اذكر تاريخ البدء، early-bird، المدينة، الشهادة",
             "امتدادات: روابط (برنامج، شهادات، اتصال)، اتصال، موقع",
             "مزايدة: Target CPA عند 30+ تحويل/شهر، وإلا Maximize Conversions محدود"
@@ -642,12 +664,119 @@
         }
       ]
     },
+    "transformation-digitale-pme-maroc": {
+      "title": "التحول الرقمي للمؤسسات الصغيرة في المغرب: من أين تبدأون في 2026",
+      "excerpt": "خارطة طريق: موقع وتسويق وCRM وأتمتة وذكاء اصطناعي لنمو المؤسسة.",
+      "category": "business",
+      "cover": "/logo-full.svg",
+      "relatedServices": [
+        "corporate-websites",
+        "meta-ads",
+        "crm-data",
+        "ai-agents"
+      ],
+      "overview": {
+        "what": "Guide stratégique pour lancer la transformation digitale d'une PME au Maroc sans se disperser.",
+        "who": "Dirigeants de PME, startups et ETI qui veulent structurer leur croissance digitale.",
+        "benefits": [
+          "Prioriser les bons investissements",
+          "Éviter les erreurs coûteuses",
+          "Croissance mesurable en 90 jours"
+        ],
+        "topics": [
+          "Site web",
+          "Marketing digital",
+          "CRM",
+          "Automation",
+          "IA"
+        ],
+        "takeaways": [
+          "Commencez par les fondations : site + tracking",
+          "Le marketing sans CRM est du gaspillage",
+          "L'IA amplifie, elle ne remplace pas la stratégie"
+        ]
+      },
+      "sections": [
+        {
+          "id": "contexte",
+          "heading": "Pourquoi la transformation digitale n'est plus optionnelle",
+          "paragraphs": [
+            "Au Maroc, les PME qui structurent leur présence digitale croissent 2 à 3 fois plus vite que celles qui dépendent uniquement du bouche-à-oreille. Vos clients comparent en ligne, contactent via WhatsApp et attendent une réponse immédiate.",
+            "La transformation digitale n'est pas « refaire un site » : c'est aligner marketing, technologie, données et expérience client pour générer plus de revenus avec moins de friction."
+          ]
+        },
+        {
+          "id": "fondations",
+          "heading": "Étape 1 — Les fondations (semaines 1-4)",
+          "paragraphs": [
+            "Avant d'investir en publicité, assurez-vous que les bases sont solides."
+          ],
+          "bullets": [
+            "Site web professionnel, rapide et mobile-first",
+            "Tracking conversions (Meta Pixel, GA4, événements)",
+            "WhatsApp Business ou numéro pro dédié",
+            "Google Business Profile à jour"
+          ]
+        },
+        {
+          "id": "acquisition",
+          "heading": "Étape 2 — Acquisition (mois 2-3)",
+          "paragraphs": [
+            "Une fois les fondations posées, activez les canaux d'acquisition adaptés à votre secteur : Meta pour la demande créée, Google pour l'intention de recherche, SEO pour le long terme."
+          ],
+          "bullets": [
+            "Landing page par offre principale",
+            "Campagnes Meta ou Google avec budget test 8-15K MAD/mois",
+            "Créatives adaptées à votre audience marocaine"
+          ]
+        },
+        {
+          "id": "conversion",
+          "heading": "Étape 3 — Conversion et CRM (mois 3-4)",
+          "paragraphs": [
+            "Les leads sans suivi structuré se perdent. Implémentez un CRM léger (HubSpot, Pipedrive) et connectez-le à vos formulaires et WhatsApp."
+          ]
+        },
+        {
+          "id": "automation-ia",
+          "heading": "Étape 4 — Automation et IA (mois 4-6)",
+          "paragraphs": [
+            "Automatisez les relances, les rappels RDV et les tâches répétitives. Explorez l'IA pour le support client et la qualification de leads — toujours avec supervision humaine."
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Budget réaliste pour une PME",
+          "paragraphs": [
+            "Comptez 15 000 à 50 000 MAD/mois selon l'ambition : honoraires agence + budget média + outils (CRM, automation). Un audit gratuit permet de calibrer précisément."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Par quoi commencer si le budget est limité ?",
+          "answer": "Site web professionnel + Google Business Profile + WhatsApp Business structuré. Puis une campagne Meta ou Google test."
+        },
+        {
+          "question": "Faut-il tout internaliser ?",
+          "answer": "Non. Une agence 360° comme Mohtaoua couvre marketing, web et tech — vous gardez le focus métier."
+        },
+        {
+          "question": "Quel délai pour voir des résultats ?",
+          "answer": "Premiers leads en 2-4 semaines avec la pub. ROI stabilisé sur 60-90 jours avec optimisation continue."
+        }
+      ]
+    },
     "retargeting-leads-formation-maroc": {
       "title": "إعادة الاستهداف Meta وGoogle: استرجاع العملاء المحتملين الذين لم يسجّلوا بعد",
       "excerpt": "جماهير، نوافذ زمنية، ميزانيات وإبداعات لتحويل 20–35% من زوارك والعملاء الدافئين إلى تسجيلات.",
       "category": "publicite",
       "cover": "/logo-full.svg",
-      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "landing-pages"
+      ],
       "overview": {
         "what": "دليل عملي لبناء حملات إعادة الاستهداف Meta Ads وGoogle Ads واسترجاع العملاء المحتملين للتدريب الذين لم يحوّلوا في الزيارة الأولى.",
         "who": "مسؤولو التسويق ومديرو مراكز التدريب الذين يولّدون leads لكن يواجهون صعوبة في تحويلهم إلى تسجيلات.",
@@ -817,5 +946,6 @@
         }
       ]
     }
-  }
+  },
+  "backToBlog": "العودة إلى Insights"
 }

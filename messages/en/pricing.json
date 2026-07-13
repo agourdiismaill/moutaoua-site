@@ -3,7 +3,7 @@
     "start": {
       "name": "Start Pack",
       "packLabel": "Start",
-      "description": "Everything you need to launch your digital presence and first campaigns.",
+      "description": "Essentials to launch your digital presence: social, creative, campaigns and monthly reporting.",
       "period": "/ month",
       "cta": "Choose Start",
       "features": [
@@ -18,7 +18,7 @@
     "performance": {
       "name": "Performance Pack",
       "packLabel": "Performance",
-      "description": "Everything in Start, enhanced to accelerate your results.",
+      "description": "Accelerate results: more content, landing pages, CRO and multi-channel optimization.",
       "period": "/ month",
       "cta": "Choose Performance",
       "badge": "Everything in Start +",
@@ -34,7 +34,7 @@
     "premium": {
       "name": "Premium Pack",
       "packLabel": "Premium",
-      "description": "Our most complete pack for unlimited digital growth.",
+      "description": "360° support: marketing, automation, CRM, strategy and priority support.",
       "period": "/ month",
       "cta": "Choose Premium",
       "badge": "Our most complete pack.",

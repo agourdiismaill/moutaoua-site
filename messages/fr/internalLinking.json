@@ -5,7 +5,8 @@
     "relatedGuides": "Guides pratiques",
     "relatedCaseStudies": "Études de cas",
     "relatedComparisons": "Comparatifs",
-    "relatedResources": "Ressources utiles"
+    "relatedResources": "Ressources utiles",
+    "relatedIndustries": "Industries associées"
   },
   "sidebar": {
     "relatedContent": "Contenu lié",
@@ -20,31 +21,41 @@
   "resources": {
     "case-studies": {
       "title": "Études de cas clients",
-      "description": "Résultats concrets de centres de formation au Maroc."
+      "description": "Résultats concrets pour entreprises de tous secteurs au Maroc."
     },
     "pricing": {
       "title": "Tarifs et packs",
-      "description": "Formules Start, Performance et Premium adaptées à votre centre."
+      "description": "Formules adaptées à votre croissance digitale."
     },
     "results": {
       "title": "Nos résultats",
-      "description": "Leads, ROAS et performances par canal publicitaire."
+      "description": "Performances marketing et technologiques de nos missions."
     },
     "videos": {
-      "title": "Vidéos et témoignages",
-      "description": "Masterclass et retours d'expérience clients."
+      "title": "Vidéothèque",
+      "description": "Contenus vidéo, reels et témoignages clients."
     },
     "contact": {
-      "title": "Demander un audit gratuit",
-      "description": "Analyse personnalisée de votre acquisition en 24h."
+      "title": "Contact & audit gratuit",
+      "description": "Parlez-nous de votre projet. Réponse sous 24h."
     },
     "blog": {
-      "title": "Blog marketing formation",
-      "description": "Guides, stratégies et bonnes pratiques pour votre centre."
+      "title": "Insights",
+      "description": "Marketing, développement, IA, automatisation et transformation digitale."
+    },
+    "industries": {
+      "title": "Industries",
+      "description": "Solutions digitales par secteur : santé, immobilier, e-commerce, éducation et plus."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Réalisations web, marketing, design et logiciels pour entreprises marocaines."
     }
   },
   "anchors": {
-    "default": ["{title}"],
+    "default": [
+      "{title}"
+    ],
     "service": [
       "Découvrez notre service {title}",
       "En savoir plus sur {title}",

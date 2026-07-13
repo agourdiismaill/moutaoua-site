@@ -1,22 +1,52 @@
 {
-  "metaTitle": "Training Marketing Comparisons",
-  "metaDescription": "Compare Meta Ads, Google Ads, and acquisition strategies for training centers.",
+  "metaTitle": "Marketing & Digital Comparisons",
+  "metaDescription": "Compare Meta Ads, Google Ads and acquisition strategies for businesses in Morocco.",
   "items": {
     "meta-ads-vs-google-ads": {
-      "title": "Meta Ads vs Google Ads for training centers",
-      "description": "Detailed comparison: cost, intent, time to results, and use cases.",
+      "title": "Meta Ads vs Google Ads: which channel to choose?",
+      "description": "Comparison for businesses in Morocco: cost, intent, timeline and use cases.",
       "rows": [
-        { "criteria": "Type of demand", "meta": "Created demand (interruption)", "google": "Existing demand (search)" },
-        { "criteria": "Time to first leads", "meta": "7-14 days", "google": "3-10 days" },
-        { "criteria": "Average training CPL", "meta": "Often lower in volume", "google": "Often more qualified" },
-        { "criteria": "Creative format", "meta": "Video, image, carousel", "google": "Text, extensions" },
-        { "criteria": "Best for", "meta": "Launch, awareness, promotion", "google": "In-demand training programs" },
-        { "criteria": "Recommended minimum budget", "meta": "8,000 MAD/month", "google": "6,000 MAD/month" }
+        {
+          "criteria": "Type of demand",
+          "meta": "Created demand (interruption)",
+          "google": "Existing demand (search)"
+        },
+        {
+          "criteria": "Time to first leads",
+          "meta": "7-14 days",
+          "google": "3-10 days"
+        },
+        {
+          "criteria": "Average training CPL",
+          "meta": "Often lower in volume",
+          "google": "Often more qualified"
+        },
+        {
+          "criteria": "Creative format",
+          "meta": "Video, image, carousel",
+          "google": "Text, extensions"
+        },
+        {
+          "criteria": "Best for",
+          "meta": "Launch, awareness, promotion",
+          "google": "Searched offers"
+        },
+        {
+          "criteria": "Recommended minimum budget",
+          "meta": "8,000 MAD/month",
+          "google": "6,000 MAD/month"
+        }
       ],
       "verdict": "Combine both: Meta for volume and awareness, Google for high-intent conversion.",
       "faqs": [
-        { "question": "Should I choose only one channel?", "answer": "No, the Meta + Google synergy is the most effective strategy for most centers." },
-        { "question": "Which to prioritize with a small budget?", "answer": "Google if your training is searched for; Meta if you need to create demand." }
+        {
+          "question": "Should I choose only one channel?",
+          "answer": "No, the Meta + Google synergy is the most effective strategy for most centers."
+        },
+        {
+          "question": "Which to prioritize with a small budget?",
+          "answer": "Google if your offer is searched for; Meta if you need to create demand."
+        }
       ]
     }
   }

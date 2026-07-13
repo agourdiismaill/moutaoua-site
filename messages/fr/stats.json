@@ -1,16 +1,16 @@
 {
   "items": {
     "impressions": {
-      "label": "Impressions générées"
+      "label": "Projets livrés"
     },
     "leads": {
-      "label": "Leads générés"
+      "label": "Clients accompagnés"
     },
     "roas": {
-      "label": "ROAS moyen"
+      "label": "Secteurs couverts"
     },
     "campaigns": {
-      "label": "Campagnes actives"
+      "label": "Satisfaction client"
     }
   }
 }

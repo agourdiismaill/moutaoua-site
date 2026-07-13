@@ -1,16 +1,16 @@
 {
   "items": {
     "impressions": {
-      "label": "Impressions delivered"
+      "label": "Projects delivered"
     },
     "leads": {
-      "label": "Leads generated"
+      "label": "Clients served"
     },
     "roas": {
-      "label": "Average ROAS"
+      "label": "Industries covered"
     },
     "campaigns": {
-      "label": "Active campaigns"
+      "label": "Client satisfaction"
     }
   }
 }

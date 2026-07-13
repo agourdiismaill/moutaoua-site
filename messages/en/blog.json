@@ -1,20 +1,30 @@
 {
-  "metaTitle": "Training Marketing Blog",
-  "metaDescription": "Guides, strategies, and best practices to generate leads and fill your training sessions in Morocco.",
-  "eyebrow": "Blog",
-  "title": "<highlight>Marketing</highlight> resources for training centers",
-  "description": "Practical articles on acquisition, digital advertising, and conversion for the training sector.",
+  "metaTitle": "Insights — Marketing, Tech & AI",
+  "metaDescription": "Mohtaoua knowledge center: marketing, development, AI, automation, branding and digital transformation.",
+  "eyebrow": "Insights",
+  "title": "Digital knowledge <highlight>hub</highlight>",
+  "description": "Marketing, development, AI, automation, branding and digital transformation.",
   "readMore": "Read article",
   "allCategories": "All",
   "categories": {
+    "marketing": "Marketing",
+    "development": "Development",
+    "ai": "AI",
+    "automation": "Automation",
+    "business": "Business",
+    "branding": "Branding",
+    "design": "Design",
+    "seo": "SEO",
+    "geo": "GEO",
+    "case-studies": "Case Studies",
     "acquisition": "Acquisition",
     "publicite": "Advertising",
     "conversion": "Conversion"
   },
   "author": {
     "name": "Mohtaoua Team",
-    "role": "Training marketing agency",
-    "bio": "Specialists in digital acquisition for training centers in Morocco."
+    "role": "Premium digital agency",
+    "bio": "Experts in marketing, technology, design and automation for businesses across all industries in Morocco."
   },
   "labels": {
     "relatedPosts": "Related articles",
@@ -23,11 +33,11 @@
     "updated": "Updated on",
     "category": "Category",
     "share": "Share",
-    "backToBlog": "Back to blog"
+    "backToBlog": "Back to Insights"
   },
   "posts": {
     "generer-leads-centre-formation-maroc": {
-      "title": "How to generate leads for a training center in Morocco",
+      "title": "How to generate qualified leads for your business in Morocco",
       "excerpt": "Complete strategy to attract qualified prospects: channels, budget, funnel, and KPIs to track.",
       "category": "acquisition",
       "cover": "/logo-full.svg",
@@ -36,7 +46,7 @@
           "id": "contexte",
           "heading": "Why lead generation is critical",
           "paragraphs": [
-            "Training centers in Morocco face increased competition and shorter enrollment cycles. Without a pipeline of qualified prospects, sessions start below capacity.",
+            "businesses in Morocco face increased competition and shorter enrollment cycles. Without a pipeline of qualified prospects, sessions start below capacity.",
             "Lead generation is not optional: it is the most predictable growth engine for a training organization."
           ]
         },
@@ -57,7 +67,7 @@
           "id": "budget",
           "heading": "What budget should you plan for?",
           "paragraphs": [
-            "For a center in the digital launch phase, plan for 8,000 to 25,000 MAD/month in media budget, excluding agency fees. The optimal budget depends on the training price and target acquisition cost."
+            "For a center in the digital launch phase, plan for 8,000 to 25,000 MAD/month in media budget, excluding agency fees. The optimal budget depends on the offer price and target acquisition cost."
           ]
         },
         {
@@ -80,7 +90,7 @@
       ]
     },
     "meta-ads-vs-google-ads-formation": {
-      "title": "Meta Ads vs Google Ads: which channel for your training center?",
+      "title": "Meta Ads vs Google Ads: which channel for your business in Morocco?",
       "excerpt": "Objective comparison of the two advertising levers for education in Morocco.",
       "category": "publicite",
       "cover": "/logo-full.svg",
@@ -110,12 +120,12 @@
       "faqs": [
         {
           "question": "Which channel has the lowest CPL?",
-          "answer": "It varies by training program. Meta is often cheaper in volume; Google can be more qualified."
+          "answer": "It varies by offer. Meta is often cheaper in volume; Google can be more qualified."
         }
       ]
     },
     "checklist-landing-page-formation": {
-      "title": "Checklist: training landing page that converts",
+      "title": "Checklist: high-converting landing page (2026)",
       "excerpt": "10 essential elements to turn advertising traffic into enrollment inquiries.",
       "category": "conversion",
       "cover": "/logo-full.svg",
@@ -150,14 +160,17 @@
       ]
     },
     "whatsapp-convertir-leads-formation-maroc": {
-      "title": "WhatsApp: turn training leads into enrollments in Morocco",
+      "title": "WhatsApp: convert leads into customers in Morocco",
       "excerpt": "Scripts, response times, automation, and CRM: the complete method to turn WhatsApp prospects into enrolled students without losing leads.",
       "category": "conversion",
       "cover": "/logo-full.svg",
-      "relatedServices": ["marketing-automation", "crm-data"],
+      "relatedServices": [
+        "marketing-automation",
+        "crm-data"
+      ],
       "overview": {
         "what": "Expert guide on using WhatsApp to qualify, follow up, and convert leads from Meta, Google, or your website campaigns.",
-        "who": "Training center directors, sales managers, and admissions teams who receive inquiries via WhatsApp but struggle to turn them into enrollments.",
+        "who": "businesses directors, sales managers, and admissions teams who receive inquiries via WhatsApp but struggle to turn them into enrollments.",
         "benefits": [
           "Reduce first-response time to under 5 minutes",
           "Structure a WhatsApp → appointment → enrollment funnel",
@@ -347,14 +360,18 @@
       ]
     },
     "budget-marketing-centre-formation-maroc": {
-      "title": "What marketing budget for a training center in Morocco?",
+      "title": "Digital marketing budget: how much to invest in Morocco?",
       "excerpt": "Realistic MAD ranges, Meta/Google split, target CPL, and a method to calculate acquisition budget without waste.",
       "category": "acquisition",
       "cover": "/logo-full.svg",
-      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "landing-pages"
+      ],
       "overview": {
-        "what": "A numbers-driven guide to define marketing budget for training centers in Morocco: media, production, tools, and agency fees.",
-        "who": "Training center directors and marketing managers launching or optimizing digital acquisition.",
+        "what": "A numbers-driven guide to define marketing budget for businesses in Morocco: media, production, tools, and agency fees.",
+        "who": "businesses directors and marketing managers launching or optimizing digital acquisition.",
         "benefits": [
           "2026 budget ranges adapted to the Moroccan market",
           "CPL → CAC → monthly budget calculation method",
@@ -486,13 +503,18 @@
       ]
     },
     "campagne-inscriptions-rentree-formation-maroc": {
-      "title": "Back-to-school campaign: how to fill your training sessions in Morocco",
-      "excerpt": "July–September calendar, Meta/Google structure, early-bird offers, and action plan to maximize back-to-school enrollments.",
+      "title": "Launch a high-performing digital acquisition campaign",
+      "excerpt": "July–September calendar, Meta/Google structure, early-bird offers, and action plan to maximize seasonal launch enrollments.",
       "category": "acquisition",
       "cover": "/logo-full.svg",
-      "relatedServices": ["meta-ads", "google-ads", "landing-pages", "marketing-automation"],
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "landing-pages",
+        "marketing-automation"
+      ],
       "overview": {
-        "what": "Operational plan to launch and manage a September back-to-school enrollment campaign for training centers in Morocco.",
+        "what": "Operational plan to launch and manage a September seasonal launch enrollment campaign for businesses in Morocco.",
         "who": "Directors and marketing managers preparing September or January intake who need to fill sessions on time.",
         "benefits": [
           "Week-by-week calendar (July → September)",
@@ -500,10 +522,10 @@
           "Offer scripts, landing page, and WhatsApp follow-ups ready to deploy"
         ],
         "topics": [
-          "Training back-to-school Morocco",
+          "Training seasonal launch Morocco",
           "Enrollment seasonality",
-          "Meta Ads back-to-school",
-          "Google Ads back-to-school",
+          "Meta Ads seasonal launch",
+          "Google Ads seasonal launch",
           "Early-bird and urgency"
         ],
         "takeaways": [
@@ -515,7 +537,7 @@
       "sections": [
         {
           "id": "introduction",
-          "heading": "Introduction: back-to-school is won in July–August",
+          "heading": "Introduction: seasonal launch is won in July–August",
           "paragraphs": [
             "Every year, the same centers call in late August: « We only have 40% of seats filled, what do we do? » The answer is almost always the same: it's too late to build an acquisition machine. The September intake is prepared from July.",
             "In Morocco, training demand surges between mid-August and mid-September: career changers, recent graduates, employees waiting for promotion. Those who capture this window with structured campaigns fill their sessions. Others burn budget in panic mode, with CPL 2× higher."
@@ -525,10 +547,10 @@
           "id": "calendrier",
           "heading": "The ideal calendar: July → September",
           "paragraphs": [
-            "Here is the schedule we apply at Mohtaoua for our training center clients."
+            "Here is the schedule we apply at Mohtaoua for our businesses clients."
           ],
           "bullets": [
-            "July (W1–W2): offer audit, back-to-school landing page, video creatives, enrollment tracking",
+            "July (W1–W2): offer audit, seasonal launch landing page, video creatives, enrollment tracking",
             "July (W3–W4): launch test Meta + Google campaigns, moderate budget (60% of peak)",
             "August (W1–W2): scale winning audiences, +30% budget, launch early-bird offer",
             "August (W3–W4): intensify, retarget visitors, WhatsApp campaigns on warm leads",
@@ -538,23 +560,23 @@
         },
         {
           "id": "offre",
-          "heading": "Structuring the back-to-school offer that converts",
+          "heading": "Structuring the seasonal launch offer that converts",
           "paragraphs": [
-            "A back-to-school campaign doesn't sell a training program: it sells a session with a date, limited seats, and a concrete benefit.",
+            "A seasonal launch campaign doesn't sell a training program: it sells a session with a date, limited seats, and a concrete benefit.",
             "Top-performing messages in Morocco combine clarity on outcomes (job, certification, salary) and reduced friction (installments, evening sessions, in-person + online)."
           ],
           "bullets": [
             "Early-bird: -10 to -15% or waived registration fees until a fixed date",
             "Real urgency: limited seats per session (show the number, not « almost full »)",
             "Social proof: alumni video testimonials, placement rate, partner company logos",
-            "Single CTA: « Reserve my back-to-school seat » instead of « Learn more »"
+            "Single CTA: « Reserve my seasonal launch seat » instead of « Learn more »"
           ]
         },
         {
           "id": "meta-ads",
-          "heading": "Meta Ads: back-to-school campaign structure",
+          "heading": "Meta Ads: seasonal launch campaign structure",
           "paragraphs": [
-            "On Meta, back-to-school is a period when cold audiences are receptive. Structure in 3 separate campaigns to control budget."
+            "On Meta, seasonal launch is a period when cold audiences are receptive. Structure in 3 separate campaigns to control budget."
           ],
           "bullets": [
             "Campaign 1 — Prospecting: Advantage+ or CBO, 3–5 creatives (15–30s video, testimonial carousel)",
@@ -568,11 +590,11 @@
           "id": "google-ads",
           "heading": "Google Ads: capture search intent",
           "paragraphs": [
-            "During back-to-school, Google Ads becomes strategic: prospects search « training [job] Casablanca », « September enrollment [field] ». Don't let competitors take those clicks."
+            "During seasonal launch, Google Ads becomes strategic: prospects search « training [job] Casablanca », « September enrollment [field] ». Don't let competitors take those clicks."
           ],
           "bullets": [
-            "Search campaigns: transactional keywords (enrollment, price, back-to-school, September session)",
-            "Performance Max: with back-to-school assets + feed if multi-program catalog",
+            "Search campaigns: transactional keywords (enrollment, price, seasonal launch, September session)",
+            "Performance Max: with seasonal launch assets + feed if multi-program catalog",
             "RSA ads: mention start date, early-bird, city, certification",
             "Extensions: sitelinks (program, testimonials, contact), call, location",
             "Bidding: Target CPA once 30+ conversions/month, otherwise capped Maximize Conversions"
@@ -582,26 +604,26 @@
           "id": "conversion",
           "heading": "Landing page, WhatsApp, and follow-ups",
           "paragraphs": [
-            "Back-to-school traffic is expensive. Every non-converting visitor must enter a follow-up funnel.",
-            "Your back-to-school landing page should show session date, remaining seats (even approximate), 5-point program, and a short form (name, phone, training)."
+            "seasonal launch traffic is expensive. Every non-converting visitor must enter a follow-up funnel.",
+            "Your seasonal launch landing page should show session date, remaining seats (even approximate), 5-point program, and a short form (name, phone, training)."
           ],
           "bullets": [
             "WhatsApp: reply < 5 min, welcome script with session date + deposit payment link",
             "Follow-up D+1, D+3, D+7 on non-converted leads (automation or CRM)",
-            "Retargeting: « Your back-to-school seat awaits » ad with countdown",
+            "Retargeting: « Your seasonal launch seat awaits » ad with countdown",
             "Tracking: Meta pixel + Google conversions + CRM enrollment event"
           ]
         },
         {
           "id": "erreurs",
-          "heading": "5 mistakes that ruin back-to-school",
+          "heading": "5 mistakes that ruin seasonal launch",
           "paragraphs": [
-            "These mistakes come back every year in our pre-back-to-school audits."
+            "These mistakes come back every year in our pre-seasonal launch audits."
           ],
           "bullets": [
             "Waiting until September to launch campaigns (CPL ×2, maximum sales pressure)",
             "One creative for 6 weeks (audience fatigue, CTR drop)",
-            "Generic landing page without « September back-to-school » mention",
+            "Generic landing page without « September seasonal launch » mention",
             "No retargeting: 97% of visitors leave without converting",
             "Understaffed sales team in August (untreated leads = wasted budget)"
           ]
@@ -610,35 +632,138 @@
           "id": "conclusion",
           "heading": "Conclusion: anticipate, structure, scale",
           "paragraphs": [
-            "Back-to-school isn't a surprise: it's a predictable peak. Centers that plan in July, test in August, and intensify in September fill sessions with controlled CAC.",
-            "Need a turnkey back-to-school plan? Our team audits your offer, structures Meta/Google campaigns, optimizes your landing page, and configures WhatsApp follow-ups — delivered within 7 days."
+            "seasonal launch isn't a surprise: it's a predictable peak. Centers that plan in July, test in August, and intensify in September fill sessions with controlled CAC.",
+            "Need a turnkey seasonal launch plan? Our team audits your offer, structures Meta/Google campaigns, optimizes your landing page, and configures WhatsApp follow-ups — delivered within 7 days."
           ]
         }
       ],
       "faqs": [
         {
-          "question": "When to launch September back-to-school campaigns?",
+          "question": "When to launch September seasonal launch campaigns?",
           "answer": "Ideally mid-July for tests, scale mid-August. Minimum: early August with aggressive budget and early-bird offer."
         },
         {
-          "question": "What media budget for a back-to-school campaign?",
+          "question": "What media budget for a seasonal launch campaign?",
           "answer": "15,000 to 30,000 MAD/month in July–August for one main offer in a single city. Multiply by number of active offers."
         },
         {
-          "question": "Meta Ads or Google Ads priority for back-to-school?",
+          "question": "Meta Ads or Google Ads priority for seasonal launch?",
           "answer": "Meta to create demand and reach undecided prospects. Google to capture active search. Start 65/35 Meta/Google, adjust by CPL and conversion rate."
         },
         {
-          "question": "Do you need a dedicated back-to-school landing page?",
+          "question": "Do you need a dedicated seasonal launch landing page?",
           "answer": "Yes. A specific page with date, seats, early-bird, and testimonials converts 2–3× better than a generic training page."
         },
         {
           "question": "How to handle leads who don't convert before September?",
-          "answer": "Automated follow-ups, retargeting, then shift to waitlist for October or January session. Don't discard leads: back-to-school lasts 6 weeks."
+          "answer": "Automated follow-ups, retargeting, then shift to waitlist for October or January session. Don't discard leads: seasonal launch lasts 6 weeks."
         },
         {
-          "question": "Can Mohtaoua manage our back-to-school campaign?",
-          "answer": "Yes. We offer a back-to-school pack: strategy, creation, Meta/Google management, landing page, and WhatsApp automation. Request a free audit at /contact."
+          "question": "Can Mohtaoua manage our seasonal launch campaign?",
+          "answer": "Yes. We offer a seasonal launch pack: strategy, creation, Meta/Google management, landing page, and WhatsApp automation. Request a free audit at /contact."
+        }
+      ]
+    },
+    "transformation-digitale-pme-maroc": {
+      "title": "Digital transformation for SMEs in Morocco: where to start in 2026",
+      "excerpt": "Pragmatic roadmap: website, marketing, CRM, automation and AI for SME growth.",
+      "category": "business",
+      "cover": "/logo-full.svg",
+      "relatedServices": [
+        "corporate-websites",
+        "meta-ads",
+        "crm-data",
+        "ai-agents"
+      ],
+      "overview": {
+        "what": "Guide stratégique pour lancer la transformation digitale d'une PME au Maroc sans se disperser.",
+        "who": "Dirigeants de PME, startups et ETI qui veulent structurer leur croissance digitale.",
+        "benefits": [
+          "Prioriser les bons investissements",
+          "Éviter les erreurs coûteuses",
+          "Croissance mesurable en 90 jours"
+        ],
+        "topics": [
+          "Site web",
+          "Marketing digital",
+          "CRM",
+          "Automation",
+          "IA"
+        ],
+        "takeaways": [
+          "Commencez par les fondations : site + tracking",
+          "Le marketing sans CRM est du gaspillage",
+          "L'IA amplifie, elle ne remplace pas la stratégie"
+        ]
+      },
+      "sections": [
+        {
+          "id": "contexte",
+          "heading": "Pourquoi la transformation digitale n'est plus optionnelle",
+          "paragraphs": [
+            "Au Maroc, les PME qui structurent leur présence digitale croissent 2 à 3 fois plus vite que celles qui dépendent uniquement du bouche-à-oreille. Vos clients comparent en ligne, contactent via WhatsApp et attendent une réponse immédiate.",
+            "La transformation digitale n'est pas « refaire un site » : c'est aligner marketing, technologie, données et expérience client pour générer plus de revenus avec moins de friction."
+          ]
+        },
+        {
+          "id": "fondations",
+          "heading": "Étape 1 — Les fondations (semaines 1-4)",
+          "paragraphs": [
+            "Avant d'investir en publicité, assurez-vous que les bases sont solides."
+          ],
+          "bullets": [
+            "Site web professionnel, rapide et mobile-first",
+            "Tracking conversions (Meta Pixel, GA4, événements)",
+            "WhatsApp Business ou numéro pro dédié",
+            "Google Business Profile à jour"
+          ]
+        },
+        {
+          "id": "acquisition",
+          "heading": "Étape 2 — Acquisition (mois 2-3)",
+          "paragraphs": [
+            "Une fois les fondations posées, activez les canaux d'acquisition adaptés à votre secteur : Meta pour la demande créée, Google pour l'intention de recherche, SEO pour le long terme."
+          ],
+          "bullets": [
+            "Landing page par offre principale",
+            "Campagnes Meta ou Google avec budget test 8-15K MAD/mois",
+            "Créatives adaptées à votre audience marocaine"
+          ]
+        },
+        {
+          "id": "conversion",
+          "heading": "Étape 3 — Conversion et CRM (mois 3-4)",
+          "paragraphs": [
+            "Les leads sans suivi structuré se perdent. Implémentez un CRM léger (HubSpot, Pipedrive) et connectez-le à vos formulaires et WhatsApp."
+          ]
+        },
+        {
+          "id": "automation-ia",
+          "heading": "Étape 4 — Automation et IA (mois 4-6)",
+          "paragraphs": [
+            "Automatisez les relances, les rappels RDV et les tâches répétitives. Explorez l'IA pour le support client et la qualification de leads — toujours avec supervision humaine."
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Budget réaliste pour une PME",
+          "paragraphs": [
+            "Comptez 15 000 à 50 000 MAD/mois selon l'ambition : honoraires agence + budget média + outils (CRM, automation). Un audit gratuit permet de calibrer précisément."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Par quoi commencer si le budget est limité ?",
+          "answer": "Site web professionnel + Google Business Profile + WhatsApp Business structuré. Puis une campagne Meta ou Google test."
+        },
+        {
+          "question": "Faut-il tout internaliser ?",
+          "answer": "Non. Une agence 360° comme Mohtaoua couvre marketing, web et tech — vous gardez le focus métier."
+        },
+        {
+          "question": "Quel délai pour voir des résultats ?",
+          "answer": "Premiers leads en 2-4 semaines avec la pub. ROI stabilisé sur 60-90 jours avec optimisation continue."
         }
       ]
     },
@@ -817,5 +942,6 @@
         }
       ]
     }
-  }
+  },
+  "backToBlog": "Back to Insights"
 }

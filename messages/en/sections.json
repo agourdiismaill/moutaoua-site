@@ -1,13 +1,13 @@
 {
   "services": {
-    "eyebrow": "Our 360° Expertise",
-    "title": "A complete acquisition ecosystem",
-    "description": "From the first ad impression to final enrollment, we cover every step of converting your future students."
+    "eyebrow": "360° Expertise",
+    "title": "Marketing, technology & creativity",
+    "description": "A complete ecosystem to accelerate your business growth, whatever your industry."
   },
   "stats": {
     "eyebrow": "Performance",
     "title": "Concrete Results",
-    "description": "The measurable impact of our strategies on training centers.",
+    "description": "The measurable impact of our strategies on businesses across all industries.",
     "disclaimer": "Cumulative figures across our client portfolio — results vary by client."
   },
   "faq": {
@@ -17,7 +17,7 @@
   },
   "cta": {
     "badge": "Free audit & no commitment",
-    "title": "Ready to fill your training sessions?",
+    "title": "Ready to accelerate your growth?",
     "description": "Get a complete diagnosis of your acquisition and a concrete action plan, whether or not you decide to work with us.",
     "ctaPrimary": "Request my free audit",
     "ctaSecondary": "See our case studies"
@@ -25,21 +25,21 @@
   "testimonials": {
     "eyebrow": "Testimonials",
     "title": "What our partners say",
-    "description": "Feedback from directors and marketing leads at training centers in Morocco. Identities abbreviated for confidentiality."
+    "description": "Feedback from business leaders and marketing managers in Morocco."
   },
   "clientLogos": {
     "heading": "They trust us",
-    "disclaimer": "Sectors and cities represented — client names anonymized.",
+    "disclaimer": "Industries and cities represented — anonymized identities.",
     "names": [
-      "Center · Casablanca",
-      "School · Rabat",
-      "Training org · Marrakech",
-      "Academy · Tangier",
-      "Group · Fes",
-      "Campus · Agadir",
-      "Institute · Meknes",
-      "School · Oujda",
-      "Center · Kenitra"
+      "Education · Casa",
+      "E-commerce · Rabat",
+      "Healthcare · Marrakech",
+      "Hotel · Tangier",
+      "Real estate · Fes",
+      "Retail · Agadir",
+      "Startup · Meknes",
+      "Industry · Oujda",
+      "Services · Kenitra"
     ]
   },
   "results": {
@@ -54,15 +54,25 @@
   "pricing": {
     "eyebrow": "Pricing",
     "title": "Plans tailored to your growth",
-    "description": "Three clear packages with no hidden fees. Ad budget is paid separately by the client.",
+    "description": "Monthly marketing or custom projects: choose the support that fits your ambitions.",
     "packLabel": "Pack",
     "adBudgetNote": "Ad budget paid separately by the client.",
-    "adPlatformsHeading": "We manage your ad campaigns on:"
+    "adPlatformsHeading": "Ad campaigns:",
+    "customNote": "Web development, software, mobile and design: custom quote after free audit.",
+    "capabilitiesHeading": "We also cover:",
+    "capabilities": [
+      "Websites",
+      "Software",
+      "Mobile apps",
+      "Design & branding",
+      "Photo & video",
+      "Events"
+    ]
   },
   "videoCarousel": {
     "eyebrow": "Videos",
     "title": "Content & Reels",
-    "description": "Sample video formats produced for our training center clients.",
+    "description": "Sample video formats produced for our clients.",
     "playAria": "Play {title}",
     "close": "Close",
     "prev": "Previous",
@@ -76,13 +86,58 @@
   },
   "portfolio": {
     "eyebrow": "Portfolio",
-    "title": "Social media creations",
-    "description": "A selection of visuals designed for training centers — identity, offers and key moments.",
-    "cta": "View the full case study"
+    "title": "Our work",
+    "description": "Marketing, design and technology projects for businesses across industries.",
+    "cta": "View full portfolio"
   },
   "caseStudyCard": {
     "leads": "Leads",
     "cpl": "CPL",
     "roas": "ROAS"
+  },
+  "capabilities": {
+    "eyebrow": "Our capabilities",
+    "title": "Everything your business needs",
+    "description": "From brand strategy to custom software, we cover your entire digital transformation.",
+    "items": {
+      "brands": {
+        "title": "We create brands",
+        "description": "Identity, logo, graphic design and guidelines."
+      },
+      "websites": {
+        "title": "We build websites",
+        "description": "Corporate, e-commerce, landing pages and portals."
+      },
+      "software": {
+        "title": "We develop software",
+        "description": "ERP, SaaS, business platforms and automation."
+      },
+      "mobile": {
+        "title": "We create mobile apps",
+        "description": "Android, iOS, Flutter and React Native."
+      },
+      "leads": {
+        "title": "We generate leads",
+        "description": "Meta Ads, Google Ads, SEO, GEO and lead generation."
+      },
+      "automation": {
+        "title": "We automate businesses",
+        "description": "CRM, workflows, AI agents and chatbots."
+      },
+      "creative": {
+        "title": "We produce creative content",
+        "description": "Photo, video, reels, motion graphics and design."
+      },
+      "events": {
+        "title": "We organize events",
+        "description": "Conferences, brand activation and communication."
+      }
+    }
+  },
+  "industriesTeaser": {
+    "eyebrow": "Industries",
+    "title": "Solutions for every industry",
+    "description": "Education, healthcare, e-commerce, real estate, restaurants, hospitality and more.",
+    "cta": "See all industries"
   }
 }

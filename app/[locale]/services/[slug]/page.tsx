@@ -37,11 +37,14 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const t = await getTranslations({ locale, namespace: "servicePages" });
   if (!SERVICE_SLUGS.includes(slug as (typeof SERVICE_SLUGS)[number])) {
     return {};
   }
-  const page = getLocalizedServicePage(t, slug);
+  const tServices = await getTranslations({ locale, namespace: "services" });
+  const t = await getTranslations({ locale, namespace: "servicePages" });
+  const service = getLocalizedServices(tServices).find((s) => s.slug === slug);
+  if (!service) return {};
+  const page = getLocalizedServicePage(t, slug, service);
   return buildSeoMetadata({
     locale,
     path: `/services/${slug}`,
@@ -64,8 +67,8 @@ export default async function ServiceDetailPage({
   const ts = await getTranslations("services");
   const tSeo = await getTranslations("seo");
   const ti = await getTranslations("internalLinking");
-  const page = getLocalizedServicePage(t, slug);
   const service = getLocalizedServices(ts).find((s) => s.slug === slug)!;
+  const page = getLocalizedServicePage(t, slug, service);
   const path = `/services/${slug}`;
   const pageUrl = buildPageUrl(locale, path);
 

@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
-import { BarChart3, Check, Gem, Megaphone, Rocket } from "lucide-react";
+import { BarChart3, Check, Gem, Globe, Megaphone, Palette, Rocket, Smartphone, Video } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { getLocalizedPricingTiers } from "@/lib/i18n-content";
@@ -61,6 +61,13 @@ export function PricingSection({
         </motion.div>
 
         <AdPlatformsBar />
+        <CapabilitiesBar />
+
+        {ts("customNote") ? (
+          <p className="mt-10 text-center text-sm text-muted-foreground">
+            {ts("customNote")}
+          </p>
+        ) : null}
       </div>
     </section>
   );
@@ -163,6 +170,31 @@ function AdPlatformsBar() {
             <span className="text-sm font-semibold tracking-tight">{label}</span>
           </div>
         ))}
+      </div>
+    </div>
+  );
+}
+
+function CapabilitiesBar() {
+  const ts = useTranslations("sections.pricing");
+  const items = ts.raw("capabilities") as string[];
+  const icons = [Globe, Rocket, Smartphone, Palette, Video, Megaphone];
+
+  return (
+    <div className="mt-10 border-t border-border pt-10 text-center">
+      <p className="text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">
+        {ts("capabilitiesHeading")}
+      </p>
+      <div className="mt-5 flex flex-wrap items-center justify-center gap-6 md:gap-10">
+        {items.map((label, i) => {
+          const Icon = icons[i] ?? Globe;
+          return (
+            <div key={label} className="flex items-center gap-2 text-foreground">
+              <Icon className="size-5 text-primary" />
+              <span className="text-sm font-medium tracking-tight">{label}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

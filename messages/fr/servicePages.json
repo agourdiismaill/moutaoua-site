@@ -25,186 +25,3147 @@
     "caseStudies": "Études de cas"
   },
   "homeOverview": {
-    "what": "Mohtaoua est une agence marketing spécialisée dans l'acquisition de leads pour les centres de formation au Maroc.",
-    "who": "Directeurs de centres de formation, responsables marketing éducatif et dirigeants d'organismes de formation professionnelle.",
+    "what": "Mohtaoua est une agence digitale premium 360° au Maroc : marketing, technologie, design, automatisation et IA pour entreprises de tous secteurs.",
+    "who": "Dirigeants, directeurs marketing, responsables digitaux et fondateurs de PME, startups et grands comptes au Maroc.",
     "benefits": [
-      "Plus de demandes qualifiées pour vos sessions",
-      "Campagnes Meta, Google et TikTok pilotées par la data",
-      "Tunnel complet : ads, landing pages, CRM et automation"
+      "Croissance mesurable via marketing et technologie",
+      "Solutions sur mesure pour chaque secteur",
+      "Équipe pluridisciplinaire : marketing, dev, design, IA",
+      "Accompagnement de la stratégie à l'exécution"
     ],
     "topics": [
-      "Meta Ads formation",
-      "Google Ads centres de formation",
-      "Landing pages & CRO",
-      "Marketing automation éducation"
+      "Marketing digital & publicité",
+      "Développement web & logiciels",
+      "Applications mobiles",
+      "Design & branding",
+      "IA & automatisation",
+      "Photo, vidéo & événements"
     ],
     "takeaways": [
-      "Spécialisation 100 % secteur formation au Maroc",
-      "Résultats mesurables : leads, CPL, ROAS",
+      "Agence 360° multi-secteurs au Maroc",
+      "200+ projets livrés",
       "Audit gratuit sous 24h"
     ]
   },
   "trust": {
-    "experience": "Plus de 150 campagnes menées pour des centres de formation et organismes éducatifs au Maroc.",
-    "methodology": "Audit → stratégie → lancement → optimisation continue avec reporting transparent.",
-    "updatedAt": "10 juillet 2026",
+    "experience": "Plus de 200 projets livrés pour des entreprises de 15+ secteurs au Maroc et à l'international.",
+    "methodology": "Audit → stratégie → conception → développement → lancement → optimisation continue.",
+    "updatedAt": "13 juillet 2026",
     "references": [
-      "Centres de formation professionnelle",
-      "Écoles privées et groupes éducatifs",
-      "Organismes e-learning",
-      "Formations certifiantes et continues"
+      "Éducation & formation",
+      "Santé & bien-être",
+      "E-commerce & retail",
+      "Immobilier & hôtellerie",
+      "Startups & PME",
+      "Industrie & BTP"
     ]
   },
   "items": {
     "meta-ads": {
-      "metaTitle": "Meta Ads pour Centres de Formation",
-      "metaDescription": "Campagnes Facebook & Instagram pour générer des leads qualifiés pour vos formations au Maroc : ciblage, créatives, tracking et optimisation.",
+      "metaTitle": "Meta Ads — Agence Publicité Facebook & Instagram Maroc",
+      "metaDescription": "Campagnes Meta Ads pour générer des leads qualifiés : e-commerce, santé, immobilier, éducation et plus. Ciblage, créatives, tracking CAPI et optimisation.",
       "overview": {
-        "what": "Service d'acquisition payante sur Meta (Facebook & Instagram) pour remplir vos sessions de formation.",
-        "who": "Centres de formation qui veulent générer des leads rapidement avec un budget média maîtrisé.",
-        "benefits": ["Leads qualifiés en 7-14 jours", "Ciblage précis par intention et profil", "Créatives testées A/B en continu"],
-        "topics": ["Audiences lookalike", "Retargeting", "CAPI & tracking", "Tunnel lead → inscription"],
-        "takeaways": ["Meta reste le canal #1 pour la génération de leads formation au Maroc", "La qualité créative détermine 60 % des performances", "L'optimisation hebdomadaire est indispensable"]
+        "what": "Service d'acquisition payante sur Meta (Facebook & Instagram) pour générer des leads et des ventes.",
+        "who": "Entreprises qui veulent scaler leur acquisition avec un budget média maîtrisé.",
+        "benefits": [
+          "Leads qualifiés en 7-14 jours",
+          "Ciblage précis par intention et profil",
+          "Créatives testées A/B en continu"
+        ],
+        "topics": [
+          "Audiences lookalike",
+          "Retargeting",
+          "CAPI & tracking",
+          "Tunnel conversion"
+        ],
+        "takeaways": [
+          "Meta reste un canal #1 au Maroc",
+          "La qualité créative détermine 60 % des performances",
+          "L'optimisation hebdomadaire est indispensable"
+        ]
       },
-      "problem": "Votre centre investit en publicité mais obtient des leads peu qualifiés, un coût par lead instable ou des campagnes qui ne convertissent pas en inscriptions.",
-      "solution": "Nous construisons des campagnes Meta structurées par objectif (lead, trafic, conversion) avec des audiences sur mesure, des créatives adaptées au secteur formation et un suivi des conversions fiable.",
-      "howItWorks": ["Audit de votre offre et de votre tunnel", "Stratégie média et plan de tests créatifs", "Lancement et optimisation quotidienne", "Reporting leads, CPL et recommandations"],
-      "industries": ["Formation professionnelle", "Langues", "Informatique & digital", "Santé & paramédical", "Management & soft skills"],
+      "problem": "Vous investissez en publicité Meta mais obtenez des leads peu qualifiés, un CPL instable ou des campagnes qui ne convertissent pas.",
+      "solution": "Nous construisons des campagnes Meta structurées avec audiences sur mesure, créatives adaptées à votre secteur et suivi des conversions fiable.",
+      "howItWorks": [
+        "Audit de votre offre et tunnel",
+        "Stratégie média et tests créatifs",
+        "Lancement et optimisation quotidienne",
+        "Reporting leads, CPL et ROAS"
+      ],
+      "industries": [
+        "E-commerce",
+        "Santé & bien-être",
+        "Immobilier",
+        "Éducation",
+        "Restauration",
+        "Startups"
+      ],
       "faqs": [
-        { "question": "Combien de budget Meta faut-il pour un centre de formation ?", "answer": "Nous recommandons généralement 8 000 à 25 000 MAD/mois selon la concurrence et la saisonnalité. Nous calibrons le budget après l'audit gratuit." },
-        { "question": "En combien de temps obtient-on les premiers leads ?", "answer": "Les premières demandes arrivent souvent entre 7 et 14 jours après le lancement, le temps que l'algorithme apprenne et que nous optimisions les audiences." },
-        { "question": "Gérez-vous la création des visuels et vidéos ?", "answer": "Oui, nos offres Performance et Premium incluent la production de créatives (statiques, carrousels, Reels) adaptées à votre secteur." },
-        { "question": "Comment mesurez-vous la qualité des leads Meta ?", "answer": "Nous suivons le coût par lead, le taux de contact, la qualification CRM et le taux de conversion en inscription lorsque votre CRM est connecté." },
-        { "question": "Pouvez-vous relancer les visiteurs qui n'ont pas converti ?", "answer": "Oui, via des campagnes de retargeting sur les visiteurs du site, les engagés vidéo et les leads non convertis." },
-        { "question": "Travaillez-vous avec le Conversions API (CAPI) ?", "answer": "Oui, nous configurons le pixel et le CAPI pour améliorer le tracking et la stabilité des performances post-iOS14." },
-        { "question": "Quelle est la différence entre Meta Ads et Google Ads pour la formation ?", "answer": "Meta génère de la demande (interruption marketing) ; Google capte une intention de recherche existante. Les deux sont complémentaires." },
-        { "question": "Y a-t-il un engagement minimum ?", "answer": "Nous recommandons 3 mois pour atteindre un régime de performance stable, puis contrat résiliable avec 30 jours de préavis." }
+        {
+          "question": "Combien de budget Meta faut-il pour mon entreprise ?",
+          "answer": "Nous recommandons généralement 8 000 à 25 000 MAD/mois selon la concurrence et la saisonnalité. Nous calibrons le budget après l'audit gratuit."
+        },
+        {
+          "question": "En combien de temps obtient-on les premiers leads ?",
+          "answer": "Les premières demandes arrivent souvent entre 7 et 14 jours après le lancement, le temps que l'algorithme apprenne et que nous optimisions les audiences."
+        },
+        {
+          "question": "Gérez-vous la création des visuels et vidéos ?",
+          "answer": "Oui, nos offres Performance et Premium incluent la production de créatives (statiques, carrousels, Reels) adaptées à votre secteur."
+        },
+        {
+          "question": "Comment mesurez-vous la qualité des leads Meta ?",
+          "answer": "Nous suivons le coût par lead, le taux de contact, la qualification CRM et le taux de conversion en inscription lorsque votre CRM est connecté."
+        }
       ]
     },
     "google-ads": {
-      "metaTitle": "Google Ads pour Centres de Formation",
-      "metaDescription": "Search, Performance Max et YouTube Ads pour capter les futurs apprenants au moment où ils recherchent une formation au Maroc.",
+      "metaTitle": "Google Ads — Search & Performance Max Maroc",
+      "metaDescription": "Google Ads Search, Performance Max et YouTube pour capter une demande à forte intention. E-commerce, services, B2B et retail au Maroc.",
       "overview": {
-        "what": "Service Google Ads (Search, PMax, YouTube) pour capter une demande à forte intention sur vos formations.",
-        "who": "Centres de formation avec des offres recherchées (langues, IT, santé, management) souhaitant un ROAS élevé.",
-        "benefits": ["Trafic qualifié à forte intention", "Search + Performance Max complémentaires", "Suivi des conversions appels et formulaires"],
-        "topics": ["Mots-clés formation", "Performance Max", "Extensions d'annonce", "Landing pages dédiées"],
-        "takeaways": ["Google Ads excelle sur la demande existante", "La structure de compte impacte directement le CPL", "Les landing pages dédiées sont indispensables"]
+        "what": "Service Google Ads pour capter une demande à forte intention sur Search, PMax et YouTube.",
+        "who": "Entreprises avec des offres recherchées souhaitant un ROAS élevé.",
+        "benefits": [
+          "Trafic qualifié à forte intention",
+          "Search + PMax complémentaires",
+          "Suivi conversions appels et formulaires"
+        ],
+        "topics": [
+          "Mots-clés intentionnels",
+          "Performance Max",
+          "Extensions",
+          "Landing pages"
+        ],
+        "takeaways": [
+          "Google excelle sur la demande existante",
+          "La structure de compte impacte le CPL",
+          "Les landing pages dédiées sont indispensables"
+        ]
       },
-      "problem": "Vos concurrents apparaissent en premier sur Google quand un prospect cherche une formation, et votre budget est gaspillé sur des mots-clés trop larges.",
-      "solution": "Nous structurons des campagnes Search et PMax orientées conversion avec un ciblage sémantique précis, des annonces optimisées et des pages d'atterrissage dédiées.",
-      "howItWorks": ["Recherche de mots-clés à intention commerciale", "Architecture de compte et campagnes", "Rédaction d'annonces et extensions", "Optimisation CPL/ROAS hebdomadaire"],
-      "industries": ["Formation certifiante", "Préparation concours", "Bootcamps tech", "Formations continues B2B"],
+      "problem": "Vos concurrents apparaissent en premier sur Google et votre budget est gaspillé sur des mots-clés trop larges.",
+      "solution": "Campagnes Search et PMax orientées conversion avec ciblage sémantique précis et pages d'atterrissage dédiées.",
+      "howItWorks": [
+        "Recherche mots-clés",
+        "Architecture de compte",
+        "Annonces et extensions",
+        "Optimisation CPL/ROAS"
+      ],
+      "industries": [
+        "E-commerce",
+        "Services B2B",
+        "Immobilier",
+        "Santé",
+        "Éducation",
+        "Retail"
+      ],
       "faqs": [
-        { "question": "Search ou Performance Max pour un centre de formation ?", "answer": "Search pour le contrôle sémantique ; PMax pour élargir sur Display, YouTube et Discover. Nous combinons souvent les deux selon le budget." },
-        { "question": "Quel budget Google Ads est réaliste au Maroc ?", "answer": "À partir de 6 000 MAD/mois pour tester un marché ; 15 000+ MAD/mois pour scaler sur plusieurs formations." },
-        { "question": "Comment éviter les clics non qualifiés ?", "answer": "Via des mots-clés négatifs, un ciblage géographique précis, des annonces explicites et des landing pages alignées sur l'intention." },
-        { "question": "Suivez-vous les appels générés par Google ?", "answer": "Oui, avec le suivi des conversions appels, formulaires et événements CRM lorsque l'infrastructure le permet." },
-        { "question": "Faut-il une page par formation ?", "answer": "Idéalement oui : une landing page par offre améliore le Quality Score et le taux de conversion." },
-        { "question": "Combien de temps pour optimiser le ROAS ?", "answer": "Les premières optimisations sont visibles sous 30 jours ; la stabilisation se fait sur 60-90 jours." },
-        { "question": "Pouvez-vous gérer YouTube Ads ?", "answer": "Oui, pour la notoriété et le retargeting vidéo, notamment via PMax et campagnes YouTube dédiées." },
-        { "question": "Le budget média est-il inclus ?", "answer": "Non, le budget est payé directement à Google. Nos honoraires couvrent la stratégie, la gestion et l'optimisation." }
+        {
+          "question": "Search ou Performance Max pour mon entreprise ?",
+          "answer": "Search pour le contrôle sémantique ; PMax pour élargir sur Display, YouTube et Discover. Nous combinons souvent les deux selon le budget."
+        },
+        {
+          "question": "Quel budget Google Ads est réaliste au Maroc ?",
+          "answer": "À partir de 6 000 MAD/mois pour tester un marché ; 15 000+ MAD/mois pour scaler sur plusieurs formations."
+        },
+        {
+          "question": "Comment éviter les clics non qualifiés ?",
+          "answer": "Via des mots-clés négatifs, un ciblage géographique précis, des annonces explicites et des landing pages alignées sur l'intention."
+        },
+        {
+          "question": "Suivez-vous les appels générés par Google ?",
+          "answer": "Oui, avec le suivi des conversions appels, formulaires et événements CRM lorsque l'infrastructure le permet."
+        }
       ]
     },
     "marketing-automation": {
-      "metaTitle": "Marketing Automation Formation",
-      "metaDescription": "Scénarios e-mail, SMS et WhatsApp pour convertir vos leads formation en inscriptions avec nurturing et scoring automatisé.",
+      "metaTitle": "Marketing Automation — Nurturing & CRM Maroc",
+      "metaDescription": "Scénarios e-mail, SMS et WhatsApp pour convertir vos leads en clients. Nurturing, scoring et intégration CRM pour tous secteurs.",
       "overview": {
-        "what": "Automatisation du nurturing multicanal pour transformer les leads en inscrits.",
-        "who": "Centres avec un volume de leads suffisant mais un faible taux de conversion post-demande.",
-        "benefits": ["Relances automatiques intelligentes", "Scoring et segmentation", "Intégration CRM native"],
-        "topics": ["Séquences e-mail", "WhatsApp business", "Lead scoring", "Intégration CRM"],
-        "takeaways": ["70 % des leads nécessitent un nurturing", "L'automation réduit le temps de réponse", "Le CRM connecté est un prérequis"]
+        "what": "Automatisation du nurturing multicanal pour transformer les leads en clients.",
+        "who": "Entreprises avec un volume de leads mais un faible taux de conversion post-demande.",
+        "benefits": [
+          "Relances automatiques",
+          "Scoring et segmentation",
+          "Intégration CRM native"
+        ],
+        "topics": [
+          "Séquences e-mail",
+          "WhatsApp Business",
+          "Lead scoring",
+          "CRM"
+        ],
+        "takeaways": [
+          "70 % des leads nécessitent un nurturing",
+          "L'automation réduit le temps de réponse",
+          "Le CRM connecté est un prérequis"
+        ]
       },
-      "problem": "Vos leads refroidissent faute de relance rapide et structurée, et votre équipe commerciale perd du temps sur des tâches répétitives.",
-      "solution": "Nous concevons des scénarios automation connectés à votre CRM pour qualifier, relancer et convertir automatiquement selon le comportement du prospect.",
-      "howItWorks": ["Cartographie du parcours lead → inscription", "Création des scénarios multicanal", "Intégration CRM et tracking", "Optimisation des taux d'ouverture et conversion"],
-      "industries": ["E-learning", "Formation continue", "Écoles multi-campus", "Organismes avec cycle long"],
+      "problem": "Vos leads refroidissent faute de relance structurée et votre équipe perd du temps sur des tâches répétitives.",
+      "solution": "Scénarios automation connectés à votre CRM pour qualifier, relancer et convertir selon le comportement du prospect.",
+      "howItWorks": [
+        "Cartographie du parcours client",
+        "Scénarios multicanal",
+        "Intégration CRM",
+        "Optimisation des taux de conversion"
+      ],
+      "industries": [
+        "E-commerce",
+        "Santé",
+        "Immobilier",
+        "Éducation",
+        "Services B2B",
+        "Hôtellerie"
+      ],
       "faqs": [
-        { "question": "Quels outils d'automation utilisez-vous ?", "answer": "HubSpot, ActiveCampaign, Brevo, Make/Zapier selon votre stack existante et votre budget." },
-        { "question": "L'automation remplace-t-elle l'équipe commerciale ?", "answer": "Non, elle qualifie et réchauffe les leads pour que vos commerciaux se concentrent sur les prospects chauds." },
-        { "question": "Peut-on automatiser WhatsApp ?", "answer": "Oui, avec des relances structurées et des scénarios de prise de rendez-vous selon votre outil." },
-        { "question": "Combien de séquences faut-il ?", "answer": "En général 3 à 5 séquences selon la durée du cycle de vente (courte vs longue formation)." },
-        { "question": "Comment mesurer le ROI de l'automation ?", "answer": "Via le taux de conversion lead → RDV → inscription et la réduction du temps de traitement." },
-        { "question": "Faut-il un CRM avant de commencer ?", "answer": "Recommandé. Nous pouvons aussi implémenter un CRM léger si vous n'en avez pas." },
-        { "question": "L'automation fonctionne-t-elle en arabe et français ?", "answer": "Oui, nous créons des parcours multilingues adaptés à votre audience." },
-        { "question": "Quel délai de mise en place ?", "answer": "2 à 4 semaines selon la complexité des scénarios et les intégrations." }
+        {
+          "question": "Quels outils d'automation utilisez-vous ?",
+          "answer": "HubSpot, ActiveCampaign, Brevo, Make/Zapier selon votre stack existante et votre budget."
+        },
+        {
+          "question": "L'automation remplace-t-elle l'équipe commerciale ?",
+          "answer": "Non, elle qualifie et réchauffe les leads pour que vos commerciaux se concentrent sur les prospects chauds."
+        },
+        {
+          "question": "Peut-on automatiser WhatsApp ?",
+          "answer": "Oui, avec des relances structurées et des scénarios de prise de rendez-vous selon votre outil."
+        },
+        {
+          "question": "Combien de séquences faut-il ?",
+          "answer": "En général 3 à 5 séquences selon la durée du cycle de vente (courte vs longue formation)."
+        }
       ]
     },
     "landing-pages": {
-      "metaTitle": "Landing Pages & CRO Formation",
-      "metaDescription": "Pages d'atterrissage rapides et optimisées pour convertir le trafic publicitaire en demandes d'information pour vos formations.",
+      "metaTitle": "Landing Pages & CRO — Pages de Conversion Maroc",
+      "metaDescription": "Landing pages rapides et optimisées pour convertir le trafic publicitaire en leads et ventes. Design mobile-first, CRO et tests A/B.",
       "overview": {
-        "what": "Conception et optimisation de landing pages orientées conversion pour vos campagnes ads.",
-        "who": "Centres qui envoient du trafic payant vers des pages génériques peu performantes.",
-        "benefits": ["Taux de conversion amélioré", "Mobile-first et rapide", "Tests A/B continus"],
-        "topics": ["Copywriting conversion", "CRO", "Vitesse Core Web Vitals", "Formulaires optimisés"],
-        "takeaways": ["Une bonne landing peut diviser le CPL par 2", "La vitesse impacte SEO et ads", "Un message = une offre = une page"]
+        "what": "Conception et optimisation de landing pages orientées conversion.",
+        "who": "Entreprises qui envoient du trafic payant vers des pages génériques peu performantes.",
+        "benefits": [
+          "Taux de conversion amélioré",
+          "Mobile-first et rapide",
+          "Tests A/B continus"
+        ],
+        "topics": [
+          "Copywriting",
+          "CRO",
+          "Core Web Vitals",
+          "Formulaires"
+        ],
+        "takeaways": [
+          "Une bonne landing peut diviser le CPL par 2",
+          "La vitesse impacte SEO et ads",
+          "Un message = une offre = une page"
+        ]
       },
-      "problem": "Votre trafic publicitaire arrive sur une page lente ou générique qui ne convertit pas, augmentant votre coût par lead.",
-      "solution": "Nous créons des landing pages dédiées par formation avec copywriting orienté conversion, design mobile-first et tests A/B.",
-      "howItWorks": ["Analyse du tunnel actuel", "Wireframe et copywriting", "Développement Next.js rapide", "Tests A/B et optimisation CRO"],
-      "industries": ["Toute formation avec acquisition payante", "Lancements de nouvelles sessions", "Campagnes saisonnières"],
+      "problem": "Votre trafic publicitaire arrive sur une page lente ou générique qui ne convertit pas.",
+      "solution": "Landing pages dédiées par offre avec copywriting conversion, design mobile-first et tests A/B.",
+      "howItWorks": [
+        "Analyse du tunnel",
+        "Wireframe et copy",
+        "Développement Next.js",
+        "Tests A/B et CRO"
+      ],
+      "industries": [
+        "E-commerce",
+        "SaaS",
+        "Immobilier",
+        "Santé",
+        "Éducation",
+        "Événements"
+      ],
       "faqs": [
-        { "question": "Combien de landing pages faut-il ?", "answer": "Au minimum une par offre principale ; idéalement une par campagne ou segment d'audience." },
-        { "question": "Utilisez-vous WordPress ou Next.js ?", "answer": "Nous privilégions Next.js pour la vitesse, le SEO et l'intégration avec votre site existant." },
-        { "question": "Quel taux de conversion viser ?", "answer": "Entre 8 % et 25 % selon le secteur, le prix et la qualification du trafic." },
-        { "question": "Faites-vous des tests A/B ?", "answer": "Oui, sur titres, CTA, formulaires et preuves sociales pour améliorer continuellement le taux de conversion." },
-        { "question": "Les pages sont-elles optimisées SEO ?", "answer": "Oui : balises, structure sémantique, performance et données structurées lorsque pertinent." },
-        { "question": "Intégrez-vous WhatsApp et calendrier ?", "answer": "Oui, boutons WhatsApp, prise de RDV Calendly/HubSpot et formulaires multi-étapes." },
-        { "question": "Quel délai de livraison ?", "answer": "5 à 10 jours ouvrés par landing selon la complexité." },
-        { "question": "Puis-je modifier le contenu moi-même ?", "answer": "Nous livrons une structure claire ; des modifications peuvent être gérées via notre équipe ou un CMS selon le setup." }
+        {
+          "question": "Combien de landing pages faut-il ?",
+          "answer": "Au minimum une par offre principale ; idéalement une par campagne ou segment d'audience."
+        },
+        {
+          "question": "Utilisez-vous WordPress ou Next.js ?",
+          "answer": "Nous privilégions Next.js pour la vitesse, le SEO et l'intégration avec votre site existant."
+        },
+        {
+          "question": "Quel taux de conversion viser ?",
+          "answer": "Entre 8 % et 25 % selon le secteur, le prix et la qualification du trafic."
+        },
+        {
+          "question": "Faites-vous des tests A/B ?",
+          "answer": "Oui, sur titres, CTA, formulaires et preuves sociales pour améliorer continuellement le taux de conversion."
+        }
       ]
     },
     "social-media": {
-      "metaTitle": "Réseaux Sociaux pour Centres de Formation",
-      "metaDescription": "Stratégie éditoriale, Reels et community management pour renforcer la notoriété de votre centre de formation au Maroc.",
+      "metaTitle": "Réseaux Sociaux & Community Management Maroc",
+      "metaDescription": "Stratégie éditoriale, Reels et community management pour renforcer votre marque et alimenter l'acquisition.",
       "overview": {
-        "what": "Gestion stratégique des réseaux sociaux pour bâtir une marque éducative forte et alimenter l'acquisition.",
-        "who": "Centres qui veulent une présence cohérente et du contenu qui génère de l'engagement et des leads.",
-        "benefits": ["Image de marque professionnelle", "Contenu vidéo performant", "Engagement communautaire"],
-        "topics": ["Reels & carrousels", "Calendrier éditorial", "Community management", "Reporting"],
-        "takeaways": ["Le social nourrit le retargeting ads", "La régularité prime sur la viralité", "Le contenu doit vendre sans vendre"]
+        "what": "Gestion stratégique des réseaux sociaux pour bâtir une marque forte et alimenter l'acquisition.",
+        "who": "Entreprises qui veulent une présence cohérente et du contenu qui génère engagement et leads.",
+        "benefits": [
+          "Image de marque professionnelle",
+          "Contenu vidéo performant",
+          "Engagement communautaire"
+        ],
+        "topics": [
+          "Reels & carrousels",
+          "Calendrier éditorial",
+          "Community management",
+          "Reporting"
+        ],
+        "takeaways": [
+          "Le social nourrit le retargeting ads",
+          "La régularité prime sur la viralité",
+          "Le contenu doit convertir sans vendre"
+        ]
       },
-      "problem": "Votre présence sociale est irrégulière, peu engageante et ne soutient pas vos campagnes publicitaires.",
-      "solution": "Nous définissons une ligne éditoriale, produisons des Reels et carrousels, et animons votre communauté avec un reporting mensuel.",
-      "howItWorks": ["Audit de l'existant et benchmark", "Stratégie éditoriale mensuelle", "Production et publication", "Analyse et ajustements"],
-      "industries": ["Formation professionnelle", "Écoles privées", "Coachs et formateurs indépendants"],
+      "problem": "Votre présence sociale est irrégulière, peu engageante et ne soutient pas vos campagnes.",
+      "solution": "Ligne éditoriale, production Reels et carrousels, animation communautaire et reporting mensuel.",
+      "howItWorks": [
+        "Audit et benchmark",
+        "Stratégie éditoriale",
+        "Production et publication",
+        "Analyse et ajustements"
+      ],
+      "industries": [
+        "Retail",
+        "Restauration",
+        "Hôtellerie",
+        "Beauté",
+        "Éducation",
+        "E-commerce"
+      ],
       "faqs": [
-        { "question": "Quels réseaux gérez-vous ?", "answer": "Instagram, Facebook, LinkedIn et TikTok selon votre audience cible." },
-        { "question": "Produisez-vous les Reels sur place ?", "answer": "Oui, tournage sur site ou remote selon le pack choisi." },
-        { "question": "Combien de publications par semaine ?", "answer": "De 3 à 7 selon le pack : posts, stories et Reels." },
-        { "question": "Le social génère-t-il des leads ?", "answer": "Indirectement via notoriété, preuve sociale et retargeting ; nous lions social et ads." },
-        { "question": "Rédigez-vous en arabe et français ?", "answer": "Oui, contenu bilingue ou trilingue selon votre marché." },
-        { "question": "Gérez-vous les commentaires et messages ?", "answer": "Oui en community management avec SLA de réponse défini." },
-        { "question": "Fournissez-vous un reporting ?", "answer": "Rapport mensuel : portée, engagement, croissance, top contenus." },
-        { "question": "Peut-on coupler social et Meta Ads ?", "answer": "Absolument — c'est notre approche recommandée pour maximiser le ROAS." }
+        {
+          "question": "Quels réseaux gérez-vous ?",
+          "answer": "Instagram, Facebook, LinkedIn et TikTok selon votre audience cible."
+        },
+        {
+          "question": "Produisez-vous les Reels sur place ?",
+          "answer": "Oui, tournage sur site ou remote selon le pack choisi."
+        },
+        {
+          "question": "Combien de publications par semaine ?",
+          "answer": "De 3 à 7 selon le pack : posts, stories et Reels."
+        },
+        {
+          "question": "Le social génère-t-il des leads ?",
+          "answer": "Indirectement via notoriété, preuve sociale et retargeting ; nous lions social et ads."
+        }
       ]
     },
     "crm-data": {
-      "metaTitle": "CRM & Data pour Centres de Formation",
-      "metaDescription": "Implémentation CRM, dashboards et attribution pour piloter l'acquisition de votre centre de formation avec des données fiables.",
+      "metaTitle": "CRM & Pilotage Data — Tableaux de Bord Maroc",
+      "metaDescription": "Implémentation CRM, dashboards et attribution pour piloter votre acquisition et vos ventes avec des données fiables.",
       "overview": {
-        "what": "Mise en place et optimisation CRM avec tableaux de bord pour piloter l'acquisition formation.",
-        "who": "Centres qui perdent des leads faute d'outil centralisé ou qui ne savent pas quel canal performe.",
-        "benefits": ["Vision temps réel des leads", "Attribution multi-touch", "Décisions data-driven"],
-        "topics": ["HubSpot / Pipedrive", "Dashboards", "Attribution", "Intégrations ads"],
-        "takeaways": ["Sans CRM, impossible d'optimiser le CPL réel", "L'attribution révèle les vrais canaux performants", "Les dashboards alignent marketing et commercial"]
+        "what": "Mise en place CRM avec tableaux de bord pour piloter l'acquisition et les ventes.",
+        "who": "Entreprises qui perdent des leads faute d'outil centralisé ou ne savent pas quel canal performe.",
+        "benefits": [
+          "Vision temps réel",
+          "Attribution multi-touch",
+          "Décisions data-driven"
+        ],
+        "topics": [
+          "HubSpot / Pipedrive",
+          "Dashboards",
+          "Attribution",
+          "Intégrations ads"
+        ],
+        "takeaways": [
+          "Sans CRM, impossible d'optimiser le CPL réel",
+          "L'attribution révèle les vrais canaux",
+          "Les dashboards alignent marketing et commercial"
+        ]
       },
-      "problem": "Vos leads sont dispersés (Excel, WhatsApp, e-mail) et vous ne savez pas quel canal ou campagne génère réellement des inscriptions.",
-      "solution": "Nous implémentons un CRM adapté, connectons vos sources de leads et créons des dashboards temps réel pour piloter l'acquisition.",
-      "howItWorks": ["Audit des flux de leads actuels", "Choix et setup CRM", "Intégrations ads et formulaires", "Dashboards et formation équipe"],
-      "industries": ["Centres multi-formations", "Groupes avec plusieurs campus", "Organismes en croissance"],
+      "problem": "Vos leads sont dispersés et vous ne savez pas quel canal génère réellement des ventes.",
+      "solution": "CRM adapté, connexion des sources de leads et dashboards temps réel.",
+      "howItWorks": [
+        "Audit des flux",
+        "Setup CRM",
+        "Intégrations ads",
+        "Dashboards et formation"
+      ],
+      "industries": [
+        "E-commerce",
+        "Services B2B",
+        "Immobilier",
+        "Santé",
+        "Éducation",
+        "Industrie"
+      ],
       "faqs": [
-        { "question": "Quels CRM recommandez-vous ?", "answer": "HubSpot pour l'écosystème complet ; Pipedrive pour la simplicité commerciale ; Salesforce pour les grands groupes." },
-        { "question": "Pouvez-vous migrer nos données existantes ?", "answer": "Oui, import depuis Excel, Google Sheets ou un ancien CRM." },
-        { "question": "Connectez-vous Meta et Google au CRM ?", "answer": "Oui, via intégrations natives, Zapier/Make ou API selon le setup." },
-        { "question": "Quels KPI suivre pour la formation ?", "answer": "Leads, CPL, taux de contact, RDV, taux d'inscription, CAC et ROAS par formation." },
-        { "question": "Créez-vous des dashboards sur mesure ?", "answer": "Oui, dashboards temps réel (Looker Studio, HubSpot, Notion) selon vos besoins." },
-        { "question": "Formez-vous nos équipes ?", "answer": "Oui, session de prise en main et documentation incluse." },
-        { "question": "Quel délai d'implémentation ?", "answer": "2 à 6 semaines selon la complexité et le nombre d'intégrations." },
-        { "question": "Le CRM est-il inclus dans vos packs ?", "answer": "L'implémentation de base est incluse en pack Premium ; les licences CRM sont à votre charge." }
+        {
+          "question": "Quels CRM recommandez-vous ?",
+          "answer": "HubSpot pour l'écosystème complet ; Pipedrive pour la simplicité commerciale ; Salesforce pour les grands groupes."
+        },
+        {
+          "question": "Pouvez-vous migrer nos données existantes ?",
+          "answer": "Oui, import depuis Excel, Google Sheets ou un ancien CRM."
+        },
+        {
+          "question": "Connectez-vous Meta et Google au CRM ?",
+          "answer": "Oui, via intégrations natives, Zapier/Make ou API selon le setup."
+        },
+        {
+          "question": "Quels KPI suivre pour la formation ?",
+          "answer": "Leads, CPL, taux de contact, RDV, taux d'inscription, CAC et ROAS par formation."
+        }
+      ]
+    },
+    "tiktok-ads": {
+      "metaTitle": "TikTok Ads — Publicité TikTok Maroc",
+      "metaDescription": "Campagnes TikTok Ads pour toucher les audiences jeunes et engagées. Formats natifs, Spark Ads et optimisation conversion.",
+      "overview": {
+        "what": "Publicité sur TikTok pour notoriété et conversion.",
+        "who": "Marques B2C, retail, restauration, beauté et startups.",
+        "benefits": [
+          "Audiences jeunes",
+          "Formats natifs",
+          "Coûts compétitifs"
+        ],
+        "topics": [
+          "Spark Ads",
+          "In-Feed",
+          "Retargeting",
+          "Créatives UGC"
+        ],
+        "takeaways": [
+          "TikTok domine chez les 18-34 ans",
+          "L'authenticité bat la production studio",
+          "Tester vite, scaler ce qui marche"
+        ]
+      },
+      "problem": "Votre marque est absente de TikTok alors que votre cible y passe des heures chaque jour.",
+      "solution": "Campagnes TikTok structurées avec créatives natives et optimisation continue.",
+      "howItWorks": [
+        "Audit audience",
+        "Stratégie créative",
+        "Lancement campagnes",
+        "Optimisation ROAS"
+      ],
+      "industries": [
+        "Retail",
+        "Restauration",
+        "Beauté",
+        "E-commerce",
+        "Événements",
+        "Startups"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte tiktok-ads chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "seo": {
+      "metaTitle": "SEO — Référencement Naturel Maroc",
+      "metaDescription": "SEO technique, contenu et netlinking pour positionner votre marque en tête de Google au Maroc.",
+      "overview": {
+        "what": "Référencement naturel pour une visibilité durable sur Google.",
+        "who": "Entreprises qui veulent réduire leur dépendance à la publicité payante.",
+        "benefits": [
+          "Trafic organique qualifié",
+          "Autorité de domaine",
+          "ROI long terme"
+        ],
+        "topics": [
+          "Audit technique",
+          "Contenu SEO",
+          "Netlinking",
+          "Core Web Vitals"
+        ],
+        "takeaways": [
+          "Le SEO est un investissement, pas une dépense",
+          "Le contenu expert gagne en 2026",
+          "La technique reste le socle"
+        ]
+      },
+      "problem": "Votre site n'apparaît pas sur les requêtes stratégiques de votre marché.",
+      "solution": "Stratégie SEO complète : technique, contenu et autorité thématique.",
+      "howItWorks": [
+        "Audit SEO",
+        "Plan de contenu",
+        "Optimisations techniques",
+        "Suivi positions"
+      ],
+      "industries": [
+        "E-commerce",
+        "Santé",
+        "Immobilier",
+        "Services B2B",
+        "Hôtellerie",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte seo chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "geo": {
+      "metaTitle": "GEO — Optimisation Moteurs IA (ChatGPT, Gemini)",
+      "metaDescription": "Generative Engine Optimization : soyez cité par ChatGPT, Gemini, Perplexity et Claude. Autorité thématique et contenu structuré.",
+      "overview": {
+        "what": "Optimisation pour les moteurs de réponse IA (ChatGPT, Gemini, Perplexity).",
+        "who": "Marques qui veulent être recommandées par l'IA générative.",
+        "benefits": [
+          "Citations IA",
+          "Autorité thématique",
+          "Contenu structuré"
+        ],
+        "topics": [
+          "Schema.org",
+          "FAQ optimisées",
+          "E-E-A-T",
+          "Topical authority"
+        ],
+        "takeaways": [
+          "Le GEO complète le SEO en 2026",
+          "La structure compte autant que le contenu",
+          "Les FAQ sont des aimants IA"
+        ]
+      },
+      "problem": "Vos concurrents sont cités par ChatGPT et Gemini, pas vous.",
+      "solution": "Stratégie GEO : contenu expert, données structurées et autorité thématique.",
+      "howItWorks": [
+        "Audit de visibilité IA",
+        "Architecture contenu",
+        "Schema & FAQ",
+        "Monitoring citations"
+      ],
+      "industries": [
+        "Services B2B",
+        "Santé",
+        "Éducation",
+        "Immobilier",
+        "Tech",
+        "Conseil"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte geo chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "e-commerce": {
+      "metaTitle": "E-commerce — Boutiques en Ligne Maroc",
+      "metaDescription": "Création de boutiques e-commerce performantes : Shopify, WooCommerce ou sur mesure. Conversion, paiement et logistique.",
+      "overview": {
+        "what": "Conception et développement de boutiques en ligne performantes.",
+        "who": "Commerçants et marques qui veulent vendre en ligne au Maroc.",
+        "benefits": [
+          "Boutique scalable",
+          "Paiement local",
+          "Conversion optimisée"
+        ],
+        "topics": [
+          "Shopify",
+          "WooCommerce",
+          "Next.js",
+          "Paiement CMI/PayPal"
+        ],
+        "takeaways": [
+          "La vitesse de chargement impacte les ventes",
+          "Le mobile représente 70 %+ du trafic",
+          "Le checkout doit être fluide"
+        ]
+      },
+      "problem": "Votre boutique en ligne est lente, peu convertissante ou difficile à gérer.",
+      "solution": "E-commerce sur mesure ou Shopify avec UX optimisée et intégrations paiement.",
+      "howItWorks": [
+        "Cadrage catalogue",
+        "Design UX",
+        "Développement",
+        "Lancement et formation"
+      ],
+      "industries": [
+        "Retail",
+        "Mode",
+        "Alimentaire",
+        "Beauté",
+        "Artisanat",
+        "B2B"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte e-commerce chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "brand-identity": {
+      "metaTitle": "Identité de Marque — Branding Maroc",
+      "metaDescription": "Création d'identité de marque premium : logo, charte graphique, naming et guidelines pour entreprises au Maroc.",
+      "overview": {
+        "what": "Création d'identité de marque complète et cohérente.",
+        "who": "Entreprises en création ou en repositionnement.",
+        "benefits": [
+          "Image mémorable",
+          "Cohérence multicanal",
+          "Différenciation"
+        ],
+        "topics": [
+          "Logo",
+          "Charte graphique",
+          "Naming",
+          "Guidelines"
+        ],
+        "takeaways": [
+          "La marque précède le marketing",
+          "La cohérence inspire confiance",
+          "Un bon branding réduit le CPL"
+        ]
+      },
+      "problem": "Votre image de marque est incohérente et ne reflète pas la qualité de votre offre.",
+      "solution": "Identité de marque premium : positionnement, logo, charte et guidelines.",
+      "howItWorks": [
+        "Workshop marque",
+        "Exploration créative",
+        "Déclinaisons",
+        "Livraison guidelines"
+      ],
+      "industries": [
+        "Startups",
+        "Hôtellerie",
+        "Santé",
+        "Retail",
+        "Restauration",
+        "Immobilier"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte brand-identity chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "custom-software": {
+      "metaTitle": "Logiciels Sur Mesure — Développement Maroc",
+      "metaDescription": "Développement de logiciels métier sur mesure : ERP, CRM, plateformes et outils internes pour entreprises au Maroc.",
+      "overview": {
+        "what": "Développement de logiciels adaptés à vos processus métier.",
+        "who": "Entreprises avec des besoins que les solutions standard ne couvrent pas.",
+        "benefits": [
+          "Processus optimisés",
+          "Scalabilité",
+          "Propriété du code"
+        ],
+        "topics": [
+          "Analyse métier",
+          "Architecture",
+          "Développement",
+          "Déploiement"
+        ],
+        "takeaways": [
+          "Le sur mesure ROI quand le standard échoue",
+          "L'agilité prime sur le big bang",
+          "La maintenance est clé"
+        ]
+      },
+      "problem": "Vos outils actuels (Excel, logiciels génériques) limitent votre croissance.",
+      "solution": "Logiciel sur mesure conçu autour de vos workflows et intégré à votre stack.",
+      "howItWorks": [
+        "Cadrage fonctionnel",
+        "Maquettes et architecture",
+        "Développement agile",
+        "Déploiement et support"
+      ],
+      "industries": [
+        "Industrie",
+        "Logistique",
+        "Santé",
+        "Immobilier",
+        "Services B2B",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte custom-software chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "ai-agents": {
+      "metaTitle": "Agents IA — Automatisation Intelligente Maroc",
+      "metaDescription": "Agents IA conversationnels et autonomes pour automatiser le support, la qualification et les workflows métier.",
+      "overview": {
+        "what": "Agents IA pour automatiser tâches, support et qualification.",
+        "who": "Entreprises qui veulent gagner en productivité avec l'IA.",
+        "benefits": [
+          "Disponibilité 24/7",
+          "Réduction coûts",
+          "Scalabilité"
+        ],
+        "topics": [
+          "LLM",
+          "RAG",
+          "Chatbots IA",
+          "Workflows"
+        ],
+        "takeaways": [
+          "L'IA agentique transforme le support",
+          "Le RAG fiabilise les réponses",
+          "Commencer par un use case précis"
+        ]
+      },
+      "problem": "Vos équipes passent trop de temps sur des tâches répétitives que l'IA pourrait automatiser.",
+      "solution": "Agents IA sur mesure intégrés à vos outils et données métier.",
+      "howItWorks": [
+        "Identification use cases",
+        "Prototype agent",
+        "Intégration données",
+        "Déploiement et monitoring"
+      ],
+      "industries": [
+        "E-commerce",
+        "Santé",
+        "Services B2B",
+        "Immobilier",
+        "Éducation",
+        "Industrie"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte ai-agents chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "video-production": {
+      "metaTitle": "Production Vidéo — Corporate & Publicitaire Maroc",
+      "metaDescription": "Production vidéo professionnelle : corporate, publicitaire, Reels et motion graphics pour entreprises au Maroc.",
+      "overview": {
+        "what": "Production vidéo professionnelle pour marque et acquisition.",
+        "who": "Entreprises qui ont besoin de contenu vidéo premium.",
+        "benefits": [
+          "Image professionnelle",
+          "Contenu multi-plateforme",
+          "Engagement élevé"
+        ],
+        "topics": [
+          "Corporate",
+          "Publicitaire",
+          "Reels",
+          "Motion graphics"
+        ],
+        "takeaways": [
+          "La vidéo domine l'engagement social",
+          "Le format court performe en ads",
+          "La qualité de production compte"
+        ]
+      },
+      "problem": "Votre contenu vidéo est amateur et ne convertit pas sur les réseaux ni en publicité.",
+      "solution": "Production vidéo clé en main : script, tournage, montage et déclinaisons.",
+      "howItWorks": [
+        "Brief créatif",
+        "Script et storyboard",
+        "Tournage",
+        "Montage et livraison"
+      ],
+      "industries": [
+        "Hôtellerie",
+        "Immobilier",
+        "Retail",
+        "Événements",
+        "Santé",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte video-production chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "corporate-websites": {
+      "metaTitle": "Sites Web Corporate — Vitrine Premium Maroc",
+      "metaDescription": "Sites vitrines corporate premium : design sur mesure, performance, SEO et multilingue pour entreprises au Maroc.",
+      "overview": {
+        "what": "Sites web corporate qui inspirent confiance et génèrent des leads.",
+        "who": "PME, startups et grands comptes en refonte ou création.",
+        "benefits": [
+          "Image premium",
+          "Performance & SEO",
+          "Multilingue fr/en/ar"
+        ],
+        "topics": [
+          "Next.js",
+          "Design UX",
+          "SEO",
+          "CMS"
+        ],
+        "takeaways": [
+          "Le site est votre vitrine 24/7",
+          "La vitesse impacte conversion et SEO",
+          "Le mobile-first est non négociable"
+        ]
+      },
+      "problem": "Votre site actuel est daté, lent ou ne reflète pas le niveau de votre entreprise.",
+      "solution": "Site corporate sur mesure avec Next.js, design premium et SEO intégré.",
+      "howItWorks": [
+        "Cadrage et arborescence",
+        "Design UI/UX",
+        "Développement Next.js",
+        "Lancement et formation"
+      ],
+      "industries": [
+        "Services B2B",
+        "Santé",
+        "Immobilier",
+        "Industrie",
+        "Hôtellerie",
+        "Conseil"
+      ],
+      "faqs": [
+        {
+          "question": "Combien coûte corporate-websites chez Mohtaoua ?",
+          "answer": "Chaque projet est chiffré après audit gratuit selon votre secteur, vos objectifs et la complexité. Demandez un devis personnalisé."
+        },
+        {
+          "question": "Quel est le délai de mise en place ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Nous définissons un planning clair dès l'audit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Mohtaoua accompagne des entreprises de 15+ secteurs au Maroc : santé, e-commerce, immobilier, éducation, retail et plus."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+        }
+      ]
+    },
+    "content-marketing": {
+      "metaTitle": "Content Marketing — Agence Digitale 360° Maroc",
+      "metaDescription": "Créez du contenu qui attire, éduque et convertit. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Stratégie éditoriale, articles, guides et contenus multicanal.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en content marketing.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Content Marketing au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre acquisition digitale manque de structure : budget gaspillé, leads peu qualifiés ou canaux mal exploités pour content marketing.",
+      "solution": "Nous déployons une stratégie content marketing data-driven avec ciblage, créatives et optimisation continue pour tous secteurs au Maroc.",
+      "howItWorks": [
+        "Audit offre et tunnel",
+        "Stratégie média et contenu",
+        "Lancement multi-canal",
+        "Reporting KPIs business"
+      ],
+      "industries": [
+        "E-commerce",
+        "Santé",
+        "Immobilier",
+        "Éducation",
+        "Retail",
+        "Startups"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Content Marketing ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "email-marketing": {
+      "metaTitle": "Email Marketing — Agence Digitale 360° Maroc",
+      "metaDescription": "Nurturez vos prospects avec des campagnes email performantes. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Newsletters, séquences automatisées et segmentation avancée.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en email marketing.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Email Marketing au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre acquisition digitale manque de structure : budget gaspillé, leads peu qualifiés ou canaux mal exploités pour email marketing.",
+      "solution": "Nous déployons une stratégie email marketing data-driven avec ciblage, créatives et optimisation continue pour tous secteurs au Maroc.",
+      "howItWorks": [
+        "Audit offre et tunnel",
+        "Stratégie média et contenu",
+        "Lancement multi-canal",
+        "Reporting KPIs business"
+      ],
+      "industries": [
+        "E-commerce",
+        "Santé",
+        "Immobilier",
+        "Éducation",
+        "Retail",
+        "Startups"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Email Marketing ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "lead-generation": {
+      "metaTitle": "Lead Generation — Agence Digitale 360° Maroc",
+      "metaDescription": "Générez un flux constant de prospects qualifiés. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Stratégies multicanal : ads, landing pages, formulaires et nurturing.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en lead generation.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Lead Generation au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre acquisition digitale manque de structure : budget gaspillé, leads peu qualifiés ou canaux mal exploités pour lead generation.",
+      "solution": "Nous déployons une stratégie lead generation data-driven avec ciblage, créatives et optimisation continue pour tous secteurs au Maroc.",
+      "howItWorks": [
+        "Audit offre et tunnel",
+        "Stratégie média et contenu",
+        "Lancement multi-canal",
+        "Reporting KPIs business"
+      ],
+      "industries": [
+        "E-commerce",
+        "Santé",
+        "Immobilier",
+        "Éducation",
+        "Retail",
+        "Startups"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Lead Generation ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "community-management": {
+      "metaTitle": "Community Management — Agence Digitale 360° Maroc",
+      "metaDescription": "Animez et développez votre communauté en ligne. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Modération, engagement et croissance organique sur les réseaux.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en community management.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Community Management au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre acquisition digitale manque de structure : budget gaspillé, leads peu qualifiés ou canaux mal exploités pour community management.",
+      "solution": "Nous déployons une stratégie community management data-driven avec ciblage, créatives et optimisation continue pour tous secteurs au Maroc.",
+      "howItWorks": [
+        "Audit offre et tunnel",
+        "Stratégie média et contenu",
+        "Lancement multi-canal",
+        "Reporting KPIs business"
+      ],
+      "industries": [
+        "E-commerce",
+        "Santé",
+        "Immobilier",
+        "Éducation",
+        "Retail",
+        "Startups"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Community Management ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "booking-platforms": {
+      "metaTitle": "Plateformes de Réservation — Agence Digitale 360° Maroc",
+      "metaDescription": "Systèmes de booking en ligne sur mesure. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Calendriers, paiements et notifications automatisées.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en plateformes de réservation.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Plateformes de Réservation au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre présence web (plateformes de réservation) ne convertit pas ou ne reflète pas le niveau de votre entreprise.",
+      "solution": "Conception et développement plateformes de réservation premium : UX, performance, SEO et intégrations métier.",
+      "howItWorks": [
+        "Cadrage UX et arborescence",
+        "Design et prototypage",
+        "Développement et tests",
+        "Lancement et optimisation"
+      ],
+      "industries": [
+        "E-commerce",
+        "Services B2B",
+        "Immobilier",
+        "Santé",
+        "Hôtellerie",
+        "Industrie"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Plateformes de Réservation ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "marketplaces": {
+      "metaTitle": "Marketplaces — Agence Digitale 360° Maroc",
+      "metaDescription": "Plateformes multi-vendeurs clés en main. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Architecture scalable, paiement split et gestion vendeurs.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en marketplaces.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Marketplaces au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre présence web (marketplaces) ne convertit pas ou ne reflète pas le niveau de votre entreprise.",
+      "solution": "Conception et développement marketplaces premium : UX, performance, SEO et intégrations métier.",
+      "howItWorks": [
+        "Cadrage UX et arborescence",
+        "Design et prototypage",
+        "Développement et tests",
+        "Lancement et optimisation"
+      ],
+      "industries": [
+        "E-commerce",
+        "Services B2B",
+        "Immobilier",
+        "Santé",
+        "Hôtellerie",
+        "Industrie"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Marketplaces ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "portals": {
+      "metaTitle": "Portails Web — Agence Digitale 360° Maroc",
+      "metaDescription": "Portails métier et intranets sur mesure. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Espaces clients, extranets et dashboards personnalisés.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en portails web.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Portails Web au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre présence web (portails web) ne convertit pas ou ne reflète pas le niveau de votre entreprise.",
+      "solution": "Conception et développement portails web premium : UX, performance, SEO et intégrations métier.",
+      "howItWorks": [
+        "Cadrage UX et arborescence",
+        "Design et prototypage",
+        "Développement et tests",
+        "Lancement et optimisation"
+      ],
+      "industries": [
+        "E-commerce",
+        "Services B2B",
+        "Immobilier",
+        "Santé",
+        "Hôtellerie",
+        "Industrie"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Portails Web ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "erp": {
+      "metaTitle": "ERP — Agence Digitale 360° Maroc",
+      "metaDescription": "Systèmes de gestion intégrée pour votre entreprise. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Stocks, comptabilité, RH et production unifiés.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en erp.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise ERP au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos processus métier sont freinés par des outils inadaptés — vous avez besoin de erp.",
+      "solution": "Solutions erp sur mesure : architecture scalable, intégrations API et accompagnement au déploiement.",
+      "howItWorks": [
+        "Analyse fonctionnelle",
+        "Architecture technique",
+        "Développement agile",
+        "Déploiement et support"
+      ],
+      "industries": [
+        "Industrie",
+        "Logistique",
+        "Santé",
+        "Services B2B",
+        "Éducation",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour ERP ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "saas": {
+      "metaTitle": "SaaS — Agence Digitale 360° Maroc",
+      "metaDescription": "Produits logiciels en abonnement. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "De l'idée au MVP puis au scale avec une architecture cloud.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en saas.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise SaaS au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos processus métier sont freinés par des outils inadaptés — vous avez besoin de saas.",
+      "solution": "Solutions saas sur mesure : architecture scalable, intégrations API et accompagnement au déploiement.",
+      "howItWorks": [
+        "Analyse fonctionnelle",
+        "Architecture technique",
+        "Développement agile",
+        "Déploiement et support"
+      ],
+      "industries": [
+        "Industrie",
+        "Logistique",
+        "Santé",
+        "Services B2B",
+        "Éducation",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour SaaS ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "business-platforms": {
+      "metaTitle": "Plateformes Métier — Agence Digitale 360° Maroc",
+      "metaDescription": "Outils digitaux pour piloter votre activité. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Dashboards, workflows et intégrations sur mesure.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en plateformes métier.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Plateformes Métier au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos processus métier sont freinés par des outils inadaptés — vous avez besoin de plateformes métier.",
+      "solution": "Solutions plateformes métier sur mesure : architecture scalable, intégrations API et accompagnement au déploiement.",
+      "howItWorks": [
+        "Analyse fonctionnelle",
+        "Architecture technique",
+        "Développement agile",
+        "Déploiement et support"
+      ],
+      "industries": [
+        "Industrie",
+        "Logistique",
+        "Santé",
+        "Services B2B",
+        "Éducation",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Plateformes Métier ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "automation": {
+      "metaTitle": "Automatisation — Agence Digitale 360° Maroc",
+      "metaDescription": "Automatisez vos tâches répétitives. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Scripts, intégrations et workflows pour gagner du temps.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en automatisation.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Automatisation au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos processus métier sont freinés par des outils inadaptés — vous avez besoin de automatisation.",
+      "solution": "Solutions automatisation sur mesure : architecture scalable, intégrations API et accompagnement au déploiement.",
+      "howItWorks": [
+        "Analyse fonctionnelle",
+        "Architecture technique",
+        "Développement agile",
+        "Déploiement et support"
+      ],
+      "industries": [
+        "Industrie",
+        "Logistique",
+        "Santé",
+        "Services B2B",
+        "Éducation",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Automatisation ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "chatbots": {
+      "metaTitle": "Chatbots — Agence Digitale 360° Maroc",
+      "metaDescription": "Assistants virtuels 24/7 pour vos clients. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "WhatsApp, web et réseaux sociaux avec IA conversationnelle.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en chatbots.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Chatbots au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos processus métier sont freinés par des outils inadaptés — vous avez besoin de chatbots.",
+      "solution": "Solutions chatbots sur mesure : architecture scalable, intégrations API et accompagnement au déploiement.",
+      "howItWorks": [
+        "Analyse fonctionnelle",
+        "Architecture technique",
+        "Développement agile",
+        "Déploiement et support"
+      ],
+      "industries": [
+        "Industrie",
+        "Logistique",
+        "Santé",
+        "Services B2B",
+        "Éducation",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Chatbots ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "workflow-automation": {
+      "metaTitle": "Workflow Automation — Agence Digitale 360° Maroc",
+      "metaDescription": "Orchestrez vos processus métier. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Zapier, Make, n8n et intégrations API personnalisées.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en workflow automation.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Workflow Automation au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos processus métier sont freinés par des outils inadaptés — vous avez besoin de workflow automation.",
+      "solution": "Solutions workflow automation sur mesure : architecture scalable, intégrations API et accompagnement au déploiement.",
+      "howItWorks": [
+        "Analyse fonctionnelle",
+        "Architecture technique",
+        "Développement agile",
+        "Déploiement et support"
+      ],
+      "industries": [
+        "Industrie",
+        "Logistique",
+        "Santé",
+        "Services B2B",
+        "Éducation",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Workflow Automation ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "api-integration": {
+      "metaTitle": "Intégration API — Agence Digitale 360° Maroc",
+      "metaDescription": "Connectez vos outils entre eux. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "APIs REST, webhooks et synchronisation de données.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en intégration api.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Intégration API au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos processus métier sont freinés par des outils inadaptés — vous avez besoin de intégration api.",
+      "solution": "Solutions intégration api sur mesure : architecture scalable, intégrations API et accompagnement au déploiement.",
+      "howItWorks": [
+        "Analyse fonctionnelle",
+        "Architecture technique",
+        "Développement agile",
+        "Déploiement et support"
+      ],
+      "industries": [
+        "Industrie",
+        "Logistique",
+        "Santé",
+        "Services B2B",
+        "Éducation",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Intégration API ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "android": {
+      "metaTitle": "Applications Android — Agence Digitale 360° Maroc",
+      "metaDescription": "Apps natives et performantes pour Android. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Kotlin, Java et publication sur Google Play.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en applications android.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Applications Android au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos clients et équipes attendent une expérience mobile fluide — applications android est un levier de croissance.",
+      "solution": "Applications applications android natives ou cross-platform, performantes et alignées sur votre marque.",
+      "howItWorks": [
+        "Spécifications et UX mobile",
+        "Design UI",
+        "Développement et QA",
+        "Publication stores et maintenance"
+      ],
+      "industries": [
+        "Startups",
+        "E-commerce",
+        "Santé",
+        "Services",
+        "Hôtellerie",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Applications Android ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "ios": {
+      "metaTitle": "Applications iOS — Agence Digitale 360° Maroc",
+      "metaDescription": "Apps élégantes pour iPhone et iPad. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Swift, SwiftUI et publication sur l'App Store.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en applications ios.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Applications iOS au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos clients et équipes attendent une expérience mobile fluide — applications ios est un levier de croissance.",
+      "solution": "Applications applications ios natives ou cross-platform, performantes et alignées sur votre marque.",
+      "howItWorks": [
+        "Spécifications et UX mobile",
+        "Design UI",
+        "Développement et QA",
+        "Publication stores et maintenance"
+      ],
+      "industries": [
+        "Startups",
+        "E-commerce",
+        "Santé",
+        "Services",
+        "Hôtellerie",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Applications iOS ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "flutter": {
+      "metaTitle": "Applications Flutter — Agence Digitale 360° Maroc",
+      "metaDescription": "Apps cross-platform avec une seule codebase. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Performance native sur iOS et Android.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en applications flutter.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Applications Flutter au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos clients et équipes attendent une expérience mobile fluide — applications flutter est un levier de croissance.",
+      "solution": "Applications applications flutter natives ou cross-platform, performantes et alignées sur votre marque.",
+      "howItWorks": [
+        "Spécifications et UX mobile",
+        "Design UI",
+        "Développement et QA",
+        "Publication stores et maintenance"
+      ],
+      "industries": [
+        "Startups",
+        "E-commerce",
+        "Santé",
+        "Services",
+        "Hôtellerie",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Applications Flutter ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "react-native": {
+      "metaTitle": "Applications React Native — Agence Digitale 360° Maroc",
+      "metaDescription": "Apps mobiles avec React et JavaScript. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Développement rapide et maintenance simplifiée.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en applications react native.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Applications React Native au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos clients et équipes attendent une expérience mobile fluide — applications react native est un levier de croissance.",
+      "solution": "Applications applications react native natives ou cross-platform, performantes et alignées sur votre marque.",
+      "howItWorks": [
+        "Spécifications et UX mobile",
+        "Design UI",
+        "Développement et QA",
+        "Publication stores et maintenance"
+      ],
+      "industries": [
+        "Startups",
+        "E-commerce",
+        "Santé",
+        "Services",
+        "Hôtellerie",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Applications React Native ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "logo": {
+      "metaTitle": "Logo — Agence Digitale 360° Maroc",
+      "metaDescription": "Un logo distinctif qui incarne votre vision. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Concepts créatifs, itérations et livrables vectoriels.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en logo.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Logo au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre image visuelle (logo) manque de cohérence et ne différencie pas votre marque.",
+      "solution": "Création logo premium : direction artistique, déclinaisons multicanal et guidelines.",
+      "howItWorks": [
+        "Brief et positionnement",
+        "Exploration créative",
+        "Production et déclinaisons",
+        "Livraison fichiers sources"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restauration",
+        "Immobilier",
+        "Startups",
+        "Événements"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Logo ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "graphic-design": {
+      "metaTitle": "Design Graphique — Agence Digitale 360° Maroc",
+      "metaDescription": "Visuels professionnels pour tous vos supports. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Print, digital, réseaux sociaux et signalétique.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en design graphique.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Design Graphique au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre image visuelle (design graphique) manque de cohérence et ne différencie pas votre marque.",
+      "solution": "Création design graphique premium : direction artistique, déclinaisons multicanal et guidelines.",
+      "howItWorks": [
+        "Brief et positionnement",
+        "Exploration créative",
+        "Production et déclinaisons",
+        "Livraison fichiers sources"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restauration",
+        "Immobilier",
+        "Startups",
+        "Événements"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Design Graphique ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "brochure": {
+      "metaTitle": "Brochures — Agence Digitale 360° Maroc",
+      "metaDescription": "Brochures commerciales qui vendent. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Design, rédaction et impression premium.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en brochures.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Brochures au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre image visuelle (brochures) manque de cohérence et ne différencie pas votre marque.",
+      "solution": "Création brochures premium : direction artistique, déclinaisons multicanal et guidelines.",
+      "howItWorks": [
+        "Brief et positionnement",
+        "Exploration créative",
+        "Production et déclinaisons",
+        "Livraison fichiers sources"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restauration",
+        "Immobilier",
+        "Startups",
+        "Événements"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Brochures ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "catalogue": {
+      "metaTitle": "Catalogues — Agence Digitale 360° Maroc",
+      "metaDescription": "Catalogues produits complets et attractifs. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Mise en page, photos et version digitale.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en catalogues.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Catalogues au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre image visuelle (catalogues) manque de cohérence et ne différencie pas votre marque.",
+      "solution": "Création catalogues premium : direction artistique, déclinaisons multicanal et guidelines.",
+      "howItWorks": [
+        "Brief et positionnement",
+        "Exploration créative",
+        "Production et déclinaisons",
+        "Livraison fichiers sources"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restauration",
+        "Immobilier",
+        "Startups",
+        "Événements"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Catalogues ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "flyers": {
+      "metaTitle": "Flyers — Agence Digitale 360° Maroc",
+      "metaDescription": "Flyers percutants pour vos promotions. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Design rapide et formats print-ready.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en flyers.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Flyers au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre image visuelle (flyers) manque de cohérence et ne différencie pas votre marque.",
+      "solution": "Création flyers premium : direction artistique, déclinaisons multicanal et guidelines.",
+      "howItWorks": [
+        "Brief et positionnement",
+        "Exploration créative",
+        "Production et déclinaisons",
+        "Livraison fichiers sources"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restauration",
+        "Immobilier",
+        "Startups",
+        "Événements"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Flyers ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "packaging": {
+      "metaTitle": "Packaging — Agence Digitale 360° Maroc",
+      "metaDescription": "Emballages qui se démarquent en rayon. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Design structurel et graphique pour vos produits.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en packaging.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Packaging au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre image visuelle (packaging) manque de cohérence et ne différencie pas votre marque.",
+      "solution": "Création packaging premium : direction artistique, déclinaisons multicanal et guidelines.",
+      "howItWorks": [
+        "Brief et positionnement",
+        "Exploration créative",
+        "Production et déclinaisons",
+        "Livraison fichiers sources"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restauration",
+        "Immobilier",
+        "Startups",
+        "Événements"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Packaging ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "infographics": {
+      "metaTitle": "Infographies — Agence Digitale 360° Maroc",
+      "metaDescription": "Visualisez vos données de façon claire. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Infographies animées ou statiques pour web et print.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en infographies.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Infographies au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre image visuelle (infographies) manque de cohérence et ne différencie pas votre marque.",
+      "solution": "Création infographies premium : direction artistique, déclinaisons multicanal et guidelines.",
+      "howItWorks": [
+        "Brief et positionnement",
+        "Exploration créative",
+        "Production et déclinaisons",
+        "Livraison fichiers sources"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restauration",
+        "Immobilier",
+        "Startups",
+        "Événements"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Infographies ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "presentation-design": {
+      "metaTitle": "Présentations — Agence Digitale 360° Maroc",
+      "metaDescription": "Pitch decks et présentations qui convainquent. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "PowerPoint, Keynote et Google Slides premium.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en présentations.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Présentations au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre image visuelle (présentations) manque de cohérence et ne différencie pas votre marque.",
+      "solution": "Création présentations premium : direction artistique, déclinaisons multicanal et guidelines.",
+      "howItWorks": [
+        "Brief et positionnement",
+        "Exploration créative",
+        "Production et déclinaisons",
+        "Livraison fichiers sources"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restauration",
+        "Immobilier",
+        "Startups",
+        "Événements"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Présentations ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "commercial-photography": {
+      "metaTitle": "Photographie Commerciale — Agence Digitale 360° Maroc",
+      "metaDescription": "Images qui valorisent votre offre. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Shooting produit, lifestyle et publicitaire.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en photographie commerciale.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Photographie Commerciale au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre contenu visuel (photographie commerciale) est insuffisant pour convaincre et performer en publicité.",
+      "solution": "Production photographie commerciale professionnelle : tournage, post-production et formats adaptés à chaque canal.",
+      "howItWorks": [
+        "Brief créatif",
+        "Préparation et tournage",
+        "Montage et retouches",
+        "Livraison multi-formats"
+      ],
+      "industries": [
+        "Immobilier",
+        "Hôtellerie",
+        "Retail",
+        "Événements",
+        "Industrie",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Photographie Commerciale ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "corporate-photography": {
+      "metaTitle": "Photographie Corporate — Agence Digitale 360° Maroc",
+      "metaDescription": "Portraits et visuels d'entreprise professionnels. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Équipes, locaux et événements corporate.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en photographie corporate.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Photographie Corporate au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre contenu visuel (photographie corporate) est insuffisant pour convaincre et performer en publicité.",
+      "solution": "Production photographie corporate professionnelle : tournage, post-production et formats adaptés à chaque canal.",
+      "howItWorks": [
+        "Brief créatif",
+        "Préparation et tournage",
+        "Montage et retouches",
+        "Livraison multi-formats"
+      ],
+      "industries": [
+        "Immobilier",
+        "Hôtellerie",
+        "Retail",
+        "Événements",
+        "Industrie",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Photographie Corporate ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "product-photography": {
+      "metaTitle": "Photographie Produit — Agence Digitale 360° Maroc",
+      "metaDescription": "Mettez vos produits en valeur. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Fond blanc, lifestyle et packshots e-commerce.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en photographie produit.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Photographie Produit au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre contenu visuel (photographie produit) est insuffisant pour convaincre et performer en publicité.",
+      "solution": "Production photographie produit professionnelle : tournage, post-production et formats adaptés à chaque canal.",
+      "howItWorks": [
+        "Brief créatif",
+        "Préparation et tournage",
+        "Montage et retouches",
+        "Livraison multi-formats"
+      ],
+      "industries": [
+        "Immobilier",
+        "Hôtellerie",
+        "Retail",
+        "Événements",
+        "Industrie",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Photographie Produit ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "drone": {
+      "metaTitle": "Prises de Vue Drone — Agence Digitale 360° Maroc",
+      "metaDescription": "Images aériennes spectaculaires. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Immobilier, événements et industrie.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en prises de vue drone.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Prises de Vue Drone au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre contenu visuel (prises de vue drone) est insuffisant pour convaincre et performer en publicité.",
+      "solution": "Production prises de vue drone professionnelle : tournage, post-production et formats adaptés à chaque canal.",
+      "howItWorks": [
+        "Brief créatif",
+        "Préparation et tournage",
+        "Montage et retouches",
+        "Livraison multi-formats"
+      ],
+      "industries": [
+        "Immobilier",
+        "Hôtellerie",
+        "Retail",
+        "Événements",
+        "Industrie",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Prises de Vue Drone ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "reels": {
+      "metaTitle": "Reels & Shorts — Agence Digitale 360° Maroc",
+      "metaDescription": "Formats courts viraux pour les réseaux. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "TikTok, Instagram Reels et YouTube Shorts.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en reels & shorts.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Reels & Shorts au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre contenu visuel (reels & shorts) est insuffisant pour convaincre et performer en publicité.",
+      "solution": "Production reels & shorts professionnelle : tournage, post-production et formats adaptés à chaque canal.",
+      "howItWorks": [
+        "Brief créatif",
+        "Préparation et tournage",
+        "Montage et retouches",
+        "Livraison multi-formats"
+      ],
+      "industries": [
+        "Immobilier",
+        "Hôtellerie",
+        "Retail",
+        "Événements",
+        "Industrie",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Reels & Shorts ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "motion-graphics": {
+      "metaTitle": "Motion Graphics — Agence Digitale 360° Maroc",
+      "metaDescription": "Animations et vidéos motion design. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Explainer videos, intros et publicités animées.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en motion graphics.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Motion Graphics au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Votre contenu visuel (motion graphics) est insuffisant pour convaincre et performer en publicité.",
+      "solution": "Production motion graphics professionnelle : tournage, post-production et formats adaptés à chaque canal.",
+      "howItWorks": [
+        "Brief créatif",
+        "Préparation et tournage",
+        "Montage et retouches",
+        "Livraison multi-formats"
+      ],
+      "industries": [
+        "Immobilier",
+        "Hôtellerie",
+        "Retail",
+        "Événements",
+        "Industrie",
+        "Éducation"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Motion Graphics ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "corporate-events": {
+      "metaTitle": "Événements Corporate — Agence Digitale 360° Maroc",
+      "metaDescription": "Organisation complète de vos événements. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Planification, logistique et coordination.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en événements corporate.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Événements Corporate au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos événements (événements corporate) manquent d'impact digital et de cohérence de marque.",
+      "solution": "Conception et exécution événements corporate : scénographie, communication et activation de marque.",
+      "howItWorks": [
+        "Concept et planning",
+        "Design et production",
+        "Coordination jour J",
+        "Bilan et contenus post-événement"
+      ],
+      "industries": [
+        "Corporate",
+        "Industrie",
+        "Éducation",
+        "Retail",
+        "Hôtellerie",
+        "Tech"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Événements Corporate ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "conferences": {
+      "metaTitle": "Conférences — Agence Digitale 360° Maroc",
+      "metaDescription": "Conférences professionnelles clés en main. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Scénographie, technique audiovisuelle et communication.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en conférences.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Conférences au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos événements (conférences) manquent d'impact digital et de cohérence de marque.",
+      "solution": "Conception et exécution conférences : scénographie, communication et activation de marque.",
+      "howItWorks": [
+        "Concept et planning",
+        "Design et production",
+        "Coordination jour J",
+        "Bilan et contenus post-événement"
+      ],
+      "industries": [
+        "Corporate",
+        "Industrie",
+        "Éducation",
+        "Retail",
+        "Hôtellerie",
+        "Tech"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Conférences ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "training-events": {
+      "metaTitle": "Événements Formation — Agence Digitale 360° Maroc",
+      "metaDescription": "Séminaires et workshops sur mesure. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Animation, supports et suivi post-événement.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en événements formation.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Événements Formation au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos événements (événements formation) manquent d'impact digital et de cohérence de marque.",
+      "solution": "Conception et exécution événements formation : scénographie, communication et activation de marque.",
+      "howItWorks": [
+        "Concept et planning",
+        "Design et production",
+        "Coordination jour J",
+        "Bilan et contenus post-événement"
+      ],
+      "industries": [
+        "Corporate",
+        "Industrie",
+        "Éducation",
+        "Retail",
+        "Hôtellerie",
+        "Tech"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Événements Formation ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "booth-design": {
+      "metaTitle": "Design de Stands — Agence Digitale 360° Maroc",
+      "metaDescription": "Stands d'exposition qui attirent. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Conception 3D, fabrication et installation.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en design de stands.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Design de Stands au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos événements (design de stands) manquent d'impact digital et de cohérence de marque.",
+      "solution": "Conception et exécution design de stands : scénographie, communication et activation de marque.",
+      "howItWorks": [
+        "Concept et planning",
+        "Design et production",
+        "Coordination jour J",
+        "Bilan et contenus post-événement"
+      ],
+      "industries": [
+        "Corporate",
+        "Industrie",
+        "Éducation",
+        "Retail",
+        "Hôtellerie",
+        "Tech"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Design de Stands ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "brand-activation": {
+      "metaTitle": "Brand Activation — Agence Digitale 360° Maroc",
+      "metaDescription": "Expériences de marque mémorables. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Activations terrain, sampling et événements pop-up.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en brand activation.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Brand Activation au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos événements (brand activation) manquent d'impact digital et de cohérence de marque.",
+      "solution": "Conception et exécution brand activation : scénographie, communication et activation de marque.",
+      "howItWorks": [
+        "Concept et planning",
+        "Design et production",
+        "Coordination jour J",
+        "Bilan et contenus post-événement"
+      ],
+      "industries": [
+        "Corporate",
+        "Industrie",
+        "Éducation",
+        "Retail",
+        "Hôtellerie",
+        "Tech"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Brand Activation ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
+      ]
+    },
+    "event-communication": {
+      "metaTitle": "Communication Événementielle — Agence Digitale 360° Maroc",
+      "metaDescription": "Communiquez avant, pendant et après. Mohtaoua accompagne les entreprises de tous secteurs au Maroc.",
+      "overview": {
+        "what": "Invitations, réseaux sociaux et relations presse.",
+        "who": "Dirigeants et équipes marketing/tech qui veulent un partenaire expert en communication événementielle.",
+        "benefits": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent"
+        ],
+        "topics": [
+          "Stratégie sur mesure",
+          "Équipe dédiée",
+          "Reporting transparent",
+          "Support continu"
+        ],
+        "takeaways": [
+          "Expertise Communication Événementielle au Maroc",
+          "Approche orientée résultats business",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "problem": "Vos événements (communication événementielle) manquent d'impact digital et de cohérence de marque.",
+      "solution": "Conception et exécution communication événementielle : scénographie, communication et activation de marque.",
+      "howItWorks": [
+        "Concept et planning",
+        "Design et production",
+        "Coordination jour J",
+        "Bilan et contenus post-événement"
+      ],
+      "industries": [
+        "Corporate",
+        "Industrie",
+        "Éducation",
+        "Retail",
+        "Hôtellerie",
+        "Tech"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi Mohtaoua pour Communication Événementielle ?",
+          "answer": "Agence digitale premium 360° au Maroc : stratégie, exécution et résultats mesurables pour tous secteurs."
+        },
+        {
+          "question": "Quel délai de réalisation ?",
+          "answer": "De 2 semaines à 3 mois selon le périmètre. Planning défini après audit gratuit."
+        },
+        {
+          "question": "Travaillez-vous avec mon secteur ?",
+          "answer": "Oui. Nous accompagnons des entreprises de 15+ secteurs au Maroc."
+        },
+        {
+          "question": "Comment démarrer ?",
+          "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
+        }
       ]
     }
+  },
+  "generic": {
+    "problem": "Votre entreprise a besoin d'une expertise digitale de haut niveau pour se démarquer sur le marché marocain.",
+    "solution": "Mohtaoua conçoit et déploie des solutions sur mesure — marketing, web, logiciels et design — pilotées par la data.",
+    "howItWorks": [
+      "Audit et cadrage stratégique",
+      "Conception et production",
+      "Déploiement et lancement",
+      "Optimisation continue"
+    ],
+    "industries": [
+      "PME & startups",
+      "E-commerce",
+      "Santé",
+      "Immobilier",
+      "Éducation",
+      "Industrie"
+    ],
+    "faqs": [
+      {
+        "question": "Comment démarrer avec Mohtaoua ?",
+        "answer": "Demandez un audit gratuit. Notre équipe vous recontacte sous 24h avec un plan d'action concret."
+      },
+      {
+        "question": "Travaillez-vous avec tous les secteurs ?",
+        "answer": "Oui. Mohtaoua est une agence digitale 360° pour entreprises de tous secteurs au Maroc."
+      },
+      {
+        "question": "Proposez-vous du marketing et du développement ?",
+        "answer": "Oui. Marketing, web, logiciels, mobile, design, photo/vidéo, événements et IA."
+      }
+    ]
   }
 }

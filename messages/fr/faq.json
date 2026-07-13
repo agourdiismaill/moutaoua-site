@@ -6,8 +6,8 @@
       "category": "Résultats"
     },
     "f2": {
-      "question": "Travaillez-vous uniquement avec des centres de formation ?",
-      "answer": "Notre spécialité est le secteur de l'éducation et de la formation (organismes de formation, écoles, e-learning, formations professionnelles). Cette spécialisation nous permet de maîtriser les enjeux de conformité, de saisonnalité et de tunnel d'inscription propres à votre métier.",
+      "question": "Travaillez-vous avec tous les secteurs ?",
+      "answer": "Oui. Mohtaoua est une agence digitale premium 360° au Maroc. Nous accompagnons PME, startups et grands comptes dans l'éducation, la santé, l'e-commerce, l'immobilier, l'hôtellerie, le retail et bien d'autres secteurs.",
       "category": "Général"
     },
     "f3": {
@@ -22,22 +22,22 @@
     },
     "f5": {
       "question": "Comment suivez-vous les performances ?",
-      "answer": "Vous disposez d'un dashboard en temps réel (leads, coût par lead, ROAS, taux de conversion) accessible 24 h/24. Nous organisons également des points réguliers et un reporting mensuel détaillé orienté résultats business.",
+      "answer": "Dashboards en temps réel (leads, conversions, ROAS, trafic, KPIs métier) accessibles 24h/24. Points réguliers et reporting mensuel orienté résultats business.",
       "category": "Résultats"
     },
     "f6": {
-      "question": "Gérez-vous aussi la création des publicités et landing pages ?",
-      "answer": "Oui. Notre équipe créative produit les visuels, vidéos et copies publicitaires, ainsi que des landing pages optimisées pour la conversion. Tout est inclus dans nos offres Performance et Premium.",
+      "question": "Proposez-vous aussi du développement et du design ?",
+      "answer": "Oui. Au-delà du marketing, nous créons des sites web, des logiciels sur mesure, des applications mobiles, de l'identité de marque, de la photo/vidéo et des événements corporate.",
       "category": "Services"
     },
     "f7": {
-      "question": "Pouvez-vous vous connecter à mon CRM existant ?",
-      "answer": "Absolument. Nous nous intégrons aux principaux CRM (HubSpot, Pipedrive, Salesforce, etc.) ainsi qu'aux outils de réservation et de marketing automation pour centraliser et qualifier automatiquement vos leads.",
+      "question": "Pouvez-vous vous connecter à nos outils existants ?",
+      "answer": "Absolument. CRM, ERP, outils marketing, APIs et plateformes métier : nous intégrons votre stack existante (HubSpot, Pipedrive, Shopify, WhatsApp API, etc.).",
       "category": "Services"
     },
     "f8": {
       "question": "Que se passe-t-il lors de l'audit gratuit ?",
-      "answer": "Nous analysons votre présence digitale actuelle, vos campagnes existantes et votre tunnel de conversion. Vous repartez avec un diagnostic clair et un plan d'action concret, que vous décidiez ou non de travailler avec nous.",
+      "answer": "Nous analysons votre présence digitale, vos canaux d'acquisition, votre site, vos outils et vos processus. Vous repartez avec un diagnostic clair et un plan d'action concret.",
       "category": "Général"
     }
   }

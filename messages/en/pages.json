@@ -1,31 +1,31 @@
 {
   "services": {
-    "metaTitle": "Marketing Services for Training Centers — Morocco",
-    "metaDescription": "Meta Ads, Google Ads, marketing automation, landing pages, social media and CRM: our complete acquisition ecosystem for training centers.",
+    "metaTitle": "Services — 360° Digital Agency Morocco",
+    "metaDescription": "Marketing, web, software, mobile, design, photo/video and events: the complete Mohtaoua ecosystem.",
     "eyebrow": "Our Services",
-    "title": "More visibility. More enrollments. <highlight>More growth.</highlight>",
-    "description": "Every lever is data-driven and focused on one goal: filling your training sessions."
+    "title": "Marketing, technology & <highlight>creativity</highlight>",
+    "description": "Seven expertise pillars for your digital transformation, whatever your industry."
   },
   "results": {
-    "metaTitle": "Meta Ads & Google Ads Results — Morocco",
-    "metaDescription": "Sample advertising performance for training centers: Meta Ads, Google Ads, Lead Forms, CRM and WhatsApp. Detailed data available on request.",
+    "metaTitle": "Marketing & Digital Results — Morocco",
+    "metaDescription": "Ad performance and digital metrics for businesses across industries: Meta Ads, Google Ads, CRM and WhatsApp.",
     "eyebrow": "Advertising Results",
     "title": "<highlight>Proof</highlight> in numbers",
     "description": "Meta Ads, Google Ads, Lead Forms, CRM and WhatsApp: explore real campaign screenshots and their performance in a gallery."
   },
   "pricing": {
     "metaTitle": "Pricing",
-    "metaDescription": "Start, Performance and Premium packs: clear offers in dirhams for your digital presence, Reels and ad campaigns (Meta, Google, TikTok).",
+    "metaDescription": "Start, Performance and Premium marketing packs. Development, design and software on custom quote.",
     "eyebrow": "Pricing",
     "title": "Plans tailored to your <highlight>growth</highlight>",
-    "description": "Choose the support that matches your ambitions. No commitment after 3 months, no hidden fees."
+    "description": "Monthly marketing or custom projects: choose the support that fits your ambitions."
   },
   "contact": {
     "metaTitle": "Contact",
-    "metaDescription": "Request your free marketing audit. Our team will get back to you within 24 hours to turn your training center into a lead machine.",
+    "metaDescription": "Request your free digital audit. Our team will get back to you within 24h to accelerate your business growth.",
     "eyebrow": "Contact",
     "title": "Let's talk about your <highlight>growth</highlight>",
-    "description": "Get a free audit and a concrete action plan for your training center. Guaranteed response within 24 business hours.",
+    "description": "Get a free audit and a concrete action plan for your digital growth. Guaranteed response within 24 business hours.",
     "email": "Email",
     "phone": "Phone",
     "address": "Address",
@@ -35,17 +35,17 @@
   },
   "videos": {
     "metaTitle": "Videos",
-    "metaDescription": "Case studies, client testimonials and video masterclasses: discover the behind-the-scenes of our marketing campaigns for training centers.",
+    "metaDescription": "Filmed case studies, testimonials and behind-the-scenes of our marketing, web and design missions.",
     "eyebrow": "Video library",
     "title": "Our <highlight>videos</highlight> & testimonials",
     "description": "Filmed case studies, client feedback and masterclasses to understand our method and results."
   },
   "caseStudies": {
-    "metaTitle": "Case Studies | Training Center Marketing Morocco",
-    "metaDescription": "Anonymized missions: Meta Ads strategy, budget, leads, CPL and ROAS for training centers in Morocco.",
+    "metaTitle": "Case Studies — Digital Agency Morocco",
+    "metaDescription": "Anonymized missions: marketing, web, software and design for businesses across industries in Morocco.",
     "eyebrow": "Case Studies",
     "title": "<highlight>Measurable</highlight> transformations",
-    "description": "Dive into our missions: strategy, budget, leads generated, cost per lead and advertising return on investment."
+    "description": "Dive into our missions: strategy, execution, technologies and measurable results."
   },
   "caseStudyDetail": {
     "backLink": "All case studies",
@@ -63,6 +63,9 @@
     "related": "Other case studies",
     "galleryAlt": "{title} — visual {n}",
     "videoTitle": "{client} — video {n}",
-    "videoCategory": "Case study"
+    "videoCategory": "Case study",
+    "execution": "Execution",
+    "technologies": "Technologies",
+    "relatedServices": "Related services"
   }
 }

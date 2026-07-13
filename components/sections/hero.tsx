@@ -65,7 +65,7 @@ export function Hero() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="secondary">
-              <Link href="/results">
+              <Link href="/portfolio">
                 {t("ctaSecondary")}
                 <ArrowRight className="size-4" />
               </Link>
@@ -127,7 +127,7 @@ export function Hero() {
             className="absolute -start-4 top-16 z-20 hidden rounded-2xl border border-border bg-card/90 p-4 shadow-soft-lg backdrop-blur sm:block"
           >
             <p className="text-xs text-muted-foreground">{t("costPerLead")}</p>
-            <p className="text-2xl font-bold text-gradient">2 MAD</p>
+            <p className="text-2xl font-bold text-gradient">{t("statProjects")}</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -136,7 +136,7 @@ export function Hero() {
             className="absolute -end-2 bottom-10 z-20 hidden rounded-2xl border border-border bg-card/90 p-4 shadow-soft-lg backdrop-blur sm:block"
           >
             <p className="text-xs text-muted-foreground">{t("avgRoas")}</p>
-            <p className="text-2xl font-bold text-gradient">+400%</p>
+            <p className="text-2xl font-bold text-gradient">{t("statSectors")}</p>
           </motion.div>
         </motion.div>
       </div>

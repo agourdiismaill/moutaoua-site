@@ -3,51 +3,53 @@
     "start": {
       "name": "Pack Start",
       "packLabel": "Start",
-      "description": "L'essentiel pour lancer votre présence digitale et vos premières campagnes.",
+      "description": "L'essentiel pour lancer votre présence digitale : social, création, campagnes et suivi mensuel.",
       "period": "/ mois",
       "cta": "Choisir Start",
       "features": [
         "2 Reels professionnels",
-        "Gestion de vos réseaux sociaux",
+        "Gestion réseaux sociaux",
         "Création graphique",
-        "Calendrier de publication",
-        "Lancement et gestion des campagnes Ads (Meta, Google, TikTok)",
-        "Suivi mensuel"
+        "Calendrier éditorial",
+        "Campagnes Ads (Meta, Google, TikTok)",
+        "Landing page ou page service (1/mois)",
+        "Suivi mensuel et reporting"
       ]
     },
     "performance": {
       "name": "Pack Performance",
       "packLabel": "Performance",
-      "description": "Tout le Pack Start, enrichi pour accélérer vos résultats.",
+      "description": "Accélérez vos résultats : plus de contenu, landing pages, CRO et optimisation multi-canal.",
       "period": "/ mois",
       "cta": "Choisir Performance",
       "badge": "Tout le Pack Start +",
       "features": [
         "3 Reels professionnels",
-        "Plus de contenus graphiques",
-        "Plus de Stories",
-        "Optimisation avancée des campagnes Ads (Meta, Google, TikTok)",
-        "Analyse des performances",
-        "Conseils marketing"
+        "Contenus graphiques renforcés",
+        "Stories et formats courts",
+        "Optimisation avancée Ads",
+        "2 landing pages optimisées",
+        "Analyse performances et CRO",
+        "Conseils stratégie digitale"
       ]
     },
     "premium": {
       "name": "Pack Premium",
       "packLabel": "Premium",
-      "description": "Le pack le plus complet pour une croissance digitale sans limites.",
+      "description": "Accompagnement 360° : marketing, automation, CRM, stratégie et support prioritaire.",
       "period": "/ mois",
       "cta": "Choisir Premium",
       "badge": "Le pack le plus complet.",
       "featuresIntro": "Comprend :",
       "features": [
-        "4 Reels professionnels",
-        "Gestion complète des réseaux sociaux",
-        "Création graphique illimitée selon le planning",
-        "Stories régulières",
-        "Campagnes Ads (Meta, Google, TikTok) optimisées",
+        "4 Reels + vidéos corporate",
+        "Gestion complète réseaux sociaux",
+        "Création graphique selon planning",
+        "Campagnes Ads optimisées",
+        "Automation CRM + WhatsApp",
         "Rapports mensuels détaillés",
         "Stratégie digitale personnalisée",
-        "Priorité sur les demandes"
+        "Priorité support et évolutions web"
       ]
     }
   }

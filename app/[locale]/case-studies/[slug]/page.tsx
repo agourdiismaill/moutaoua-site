@@ -12,6 +12,8 @@ import {
   Coins,
   TrendingUp,
   CalendarClock,
+  Cog,
+  Cpu,
 } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { Badge } from "@/components/ui/badge";
@@ -72,6 +74,7 @@ export default async function CaseStudyPage({
   const t = await getTranslations("caseStudies");
   const tp = await getTranslations("pages.caseStudyDetail");
   const tServicePages = await getTranslations("servicePages");
+  const ts = await getTranslations("services");
   const tNav = await getTranslations("nav");
   const ti = await getTranslations("internalLinking");
   const study = getLocalizedCaseStudy(t, slug);
@@ -234,6 +237,72 @@ export default async function CaseStudyPage({
           </Reveal>
         </div>
       </section>
+
+      {study.execution && study.execution.length > 0 && (
+        <section className="pb-8">
+          <div className="container-max">
+            <Reveal className="rounded-3xl border border-border bg-card p-8 shadow-soft">
+              <div className="mb-6 flex items-center gap-3">
+                <span className="grid size-11 place-items-center rounded-xl bg-primary/10 text-primary">
+                  <Cog className="size-5" />
+                </span>
+                <h2 className="text-2xl font-semibold tracking-tight">{tp("execution")}</h2>
+              </div>
+              <ul className="grid gap-3 sm:grid-cols-2">
+                {study.execution.map((step, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
+                    <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-primary/10 text-xs font-bold text-primary">
+                      {i + 1}
+                    </span>
+                    {step}
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+          </div>
+        </section>
+      )}
+
+      {(study.technologies?.length || study.relatedServices?.length) ? (
+        <section className="pb-8">
+          <div className="container-max grid gap-8 lg:grid-cols-2">
+            {study.technologies && study.technologies.length > 0 && (
+              <Reveal className="rounded-3xl border border-border bg-card p-8 shadow-soft">
+                <div className="mb-6 flex items-center gap-3">
+                  <span className="grid size-11 place-items-center rounded-xl bg-secondary/10 text-secondary">
+                    <Cpu className="size-5" />
+                  </span>
+                  <h2 className="text-2xl font-semibold tracking-tight">{tp("technologies")}</h2>
+                </div>
+                <ul className="flex flex-wrap gap-2">
+                  {study.technologies.map((tech) => (
+                    <li key={tech}>
+                      <Badge variant="muted">{tech}</Badge>
+                    </li>
+                  ))}
+                </ul>
+              </Reveal>
+            )}
+            {study.relatedServices && study.relatedServices.length > 0 && (
+              <Reveal delay={0.1} className="rounded-3xl border border-border bg-card p-8 shadow-soft">
+                <h2 className="mb-6 text-2xl font-semibold tracking-tight">{tp("relatedServices")}</h2>
+                <ul className="grid gap-3 sm:grid-cols-2">
+                  {study.relatedServices.map((serviceSlug) => (
+                    <li key={serviceSlug}>
+                      <Link
+                        href={`/services/${serviceSlug}`}
+                        className="block rounded-xl border border-border px-4 py-3 text-sm font-medium transition-colors hover:border-primary/30 hover:text-primary"
+                      >
+                        {ts(`items.${serviceSlug}.title`)}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </Reveal>
+            )}
+          </div>
+        </section>
+      ) : null}
 
       {galleryImages.length > 0 && (
         <section className="section-pad">

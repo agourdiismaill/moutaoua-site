@@ -28,7 +28,7 @@ export function PortfolioShowcase({ className }: { className?: string }) {
 
         <div className="mt-12 flex justify-center">
           <Button asChild size="lg" variant="outline">
-            <Link href="/case-studies/millennia-group-prive">
+            <Link href="/portfolio">
               {t("cta")}
               <ArrowUpRight className="size-4" />
             </Link>

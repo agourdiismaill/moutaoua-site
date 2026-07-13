@@ -1,0 +1,32 @@
+{
+  "items": {
+    "marketing": {
+      "title": "Marketing",
+      "description": "Marketing"
+    },
+    "web": {
+      "title": "Web",
+      "description": "Web"
+    },
+    "software": {
+      "title": "Software",
+      "description": "Software"
+    },
+    "mobile": {
+      "title": "Mobile",
+      "description": "Mobile"
+    },
+    "creative": {
+      "title": "Creative",
+      "description": "Creative"
+    },
+    "photo-video": {
+      "title": "Photo & Video",
+      "description": "Photo & Video"
+    },
+    "events": {
+      "title": "Events",
+      "description": "Events"
+    }
+  }
+}

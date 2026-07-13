@@ -12,6 +12,7 @@ import {
   type BlogPostSlug,
 } from "@/data/blog";
 import { CASE_STUDY_PUBLISHED, CASE_STUDY_SLUGS, SERVICE_SLUGS } from "@/data/meta";
+import { INDUSTRY_SLUGS } from "@/data/industries";
 
 export type ContentType =
   | "service"
@@ -19,6 +20,7 @@ export type ContentType =
   | "guide"
   | "comparison"
   | "case-study"
+  | "industry"
   | "resource";
 
 export type ContentNode = {
@@ -59,6 +61,11 @@ export const TAG_ALIASES: Record<string, string> = {
   "social media": "social-media",
   "social-media": "social-media",
   branding: "social-media",
+  design: "graphic-design",
+  development: "custom-software",
+  ai: "ai-agents",
+  seo: "seo",
+  geo: "geo",
   acquisition: "acquisition",
   publicite: "publicite",
   leads: "acquisition",
@@ -119,6 +126,12 @@ const blogMeta: Record<
     topics: ["retargeting", "meta-ads", "google-ads", "publicite", "conversion"],
     priority: 87,
   },
+  "transformation-digitale-pme-maroc": {
+    category: "business",
+    services: ["corporate-websites", "meta-ads", "crm-data", "ai-agents"],
+    topics: ["transformation-digitale", "pme", "crm-data", "ai-agents"],
+    priority: 94,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
@@ -131,6 +144,16 @@ const guideMeta: Record<string, { services: string[]; topics: string[]; priority
     services: ["google-ads"],
     topics: ["google-ads", "publicite", "acquisition"],
     priority: 88,
+  },
+  "seo-entreprise-maroc": {
+    services: ["seo", "corporate-websites"],
+    topics: ["seo", "geo", "acquisition"],
+    priority: 86,
+  },
+  "agence-digitale-maroc-guide": {
+    services: ["meta-ads", "corporate-websites", "crm-data"],
+    topics: ["business", "acquisition"],
+    priority: 84,
   },
 };
 
@@ -155,6 +178,26 @@ const caseStudyMeta: Record<string, { tags: string[]; services: string[]; priori
     services: ["social-media", "meta-ads"],
     priority: 80,
   },
+  "nova-industrie-web": {
+    tags: ["Web", "SEO", "Branding"],
+    services: ["corporate-websites", "seo", "brand-identity"],
+    priority: 87,
+  },
+  "atlas-ecommerce-growth": {
+    tags: ["E-commerce", "Meta Ads", "CRO"],
+    services: ["e-commerce", "meta-ads", "product-photography"],
+    priority: 90,
+  },
+  "medina-clinic-digital": {
+    tags: ["Branding", "Google Ads", "SEO"],
+    services: ["brand-identity", "corporate-websites", "google-ads"],
+    priority: 86,
+  },
+  "riad-hotel-digital": {
+    tags: ["Web", "SEO", "Video"],
+    services: ["corporate-websites", "video-production", "seo"],
+    priority: 82,
+  },
 };
 
 /** Explicit high-confidence relations (boosted in resolver) */
@@ -165,15 +208,25 @@ export const EXPLICIT_RELATIONS: Record<
   "meta-ads": {
     service: ["google-ads", "landing-pages", "marketing-automation", "crm-data"],
     guide: ["meta-ads-centre-formation"],
-    "case-study": ["skola-formation"],
-    blog: ["meta-ads-vs-google-ads-formation", "generer-leads-centre-formation-maroc", "campagne-inscriptions-rentree-formation-maroc", "retargeting-leads-formation-maroc"],
+    "case-study": ["skola-formation", "atlas-ecommerce-growth"],
+    blog: [
+      "meta-ads-vs-google-ads-formation",
+      "generer-leads-centre-formation-maroc",
+      "campagne-inscriptions-rentree-formation-maroc",
+      "retargeting-leads-formation-maroc",
+    ],
     comparison: ["meta-ads-vs-google-ads"],
   },
   "google-ads": {
     service: ["meta-ads", "landing-pages", "crm-data"],
     guide: ["google-ads-centre-formation"],
-    "case-study": ["campusup-search"],
-    blog: ["meta-ads-vs-google-ads-formation", "generer-leads-centre-formation-maroc", "campagne-inscriptions-rentree-formation-maroc", "retargeting-leads-formation-maroc"],
+    "case-study": ["campusup-search", "medina-clinic-digital"],
+    blog: [
+      "meta-ads-vs-google-ads-formation",
+      "generer-leads-centre-formation-maroc",
+      "campagne-inscriptions-rentree-formation-maroc",
+      "retargeting-leads-formation-maroc",
+    ],
     comparison: ["meta-ads-vs-google-ads"],
   },
   "marketing-automation": {
@@ -273,6 +326,45 @@ export const EXPLICIT_RELATIONS: Record<
   "millennia-group-prive": {
     service: ["social-media", "meta-ads"],
   },
+  "corporate-websites": {
+    service: ["seo", "brand-identity", "landing-pages"],
+    "case-study": ["nova-industrie-web", "riad-hotel-digital", "medina-clinic-digital"],
+    blog: ["transformation-digitale-pme-maroc"],
+    guide: ["seo-entreprise-maroc"],
+  },
+  "e-commerce": {
+    service: ["meta-ads", "product-photography", "marketing-automation"],
+    "case-study": ["atlas-ecommerce-growth"],
+  },
+  "brand-identity": {
+    service: ["corporate-websites", "social-media"],
+    "case-study": ["medina-clinic-digital", "millennia-group-prive"],
+  },
+  seo: {
+    service: ["corporate-websites", "landing-pages"],
+    "case-study": ["nova-industrie-web", "medina-clinic-digital", "riad-hotel-digital"],
+    guide: ["seo-entreprise-maroc"],
+  },
+  "video-production": {
+    service: ["social-media", "corporate-websites"],
+    "case-study": ["riad-hotel-digital"],
+  },
+  "nova-industrie-web": {
+    service: ["corporate-websites", "seo", "brand-identity"],
+    industry: ["startups", "smes"],
+  },
+  "atlas-ecommerce-growth": {
+    service: ["e-commerce", "meta-ads", "product-photography"],
+    industry: ["e-commerce", "retail"],
+  },
+  "medina-clinic-digital": {
+    service: ["brand-identity", "corporate-websites", "google-ads"],
+    industry: ["healthcare", "clinics"],
+  },
+  "riad-hotel-digital": {
+    service: ["corporate-websites", "video-production", "seo"],
+    industry: ["hotels"],
+  },
 };
 
 const serviceRelations: Record<string, string[]> = {
@@ -340,6 +432,17 @@ function buildComparisonNodes(): ContentNode[] {
   }));
 }
 
+function buildIndustryNodes(): ContentNode[] {
+  return INDUSTRY_SLUGS.map((slug) => ({
+    id: `industry:${slug}`,
+    type: "industry" as const,
+    slug,
+    path: `/industries/${slug}`,
+    topics: normalizeTopics([slug, "business"]),
+    priority: 65,
+  }));
+}
+
 function buildCaseStudyNodes(): ContentNode[] {
   return CASE_STUDY_SLUGS.map((slug) => {
     const meta = caseStudyMeta[slug];
@@ -358,6 +461,22 @@ function buildCaseStudyNodes(): ContentNode[] {
 }
 
 const RESOURCE_NODES: ContentNode[] = [
+  {
+    id: "resource:industries",
+    type: "resource",
+    slug: "industries",
+    path: "/industries",
+    topics: ["industries", "business"],
+    priority: 57,
+  },
+  {
+    id: "resource:portfolio",
+    type: "resource",
+    slug: "portfolio",
+    path: "/portfolio",
+    topics: ["portfolio", "design"],
+    priority: 56,
+  },
   {
     id: "resource:case-studies",
     type: "resource",
@@ -413,6 +532,7 @@ export const CONTENT_NODES: ContentNode[] = [
   ...buildBlogNodes(),
   ...buildGuideNodes(),
   ...buildComparisonNodes(),
+  ...buildIndustryNodes(),
   ...buildCaseStudyNodes(),
   ...RESOURCE_NODES,
 ];
@@ -455,6 +575,10 @@ export const PAGE_LINKING_CONFIG: Record<
   comparison: {
     sections: ["service", "blog", "guide", "resource"],
     limits: { service: 2, blog: 2, guide: 2, resource: 3 },
+  },
+  industry: {
+    sections: ["service", "case-study", "blog", "resource"],
+    limits: { service: 3, "case-study": 2, blog: 2, resource: 3 },
   },
   resource: {
     sections: ["blog", "guide", "service", "resource"],

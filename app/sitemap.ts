@@ -7,6 +7,7 @@ import {
   GUIDE_SLUGS,
   COMPARISON_SLUGS,
 } from "@/data/blog";
+import { INDUSTRY_SLUGS } from "@/data/industries";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -16,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
     "",
     "/services",
+    "/industries",
+    "/portfolio",
     "/results",
     "/case-studies",
     "/videos",
@@ -118,5 +121,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...routes, ...caseStudyRoutes, ...serviceRoutes, ...blogRoutes, ...guideRoutes, ...compareRoutes];
+  const industryRoutes = routing.locales.flatMap((locale) =>
+    INDUSTRY_SLUGS.map((slug) => {
+      const path = `/industries/${slug}`;
+      return {
+        url: `${base}/${locale}${path}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.75,
+        alternates: { languages: buildLanguages(path) },
+      };
+    })
+  );
+
+  const hubIndustryRoutes = routing.locales.map((locale) => {
+    const path = "/industries";
+    return {
+      url: `${base}/${locale}${path}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+      alternates: { languages: buildLanguages(path) },
+    };
+  });
+
+  const portfolioRoutes = routing.locales.map((locale) => {
+    const path = "/portfolio";
+    return {
+      url: `${base}/${locale}${path}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+      alternates: { languages: buildLanguages(path) },
+    };
+  });
+
+  return [
+    ...routes,
+    ...caseStudyRoutes,
+    ...serviceRoutes,
+    ...blogRoutes,
+    ...guideRoutes,
+    ...compareRoutes,
+    ...industryRoutes,
+    ...hubIndustryRoutes,
+    ...portfolioRoutes,
+  ];
 }

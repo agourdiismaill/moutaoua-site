@@ -1,32 +1,32 @@
 {
   "services": {
-    "metaTitle": "Services Marketing Centres de Formation",
-    "metaDescription": "Meta Ads, Google Ads, marketing automation, landing pages, réseaux sociaux et CRM : notre écosystème complet d'acquisition pour les centres de formation.",
+    "metaTitle": "Services — Agence Digitale 360° Maroc",
+    "metaDescription": "Marketing, web, logiciels, mobile, design, photo/vidéo et événements : l'écosystème complet Mohtaoua pour accélérer la croissance de votre entreprise.",
     "eyebrow": "Nos Services",
-    "title": "Plus de visibilité. Plus d'inscriptions. <highlight>Plus de croissance.</highlight>",
-    "description": "Chaque levier est piloté par la data et orienté vers un seul objectif : remplir vos sessions de formation."
+    "title": "Marketing, technologie & <highlight>créativité</highlight>",
+    "description": "Sept piliers d'expertise pour accompagner votre transformation digitale, quel que soit votre secteur."
   },
   "results": {
-    "metaTitle": "Résultats Meta Ads & Google Ads — Maroc",
-    "metaDescription": "Exemples de performances publicitaires pour centres de formation : Meta Ads, Google Ads, Lead Forms, CRM et WhatsApp. Données détaillées sur demande.",
+    "metaTitle": "Résultats Marketing & Digital — Maroc",
+    "metaDescription": "Performances publicitaires et digitales pour entreprises de tous secteurs : Meta Ads, Google Ads, CRM et WhatsApp.",
     "eyebrow": "Résultats Publicitaires",
     "title": "La <highlight>preuve</highlight> par les chiffres",
     "titleHighlight": "preuve",
-    "description": "Meta Ads, Google Ads, Lead Forms, CRM et WhatsApp : explorez des captures réelles de campagnes et leurs performances, en galerie."
+    "description": "Exemples de campagnes et tableaux de bord pour e-commerce, santé, immobilier, éducation et services B2B."
   },
   "pricing": {
     "metaTitle": "Tarifs",
-    "metaDescription": "Pack Start, Performance et Premium : des offres claires en dirhams pour votre présence digitale, vos Reels et vos campagnes Ads (Meta, Google, TikTok).",
+    "metaDescription": "Packs marketing Start, Performance et Premium. Développement, design, logiciels et événements sur devis.",
     "eyebrow": "Tarifs",
     "title": "Des offres adaptées à votre <highlight>croissance</highlight>",
-    "description": "Choisissez l'accompagnement qui correspond à vos ambitions. Sans engagement après 3 mois, sans frais cachés."
+    "description": "Marketing mensuel ou projet 360° sur mesure : web, apps, design et campagnes."
   },
   "contact": {
     "metaTitle": "Contact",
-    "metaDescription": "Demandez votre audit marketing gratuit. Notre équipe vous recontacte sous 24h pour transformer votre centre de formation en machine à leads.",
+    "metaDescription": "Demandez votre audit digital gratuit. Notre équipe vous recontacte sous 24h pour accélérer la croissance de votre entreprise.",
     "eyebrow": "Contact",
     "title": "Parlons de votre <highlight>croissance</highlight>",
-    "description": "Recevez un audit gratuit et un plan d'action concret pour votre centre de formation. Réponse garantie sous 24h ouvrées.",
+    "description": "Recevez un audit gratuit et un plan d'action concret pour votre croissance digitale. Réponse garantie sous 24h ouvrées.",
     "email": "Email",
     "phone": "Téléphone",
     "address": "Adresse",
@@ -36,17 +36,17 @@
   },
   "videos": {
     "metaTitle": "Vidéos",
-    "metaDescription": "Études de cas, témoignages clients et masterclass en vidéo : découvrez les coulisses de nos campagnes marketing pour centres de formation.",
+    "metaDescription": "Études de cas filmées, témoignages et coulisses de nos missions marketing, web et design.",
     "eyebrow": "Vidéothèque",
     "title": "Nos <highlight>vidéos</highlight> & témoignages",
-    "description": "Études de cas filmées, retours clients et masterclass pour comprendre notre méthode et nos résultats."
+    "description": "Vidéos corporate, témoignages clients et formats Reels produits pour nos partenaires."
   },
   "caseStudies": {
-    "metaTitle": "Études de cas | Marketing centres de formation Maroc",
-    "metaDescription": "Missions anonymisées : objectifs, stratégie Meta Ads, budget, leads, CPL et ROAS pour des centres de formation au Maroc.",
+    "metaTitle": "Études de cas — Agence Digitale Maroc",
+    "metaDescription": "Résultats concrets : marketing, web, logiciels et design pour entreprises marocaines.",
     "eyebrow": "Études de cas",
     "title": "Des transformations <highlight>mesurables</highlight>",
-    "description": "Plongez dans nos missions : stratégie, budget, leads générés, coût par lead et retour sur investissement publicitaire."
+    "description": "Plongez dans nos missions : stratégie, exécution, technologies et résultats mesurables."
   },
   "caseStudyDetail": {
     "backLink": "Toutes les études de cas",
@@ -64,6 +64,9 @@
     "related": "Autres études de cas",
     "galleryAlt": "{title} — visuel {n}",
     "videoTitle": "{client} — vidéo {n}",
-    "videoCategory": "Étude de cas"
+    "videoCategory": "Étude de cas",
+    "execution": "Exécution",
+    "technologies": "Technologies",
+    "relatedServices": "Services associés"
   }
 }

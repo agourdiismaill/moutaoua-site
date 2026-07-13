@@ -6,8 +6,18 @@ const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  async redirects() {
+    async redirects() {
     return [
+      {
+        source: "/:locale(fr|en|ar)/insights",
+        destination: "/:locale/blog",
+        permanent: true,
+      },
+      {
+        source: "/:locale(fr|en|ar)/insights/:slug*",
+        destination: "/:locale/blog/:slug*",
+        permanent: true,
+      },
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.mohtaoua.ma" }],

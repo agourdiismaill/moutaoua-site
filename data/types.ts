@@ -20,6 +20,25 @@ export interface Service {
   icon: string;
   features: string[];
   highlighted?: boolean;
+  pillar?: string;
+}
+
+export interface Industry {
+  slug: string;
+  title: string;
+  description: string;
+  icon: string;
+  featured?: boolean;
+}
+
+export interface PortfolioItem {
+  id: string;
+  slug: string;
+  industry: string;
+  services: string[];
+  technologies: string[];
+  cover: string;
+  caseStudySlug?: string;
 }
 
 export interface ClientLogo {
@@ -88,6 +107,7 @@ export interface CaseStudy {
   description: string;
   objectives: string[];
   strategy: string[];
+  execution?: string[];
   budget: string;
   leads: number;
   cpl: string;
@@ -99,6 +119,8 @@ export interface CaseStudy {
   testimonials: CaseStudyTestimonial[];
   featured?: boolean;
   tags?: string[];
+  technologies?: string[];
+  relatedServices?: string[];
 }
 
 export interface PricingTier {

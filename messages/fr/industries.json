@@ -1,0 +1,103 @@
+{
+  "items": {
+    "education": {
+      "title": "Éducation & Formation",
+      "description": "Solutions digitales pour écoles, centres de formation et organismes éducatifs."
+    },
+    "healthcare": {
+      "title": "Santé",
+      "description": "Marketing et technologie pour cliniques, médecins et centres médicaux."
+    },
+    "clinics": {
+      "title": "Cliniques",
+      "description": "Visibilité digitale et acquisition patients pour cliniques."
+    },
+    "doctors": {
+      "title": "Médecins",
+      "description": "Présence en ligne et réputation pour praticiens."
+    },
+    "dental-clinics": {
+      "title": "Cliniques Dentaires",
+      "description": "Marketing digital spécialisé pour dentistes."
+    },
+    "medical-centers": {
+      "title": "Centres Médicaux",
+      "description": "Solutions complètes pour centres de santé."
+    },
+    "spa": {
+      "title": "SPA & Bien-être",
+      "description": "Marketing luxe pour spas et centres de bien-être."
+    },
+    "beauty-centers": {
+      "title": "Centres de Beauté",
+      "description": "Visibilité et réservations pour instituts de beauté."
+    },
+    "restaurants": {
+      "title": "Restaurants",
+      "description": "Réseaux sociaux, ads et réservations pour restaurateurs."
+    },
+    "hotels": {
+      "title": "Hôtels",
+      "description": "SEO, booking et marketing pour l'hôtellerie."
+    },
+    "real-estate": {
+      "title": "Immobilier",
+      "description": "Génération de leads et sites premium pour promoteurs."
+    },
+    "construction": {
+      "title": "BTP & Construction",
+      "description": "Communication et digital pour entreprises du bâtiment."
+    },
+    "architecture": {
+      "title": "Architecture",
+      "description": "Portfolio digital et branding pour architectes."
+    },
+    "retail": {
+      "title": "Commerce & Retail",
+      "description": "E-commerce et marketing pour commerces."
+    },
+    "automotive": {
+      "title": "Automobile",
+      "description": "Publicité et sites web pour concessions."
+    },
+    "law-firms": {
+      "title": "Cabinets d'Avocats",
+      "description": "Visibilité et crédibilité digitale pour juristes."
+    },
+    "accounting-firms": {
+      "title": "Cabinets Comptables",
+      "description": "Sites web et SEO pour experts-comptables."
+    },
+    "ngos": {
+      "title": "ONG & Associations",
+      "description": "Communication et fundraising digital."
+    },
+    "government": {
+      "title": "Secteur Public",
+      "description": "Portails et communication institutionnelle."
+    },
+    "factories": {
+      "title": "Industrie & Usines",
+      "description": "Sites B2B et automatisation industrielle."
+    },
+    "e-commerce": {
+      "title": "E-commerce",
+      "description": "Boutiques en ligne et acquisition pour e-commerçants."
+    },
+    "startups": {
+      "title": "Startups",
+      "description": "MVP, branding et growth pour jeunes entreprises."
+    },
+    "smes": {
+      "title": "PME",
+      "description": "Transformation digitale accessible pour PME marocaines."
+    }
+  },
+  "hub": {
+    "metaTitle": "Industries — Agence Digitale Maroc",
+    "metaDescription": "Mohtaoua accompagne les entreprises de tous secteurs : éducation, santé, e-commerce, immobilier, restauration et plus.",
+    "eyebrow": "Industries",
+    "title": "Des solutions pour <highlight>chaque secteur</highlight>",
+    "description": "Du marketing à la technologie, nous adaptons notre expertise à votre industrie."
+  }
+}

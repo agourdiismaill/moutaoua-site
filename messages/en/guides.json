@@ -1,17 +1,17 @@
 {
-  "metaTitle": "Training Marketing Guides",
-  "metaDescription": "Complete Meta Ads and Google Ads guides for training centers in Morocco.",
+  "metaTitle": "Marketing & Digital Guides — Morocco",
+  "metaDescription": "Practical guides on Meta Ads, Google Ads, SEO and digital transformation for businesses in Morocco.",
   "eyebrow": "Guides",
   "title": "<highlight>Practical</highlight> guides",
-  "description": "Detailed guides to master digital acquisition for your training center.",
+  "description": "In-depth guides to master marketing, web and digital growth.",
   "readGuide": "Read guide",
   "items": {
     "meta-ads-centre-formation": {
-      "title": "Complete Meta Ads guide for training centers",
-      "description": "From strategy to scaling: audiences, creatives, budget, and optimization for the training sector.",
+      "title": "Complete Meta Ads guide for businesses in Morocco",
+      "description": "From strategy to scaling: audiences, creatives, budget and optimization for all industries.",
       "steps": [
-        "Define the offer and learner persona",
-        "Structure the ad account by training program",
+        "Define the offer and buyer persona",
+        "Structure the ad account by offer",
         "Create cold and warm audiences",
         "Produce video and static creatives",
         "Install conversion tracking (Pixel + CAPI)",
@@ -23,13 +23,19 @@
         "Stopping campaigns before 14 days of learning"
       ],
       "faqs": [
-        { "question": "What Meta budget to start with?", "answer": "8,000 MAD/month minimum to test one offer in one geographic area." },
-        { "question": "How many creatives to test?", "answer": "At least 3-5 variants per offer in continuous A/B testing." }
+        {
+          "question": "What Meta budget to start with?",
+          "answer": "8,000 MAD/month minimum to test one offer in one geographic area."
+        },
+        {
+          "question": "How many creatives to test?",
+          "answer": "At least 3-5 variants per offer in continuous A/B testing."
+        }
       ]
     },
     "google-ads-centre-formation": {
-      "title": "Google Ads guide for training centers",
-      "description": "Search, Performance Max, and landing pages to capture high-intent searches.",
+      "title": "Google Ads guide for businesses in Morocco",
+      "description": "Search, Performance Max and landing pages for high-intent searches.",
       "steps": [
         "Commercial-intent keyword research",
         "Create a Search campaign per training program",
@@ -44,8 +50,68 @@
         "Ignoring actual search terms"
       ],
       "faqs": [
-        { "question": "Search or PMax first?", "answer": "Search for control, PMax to scale once conversions are tracked." },
-        { "question": "What Quality Score to aim for?", "answer": "7+ on your main keywords through ad-page relevance." }
+        {
+          "question": "Search or PMax first?",
+          "answer": "Search for control, PMax to scale once conversions are tracked."
+        },
+        {
+          "question": "What Quality Score to aim for?",
+          "answer": "7+ on your main keywords through ad-page relevance."
+        }
+      ]
+    },
+    "seo-entreprise-maroc": {
+      "title": "SEO guide for businesses in Morocco",
+      "description": "Technical audit, content, link building and local SEO to rank on Google.",
+      "steps": [
+        "Audit technical site health (speed, indexing, mobile)",
+        "Identify commercial-intent keywords",
+        "Create optimized pages per service and city",
+        "Publish expert content regularly",
+        "Earn quality local backlinks",
+        "Track rankings and organic conversions"
+      ],
+      "mistakes": [
+        "Duplicating low-value content",
+        "Neglecting local SEO (Google Business)",
+        "Ignoring mobile speed"
+      ],
+      "faqs": [
+        {
+          "question": "How long for SEO results?",
+          "answer": "3 to 6 months for significant gains depending on competition."
+        },
+        {
+          "question": "SEO or Google Ads?",
+          "answer": "Both: Ads for immediacy, SEO for long term."
+        }
+      ]
+    },
+    "agence-digitale-maroc-guide": {
+      "title": "How to choose a digital agency in Morocco",
+      "description": "Criteria, questions to ask and red flags when selecting a 360° partner.",
+      "steps": [
+        "Define business goals (leads, sales, awareness)",
+        "Verify multi-channel expertise (marketing + web + tech)",
+        "Request case studies in your industry",
+        "Clarify pricing model and KPIs",
+        "Start with an audit or pilot project",
+        "Evaluate responsiveness and reporting transparency"
+      ],
+      "mistakes": [
+        "Choosing only on price",
+        "Single-skill agency for 360° needs",
+        "No reporting or defined KPIs"
+      ],
+      "faqs": [
+        {
+          "question": "Agency or freelancer?",
+          "answer": "A 360° agency covers more skills with a coordinated team."
+        },
+        {
+          "question": "Minimum budget?",
+          "answer": "From 8,000 MAD/month for active marketing, excluding media."
+        }
       ]
     }
   }

@@ -1,0 +1,32 @@
+{
+  "items": {
+    "marketing": {
+      "title": "التسويق",
+      "description": "التسويق"
+    },
+    "web": {
+      "title": "الويب",
+      "description": "الويب"
+    },
+    "software": {
+      "title": "البرمجيات",
+      "description": "البرمجيات"
+    },
+    "mobile": {
+      "title": "الجوال",
+      "description": "الجوال"
+    },
+    "creative": {
+      "title": "الإبداع",
+      "description": "الإبداع"
+    },
+    "photo-video": {
+      "title": "الصورة والفيديو",
+      "description": "الصورة والفيديو"
+    },
+    "events": {
+      "title": "الفعاليات",
+      "description": "الفعاليات"
+    }
+  }
+}

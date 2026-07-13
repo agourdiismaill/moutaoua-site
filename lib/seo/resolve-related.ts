@@ -74,7 +74,14 @@ function getCurrentNode(type: ContentType, slug: string): ContentNode {
     id: getCurrentNodeId(type, slug),
     type,
     slug,
-    path: `/${type}/${slug}`,
+    path:
+      type === "industry"
+        ? `/industries/${slug}`
+        : type === "case-study"
+          ? `/case-studies/${slug}`
+          : type === "service"
+            ? `/services/${slug}`
+            : `/${type}/${slug}`,
     topics: normalizeTopics([slug]),
   };
 }

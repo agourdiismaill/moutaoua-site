@@ -10,7 +10,9 @@ type PageKey =
   | "pricing"
   | "contact"
   | "videos"
-  | "caseStudies";
+  | "caseStudies"
+  | "industries"
+  | "portfolio";
 
 const pagePaths: Record<PageKey, string> = {
   services: "/services",
@@ -19,30 +21,51 @@ const pagePaths: Record<PageKey, string> = {
   contact: "/contact",
   videos: "/videos",
   caseStudies: "/case-studies",
+  industries: "/industries",
+  portfolio: "/portfolio",
 };
 
-export async function LocalizedPageHeader({ page }: { page: PageKey }) {
+type PageOverrides = {
+  metaTitle?: string;
+  metaDescription?: string;
+  eyebrow?: string;
+  title?: string;
+  description?: string;
+};
+
+export async function LocalizedPageHeader({
+  page,
+  overrides,
+}: {
+  page: PageKey;
+  overrides?: PageOverrides;
+}) {
   const t = await getTranslations(`pages.${page}`);
 
   return (
     <PageHeader
-      eyebrow={t("eyebrow")}
-      title={t.rich("title", {
-        highlight: (chunks) => <span className="text-gradient">{chunks}</span>,
-      })}
-      description={t("description")}
+      eyebrow={overrides?.eyebrow ?? t("eyebrow")}
+      title={(overrides?.title ? overrides.title : t("title")).includes("<highlight>")
+        ? t.rich("title", {
+            highlight: (chunks) => <span className="text-gradient">{chunks}</span>,
+          })
+        : overrides?.title ?? t.rich("title", {
+            highlight: (chunks) => <span className="text-gradient">{chunks}</span>,
+          })}
+      description={overrides?.description ?? t("description")}
     />
   );
 }
 
 export async function getPageMetadata(
   page: PageKey,
-  locale: string
+  locale: string,
+  overrides?: Pick<PageOverrides, "metaTitle" | "metaDescription">
 ): Promise<Metadata> {
   const t = await getTranslations(`pages.${page}`);
   const path = pagePaths[page];
-  const title = t("metaTitle");
-  const description = t("metaDescription");
+  const title = overrides?.metaTitle ?? t("metaTitle");
+  const description = overrides?.metaDescription ?? t("metaDescription");
 
   return buildSeoMetadata({
     locale,

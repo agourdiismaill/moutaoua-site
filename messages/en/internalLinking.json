@@ -5,7 +5,8 @@
     "relatedGuides": "Practical guides",
     "relatedCaseStudies": "Case studies",
     "relatedComparisons": "Comparisons",
-    "relatedResources": "Useful resources"
+    "relatedResources": "Useful resources",
+    "relatedIndustries": "Related industries"
   },
   "sidebar": {
     "relatedContent": "Related content",
@@ -20,31 +21,41 @@
   "resources": {
     "case-studies": {
       "title": "Client case studies",
-      "description": "Concrete results from training centers in Morocco."
+      "description": "Concrete results for businesses across industries in Morocco."
     },
     "pricing": {
-      "title": "Pricing and packs",
-      "description": "Start, Performance, and Premium plans for your center."
+      "title": "Pricing & packs",
+      "description": "Plans adapted to your digital growth."
     },
     "results": {
       "title": "Our results",
-      "description": "Leads, ROAS, and performance by ad channel."
+      "description": "Marketing and technology performance from our missions."
     },
     "videos": {
-      "title": "Videos and testimonials",
-      "description": "Masterclasses and client success stories."
+      "title": "Video library",
+      "description": "Video content, reels and client testimonials."
     },
     "contact": {
-      "title": "Request a free audit",
-      "description": "Personalized acquisition analysis within 24h."
+      "title": "Contact & free audit",
+      "description": "Tell us about your project. Response within 24h."
     },
     "blog": {
-      "title": "Training marketing blog",
-      "description": "Guides, strategies, and best practices for your center."
+      "title": "Insights",
+      "description": "Marketing, development, AI, automation and digital transformation."
+    },
+    "industries": {
+      "title": "Industries",
+      "description": "Digital solutions by sector: healthcare, real estate, e-commerce, education and more."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "description": "Web, marketing, design and software projects for Moroccan businesses."
     }
   },
   "anchors": {
-    "default": ["{title}"],
+    "default": [
+      "{title}"
+    ],
     "service": [
       "Discover our {title} service",
       "Learn more about {title}",

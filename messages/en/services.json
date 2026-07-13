@@ -2,68 +2,585 @@
   "items": {
     "meta-ads": {
       "title": "Facebook & Meta Ads",
-      "description": "Ultra-precise targeting to reach the most qualified prospects for your training programs.",
-      "longDescription": "We build custom audiences, high-converting creatives, and continuously optimized acquisition funnels on Meta (Facebook and Instagram).",
+      "description": "Meta advertising campaigns to generate qualified leads.",
+      "longDescription": "Custom audiences, high-performing creatives and continuous optimization on Facebook and Instagram.",
       "features": [
-        "Lookalike audiences and retargeting",
-        "A/B-tested video and static creatives",
-        "Daily budget optimization",
-        "Advanced conversion tracking (CAPI)"
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
       ]
     },
     "google-ads": {
       "title": "Google Ads",
-      "description": "Capture search intent the moment your future students look for a training program.",
-      "longDescription": "Search, Performance Max, and YouTube Ads driven by data to capture high-intent demand and maximize your advertising ROI.",
+      "description": "Capture search intent at the decisive moment.",
+      "longDescription": "Search, Performance Max and YouTube Ads driven by data.",
       "features": [
-        "Search and Performance Max campaigns",
-        "High-intent keyword research",
-        "Optimized extensions and landing pages",
-        "Call and form conversion tracking"
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "tiktok-ads": {
+      "title": "TikTok Ads",
+      "description": "Reach young, engaged audiences with native formats.",
+      "longDescription": "TikTok campaigns optimized for awareness and conversion.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "seo": {
+      "title": "SEO",
+      "description": "Position your brand at the top of Google results.",
+      "longDescription": "Technical audit, optimized content and link building for lasting visibility.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "geo": {
+      "title": "GEO — Generative Engine Optimization",
+      "description": "Optimize your presence for AI engines (ChatGPT, Gemini, Perplexity).",
+      "longDescription": "Structured content, topical authority and citations by generative AI.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "content-marketing": {
+      "title": "Content Marketing",
+      "description": "Create content that attracts, educates and converts.",
+      "longDescription": "Editorial strategy, articles, guides and multichannel content.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "email-marketing": {
+      "title": "Email Marketing",
+      "description": "Nurture prospects with high-performing email campaigns.",
+      "longDescription": "Newsletters, automated sequences and advanced segmentation.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
       ]
     },
     "marketing-automation": {
       "title": "Marketing Automation",
-      "description": "Automated email sequences to nurture your leads through to enrollment.",
-      "longDescription": "Multichannel nurturing scenarios (email, SMS, WhatsApp) connected to your CRM to turn cold leads into enrollments.",
+      "description": "Automate your customer journeys end to end.",
+      "longDescription": "Multichannel scenarios connected to your CRM to convert more.",
       "features": [
-        "Multichannel nurturing workflows",
-        "Lead scoring and segmentation",
-        "Native CRM integration",
-        "Smart automated follow-ups"
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "crm-data": {
+      "title": "CRM & Data Management",
+      "description": "Centralize leads and manage by data.",
+      "longDescription": "CRM implementation, dashboards and multi-touch attribution.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "lead-generation": {
+      "title": "Lead Generation",
+      "description": "Generate a steady flow of qualified prospects.",
+      "longDescription": "Multichannel strategies: ads, landing pages, forms and nurturing.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "community-management": {
+      "title": "Community Management",
+      "description": "Engage and grow your online community.",
+      "longDescription": "Moderation, engagement and organic growth on social networks.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "corporate-websites": {
+      "title": "Corporate Websites",
+      "description": "Premium showcase websites that inspire trust.",
+      "longDescription": "Custom design, performance, SEO and multilingual.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
       ]
     },
     "landing-pages": {
       "title": "Landing Pages & CRO",
-      "description": "Fast, conversion-focused landing pages that turn traffic into qualified inquiries.",
-      "longDescription": "Design, copywriting, and conversion rate optimization (CRO) with ongoing A/B testing to maximize every dirham you invest.",
+      "description": "Pages optimized to convert every visitor.",
+      "longDescription": "Mobile-first design, copywriting and continuous A/B tests.",
       "features": [
-        "Mobile-first, high-converting design",
-        "A/B tests and heatmaps",
-        "Speed and technical SEO",
-        "Integrated forms and appointment booking"
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "e-commerce": {
+      "title": "E-commerce",
+      "description": "High-performing, scalable online stores.",
+      "longDescription": "Optimized catalog, payment, logistics and conversion.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "booking-platforms": {
+      "title": "Booking Platforms",
+      "description": "Custom online booking systems.",
+      "longDescription": "Calendars, payments and automated notifications.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "marketplaces": {
+      "title": "Marketplaces",
+      "description": "Turnkey multi-vendor platforms.",
+      "longDescription": "Scalable architecture, split payments and vendor management.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "portals": {
+      "title": "Web Portals",
+      "description": "Custom business portals and intranets.",
+      "longDescription": "Client areas, extranets and personalized dashboards.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "erp": {
+      "title": "ERP",
+      "description": "Integrated management systems for your business.",
+      "longDescription": "Unified inventory, accounting, HR and production.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "custom-software": {
+      "title": "Custom Software",
+      "description": "Business applications tailored to your processes.",
+      "longDescription": "Analysis, development and deployment of unique solutions.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "saas": {
+      "title": "SaaS",
+      "description": "Subscription-based software products.",
+      "longDescription": "From idea to MVP to scale with cloud architecture.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "business-platforms": {
+      "title": "Business Platforms",
+      "description": "Digital tools to manage your business.",
+      "longDescription": "Custom dashboards, workflows and integrations.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "automation": {
+      "title": "Automation",
+      "description": "Automate your repetitive tasks.",
+      "longDescription": "Scripts, integrations and workflows to save time.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "ai-agents": {
+      "title": "AI Agents",
+      "description": "Intelligent assistants for your business.",
+      "longDescription": "Conversational and autonomous agents powered by AI.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "chatbots": {
+      "title": "Chatbots",
+      "description": "24/7 virtual assistants for your clients.",
+      "longDescription": "WhatsApp, web and social with conversational AI.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "workflow-automation": {
+      "title": "Workflow Automation",
+      "description": "Orchestrate your business processes.",
+      "longDescription": "Zapier, Make, n8n and custom API integrations.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "api-integration": {
+      "title": "API Integration",
+      "description": "Connect your tools together.",
+      "longDescription": "REST APIs, webhooks and data synchronization.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "android": {
+      "title": "Android Applications",
+      "description": "Native, high-performance Android apps.",
+      "longDescription": "Kotlin, Java and Google Play publishing.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "ios": {
+      "title": "iOS Applications",
+      "description": "Elegant apps for iPhone and iPad.",
+      "longDescription": "Swift, SwiftUI and App Store publishing.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "flutter": {
+      "title": "Flutter Applications",
+      "description": "Cross-platform apps with a single codebase.",
+      "longDescription": "Native performance on iOS and Android.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "react-native": {
+      "title": "React Native Applications",
+      "description": "Mobile apps with React and JavaScript.",
+      "longDescription": "Fast development and simplified maintenance.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "brand-identity": {
+      "title": "Brand Identity",
+      "description": "Build a memorable, consistent brand.",
+      "longDescription": "Positioning, naming, visual identity and guidelines.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "logo": {
+      "title": "Logo",
+      "description": "A distinctive logo that embodies your vision.",
+      "longDescription": "Creative concepts, iterations and vector deliverables.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "graphic-design": {
+      "title": "Graphic Design",
+      "description": "Professional visuals for all your media.",
+      "longDescription": "Print, digital, social media and signage.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "brochure": {
+      "title": "Brochures",
+      "description": "Sales brochures that sell.",
+      "longDescription": "Design, copywriting and premium printing.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "catalogue": {
+      "title": "Catalogs",
+      "description": "Complete, attractive product catalogs.",
+      "longDescription": "Layout, photos and digital version.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "flyers": {
+      "title": "Flyers",
+      "description": "Impactful flyers for your promotions.",
+      "longDescription": "Quick design and print-ready formats.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "packaging": {
+      "title": "Packaging",
+      "description": "Packaging that stands out on shelves.",
+      "longDescription": "Structural and graphic design for your products.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "infographics": {
+      "title": "Infographics",
+      "description": "Visualize your data clearly.",
+      "longDescription": "Animated or static infographics for web and print.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "presentation-design": {
+      "title": "Presentation Design",
+      "description": "Pitch decks and presentations that convince.",
+      "longDescription": "Premium PowerPoint, Keynote and Google Slides.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "commercial-photography": {
+      "title": "Commercial Photography",
+      "description": "Images that showcase your offering.",
+      "longDescription": "Product, lifestyle and advertising shoots.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "corporate-photography": {
+      "title": "Corporate Photography",
+      "description": "Professional business portraits and visuals.",
+      "longDescription": "Teams, offices and corporate events.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "product-photography": {
+      "title": "Product Photography",
+      "description": "Showcase your products.",
+      "longDescription": "White background, lifestyle and e-commerce packshots.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "video-production": {
+      "title": "Video Production",
+      "description": "Professional videos for your brand.",
+      "longDescription": "Corporate, advertising and social content.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "drone": {
+      "title": "Drone Footage",
+      "description": "Spectacular aerial imagery.",
+      "longDescription": "Real estate, events and industry.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "reels": {
+      "title": "Reels & Shorts",
+      "description": "Viral short formats for social.",
+      "longDescription": "TikTok, Instagram Reels and YouTube Shorts.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "motion-graphics": {
+      "title": "Motion Graphics",
+      "description": "Animations and motion design videos.",
+      "longDescription": "Explainer videos, intros and animated ads.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "corporate-events": {
+      "title": "Corporate Events",
+      "description": "Full organization of your events.",
+      "longDescription": "Planning, logistics and coordination.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "conferences": {
+      "title": "Conferences",
+      "description": "Turnkey professional conferences.",
+      "longDescription": "Scenography, AV technology and communication.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "training-events": {
+      "title": "Training Events",
+      "description": "Custom seminars and workshops.",
+      "longDescription": "Facilitation, materials and post-event follow-up.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "booth-design": {
+      "title": "Booth Design",
+      "description": "Exhibition stands that attract.",
+      "longDescription": "3D design, fabrication and installation.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "brand-activation": {
+      "title": "Brand Activation",
+      "description": "Memorable brand experiences.",
+      "longDescription": "Field activations, sampling and pop-up events.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
+      ]
+    },
+    "event-communication": {
+      "title": "Event Communication",
+      "description": "Communicate before, during and after.",
+      "longDescription": "Invitations, social media and press relations.",
+      "features": [
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
       ]
     },
     "social-media": {
       "title": "Social Media Management",
-      "description": "A consistent social presence that strengthens your brand and feeds your pipeline.",
-      "longDescription": "Editorial strategy, content production, and community management to build a strong, desirable education brand.",
+      "description": "A consistent, engaging social presence.",
+      "longDescription": "Editorial line, content production and community management.",
       "features": [
-        "Strategy and editorial calendar",
-        "Reels and carousel production",
-        "Community management",
-        "Monthly engagement reporting"
-      ]
-    },
-    "crm-data": {
-      "title": "CRM & Data Analytics",
-      "description": "Centralize your leads and steer acquisition with clear dashboards.",
-      "longDescription": "CRM setup and optimization, real-time dashboards, and attribution for data-driven decisions.",
-      "features": [
-        "CRM implementation and integration",
-        "Real-time dashboards",
-        "Multi-touch attribution",
-        "Automated reporting"
+        "Custom strategy",
+        "Dedicated team",
+        "Transparent reporting",
+        "Ongoing support"
       ]
     }
   }

@@ -1,24 +1,28 @@
 {
   "metadata": {
-    "title": "Marketing Agency for Training Centers in Morocco",
-    "description": "Mohtaoua turns your training center into a lead generation machine in Morocco: Meta Ads, Google Ads, TikTok Ads, content creation and marketing automation.",
-    "tagline": "Premium Marketing Agency for Training Centers",
+    "title": "Premium 360° Digital Agency in Morocco",
+    "description": "Mohtaoua — digital, creative and technology agency in Morocco. Marketing, web development, software, mobile, design, AI, automation and events for every industry.",
+    "tagline": "Premium 360° Digital Agency",
     "keywords": [
-      "training center marketing agency",
-      "education marketing",
-      "lead generation training",
-      "Meta Ads training",
-      "Google Ads training",
-      "student acquisition"
+      "digital agency morocco",
+      "marketing agency morocco",
+      "web development morocco",
+      "creative agency morocco",
+      "custom software morocco",
+      "AI automation morocco",
+      "digital transformation morocco"
     ]
   },
   "nav": {
     "home": "Home",
     "services": "Services",
-    "results": "Results",
+    "industries": "Industries",
+    "portfolio": "Portfolio",
     "caseStudies": "Case Studies",
+    "insights": "Insights",
+    "results": "Results",
     "videos": "Videos",
-    "blog": "Blog",
+    "blog": "Insights",
     "pricing": "Pricing",
     "contact": "Contact",
     "freeAudit": "Free audit",
@@ -26,7 +30,7 @@
     "openMenu": "Open menu"
   },
   "footer": {
-    "description": "Mohtaoua turns your training center into a lead generation machine: Meta Ads, Google Ads, TikTok Ads, content creation and marketing automation for education.",
+    "description": "Mohtaoua is a premium 360° digital agency in Morocco: marketing, technology, design, automation and AI for businesses across all industries.",
     "navigation": "Navigation",
     "services": "Services",
     "contact": "Contact",
@@ -40,41 +44,48 @@
     "compareMetaGoogle": "Meta vs Google Ads"
   },
   "hero": {
-    "badge": "Premium Marketing Agency for Training Centers",
-    "title": "Turn Your Training Center into a <highlight>Lead Generation Machine</highlight>",
-    "description": "Meta Ads • Google Ads • Content Creation • Social Media Management • Landing Pages. We fuel your educational growth.",
+    "badge": "Premium 360° Digital Agency — Morocco",
+    "title": "Your <highlight>digital transformation</highlight> partner",
+    "description": "We create brands. We build websites. We develop software. We generate leads. We automate businesses.",
     "ctaPrimary": "Request a free audit",
-    "ctaSecondary": "See our results",
-    "socialProof": "<strong>150+ centers</strong> trust us",
-    "avatarNames": ["Center Casablanca", "School Rabat", "Training Marrakech", "Campus Tangier"],
-    "costPerLead": "Cost per lead",
-    "avgRoas": "Average ROAS",
-    "clientAlt": "Training center client",
-    "dashboardAlt": "Marketing dashboard showing 2,459 prospects generated at 0.20 MAD per prospect"
+    "ctaSecondary": "See our work",
+    "socialProof": "<strong>200+ projects</strong> delivered across 15+ industries",
+    "avatarNames": [
+      "E-commerce · Casa",
+      "Clinic · Rabat",
+      "Hotel · Marrakech",
+      "Startup · Tangier"
+    ],
+    "costPerLead": "Projects delivered",
+    "avgRoas": "Industries",
+    "clientAlt": "Business client",
+    "dashboardAlt": "Digital dashboard showing marketing and technology performance",
+    "statProjects": "200+",
+    "statSectors": "15+"
   },
   "contactForm": {
     "successTitle": "Message sent!",
     "successMessage": "Thank you for your request. Our team will get back to you within 24 business hours to schedule your free audit.",
     "sendAnother": "Send another message",
     "name": "Full name",
-    "company": "Center / Organization",
+    "company": "Company",
     "email": "Email",
     "phone": "Phone",
-    "budget": "Monthly media budget",
+    "budget": "Monthly project budget",
     "budgetPlaceholder": "Select a range",
     "budgetUnder10k": "Under 10,000 MAD",
     "budget10to30k": "10,000 – 30,000 MAD",
     "budget30to100k": "30,000 – 100,000 MAD",
     "budgetOver100k": "Over 100,000 MAD",
     "message": "Your project",
-    "messagePlaceholder": "Tell us about your acquisition goals…",
+    "messagePlaceholder": "Tell us about your growth goals…",
     "submit": "Request my free audit",
     "submitting": "Sending…",
     "disclaimer": "By submitting this form, you agree to be contacted by our team and accept our <privacyLink>privacy policy</privacyLink>.",
     "errorGeneric": "Something went wrong. Please try again or email us at contact@mohtaoua.ma.",
     "errorNotConfigured": "The form is not configured on the server yet. Please contact us directly by email.",
     "namePlaceholder": "John Smith",
-    "companyPlaceholder": "My Training Center",
+    "companyPlaceholder": "My Company",
     "emailPlaceholder": "john@example.com",
     "phonePlaceholder": "+212 6 12 34 56 78"
   },
@@ -89,5 +100,9 @@
     "description": "The page you are looking for does not exist or has been moved.",
     "home": "Back to home",
     "contact": "Contact us"
+  },
+  "navMega": {
+    "viewAllServices": "View all services",
+    "viewAllIndustries": "View all industries"
   }
 }

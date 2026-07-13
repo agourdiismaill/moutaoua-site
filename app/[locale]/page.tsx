@@ -4,7 +4,9 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Hero } from "@/components/sections/hero";
 import { Stats } from "@/components/sections/stats";
 import { ClientLogos } from "@/components/sections/client-logos";
+import { CapabilitiesGrid } from "@/components/sections/capabilities-grid";
 import { ServicesSection } from "@/components/sections/services-section";
+import { IndustriesTeaser } from "@/components/sections/industries-teaser";
 import { OrganizationJsonLd, FaqPageJsonLd } from "@/components/shared/json-ld";
 import { AIOverview } from "@/components/seo/ai-overview";
 import { TrustSection } from "@/components/seo/trust-section";
@@ -88,7 +90,9 @@ export default async function HomePage({
       </section>
       <Stats />
       <ClientLogos />
-      <ServicesSection />
+      <CapabilitiesGrid />
+      <ServicesSection limit={6} />
+      <IndustriesTeaser />
       <ResultsSection />
       <VideoCarousel />
       <PortfolioShowcase />

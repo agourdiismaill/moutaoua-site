@@ -5,7 +5,8 @@
     "relatedGuides": "أدلة عملية",
     "relatedCaseStudies": "دراسات حالة",
     "relatedComparisons": "مقارنات",
-    "relatedResources": "موارد مفيدة"
+    "relatedResources": "موارد مفيدة",
+    "relatedIndustries": "قطاعات مرتبطة"
   },
   "sidebar": {
     "relatedContent": "محتوى ذو صلة",
@@ -20,31 +21,41 @@
   "resources": {
     "case-studies": {
       "title": "دراسات حالة العملاء",
-      "description": "نتائج ملموسة لمراكز التدريب في المغرب."
+      "description": "نتائج ملموسة لشركات في جميع القطاعات بالمغرب."
     },
     "pricing": {
       "title": "الأسعار والباقات",
-      "description": "باقات Start وPerformance وPremium لمركزك."
+      "description": "خطط مكيّفة لنموكم الرقمي."
     },
     "results": {
       "title": "نتائجنا",
-      "description": "العملاء المحتملون وROAS والأداء حسب القناة."
+      "description": "أداء تسويقي وتقني من مهامنا."
     },
     "videos": {
-      "title": "فيديوهات وشهادات",
-      "description": "Masterclass وقصص نجاح العملاء."
+      "title": "مكتبة الفيديو",
+      "description": "محتوى فيديو وreels وشهادات عملاء."
     },
     "contact": {
-      "title": "طلب تدقيق مجاني",
-      "description": "تحليل مخصص لاكتسابك خلال 24 ساعة."
+      "title": "اتصل بنا وتدقيق مجاني",
+      "description": "أخبرونا عن مشروعكم. رد خلال 24 ساعة."
     },
     "blog": {
-      "title": "مدونة تسويق التدريب",
-      "description": "أدلة واستراتيجيات وأفضل الممارسات لمركزك."
+      "title": "Insights",
+      "description": "تسويق وتطوير وذكاء اصطناعي وأتمتة وتحول رقمي."
+    },
+    "industries": {
+      "title": "القطاعات",
+      "description": "حلول رقمية حسب القطاع: صحة، عقار، تجارة إلكترونية، تعليم والمزيد."
+    },
+    "portfolio": {
+      "title": "معرض الأعمال",
+      "description": "مشاريع ويب وتسويق وتصميم وبرمجيات للمؤسسات المغربية."
     }
   },
   "anchors": {
-    "default": ["{title}"],
+    "default": [
+      "{title}"
+    ],
     "service": [
       "اكتشف خدمة {title}",
       "المزيد عن {title}",

@@ -1,0 +1,1148 @@
+{
+  "labels": {
+    "challenges": "Industry challenges",
+    "solutions": "Our solutions",
+    "recommendedServices": "Recommended services",
+    "caseStudies": "Case studies",
+    "faq": "FAQ",
+    "home": "Home",
+    "industries": "Industries",
+    "aiOverview": "Page summary",
+    "what": "What is this page about?",
+    "who": "Who is it for?",
+    "benefits": "Key benefits",
+    "topics": "Topics covered",
+    "takeaways": "Key takeaways",
+    "readingTime": "{minutes} min read",
+    "share": "Share"
+  },
+  "hubOverview": {
+    "what": "Mohtaoua supports businesses across all industries in Morocco with marketing, technology and creative solutions.",
+    "who": "Leaders, marketing directors and digital managers at SMEs, startups and enterprises.",
+    "benefits": [
+      "Multi-sector expertise",
+      "Custom solutions",
+      "Multidisciplinary team",
+      "Measurable results"
+    ],
+    "topics": [
+      "Education",
+      "Healthcare",
+      "E-commerce",
+      "Real Estate",
+      "Restaurants",
+      "Hospitality"
+    ],
+    "takeaways": [
+      "23+ industries covered",
+      "Premium 360° agency",
+      "Free audit"
+    ]
+  },
+  "items": {
+    "education": {
+      "metaTitle": "Education & Training — Digital Agency Morocco",
+      "metaDescription": "Digital solutions for schools, training centers and educational organizations.",
+      "overview": {
+        "what": "Digital solutions for schools, training centers and educational organizations.",
+        "who": "Leaders and marketing managers in the education & training sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "healthcare": {
+      "metaTitle": "Healthcare — Digital Agency Morocco",
+      "metaDescription": "Marketing and technology for clinics, doctors and medical centers.",
+      "overview": {
+        "what": "Marketing and technology for clinics, doctors and medical centers.",
+        "who": "Leaders and marketing managers in the healthcare sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "clinics": {
+      "metaTitle": "Clinics — Digital Agency Morocco",
+      "metaDescription": "Digital visibility and patient acquisition for clinics.",
+      "overview": {
+        "what": "Digital visibility and patient acquisition for clinics.",
+        "who": "Leaders and marketing managers in the clinics sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "doctors": {
+      "metaTitle": "Doctors — Digital Agency Morocco",
+      "metaDescription": "Online presence and reputation for practitioners.",
+      "overview": {
+        "what": "Online presence and reputation for practitioners.",
+        "who": "Leaders and marketing managers in the doctors sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "dental-clinics": {
+      "metaTitle": "Dental Clinics — Digital Agency Morocco",
+      "metaDescription": "Specialized digital marketing for dentists.",
+      "overview": {
+        "what": "Specialized digital marketing for dentists.",
+        "who": "Leaders and marketing managers in the dental clinics sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "medical-centers": {
+      "metaTitle": "Medical Centers — Digital Agency Morocco",
+      "metaDescription": "Complete solutions for health centers.",
+      "overview": {
+        "what": "Complete solutions for health centers.",
+        "who": "Leaders and marketing managers in the medical centers sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "spa": {
+      "metaTitle": "SPA & Wellness — Digital Agency Morocco",
+      "metaDescription": "Luxury marketing for spas and wellness centers.",
+      "overview": {
+        "what": "Luxury marketing for spas and wellness centers.",
+        "who": "Leaders and marketing managers in the spa & wellness sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "beauty-centers": {
+      "metaTitle": "Beauty Centers — Digital Agency Morocco",
+      "metaDescription": "Visibility and bookings for beauty institutes.",
+      "overview": {
+        "what": "Visibility and bookings for beauty institutes.",
+        "who": "Leaders and marketing managers in the beauty centers sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "restaurants": {
+      "metaTitle": "Restaurants — Digital Agency Morocco",
+      "metaDescription": "Social media, ads and bookings for restaurants.",
+      "overview": {
+        "what": "Social media, ads and bookings for restaurants.",
+        "who": "Leaders and marketing managers in the restaurants sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "hotels": {
+      "metaTitle": "Hotels — Digital Agency Morocco",
+      "metaDescription": "SEO, booking and marketing for hospitality.",
+      "overview": {
+        "what": "SEO, booking and marketing for hospitality.",
+        "who": "Leaders and marketing managers in the hotels sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "real-estate": {
+      "metaTitle": "Real Estate — Digital Agency Morocco",
+      "metaDescription": "Lead generation and premium sites for developers.",
+      "overview": {
+        "what": "Lead generation and premium sites for developers.",
+        "who": "Leaders and marketing managers in the real estate sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "construction": {
+      "metaTitle": "Construction — Digital Agency Morocco",
+      "metaDescription": "Communication and digital for construction companies.",
+      "overview": {
+        "what": "Communication and digital for construction companies.",
+        "who": "Leaders and marketing managers in the construction sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "architecture": {
+      "metaTitle": "Architecture — Digital Agency Morocco",
+      "metaDescription": "Digital portfolio and branding for architects.",
+      "overview": {
+        "what": "Digital portfolio and branding for architects.",
+        "who": "Leaders and marketing managers in the architecture sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "retail": {
+      "metaTitle": "Retail — Digital Agency Morocco",
+      "metaDescription": "E-commerce and marketing for retail businesses.",
+      "overview": {
+        "what": "E-commerce and marketing for retail businesses.",
+        "who": "Leaders and marketing managers in the retail sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "automotive": {
+      "metaTitle": "Automotive — Digital Agency Morocco",
+      "metaDescription": "Advertising and websites for dealerships.",
+      "overview": {
+        "what": "Advertising and websites for dealerships.",
+        "who": "Leaders and marketing managers in the automotive sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "law-firms": {
+      "metaTitle": "Law Firms — Digital Agency Morocco",
+      "metaDescription": "Digital visibility and credibility for lawyers.",
+      "overview": {
+        "what": "Digital visibility and credibility for lawyers.",
+        "who": "Leaders and marketing managers in the law firms sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "accounting-firms": {
+      "metaTitle": "Accounting Firms — Digital Agency Morocco",
+      "metaDescription": "Websites and SEO for accountants.",
+      "overview": {
+        "what": "Websites and SEO for accountants.",
+        "who": "Leaders and marketing managers in the accounting firms sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "ngos": {
+      "metaTitle": "NGOs — Digital Agency Morocco",
+      "metaDescription": "Communication and digital fundraising.",
+      "overview": {
+        "what": "Communication and digital fundraising.",
+        "who": "Leaders and marketing managers in the ngos sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "government": {
+      "metaTitle": "Government — Digital Agency Morocco",
+      "metaDescription": "Portals and institutional communication.",
+      "overview": {
+        "what": "Portals and institutional communication.",
+        "who": "Leaders and marketing managers in the government sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "factories": {
+      "metaTitle": "Factories — Digital Agency Morocco",
+      "metaDescription": "B2B websites and industrial automation.",
+      "overview": {
+        "what": "B2B websites and industrial automation.",
+        "who": "Leaders and marketing managers in the factories sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "e-commerce": {
+      "metaTitle": "E-commerce — Digital Agency Morocco",
+      "metaDescription": "Online stores and acquisition for e-merchants.",
+      "overview": {
+        "what": "Online stores and acquisition for e-merchants.",
+        "who": "Leaders and marketing managers in the e-commerce sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "startups": {
+      "metaTitle": "Startups — Digital Agency Morocco",
+      "metaDescription": "MVP, branding and growth for young companies.",
+      "overview": {
+        "what": "MVP, branding and growth for young companies.",
+        "who": "Leaders and marketing managers in the startups sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    },
+    "smes": {
+      "metaTitle": "SMEs — Digital Agency Morocco",
+      "metaDescription": "Accessible digital transformation for Moroccan SMEs.",
+      "overview": {
+        "what": "Accessible digital transformation for Moroccan SMEs.",
+        "who": "Leaders and marketing managers in the smes sector.",
+        "benefits": [
+          "Increased digital visibility",
+          "Qualified lead generation",
+          "Premium brand image",
+          "Process automation"
+        ],
+        "topics": [
+          "Digital marketing",
+          "Web development",
+          "Business software",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "360° multi-sector agency",
+          "Morocco + international expertise",
+          "Measurable results",
+          "Free audit within 24h"
+        ]
+      },
+      "challenges": [
+        "Growing digital competition",
+        "Difficulty generating qualified leads",
+        "Undifferentiated brand image",
+        "Time-consuming manual processes"
+      ],
+      "solutions": [
+        "Data-driven marketing strategy",
+        "Premium websites and landing pages",
+        "CRM and workflow automation",
+        "Professional creative production"
+      ],
+      "faqs": [
+        {
+          "question": "Why choose Mohtaoua?",
+          "answer": "Mohtaoua is a premium 360° digital agency in Morocco, serving businesses across all industries."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Marketing, web development, software, mobile, design, photo/video and events."
+        }
+      ]
+    }
+  }
+}

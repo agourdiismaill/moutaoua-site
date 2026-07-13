@@ -14,7 +14,7 @@ export const siteConfig = {
   ice: "",
   tradeRegister: "",
   tagline:
-    "Agence marketing pour centres de formation au Maroc — Meta Ads, Google Ads, landing pages.",
+    "Agence digitale premium 360° au Maroc — marketing, technologie, design, IA et automatisation.",
   social: {
     linkedin: "https://www.linkedin.com/company/mohtaoua",
     instagram: "https://www.instagram.com/mohtaoua",
@@ -26,10 +26,10 @@ export const siteConfig = {
 export const mainNav = [
   { key: "home", href: "/" },
   { key: "services", href: "/services" },
-  { key: "results", href: "/results" },
+  { key: "industries", href: "/industries" },
+  { key: "portfolio", href: "/portfolio" },
   { key: "caseStudies", href: "/case-studies" },
-  { key: "videos", href: "/videos" },
-  { key: "blog", href: "/blog" },
+  { key: "insights", href: "/blog" },
   { key: "pricing", href: "/pricing" },
   { key: "contact", href: "/contact" },
 ] as const;
@@ -41,8 +41,8 @@ export const statMeta: Pick<
   Stat,
   "id" | "value" | "suffix" | "prefix" | "icon" | "decimals"
 >[] = [
-  { id: "impressions", value: 12, suffix: "M+", icon: "Eye" },
-  { id: "leads", value: 35, suffix: "K+", icon: "UserPlus" },
-  { id: "roas", value: 400, suffix: "%", icon: "TrendingUp" },
-  { id: "campaigns", value: 150, suffix: "+", icon: "Megaphone" },
+  { id: "impressions", value: 200, suffix: "+", icon: "Eye" },
+  { id: "leads", value: 150, suffix: "+", icon: "UserPlus" },
+  { id: "roas", value: 15, suffix: "+", icon: "TrendingUp" },
+  { id: "campaigns", value: 98, suffix: "%", icon: "Megaphone" },
 ];

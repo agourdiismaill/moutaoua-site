@@ -11,6 +11,7 @@ export type ContentLabelSources = {
   guides: TranslationFn;
   caseStudies: TranslationFn;
   compare: TranslationFn;
+  industries: TranslationFn;
   internalLinking: TranslationFn;
   seo: TranslationFn;
   anchors: Record<string, string[]>;
@@ -28,6 +29,8 @@ function getRawTitle(node: ContentNode, src: ContentLabelSources): string {
       return src.caseStudies(`items.${node.slug}.title`);
     case "comparison":
       return src.compare(`items.${node.slug}.title`);
+    case "industry":
+      return src.industries(`items.${node.slug}.title`);
     case "resource":
       return src.internalLinking(`resources.${node.slug}.title`);
     default:
@@ -47,6 +50,8 @@ function getRawDescription(node: ContentNode, src: ContentLabelSources): string 
       return src.caseStudies(`items.${node.slug}.description`);
     case "comparison":
       return src.compare(`items.${node.slug}.description`);
+    case "industry":
+      return src.industries(`items.${node.slug}.description`);
     case "resource":
       return src.internalLinking(`resources.${node.slug}.description`);
     default:
@@ -87,6 +92,7 @@ export function sectionTitle(type: ContentType, src: ContentLabelSources): strin
     guide: "relatedGuides",
     "case-study": "relatedCaseStudies",
     comparison: "relatedComparisons",
+    industry: "relatedIndustries",
     resource: "relatedResources",
   };
   return src.internalLinking(`sections.${keyMap[type]}`);

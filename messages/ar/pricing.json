@@ -3,7 +3,7 @@
     "start": {
       "name": "باقة Start",
       "packLabel": "Start",
-      "description": "الأساسيات لإطلاق حضوركم الرقمي وحملاتكم الأولى.",
+      "description": "الأساسيات لإطلاق حضوركم الرقمي: سوشيال وإبداع وحملات ومتابعة شهرية.",
       "period": "/ شهر",
       "cta": "اختيار Start",
       "features": [
@@ -18,7 +18,7 @@
     "performance": {
       "name": "باقة Performance",
       "packLabel": "Performance",
-      "description": "كل ما في Start، معزّز لتسريع نتائجكم.",
+      "description": "تسريع النتائج: محتوى أكثر وصفحات هبوط وCRO وتحسين متعدد القنوات.",
       "period": "/ شهر",
       "cta": "اختيار Performance",
       "badge": "كل ما في Start +",
@@ -34,7 +34,7 @@
     "premium": {
       "name": "باقة Premium",
       "packLabel": "Premium",
-      "description": "أكمل باقة لنمو رقمي بلا حدود.",
+      "description": "مرافقة 360°: تسويق وأتمتة وCRM واستراتيجية ودعم أولوية.",
       "period": "/ شهر",
       "cta": "اختيار Premium",
       "badge": "أكمل باقة لدينا.",

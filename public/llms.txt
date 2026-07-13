@@ -1,50 +1,119 @@
 # Mohtaoua
 
-> Agence marketing digital spécialisée dans l'acquisition de leads pour centres de formation au Maroc.
-> Services : Meta Ads, Google Ads, landing pages, marketing automation, CRM, réseaux sociaux.
+> Agence digitale premium 360° au Maroc — marketing, web, logiciels, mobile, design, photo/vidéo, événements et IA.
+> Nous accompagnons PME, startups et grands comptes dans tous les secteurs : e-commerce, santé, immobilier, hôtellerie, éducation, retail, B2B et plus.
 
 Site officiel : https://mohtaoua.ma
 Langues : français (fr), anglais (en), arabe (ar)
-Contact : contact@mohtaoua.ma | +212 642-830060
+Contact : contact@mohtaoua.ma | +212 642-830060 | WhatsApp : +212 642-830060
 Localisation : Casablanca, Maroc
 
 ## Pages principales
 
 - Accueil : https://mohtaoua.ma/fr
-- Services : https://mohtaoua.ma/fr/services
-- Tarifs : https://mohtaoua.ma/fr/pricing
-- Résultats : https://mohtaoua.ma/fr/results
+- À propos : https://mohtaoua.ma/fr/about
+- Services (53 expertises) : https://mohtaoua.ma/fr/services
+- Solutions (produits propriétaires) : https://mohtaoua.ma/fr/solutions
+- Industries : https://mohtaoua.ma/fr/industries
+- Portfolio : https://mohtaoua.ma/fr/portfolio
 - Études de cas : https://mohtaoua.ma/fr/case-studies
-- Blog : https://mohtaoua.ma/fr/blog
+- Insights (blog) : https://mohtaoua.ma/fr/blog
+- Tarifs : https://mohtaoua.ma/fr/pricing
+- Résultats publicitaires : https://mohtaoua.ma/fr/results
+- Vidéothèque : https://mohtaoua.ma/fr/videos
 - Contact / audit gratuit : https://mohtaoua.ma/fr/contact
 
-## Services
+## Industries (pages dédiées)
+
+- Éducation : https://mohtaoua.ma/fr/industries/education
+- Santé : https://mohtaoua.ma/fr/industries/healthcare
+- E-commerce : https://mohtaoua.ma/fr/industries/e-commerce
+- Immobilier : https://mohtaoua.ma/fr/industries/real-estate
+- Restauration : https://mohtaoua.ma/fr/industries/restaurants
+- Hôtellerie : https://mohtaoua.ma/fr/industries/hotels
+- Retail : https://mohtaoua.ma/fr/industries/retail
+- Startups : https://mohtaoua.ma/fr/industries/startups
+
+## Solutions propriétaires (produits Mohtaoua)
+
+- Hub Solutions : https://mohtaoua.ma/fr/solutions
+- e-NFC (cartes digitales & NFC) : https://mohtaoua.ma/fr/solutions/e-nfc
+- Archidoc (GED & archivage) : https://mohtaoua.ma/fr/solutions/archidoc
+- ERP Restaurant (POS & stock) : https://mohtaoua.ma/fr/solutions/erp-restaurant
+- CRM Mohtaoua : https://mohtaoua.ma/fr/solutions/crm
+- AI Agents : https://mohtaoua.ma/fr/solutions/ai-agents
+- WhatsApp Automation : https://mohtaoua.ma/fr/solutions/whatsapp-automation
+- Business Automation (n8n & APIs) : https://mohtaoua.ma/fr/solutions/business-automation
+- Website Builder : https://mohtaoua.ma/fr/solutions/website-builder
+- Applications mobile : https://mohtaoua.ma/fr/solutions/mobile-applications
+- Business Intelligence : https://mohtaoua.ma/fr/solutions/business-intelligence
+
+## Services phares (marketing)
 
 - Meta Ads : https://mohtaoua.ma/fr/services/meta-ads
 - Google Ads : https://mohtaoua.ma/fr/services/google-ads
-- Marketing Automation : https://mohtaoua.ma/fr/services/marketing-automation
+- TikTok Ads : https://mohtaoua.ma/fr/services/tiktok-ads
+- SEO : https://mohtaoua.ma/fr/services/seo
+- GEO (moteurs IA) : https://mohtaoua.ma/fr/services/geo
 - Landing Pages & CRO : https://mohtaoua.ma/fr/services/landing-pages
-- Réseaux sociaux : https://mohtaoua.ma/fr/services/social-media
+- Marketing Automation : https://mohtaoua.ma/fr/services/marketing-automation
 - CRM & Data : https://mohtaoua.ma/fr/services/crm-data
+- Réseaux sociaux : https://mohtaoua.ma/fr/services/social-media
 
-## Guides
+## Services phares (web & tech)
 
-- Meta Ads pour centres de formation : https://mohtaoua.ma/fr/guides/meta-ads-centre-formation
-- Google Ads pour centres de formation : https://mohtaoua.ma/fr/guides/google-ads-centre-formation
+- Sites corporate : https://mohtaoua.ma/fr/services/corporate-websites
+- E-commerce : https://mohtaoua.ma/fr/services/e-commerce
+- Logiciels sur mesure : https://mohtaoua.ma/fr/services/custom-software
+- Agents IA : https://mohtaoua.ma/fr/services/ai-agents
+- Applications mobile : https://mohtaoua.ma/fr/services/flutter
+
+## Services phares (créatif & événements)
+
+- Identité de marque : https://mohtaoua.ma/fr/services/brand-identity
+- Production vidéo : https://mohtaoua.ma/fr/services/video-production
+- Reels : https://mohtaoua.ma/fr/services/reels
+- Événements corporate : https://mohtaoua.ma/fr/services/corporate-events
+
+## Guides pratiques
+
+- Meta Ads pour entreprises : https://mohtaoua.ma/fr/guides/meta-ads-centre-formation
+- Google Ads pour entreprises : https://mohtaoua.ma/fr/guides/google-ads-centre-formation
+- SEO entreprise Maroc : https://mohtaoua.ma/fr/guides/seo-entreprise-maroc
+- Choisir une agence digitale : https://mohtaoua.ma/fr/guides/agence-digitale-maroc-guide
 
 ## Comparatif
 
 - Meta Ads vs Google Ads : https://mohtaoua.ma/fr/compare/meta-ads-vs-google-ads
 
-## Articles récents (blog)
+## Études de cas
 
-- Générer des leads formation au Maroc : https://mohtaoua.ma/fr/blog/generer-leads-centre-formation-maroc
+- Acquisition Meta Ads (éducation) : https://mohtaoua.ma/fr/case-studies/skola-formation
+- Google Ads ROAS (éducation) : https://mohtaoua.ma/fr/case-studies/campusup-search
+- Automation CRM (éducation) : https://mohtaoua.ma/fr/case-studies/edunext-automation
+- Branding & social (éducation) : https://mohtaoua.ma/fr/case-studies/millennia-group-prive
+- Site corporate B2B : https://mohtaoua.ma/fr/case-studies/nova-industrie-web
+- E-commerce mode : https://mohtaoua.ma/fr/case-studies/atlas-ecommerce-growth
+- Clinique privée : https://mohtaoua.ma/fr/case-studies/medina-clinic-digital
+- Hôtel boutique : https://mohtaoua.ma/fr/case-studies/riad-hotel-digital
+
+## Articles Insights
+
+- Générer des leads qualifiés au Maroc : https://mohtaoua.ma/fr/blog/generer-leads-centre-formation-maroc
 - Meta Ads vs Google Ads : https://mohtaoua.ma/fr/blog/meta-ads-vs-google-ads-formation
-- Checklist landing page formation : https://mohtaoua.ma/fr/blog/checklist-landing-page-formation
-- WhatsApp : convertir les leads en inscriptions : https://mohtaoua.ma/fr/blog/whatsapp-convertir-leads-formation-maroc
-- Budget marketing centre de formation : https://mohtaoua.ma/fr/blog/budget-marketing-centre-formation-maroc
-- Campagne rentrée inscriptions formation : https://mohtaoua.ma/fr/blog/campagne-inscriptions-rentree-formation-maroc
-- Retargeting Meta & Google formation : https://mohtaoua.ma/fr/blog/retargeting-leads-formation-maroc
+- Checklist landing page : https://mohtaoua.ma/fr/blog/checklist-landing-page-formation
+- WhatsApp : convertir les leads : https://mohtaoua.ma/fr/blog/whatsapp-convertir-leads-formation-maroc
+- Budget marketing digital : https://mohtaoua.ma/fr/blog/budget-marketing-centre-formation-maroc
+- Campagne d'acquisition digitale : https://mohtaoua.ma/fr/blog/campagne-inscriptions-rentree-formation-maroc
+- Retargeting Meta & Google : https://mohtaoua.ma/fr/blog/retargeting-leads-formation-maroc
+- Transformation digitale PME : https://mohtaoua.ma/fr/blog/transformation-digitale-pme-maroc
+
+## Offres tarifaires
+
+- Pack Start (marketing) : https://mohtaoua.ma/fr/pricing
+- Pack Performance : https://mohtaoua.ma/fr/pricing
+- Pack Premium : https://mohtaoua.ma/fr/pricing
+- Projets web, logiciels et design : sur devis après audit gratuit
 
 ## Sitemap
 

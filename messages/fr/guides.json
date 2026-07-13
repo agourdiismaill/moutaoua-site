@@ -1,17 +1,17 @@
 {
-  "metaTitle": "Guides Marketing Formation",
-  "metaDescription": "Guides complets Meta Ads et Google Ads pour centres de formation au Maroc.",
+  "metaTitle": "Guides Marketing & Digital — Maroc",
+  "metaDescription": "Guides pratiques Meta Ads, Google Ads, SEO et transformation digitale pour entreprises au Maroc.",
   "eyebrow": "Guides",
   "title": "Guides <highlight>pratiques</highlight>",
-  "description": "Des guides détaillés pour maîtriser l'acquisition digitale de votre centre de formation.",
+  "description": "Guides détaillés pour maîtriser le marketing, le web et la croissance digitale.",
   "readGuide": "Lire le guide",
   "items": {
     "meta-ads-centre-formation": {
-      "title": "Guide complet Meta Ads pour centres de formation",
-      "description": "De la stratégie au scaling : audiences, créatives, budget et optimisation pour le secteur formation.",
+      "title": "Guide complet Meta Ads pour entreprises au Maroc",
+      "description": "De la stratégie au scaling : audiences, créatives, budget et optimisation pour tous secteurs.",
       "steps": [
-        "Définir l'offre et le persona apprenant",
-        "Structurer le compte publicitaire par formation",
+        "Définir l'offre et le persona acheteur",
+        "Structurer le compte publicitaire par offre",
         "Créer des audiences froides et chaudes",
         "Produire des créatives vidéo et statiques",
         "Installer le tracking conversions (Pixel + CAPI)",
@@ -23,29 +23,95 @@
         "Arrêter les campagnes avant 14 jours d'apprentissage"
       ],
       "faqs": [
-        { "question": "Quel budget Meta pour débuter ?", "answer": "8 000 MAD/mois minimum pour tester une offre sur une zone géographique." },
-        { "question": "Combien de créatives tester ?", "answer": "Au moins 3-5 variantes par offre en A/B continu." }
+        {
+          "question": "Quel budget Meta pour débuter ?",
+          "answer": "8 000 MAD/mois minimum pour tester une offre sur une zone géographique."
+        },
+        {
+          "question": "Combien de créatives tester ?",
+          "answer": "Au moins 3-5 variantes par offre en A/B continu."
+        }
       ]
     },
     "google-ads-centre-formation": {
-      "title": "Guide Google Ads pour centres de formation",
+      "title": "Guide Google Ads pour entreprises au Maroc",
       "description": "Search, Performance Max et landing pages pour capter les recherches à forte intention.",
       "steps": [
         "Recherche de mots-clés à intention commerciale",
-        "Créer une campagne Search par formation",
+        "Créer une campagne Search par offre",
         "Rédiger des annonces avec extensions",
         "Déployer des landing pages dédiées",
         "Configurer le suivi conversions",
         "Optimiser enchères et mots-clés négatifs"
       ],
       "mistakes": [
-        "Mots-clés trop génériques (« formation » seul)",
+        "Mots-clés trop génériques",
         "Pas de page mobile optimisée",
         "Ignorer les termes de recherche réels"
       ],
       "faqs": [
-        { "question": "Search ou PMax en premier ?", "answer": "Search pour le contrôle, PMax pour scaler une fois les conversions trackées." },
-        { "question": "Quel Quality Score viser ?", "answer": "7+ sur vos mots-clés principaux grâce à la pertinence annonce-page." }
+        {
+          "question": "Search ou PMax en premier ?",
+          "answer": "Search pour le contrôle, PMax pour scaler une fois les conversions trackées."
+        },
+        {
+          "question": "Quel Quality Score viser ?",
+          "answer": "7+ sur vos mots-clés principaux grâce à la pertinence annonce-page."
+        }
+      ]
+    },
+    "seo-entreprise-maroc": {
+      "title": "Guide SEO pour entreprises au Maroc",
+      "description": "Audit technique, contenu, netlinking et local SEO pour apparaître sur Google.",
+      "steps": [
+        "Auditer la santé technique du site (vitesse, indexation, mobile)",
+        "Identifier les mots-clés à intention commerciale",
+        "Créer des pages optimisées par service et ville",
+        "Publier du contenu expert régulièrement",
+        "Obtenir des backlinks locaux de qualité",
+        "Suivre positions et conversions organiques"
+      ],
+      "mistakes": [
+        "Dupliquer du contenu sans valeur",
+        "Négliger le SEO local (Google Business)",
+        "Ignorer la vitesse mobile"
+      ],
+      "faqs": [
+        {
+          "question": "Combien de temps pour des résultats SEO ?",
+          "answer": "3 à 6 mois pour des gains significatifs selon la concurrence."
+        },
+        {
+          "question": "SEO ou Google Ads ?",
+          "answer": "Les deux : Ads pour l'immédiat, SEO pour le long terme."
+        }
+      ]
+    },
+    "agence-digitale-maroc-guide": {
+      "title": "Comment choisir une agence digitale au Maroc",
+      "description": "Critères, questions à poser et red flags pour sélectionner le bon partenaire 360°.",
+      "steps": [
+        "Définir vos objectifs business (leads, ventes, notoriété)",
+        "Vérifier l'expertise multi-canal (marketing + web + tech)",
+        "Demander des études de cas dans votre secteur",
+        "Clarifier le modèle de pricing et les KPIs",
+        "Tester avec un audit ou un projet pilote",
+        "Évaluer la réactivité et la transparence reporting"
+      ],
+      "mistakes": [
+        "Choisir uniquement sur le prix",
+        "Agence mono-compétence pour un besoin 360°",
+        "Absence de reporting et de KPIs définis"
+      ],
+      "faqs": [
+        {
+          "question": "Agence ou freelance ?",
+          "answer": "Une agence 360° couvre plus de compétences avec une équipe coordonnée."
+        },
+        {
+          "question": "Quel budget minimum ?",
+          "answer": "À partir de 8 000 MAD/mois pour du marketing actif, hors média."
+        }
       ]
     }
   }

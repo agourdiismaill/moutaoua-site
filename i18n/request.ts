@@ -24,6 +24,9 @@ const modules = [
   "guides",
   "compare",
   "internalLinking",
+  "pillars",
+  "industries",
+  "industryPages",
 ] as const;
 
 async function loadMessages(locale: string) {

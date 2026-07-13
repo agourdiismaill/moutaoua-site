@@ -3,7 +3,7 @@
     "meta-ads": {
       "platform": "Meta Ads",
       "title": "Meta Ads — Facebook & Instagram",
-      "description": "Campagnes d'acquisition à grande échelle avec un coût par lead maîtrisé pour les centres de formation.",
+      "description": "Campagnes d'acquisition à grande échelle avec un coût par lead maîtrisé pour les entreprises au Maroc.",
       "metrics": [
         {
           "label": "Leads / mois"
@@ -111,10 +111,10 @@
     "crm": {
       "platform": "CRM",
       "title": "CRM — Suivi & Conversion",
-      "description": "Pipeline structuré, scoring automatique et relances pour transformer les leads en inscriptions.",
+      "description": "Pipeline structuré, scoring automatique et relances pour transformer les leads en conversions.",
       "metrics": [
         {
-          "label": "Taux d'inscription"
+          "label": "Taux d'conversion"
         },
         {
           "label": "Temps de réponse"

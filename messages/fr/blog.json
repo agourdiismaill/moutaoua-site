@@ -1,20 +1,30 @@
 {
-  "metaTitle": "Blog Marketing Formation",
-  "metaDescription": "Guides, stratégies et bonnes pratiques pour générer des leads et remplir vos sessions de formation au Maroc.",
-  "eyebrow": "Blog",
-  "title": "Ressources <highlight>marketing</highlight> pour centres de formation",
-  "description": "Articles pratiques sur l'acquisition, la publicité digitale et la conversion pour le secteur de la formation.",
+  "metaTitle": "Insights — Marketing, Tech & IA",
+  "metaDescription": "Centre de connaissances Mohtaoua : marketing, développement, IA, automatisation, branding et transformation digitale.",
+  "eyebrow": "Insights",
+  "title": "Centre de connaissances <highlight>digitales</highlight>",
+  "description": "Marketing, développement, IA, automatisation, branding et transformation digitale.",
   "readMore": "Lire l'article",
   "allCategories": "Toutes",
   "categories": {
+    "marketing": "Marketing",
+    "development": "Développement",
+    "ai": "IA",
+    "automation": "Automatisation",
+    "business": "Business",
+    "branding": "Branding",
+    "design": "Design",
+    "seo": "SEO",
+    "geo": "GEO",
+    "case-studies": "Études de cas",
     "acquisition": "Acquisition",
     "publicite": "Publicité",
     "conversion": "Conversion"
   },
   "author": {
     "name": "Équipe Mohtaoua",
-    "role": "Agence marketing formation",
-    "bio": "Spécialistes de l'acquisition digitale pour centres de formation au Maroc."
+    "role": "Agence digitale premium",
+    "bio": "Experts en marketing, technologie, design et automatisation pour entreprises de tous secteurs au Maroc."
   },
   "labels": {
     "relatedPosts": "Articles associés",
@@ -23,12 +33,12 @@
     "updated": "Mis à jour le",
     "category": "Catégorie",
     "share": "Partager",
-    "backToBlog": "Retour au blog"
+    "backToBlog": "Retour aux Insights"
   },
   "posts": {
     "generer-leads-centre-formation-maroc": {
-      "title": "Comment générer des leads pour un centre de formation au Maroc",
-      "excerpt": "Stratégie complète pour attirer des prospects qualifiés : canaux, budget, tunnel et KPIs à suivre.",
+      "title": "Comment générer des leads qualifiés pour votre entreprise au Maroc",
+      "excerpt": "Stratégie complète d'acquisition : Meta Ads, Google Ads, landing pages et CRM pour PME, startups et grands comptes.",
       "category": "acquisition",
       "cover": "/logo-full.svg",
       "sections": [
@@ -36,15 +46,15 @@
           "id": "contexte",
           "heading": "Pourquoi la génération de leads est critique",
           "paragraphs": [
-            "Les centres de formation au Maroc font face à une concurrence accrue et à des cycles d'inscription plus courts. Sans pipeline de prospects qualifiés, les sessions démarrent sous-capacité.",
-            "La génération de leads n'est pas une option : c'est le moteur de croissance le plus prévisible pour un organisme de formation."
+            "Les entreprises au Maroc font face à une concurrence accrue et à des cycles de vente plus courts. Sans pipeline de prospects qualifiés, les objectifs commerciaux sont manqués.",
+            "La génération de leads n'est pas une option : c'est le moteur de croissance le plus prévisible pour un entreprise."
           ]
         },
         {
           "id": "canaux",
           "heading": "Les canaux qui fonctionnent en 2026",
           "paragraphs": [
-            "Meta Ads reste le canal le plus rapide pour créer de la demande. Google Ads capte les recherches à forte intention (« formation X Casablanca »). Le SEO et le contenu nourrissent la crédibilité long terme."
+            "Meta Ads reste le canal le plus rapide pour créer de la demande. Google Ads capte les recherches à forte intention (« votre offre + ville »). Le SEO et le contenu nourrissent la crédibilité long terme."
           ],
           "bullets": [
             "Meta Ads : volume et rapidité",
@@ -57,66 +67,86 @@
           "id": "budget",
           "heading": "Quel budget prévoir ?",
           "paragraphs": [
-            "Pour un centre en phase de lancement digital, comptez 8 000 à 25 000 MAD/mois de budget média, hors honoraires agence. Le budget optimal dépend du prix de la formation et du coût d'acquisition cible."
+            "Pour un centre en phase de lancement digital, comptez 8 000 à 25 000 MAD/mois de budget média, hors honoraires agence. Le budget optimal dépend du prix de l'offre et du coût d'acquisition cible."
           ]
         },
         {
           "id": "kpis",
           "heading": "KPIs à suivre",
           "paragraphs": [
-            "Ne vous arrêtez pas au nombre de leads. Suivez le coût par lead (CPL), le taux de contact, le taux de RDV et surtout le coût d'acquisition client (CAC) par formation."
+            "Ne vous arrêtez pas au nombre de leads. Suivez le coût par lead (CPL), le taux de contact, le taux de RDV et surtout le coût d'acquisition client (CAC) par offre."
           ]
         }
       ],
       "faqs": [
         {
           "question": "Combien de leads faut-il pour remplir une session ?",
-          "answer": "En général 3 à 5 leads qualifiés par inscription selon votre taux de conversion. Pour 20 places, visez 60 à 100 leads qualifiés sur le cycle."
+          "answer": "En général 3 à 5 leads qualifiés par conversion selon votre taux de conversion. Pour 20 places, visez 60 à 100 leads qualifiés sur le cycle."
         },
         {
           "question": "Faut-il être sur tous les canaux ?",
           "answer": "Non. Commencez par 1-2 canaux maîtrisés (souvent Meta + Google) avant d'élargir."
         }
-      ]
+      ],
+      "overview": {
+        "what": "Guide complet pour générer des leads qualifiés via le digital au Maroc, quel que soit votre secteur.",
+        "who": "Dirigeants, directeurs marketing et fondateurs de PME, startups et entreprises en croissance.",
+        "benefits": [
+          "Pipeline de prospects prévisible",
+          "Multi-canal Meta + Google + SEO",
+          "KPIs business clairs"
+        ],
+        "topics": [
+          "Meta Ads",
+          "Google Ads",
+          "Landing pages",
+          "CRM"
+        ],
+        "takeaways": [
+          "La génération de leads est le moteur n°1 de croissance",
+          "Commencez par 1-2 canaux maîtrisés",
+          "Mesurez le CAC, pas seulement le CPL"
+        ]
+      }
     },
     "meta-ads-vs-google-ads-formation": {
-      "title": "Meta Ads vs Google Ads : quel canal pour votre centre de formation ?",
-      "excerpt": "Comparaison objective des deux leviers publicitaires pour l'éducation au Maroc.",
-      "category": "publicite",
+      "title": "Meta Ads vs Google Ads : quel canal pour votre entreprise au Maroc ?",
+      "excerpt": "Comparaison objective pour e-commerce, services, santé, immobilier et B2B.",
+      "category": "marketing",
       "cover": "/logo-full.svg",
       "sections": [
         {
           "id": "meta",
           "heading": "Meta Ads : créer la demande",
           "paragraphs": [
-            "Meta (Facebook & Instagram) excelle pour toucher des audiences qui ne cherchent pas encore activement une formation. Idéal pour les lancements, promotions et notoriété."
+            "Meta (Facebook & Instagram) excelle pour toucher des audiences qui ne cherchent pas encore activement une offre. Idéal pour les lancements, promotions et notoriété."
           ]
         },
         {
           "id": "google",
           "heading": "Google Ads : capter la demande",
           "paragraphs": [
-            "Google intercepte les recherches à intention commerciale. Parfait pour les formations recherchées (langues, IT, santé) avec un ROAS souvent supérieur à court terme."
+            "Google intercepte les recherches à intention commerciale. Parfait pour les Offres recherchées (langues, IT, santé) avec un ROAS souvent supérieur à court terme."
           ]
         },
         {
           "id": "verdict",
           "heading": "Notre recommandation",
           "paragraphs": [
-            "Pour la plupart des centres, la combinaison Meta (volume) + Google (intention) sur 3 mois offre le meilleur équilibre coût/qualité."
+            "Pour la plupart des entreprises, la combinaison Meta (volume) + Google (intention) sur 3 mois offre le meilleur équilibre coût/qualité."
           ]
         }
       ],
       "faqs": [
         {
           "question": "Quel canal a le CPL le plus bas ?",
-          "answer": "Variable selon la formation. Meta est souvent moins cher en volume ; Google peut être plus qualifié."
+          "answer": "Variable selon l'offre. Meta est souvent moins cher en volume ; Google peut être plus qualifié."
         }
       ]
     },
     "checklist-landing-page-formation": {
-      "title": "Checklist : landing page de formation qui convertit",
-      "excerpt": "10 éléments indispensables pour transformer le trafic publicitaire en demandes d'inscription.",
+      "title": "Checklist : landing page qui convertit (2026)",
+      "excerpt": "10 éléments indispensables pour transformer le trafic publicitaire en leads et ventes.",
       "category": "conversion",
       "cover": "/logo-full.svg",
       "sections": [
@@ -144,35 +174,38 @@
       ],
       "faqs": [
         {
-          "question": "Faut-il une page par formation ?",
+          "question": "Faut-il une page par offre ?",
           "answer": "Oui, pour aligner le message publicitaire et maximiser le taux de conversion."
         }
       ]
     },
     "whatsapp-convertir-leads-formation-maroc": {
-      "title": "WhatsApp : convertir vos leads formation en inscriptions au Maroc",
-      "excerpt": "Scripts, délais de réponse, automation et CRM : la méthode complète pour transformer vos prospects WhatsApp en inscrits, sans perdre de leads.",
-      "category": "conversion",
+      "title": "WhatsApp : convertir vos leads en clients au Maroc",
+      "excerpt": "Scripts, automation et CRM pour transformer vos prospects WhatsApp en ventes.",
+      "category": "automation",
       "cover": "/logo-full.svg",
-      "relatedServices": ["marketing-automation", "crm-data"],
+      "relatedServices": [
+        "marketing-automation",
+        "crm-data"
+      ],
       "overview": {
-        "what": "Guide expert sur l'utilisation de WhatsApp pour qualifier, relancer et convertir les leads générés par vos campagnes Meta, Google ou votre site.",
-        "who": "Directeurs de centres de formation, responsables commerciaux et équipes admission qui reçoivent des demandes via WhatsApp mais peinent à les transformer en inscriptions.",
+        "what": "Méthode complète pour convertir les leads WhatsApp en clients, tous secteurs confondus.",
+        "who": "Commerciaux, directeurs marketing et dirigeants qui reçoivent des leads via WhatsApp.",
         "benefits": [
-          "Réduire le temps de première réponse sous 5 minutes",
-          "Structurer un tunnel WhatsApp → RDV → inscription",
-          "Automatiser les relances sans perdre le côté humain"
+          "Réponse sous 5 minutes",
+          "Tunnel structuré",
+          "Automation + CRM"
         ],
         "topics": [
-          "Scripts de qualification",
-          "WhatsApp Business API",
-          "Intégration CRM",
-          "KPIs conversion leads"
+          "WhatsApp Business",
+          "Scripts",
+          "CRM",
+          "Automation"
         ],
         "takeaways": [
-          "Au Maroc, 70 %+ des leads formation préfèrent WhatsApp à l'email",
-          "La vitesse de réponse est le facteur n°1 de conversion",
-          "Sans CRM, vous perdez en moyenne 40 % des leads en relance"
+          "WhatsApp est le canal n°1 au Maroc",
+          "La vitesse de réponse détermine la conversion",
+          "Le CRM est indispensable"
         ]
       },
       "sections": [
@@ -180,23 +213,23 @@
           "id": "introduction",
           "heading": "Introduction : le chaînon manquant de votre acquisition",
           "paragraphs": [
-            "Vous investissez en Meta Ads, Google Ads ou SEO. Votre landing page génère des leads. Puis… le silence. Les prospects ne répondent plus, votre équipe relance trop tard, et les inscriptions n'arrivent pas.",
-            "Au Maroc, ce scénario est quasi systématique chez les centres qui traitent WhatsApp comme une « messagerie perso » plutôt qu'un canal de vente structuré. Pourtant, WhatsApp est le point de contact préféré de la majorité des futurs apprenants après une demande d'information.",
-            "Cet article détaille la méthode que nous déployons chez Mohtaoua pour nos clients formation : de la première réponse automatique à la confirmation d'inscription, en passant par la qualification et l'intégration CRM."
+            "Vous investissez en Meta Ads, Google Ads ou SEO. Votre landing page génère des leads. Puis… le silence. Les prospects ne répondent plus, votre équipe relance trop tard, et les conversions n'arrivent pas.",
+            "Au Maroc, ce scénario est quasi systématique chez les entreprises qui traitent WhatsApp comme une « messagerie perso » plutôt qu'un canal de vente structuré. Pourtant, WhatsApp est le point de contact préféré de la majorité des futurs prospects après une demande d'information.",
+            "Cet article détaille la méthode que nous déployons chez Mohtaoua pour nos clients : de la première réponse automatique à la confirmation d'conversion, en passant par la qualification et l'intégration CRM."
           ]
         },
         {
           "id": "probleme",
           "heading": "Le problème : vous générez des leads que vous ne convertissez pas",
           "paragraphs": [
-            "La plupart des centres mesurent le succès au CPL (coût par lead) et s'arrêtent là. Or un lead à 15 MAD qui ne répond jamais coûte infiniment plus cher qu'un lead à 40 MAD converti en inscription.",
+            "la plupart des entreprises mesurent le succès au CPL (coût par lead) et s'arrêtent là. Or un lead à 15 MAD qui ne répond jamais coûte infiniment plus cher qu'un lead à 40 MAD converti en conversion.",
             "Les causes récurrentes : délai de réponse supérieur à 2 heures, messages génériques copiés-collés, absence de qualification (budget, disponibilité, niveau), relances oubliées dans des conversations personnelles, et aucune visibilité direction sur le pipeline."
           ],
           "bullets": [
             "Leads traités sur le WhatsApp personnel du commercial",
             "Pas de script de qualification homogène",
             "Relances manuelles oubliées après 48h",
-            "Aucun lien entre campagne publicitaire et inscription finale"
+            "Aucun lien entre campagne publicitaire et conversion finale"
           ]
         },
         {
@@ -210,10 +243,10 @@
         },
         {
           "id": "maroc",
-          "heading": "Pourquoi WhatsApp domine au Maroc pour la formation",
+          "heading": "Pourquoi WhatsApp domine au Maroc pour votre activité",
           "paragraphs": [
             "Au Maroc, WhatsApp dépasse largement l'email et souvent le téléphone pour la première interaction après une publicité. Les prospects veulent une réponse rapide, en darija, français ou arabe, avec la possibilité d'envoyer des documents (CV, diplômes) en un clic.",
-            "Les centres qui performent le mieux ont compris que WhatsApp n'est pas un canal « en plus » : c'est souvent le canal principal de closing, surtout pour les formations professionnelles, langues, et bootcamps dont le ticket moyen justifie un échange humain."
+            "Les entreprises qui performent le mieux ont compris que WhatsApp n'est pas un canal « en plus » : c'est souvent le canal principal de closing, surtout pour les offres à ticket élevé, langues, et bootcamps dont le ticket moyen justifie un échange humain."
           ]
         },
         {
@@ -225,7 +258,7 @@
           "bullets": [
             "Étape 1 — Centraliser : un numéro WhatsApp Business dédié (pas le perso du gérant)",
             "Étape 2 — Accueil auto : message de bienvenue en moins de 60 secondes avec promesse de rappel",
-            "Étape 3 — Qualification : 3 questions (formation visée, ville, échéance d'inscription)",
+            "Étape 3 — Qualification : 3 questions (offre visée, ville, échéance d'conversion)",
             "Étape 4 — Prise de RDV : lien Calendly ou créneaux proposés directement dans le chat",
             "Étape 5 — Relances J+1, J+3, J+7 si pas de réponse (messages courts, pas spam)",
             "Étape 6 — Clôture CRM : statut « inscrit », « perdu », « à recontacter » avec motif"
@@ -244,7 +277,7 @@
           "id": "automation",
           "heading": "Automation : ce qu'il faut automatiser (et ce qu'il faut garder humain)",
           "paragraphs": [
-            "Automatisez l'accueil, les relances standards, les rappels de RDV et les messages post-visite. Gardez humain la négociation, les objections prix, et la conclusion d'inscription.",
+            "Automatisez l'accueil, les relances standards, les rappels de RDV et les messages post-visite. Gardez humain la négociation, les objections prix, et la conclusion d'conversion.",
             "Des outils comme Make, Zapier, HubSpot ou des solutions locales permettent de connecter votre formulaire Meta/Google → CRM → WhatsApp. L'objectif : zéro lead sans première réponse, même hors heures ouvrées (message auto + promesse de rappel le lendemain 9h)."
           ]
         },
@@ -252,7 +285,7 @@
           "id": "crm",
           "heading": "Intégrer WhatsApp à votre CRM",
           "paragraphs": [
-            "Sans CRM, impossible de savoir quel lead vient de quelle campagne, quel commercial a relancé, ou quel est votre taux de conversion réel lead → inscription. C'est le point aveugle de la plupart des centres au Maroc.",
+            "Sans CRM, impossible de savoir quel lead vient de quelle campagne, quel commercial a relancé, ou quel est votre taux de conversion réel lead → conversion. C'est le point aveugle de la plupart des entreprises au Maroc.",
             "Un CRM bien configuré affiche : source (Meta, Google, organique), date du lead, historique WhatsApp, statut (nouveau, contacté, RDV, inscrit, perdu), et responsable. Vous pouvez alors calculer un CAC réel par canal et optimiser vos budgets publicitaires en conséquence."
           ]
         },
@@ -268,7 +301,7 @@
             "Scripts validés mais adaptés au ton de chaque conseiller",
             "Relance systématique à J+1, J+3, J+7 puis archivage",
             "RDV confirmé par message la veille avec lien visio ou adresse",
-            "Feedback hebdomadaire direction : leads, RDV, inscriptions, CAC"
+            "Feedback hebdomadaire direction : leads, RDV, conversions, CAC"
           ]
         },
         {
@@ -296,7 +329,7 @@
             "Temps médian de première réponse",
             "Taux de contact (leads ayant répondu au moins une fois)",
             "Taux de RDV pris / leads contactés",
-            "Taux d'inscription / RDV réalisés",
+            "Taux d'conversion / RDV réalisés",
             "CAC par canal (Meta, Google, organique)",
             "Motif de perte (prix, timing, concurrence, pas de réponse)"
           ]
@@ -306,8 +339,8 @@
           "heading": "Conclusion : WhatsApp est votre salle de closing",
           "paragraphs": [
             "Générer des leads sans structurer WhatsApp, c'est comme remplir un réservoir percé. Au Maroc, la conversion se joue dans la conversation — rapidité, clarté, suivi.",
-            "Commencez par un numéro pro, un script d'accueil, trois relances automatiques et un CRM minimal. Affinez ensuite avec l'automation et la formation de vos conseillers.",
-            "Besoin d'un audit de votre tunnel actuel ? Notre équipe analyse votre flux leads → WhatsApp → inscription et vous remet un plan d'action concret sous 24h."
+            "Commencez par un numéro pro, un script d'accueil, trois relances automatiques et un CRM minimal. Affinez ensuite avec l'automation et la montée en compétence de vos conseillers.",
+            "Besoin d'un audit de votre tunnel actuel ? Notre équipe analyse votre flux leads → WhatsApp → conversion et vous remet un plan d'action concret sous 24h."
           ]
         }
       ],
@@ -333,12 +366,12 @@
           "answer": "Utilisez des formulaires Lead Ads avec champ téléphone, ou un bouton WhatsApp sur la landing. Connectez le flux à votre CRM via Zapier/Make pour centraliser les leads."
         },
         {
-          "question": "Quel taux de conversion lead → inscription est réaliste ?",
+          "question": "Quel taux de conversion lead → conversion est réaliste ?",
           "answer": "Entre 8 % et 25 % selon le prix, la saisonnalité et la qualité du suivi. Avec un tunnel WhatsApp optimisé, +5 points de conversion est un objectif atteignable en 60 jours."
         },
         {
           "question": "L'automation ne fait-elle pas « robot » ?",
-          "answer": "L'accueil et les relances peuvent être automatisés tout en restant personnalisés (prénom, formation). La phase de closing reste humaine."
+          "answer": "L'accueil et les relances peuvent être automatisés tout en restant personnalisés (prénom, offre). La phase de closing reste humaine."
         },
         {
           "question": "Mohtaoua peut-il mettre en place ce tunnel ?",
@@ -347,13 +380,17 @@
       ]
     },
     "budget-marketing-centre-formation-maroc": {
-      "title": "Quel budget marketing pour un centre de formation au Maroc ?",
-      "excerpt": "Fourchettes réalistes en MAD, répartition Meta/Google, CPL cible et méthode pour calculer votre budget acquisition sans gaspiller.",
-      "category": "acquisition",
+      "title": "Budget marketing digital : combien investir au Maroc ?",
+      "excerpt": "Fourchettes réalistes pour PME et entreprises : ads, contenu, web et outils.",
+      "category": "business",
       "cover": "/logo-full.svg",
-      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "landing-pages"
+      ],
       "overview": {
-        "what": "Guide chiffré pour définir le budget marketing d'un centre de formation au Maroc : média, production, outils et prestation agence.",
+        "what": "Guide chiffré pour définir le budget marketing d'un entreprise au Maroc : média, production, outils et prestation agence.",
         "who": "Directeurs de centres, responsables marketing ou gérants qui lancent ou optimisent leur acquisition digitale.",
         "benefits": [
           "Fourchettes budget 2026 adaptées au marché marocain",
@@ -361,14 +398,14 @@
           "Répartition optimale Meta Ads vs Google Ads"
         ],
         "topics": [
-          "Budget média formation",
+          "Budget média",
           "CPL et CAC",
           "Meta Ads vs Google Ads",
-          "Saisonnalité inscriptions"
+          "Saisonnalité conversions"
         ],
         "takeaways": [
           "Comptez 8 000 à 25 000 MAD/mois de média pour démarrer une offre",
-          "Le CPL seul ne suffit pas : suivez le coût par inscription",
+          "Le CPL seul ne suffit pas : suivez le coût par conversion",
           "70/30 Meta/Google est un bon point de départ, à ajuster par data"
         ]
       },
@@ -377,8 +414,7 @@
           "id": "introduction",
           "heading": "Introduction : pourquoi le budget marketing fait peur (à tort)",
           "paragraphs": [
-            "« Combien dois-je dépenser en publicité ? » est la première question que nous entendons lors d'un audit. Pourtant, la bonne question est : combien coûte une inscription, et combien en avez-vous besoin pour remplir vos sessions ?",
-            "Au Maroc, les centres qui sous-investissent stagnent ; ceux qui sur-investissent sans suivi brûlent leur trésorerie. Cet article vous donne des fourchettes concrètes et une méthode de calcul reproductible."
+            "« Combien dois-je dépenser en publicité ? » est la première question lors d'un audit. La bonne question est : combien coûte une conversion, et combien en faut-il pour atteindre vos objectifs commerciaux ?"
           ]
         },
         {
@@ -398,21 +434,21 @@
           "id": "fourchettes",
           "heading": "Fourchettes réalistes au Maroc en 2026",
           "paragraphs": [
-            "Ces chiffres concernent le budget média mensuel, hors honoraires agence, pour un centre avec 1 à 3 formations actives."
+            "Ces chiffres concernent le budget média mensuel, hors honoraires agence, pour un centre avec 1 à 3 offres actives."
           ],
           "bullets": [
             "Lancement / test : 8 000 – 12 000 MAD/mois",
             "Croissance : 15 000 – 25 000 MAD/mois",
             "Scale multi-villes ou multi-offres : 30 000 – 80 000 MAD/mois",
-            "CPL formation pro typique : 25 – 80 MAD selon niche et ville"
+            "CPL pro typique : 25 – 80 MAD selon niche et ville"
           ]
         },
         {
           "id": "calcul",
-          "heading": "La méthode de calcul : de l'inscription au budget",
+          "heading": "La méthode de calcul : de l'conversion au budget",
           "paragraphs": [
             "Partez de votre objectif commercial, pas du budget disponible.",
-            "Exemple : 20 inscriptions × 3 mois = 60 inscriptions. Taux de conversion lead → inscription : 15 %. Il vous faut ~400 leads qualifiés. CPL cible : 40 MAD → budget média ≈ 16 000 MAD/mois sur 3 mois."
+            "Exemple : 20 conversions × 3 mois = 60 conversions. Taux de conversion lead → conversion : 15 %. Il vous faut ~400 leads qualifiés. CPL cible : 40 MAD → budget média ≈ 16 000 MAD/mois sur 3 mois."
           ]
         },
         {
@@ -439,21 +475,21 @@
             "Comparer le CPL sans regarder la qualité des leads",
             "Oublier le coût de production créative dans le calcul global",
             "Augmenter le budget de 300 % d'un coup (reset learning phase)",
-            "Ne pas tracker les inscriptions jusqu'à la source publicitaire"
+            "Ne pas tracker les conversions jusqu'à la source publicitaire"
           ]
         },
         {
           "id": "saisonnalite",
-          "heading": "Saisonnalité des inscriptions au Maroc",
+          "heading": "Saisonnalité des conversions au Maroc",
           "paragraphs": [
-            "Anticiper les pics (rentrée septembre, janvier, pré-été) permet d'optimiser le ROAS. Montez le budget 4–6 semaines avant la date d'ouverture des inscriptions, pas la veille."
+            "Anticiper les pics (lancement de septembre, janvier, pré-été) permet d'optimiser le ROAS. Montez le budget 4–6 semaines avant la date d'ouverture des conversions, pas la veille."
           ]
         },
         {
           "id": "conclusion",
           "heading": "Conclusion : investir avec méthode, pas au feeling",
           "paragraphs": [
-            "Un budget marketing formation n'est pas une dépense : c'est un levier d'inscription mesurable. Fixez votre CAC cible, calculez le volume de leads nécessaire, testez sur 90 jours, puis scalez ce qui convertit.",
+            "Un budget marketing n'est pas une dépense : c'est un levier d'conversion mesurable. Fixez votre CAC cible, calculez le volume de leads nécessaire, testez sur 90 jours, puis scalez ce qui convertit.",
             "Notre équipe réalise un audit budget gratuit : analyse de votre offre, simulation CPL/CAC et recommandation de répartition Meta/Google."
           ]
         }
@@ -469,7 +505,7 @@
         },
         {
           "question": "Quel CPL est considéré comme bon au Maroc ?",
-          "answer": "Entre 25 et 55 MAD pour une formation pro bien ciblée. Au-delà de 80 MAD, vérifiez ciblage, créatives et landing page."
+          "answer": "Entre 25 et 55 MAD pour une offre pro bien ciblée. Au-delà de 80 MAD, vérifiez ciblage, créatives et landing page."
         },
         {
           "question": "Peut-on démarrer avec moins de 8 000 MAD/mois ?",
@@ -486,81 +522,87 @@
       ]
     },
     "campagne-inscriptions-rentree-formation-maroc": {
-      "title": "Campagne rentrée : comment remplir vos sessions de formation au Maroc",
-      "excerpt": "Calendrier juillet–septembre, structure Meta/Google, offres early-bird et plan d'action pour maximiser les inscriptions de la rentrée.",
-      "category": "acquisition",
+      "title": "Lancer une campagne d'acquisition digitale qui performe",
+      "excerpt": "Calendrier, créatives, budget et optimisation pour vos lancements produits ou saisonniers.",
+      "category": "marketing",
       "cover": "/logo-full.svg",
-      "relatedServices": ["meta-ads", "google-ads", "landing-pages", "marketing-automation"],
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "landing-pages",
+        "marketing-automation"
+      ],
       "overview": {
-        "what": "Plan opérationnel pour lancer et piloter une campagne d'inscriptions rentrée (septembre) pour centres de formation au Maroc.",
-        "who": "Directeurs et responsables marketing qui préparent la rentrée de septembre ou janvier et doivent remplir leurs sessions à temps.",
+        "what": "Plan opérationnel pour lancer et piloter une campagne d'acquisition digitale saisonnière au Maroc (lancement produit, promo, pic de demande).",
+        "who": "Directeurs et responsables marketing qui préparent un pic commercial (septembre, janvier, Ramadan, soldes) et doivent atteindre leurs objectifs à temps.",
         "benefits": [
-          "Calendrier semaine par semaine (juillet → septembre)",
-          "Structure de campagnes Meta Ads et Google Ads adaptée à la saisonnalité",
+          "Calendrier semaine par semaine",
+          "Structure Meta Ads et Google Ads adaptée à la saisonnalité",
           "Scripts d'offre, landing page et relances WhatsApp prêts à déployer"
         ],
         "topics": [
-          "Rentrée formation Maroc",
-          "Saisonnalité inscriptions",
-          "Meta Ads rentrée",
-          "Google Ads rentrée",
-          "Early-bird et urgence"
+          "Lancement saisonnier",
+          "Meta Ads",
+          "Google Ads",
+          "Landing page",
+          "WhatsApp",
+          "CRO"
         ],
         "takeaways": [
-          "Lancez vos campagnes 6 semaines avant l'ouverture des inscriptions, pas la veille",
-          "Préparez 3 angles créatifs : projet pro, urgence places, preuve sociale",
-          "Augmentez le budget de 30–50 % en août, puis basculez en retargeting en septembre"
+          "Anticipez 6 à 8 semaines avant le pic",
+          "Testez créatives et offres en amont",
+          "Mesurez le CAC, pas seulement le volume de leads"
         ]
       },
       "sections": [
         {
           "id": "introduction",
-          "heading": "Introduction : la rentrée se joue en juillet–août",
+          "heading": "Introduction : un lancement saisonnier se prépare 6 à 8 semaines avant le pic",
           "paragraphs": [
-            "Chaque année, les mêmes centres appellent fin août : « On n'a que 40 % des places remplies, que faire ? » La réponse est presque toujours la même : c'est trop tard pour construire une machine d'acquisition. La rentrée de septembre se prépare dès juillet.",
-            "Au Maroc, la demande formation explose entre mi-août et mi-septembre : reconversions professionnelles, jeunes diplômés, salariés en attente de promotion. Ceux qui captent cette fenêtre avec des campagnes structurées remplissent leurs sessions. Les autres brûlent du budget en urgence, avec un CPL 2× plus élevé."
+            "Chaque année, des entreprises nous contactent trop tard : objectifs commerciaux loin d'être atteints, budget à brûler en urgence. Un lancement saisonnier réussi se prépare dès juillet pour un pic de septembre — ou plus tôt selon votre secteur (soldes, Ramadan, rentrée).",
+            "Au Maroc, la demande digitale explose sur des fenêtres prévisibles. Celles qui structurent leurs campagnes Meta, Google et WhatsApp convertissent avec un CAC maîtrisé. Les autres paient 2× plus cher par lead."
           ]
         },
         {
           "id": "calendrier",
           "heading": "Le calendrier idéal : juillet → septembre",
           "paragraphs": [
-            "Voici le planning que nous appliquons chez Mohtaoua pour nos clients centres de formation."
+            "Voici le planning que nous appliquons chez Mohtaoua pour nos clients entreprises au Maroc."
           ],
           "bullets": [
-            "Juillet (S1–S2) : audit offre, landing page rentrée, créatives vidéo, tracking inscriptions",
+            "Juillet (S1–S2) : audit offre, landing page dédiée, créatives vidéo, tracking conversions",
             "Juillet (S3–S4) : lancement campagnes test Meta + Google, budget modéré (60 % du pic)",
             "Août (S1–S2) : scale des audiences gagnantes, +30 % budget, lancement offre early-bird",
             "Août (S3–S4) : intensification, retargeting visiteurs, campagnes WhatsApp sur leads tièdes",
             "Septembre (S1) : urgence « dernières places », retargeting agressif, relances conseillers",
-            "Septembre (S2+) : bascule acquisition → nurturing sur liste d'attente session suivante"
+            "Septembre (S2+) : bascule acquisition → nurturing sur liste d'attente prochaine vague"
           ]
         },
         {
           "id": "offre",
-          "heading": "Structurer l'offre rentrée qui convertit",
+          "heading": "Structurer l'offre saisonnière qui convertit",
           "paragraphs": [
-            "Une campagne rentrée ne vend pas une formation : elle vend une session avec une date, des places limitées et un bénéfice concret.",
-            "Les messages qui performent le mieux au Maroc combinent clarté du débouché (emploi, certification, salaire) et réduction de friction (paiement échelonné, session du soir, présentiel + online)."
+            "Une campagne saisonnière ne vend pas une offre générique : elle vend une opportunité limitée dans le temps avec un bénéfice clair (promo, places, certification, livraison avant date).",
+            "Les messages qui performent combinent urgence douce, preuve sociale et réduction de friction (paiement échelonné, garantie, bonus)."
           ],
           "bullets": [
-            "Early-bird : -10 à -15 % ou frais d'inscription offerts jusqu'à une date fixe",
-            "Urgence réelle : places limitées par session (afficher le chiffre, pas « bientôt complet »)",
+            "Early-bird : -10 à -15 % ou frais de dossier offerts jusqu'à une date fixe",
+            "Urgence réelle : stock ou places limitées (afficher le chiffre, pas « bientôt complet »)",
             "Preuve sociale : témoignages vidéo d'anciens, taux d'insertion, logos entreprises partenaires",
-            "CTA unique : « Réserver ma place rentrée » plutôt que « En savoir plus »"
+            "CTA unique : « Profiter de l'offre » plutôt que « En savoir plus »"
           ]
         },
         {
           "id": "meta-ads",
-          "heading": "Meta Ads : structure de campagne rentrée",
+          "heading": "Meta Ads : structure de campagne saisonnière",
           "paragraphs": [
-            "Sur Meta, la rentrée est une période d'audience froide réceptive. Structurez en 3 campagnes distinctes pour garder le contrôle du budget."
+            "Sur Meta, le lancement saisonnier est une période d'audience froide réceptive. Structurez en 3 campagnes distinctes pour garder le contrôle du budget."
           ],
           "bullets": [
             "Campagne 1 — Prospection : Advantage+ ou CBO, 3–5 créatives (vidéo 15–30 s, carrousel témoignages)",
             "Campagne 2 — Retargeting : visiteurs landing 7/14/30 jours, engagement page Facebook/Instagram",
-            "Campagne 3 — Leads chauds : lookalike 1–3 % sur inscrits N-1 ou clients convertis",
-            "Ciblage : 22–45 ans, centres d'intérêt formation + métiers cibles, géo ville + 25 km",
+            "Campagne 3 — Leads chauds : lookalike 1–3 % sur clients N-1 ou clients convertis",
+            "Ciblage : 22–45 ans, centres d'intérêt business + métiers cibles, géo ville + 25 km",
             "Budget : démarrer 150–250 MAD/jour par offre, monter à 400–600 MAD/jour en pic août"
           ]
         },
@@ -568,11 +610,11 @@
           "id": "google-ads",
           "heading": "Google Ads : capter l'intention recherche",
           "paragraphs": [
-            "En rentrée, Google Ads devient stratégique : les prospects tapent « formation [métier] Casablanca », « inscription rentrée [domaine] ». Ne laissez pas ces clics à vos concurrents."
+            "En lancement saisonnier, Google Ads devient stratégique : les prospects tapent « offre [métier] Casablanca », « conversion lancement saisonnier [domaine] ». Ne laissez pas ces clics à vos concurrents."
           ],
           "bullets": [
-            "Campagnes Search : mots-clés transactionnels (inscription, prix, rentrée, session septembre)",
-            "Campagnes Performance Max : avec assets rentrée + feed si catalogue multi-formations",
+            "Campagnes Search : mots-clés transactionnels (conversion, prix, lancement saisonnier, session septembre)",
+            "Campagnes Performance Max : avec assets lancement saisonnier + feed si catalogue multi-offres",
             "Annonces RSA : mentionner date de début, early-bird, ville, certification",
             "Extensions : liens annexes (programme, témoignages, contact), appel, lieu",
             "Enchères : Target CPA une fois 30+ conversions/mois, sinon Maximize Conversions plafonné"
@@ -582,26 +624,26 @@
           "id": "conversion",
           "heading": "Landing page, WhatsApp et relances",
           "paragraphs": [
-            "Le trafic rentrée est cher. Chaque visiteur non converti doit entrer dans un funnel de relance.",
-            "Votre landing page rentrée doit afficher la date de session, le nombre de places restantes (même approximatif), le programme en 5 points et un formulaire court (nom, téléphone, formation)."
+            "Le trafic saisonnier est cher. Chaque visiteur non converti doit entrer dans un funnel de relance.",
+            "Votre landing page doit afficher la date limite, le stock ou les places restantes, l'offre en 5 points et un formulaire court (nom, téléphone, offre)."
           ],
           "bullets": [
-            "WhatsApp : réponse < 5 min, script accueil avec date session + lien paiement acompte",
+            "WhatsApp : réponse < 5 min, script accueil avec date de l'offre + lien paiement acompte",
             "Relance J+1, J+3, J+7 sur leads non convertis (automation ou CRM)",
-            "Retargeting : annonce « Votre place rentrée vous attend » avec countdown",
-            "Tracking : pixel Meta + conversions Google + événement inscription CRM"
+            "Retargeting : annonce « Votre offre limitée vous attend » avec countdown",
+            "Tracking : pixel Meta + conversions Google + événement conversion CRM"
           ]
         },
         {
           "id": "erreurs",
-          "heading": "5 erreurs qui font rater la rentrée",
+          "heading": "5 erreurs qui font rater le lancement saisonnier",
           "paragraphs": [
-            "Ces erreurs reviennent chaque année dans nos audits pré-rentrée."
+            "Ces erreurs reviennent chaque année dans nos audits pré-lancement."
           ],
           "bullets": [
             "Attendre septembre pour lancer les campagnes (CPL ×2, pression commerciale maximale)",
             "Une seule créative pendant 6 semaines (fatigue audience, baisse CTR)",
-            "Landing page générique sans mention « rentrée septembre »",
+            "Landing page générique sans mention « lancement de septembre »",
             "Pas de retargeting : 97 % des visiteurs partent sans convertir",
             "Équipe commerciale sous-dimensionnée en août (leads non traités = budget gaspillé)"
           ]
@@ -610,35 +652,138 @@
           "id": "conclusion",
           "heading": "Conclusion : anticipez, structurez, scalez",
           "paragraphs": [
-            "La rentrée n'est pas une surprise : c'est un pic prévisible. Les centres qui planifient en juillet, testent en août et intensifient en septembre remplissent leurs sessions avec un CAC maîtrisé.",
-            "Besoin d'un plan rentrée clé en main ? Notre équipe audite votre offre, structure vos campagnes Meta/Google, optimise votre landing et configure vos relances WhatsApp — livrable sous 7 jours."
+            "Un pic saisonnier est prévisible. Planifiez en amont, testez en période calme, intensifiez au bon moment.",
+            "Besoin d'un plan clé en main ? Notre équipe structure vos campagnes Meta/Google, optimise votre landing et configure vos relances WhatsApp."
           ]
         }
       ],
       "faqs": [
         {
-          "question": "Quand lancer les campagnes rentrée septembre ?",
+          "question": "Quand lancer les campagnes saisonnières septembre ?",
           "answer": "Idéalement mi-juillet pour les tests, scale mi-août. Minimum : début août avec budget agressif et offre early-bird."
         },
         {
-          "question": "Quel budget média pour une campagne rentrée ?",
+          "question": "Quel budget média pour une campagne saisonnière ?",
           "answer": "15 000 à 30 000 MAD/mois sur juillet–août pour une offre principale en ville unique. Multiplier par le nombre d'offres actives."
         },
         {
-          "question": "Meta Ads ou Google Ads en priorité pour la rentrée ?",
+          "question": "Meta Ads ou Google Ads en priorité pour le lancement saisonnier ?",
           "answer": "Meta pour créer la demande et toucher les indécis. Google pour capter la recherche active. Commencez 65/35 Meta/Google, ajustez selon CPL et taux de conversion."
         },
         {
-          "question": "Faut-il une landing page dédiée rentrée ?",
-          "answer": "Oui. Une page spécifique avec date, places, early-bird et témoignages convertit 2 à 3× mieux qu'une page formation générique."
+          "question": "Faut-il une landing page dédiée lancement saisonnier ?",
+          "answer": "Oui. Une page spécifique avec date, stock/places, early-bird et témoignages convertit 2 à 3× mieux qu'une page générique."
         },
         {
           "question": "Comment gérer les leads qui ne convertissent pas avant septembre ?",
-          "answer": "Relances automatisées, retargeting, puis bascule en liste d'attente pour la session d'octobre ou janvier. Ne jetez pas les leads : la rentrée dure 6 semaines."
+          "answer": "Relances automatisées, retargeting, puis bascule en liste d'attente pour la session d'octobre ou janvier. Ne jetez pas les leads : le lancement saisonnier dure 6 semaines."
         },
         {
-          "question": "Mohtaoua peut-elle gérer notre campagne rentrée ?",
-          "answer": "Oui. Nous proposons un pack rentrée : stratégie, création, gestion Meta/Google, landing page et automation WhatsApp. Demandez un audit gratuit sur /contact."
+          "question": "Mohtaoua peut-elle gérer notre campagne saisonnière ?",
+          "answer": "Oui. Nous proposons un pack lancement saisonnier : stratégie, création, gestion Meta/Google, landing page et automation WhatsApp. Demandez un audit gratuit sur /contact."
+        }
+      ]
+    },
+    "transformation-digitale-pme-maroc": {
+      "title": "transformation digitale des PME au Maroc : par où commencer en 2026",
+      "excerpt": "Roadmap pragmatique : site web, marketing, CRM, automation et IA pour accélérer la croissance de votre PME.",
+      "category": "business",
+      "cover": "/logo-full.svg",
+      "relatedServices": [
+        "corporate-websites",
+        "meta-ads",
+        "crm-data",
+        "ai-agents"
+      ],
+      "overview": {
+        "what": "Guide stratégique pour lancer la transformation digitale d'une PME au Maroc sans se disperser.",
+        "who": "Dirigeants de PME, startups et ETI qui veulent structurer leur croissance digitale.",
+        "benefits": [
+          "Prioriser les bons investissements",
+          "Éviter les erreurs coûteuses",
+          "Croissance mesurable en 90 jours"
+        ],
+        "topics": [
+          "Site web",
+          "Marketing digital",
+          "CRM",
+          "Automation",
+          "IA"
+        ],
+        "takeaways": [
+          "Commencez par les fondations : site + tracking",
+          "Le marketing sans CRM est du gaspillage",
+          "L'IA amplifie, elle ne remplace pas la stratégie"
+        ]
+      },
+      "sections": [
+        {
+          "id": "contexte",
+          "heading": "Pourquoi la transformation digitale n'est plus optionnelle",
+          "paragraphs": [
+            "Au Maroc, les PME qui structurent leur présence digitale croissent 2 à 3 fois plus vite que celles qui dépendent uniquement du bouche-à-oreille. Vos clients comparent en ligne, contactent via WhatsApp et attendent une réponse immédiate.",
+            "La transformation digitale n'est pas « refaire un site » : c'est aligner marketing, technologie, données et expérience client pour générer plus de revenus avec moins de friction."
+          ]
+        },
+        {
+          "id": "fondations",
+          "heading": "Étape 1 — Les fondations (semaines 1-4)",
+          "paragraphs": [
+            "Avant d'investir en publicité, assurez-vous que les bases sont solides."
+          ],
+          "bullets": [
+            "Site web professionnel, rapide et mobile-first",
+            "Tracking conversions (Meta Pixel, GA4, événements)",
+            "WhatsApp Business ou numéro pro dédié",
+            "Google Business Profile à jour"
+          ]
+        },
+        {
+          "id": "acquisition",
+          "heading": "Étape 2 — Acquisition (mois 2-3)",
+          "paragraphs": [
+            "Une fois les fondations posées, activez les canaux d'acquisition adaptés à votre secteur : Meta pour la demande créée, Google pour l'intention de recherche, SEO pour le long terme."
+          ],
+          "bullets": [
+            "Landing page par offre principale",
+            "Campagnes Meta ou Google avec budget test 8-15K MAD/mois",
+            "Créatives adaptées à votre audience marocaine"
+          ]
+        },
+        {
+          "id": "conversion",
+          "heading": "Étape 3 — Conversion et CRM (mois 3-4)",
+          "paragraphs": [
+            "Les leads sans suivi structuré se perdent. Implémentez un CRM léger (HubSpot, Pipedrive) et connectez-le à vos formulaires et WhatsApp."
+          ]
+        },
+        {
+          "id": "automation-ia",
+          "heading": "Étape 4 — Automation et IA (mois 4-6)",
+          "paragraphs": [
+            "Automatisez les relances, les rappels RDV et les tâches répétitives. Explorez l'IA pour le support client et la qualification de leads — toujours avec supervision humaine."
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Budget réaliste pour une PME",
+          "paragraphs": [
+            "Comptez 15 000 à 50 000 MAD/mois selon l'ambition : honoraires agence + budget média + outils (CRM, automation). Un audit gratuit permet de calibrer précisément."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Par quoi commencer si le budget est limité ?",
+          "answer": "Site web professionnel + Google Business Profile + WhatsApp Business structuré. Puis une campagne Meta ou Google test."
+        },
+        {
+          "question": "Faut-il tout internaliser ?",
+          "answer": "Non. Une agence 360° comme Mohtaoua couvre marketing, web et tech — vous gardez le focus métier."
+        },
+        {
+          "question": "Quel délai pour voir des résultats ?",
+          "answer": "Premiers leads en 2-4 semaines avec la pub. ROI stabilisé sur 60-90 jours avec optimisation continue."
         }
       ]
     },
@@ -817,5 +962,6 @@
         }
       ]
     }
-  }
+  },
+  "backToBlog": "Retour aux Insights"
 }

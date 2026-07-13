@@ -8,6 +8,7 @@ export async function loadContentLabelSources(locale: string): Promise<ContentLa
   const tg = await getTranslations("guides");
   const tc = await getTranslations("caseStudies");
   const tcomp = await getTranslations("compare");
+  const tind = await getTranslations("industries");
   const tseo = await getTranslations("seo");
 
   return {
@@ -17,6 +18,7 @@ export async function loadContentLabelSources(locale: string): Promise<ContentLa
     guides: (key) => tg(key),
     caseStudies: (key) => tc(key),
     compare: (key) => tcomp(key),
+    industries: (key) => tind(key),
     internalLinking: (key) => ti(key),
     seo: (key) => tseo(key),
     anchors: ti.raw("anchors") as Record<string, string[]>,

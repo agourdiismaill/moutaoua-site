@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { mainNav } from "@/data/site";
+import { NavMegaMenu } from "@/components/layout/nav-mega-menu";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/shared/theme-toggle";
 
@@ -52,6 +53,19 @@ export function Navbar() {
               item.href === "/"
                 ? pathname === "/"
                 : pathname.startsWith(item.href);
+
+            if (item.key === "services" || item.key === "industries") {
+              return (
+                <NavMegaMenu
+                  key={item.href}
+                  menuKey={item.key}
+                  label={t(item.key)}
+                  href={item.href}
+                  active={active}
+                />
+              );
+            }
+
             return (
               <li key={item.href}>
                 <Link

@@ -8,11 +8,12 @@ export type BreadcrumbLabels = {
   guides: string;
   caseStudies: string;
   compare: string;
+  industries?: string;
   current: string;
 };
 
 export function buildContentBreadcrumb(
-  type: ContentType,
+  type: ContentType | "industry",
   labels: BreadcrumbLabels
 ): BreadcrumbItem[] {
   const home: BreadcrumbItem = { label: labels.home, href: "/" };
@@ -20,6 +21,12 @@ export function buildContentBreadcrumb(
   switch (type) {
     case "service":
       return [home, { label: labels.services, href: "/services" }, { label: labels.current }];
+    case "industry":
+      return [
+        home,
+        { label: labels.industries ?? "Industries", href: "/industries" },
+        { label: labels.current },
+      ];
     case "blog":
       return [home, { label: labels.blog, href: "/blog" }, { label: labels.current }];
     case "guide":

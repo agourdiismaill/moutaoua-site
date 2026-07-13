@@ -10,7 +10,10 @@
     "socialMedia": "Social Media",
     "branding": "Branding",
     "visualCreation": "Visual design",
-    "multilingual": "Multilingual"
+    "multilingual": "Multilingual",
+    "webDev": "Web development",
+    "ecommerce": "E-commerce",
+    "seo": "SEO"
   },
   "items": {
     "skola-formation": {
@@ -58,7 +61,27 @@
           "cro",
           "automation"
         ]
-      }
+      },
+      "execution": [
+        "Déploiement compte Meta Ads en 5 jours",
+        "Production de 12 créatives vidéo/mois",
+        "Lancement landing pages par formation",
+        "Mise en place séquences WhatsApp + email",
+        "Optimisation hebdomadaire budget et audiences"
+      ],
+      "technologies": [
+        "Meta Ads",
+        "Next.js",
+        "HubSpot",
+        "WhatsApp API",
+        "Google Tag Manager"
+      ],
+      "relatedServices": [
+        "meta-ads",
+        "landing-pages",
+        "marketing-automation",
+        "crm-data"
+      ]
     },
     "campusup-search": {
       "title": "6.1x ROAS via Google Ads for CampusUp",
@@ -103,7 +126,25 @@
           "googleAds",
           "performanceMax"
         ]
-      }
+      },
+      "execution": [
+        "Restructuration compte Google Ads",
+        "Création 8 groupes d'annonces thématiques",
+        "Déploiement Performance Max",
+        "Landing pages Search dédiées",
+        "Connexion CRM pour optimisation offline"
+      ],
+      "technologies": [
+        "Google Ads",
+        "Performance Max",
+        "Next.js",
+        "Google Analytics 4"
+      ],
+      "relatedServices": [
+        "google-ads",
+        "landing-pages",
+        "seo"
+      ]
     },
     "edunext-automation": {
       "title": "Automated enrollment funnel for EduNext",
@@ -148,7 +189,25 @@
           "crm",
           "whatsApp"
         ]
-      }
+      },
+      "execution": [
+        "Audit parcours lead existant",
+        "Configuration HubSpot + WhatsApp",
+        "Création 4 scénarios automation",
+        "Formation équipe commerciale",
+        "Dashboard KPIs temps réel"
+      ],
+      "technologies": [
+        "HubSpot",
+        "WhatsApp Business API",
+        "Zapier",
+        "Looker Studio"
+      ],
+      "relatedServices": [
+        "marketing-automation",
+        "crm-data",
+        "chatbots"
+      ]
     },
     "millennia-group-prive": {
       "title": "Social media identity & acquisition for Millennia (Marrakech)",
@@ -211,7 +270,282 @@
           "visualCreation",
           "multilingual"
         ]
-      }
+      },
+      "execution": [
+        "Refonte ligne graphique complète",
+        "Calendrier éditorial mensuel",
+        "Production Reels et carrousels",
+        "Campagnes Meta Ads locales",
+        "Reporting engagement mensuel"
+      ],
+      "technologies": [
+        "Meta Ads",
+        "Canva",
+        "After Effects",
+        "Instagram"
+      ],
+      "relatedServices": [
+        "social-media",
+        "brand-identity",
+        "reels",
+        "meta-ads"
+      ]
+    },
+    "nova-industrie-web": {
+      "title": "B2B corporate site + SEO: +340% organic traffic",
+      "client": "Groupe industriel (anonymisé)",
+      "industry": "Industrie & B2B",
+      "description": "Refonte digitale complète pour un groupe industriel marocain : site corporate Next.js, architecture SEO et contenus multilingues pour générer des demandes de devis qualifiées.",
+      "objectives": [
+        "Moderniser l'image digitale du groupe",
+        "Générer des leads B2B via le site",
+        "Améliorer le référencement sur les requêtes métier"
+      ],
+      "strategy": [
+        "Audit UX et refonte site corporate mobile-first",
+        "Architecture SEO par ligne de produits et villes",
+        "Pages solutions + formulaires devis trackés",
+        "Blog technique pour la notoriété long terme",
+        "Connexion CRM pour le suivi commercial"
+      ],
+      "budget": "Sur devis",
+      "cpl": "—",
+      "roas": "—",
+      "timeline": "5 mois",
+      "structural": {
+        "leads": 186,
+        "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [],
+        "featured": true,
+        "tags": [
+          "webDev",
+          "seo",
+          "branding"
+        ]
+      },
+      "testimonials": [
+        {
+          "quote": "Notre site reflète enfin notre niveau d'expertise. Les demandes de devis ont triplé.",
+          "author": "Direction commerciale",
+          "role": "Groupe industriel, Casablanca"
+        }
+      ],
+      "execution": [
+        "Atelier stratégie et arborescence",
+        "Design UI/UX et développement Next.js",
+        "Migration contenus multilingues (fr/ar)",
+        "Déploiement SEO technique et contenu",
+        "Formation équipe commerciale au CRM"
+      ],
+      "technologies": [
+        "Next.js",
+        "Tailwind",
+        "Google Analytics 4",
+        "HubSpot",
+        "Vercel"
+      ],
+      "relatedServices": [
+        "corporate-websites",
+        "seo",
+        "brand-identity",
+        "crm-data"
+      ]
+    },
+    "atlas-ecommerce-growth": {
+      "title": "Fashion e-commerce: 4.8x ROAS and +2M MAD quarterly revenue",
+      "client": "Marque e-commerce (anonymisée)",
+      "industry": "E-commerce & Retail",
+      "description": "Lancement et scaling d'une boutique Shopify avec campagnes Meta Ads, shooting produit et automation panier abandonné pour une marque de mode marocaine.",
+      "objectives": [
+        "Lancer la boutique en ligne rapidement",
+        "Scaler les ventes via Meta Ads",
+        "Réduire le taux d'abandon panier"
+      ],
+      "strategy": [
+        "Setup Shopify + paiements locaux",
+        "Shooting produit et fiches optimisées",
+        "Campagnes Meta catalogue + retargeting",
+        "Séquences email/WhatsApp panier abandonné",
+        "Optimisation CRO checkout mobile"
+      ],
+      "budget": "72 000 DH / mois",
+      "cpl": "42 DH",
+      "roas": "4,8x",
+      "timeline": "4 mois",
+      "structural": {
+        "leads": 3200,
+        "cover": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [],
+        "featured": true,
+        "tags": [
+          "ecommerce",
+          "metaAds",
+          "cro"
+        ]
+      },
+      "testimonials": [
+        {
+          "quote": "De zéro à des ventes quotidiennes en 6 semaines. L'équipe maîtrise tout le funnel.",
+          "author": "Fondatrice",
+          "role": "Marque mode, Casablanca"
+        }
+      ],
+      "execution": [
+        "Développement boutique Shopify",
+        "Production 40 visuels produits",
+        "Lancement campagnes Meta catalogue",
+        "Automation panier abandonné",
+        "Reporting hebdomadaire ROAS"
+      ],
+      "technologies": [
+        "Shopify",
+        "Meta Ads",
+        "Klaviyo",
+        "WhatsApp API",
+        "Stripe"
+      ],
+      "relatedServices": [
+        "e-commerce",
+        "meta-ads",
+        "product-photography",
+        "marketing-automation"
+      ]
+    },
+    "medina-clinic-digital": {
+      "title": "Private clinic: +180% appointment requests",
+      "client": "Clinique privée (anonymisée)",
+      "industry": "Santé & Cliniques",
+      "description": "Identité visuelle, site web et campagnes Google locales pour une clinique à Marrakech : visibilité, confiance et prise de RDV en ligne.",
+      "objectives": [
+        "Renforcer la crédibilité de la clinique en ligne",
+        "Générer des demandes de rendez-vous qualifiées",
+        "Se positionner sur les recherches locales"
+      ],
+      "strategy": [
+        "Refonte identité visuelle premium",
+        "Site vitrine avec prise de RDV WhatsApp",
+        "Google Business Profile optimisé",
+        "Campagnes Google Search locales",
+        "Contenus éducatifs pour le SEO santé"
+      ],
+      "budget": "38 000 DH / mois",
+      "cpl": "78 DH",
+      "roas": "—",
+      "timeline": "3 mois",
+      "structural": {
+        "leads": 420,
+        "cover": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [],
+        "featured": true,
+        "tags": [
+          "branding",
+          "googleAds",
+          "seo"
+        ]
+      },
+      "testimonials": [
+        {
+          "quote": "Nos patients nous trouvent sur Google et prennent RDV directement. Un vrai changement.",
+          "author": "Dr. (anonymisé)",
+          "role": "Clinique privée, Marrakech"
+        }
+      ],
+      "execution": [
+        "Création charte graphique",
+        "Développement site Next.js",
+        "Setup Google Ads local",
+        "Optimisation fiche Google Business",
+        "Formation accueil au suivi leads"
+      ],
+      "technologies": [
+        "Next.js",
+        "Google Ads",
+        "Google Business",
+        "WhatsApp Business",
+        "Figma"
+      ],
+      "relatedServices": [
+        "brand-identity",
+        "corporate-websites",
+        "google-ads",
+        "seo"
+      ]
+    },
+    "riad-hotel-digital": {
+      "title": "Boutique riad: +45% direct bookings",
+      "client": "Hôtel boutique (anonymisé)",
+      "industry": "Hôtellerie & Tourisme",
+      "description": "Site web immersif, vidéo drone et SEO local pour un riad de luxe : réduire la dépendance aux OTA et augmenter les réservations directes.",
+      "objectives": [
+        "Augmenter les réservations sans commission OTA",
+        "Valoriser l'expérience client en ligne",
+        "Améliorer le référencement local"
+      ],
+      "strategy": [
+        "Site web premium avec galerie et réservation directe",
+        "Vidéo drone et photos professionnelles",
+        "SEO local « riad + ville »",
+        "Campagnes Meta pour la basse saison",
+        "Intégration moteur de réservation"
+      ],
+      "budget": "Sur devis",
+      "cpl": "—",
+      "roas": "3,2x",
+      "timeline": "4 mois",
+      "structural": {
+        "leads": 290,
+        "cover": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80",
+        "images": [
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "videos": [
+          "ysz5S6PUM-U"
+        ],
+        "featured": false,
+        "tags": [
+          "webDev",
+          "seo",
+          "visualCreation"
+        ]
+      },
+      "testimonials": [
+        {
+          "quote": "Le site et les vidéos transmettent l'ambiance du riad. Les réservations directes ont bondi.",
+          "author": "Gérant",
+          "role": "Riad boutique, Marrakech"
+        }
+      ],
+      "execution": [
+        "Design UX site immersif",
+        "Tournage photo et drone",
+        "Développement site + moteur réservation",
+        "SEO local et Google Business",
+        "Campagnes Meta saisonnières"
+      ],
+      "technologies": [
+        "Next.js",
+        "Booking engine",
+        "After Effects",
+        "Google Ads",
+        "Meta Ads"
+      ],
+      "relatedServices": [
+        "corporate-websites",
+        "video-production",
+        "seo",
+        "meta-ads"
+      ]
     }
   }
 }

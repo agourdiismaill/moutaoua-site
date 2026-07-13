@@ -13,15 +13,21 @@ import { cn } from "@/lib/utils";
 export function ServicesSection({
   withFeatures = false,
   heading = true,
+  highlightedOnly = false,
+  limit,
   className,
 }: {
   withFeatures?: boolean;
   heading?: boolean;
+  highlightedOnly?: boolean;
+  limit?: number;
   className?: string;
 }) {
   const ts = useTranslations("sections.services");
   const t = useTranslations("services");
-  const items = getLocalizedServices(t);
+  const items = getLocalizedServices(t)
+    .filter((s) => !highlightedOnly || s.highlighted)
+    .slice(0, limit);
 
   return (
     <section id="services" className={cn("section-pad", className)}>

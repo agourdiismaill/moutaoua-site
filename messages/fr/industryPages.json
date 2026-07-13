@@ -1,0 +1,1148 @@
+{
+  "labels": {
+    "challenges": "Défis du secteur",
+    "solutions": "Nos solutions",
+    "recommendedServices": "Services recommandés",
+    "caseStudies": "Études de cas",
+    "faq": "FAQ",
+    "home": "Accueil",
+    "industries": "Industries",
+    "aiOverview": "Résumé de la page",
+    "what": "De quoi parle cette page ?",
+    "who": "À qui s'adresse-t-elle ?",
+    "benefits": "Bénéfices clés",
+    "topics": "Sujets couverts",
+    "takeaways": "Points à retenir",
+    "readingTime": "{minutes} min de lecture",
+    "share": "Partager"
+  },
+  "hubOverview": {
+    "what": "Mohtaoua accompagne les entreprises de tous secteurs au Maroc avec des solutions marketing, technologiques et créatives.",
+    "who": "Dirigeants, directeurs marketing et responsables digitaux de PME, startups et grands comptes.",
+    "benefits": [
+      "Expertise multi-secteurs",
+      "Solutions sur mesure",
+      "Équipe pluridisciplinaire",
+      "Résultats mesurables"
+    ],
+    "topics": [
+      "Éducation",
+      "Santé",
+      "E-commerce",
+      "Immobilier",
+      "Restauration",
+      "Hôtellerie"
+    ],
+    "takeaways": [
+      "23+ secteurs couverts",
+      "Agence 360° premium",
+      "Audit gratuit"
+    ]
+  },
+  "items": {
+    "education": {
+      "metaTitle": "Éducation & Formation — Agence Digitale Maroc",
+      "metaDescription": "Solutions digitales pour écoles, centres de formation et organismes éducatifs.",
+      "overview": {
+        "what": "Solutions digitales pour écoles, centres de formation et organismes éducatifs.",
+        "who": "Dirigeants et responsables marketing dans le secteur éducation & formation.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "healthcare": {
+      "metaTitle": "Santé — Agence Digitale Maroc",
+      "metaDescription": "Marketing et technologie pour cliniques, médecins et centres médicaux.",
+      "overview": {
+        "what": "Marketing et technologie pour cliniques, médecins et centres médicaux.",
+        "who": "Dirigeants et responsables marketing dans le secteur santé.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "clinics": {
+      "metaTitle": "Cliniques — Agence Digitale Maroc",
+      "metaDescription": "Visibilité digitale et acquisition patients pour cliniques.",
+      "overview": {
+        "what": "Visibilité digitale et acquisition patients pour cliniques.",
+        "who": "Dirigeants et responsables marketing dans le secteur cliniques.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "doctors": {
+      "metaTitle": "Médecins — Agence Digitale Maroc",
+      "metaDescription": "Présence en ligne et réputation pour praticiens.",
+      "overview": {
+        "what": "Présence en ligne et réputation pour praticiens.",
+        "who": "Dirigeants et responsables marketing dans le secteur médecins.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "dental-clinics": {
+      "metaTitle": "Cliniques Dentaires — Agence Digitale Maroc",
+      "metaDescription": "Marketing digital spécialisé pour dentistes.",
+      "overview": {
+        "what": "Marketing digital spécialisé pour dentistes.",
+        "who": "Dirigeants et responsables marketing dans le secteur cliniques dentaires.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "medical-centers": {
+      "metaTitle": "Centres Médicaux — Agence Digitale Maroc",
+      "metaDescription": "Solutions complètes pour centres de santé.",
+      "overview": {
+        "what": "Solutions complètes pour centres de santé.",
+        "who": "Dirigeants et responsables marketing dans le secteur centres médicaux.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "spa": {
+      "metaTitle": "SPA & Bien-être — Agence Digitale Maroc",
+      "metaDescription": "Marketing luxe pour spas et centres de bien-être.",
+      "overview": {
+        "what": "Marketing luxe pour spas et centres de bien-être.",
+        "who": "Dirigeants et responsables marketing dans le secteur spa & bien-être.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "beauty-centers": {
+      "metaTitle": "Centres de Beauté — Agence Digitale Maroc",
+      "metaDescription": "Visibilité et réservations pour instituts de beauté.",
+      "overview": {
+        "what": "Visibilité et réservations pour instituts de beauté.",
+        "who": "Dirigeants et responsables marketing dans le secteur centres de beauté.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "restaurants": {
+      "metaTitle": "Restaurants — Agence Digitale Maroc",
+      "metaDescription": "Réseaux sociaux, ads et réservations pour restaurateurs.",
+      "overview": {
+        "what": "Réseaux sociaux, ads et réservations pour restaurateurs.",
+        "who": "Dirigeants et responsables marketing dans le secteur restaurants.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "hotels": {
+      "metaTitle": "Hôtels — Agence Digitale Maroc",
+      "metaDescription": "SEO, booking et marketing pour l'hôtellerie.",
+      "overview": {
+        "what": "SEO, booking et marketing pour l'hôtellerie.",
+        "who": "Dirigeants et responsables marketing dans le secteur hôtels.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "real-estate": {
+      "metaTitle": "Immobilier — Agence Digitale Maroc",
+      "metaDescription": "Génération de leads et sites premium pour promoteurs.",
+      "overview": {
+        "what": "Génération de leads et sites premium pour promoteurs.",
+        "who": "Dirigeants et responsables marketing dans le secteur immobilier.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "construction": {
+      "metaTitle": "BTP & Construction — Agence Digitale Maroc",
+      "metaDescription": "Communication et digital pour entreprises du bâtiment.",
+      "overview": {
+        "what": "Communication et digital pour entreprises du bâtiment.",
+        "who": "Dirigeants et responsables marketing dans le secteur btp & construction.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "architecture": {
+      "metaTitle": "Architecture — Agence Digitale Maroc",
+      "metaDescription": "Portfolio digital et branding pour architectes.",
+      "overview": {
+        "what": "Portfolio digital et branding pour architectes.",
+        "who": "Dirigeants et responsables marketing dans le secteur architecture.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "retail": {
+      "metaTitle": "Commerce & Retail — Agence Digitale Maroc",
+      "metaDescription": "E-commerce et marketing pour commerces.",
+      "overview": {
+        "what": "E-commerce et marketing pour commerces.",
+        "who": "Dirigeants et responsables marketing dans le secteur commerce & retail.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "automotive": {
+      "metaTitle": "Automobile — Agence Digitale Maroc",
+      "metaDescription": "Publicité et sites web pour concessions.",
+      "overview": {
+        "what": "Publicité et sites web pour concessions.",
+        "who": "Dirigeants et responsables marketing dans le secteur automobile.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "law-firms": {
+      "metaTitle": "Cabinets d'Avocats — Agence Digitale Maroc",
+      "metaDescription": "Visibilité et crédibilité digitale pour juristes.",
+      "overview": {
+        "what": "Visibilité et crédibilité digitale pour juristes.",
+        "who": "Dirigeants et responsables marketing dans le secteur cabinets d'avocats.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "accounting-firms": {
+      "metaTitle": "Cabinets Comptables — Agence Digitale Maroc",
+      "metaDescription": "Sites web et SEO pour experts-comptables.",
+      "overview": {
+        "what": "Sites web et SEO pour experts-comptables.",
+        "who": "Dirigeants et responsables marketing dans le secteur cabinets comptables.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "ngos": {
+      "metaTitle": "ONG & Associations — Agence Digitale Maroc",
+      "metaDescription": "Communication et fundraising digital.",
+      "overview": {
+        "what": "Communication et fundraising digital.",
+        "who": "Dirigeants et responsables marketing dans le secteur ong & associations.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "government": {
+      "metaTitle": "Secteur Public — Agence Digitale Maroc",
+      "metaDescription": "Portails et communication institutionnelle.",
+      "overview": {
+        "what": "Portails et communication institutionnelle.",
+        "who": "Dirigeants et responsables marketing dans le secteur secteur public.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "factories": {
+      "metaTitle": "Industrie & Usines — Agence Digitale Maroc",
+      "metaDescription": "Sites B2B et automatisation industrielle.",
+      "overview": {
+        "what": "Sites B2B et automatisation industrielle.",
+        "who": "Dirigeants et responsables marketing dans le secteur industrie & usines.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "e-commerce": {
+      "metaTitle": "E-commerce — Agence Digitale Maroc",
+      "metaDescription": "Boutiques en ligne et acquisition pour e-commerçants.",
+      "overview": {
+        "what": "Boutiques en ligne et acquisition pour e-commerçants.",
+        "who": "Dirigeants et responsables marketing dans le secteur e-commerce.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "startups": {
+      "metaTitle": "Startups — Agence Digitale Maroc",
+      "metaDescription": "MVP, branding et growth pour jeunes entreprises.",
+      "overview": {
+        "what": "MVP, branding et growth pour jeunes entreprises.",
+        "who": "Dirigeants et responsables marketing dans le secteur startups.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    },
+    "smes": {
+      "metaTitle": "PME — Agence Digitale Maroc",
+      "metaDescription": "Transformation digitale accessible pour PME marocaines.",
+      "overview": {
+        "what": "Transformation digitale accessible pour PME marocaines.",
+        "who": "Dirigeants et responsables marketing dans le secteur pme.",
+        "benefits": [
+          "Visibilité digitale accrue",
+          "Génération de leads qualifiés",
+          "Image de marque premium",
+          "Automatisation des processus"
+        ],
+        "topics": [
+          "Marketing digital",
+          "Développement web",
+          "Logiciels métier",
+          "Design & branding"
+        ],
+        "takeaways": [
+          "Agence 360° multi-secteurs",
+          "Expertise Maroc + international",
+          "Résultats mesurables",
+          "Audit gratuit sous 24h"
+        ]
+      },
+      "challenges": [
+        "Concurrence digitale croissante",
+        "Difficulté à générer des leads qualifiés",
+        "Image de marque peu différenciée",
+        "Processus manuels chronophages"
+      ],
+      "solutions": [
+        "Stratégie marketing data-driven",
+        "Sites web et landing pages premium",
+        "Automatisation CRM et workflows",
+        "Production créative professionnelle"
+      ],
+      "faqs": [
+        {
+          "question": "Pourquoi choisir Mohtaoua ?",
+          "answer": "Mohtaoua est une agence digitale premium 360° au Maroc, capable d'accompagner les entreprises de tous secteurs."
+        },
+        {
+          "question": "Quels services proposez-vous ?",
+          "answer": "Marketing, développement web, logiciels, mobile, design, photo/vidéo et événements."
+        }
+      ]
+    }
+  }
+}

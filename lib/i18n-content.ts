@@ -13,6 +13,7 @@ import {
   CASE_STUDY_SLUGS,
   FAQ_IDS,
   SERVICE_SLUGS,
+  SERVICE_DETAIL_SLUGS,
   type ServiceSlug,
 } from "@/data/meta";
 import {
@@ -25,6 +26,8 @@ import {
 import type { AIOverviewContent } from "@/lib/seo/types";
 import { estimateReadingTimeFromParts } from "@/lib/seo/reading-time";
 import { serviceMeta } from "@/data/services";
+import { industryMeta } from "@/data/industries";
+import { portfolioMeta } from "@/data/portfolio";
 import { pricingMeta } from "@/data/pricing";
 import { statMeta } from "@/data/site";
 import { resultMeta } from "@/data/results";
@@ -44,6 +47,47 @@ export function getLocalizedServices(t: TFunction): Service[] {
     description: t(`items.${meta.slug}.description`),
     longDescription: t(`items.${meta.slug}.longDescription`),
     features: t.raw(`items.${meta.slug}.features`) as string[],
+    pillar: meta.pillar,
+  }));
+}
+
+export function getLocalizedIndustries(t: TFunction) {
+  return industryMeta.map((meta) => ({
+    slug: meta.slug,
+    icon: meta.icon,
+    featured: meta.featured,
+    title: t(`items.${meta.slug}.title`),
+    description: t(`items.${meta.slug}.description`),
+  }));
+}
+
+export function getLocalizedIndustryPage(t: TFunction, slug: string) {
+  const overviewRaw = t.raw(`items.${slug}.overview`) as Omit<AIOverviewContent, "readingTimeMinutes">;
+  const textParts = [
+    overviewRaw.what,
+    overviewRaw.who,
+    ...overviewRaw.benefits,
+    ...overviewRaw.takeaways,
+  ];
+  return {
+    slug,
+    metaTitle: t(`items.${slug}.metaTitle`),
+    metaDescription: t(`items.${slug}.metaDescription`),
+    overview: {
+      ...overviewRaw,
+      readingTimeMinutes: estimateReadingTimeFromParts(textParts),
+    } satisfies AIOverviewContent,
+    challenges: t.raw(`items.${slug}.challenges`) as string[],
+    solutions: t.raw(`items.${slug}.solutions`) as string[],
+    faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
+  };
+}
+
+export function getLocalizedPortfolioItems(t: TFunction) {
+  return portfolioMeta.map((meta) => ({
+    ...meta,
+    title: t(`hub.items.${meta.slug}.title`),
+    alt: t(`hub.items.${meta.slug}.alt`),
   }));
 }
 
@@ -139,6 +183,9 @@ export function getLocalizedCaseStudy(t: TFunction, slug: string): CaseStudy | u
   };
 
   const testimonials = t.raw(`items.${slug}.testimonials`) as CaseStudy["testimonials"];
+  const execution = t.raw(`items.${slug}.execution`) as string[] | undefined;
+  const technologies = t.raw(`items.${slug}.technologies`) as string[] | undefined;
+  const relatedServices = t.raw(`items.${slug}.relatedServices`) as string[] | undefined;
 
   return {
     slug,
@@ -148,6 +195,9 @@ export function getLocalizedCaseStudy(t: TFunction, slug: string): CaseStudy | u
     description: t(`items.${slug}.description`),
     objectives: t.raw(`items.${slug}.objectives`) as string[],
     strategy: t.raw(`items.${slug}.strategy`) as string[],
+    execution,
+    technologies,
+    relatedServices,
     budget: t(`items.${slug}.budget`),
     leads: structural.leads,
     cpl: t(`items.${slug}.cpl`),
@@ -196,29 +246,71 @@ export function getServicePageSlugs(): ServiceSlug[] {
   return [...SERVICE_SLUGS];
 }
 
-export function getLocalizedServicePage(t: TFunction, slug: string) {
-  const overviewRaw = t.raw(`items.${slug}.overview`) as Omit<AIOverviewContent, "readingTimeMinutes">;
-  const textParts = [
-    t(`items.${slug}.problem`),
-    t(`items.${slug}.solution`),
-    ...((t.raw(`items.${slug}.howItWorks`) as string[]) ?? []),
-    ...overviewRaw.benefits,
-    ...overviewRaw.takeaways,
-  ];
+export function getLocalizedServicePage(t: TFunction, slug: string, service?: Service) {
+  const hasDetail = (SERVICE_DETAIL_SLUGS as readonly string[]).includes(slug);
+
+  if (hasDetail) {
+    const overviewRaw = t.raw(`items.${slug}.overview`) as Omit<AIOverviewContent, "readingTimeMinutes">;
+    const textParts = [
+      t(`items.${slug}.problem`),
+      t(`items.${slug}.solution`),
+      ...((t.raw(`items.${slug}.howItWorks`) as string[]) ?? []),
+      ...overviewRaw.benefits,
+      ...overviewRaw.takeaways,
+    ];
+
+    return {
+      slug,
+      metaTitle: t(`items.${slug}.metaTitle`),
+      metaDescription: t(`items.${slug}.metaDescription`),
+      overview: {
+        ...overviewRaw,
+        readingTimeMinutes: estimateReadingTimeFromParts(textParts),
+      } satisfies AIOverviewContent,
+      problem: t(`items.${slug}.problem`),
+      solution: t(`items.${slug}.solution`),
+      howItWorks: t.raw(`items.${slug}.howItWorks`) as string[],
+      industries: t.raw(`items.${slug}.industries`) as string[],
+      faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
+      isGeneric: false,
+    };
+  }
+
+  const generic = t.raw("generic") as {
+    problem: string;
+    solution: string;
+    howItWorks: string[];
+    industries: string[];
+    faqs: { question: string; answer: string }[];
+  };
+
+  const serviceTitle = service?.title ?? slug;
+  const serviceDesc = service?.description ?? "";
+
+  const overview: Omit<AIOverviewContent, "readingTimeMinutes"> = {
+    what: serviceDesc,
+    who: generic.problem,
+    benefits: generic.howItWorks.slice(0, 3),
+    topics: [serviceTitle],
+    takeaways: [generic.solution],
+  };
+
+  const textParts = [overview.what, overview.who, ...overview.benefits, ...overview.takeaways];
 
   return {
     slug,
-    metaTitle: t(`items.${slug}.metaTitle`),
-    metaDescription: t(`items.${slug}.metaDescription`),
+    metaTitle: `${serviceTitle} — Mohtaoua`,
+    metaDescription: serviceDesc,
     overview: {
-      ...overviewRaw,
+      ...overview,
       readingTimeMinutes: estimateReadingTimeFromParts(textParts),
     } satisfies AIOverviewContent,
-    problem: t(`items.${slug}.problem`),
-    solution: t(`items.${slug}.solution`),
-    howItWorks: t.raw(`items.${slug}.howItWorks`) as string[],
-    industries: t.raw(`items.${slug}.industries`) as string[],
-    faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
+    problem: generic.problem,
+    solution: generic.solution,
+    howItWorks: generic.howItWorks,
+    industries: generic.industries,
+    faqs: generic.faqs,
+    isGeneric: true,
   };
 }
 
