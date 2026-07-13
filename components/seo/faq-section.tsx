@@ -41,7 +41,7 @@ export function SeoFaqSection({
             {faqs.map((faq, index) => (
               <AccordionItem key={`${faq.question}-${index}`} value={`faq-${index}`} className="last:border-0">
                 <AccordionTrigger>{faq.question}</AccordionTrigger>
-                <AccordionContent forceMount>{faq.answer}</AccordionContent>
+                <AccordionContent>{faq.answer}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
