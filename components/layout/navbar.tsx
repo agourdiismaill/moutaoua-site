@@ -42,12 +42,12 @@ export function Navbar() {
       <nav className="container-max flex h-20 items-center justify-between">
         <Link
           href="/"
-          className="flex items-center transition-transform active:scale-95"
+          className="flex shrink-0 items-center transition-transform active:scale-95"
         >
-          <BrandLogo size="md" collapsed={scrolled} />
+          <BrandLogo size="md" collapsed />
         </Link>
 
-        <ul className="hidden items-center gap-1 lg:flex">
+        <ul className="hidden min-w-0 flex-1 items-center justify-center gap-0.5 px-2 xl:flex">
           {mainNav.map((item) => {
             const active =
               item.href === "/"
@@ -71,7 +71,7 @@ export function Navbar() {
                 <Link
                   href={item.href}
                   className={cn(
-                    "relative rounded-full px-4 py-2 text-sm font-medium tracking-tight transition-colors",
+                    "relative shrink-0 whitespace-nowrap rounded-full px-3 py-2 text-sm font-medium tracking-tight transition-colors",
                     active
                       ? "text-primary"
                       : "text-muted-foreground hover:text-foreground"
@@ -91,10 +91,10 @@ export function Navbar() {
           })}
         </ul>
 
-        <div className="flex items-center gap-2">
+        <div className="flex shrink-0 items-center gap-2">
           <LocaleSwitcher className="hidden sm:flex" />
           <ThemeToggle />
-          <Button asChild size="sm" className="hidden sm:inline-flex">
+          <Button asChild size="sm" className="hidden whitespace-nowrap sm:inline-flex">
             <Link href="/contact">{t("freeAudit")}</Link>
           </Button>
           <button
@@ -102,7 +102,7 @@ export function Navbar() {
             aria-label={t("openMenu")}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="grid size-11 place-items-center rounded-full border border-border bg-card/60 lg:hidden"
+            className="grid size-11 place-items-center rounded-full border border-border bg-card/60 xl:hidden"
           >
             {open ? <X className="size-5" /> : <Menu className="size-5" />}
           </button>
@@ -116,7 +116,7 @@ export function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            className="glass-nav overflow-hidden border-b border-border lg:hidden"
+            className="glass-nav overflow-hidden border-b border-border xl:hidden"
           >
             <ul className="container-max flex flex-col gap-1 py-4">
               {mainNav.map((item) => {

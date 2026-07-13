@@ -32,7 +32,6 @@ export const mainNav = [
   { key: "caseStudies", href: "/case-studies" },
   { key: "insights", href: "/blog" },
   { key: "pricing", href: "/pricing" },
-  { key: "contact", href: "/contact" },
 ] as const;
 
 export type NavKey = (typeof mainNav)[number]["key"];

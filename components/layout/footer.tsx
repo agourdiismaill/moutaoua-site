@@ -169,6 +169,14 @@ async function FooterNavLinks() {
           </Link>
         </li>
       ))}
+      <li>
+        <Link
+          href="/contact"
+          className="text-sm text-muted-foreground transition-colors hover:text-primary"
+        >
+          {t("contact")}
+        </Link>
+      </li>
     </>
   );
 }
