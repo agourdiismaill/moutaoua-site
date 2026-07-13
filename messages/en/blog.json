@@ -2,9 +2,9 @@
   "metaTitle": "Insights — Marketing, Tech & AI",
   "metaDescription": "Mohtaoua knowledge center: marketing, development, AI, automation, branding and digital transformation.",
   "eyebrow": "Insights",
-  "title": "Digital knowledge <highlight>hub</highlight>",
+  "title": "<highlight>digital knowledge center</highlight>",
   "description": "Marketing, development, AI, automation, branding and digital transformation.",
-  "readMore": "Read article",
+  "readMore": "Read the article",
   "allCategories": "All",
   "categories": {
     "marketing": "Marketing",
@@ -16,19 +16,19 @@
     "design": "Design",
     "seo": "SEO",
     "geo": "GEO",
-    "case-studies": "Case Studies",
+    "case-studies": "Case studies",
     "acquisition": "Acquisition",
-    "publicite": "Advertising",
+    "publicite": "Advertisement",
     "conversion": "Conversion"
   },
   "author": {
-    "name": "Mohtaoua Team",
+    "name": "Team Mohtaoua",
     "role": "Premium digital agency",
-    "bio": "Experts in marketing, technology, design and automation for businesses across all industries in Morocco."
+    "bio": "Experts in marketing, technology, design and automation for companies in all sectors in Morocco."
   },
   "labels": {
     "relatedPosts": "Related articles",
-    "tableOfContents": "Table of contents",
+    "tableOfContents": "Summary",
     "published": "Published on",
     "updated": "Updated on",
     "category": "Category",
@@ -38,154 +38,174 @@
   "posts": {
     "generer-leads-centre-formation-maroc": {
       "title": "How to generate qualified leads for your business in Morocco",
-      "excerpt": "Complete strategy to attract qualified prospects: channels, budget, funnel, and KPIs to track.",
+      "excerpt": "Complete acquisition strategy: Meta Ads, Google Ads, landing pages and CRM for SMEs, startups and large accounts.",
       "category": "acquisition",
       "cover": "/logo-full.svg",
       "sections": [
         {
-          "id": "contexte",
+          "id": "context",
           "heading": "Why lead generation is critical",
           "paragraphs": [
-            "businesses in Morocco face increased competition and shorter enrollment cycles. Without a pipeline of qualified prospects, sessions start below capacity.",
-            "Lead generation is not optional: it is the most predictable growth engine for a training organization."
+            "Businesses in Morocco face increased competition and shorter sales cycles. Without a pipeline of qualified prospects, sales goals are missed.",
+            "Lead generation is not an option: it is the most predictable growth engine for a business."
           ]
         },
         {
-          "id": "canaux",
+          "id": "channels",
           "heading": "Channels that work in 2026",
           "paragraphs": [
-            "Meta Ads remains the fastest channel to create demand. Google Ads captures high-intent searches (\"training X Casablanca\"). SEO and content build long-term credibility."
+            "Meta Ads remains the fastest channel to create demand. Google Ads captures high-intent searches (“your offer + city”). SEO and content fuel long-term credibility."
           ],
           "bullets": [
             "Meta Ads: volume and speed",
             "Google Ads: high purchase intent",
             "Dedicated landing pages: conversion",
-            "CRM + automation: follow-up and closing"
+            "CRM + automation: monitoring and closing"
           ]
         },
         {
           "id": "budget",
-          "heading": "What budget should you plan for?",
+          "heading": "What budget should you plan?",
           "paragraphs": [
-            "For a center in the digital launch phase, plan for 8,000 to 25,000 MAD/month in media budget, excluding agency fees. The optimal budget depends on the offer price and target acquisition cost."
+            "For a center in the digital launch phase, count on 8,000 to 25,000 MAD/month of media budget, excluding agency fees. The optimal budget depends on the offer price and the target acquisition cost."
           ]
         },
         {
           "id": "kpis",
-          "heading": "KPIs to track",
+          "heading": "KPIs to follow",
           "paragraphs": [
-            "Don't stop at the number of leads. Track cost per lead (CPL), contact rate, appointment rate, and especially customer acquisition cost (CAC) per training program."
+            "Don’t stop at the number of leads. Monitor the cost per lead (CPL), the contact rate, the appointment rate and above all the customer acquisition cost (CAC) per offer."
           ]
         }
       ],
       "faqs": [
         {
           "question": "How many leads do you need to fill a session?",
-          "answer": "Generally 3 to 5 qualified leads per enrollment depending on your conversion rate. For 20 seats, aim for 60 to 100 qualified leads over the cycle."
+          "answer": "Generally 3 to 5 qualified leads per conversion depending on your conversion rate. For 20 places, aim for 60 to 100 qualified leads in the cycle."
         },
         {
-          "question": "Do you need to be on every channel?",
+          "question": "Do you have to be on all channels?",
           "answer": "No. Start with 1-2 mastered channels (often Meta + Google) before expanding."
         }
-      ]
+      ],
+      "overview": {
+        "what": "Complete guide to generating qualified leads via digital in Morocco, whatever your sector.",
+        "who": "Executives, marketing directors and founders of SMEs, startups and growing companies.",
+        "benefits": [
+          "Predictable lead pipeline",
+          "Multi-channel Meta + Google + SEO",
+          "Clear business KPIs"
+        ],
+        "topics": [
+          "Meta Ads",
+          "Google Ads",
+          "Landing pages",
+          "CRM"
+        ],
+        "takeaways": [
+          "Lead generation is the #1 driver of growth",
+          "Start with 1-2 mastered channels",
+          "Measure CAC, not just CPL"
+        ]
+      }
     },
     "meta-ads-vs-google-ads-formation": {
       "title": "Meta Ads vs Google Ads: which channel for your business in Morocco?",
-      "excerpt": "Objective comparison of the two advertising levers for education in Morocco.",
-      "category": "publicite",
+      "excerpt": "Objective comparison for e-commerce, services, health, real estate and B2B.",
+      "category": "marketing",
       "cover": "/logo-full.svg",
       "sections": [
         {
           "id": "meta",
           "heading": "Meta Ads: creating demand",
           "paragraphs": [
-            "Meta (Facebook & Instagram) excels at reaching audiences who are not yet actively searching for training. Ideal for launches, promotions, and brand awareness."
+            "Meta (Facebook & Instagram) excels at reaching audiences who are not yet actively looking for an offer. Ideal for launches, promotions and awareness."
           ]
         },
         {
-          "id": "google",
+          "id": "Google",
           "heading": "Google Ads: capturing demand",
           "paragraphs": [
-            "Google intercepts searches with commercial intent. Perfect for in-demand training programs (languages, IT, healthcare) with often higher short-term ROAS."
+            "Google intercepts searches with commercial intent. Perfect for sought-after Offers (languages, IT, health) with often higher ROAS in the short term."
           ]
         },
         {
           "id": "verdict",
           "heading": "Our recommendation",
           "paragraphs": [
-            "For most centers, the combination of Meta (volume) + Google (intent) over 3 months offers the best cost/quality balance."
+            "For most businesses, the combination of Meta (volume) + Google (intent) over 3 months offers the best balance of cost and quality."
           ]
         }
       ],
       "faqs": [
         {
           "question": "Which channel has the lowest CPL?",
-          "answer": "It varies by offer. Meta is often cheaper in volume; Google can be more qualified."
+          "answer": "Variable depending on the offer. Meta is often cheaper in volume; Google may be more qualified."
         }
       ]
     },
     "checklist-landing-page-formation": {
-      "title": "Checklist: high-converting landing page (2026)",
-      "excerpt": "10 essential elements to turn advertising traffic into enrollment inquiries.",
+      "title": "Checklist: landing page that converts (2026)",
+      "excerpt": "10 essential elements to transform advertising traffic into leads and sales.",
       "category": "conversion",
       "cover": "/logo-full.svg",
       "sections": [
         {
           "id": "hero",
-          "heading": "1. A clear, benefit-driven hero",
+          "heading": "1. A clear and profit-oriented hero",
           "paragraphs": [
-            "Headline = promised outcome. Subheadline = target audience. CTA visible without scrolling on mobile."
+            "Title = promised result. Subtitle = for whom. CTA visible without scrolling on mobile."
           ]
         },
         {
-          "id": "preuves",
+          "id": "evidence",
           "heading": "2. Social proof",
           "paragraphs": [
-            "Testimonials, enrollment numbers, certifications, partner logos."
+            "Testimonials, registration figures, certifications, partner logos."
           ]
         },
         {
-          "id": "formulaire",
+          "id": "form",
           "heading": "3. Short form",
           "paragraphs": [
-            "Name, phone, and email are enough in the first step. Qualify further with automation."
+            "Name, telephone, email are enough as a first step. Then qualify by automation."
           ]
         }
       ],
       "faqs": [
         {
-          "question": "Do you need one page per training program?",
-          "answer": "Yes, to align the advertising message and maximize conversion rate."
+          "question": "Is one page required per offer?",
+          "answer": "Yes, to align the advertising message and maximize the conversion rate."
         }
       ]
     },
     "whatsapp-convertir-leads-formation-maroc": {
-      "title": "WhatsApp: convert leads into customers in Morocco",
-      "excerpt": "Scripts, response times, automation, and CRM: the complete method to turn WhatsApp prospects into enrolled students without losing leads.",
-      "category": "conversion",
+      "title": "WhatsApp: convert your leads into customers in Morocco",
+      "excerpt": "Scripts, automation and CRM to transform your WhatsApp leads into sales.",
+      "category": "automation",
       "cover": "/logo-full.svg",
       "relatedServices": [
-        "marketing-automation",
+        "marketing automation",
         "crm-data"
       ],
       "overview": {
-        "what": "Expert guide on using WhatsApp to qualify, follow up, and convert leads from Meta, Google, or your website campaigns.",
-        "who": "businesses directors, sales managers, and admissions teams who receive inquiries via WhatsApp but struggle to turn them into enrollments.",
+        "what": "Complete method for converting WhatsApp leads into customers, across all sectors.",
+        "who": "Salespeople, marketing directors and executives who receive leads via WhatsApp.",
         "benefits": [
-          "Reduce first-response time to under 5 minutes",
-          "Structure a WhatsApp → appointment → enrollment funnel",
-          "Automate follow-ups without losing the human touch"
+          "Response within 5 minutes",
+          "Structured tunnel",
+          "Automation + CRM"
         ],
         "topics": [
-          "Qualification scripts",
-          "WhatsApp Business API",
-          "CRM integration",
-          "Lead conversion KPIs"
+          "WhatsApp Business",
+          "Scripts",
+          "CRM",
+          "Automation"
         ],
         "takeaways": [
-          "In Morocco, 70%+ of training leads prefer WhatsApp over email",
-          "Response speed is the #1 conversion factor",
-          "Without a CRM, you lose an average of 40% of leads during follow-up"
+          "WhatsApp is the number 1 channel in Morocco",
+          "Response speed determines conversion",
+          "CRM is essential"
         ]
       },
       "sections": [
@@ -193,480 +213,480 @@
           "id": "introduction",
           "heading": "Introduction: the missing link in your acquisition",
           "paragraphs": [
-            "You invest in Meta Ads, Google Ads, or SEO. Your landing page generates leads. Then… silence. Prospects stop replying, your team follows up too late, and enrollments never come.",
-            "In Morocco, this scenario is almost systematic among centers that treat WhatsApp as a \"personal messenger\" rather than a structured sales channel. Yet WhatsApp is the preferred contact point for most prospective learners after an information request.",
-            "This article details the method we deploy at Mohtaoua for our training clients: from the first automated response to enrollment confirmation, through qualification and CRM integration."
+            "You invest in Meta Ads, Google Ads or SEO. Your landing page generates leads. Then… silence. Prospects no longer respond, your team follows up too late, and conversions don't happen.",
+            "In Morocco, this scenario is almost systematic among companies which treat WhatsApp as “personal messaging” rather than a structured sales channel. However, WhatsApp is the preferred point of contact for the majority of future prospects after a request for information.",
+            "This article details the method that we deploy at Mohtaoua for our clients: from the first automatic response to conversion confirmation, including qualification and CRM integration."
           ]
         },
         {
-          "id": "probleme",
-          "heading": "The problem: you generate leads you don't convert",
+          "id": "issue",
+          "heading": "The problem: you generate leads that you don't convert",
           "paragraphs": [
-            "Most centers measure success by CPL (cost per lead) and stop there. Yet a 15 MAD lead that never replies costs infinitely more than a 40 MAD lead converted into an enrollment.",
-            "Recurring causes: response delay over 2 hours, generic copy-paste messages, no qualification (budget, availability, level), forgotten follow-ups in personal conversations, and no visibility for management on the pipeline."
+            "Most businesses measure success by CPL (cost per lead) and stop there. But a 15 MAD lead that never responds costs infinitely more than a 40 MAD lead converted into conversion.",
+            "Recurring causes: response time greater than 2 hours, generic copy-pasted messages, lack of qualification (budget, availability, level), reminders forgotten in personal conversations, and no management visibility on the pipeline."
           ],
           "bullets": [
-            "Leads handled on the salesperson's personal WhatsApp",
+            "Leads processed on the salesperson's personal WhatsApp",
             "No consistent qualification script",
-            "Manual follow-ups forgotten after 48h",
-            "No link between ad campaign and final enrollment"
+            "Manual reminders forgotten after 48 hours",
+            "No link between advertising campaign and final conversion"
           ]
         },
         {
           "id": "solution",
-          "heading": "The solution: a structured, measurable WhatsApp funnel",
+          "heading": "The solution: a structured and measurable WhatsApp tunnel",
           "paragraphs": [
-            "Conversion starts the moment the prospect clicks \"Send\" or leaves their number. Every minute counts: a response in under 5 minutes triples the chances of booking an appointment.",
-            "The solution is not sending more messages, but building a clear journey: immediate welcome → 3-question qualification → slot proposal → D+1/D+3 reminder → sales handoff if hot lead.",
-            "This funnel relies on WhatsApp Business (or API for high volumes), a connected CRM, and automation scenarios for standard follow-ups — while keeping human intervention for qualified leads."
+            "Conversion begins the moment the prospect clicks “Send” or leaves their number. Every minute counts: a response in less than 5 minutes increases the chances of getting an appointment by 3.",
+            "The solution is not to send more messages, but to build a clear path: immediate welcome → qualification in 3 questions → niche proposal → reminder D+1/D+3 → commercial contact if hot lead.",
+            "This funnel relies on WhatsApp Business (or API for high volumes), a connected CRM, and automation scenarios for standard follow-ups — while maintaining human intervention on qualified leads."
           ]
         },
         {
-          "id": "maroc",
-          "heading": "Why WhatsApp dominates training in Morocco",
+          "id": "Morocco",
+          "heading": "Why WhatsApp dominates in Morocco for your activity",
           "paragraphs": [
-            "In Morocco, WhatsApp far exceeds email and often phone for the first interaction after an ad. Prospects want a quick response, in Darija, French, or Arabic, with the ability to send documents (CV, diplomas) in one click.",
-            "Top-performing centers understand that WhatsApp is not an \"extra\" channel: it is often the main closing channel, especially for professional training, languages, and bootcamps where the average ticket justifies a human exchange."
+            "In Morocco, WhatsApp goes far beyond email and often telephone for the first interaction after an advertisement. Prospects want a quick response, in Darija, French or Arabic, with the possibility of sending documents (CV, diplomas) in one click.",
+            "The companies that perform best have understood that WhatsApp is not an “extra” channel: it is often the main closing channel, especially for high-ticket offers, languages, and bootcamps whose average ticket justifies a human exchange."
           ]
         },
         {
-          "id": "etapes",
-          "heading": "Step by step: setting up your WhatsApp funnel",
+          "id": "steps",
+          "heading": "Step by step: set up your WhatsApp tunnel",
           "paragraphs": [
-            "Here are the six steps we recommend to any center starting out or looking to professionalize its WhatsApp flow."
+            "Here are the six steps we recommend to any center that is starting or wants to professionalize its WhatsApp flow."
           ],
           "bullets": [
-            "Step 1 — Centralize: a dedicated WhatsApp Business number (not the owner's personal one)",
-            "Step 2 — Auto welcome: welcome message in under 60 seconds with callback promise",
-            "Step 3 — Qualification: 3 questions (target training, city, enrollment timeline)",
-            "Step 4 — Appointment booking: Calendly link or slots offered directly in chat",
-            "Step 5 — D+1, D+3, D+7 follow-ups if no reply (short messages, no spam)",
-            "Step 6 — CRM closure: status \"enrolled\", \"lost\", \"to recontact\" with reason"
+            "Step 1 — Centralize: a dedicated WhatsApp Business number (not the manager’s personal)",
+            "Step 2 — Auto-welcome: welcome message in less than 60 seconds with promise to call back",
+            "Step 3 — Qualification: 3 questions (target offer, city, conversion deadline)",
+            "Step 4 — Make an appointment: Calendly link or slots offered directly in the chat",
+            "Step 5 — Reminders D+1, D+3, D+7 if no response (short messages, not spam)",
+            "Step 6 — CRM closure: status “registered”, “lost”, “to be contacted again” with reason"
           ]
         },
         {
           "id": "scripts",
           "heading": "Message scripts that convert",
           "paragraphs": [
-            "A good WhatsApp script is short, personalized, and focused on a single action. Avoid long blocks copied from your sales brochure.",
-            "Welcome example: \"Hello [First name], thank you for your interest in [Training] at [Center]. I'm [Advisor name]. Do you have 2 minutes for 3 quick questions so I can guide you to the next session?\"",
-            "D+3 follow-up example: \"Hello [First name], following up on [Training]. The next session starts on [Date] — [X] spots left. Would you like a 10-min call to discuss?\""
+            "A good WhatsApp script is short, personalized and oriented towards a single action. Avoid blocks of text copied from your commercial brochure.",
+            "Example of greeting: “Hello [First name], thank you for your interest in [Training] at [Centre]. I am [First name advisor]. Do you have 2 minutes for me to ask you 3 quick questions and direct you to the next session? »",
+            "Example of follow-up D+3: “Hello [First name], I would like to get back to you regarding [Training]. The next session starts on [Date] — there are [X] places left. Would you like a 10 minute call to discuss this? »"
           ]
         },
         {
           "id": "automation",
           "heading": "Automation: what to automate (and what to keep human)",
           "paragraphs": [
-            "Automate welcome, standard follow-ups, appointment reminders, and post-visit messages. Keep negotiation, price objections, and enrollment closing human.",
-            "Tools like Make, Zapier, HubSpot, or local solutions connect your Meta/Google form → CRM → WhatsApp. Goal: zero leads without a first response, even outside business hours (auto message + callback promise next day at 9am)."
+            "Automate the welcome, standard reminders, appointment reminders and post-visit messages. Keep the negotiation, price objections, and conclusion of conversion human.",
+            "Tools like Make, Zapier, HubSpot or local solutions allow you to connect your Meta/Google → CRM → WhatsApp form. The objective: zero leads without a first response, even outside of business hours (auto message + promise to call back the next day at 9 a.m.)."
           ]
         },
         {
           "id": "crm",
-          "heading": "Integrating WhatsApp with your CRM",
+          "heading": "Integrate WhatsApp into your CRM",
           "paragraphs": [
-            "Without a CRM, you cannot know which lead came from which campaign, which salesperson followed up, or your real lead → enrollment conversion rate. This is the blind spot for most centers in Morocco.",
-            "A well-configured CRM shows: source (Meta, Google, organic), lead date, WhatsApp history, status (new, contacted, appointment, enrolled, lost), and owner. You can then calculate real CAC per channel and optimize ad budgets accordingly."
+            "Without CRM, it is impossible to know which lead comes from which campaign, which salesperson followed up, or what your real lead → conversion rate is. This is the blind spot of most businesses in Morocco.",
+            "A well-configured CRM displays: source (Meta, Google, organic), lead date, WhatsApp history, status (new, contacted, appointment, registered, lost), and responsible. You can then calculate an actual CAC per channel and optimize your advertising budgets accordingly."
           ]
         },
         {
-          "id": "bonnes-pratiques",
-          "heading": "Best practices from top-converting centers",
+          "id": "good practices",
+          "heading": "Best practices from centers that convert best",
           "paragraphs": [
-            "Centers with the best WhatsApp conversion rates share common habits, regardless of sector (languages, IT, healthcare, management)."
+            "The centers with the best WhatsApp conversion rates share common habits, regardless of their sector (languages, IT, health, management)."
           ],
           "bullets": [
-            "Median response under 5 minutes during business hours",
-            "One pro WhatsApp number displayed everywhere (site, ads, signature)",
-            "Validated scripts adapted to each advisor's tone",
-            "Systematic follow-up at D+1, D+3, D+7 then archive",
-            "Appointment confirmed the day before with video link or address",
-            "Weekly management feedback: leads, appointments, enrollments, CAC"
+            "Median response within 5 minutes in business hours",
+            "A single WhatsApp pro number displayed everywhere (site, ads, signature)",
+            "Scripts validated but adapted to the tone of each advisor",
+            "Systematic reminder on D+1, D+3, D+7 then archiving",
+            "Appointment confirmed by message the day before with video link or address",
+            "Weekly management feedback: leads, appointments, conversions, CAC"
           ]
         },
         {
-          "id": "erreurs",
+          "id": "errors",
           "heading": "Common mistakes to avoid",
           "paragraphs": [
-            "These mistakes cost dearly in lost leads. We see them every week during our free audits."
+            "These errors cost a lot of money in lost leads. We see them every week during our free audits."
           ],
           "bullets": [
-            "Replying 24h later with \"Sorry for the delay\" — the prospect is already with a competitor",
-            "Sending the PDF brochure without a qualification question",
-            "Using personal WhatsApp with no backup or handoff",
-            "Spamming 5 messages in a row with no reply",
-            "Not tracking lead source in the CRM",
-            "Confusing \"seen\" with \"handled\" — a read message with no reply = cold lead"
+            "Reply 24 hours later “Sorry for the delay” — the prospect is already with the competitor",
+            "Send the PDF brochure without asking a qualifying question",
+            "Use personal WhatsApp without backup or transfer",
+            "Spam 5 messages in a row if no response",
+            "Do not track the source of the lead in the CRM",
+            "Confusing “seen” and “processed” — a message read without a response = cold lead"
           ]
         },
         {
           "id": "kpis",
-          "heading": "KPIs to track every week",
+          "heading": "KPIs to follow each week",
           "paragraphs": [
-            "Measure what matters for conversion, not just message volume."
+            "Measure what matters for conversion, not just the volume of messages sent."
           ],
           "bullets": [
-            "Median first-response time",
-            "Contact rate (leads who replied at least once)",
-            "Appointment rate / contacted leads",
-            "Enrollment rate / completed appointments",
-            "CAC per channel (Meta, Google, organic)",
-            "Loss reason (price, timing, competition, no reply)"
+            "Median first response time",
+            "Contact rate (leads having responded at least once)",
+            "Rate of appointments made / leads contacted",
+            "Conversion rate / appointments made",
+            "CAC by channel (Meta, Google, organic)",
+            "Reason for loss (price, timing, competition, no response)"
           ]
         },
         {
           "id": "conclusion",
           "heading": "Conclusion: WhatsApp is your closing room",
           "paragraphs": [
-            "Generating leads without structuring WhatsApp is like filling a leaky tank. In Morocco, conversion happens in the conversation — speed, clarity, follow-up.",
-            "Start with a pro number, a welcome script, three automated follow-ups, and a minimal CRM. Then refine with automation and advisor training.",
-            "Need an audit of your current funnel? Our team analyzes your leads → WhatsApp → enrollment flow and delivers a concrete action plan within 24h."
+            "Generating leads without structuring WhatsApp is like filling a leaky tank. In Morocco, conversion is played out in conversation — speed, clarity, follow-up.",
+            "Start with a professional number, a welcome script, three automatic follow-ups and a minimal CRM. Then refine with automation and the increase in the skills of your advisors.",
+            "Need an audit of your current tunnel? Our team analyzes your lead → WhatsApp → conversion flow and provides you with a concrete action plan within 24 hours."
           ]
         }
       ],
       "faqs": [
         {
-          "question": "Do you need WhatsApp Business or the WhatsApp API?",
-          "answer": "WhatsApp Business is enough up to ~50 leads/week with 2-3 advisors. Beyond that, or to connect to CRM and automate at scale, the API via a partner (Twilio, 360dialog, etc.) becomes necessary."
+          "question": "Should you use WhatsApp Business or the WhatsApp API?",
+          "answer": "WhatsApp Business is sufficient for up to ~50 leads/week with 2-3 advisors. Beyond that, or to connect to the CRM and automate on a large scale, the API via a partner (Twilio, 360dialog, etc.) becomes necessary."
         },
         {
           "question": "What response time should you aim for?",
-          "answer": "Under 5 minutes during business hours. Outside hours, an immediate auto message + promised callback the next morning maintains engagement."
+          "answer": "Less than 5 minutes during business hours. Outside of hours, an immediate auto message + promised reminder the next morning maintains the commitment."
         },
         {
-          "question": "How many follow-ups before giving up on a lead?",
-          "answer": "Three spaced follow-ups (D+1, D+3, D+7) is the standard. Beyond that, archive as \"to recontact\" for a monthly reactivation campaign."
+          "question": "How many follow-ups before abandoning a lead?",
+          "answer": "Three restarts spaced apart (D+1, D+3, D+7) is the standard. Beyond that, archive in “to contact again” for a monthly reactivation campaign."
         },
         {
-          "question": "Can you send messages in Darija?",
-          "answer": "Yes, and it is often more effective for first contact. Adapt tone to your audience: Darija, French, or Arabic depending on profile."
+          "question": "Can we send messages in Darija?",
+          "answer": "Yes, and it is often more effective for the first contact. Adapt the tone to your audience: Darija, French or Arabic depending on the profile."
         },
         {
-          "question": "How do you link WhatsApp to Meta Ads?",
-          "answer": "Use Lead Ads forms with a phone field, or a WhatsApp button on the landing page. Connect the flow to your CRM via Zapier/Make to centralize leads."
+          "question": "How to link WhatsApp to Meta Ads?",
+          "answer": "Use Lead Ads forms with a telephone field, or a WhatsApp button on the landing. Connect the flow to your CRM via Zapier/Make to centralize leads."
         },
         {
-          "question": "What lead → enrollment conversion rate is realistic?",
-          "answer": "Between 8% and 25% depending on price, seasonality, and follow-up quality. With an optimized WhatsApp funnel, +5 conversion points is an achievable goal in 60 days."
+          "question": "What lead → conversion rate is realistic?",
+          "answer": "Between 8% and 25% depending on price, seasonality and quality of monitoring. With an optimized WhatsApp funnel, +5 conversion points is an achievable goal in 60 days."
         },
         {
-          "question": "Doesn't automation feel robotic?",
-          "answer": "Welcome and follow-ups can be automated while staying personalized (first name, training). The closing phase remains human."
+          "question": "Doesn’t automation make you “robot”?",
+          "answer": "Welcome and reminders can be automated while remaining personalized (first name, offer). The closing phase remains human."
         },
         {
-          "question": "Can Mohtaoua set up this funnel?",
-          "answer": "Yes. We integrate CRM, automation, and WhatsApp scripts in our Performance and Premium packs. Request a free audit to assess your current situation."
+          "question": "Can Mohtaoua set up this tunnel?",
+          "answer": "Yes. We integrate CRM, automation and WhatsApp scripts into our Performance and Premium packs. Request a free audit to assess your current situation."
         }
       ]
     },
     "budget-marketing-centre-formation-maroc": {
       "title": "Digital marketing budget: how much to invest in Morocco?",
-      "excerpt": "Realistic MAD ranges, Meta/Google split, target CPL, and a method to calculate acquisition budget without waste.",
-      "category": "acquisition",
+      "excerpt": "Realistic ranges for SMEs and businesses: ads, content, web and tools.",
+      "category": "business",
       "cover": "/logo-full.svg",
       "relatedServices": [
         "meta-ads",
-        "google-ads",
-        "landing-pages"
+        "google ads",
+        "landing pages"
       ],
       "overview": {
-        "what": "A numbers-driven guide to define marketing budget for businesses in Morocco: media, production, tools, and agency fees.",
-        "who": "businesses directors and marketing managers launching or optimizing digital acquisition.",
+        "what": "Quantified guide to define the marketing budget of a company in Morocco: media, production, tools and agency services.",
+        "who": "Center directors, marketing managers or managers who launch or optimize their digital acquisition.",
         "benefits": [
           "2026 budget ranges adapted to the Moroccan market",
-          "CPL → CAC → monthly budget calculation method",
-          "Optimal Meta Ads vs Google Ads allocation"
+          "CPL calculation method → ​​CAC → monthly budget",
+          "Optimal distribution Meta Ads vs Google Ads"
         ],
         "topics": [
-          "Training media budget",
+          "Media budget",
           "CPL and CAC",
-          "Meta Ads vs Google Ads",
-          "Enrollment seasonality"
+          "Meta Ads vs. Google Ads",
+          "Seasonality conversions"
         ],
         "takeaways": [
-          "Plan 8,000 to 25,000 MAD/month media to launch an offer",
-          "CPL alone is not enough — track cost per enrollment",
-          "70/30 Meta/Google is a solid starting split, adjust with data"
+          "Allow 8,000 to 25,000 MAD/month of media to start an offer",
+          "CPL alone is not enough: track cost per conversion",
+          "70/30 Meta/Google is a good starting point, to be adjusted by data"
         ]
       },
       "sections": [
         {
           "id": "introduction",
-          "heading": "Introduction: why marketing budget feels scary (but shouldn't)",
+          "heading": "Introduction: why the marketing budget is scary (wrongly)",
           "paragraphs": [
-            "« How much should I spend on ads? » is the first question we hear in audits. The better question: what does an enrollment cost, and how many do you need to fill sessions?",
-            "In Morocco, under-investing centers stagnate; over-investing without tracking burns cash. This article gives concrete ranges and a repeatable calculation method."
+            "“How much should I spend on advertising? » is the first question during an audit. The right question is: how much does a conversion cost, and how many do you need to achieve your business goals?"
           ]
         },
         {
-          "id": "postes",
-          "heading": "The 4 budget lines to separate",
+          "id": "positions",
+          "heading": "The 4 budget items to distinguish",
           "paragraphs": [
-            "Confusing media budget with total budget is mistake #1. Here is the breakdown we use at Mohtaoua."
+            "Confusing media budget and total budget is mistake #1. Here is the breakdown that we use at Mohtaoua."
           ],
           "bullets": [
-            "Media budget: Meta Ads, Google Ads, TikTok — paid to platforms",
-            "Production: video creatives, photos, landing pages",
+            "Media budget: Meta Ads, Google Ads, TikTok — paid to the platforms",
+            "Production: creative videos, photos, landing pages",
             "Tools: CRM, automation, tracking, landing hosting",
-            "Agency fees: strategy, management, optimization, reporting"
+            "Agency service: strategy, management, optimization, reporting"
           ]
         },
         {
-          "id": "fourchettes",
-          "heading": "Realistic ranges in Morocco in 2026",
+          "id": "forks",
+          "heading": "Realistic ranges for Morocco in 2026",
           "paragraphs": [
-            "These figures are monthly media budget, excluding agency fees, for a center with 1–3 active training programs."
+            "These figures concern the monthly media budget, excluding agency fees, for a center with 1 to 3 active offers."
           ],
           "bullets": [
             "Launch / test: 8,000 – 12,000 MAD/month",
             "Growth: 15,000 – 25,000 MAD/month",
             "Multi-city or multi-offer scale: 30,000 – 80,000 MAD/month",
-            "Typical pro training CPL: 25 – 80 MAD depending on niche and city"
+            "Typical pro CPL: 25 – 80 MAD depending on niche and city"
           ]
         },
         {
-          "id": "calcul",
-          "heading": "Calculation method: from enrollment to budget",
+          "id": "calculation",
+          "heading": "The calculation method: from conversion to budget",
           "paragraphs": [
-            "Start from your commercial goal, not available cash.",
-            "Example: 20 enrollments × 3 months = 60 enrollments. Lead → enrollment rate: 15%. You need ~400 qualified leads. Target CPL: 40 MAD → media budget ≈ 16,000 MAD/month over 3 months."
+            "Start from your business objective, not the available budget.",
+            "Example: 20 conversions × 3 months = 60 conversions. Lead → conversion rate: 15%. You need ~400 qualified leads. Target CPL: 40 MAD → media budget ≈ 16,000 MAD/month over 3 months."
           ]
         },
         {
-          "id": "repartition",
-          "heading": "How to split Meta Ads and Google Ads",
+          "id": "distribution",
+          "heading": "How to split between Meta Ads and Google Ads",
           "paragraphs": [
-            "Split depends on maturity and existing demand for your offer."
+            "The distribution depends on your maturity and the existing demand for your offer."
           ],
           "bullets": [
             "Launch phase: 70% Meta / 30% Google — create demand",
             "Mature offer (languages, IT): 50/50 or 40% Meta / 60% Google",
-            "Monthly reallocation based on CPL and conversion by channel",
-            "Always reserve 10–15% for creative testing"
+            "Monthly reallocation according to CPL and conversion rate per channel",
+            "Always reserve 10–15% of the budget for creative testing"
           ]
         },
         {
-          "id": "erreurs",
-          "heading": "Budget mistakes that cost dearly",
+          "id": "errors",
+          "heading": "Costly budgeting mistakes",
           "paragraphs": [
-            "These traps appear in 8 out of 10 audits."
+            "These pitfalls appear in 8 out of 10 audits."
           ],
           "bullets": [
-            "Stopping campaigns before 14 days of algorithm learning",
-            "Comparing CPL without looking at lead quality",
-            "Forgetting creative production cost in total calculation",
-            "Increasing budget 300% at once (resets learning phase)",
-            "Not tracking enrollments back to ad source"
+            "Stop campaigns before 14 days of algorithmic learning",
+            "Compare CPL without looking at lead quality",
+            "Forgetting the cost of creative production in the overall calculation",
+            "Increase the budget by 300% at once (reset learning phase)",
+            "Do not track conversions back to the advertising source"
           ]
         },
         {
-          "id": "saisonnalite",
-          "heading": "Enrollment seasonality in Morocco",
+          "id": "seasonality",
+          "heading": "Seasonality of conversions in Morocco",
           "paragraphs": [
-            "Anticipate peaks (September, January, pre-summer) to optimize ROAS. Increase budget 4–6 weeks before enrollment opens, not the day before."
+            "Anticipating peaks (September, January, pre-summer launch) allows ROAS to be optimized. Set up the budget 4–6 weeks before the conversions open date, not the day before."
           ]
         },
         {
           "id": "conclusion",
-          "heading": "Conclusion: invest with method, not gut feeling",
+          "heading": "Conclusion: invest methodically, not by feeling",
           "paragraphs": [
-            "Training marketing budget is not an expense: it's a measurable enrollment lever. Set target CAC, calculate required lead volume, test for 90 days, then scale what converts.",
-            "Our team offers a free budget audit: offer analysis, CPL/CAC simulation, and Meta/Google allocation recommendation."
+            "A marketing budget is not an expense: it is a measurable conversion lever. Set your target CAC, calculate the volume of leads needed, test over 90 days, then scale what converts.",
+            "Our team carries out a free budget audit: analysis of your offer, CPL/CAC simulation and Meta/Google distribution recommendation."
           ]
         }
       ],
       "faqs": [
         {
-          "question": "What minimum budget to test Meta Ads?",
-          "answer": "8,000 MAD/month media in one area (e.g. Casablanca) and one offer, for 60–90 days, to get usable data."
+          "question": "What is the minimum budget for testing Meta Ads?",
+          "answer": "8,000 MAD/month of media in an area (e.g. Casablanca) and an offer, for 60 to 90 days, to obtain usable data."
         },
         {
-          "question": "Should agency fees be included in media budget?",
-          "answer": "No. Media budget goes to platforms. Agency fees are separate, often 15–25% of media or a monthly flat fee."
+          "question": "Should agency fees be included in the media budget?",
+          "answer": "No. The media budget goes to the platforms. Agency fees are a separate item, often 15–25% of the media or monthly fee."
         },
         {
-          "question": "What CPL is considered good in Morocco?",
-          "answer": "Between 25 and 55 MAD for well-targeted professional training. Above 80 MAD, check targeting, creatives, and landing page."
+          "question": "Which CPL is considered good in Morocco?",
+          "answer": "Between 25 and 55 MAD for a well-targeted professional offer. Beyond 80 MAD, check targeting, creative and landing page."
         },
         {
-          "question": "Can you start with less than 8,000 MAD/month?",
-          "answer": "Possible for a very local niche, but volumes will be low and Meta/Google learning will be slow. Better to focus on one offer and one city."
+          "question": "Can we start with less than 8,000 MAD/month?",
+          "answer": "Possible for a very localized niche, but volumes will be low and Meta/Google learning will be slow. Better to focus on one offer and one city."
         },
         {
-          "question": "How does Mohtaoua structure pricing packs?",
-          "answer": "Our Start, Performance, and Premium packs include management, creation, and reporting. Media budget remains yours and is managed with you. See /pricing."
+          "question": "How does Mohtaoua structure its price packs?",
+          "answer": "Our Start, Performance and Premium packs include management, creation and reporting. The media budget remains your responsibility and is managed with you. See /pricing."
         },
         {
-          "question": "When to increase budget?",
-          "answer": "When CPL is stable, lead → appointment rate > 30%, and CAC stays below your target margin for 2 consecutive weeks."
+          "question": "When to increase the budget?",
+          "answer": "When the CPL is stable, the lead rate → RDV > 30% and the CAC remains below your target margin for 2 consecutive weeks."
         }
       ]
     },
     "campagne-inscriptions-rentree-formation-maroc": {
-      "title": "Launch a high-performing digital acquisition campaign",
-      "excerpt": "July–September calendar, Meta/Google structure, early-bird offers, and action plan to maximize seasonal launch enrollments.",
-      "category": "acquisition",
+      "title": "Launch a successful digital acquisition campaign",
+      "excerpt": "Calendar, creative, budget and optimization for your product or seasonal launches.",
+      "category": "marketing",
       "cover": "/logo-full.svg",
       "relatedServices": [
         "meta-ads",
-        "google-ads",
-        "landing-pages",
-        "marketing-automation"
+        "google ads",
+        "landing pages",
+        "marketing automation"
       ],
       "overview": {
-        "what": "Operational plan to launch and manage a September seasonal launch enrollment campaign for businesses in Morocco.",
-        "who": "Directors and marketing managers preparing September or January intake who need to fill sessions on time.",
+        "what": "Operational plan to launch and manage a seasonal digital acquisition campaign in Morocco (product launch, promotion, peak demand).",
+        "who": "Marketing directors and managers who are preparing for a commercial peak (September, January, Ramadan, sales) and must achieve their objectives on time.",
         "benefits": [
-          "Week-by-week calendar (July → September)",
-          "Meta Ads and Google Ads campaign structure adapted to seasonality",
-          "Offer scripts, landing page, and WhatsApp follow-ups ready to deploy"
+          "Week by week calendar",
+          "Meta Ads and Google Ads structure adapted to seasonality",
+          "Offer scripts, landing pages and WhatsApp reminders ready to deploy"
         ],
         "topics": [
-          "Training seasonal launch Morocco",
-          "Enrollment seasonality",
-          "Meta Ads seasonal launch",
-          "Google Ads seasonal launch",
-          "Early-bird and urgency"
+          "Seasonal launch",
+          "Meta Ads",
+          "Google Ads",
+          "Landing page",
+          "WhatsApp",
+          "CRO"
         ],
         "takeaways": [
-          "Launch campaigns 6 weeks before enrollment opens, not the day before",
-          "Prepare 3 creative angles: career project, seat urgency, social proof",
-          "Increase budget 30–50% in August, then switch to retargeting in September"
+          "Anticipate 6 to 8 weeks before the peak",
+          "Test creatives and offers in advance",
+          "Measure CAC, not just lead volume"
         ]
       },
       "sections": [
         {
           "id": "introduction",
-          "heading": "Introduction: seasonal launch is won in July–August",
+          "heading": "Introduction: a seasonal launch is prepared 6 to 8 weeks before the peak",
           "paragraphs": [
-            "Every year, the same centers call in late August: « We only have 40% of seats filled, what do we do? » The answer is almost always the same: it's too late to build an acquisition machine. The September intake is prepared from July.",
-            "In Morocco, training demand surges between mid-August and mid-September: career changers, recent graduates, employees waiting for promotion. Those who capture this window with structured campaigns fill their sessions. Others burn budget in panic mode, with CPL 2× higher."
+            "Every year, companies contact us too late: commercial objectives far from being achieved, budget to be burned urgently. A successful seasonal launch is being prepared from July for a peak in September — or earlier depending on your sector (sales, Ramadan, back-to-school).",
+            "In Morocco, digital demand is exploding over predictable windows. Those who structure their Meta, Google and WhatsApp campaigns convert with a controlled CAC. Others pay 2x more per lead."
           ]
         },
         {
-          "id": "calendrier",
+          "id": "calendar",
           "heading": "The ideal calendar: July → September",
           "paragraphs": [
-            "Here is the schedule we apply at Mohtaoua for our businesses clients."
+            "Here is the schedule that we apply at Mohtaoua for our business clients in Morocco."
           ],
           "bullets": [
-            "July (W1–W2): offer audit, seasonal launch landing page, video creatives, enrollment tracking",
-            "July (W3–W4): launch test Meta + Google campaigns, moderate budget (60% of peak)",
-            "August (W1–W2): scale winning audiences, +30% budget, launch early-bird offer",
-            "August (W3–W4): intensify, retarget visitors, WhatsApp campaigns on warm leads",
-            "September (W1): urgency « last seats », aggressive retargeting, advisor follow-ups",
-            "September (W2+): shift acquisition → nurturing on waitlist for next session"
+            "July (H1–H2): offer audit, dedicated landing page, video creatives, tracking conversions",
+            "July (S3–S4): launch of Meta + Google test campaigns, moderate budget (60% of peak)",
+            "August (S1–S2): scale of winning audiences, +30% budget, launch of early-bird offer",
+            "August (W3–S4): intensification, visitor retargeting, WhatsApp campaigns on lukewarm leads",
+            "September (S1): “last places” emergency, aggressive retargeting, advisor reminders",
+            "September (S2+): acquisition switch → nurturing on waiting list next wave"
           ]
         },
         {
-          "id": "offre",
-          "heading": "Structuring the seasonal launch offer that converts",
+          "id": "offer",
+          "heading": "Structuring the seasonal offer that converts",
           "paragraphs": [
-            "A seasonal launch campaign doesn't sell a training program: it sells a session with a date, limited seats, and a concrete benefit.",
-            "Top-performing messages in Morocco combine clarity on outcomes (job, certification, salary) and reduced friction (installments, evening sessions, in-person + online)."
+            "A seasonal campaign does not sell a generic offer: it sells an opportunity limited in time with a clear benefit (promo, places, certification, delivery before date).",
+            "Messages that work combine gentle urgency, social proof and friction reduction (installment payments, guarantees, bonuses)."
           ],
           "bullets": [
-            "Early-bird: -10 to -15% or waived registration fees until a fixed date",
-            "Real urgency: limited seats per session (show the number, not « almost full »)",
-            "Social proof: alumni video testimonials, placement rate, partner company logos",
-            "Single CTA: « Reserve my seasonal launch seat » instead of « Learn more »"
+            "Early bird: -10 to -15% or free handling fees until a fixed date",
+            "Real emergency: stock or limited places (show the figure, not “soon full”)",
+            "Social proof: video testimonials from alumni, insertion rate, partner company logos",
+            "Unique CTA: “Take advantage of the offer” rather than “Learn more”"
           ]
         },
         {
           "id": "meta-ads",
-          "heading": "Meta Ads: seasonal launch campaign structure",
+          "heading": "Meta Ads: seasonal campaign structure",
           "paragraphs": [
-            "On Meta, seasonal launch is a period when cold audiences are receptive. Structure in 3 separate campaigns to control budget."
+            "On Meta, the seasonal launch is a receptive cold audience period. Structure into 3 distinct campaigns to keep budget control."
           ],
           "bullets": [
-            "Campaign 1 — Prospecting: Advantage+ or CBO, 3–5 creatives (15–30s video, testimonial carousel)",
-            "Campaign 2 — Retargeting: landing visitors 7/14/30 days, Facebook/Instagram page engagement",
-            "Campaign 3 — Warm leads: 1–3% lookalike on last year's enrollments or converted clients",
-            "Targeting: 22–45 years, training + target job interests, city geo + 25 km",
-            "Budget: start 150–250 MAD/day per offer, scale to 400–600 MAD/day in August peak"
+            "Campaign 1 — Prospecting: Advantage+ or CBO, 3–5 creatives (15–30 s video, testimonials carousel)",
+            "Campaign 2 — Retargeting: visitors landing 7/14/30 days, Facebook/Instagram page engagement",
+            "Campaign 3 — Hot leads: lookalike 1–3% on N-1 customers or converted customers",
+            "Targeting: 22–45 years old, business interests + target professions, geo city + 25 km",
+            "Budget: start at 150–250 MAD/day per offer, increase to 400–600 MAD/day in peak August"
           ]
         },
         {
-          "id": "google-ads",
-          "heading": "Google Ads: capture search intent",
+          "id": "google ads",
+          "heading": "Google Ads: capturing search intent",
           "paragraphs": [
-            "During seasonal launch, Google Ads becomes strategic: prospects search « training [job] Casablanca », « September enrollment [field] ». Don't let competitors take those clicks."
+            "In seasonal launch, Google Ads becomes strategic: prospects type “offer [business] Casablanca”, “conversion seasonal launch [domain]”. Don't leave those clicks to your competitors."
           ],
           "bullets": [
-            "Search campaigns: transactional keywords (enrollment, price, seasonal launch, September session)",
-            "Performance Max: with seasonal launch assets + feed if multi-program catalog",
-            "RSA ads: mention start date, early-bird, city, certification",
-            "Extensions: sitelinks (program, testimonials, contact), call, location",
-            "Bidding: Target CPA once 30+ conversions/month, otherwise capped Maximize Conversions"
+            "Search campaigns: transactional keywords (conversion, price, seasonal launch, September session)",
+            "Performance Max campaigns: with seasonal launch assets + feed if multi-offer catalog",
+            "RSA announcements: mention start date, early-bird, city, certification",
+            "Extensions: additional links (program, testimonials, contact), call, location",
+            "Auctions: Target CPA once 30+ conversions/month, otherwise Maximize Conversions capped"
           ]
         },
         {
           "id": "conversion",
-          "heading": "Landing page, WhatsApp, and follow-ups",
+          "heading": "Landing page, WhatsApp and reminders",
           "paragraphs": [
-            "seasonal launch traffic is expensive. Every non-converting visitor must enter a follow-up funnel.",
-            "Your seasonal launch landing page should show session date, remaining seats (even approximate), 5-point program, and a short form (name, phone, training)."
+            "Seasonal traffic is expensive. Each unconverted visitor must enter a follow-up funnel.",
+            "Your landing page must display the deadline, the stock or remaining places, the 5-point offer and a short form (name, telephone, offer)."
           ],
           "bullets": [
-            "WhatsApp: reply < 5 min, welcome script with session date + deposit payment link",
-            "Follow-up D+1, D+3, D+7 on non-converted leads (automation or CRM)",
-            "Retargeting: « Your seasonal launch seat awaits » ad with countdown",
-            "Tracking: Meta pixel + Google conversions + CRM enrollment event"
+            "WhatsApp: response < 5 min, welcome script with offer date + deposit payment link",
+            "Follow-up D+1, D+3, D+7 on unconverted leads (automation or CRM)",
+            "Retargeting: “Your limited offer is waiting for you” ad with countdown",
+            "Tracking: Meta pixel + Google conversions + CRM conversion event"
           ]
         },
         {
-          "id": "erreurs",
-          "heading": "5 mistakes that ruin seasonal launch",
+          "id": "errors",
+          "heading": "5 mistakes that cause you to miss the seasonal launch",
           "paragraphs": [
-            "These mistakes come back every year in our pre-seasonal launch audits."
+            "These errors recur every year in our pre-launch audits."
           ],
           "bullets": [
-            "Waiting until September to launch campaigns (CPL ×2, maximum sales pressure)",
-            "One creative for 6 weeks (audience fatigue, CTR drop)",
-            "Generic landing page without « September seasonal launch » mention",
+            "Wait until September to launch campaigns (CPL ×2, maximum commercial pressure)",
+            "A single creative for 6 weeks (audience fatigue, drop in CTR)",
+            "Generic landing page without mention of “September launch”",
             "No retargeting: 97% of visitors leave without converting",
-            "Understaffed sales team in August (untreated leads = wasted budget)"
+            "Undersized sales team in August (unprocessed leads = wasted budget)"
           ]
         },
         {
           "id": "conclusion",
           "heading": "Conclusion: anticipate, structure, scale",
           "paragraphs": [
-            "seasonal launch isn't a surprise: it's a predictable peak. Centers that plan in July, test in August, and intensify in September fill sessions with controlled CAC.",
-            "Need a turnkey seasonal launch plan? Our team audits your offer, structures Meta/Google campaigns, optimizes your landing page, and configures WhatsApp follow-ups — delivered within 7 days."
+            "A seasonal peak is expected. Plan in advance, test in quiet times, intensify at the right time.",
+            "Need a turnkey plan? Our team structures your Meta/Google campaigns, optimizes your landing and configures your WhatsApp reminders."
           ]
         }
       ],
       "faqs": [
         {
-          "question": "When to launch September seasonal launch campaigns?",
-          "answer": "Ideally mid-July for tests, scale mid-August. Minimum: early August with aggressive budget and early-bird offer."
+          "question": "When to launch seasonal campaigns in September?",
+          "answer": "Ideally mid-July for testing, scale mid-August. Minimum: early August with aggressive budget and early-bird offer."
         },
         {
-          "question": "What media budget for a seasonal launch campaign?",
-          "answer": "15,000 to 30,000 MAD/month in July–August for one main offer in a single city. Multiply by number of active offers."
+          "question": "What media budget for a seasonal campaign?",
+          "answer": "15,000 to 30,000 MAD/month in July–August for a main offer in a single city. Multiply by the number of active offers."
         },
         {
-          "question": "Meta Ads or Google Ads priority for seasonal launch?",
-          "answer": "Meta to create demand and reach undecided prospects. Google to capture active search. Start 65/35 Meta/Google, adjust by CPL and conversion rate."
+          "question": "Meta Ads or Google Ads as a priority for the seasonal launch?",
+          "answer": "Meta to create demand and reach the undecided. Google to capture active search. Start 65/35 Meta/Google, adjust according to CPL and conversion rate."
         },
         {
-          "question": "Do you need a dedicated seasonal launch landing page?",
-          "answer": "Yes. A specific page with date, seats, early-bird, and testimonials converts 2–3× better than a generic training page."
+          "question": "Is there a need for a dedicated seasonal launch landing page?",
+          "answer": "Yes. A specific page with date, stock/places, early-bird and testimonials converts 2 to 3x better than a generic page."
         },
         {
-          "question": "How to handle leads who don't convert before September?",
-          "answer": "Automated follow-ups, retargeting, then shift to waitlist for October or January session. Don't discard leads: seasonal launch lasts 6 weeks."
+          "question": "How to manage leads that don't convert before September?",
+          "answer": "Automated reminders, retargeting, then switching to the waiting list for the October or January session. Don't throw away leads: the seasonal launch lasts 6 weeks."
         },
         {
-          "question": "Can Mohtaoua manage our seasonal launch campaign?",
-          "answer": "Yes. We offer a seasonal launch pack: strategy, creation, Meta/Google management, landing page, and WhatsApp automation. Request a free audit at /contact."
+          "question": "Can Mohtaoua manage our seasonal campaign?",
+          "answer": "Yes. We offer a seasonal launch pack: strategy, creation, Meta/Google management, landing page and WhatsApp automation. Request a free audit on /contact."
         }
       ]
     },
     "transformation-digitale-pme-maroc": {
-      "title": "Digital transformation for SMEs in Morocco: where to start in 2026",
-      "excerpt": "Pragmatic roadmap: website, marketing, CRM, automation and AI for SME growth.",
+      "title": "digital transformation of SMEs in Morocco: where to start in 2026",
+      "excerpt": "Pragmatic roadmap: website, marketing, CRM, automation and AI to accelerate the growth of your SME.",
       "category": "business",
       "cover": "/logo-full.svg",
       "relatedServices": [
@@ -676,269 +696,273 @@
         "ai-agents"
       ],
       "overview": {
-        "what": "Guide stratégique pour lancer la transformation digitale d'une PME au Maroc sans se disperser.",
-        "who": "Dirigeants de PME, startups et ETI qui veulent structurer leur croissance digitale.",
+        "what": "Strategic guide to launching the digital transformation of an SME in Morocco without dispersing yourself.",
+        "who": "Managers of SMEs, startups and ETIs who want to structure their digital growth.",
         "benefits": [
-          "Prioriser les bons investissements",
-          "Éviter les erreurs coûteuses",
-          "Croissance mesurable en 90 jours"
+          "Prioritize the right investments",
+          "Avoid costly mistakes",
+          "Measurable growth in 90 days"
         ],
         "topics": [
-          "Site web",
-          "Marketing digital",
+          "Website",
+          "Digital marketing",
           "CRM",
           "Automation",
-          "IA"
+          "AI"
         ],
         "takeaways": [
-          "Commencez par les fondations : site + tracking",
-          "Le marketing sans CRM est du gaspillage",
-          "L'IA amplifie, elle ne remplace pas la stratégie"
+          "Start with the basics: site + tracking",
+          "Marketing without CRM is waste",
+          "AI amplifies, it does not replace strategy"
         ]
       },
       "sections": [
         {
-          "id": "contexte",
-          "heading": "Pourquoi la transformation digitale n'est plus optionnelle",
+          "id": "context",
+          "heading": "Why digital transformation is no longer optional",
           "paragraphs": [
-            "Au Maroc, les PME qui structurent leur présence digitale croissent 2 à 3 fois plus vite que celles qui dépendent uniquement du bouche-à-oreille. Vos clients comparent en ligne, contactent via WhatsApp et attendent une réponse immédiate.",
-            "La transformation digitale n'est pas « refaire un site » : c'est aligner marketing, technologie, données et expérience client pour générer plus de revenus avec moins de friction."
+            "In Morocco, SMEs that structure their digital presence grow 2 to 3 times faster than those that rely solely on word of mouth. Your customers compare online, contact via WhatsApp and expect an immediate response.",
+            "Digital transformation is not “redoing a site”: it is aligning marketing, technology, data and customer experience to generate more revenue with less friction."
           ]
         },
         {
-          "id": "fondations",
-          "heading": "Étape 1 — Les fondations (semaines 1-4)",
+          "id": "foundations",
+          "heading": "Step 1 — The Foundations (weeks 1-4)",
           "paragraphs": [
-            "Avant d'investir en publicité, assurez-vous que les bases sont solides."
+            "Before investing in advertising, make sure the foundations are solid."
           ],
           "bullets": [
-            "Site web professionnel, rapide et mobile-first",
-            "Tracking conversions (Meta Pixel, GA4, événements)",
-            "WhatsApp Business ou numéro pro dédié",
-            "Google Business Profile à jour"
+            "Professional, fast and mobile-first website",
+            "Tracking conversions (Meta Pixel, GA4, events)",
+            "WhatsApp Business or dedicated professional number",
+            "Updated Google Business Profile"
           ]
         },
         {
           "id": "acquisition",
-          "heading": "Étape 2 — Acquisition (mois 2-3)",
+          "heading": "Stage 2 — Acquisition (months 2-3)",
           "paragraphs": [
-            "Une fois les fondations posées, activez les canaux d'acquisition adaptés à votre secteur : Meta pour la demande créée, Google pour l'intention de recherche, SEO pour le long terme."
+            "Once the foundations are laid, activate the acquisition channels adapted to your sector: Meta for created demand, Google for search intent, SEO for the long term."
           ],
           "bullets": [
-            "Landing page par offre principale",
-            "Campagnes Meta ou Google avec budget test 8-15K MAD/mois",
-            "Créatives adaptées à votre audience marocaine"
+            "Landing page by main offer",
+            "Meta or Google campaigns with test budget 8-15K MAD/month",
+            "Creatives adapted to your Moroccan audience"
           ]
         },
         {
           "id": "conversion",
-          "heading": "Étape 3 — Conversion et CRM (mois 3-4)",
+          "heading": "Stage 3 — Conversion and CRM (months 3-4)",
           "paragraphs": [
-            "Les leads sans suivi structuré se perdent. Implémentez un CRM léger (HubSpot, Pipedrive) et connectez-le à vos formulaires et WhatsApp."
+            "Leads without structured follow-up get lost. Implement a lightweight CRM (HubSpot, Pipedrive) and connect it to your forms and WhatsApp."
           ]
         },
         {
           "id": "automation-ia",
-          "heading": "Étape 4 — Automation et IA (mois 4-6)",
+          "heading": "Stage 4 — Automation and AI (months 4-6)",
           "paragraphs": [
-            "Automatisez les relances, les rappels RDV et les tâches répétitives. Explorez l'IA pour le support client et la qualification de leads — toujours avec supervision humaine."
+            "Automate reminders, appointment reminders and repetitive tasks. Explore AI for customer support and lead qualification — always with human supervision."
           ]
         },
         {
           "id": "budget",
-          "heading": "Budget réaliste pour une PME",
+          "heading": "Realistic budget for an SME",
           "paragraphs": [
-            "Comptez 15 000 à 50 000 MAD/mois selon l'ambition : honoraires agence + budget média + outils (CRM, automation). Un audit gratuit permet de calibrer précisément."
+            "Allow 15,000 to 50,000 MAD/month depending on the ambition: agency fees + media budget + tools (CRM, automation). A free audit allows precise calibration."
           ]
         }
       ],
       "faqs": [
         {
-          "question": "Par quoi commencer si le budget est limité ?",
-          "answer": "Site web professionnel + Google Business Profile + WhatsApp Business structuré. Puis une campagne Meta ou Google test."
+          "question": "Where to start if the budget is limited?",
+          "answer": "Professional website + Google Business Profile + WhatsApp Business structured. Then a Meta or Google test campaign."
         },
         {
-          "question": "Faut-il tout internaliser ?",
-          "answer": "Non. Une agence 360° comme Mohtaoua couvre marketing, web et tech — vous gardez le focus métier."
+          "question": "Should we internalize everything?",
+          "answer": "No. A 360° agency like Mohtaoua covers marketing, web and tech — you keep the business focus."
         },
         {
-          "question": "Quel délai pour voir des résultats ?",
-          "answer": "Premiers leads en 2-4 semaines avec la pub. ROI stabilisé sur 60-90 jours avec optimisation continue."
+          "question": "How long does it take to see results?",
+          "answer": "First leads in 2-4 weeks with advertising. ROI stabilized over 60-90 days with continuous optimization."
         }
       ]
     },
     "retargeting-leads-formation-maroc": {
-      "title": "Meta & Google retargeting: win back prospects who haven't enrolled yet",
-      "excerpt": "Audiences, time windows, budgets, and creatives to turn 20–35% of your visitors and warm leads into enrollments.",
-      "category": "publicite",
+      "title": "Meta & Google retargeting: recover prospects who have not yet registered",
+      "excerpt": "Audiences, time windows, budgets and creative to turn 20–35% of your visitors and lukewarm leads into registrations.",
+      "category": "advertisement",
       "cover": "/logo-full.svg",
-      "relatedServices": ["meta-ads", "google-ads", "landing-pages"],
+      "relatedServices": [
+        "meta-ads",
+        "google ads",
+        "landing pages"
+      ],
       "overview": {
-        "what": "Practical guide to structuring Meta Ads and Google Ads retargeting campaigns and recovering training prospects who didn't convert on their first visit.",
-        "who": "Marketing managers and training center directors who generate leads but struggle to convert them into enrollments.",
+        "what": "Practical guide to structuring your Meta Ads and Google Ads retargeting campaigns and recovering training prospects who did not convert on the first pass.",
+        "who": "Marketing managers and training center directors who generate leads but struggle to convert them into registrations.",
         "benefits": [
           "Meta and Google audience structure ready to deploy",
-          "Prospecting vs retargeting budget split",
-          "Creative scripts and urgency messages that convert"
+          "Distribution of prospecting vs retargeting budget",
+          "Creative scripts and emergency messages that convert"
         ],
         "topics": [
-          "Training retargeting Morocco",
+          "Retargeting training Morocco",
           "Meta Ads remarketing",
           "Google Ads remarketing",
-          "Warm lead conversion",
-          "Custom audiences"
+          "Conversion of lukewarm leads",
+          "Custom Audiences"
         ],
         "takeaways": [
-          "Allocate 20–30% of media budget to retargeting once you have 500+ visitors/month",
-          "Segment by intent: landing visitors, form leads, social engagers",
-          "A warm lead converts 3–5× better in retargeting than a cold audience"
+          "Dedicate 20–30% of media budget to retargeting once 500+ visitors/month",
+          "Segment by intention: landing visitors, form leads, engaged social networks",
+          "A lukewarm lead converts 3 to 5x better in retargeting than a cold audience"
         ]
       },
       "sections": [
         {
           "id": "introduction",
-          "heading": "Introduction: why retargeting delivers your best ROI",
+          "heading": "Introduction: why retargeting is your best ROI",
           "paragraphs": [
-            "97% of visitors leave your landing page without sharing contact details. Of the 3% who become leads, only 10–20% enroll on first contact. The rest isn't lost — it's warm.",
-            "Retargeting (remarketing) shows your ads again to people who already know your center. In Morocco, for professional training, cost per enrollment in retargeting is often 40–60% lower than cold traffic — if you structure audiences correctly."
+            "97% of visitors leave your landing page without leaving contact details. Among the 3% who become leads, only 10 to 20% register on first contact. The rest is not lost: it is lukewarm.",
+            "Retargeting allows you to redisplay your ads to people who already know your center. In Morocco, for professional training, the cost per registration for retargeting is often 40 to 60% lower than cold traffic — provided you structure your audiences correctly."
           ]
         },
         {
           "id": "funnel",
-          "heading": "Understand the funnel: who to retarget and when",
+          "heading": "Understanding the funnel: who to retarget and when",
           "paragraphs": [
-            "Not all warm audiences are equal. Prioritize by intent level."
+            "Not all hot audiences are created equal. Prioritize by level of intention."
           ],
           "bullets": [
-            "Level 1 — Landing visitors 7 days: saw your offer, didn't convert (top priority)",
-            "Level 2 — Unconverted form leads 14 days: shared contact details",
-            "Level 3 — Social engagement 30 days: 50%+ video, Messenger click, comment",
-            "Level 4 — Visitors 30–90 days: broad audience, soft reminder messages",
-            "Always exclude: enrollees, customers, converted leads < 30 days"
+            "Level 1 — Visitors landing 7 days: saw your offer, not converted (maximum priority)",
+            "Level 2 — Leads form not converted 14 days: have left their contact details",
+            "Level 3 — 30-day social engagement: 50%+ video, Messenger click, comment",
+            "Level 4 — Visitors 30–90 days: large audience, gentle reminder messages",
+            "Systematically exclude: registrants, customers, converted leads < 30 days"
           ]
         },
         {
           "id": "meta-ads",
           "heading": "Meta Ads: audiences and campaign structure",
           "paragraphs": [
-            "On Meta, create a dedicated retargeting campaign separate from prospecting. CBO (Campaign Budget Optimization) works well with 2–4 ad sets per intent level."
+            "On Meta, create a dedicated retargeting campaign separate from prospecting. CBO (Campaign Budget Optimization) works well with 2 to 4 ad sets per intent level."
           ],
           "bullets": [
             "Custom Audience: site visitors 7/14/30 days (Meta pixel + ViewContent event)",
-            "Custom Audience: leads (Lead event or hashed CRM list upload)",
-            "Engagement Audience: Facebook/Instagram page visitors, 30-day interactions",
-            "Exclusion: buyers/enrollees + converted leads (CompleteRegistration event)",
+            "Custom Audience: leads (Lead event or uploaded, hashed CRM list)",
+            "Audience Engagement: Facebook/Instagram page visitors, interactions 30 days",
+            "Exclusion: buyers/registrants + converted leads (CompleteRegistration event)",
             "Placements: Advantage+ placements, unless vertical videos → Stories/Reels only",
-            "Budget: 20–30% of total budget, minimum 80–120 MAD/day per offer"
+            "Budget: 20–30% of the total budget, minimum 80–120 MAD/day per offer"
           ]
         },
         {
-          "id": "google-ads",
+          "id": "google ads",
           "heading": "Google Ads: Search and Display remarketing",
           "paragraphs": [
-            "Google offers two levers: Display/YouTube remarketing for visual reminders, and remarketing audiences in Search to capture follow-up searches (« training X price », « center Y reviews »)."
+            "Google offers two levers: Display/YouTube remarketing for visual recall, and Search remarketing audiences to capture recall searches (“training X price”, “center Y reviews”)."
           ],
           "bullets": [
             "Site remarketing list: Google Ads tag + consent mode (GDPR/cookies)",
             "Responsive Display campaign: back-to-school banners, testimonials, early-bird",
-            "RLSA (Remarketing Lists for Search Ads): +20 to +50% bids on warm audiences",
+            "RLSA (Remarketing Lists for Search Ads): +20 to +50% bids on hot audiences",
             "Performance Max: remarketing audience signal in dedicated asset group",
-            "Window: 7 days for urgency, 30 days for reminder, 90 days max for training",
-            "Exclusion: 30-day converters in all acquisition campaigns"
+            "Window: 7 days for emergency, 30 days for recall, 90 days max training",
+            "Exclusion: converters 30 days in all acquisition campaigns"
           ]
         },
         {
           "id": "creatives",
-          "heading": "Creatives and messages that convert in retargeting",
+          "heading": "Creatives and messages that convert into retargeting",
           "paragraphs": [
-            "Don't reuse prospecting creatives. Retargeting speaks to someone who knows you: be direct, personal, action-oriented."
+            "Don't reuse your creative prospecting. Retargeting speaks to someone who knows you: be direct, personal, action-oriented."
           ],
           "bullets": [
-            "Urgency angle: « Only X seats left for the [month] session »",
-            "Reminder angle: « You viewed [training] — any questions? »",
-            "Social proof angle: 15s video testimonial from a graduate of the same program",
+            "Emergency angle: “There are X places left for the [month] session”",
+            "Angle reminder: “You consulted [training] — a question? »",
+            "Social proof angle: 15 sec video testimony from a former member of the same training",
             "Offer angle: early-bird reminder with visible deadline",
             "Format: short video > static image; carousel to compare sessions",
-            "CTA: « Reserve my seat » / « Talk to an advisor » — not « Discover »"
+            "CTA: “Reserve my seat” / “Talk to an advisor” — not “Discover”"
           ]
         },
         {
           "id": "budget",
-          "heading": "Budget and prospecting / retargeting split",
+          "heading": "Budget and distribution of prospecting/retargeting",
           "paragraphs": [
-            "The rule we apply at Mohtaoua: until you have fewer than 300 unique visitors/month on the landing, retargeting lacks volume. Beyond 500, activate it systematically."
+            "The rule we apply at Mohtaoua: as long as you have less than 300 unique visitors/month on the landing, retargeting lacks volume. Beyond 500, activate it systematically."
           ],
           "bullets": [
             "Test phase (< 500 visitors/month): 90% prospecting / 10% retargeting",
             "Growth phase (500–2,000 visitors): 75% prospecting / 25% retargeting",
             "Scale phase (> 2,000 visitors): 65–70% prospecting / 30–35% retargeting",
-            "Seasonal peak (back-to-school): raise retargeting to 40% in September",
+            "Seasonal peak (back to school): increase retargeting to 40% in September",
             "Meta frequency: monitor, cap at 3–4 impressions/day per person",
-            "Retargeting KPI: cost per enrollment, not CPL (leads already exist)"
+            "Retargeting KPI: cost per registration, not CPL (leads already exist)"
           ]
         },
         {
           "id": "tracking",
-          "heading": "Essential tracking before launch",
+          "heading": "Essential tracking before launching",
           "paragraphs": [
-            "Without clean tracking, your audiences will be empty or polluted. Check these prerequisites."
+            "Without proper tracking, your audiences will be empty or polluted. Check these prerequisites."
           ],
           "bullets": [
-            "Meta pixel installed + Lead and CompleteRegistration events configured",
-            "Google tag + imported conversions (form, phone click, thank-you page)",
-            "Consent mode v2 enabled (compliant cookie banner)",
-            "Consistent UTMs on all campaigns for CRM attribution",
-            "Exclude internal teams and bots (IP filter if needed)"
+            "Pixel Meta installed + Lead and CompleteRegistration events configured",
+            "Google tag + imported conversions (form, phone click, thank you page)",
+            "Consent mode v2 activated (compliant cookies banner)",
+            "Consistent UTMs across all campaigns for CRM attribution",
+            "Exclusion of internal teams and bots (IP filter if necessary)"
           ]
         },
         {
-          "id": "erreurs",
-          "heading": "Common retargeting mistakes",
+          "id": "errors",
+          "heading": "Common retargeting errors",
           "paragraphs": [
-            "These mistakes explain why many centers abandon retargeting after 2 weeks."
+            "These errors explain why many centers abandon retargeting after 2 weeks."
           ],
           "bullets": [
-            "Mixing prospecting and retargeting in the same CBO campaign",
-            "Retargeting all site traffic (blog, contact) instead of training landing",
-            "Frequency too high → fatigue, unsubscribes, rising CPL",
-            "No exclusion of enrollees → waste and poor experience",
-            "Same creatives as prospecting → no personalization",
-            "Stopping retargeting as soon as a lead is created (a lead isn't an enrollment)"
+            "Mix prospecting and retargeting in the same CBO campaign",
+            "Retarget all site traffic (blog, contact) instead of landing training",
+            "Frequency too high → fatigue, unsubscriptions, CPL rising",
+            "No exclusion of registrants → waste and bad experience",
+            "Creative identical to prospecting → no personalization",
+            "Stop retargeting as soon as a lead is created (the lead is not a registration)"
           ]
         },
         {
           "id": "conclusion",
-          "heading": "Conclusion: retargeting complements, doesn't replace",
+          "heading": "Conclusion: retargeting completes, does not replace",
           "paragraphs": [
-            "Retargeting doesn't create demand — it recovers it. Used alongside prospecting campaigns and WhatsApp follow-ups, it can represent 20–35% of monthly enrollments at lower cost.",
-            "Our team configures your Meta/Google audiences, CRM exclusions, and retargeting creatives in under a week. Request a free audit at /contact."
+            "Retargeting does not create demand: it recovers it. Used in addition to your prospecting campaigns and your WhatsApp reminders, it can represent 20 to 35% of your monthly registrations at a reduced cost.",
+            "Our team configures your Meta/Google audiences, your CRM exclusions and your retargeting creatives in less than a week. Request a free audit on /contact."
           ]
         }
       ],
       "faqs": [
         {
-          "question": "How many visitors before activating retargeting?",
-          "answer": "From 500 unique visitors/month on your training landing. Below that, audiences are too small and CPM stays high."
+          "question": "How many visitors should you activate retargeting?",
+          "answer": "From 500 unique visitors/month to your training landing. Below that, the audiences are too small and the CPM remains high."
         },
         {
-          "question": "What's the minimum daily budget for Meta retargeting?",
-          "answer": "80 to 120 MAD/day per offer. Below 50 MAD/day, delivery is too irregular to exit the learning phase."
+          "question": "What is the minimum daily budget for Meta retargeting?",
+          "answer": "80 to 120 MAD/day per offer. Below 50 MAD/day, the diffusion is too irregular to exit the learning phase."
         },
         {
-          "question": "Should you retarget leads who filled out the form?",
-          "answer": "Yes, it's the most profitable audience. Combine Meta/Google retargeting with WhatsApp follow-ups D+1, D+3, D+7 to maximize conversion."
+          "question": "Should we retarget leads who filled out the form?",
+          "answer": "Yes, this is the most profitable audience. Combine Meta/Google retargeting with WhatsApp reminders D+1, D+3, D+7 to maximize conversion."
         },
         {
-          "question": "Meta Ads or Google Ads priority for retargeting?",
-          "answer": "Meta first: more volume, engaging video formats, often lower cost. Google as complement for RLSA and Display reminders on brand searches."
+          "question": "Meta Ads or Google Ads as a priority for retargeting?",
+          "answer": "Meta first: more volume, engaging video formats, often lower cost. Google in addition for RLSA and Display reminder on brand searches."
         },
         {
-          "question": "How to avoid ad over-frequency?",
-          "answer": "Cap frequency at 3–4/day on Meta, use short windows (7–14 days) for urgency, and rotate 2–3 creatives per week."
+          "question": "How to avoid over-frequency of ads?",
+          "answer": "Cap the frequency at 3–4/day on Meta, use short windows (7–14 days) for urgency, and run 2–3 creatives per week."
         },
         {
-          "question": "Can Mohtaoua set up our retargeting campaigns?",
-          "answer": "Yes. We install tracking, create audiences, produce creatives, and manage prospecting/retargeting budget. See our packs at /pricing or request an audit at /contact."
+          "question": "Can Mohtaoua configure our retargeting campaigns?",
+          "answer": "Yes. We install tracking, create audiences, produce creative and manage the prospecting/retargeting budget. See our packs on /pricing or request an audit on /contact."
         }
       ]
     }

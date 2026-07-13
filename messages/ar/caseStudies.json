@@ -1,49 +1,42 @@
 {
   "tags": {
-    "metaAds": "Meta Ads",
-    "cro": "CRO",
-    "automation": "أتمتة",
-    "googleAds": "Google Ads",
-    "performanceMax": "Performance Max",
-    "crm": "CRM",
-    "whatsApp": "WhatsApp",
-    "socialMedia": "السوشيال ميديا",
-    "branding": "الهوية البصرية",
-    "visualCreation": "إبداع بصري",
+    "metaAds": "إعلانات ميتا",
+    "cro": "كرو",
+    "automation": "الأتمتة",
+    "googleAds": "إعلانات جوجل",
+    "performanceMax": "أقصى أداء",
+    "crm": "إدارة علاقات العملاء",
+    "whatsApp": "واتساب",
+    "socialMedia": "وسائل التواصل الاجتماعي",
+    "branding": "العلامة التجارية",
+    "visualCreation": "الإبداع البصري",
     "multilingual": "متعدد اللغات",
     "webDev": "تطوير الويب",
-    "ecommerce": "تجارة إلكترونية",
-    "seo": "SEO"
+    "ecommerce": "التجارة الإلكترونية",
+    "seo": "تحسين محركات البحث"
   },
   "items": {
     "skola-formation": {
-      "title": "1 200 lead/شهر لمؤسسة تكوين",
-      "client": "مركز تكوين مهني (مجهول)",
-      "industry": "تكوين مهني",
-      "description": "إعادة هيكلة كاملة للاستقطاب المدفوع لـ Skola — من حجم leads غير منتظم إلى آلة قابلة للتنبؤ تولّد أكثر من 1 200 طلب مؤهل شهرياً.",
+      "title": "1200 عميل محتمل شهريًا لمنظمة تدريبية",
+      "client": "مركز التدريب المهني. (مجهول)",
+      "industry": "التدريب المهني",
+      "description": "تم إصلاح عملية الاستحواذ المدفوعة لشركة Skola بالكامل، والانتقال من حجم غير منتظم من العملاء المحتملين إلى آلة يمكن التنبؤ بها تولد أكثر من 1200 طلب مؤهل شهريًا.",
       "objectives": [
-        "توليد حجم leads متوقع وقابل للتوسع",
-        "خفض تكلفة الـ lead دون 55 درهم",
-        "تحسين جودة الـ leads المُمرّرة للمستشارين"
+        "إنشاء حجم عملاء محتمل يمكن التنبؤ به وقابل للتطوير",
+        "خفض التكلفة لكل عميل محتمل أقل من 55 درهم",
+        "تحسين جودة العملاء المتوقعين المرسلين إلى المستشارين"
       ],
       "strategy": [
-        "إعادة هيكلة كاملة لحساب Meta Ads بحملات ABO",
-        "إبداعات فيديو أصلية موجهة بالفوائد",
-        "تتبع تحويلات من جهة الخادم (CAPI)",
-        "صفحات هبوط مخصصة لكل تكوين مع اختبارات A/B",
-        "رعاية e-mail + WhatsApp للـ leads الدافئة"
+        "إعادة هيكلة كاملة لحساب Meta Ads في حملات ABO",
+        "إنتاج تصميمات فيديو أصلية موجهة نحو الربح",
+        "تنفيذ تتبع التحويل من جانب الخادم (CAPI)",
+        "صفحات مقصودة مخصصة لكل تدريب مع اختبار A/B المستمر",
+        "البريد الإلكتروني + WhatsApp تسلسل رعاية العملاء المتوقعين الفاترين"
       ],
-      "budget": "88 000 درهم / شهر",
+      "budget": "88.000 درهم / شهر",
       "cpl": "53 درهم",
-      "roas": "5,2x",
+      "roas": "5.2x",
       "timeline": "6 أشهر",
-      "testimonials": [
-        {
-          "quote": "في 6 أشهر، ضاعف EduGrowth تسجيلاتنا 4 مرات. فريق مدفوع بالبيانات وشفاف.",
-          "author": "Camille Robert",
-          "role": "مديرة، Skola Formation"
-        }
-      ],
       "structural": {
         "leads": 1240,
         "cover": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
@@ -57,60 +50,60 @@
         ],
         "featured": true,
         "tags": [
-          "metaAds",
-          "cro",
-          "automation"
+          "إعلانات Meta",
+          "كرو",
+          "الأتمتة"
         ]
       },
+      "testimonials": [
+        {
+          "quote": "في 6 أشهر، ضاعفت EduGrowth تسجيلاتنا بمقدار 4. فريق شفاف يعتمد على البيانات.",
+          "author": "كميل روبرت",
+          "role": "مدير تدريب سكولا"
+        }
+      ],
       "execution": [
-        "Déploiement compte Meta Ads en 5 jours",
-        "Production de 12 créatives vidéo/mois",
-        "Lancement landing pages par formation",
-        "Mise en place séquences WhatsApp + email",
-        "Optimisation hebdomadaire budget et audiences"
+        "نشر حساب Meta Ads خلال 5 أيام",
+        "إنتاج 12 تصميم فيديو شهريًا",
+        "إطلاق الصفحة المقصودة من خلال التدريب",
+        "إعداد تسلسلات WhatsApp + البريد الإلكتروني",
+        "الميزانية الأسبوعية وتحسين الجمهور"
       ],
       "technologies": [
-        "Meta Ads",
+        "إعلانات ميتا",
         "Next.js",
         "HubSpot",
-        "WhatsApp API",
-        "Google Tag Manager"
+        "واتساب API",
+        "إدارة العلامات جوجل"
       ],
       "relatedServices": [
-        "meta-ads",
-        "landing-pages",
-        "marketing-automation",
-        "crm-data"
+        "إعلانات Meta",
+        "الصفحات المقصودة",
+        "أتمتة التسويق",
+        "بيانات إدارة علاقات العملاء"
       ]
     },
     "campusup-search": {
-      "title": "ROAS 6,1x عبر Google Ads لـ CampusUp",
-      "client": "مدرسة عليا (مجهولة)",
-      "industry": "تعلم إلكتروني",
-      "description": "التقاط الطلب عالي النية على Google لـ CampusUp بهيكلة Search + Performance Max التي رفعت العائد على الاستثمار.",
+      "title": "عائد مسار التحويلات الإعلانية (ROAS) بمعدل 6.1x عبر إعلانات Google لبرنامج CampusUp",
+      "client": "مدرسة الدراسات العليا (مجهول)",
+      "industry": "التعلم الإلكتروني",
+      "description": "التغلب على الطلب عالي النية على Google بشأن CampusUp، من خلال بنية البحث + الأداء الأفضل التي أدت إلى زيادة عائد الاستثمار.",
       "objectives": [
-        "التقاط طلب البحث على التكوينات المعتمدة",
-        "تعظيم ROAS بميزانية محدودة",
-        "خفض CPA مع زيادة الحجم"
+        "استيعاب الطلب البحثي على التدريب على الشهادات",
+        "تحقيق أقصى قدر من عائد مسار التحويلات الإعلانية على ميزانية محدودة",
+        "خفض تكلفة الاكتساب مع زيادة الحجم"
       ],
       "strategy": [
-        "تدقيق وبحث كلمات مفتاحية عالية النية",
-        "هيكلة Search حسب موضوع التكوين",
-        "حملات Performance Max بأصول premium",
-        "تحسين مستمر للمزايدات وQuality Score",
-        "ربط CRM للتحسين على leads مؤهلين"
+        "تدقيق وبحث الكلمات الرئيسية عالية النية",
+        "البحث عن الهندسة المعمارية حسب موضوع التدريب",
+        "حملات الأداء الأفضل المدعومة بمواد عرض متميزة",
+        "التحسين المستمر للمزادات ونقاط الجودة",
+        "اتصال CRM لتحسين العملاء المتوقعين المؤهلين"
       ],
-      "budget": "132 000 درهم / شهر",
+      "budget": "132.000 درهم / شهر",
       "cpl": "68 درهم",
-      "roas": "6,1x",
+      "roas": "6.1x",
       "timeline": "5 أشهر",
-      "testimonials": [
-        {
-          "quote": "CPL انقسم إلى النصف ومسار أصبح واضحاً أخيراً. فريق سريع الاستجابة وشفاف.",
-          "author": "Mehdi Lefort",
-          "role": "مسؤول الاستقطاب، CampusUp"
-        }
-      ],
       "structural": {
         "leads": 980,
         "cover": "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=1600&q=80",
@@ -123,56 +116,56 @@
         ],
         "featured": true,
         "tags": [
-          "googleAds",
-          "performanceMax"
+          "إعلانات جوجل",
+          "أداء ماكس"
         ]
       },
+      "testimonials": [
+        {
+          "quote": "تم تخفيض CPL إلى النصف وأصبح خط الأنابيب قابلاً للقراءة أخيرًا. الفريق سريع الاستجابة وشفاف.",
+          "author": "مهدي ليفورت",
+          "role": "مدير الاستحواذ، CampusUp"
+        }
+      ],
       "execution": [
-        "Restructuration compte Google Ads",
-        "Création 8 groupes d'annonces thématiques",
-        "Déploiement Performance Max",
-        "Landing pages Search dédiées",
-        "Connexion CRM pour optimisation offline"
+        "إعادة هيكلة حساب إعلانات Google",
+        "إنشاء 8 مجموعات إعلانية مواضيعية",
+        "نشر الأداء الأفضل",
+        "صفحات مقصودة مخصصة للبحث",
+        "اتصال CRM للتحسين دون اتصال بالإنترنت"
       ],
       "technologies": [
-        "Google Ads",
-        "Performance Max",
+        "إعلانات جوجل",
+        "أقصى أداء",
         "Next.js",
-        "Google Analytics 4"
+        "تحليلات جوجل 4"
       ],
       "relatedServices": [
-        "google-ads",
-        "landing-pages",
-        "seo"
+        "إعلانات جوجل",
+        "الصفحات المقصودة",
+        "سيو"
       ]
     },
     "edunext-automation": {
-      "title": "مسار تسجيل آلي لـ EduNext",
-      "client": "مؤسسة e-learning (مجهولة)",
-      "industry": "تكوين عن بُعد",
-      "description": "محرك رعاية متعدد القنوات يحوّل leads خاملة إلى تسجيلات دون تدخل بشري في المراحل الأولى.",
+      "title": "مسار التسجيل الآلي لـ EduNext",
+      "client": "منظمة التعلم الإلكتروني (مجهول)",
+      "industry": "التدريب عبر الإنترنت",
+      "description": "بناء آلة رعاية متعددة القنوات تقوم بتحويل الخيوط الخاملة إلى تسجيلات، دون تدخل بشري في المراحل الأولى.",
       "objectives": [
-        "إعادة تنشيط قاعدة leads باردة",
-        "أتمتة التأهيل والمتابعات",
-        "رفع معدل تحويل lead → تسجيل"
+        "إعادة تنشيط قاعدة بيانات العملاء المتوقعين الباردين",
+        "أتمتة التأهيل والتذكيرات",
+        "زيادة الرصاص → معدل تحويل التسجيل"
       ],
       "strategy": [
-        "Scoring وتقسيم في CRM",
-        "سيناريوهات e-mail + SMS + WhatsApp حسب السلوك",
-        "webinars آلية في منتصف المسار",
-        "تحسين السلاسل باختبارات A/B"
+        "تسجيل العملاء المحتملين وتقسيمهم في إدارة علاقات العملاء (CRM).",
+        "سيناريوهات البريد الإلكتروني + الرسائل القصيرة + WhatsApp الناتجة عن السلوك",
+        "ندوات عبر الإنترنت آلية في منتصف المسار",
+        "تحسين التسلسل عن طريق اختبارات A/B"
       ],
-      "budget": "55 000 درهم / شهر",
+      "budget": "55.000 درهم / شهر",
       "cpl": "65 درهم",
-      "roas": "4,7x",
+      "roas": "4.7x",
       "timeline": "4 أشهر",
-      "testimonials": [
-        {
-          "quote": "المسار الذي بنوه يعمل وحده. نملأ دوراتنا مسبقاً.",
-          "author": "Sophie Nguyen",
-          "role": "مؤسسة، EduNext"
-        }
-      ],
       "structural": {
         "leads": 720,
         "cover": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=80",
@@ -185,59 +178,59 @@
         ],
         "featured": false,
         "tags": [
-          "automation",
-          "crm",
-          "whatsApp"
+          "الأتمتة",
+          "CRM",
+          "واتس اب"
         ]
       },
+      "testimonials": [
+        {
+          "quote": "مسار التحويل الذي بنوه يتحول من تلقاء نفسه. نحن نملأ جلساتنا مقدما.",
+          "author": "صوفي نجوين",
+          "role": "مؤسس EduNext"
+        }
+      ],
       "execution": [
-        "Audit parcours lead existant",
-        "Configuration HubSpot + WhatsApp",
-        "Création 4 scénarios automation",
-        "Formation équipe commerciale",
-        "Dashboard KPIs temps réel"
+        "تدقيق المسار الرئيسي الحالي",
+        "إعداد HubSpot + WhatsApp",
+        "إنشاء 4 سيناريوهات للأتمتة",
+        "تدريب فريق المبيعات",
+        "لوحة تحكم مؤشرات الأداء الرئيسية في الوقت الفعلي"
       ],
       "technologies": [
         "HubSpot",
-        "WhatsApp Business API",
-        "Zapier",
-        "Looker Studio"
+        "واجهة برمجة تطبيقات واتساب للأعمال",
+        "زابير",
+        "استوديو المشاهد"
       ],
       "relatedServices": [
-        "marketing-automation",
-        "crm-data",
-        "chatbots"
+        "أتمتة التسويق",
+        "بيانات إدارة علاقات العملاء",
+        "روبوتات الدردشة"
       ]
     },
     "millennia-group-prive": {
-      "title": "هوية سوشيال ميديا واستقطاب لـ Millennia (مراكش)",
-      "client": "مجموعة مدارس خاصة (مجهولة)",
-      "industry": "مركز تكوين لغوي",
-      "description": "قيادة كاملة للتواصل الرقمي لـ Millennia Group Privé بمراكش (لغات، معلوميات، تحضير TELC/Goethe). هوية بصرية فاخرة وحملات سوشيال متعددة اللغات (عربي، فرنسي) رفعت طلبات التسجيل.",
+      "title": "هوية وسائل التواصل الاجتماعي واكتسابها لآلاف السنين (مراكش)",
+      "client": "مجموعة المدارس الخاصة (مجهول)",
+      "industry": "مركز تدريب اللغات",
+      "description": "إدارة كاملة للاتصالات الرقمية لمركز التدريب Millennia Group Privé بمراكش (اللغات وتكنولوجيا المعلومات وإعداد TELC/Goethe). إنشاء خط رسومي متميز وحملات على وسائل التواصل الاجتماعي متعددة اللغات (العربية والفرنسية) أدت إلى انطلاق طلبات التسجيل.",
       "objectives": [
-        "بناء هوية بصرية متسقة ومعروفة على الشبكات",
-        "توليد تدفق منتظم لطلبات التسجيل",
-        "تغطية العرض: ألماني، إنجليزي، فرنسي، إسباني، معلوميات",
-        "تحريك المجتمع حول المناسبات (رمضان، العيد، التوظيف، الأخبار)"
+        "بناء هوية بصرية متماسكة ويمكن التعرف عليها على الشبكات",
+        "إنشاء تدفق منتظم لطلبات تسجيل التدريب",
+        "تغطية العرض بالكامل: الألمانية، الإنجليزية، الفرنسية، الإسبانية، تكنولوجيا المعلومات",
+        "تنشيط المجتمع حول الأحداث الرئيسية (رمضان، العيد، التوظيف، الأحداث الجارية)"
       ],
       "strategy": [
-        "توجيه فني وقوالب بألوان العلامة",
-        "تقويم تحريري متعدد اللغات (عربي / فرنسي) على Instagram وFacebook",
-        "مرئيات عروض (حزم لغات + معلوميات مجاني)",
-        "حملات توظيف مدربين ومنشورات العلامة",
-        "محتوى موسمي ووعي لزيادة engagement"
+        "الاتجاه الفني وتنوع القوالب في ألوان العلامة التجارية",
+        "تقويم تحريري متعدد اللغات (عربي / فرنسي) منشور على الانستغرام والفيسبوك",
+        "مرئيات العروض الترويجية (حزم اللغات + تكنولوجيا المعلومات المجانية)",
+        "حملات توظيف المدربين ومنشورات العلامة التجارية",
+        "محتوى موسمي وتوعوي لتحقيق أقصى قدر من المشاركة"
       ],
-      "budget": "حسب العرض",
+      "budget": "على الاقتباس",
       "cpl": "—",
       "roas": "—",
-      "timeline": "مهمة مستمرة",
-      "testimonials": [
-        {
-          "quote": "حضورنا على الشبكات أصبح احترافياً ومستمراً. المرئيات تعكس أخيراً صورة مركزنا.",
-          "author": "الإدارة",
-          "role": "Millennia Group Privé، مراكش"
-        }
-      ],
+      "timeline": "تستمر المهمة",
       "structural": {
         "leads": 480,
         "cover": "/realisations/millennia/millennia-04.png",
@@ -247,71 +240,78 @@
           "/realisations/millennia/millennia-03.png",
           "/realisations/millennia/millennia-04.png",
           "/realisations/millennia/millennia-05.png",
-          "/realisations/millennia/millennia-06.png",
+          "/الإنجازات/millennia/millennia-06.png",
           "/realisations/millennia/millennia-07.png",
           "/realisations/millennia/millennia-08.png",
-          "/realisations/millennia/millennia-09.png",
-          "/realisations/millennia/millennia-10.png",
-          "/realisations/millennia/millennia-11.png",
-          "/realisations/millennia/millennia-12.png",
-          "/realisations/millennia/millennia-13.png",
-          "/realisations/millennia/millennia-14.png",
-          "/realisations/millennia/millennia-15.png",
-          "/realisations/millennia/millennia-16.png",
-          "/realisations/millennia/millennia-17.png",
-          "/realisations/millennia/millennia-18.png",
-          "/realisations/millennia/millennia-19.png"
+          "/الإنجازات/millennia/millennia-09.png",
+          "/الإنجازات/millennia/millennia-10.png",
+          "/الإنجازات/millennia/millennia-11.png",
+          "/الإنجازات/millennia/millennia-12.png",
+          "/الإنجازات/millennia/millennia-13.png",
+          "/الإنجازات/millennia/millennia-14.png",
+          "/الإنجازات/millennia/millennia-15.png",
+          "/الإنجازات/millennia/millennia-16.png",
+          "/الإنجازات/millennia/millennia-17.png",
+          "/الإنجازات/millennia/millennia-18.png",
+          "/الإنجازات/millennia/millennia-19.png"
         ],
         "videos": [],
         "featured": true,
         "tags": [
-          "socialMedia",
-          "branding",
+          "وسائل التواصل الاجتماعي",
+          "العلامات التجارية",
           "visualCreation",
-          "multilingual"
+          "متعدد اللغات"
         ]
       },
+      "testimonials": [
+        {
+          "quote": "لقد أصبح تواجدنا على الشبكات محترفًا ومستمرًا. تعكس الصور أخيرًا صورة مركزنا.",
+          "author": "اتجاه",
+          "role": "مجموعة ميلينيا الخاصة، مراكش"
+        }
+      ],
       "execution": [
-        "Refonte ligne graphique complète",
-        "Calendrier éditorial mensuel",
-        "Production Reels et carrousels",
-        "Campagnes Meta Ads locales",
-        "Reporting engagement mensuel"
+        "إعادة تصميم الخط الرسومي بالكامل",
+        "التقويم التحريري الشهري",
+        "بكرات الإنتاج والدوارات",
+        "حملات الإعلانات التعريفية المحلية",
+        "تقارير المشاركة الشهرية"
       ],
       "technologies": [
-        "Meta Ads",
-        "Canva",
-        "After Effects",
-        "Instagram"
+        "إعلانات ميتا",
+        "قماش",
+        "بعد التأثيرات",
+        "انستغرام"
       ],
       "relatedServices": [
-        "social-media",
-        "brand-identity",
-        "reels",
-        "meta-ads"
+        "وسائل التواصل الاجتماعي",
+        "هوية العلامة التجارية",
+        "حقيقي",
+        "إعلانات Meta"
       ]
     },
     "nova-industrie-web": {
-      "title": "موقع مؤسسي B2B + SEO: +340% زيارات عضوية",
-      "client": "Groupe industriel (anonymisé)",
-      "industry": "Industrie & B2B",
-      "description": "Refonte digitale complète pour un groupe industriel marocain : site corporate Next.js, architecture SEO et contenus multilingues pour générer des demandes de devis qualifiées.",
+      "title": "موقع الشركة B2B + تحسين محركات البحث: +340% حركة مرور عضوية",
+      "client": "المجموعة الصناعية (مجهول)",
+      "industry": "الصناعة وB2B",
+      "description": "إصلاح رقمي كامل لمجموعة صناعية مغربية: موقع الشركة Next.js، وبنية تحسين محركات البحث (SEO) والمحتوى متعدد اللغات لإنشاء طلبات عروض أسعار مؤهلة.",
       "objectives": [
-        "Moderniser l'image digitale du groupe",
-        "Générer des leads B2B via le site",
-        "Améliorer le référencement sur les requêtes métier"
+        "تحديث الصورة الرقمية للمجموعة",
+        "توليد عملاء محتملين B2B عبر الموقع",
+        "تحسين تحسين محركات البحث (SEO) في استعلامات الأعمال"
       ],
       "strategy": [
-        "Audit UX et refonte site corporate mobile-first",
-        "Architecture SEO par ligne de produits et villes",
-        "Pages solutions + formulaires devis trackés",
-        "Blog technique pour la notoriété long terme",
-        "Connexion CRM pour le suivi commercial"
+        "تدقيق تجربة المستخدم وإعادة تصميم موقع الشركة على الهاتف المحمول أولاً",
+        "بنية تحسين محركات البحث (SEO) حسب خط الإنتاج والمدن",
+        "صفحات الحلول + نماذج الأسعار المتعقبة",
+        "مدونة فنية للسمعة السيئة على المدى الطويل",
+        "اتصال CRM لتتبع المبيعات"
       ],
-      "budget": "Sur devis",
+      "budget": "على الاقتباس",
       "cpl": "—",
       "roas": "—",
-      "timeline": "5 mois",
+      "timeline": "5 أشهر",
       "structural": {
         "leads": 186,
         "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80",
@@ -323,59 +323,59 @@
         "featured": true,
         "tags": [
           "webDev",
-          "seo",
-          "branding"
+          "سيو",
+          "العلامات التجارية"
         ]
       },
       "testimonials": [
         {
-          "quote": "Notre site reflète enfin notre niveau d'expertise. Les demandes de devis ont triplé.",
-          "author": "Direction commerciale",
-          "role": "Groupe industriel, Casablanca"
+          "quote": "يعكس موقعنا أخيرًا مستوى خبرتنا. لقد تضاعفت طلبات عروض الأسعار ثلاث مرات.",
+          "author": "الإدارة التجارية",
+          "role": "المجموعة الصناعية الدار البيضاء"
         }
       ],
       "execution": [
-        "Atelier stratégie et arborescence",
-        "Design UI/UX et développement Next.js",
-        "Migration contenus multilingues (fr/ar)",
-        "Déploiement SEO technique et contenu",
-        "Formation équipe commerciale au CRM"
+        "ورشة عمل الإستراتيجية والبنية الشجرية",
+        "تصميم UI/UX وتطوير Next.js",
+        "ترحيل المحتوى متعدد اللغات (fr/ar)",
+        "النشر الفني والمحتوى لكبار المسئولين الاقتصاديين",
+        "تدريب فريق مبيعات CRM"
       ],
       "technologies": [
         "Next.js",
-        "Tailwind",
-        "Google Analytics 4",
+        "الريح الخلفية",
+        "تحليلات جوجل 4",
         "HubSpot",
-        "Vercel"
+        "فيرسل"
       ],
       "relatedServices": [
-        "corporate-websites",
-        "seo",
-        "brand-identity",
-        "crm-data"
+        "مواقع الشركات",
+        "سيو",
+        "هوية العلامة التجارية",
+        "بيانات إدارة علاقات العملاء"
       ]
     },
     "atlas-ecommerce-growth": {
-      "title": "تجارة إلكترونية: ROAS 4.8x و+2 مليون درهم ربع سنوي",
-      "client": "Marque e-commerce (anonymisée)",
-      "industry": "E-commerce & Retail",
-      "description": "Lancement et scaling d'une boutique Shopify avec campagnes Meta Ads, shooting produit et automation panier abandonné pour une marque de mode marocaine.",
+      "title": "التجارة الإلكترونية للأزياء: عائد مسار التحويلات الإعلانية 4.8 أضعاف وحجم مبيعات ربع سنوي يزيد عن 2 مليون درهم مغربي",
+      "client": "العلامة التجارية للتجارة الإلكترونية (مجهول)",
+      "industry": "التجارة الإلكترونية والتجزئة",
+      "description": "إطلاق وتوسيع متجر Shopify مع حملات Meta Ads وتصوير المنتجات وأتمتة عربة التسوق المهجورة لعلامة تجارية مغربية للأزياء.",
       "objectives": [
-        "Lancer la boutique en ligne rapidement",
-        "Scaler les ventes via Meta Ads",
-        "Réduire le taux d'abandon panier"
+        "إطلاق المتجر الإلكتروني بسرعة",
+        "توسيع نطاق المبيعات عبر Meta Ads",
+        "تقليل معدل التخلي عن سلة التسوق"
       ],
       "strategy": [
-        "Setup Shopify + paiements locaux",
-        "Shooting produit et fiches optimisées",
-        "Campagnes Meta catalogue + retargeting",
-        "Séquences email/WhatsApp panier abandonné",
-        "Optimisation CRO checkout mobile"
+        "إعداد Shopify + المدفوعات المحلية",
+        "تصوير المنتج والأوراق المحسنة",
+        "كتالوج التعريف + حملات إعادة الاستهداف",
+        "تسلسلات البريد الإلكتروني/WhatsApp المهجورة في سلة التسوق",
+        "تحسين CRO للدفع عبر الهاتف المحمول"
       ],
-      "budget": "72 000 DH / mois",
-      "cpl": "42 DH",
-      "roas": "4,8x",
-      "timeline": "4 mois",
+      "budget": "72.000 درهم / شهر",
+      "cpl": "42 درهم",
+      "roas": "4.8x",
+      "timeline": "4 أشهر",
       "structural": {
         "leads": 3200,
         "cover": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=80",
@@ -386,60 +386,60 @@
         "videos": [],
         "featured": true,
         "tags": [
-          "ecommerce",
-          "metaAds",
-          "cro"
+          "التجارة الإلكترونية",
+          "إعلانات Meta",
+          "كرو"
         ]
       },
       "testimonials": [
         {
-          "quote": "De zéro à des ventes quotidiennes en 6 semaines. L'équipe maîtrise tout le funnel.",
-          "author": "Fondatrice",
-          "role": "Marque mode, Casablanca"
+          "quote": "من الصفر إلى المبيعات اليومية في 6 أسابيع. يتحكم الفريق في مسار التحويل بأكمله.",
+          "author": "مؤسس",
+          "role": "ماركة أزياء الدار البيضاء"
         }
       ],
       "execution": [
-        "Développement boutique Shopify",
-        "Production 40 visuels produits",
-        "Lancement campagnes Meta catalogue",
-        "Automation panier abandonné",
-        "Reporting hebdomadaire ROAS"
+        "تطوير متجر شوبيفاي",
+        "إنتاج 40 منتجًا مرئيًا",
+        "إطلاق حملات كتالوج Meta",
+        "أتمتة العربة المهجورة",
+        "تقارير عائد مسار التحويلات الإعلانية (ROAS) الأسبوعية"
       ],
       "technologies": [
-        "Shopify",
-        "Meta Ads",
-        "Klaviyo",
-        "WhatsApp API",
-        "Stripe"
+        "شوبيفي",
+        "إعلانات ميتا",
+        "كلافيو",
+        "واتساب API",
+        "شريط"
       ],
       "relatedServices": [
-        "e-commerce",
-        "meta-ads",
-        "product-photography",
-        "marketing-automation"
+        "التجارة الإلكترونية",
+        "إعلانات Meta",
+        "تصوير المنتجات",
+        "أتمتة التسويق"
       ]
     },
     "medina-clinic-digital": {
-      "title": "عيادة خاصة: +180% طلبات مواعيد",
-      "client": "Clinique privée (anonymisée)",
-      "industry": "Santé & Cliniques",
-      "description": "Identité visuelle, site web et campagnes Google locales pour une clinique à Marrakech : visibilité, confiance et prise de RDV en ligne.",
+      "title": "العيادة الخاصة: +180% طلبات المواعيد",
+      "client": "عيادة خاصة (مجهول)",
+      "industry": "الصحة والعيادات",
+      "description": "الهوية البصرية والموقع الإلكتروني وحملات Google المحلية لعيادة بمراكش: الرؤية والثقة وحجز المواعيد عبر الإنترنت.",
       "objectives": [
-        "Renforcer la crédibilité de la clinique en ligne",
-        "Générer des demandes de rendez-vous qualifiées",
-        "Se positionner sur les recherches locales"
+        "تعزيز مصداقية العيادة الإلكترونية",
+        "إنشاء طلبات التعيين المؤهلة",
+        "ضع نفسك في عمليات البحث المحلية"
       ],
       "strategy": [
-        "Refonte identité visuelle premium",
-        "Site vitrine avec prise de RDV WhatsApp",
-        "Google Business Profile optimisé",
-        "Campagnes Google Search locales",
-        "Contenus éducatifs pour le SEO santé"
+        "إصلاح شامل للهوية البصرية المتميزة",
+        "موقع عرض مع حجز المواعيد واتساب",
+        "ملف تعريف الأعمال المُحسّن على Google",
+        "حملات بحث Google المحلية",
+        "محتوى تعليمي لتحسين محركات البحث الصحية"
       ],
-      "budget": "38 000 DH / mois",
-      "cpl": "78 DH",
+      "budget": "38.000 درهم / شهر",
+      "cpl": "78 درهم",
       "roas": "—",
-      "timeline": "3 mois",
+      "timeline": "3 أشهر",
       "structural": {
         "leads": 420,
         "cover": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1600&q=80",
@@ -449,60 +449,60 @@
         "videos": [],
         "featured": true,
         "tags": [
-          "branding",
-          "googleAds",
-          "seo"
+          "العلامات التجارية",
+          "إعلانات جوجل",
+          "سيو"
         ]
       },
       "testimonials": [
         {
-          "quote": "Nos patients nous trouvent sur Google et prennent RDV directement. Un vrai changement.",
-          "author": "Dr. (anonymisé)",
-          "role": "Clinique privée, Marrakech"
+          "quote": "يجدنا مرضانا على Google ويحددون موعدًا مباشرةً. تغيير حقيقي.",
+          "author": "دكتور (مجهول)",
+          "role": "العيادة الخاصة بمراكش"
         }
       ],
       "execution": [
-        "Création charte graphique",
-        "Développement site Next.js",
-        "Setup Google Ads local",
-        "Optimisation fiche Google Business",
-        "Formation accueil au suivi leads"
+        "إنشاء ميثاق الرسم",
+        "تطوير موقع Next.js",
+        "إعداد إعلانات Google المحلية",
+        "تحسين قائمة Google Business",
+        "التدريب على متن الطائرة في تتبع الرصاص"
       ],
       "technologies": [
         "Next.js",
-        "Google Ads",
-        "Google Business",
-        "WhatsApp Business",
-        "Figma"
+        "إعلانات جوجل",
+        "جوجل للأعمال",
+        "واتساب للأعمال",
+        "فيجما"
       ],
       "relatedServices": [
-        "brand-identity",
-        "corporate-websites",
-        "google-ads",
-        "seo"
+        "هوية العلامة التجارية",
+        "مواقع الشركات",
+        "إعلانات جوجل",
+        "سيو"
       ]
     },
     "riad-hotel-digital": {
-      "title": "رياض بوتيك: +45% حجوزات مباشرة",
-      "client": "Hôtel boutique (anonymisé)",
-      "industry": "Hôtellerie & Tourisme",
-      "description": "Site web immersif, vidéo drone et SEO local pour un riad de luxe : réduire la dépendance aux OTA et augmenter les réservations directes.",
+      "title": "بوتيك الرياض: +45% حجز مباشر",
+      "client": "فندق بوتيك (مجهول)",
+      "industry": "الضيافة والسياحة",
+      "description": "موقع ويب غامر وفيديو بدون طيار وتحسين محركات البحث المحلية لرياض فاخر: تقليل الاعتماد على وكالات السفر عبر الإنترنت وزيادة الحجوزات المباشرة.",
       "objectives": [
-        "Augmenter les réservations sans commission OTA",
-        "Valoriser l'expérience client en ligne",
-        "Améliorer le référencement local"
+        "زيادة الحجوزات بدون عمولة OTA",
+        "تعزيز تجربة العملاء عبر الإنترنت",
+        "تحسين SEO المحلي"
       ],
       "strategy": [
-        "Site web premium avec galerie et réservation directe",
-        "Vidéo drone et photos professionnelles",
-        "SEO local « riad + ville »",
-        "Campagnes Meta pour la basse saison",
-        "Intégration moteur de réservation"
+        "موقع متميز مع المعرض والحجز المباشر",
+        "فيديو بدون طيار وصور احترافية",
+        "تحسين محركات البحث المحلية “الرياض + المدينة”",
+        "حملات التعريف للموسم المنخفض",
+        "تكامل محرك الحجز"
       ],
-      "budget": "Sur devis",
+      "budget": "على الاقتباس",
       "cpl": "—",
-      "roas": "3,2x",
-      "timeline": "4 mois",
+      "roas": "3.2x",
+      "timeline": "4 أشهر",
       "structural": {
         "leads": 290,
         "cover": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80",
@@ -515,36 +515,36 @@
         "featured": false,
         "tags": [
           "webDev",
-          "seo",
+          "سيو",
           "visualCreation"
         ]
       },
       "testimonials": [
         {
-          "quote": "Le site et les vidéos transmettent l'ambiance du riad. Les réservations directes ont bondi.",
-          "author": "Gérant",
-          "role": "Riad boutique, Marrakech"
+          "quote": "ينقل الموقع ومقاطع الفيديو أجواء الرياض. ارتفعت الحجوزات المباشرة.",
+          "author": "مدير",
+          "role": "بوتيك الرياض، مراكش"
         }
       ],
       "execution": [
-        "Design UX site immersif",
-        "Tournage photo et drone",
-        "Développement site + moteur réservation",
-        "SEO local et Google Business",
-        "Campagnes Meta saisonnières"
+        "تصميم موقع غامرة UX",
+        "تصوير الصور والطائرات بدون طيار",
+        "تطوير الموقع + محرك الحجز",
+        "تحسين محركات البحث المحلية وGoogle Business",
+        "حملات التعريف الموسمية"
       ],
       "technologies": [
         "Next.js",
-        "Booking engine",
-        "After Effects",
-        "Google Ads",
-        "Meta Ads"
+        "محرك الحجز",
+        "بعد التأثيرات",
+        "إعلانات جوجل",
+        "إعلانات ميتا"
       ],
       "relatedServices": [
-        "corporate-websites",
-        "video-production",
-        "seo",
-        "meta-ads"
+        "مواقع الشركات",
+        "إنتاج الفيديو",
+        "سيو",
+        "إعلانات Meta"
       ]
     }
   }

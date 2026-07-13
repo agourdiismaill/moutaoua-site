@@ -4,12 +4,12 @@
     "cro": "CRO",
     "automation": "Automation",
     "googleAds": "Google Ads",
-    "performanceMax": "Performance Max",
+    "performanceMax": "Max Performance",
     "crm": "CRM",
     "whatsApp": "WhatsApp",
     "socialMedia": "Social Media",
     "branding": "Branding",
-    "visualCreation": "Visual design",
+    "visualCreation": "Visual creation",
     "multilingual": "Multilingual",
     "webDev": "Web development",
     "ecommerce": "E-commerce",
@@ -17,33 +17,26 @@
   },
   "items": {
     "skola-formation": {
-      "title": "1,200 leads/month for a training provider",
-      "client": "Professional training center (anonymized)",
-      "industry": "Professional training",
-      "description": "Complete overhaul of Skola's paid acquisition—from irregular lead volume to a predictable engine generating 1,200+ qualified inquiries per month.",
+      "title": "1,200 leads/month for a training organization",
+      "client": "Professional training center. (anonymized)",
+      "industry": "Vocational training",
+      "description": "Completely overhauled Skola's paid acquisition, moving from an irregular volume of leads to a predictable machine generating over 1,200 qualified requests per month.",
       "objectives": [
-        "Generate predictable, scalable lead volume",
-        "Reduce cost per lead below 55 DH",
-        "Improve lead quality passed to advisors"
+        "Generate a predictable and scalable lead volume",
+        "Reduce the cost per lead below 55 DH",
+        "Improve the quality of leads sent to advisors"
       ],
       "strategy": [
-        "Full Meta Ads account restructure into ABO campaigns",
-        "Native benefit-driven video creatives",
-        "Server-side conversion tracking (CAPI)",
-        "Dedicated landing pages per program with ongoing A/B tests",
-        "Email + WhatsApp nurturing for warm leads"
+        "Complete restructuring of the Meta Ads account into ABO campaigns",
+        "Producing profit-oriented native video creatives",
+        "Implementation of server-side conversion tracking (CAPI)",
+        "Dedicated landing pages per training with continuous A/B testing",
+        "Email + WhatsApp nurturing sequence for lukewarm leads"
       ],
       "budget": "88,000 DH / month",
       "cpl": "53 DH",
       "roas": "5.2x",
       "timeline": "6 months",
-      "testimonials": [
-        {
-          "quote": "In 6 months, EduGrowth multiplied our enrollments by 4. A data-driven, transparent team.",
-          "author": "Camille Robert",
-          "role": "Director, Skola Formation"
-        }
-      ],
       "structural": {
         "leads": 1240,
         "cover": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
@@ -62,12 +55,19 @@
           "automation"
         ]
       },
+      "testimonials": [
+        {
+          "quote": "In 6 months, EduGrowth multiplied our registrations by 4. A data-driven and transparent team.",
+          "author": "Camille Robert",
+          "role": "Director, Skola Training"
+        }
+      ],
       "execution": [
-        "Déploiement compte Meta Ads en 5 jours",
-        "Production de 12 créatives vidéo/mois",
-        "Lancement landing pages par formation",
-        "Mise en place séquences WhatsApp + email",
-        "Optimisation hebdomadaire budget et audiences"
+        "Meta Ads account deployment in 5 days",
+        "Production of 12 video creatives/month",
+        "Landing page launch via training",
+        "Setting up WhatsApp + email sequences",
+        "Weekly budget and audience optimization"
       ],
       "technologies": [
         "Meta Ads",
@@ -78,39 +78,32 @@
       ],
       "relatedServices": [
         "meta-ads",
-        "landing-pages",
-        "marketing-automation",
+        "landing pages",
+        "marketing automation",
         "crm-data"
       ]
     },
     "campusup-search": {
-      "title": "6.1x ROAS via Google Ads for CampusUp",
-      "client": "Higher education school (anonymized)",
+      "title": "ROAS 6.1x via Google Ads for CampusUp",
+      "client": "Graduate school (anonymized)",
       "industry": "E-learning",
-      "description": "Capturing high-intent Google demand for CampusUp with a Search + Performance Max structure that dramatically increased return on ad spend.",
+      "description": "Conquering high-intent demand on Google for CampusUp, with a Search + Performance Max structure that exploded the return on investment.",
       "objectives": [
-        "Capture search demand for certified training programs",
+        "Capturing research demand for certification training",
         "Maximize ROAS on a constrained budget",
-        "Lower CPA while increasing volume"
+        "Decrease CPA while increasing volume"
       ],
       "strategy": [
-        "Audit and high-intent keyword research",
-        "Search architecture by training theme",
-        "Performance Max campaigns fed with premium assets",
-        "Ongoing bid and Quality Score optimization",
+        "High-intent keyword audit & research",
+        "Architecture Search by training theme",
+        "Performance Max campaigns powered by premium assets",
+        "Continuous optimization of auctions and quality score",
         "CRM connection for optimization on qualified leads"
       ],
       "budget": "132,000 DH / month",
       "cpl": "68 DH",
       "roas": "6.1x",
       "timeline": "5 months",
-      "testimonials": [
-        {
-          "quote": "CPL cut in half and a pipeline we can finally read. Responsive, transparent team.",
-          "author": "Mehdi Lefort",
-          "role": "Head of Acquisition, CampusUp"
-        }
-      ],
       "structural": {
         "leads": 980,
         "cover": "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=1600&q=80",
@@ -127,52 +120,52 @@
           "performanceMax"
         ]
       },
+      "testimonials": [
+        {
+          "quote": "A CPL halved and a pipeline finally readable. The team is responsive and transparent.",
+          "author": "Mehdi Lefort",
+          "role": "Acquisition Manager, CampusUp"
+        }
+      ],
       "execution": [
-        "Restructuration compte Google Ads",
-        "Création 8 groupes d'annonces thématiques",
-        "Déploiement Performance Max",
-        "Landing pages Search dédiées",
-        "Connexion CRM pour optimisation offline"
+        "Google Ads account restructuring",
+        "Creation of 8 thematic ad groups",
+        "Performance Max deployment",
+        "Dedicated Search landing pages",
+        "CRM connection for offline optimization"
       ],
       "technologies": [
         "Google Ads",
-        "Performance Max",
+        "Max Performance",
         "Next.js",
         "Google Analytics 4"
       ],
       "relatedServices": [
-        "google-ads",
-        "landing-pages",
+        "google ads",
+        "landing pages",
         "seo"
       ]
     },
     "edunext-automation": {
-      "title": "Automated enrollment funnel for EduNext",
+      "title": "Automated registration funnel for EduNext",
       "client": "E-learning organization (anonymized)",
       "industry": "Online training",
-      "description": "A multichannel nurturing engine that converts dormant leads into enrollments—with no human touch on the first steps.",
+      "description": "Construction of a multi-channel nurturing machine that converts dormant leads into registrations, without human intervention in the first stages.",
       "objectives": [
-        "Reactivate a cold lead database",
-        "Automate qualification and follow-ups",
-        "Increase lead-to-enrollment conversion rate"
+        "Reactivate a database of cold leads",
+        "Automate qualification and reminders",
+        "Increase the lead → registration conversion rate"
       ],
       "strategy": [
-        "Lead scoring and segmentation in the CRM",
-        "Behavior-triggered email + SMS + WhatsApp workflows",
+        "Lead scoring and segmentation in CRM",
+        "Email + SMS + WhatsApp scenarios triggered by behavior",
         "Automated mid-funnel webinars",
-        "Sequence optimization through A/B testing"
+        "Optimization of sequences by A/B tests"
       ],
       "budget": "55,000 DH / month",
       "cpl": "65 DH",
       "roas": "4.7x",
       "timeline": "4 months",
-      "testimonials": [
-        {
-          "quote": "The funnel they built runs on its own. We fill our sessions ahead of schedule.",
-          "author": "Sophie Nguyen",
-          "role": "Founder, EduNext"
-        }
-      ],
       "structural": {
         "leads": 720,
         "cover": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=80",
@@ -187,15 +180,22 @@
         "tags": [
           "automation",
           "crm",
-          "whatsApp"
+          "whatsapp"
         ]
       },
+      "testimonials": [
+        {
+          "quote": "The tunnel they built turns on its own. We fill our sessions in advance.",
+          "author": "Sophie Nguyen",
+          "role": "Founder, EduNext"
+        }
+      ],
       "execution": [
-        "Audit parcours lead existant",
-        "Configuration HubSpot + WhatsApp",
-        "Création 4 scénarios automation",
-        "Formation équipe commerciale",
-        "Dashboard KPIs temps réel"
+        "Existing lead path audit",
+        "HubSpot + WhatsApp setup",
+        "Creation of 4 automation scenarios",
+        "Sales team training",
+        "Real-time KPIs dashboard"
       ],
       "technologies": [
         "HubSpot",
@@ -204,40 +204,33 @@
         "Looker Studio"
       ],
       "relatedServices": [
-        "marketing-automation",
+        "marketing automation",
         "crm-data",
         "chatbots"
       ]
     },
     "millennia-group-prive": {
-      "title": "Social media identity & acquisition for Millennia (Marrakech)",
+      "title": "Social-media identity & acquisition for Millennia (Marrakech)",
       "client": "Private school group (anonymized)",
       "industry": "Language training center",
-      "description": "End-to-end digital communication for Millennia Group Privé in Marrakech (languages, IT, TELC/Goethe prep). Premium visual identity and multilingual social campaigns (Arabic, French) that boosted enrollment inquiries.",
+      "description": "Complete management of digital communication for Millennia Group Privé, training center in Marrakech (languages, IT, TELC/Goethe preparation). Creation of a premium graphic line and multilingual social media campaigns (Arabic, French) which caused registration requests to take off.",
       "objectives": [
-        "Build a consistent, recognizable visual identity on social",
-        "Generate a steady flow of training enrollment requests",
-        "Cover the full offer: German, English, French, Spanish, IT",
-        "Engage the community around key moments (Ramadan, Eid, hiring, news)"
+        "Build a coherent and recognizable visual identity on networks",
+        "Generate a regular flow of training registration requests",
+        "Cover the entire offer: German, English, French, Spanish, IT",
+        "Animating the community around key events (Ramadan, Eid, recruitment, current events)"
       ],
       "strategy": [
-        "Art direction and on-brand template rollouts",
-        "Multilingual editorial calendar (Arabic / French) on Instagram & Facebook",
-        "Promotional visuals (language packs + free IT add-on)",
+        "Artistic direction and variation of templates in the brand’s colors",
+        "Multilingual editorial calendar (Arabic / French) published on Instagram & Facebook",
+        "Visuals of promotional offers (language packs + free IT)",
         "Trainer recruitment campaigns and brand posts",
         "Seasonal and awareness content to maximize engagement"
       ],
-      "budget": "Custom quote",
+      "budget": "On quote",
       "cpl": "—",
       "roas": "—",
-      "timeline": "Ongoing engagement",
-      "testimonials": [
-        {
-          "quote": "Our social presence is now professional and consistent. The visuals finally reflect our center's image.",
-          "author": "Management",
-          "role": "Millennia Group Privé, Marrakech"
-        }
-      ],
+      "timeline": "Mission continues",
       "structural": {
         "leads": 480,
         "cover": "/realisations/millennia/millennia-04.png",
@@ -271,47 +264,54 @@
           "multilingual"
         ]
       },
+      "testimonials": [
+        {
+          "quote": "Our presence on the networks has become professional and constant. The visuals finally reflect the image of our center.",
+          "author": "Direction",
+          "role": "Millennia Group Private, Marrakech"
+        }
+      ],
       "execution": [
-        "Refonte ligne graphique complète",
-        "Calendrier éditorial mensuel",
-        "Production Reels et carrousels",
-        "Campagnes Meta Ads locales",
-        "Reporting engagement mensuel"
+        "Complete graphic line redesign",
+        "Monthly editorial calendar",
+        "Production Reels and Carousels",
+        "Local Meta Ads campaigns",
+        "Monthly engagement reporting"
       ],
       "technologies": [
         "Meta Ads",
-        "Canva",
+        "Canvas",
         "After Effects",
         "Instagram"
       ],
       "relatedServices": [
-        "social-media",
+        "social media",
         "brand-identity",
-        "reels",
+        "real",
         "meta-ads"
       ]
     },
     "nova-industrie-web": {
       "title": "B2B corporate site + SEO: +340% organic traffic",
-      "client": "Groupe industriel (anonymisé)",
-      "industry": "Industrie & B2B",
-      "description": "Refonte digitale complète pour un groupe industriel marocain : site corporate Next.js, architecture SEO et contenus multilingues pour générer des demandes de devis qualifiées.",
+      "client": "Industrial group (anonymized)",
+      "industry": "Industry & B2B",
+      "description": "Complete digital overhaul for a Moroccan industrial group: Next.js corporate site, SEO architecture and multilingual content to generate qualified quote requests.",
       "objectives": [
-        "Moderniser l'image digitale du groupe",
-        "Générer des leads B2B via le site",
-        "Améliorer le référencement sur les requêtes métier"
+        "Modernize the group's digital image",
+        "Generate B2B leads via the site",
+        "Improve SEO on business queries"
       ],
       "strategy": [
-        "Audit UX et refonte site corporate mobile-first",
-        "Architecture SEO par ligne de produits et villes",
-        "Pages solutions + formulaires devis trackés",
-        "Blog technique pour la notoriété long terme",
-        "Connexion CRM pour le suivi commercial"
+        "UX audit and mobile-first corporate site redesign",
+        "SEO architecture by product line and cities",
+        "Solutions pages + tracked quote forms",
+        "Technical blog for long-term notoriety",
+        "CRM connection for sales tracking"
       ],
-      "budget": "Sur devis",
+      "budget": "On quote",
       "cpl": "—",
       "roas": "—",
-      "timeline": "5 mois",
+      "timeline": "5 months",
       "structural": {
         "leads": 186,
         "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80",
@@ -329,17 +329,17 @@
       },
       "testimonials": [
         {
-          "quote": "Notre site reflète enfin notre niveau d'expertise. Les demandes de devis ont triplé.",
-          "author": "Direction commerciale",
-          "role": "Groupe industriel, Casablanca"
+          "quote": "Our site finally reflects our level of expertise. Requests for quotes have tripled.",
+          "author": "Commercial management",
+          "role": "Industrial group, Casablanca"
         }
       ],
       "execution": [
-        "Atelier stratégie et arborescence",
-        "Design UI/UX et développement Next.js",
-        "Migration contenus multilingues (fr/ar)",
-        "Déploiement SEO technique et contenu",
-        "Formation équipe commerciale au CRM"
+        "Strategy and tree structure workshop",
+        "UI/UX design and Next.js development",
+        "Multilingual content migration (fr/ar)",
+        "Technical and content SEO deployment",
+        "CRM sales team training"
       ],
       "technologies": [
         "Next.js",
@@ -356,26 +356,26 @@
       ]
     },
     "atlas-ecommerce-growth": {
-      "title": "Fashion e-commerce: 4.8x ROAS and +2M MAD quarterly revenue",
-      "client": "Marque e-commerce (anonymisée)",
+      "title": "Fashion e-commerce: ROAS 4.8x and +2 M MAD quarterly turnover",
+      "client": "E-commerce brand (anonymized)",
       "industry": "E-commerce & Retail",
-      "description": "Lancement et scaling d'une boutique Shopify avec campagnes Meta Ads, shooting produit et automation panier abandonné pour une marque de mode marocaine.",
+      "description": "Launch and scaling of a Shopify store with Meta Ads campaigns, product shooting and abandoned cart automation for a Moroccan fashion brand.",
       "objectives": [
-        "Lancer la boutique en ligne rapidement",
-        "Scaler les ventes via Meta Ads",
-        "Réduire le taux d'abandon panier"
+        "Launch the online store quickly",
+        "Scaling sales via Meta Ads",
+        "Reduce shopping cart abandonment rate"
       ],
       "strategy": [
-        "Setup Shopify + paiements locaux",
-        "Shooting produit et fiches optimisées",
-        "Campagnes Meta catalogue + retargeting",
-        "Séquences email/WhatsApp panier abandonné",
-        "Optimisation CRO checkout mobile"
+        "Shopify setup + local payments",
+        "Product shoot and optimized sheets",
+        "Meta catalog + retargeting campaigns",
+        "Abandoned cart email/WhatsApp sequences",
+        "Mobile checkout CRO optimization"
       ],
-      "budget": "72 000 DH / mois",
+      "budget": "72,000 DH / month",
       "cpl": "42 DH",
-      "roas": "4,8x",
-      "timeline": "4 mois",
+      "roas": "4.8x",
+      "timeline": "4 months",
       "structural": {
         "leads": 3200,
         "cover": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=80",
@@ -386,60 +386,60 @@
         "videos": [],
         "featured": true,
         "tags": [
-          "ecommerce",
+          "e-commerce",
           "metaAds",
           "cro"
         ]
       },
       "testimonials": [
         {
-          "quote": "De zéro à des ventes quotidiennes en 6 semaines. L'équipe maîtrise tout le funnel.",
-          "author": "Fondatrice",
-          "role": "Marque mode, Casablanca"
+          "quote": "From zero to daily sales in 6 weeks. The team controls the entire funnel.",
+          "author": "Founder",
+          "role": "Fashion brand, Casablanca"
         }
       ],
       "execution": [
-        "Développement boutique Shopify",
-        "Production 40 visuels produits",
-        "Lancement campagnes Meta catalogue",
-        "Automation panier abandonné",
-        "Reporting hebdomadaire ROAS"
+        "Shopify store development",
+        "Production 40 visual products",
+        "Launch of Meta catalog campaigns",
+        "Abandoned cart automation",
+        "Weekly ROAS reporting"
       ],
       "technologies": [
         "Shopify",
         "Meta Ads",
         "Klaviyo",
         "WhatsApp API",
-        "Stripe"
+        "stripe"
       ],
       "relatedServices": [
         "e-commerce",
         "meta-ads",
         "product-photography",
-        "marketing-automation"
+        "marketing automation"
       ]
     },
     "medina-clinic-digital": {
       "title": "Private clinic: +180% appointment requests",
-      "client": "Clinique privée (anonymisée)",
-      "industry": "Santé & Cliniques",
-      "description": "Identité visuelle, site web et campagnes Google locales pour une clinique à Marrakech : visibilité, confiance et prise de RDV en ligne.",
+      "client": "Private clinic (anonymized)",
+      "industry": "Health & Clinics",
+      "description": "Visual identity, website and local Google campaigns for a clinic in Marrakech: visibility, trust and online appointment booking.",
       "objectives": [
-        "Renforcer la crédibilité de la clinique en ligne",
-        "Générer des demandes de rendez-vous qualifiées",
-        "Se positionner sur les recherches locales"
+        "Strengthen the credibility of the online clinic",
+        "Generate qualified appointment requests",
+        "Position yourself on local searches"
       ],
       "strategy": [
-        "Refonte identité visuelle premium",
-        "Site vitrine avec prise de RDV WhatsApp",
-        "Google Business Profile optimisé",
-        "Campagnes Google Search locales",
-        "Contenus éducatifs pour le SEO santé"
+        "Premium visual identity overhaul",
+        "Showcase site with WhatsApp appointment booking",
+        "Optimized Google Business Profile",
+        "Local Google Search campaigns",
+        "Educational content for health SEO"
       ],
-      "budget": "38 000 DH / mois",
+      "budget": "38,000 DH / month",
       "cpl": "78 DH",
       "roas": "—",
-      "timeline": "3 mois",
+      "timeline": "3 months",
       "structural": {
         "leads": 420,
         "cover": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1600&q=80",
@@ -456,17 +456,17 @@
       },
       "testimonials": [
         {
-          "quote": "Nos patients nous trouvent sur Google et prennent RDV directement. Un vrai changement.",
-          "author": "Dr. (anonymisé)",
-          "role": "Clinique privée, Marrakech"
+          "quote": "Our patients find us on Google and make an appointment directly. A real change.",
+          "author": "Dr. (anonymized)",
+          "role": "Private clinic, Marrakech"
         }
       ],
       "execution": [
-        "Création charte graphique",
-        "Développement site Next.js",
-        "Setup Google Ads local",
-        "Optimisation fiche Google Business",
-        "Formation accueil au suivi leads"
+        "Creation of graphic charter",
+        "Next.js website development",
+        "Local Google Ads setup",
+        "Google Business listing optimization",
+        "Onboarding training in lead tracking"
       ],
       "technologies": [
         "Next.js",
@@ -478,31 +478,31 @@
       "relatedServices": [
         "brand-identity",
         "corporate-websites",
-        "google-ads",
+        "google ads",
         "seo"
       ]
     },
     "riad-hotel-digital": {
-      "title": "Boutique riad: +45% direct bookings",
-      "client": "Hôtel boutique (anonymisé)",
-      "industry": "Hôtellerie & Tourisme",
-      "description": "Site web immersif, vidéo drone et SEO local pour un riad de luxe : réduire la dépendance aux OTA et augmenter les réservations directes.",
+      "title": "Riad boutique: +45% direct reservations",
+      "client": "Boutique hotel (anonymized)",
+      "industry": "Hospitality & Tourism",
+      "description": "Immersive website, drone video and local SEO for a luxury riad: reduce dependence on OTAs and increase direct bookings.",
       "objectives": [
-        "Augmenter les réservations sans commission OTA",
-        "Valoriser l'expérience client en ligne",
-        "Améliorer le référencement local"
+        "Increase bookings without OTA commission",
+        "Enhance the online customer experience",
+        "Improve local SEO"
       ],
       "strategy": [
-        "Site web premium avec galerie et réservation directe",
-        "Vidéo drone et photos professionnelles",
-        "SEO local « riad + ville »",
-        "Campagnes Meta pour la basse saison",
-        "Intégration moteur de réservation"
+        "Premium website with gallery and direct booking",
+        "Drone video and professional photos",
+        "Local SEO “riad + city”",
+        "Meta campaigns for the low season",
+        "Booking engine integration"
       ],
-      "budget": "Sur devis",
+      "budget": "On quote",
       "cpl": "—",
-      "roas": "3,2x",
-      "timeline": "4 mois",
+      "roas": "3.2x",
+      "timeline": "4 months",
       "structural": {
         "leads": 290,
         "cover": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80",
@@ -521,17 +521,17 @@
       },
       "testimonials": [
         {
-          "quote": "Le site et les vidéos transmettent l'ambiance du riad. Les réservations directes ont bondi.",
-          "author": "Gérant",
+          "quote": "The site and the videos convey the atmosphere of the riad. Direct bookings have surged.",
+          "author": "Manager",
           "role": "Riad boutique, Marrakech"
         }
       ],
       "execution": [
-        "Design UX site immersif",
-        "Tournage photo et drone",
-        "Développement site + moteur réservation",
-        "SEO local et Google Business",
-        "Campagnes Meta saisonnières"
+        "Immersive website UX design",
+        "Photo and drone shooting",
+        "Site development + booking engine",
+        "Local SEO and Google Business",
+        "Seasonal Meta Campaigns"
       ],
       "technologies": [
         "Next.js",
