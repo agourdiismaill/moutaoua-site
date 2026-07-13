@@ -227,7 +227,7 @@ function ReelPlayer({
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.25 }}
-            className="relative aspect-[9/16] max-h-[88vh] overflow-hidden rounded-2xl bg-black"
+            className="relative h-[min(88vh,820px)] w-[min(100%,calc(min(88vh,820px)*9/16))] shrink-0 overflow-hidden rounded-2xl bg-black shadow-soft-lg"
             onClick={(e) => e.stopPropagation()}
           >
             <LazyVideo

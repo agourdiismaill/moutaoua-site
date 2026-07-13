@@ -54,7 +54,7 @@ export function LazyVideo({
       <video
         {...props}
         poster={poster}
-        preload="none"
+        preload={eager ? "auto" : "none"}
         src={activeSrc}
         className={cn("absolute inset-0 h-full w-full object-cover", videoClassName)}
       />
