@@ -9,6 +9,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { SectionHeading } from "@/components/shared/section-heading";
+import { JsonLdScript } from "@/components/seo/json-ld-script";
+import { buildFaqSchema } from "@/lib/seo/schema";
 import { getLocalizedFaqs } from "@/lib/i18n-content";
 import { fadeUp, viewportOnce } from "@/lib/motion";
 import { cn } from "@/lib/utils";
@@ -20,6 +22,7 @@ export function FaqSection({ className }: { className?: string }) {
 
   return (
     <section id="faq" className={cn("section-pad", className)}>
+      <JsonLdScript data={buildFaqSchema(faqs)} />
       <div className="container-max">
         <SectionHeading
           eyebrow={ts("eyebrow")}

@@ -8,7 +8,7 @@ import { CapabilitiesGrid } from "@/components/sections/capabilities-grid";
 import { ServicesSection } from "@/components/sections/services-section";
 import { IndustriesTeaser } from "@/components/sections/industries-teaser";
 import { SolutionsTeaser } from "@/components/sections/solutions-teaser";
-import { LocalBusinessJsonLd, FaqPageJsonLd } from "@/components/shared/json-ld";
+import { LocalBusinessJsonLd } from "@/components/shared/json-ld";
 import { AIOverview } from "@/components/seo/ai-overview";
 import { TrustSection } from "@/components/seo/trust-section";
 import { buildSeoMetadata } from "@/lib/seo/metadata";
@@ -79,7 +79,6 @@ export default async function HomePage({
   return (
     <>
       <LocalBusinessJsonLd />
-      <FaqPageJsonLd />
       <Hero />
       <section className="section-pad pt-0" aria-label={overviewLabels.title}>
         <div className="container-max">
