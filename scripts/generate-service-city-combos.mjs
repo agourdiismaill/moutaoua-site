@@ -117,16 +117,12 @@ function main() {
     .join("\n");
 
   const lines = combos.map((c) => {
-    const desc = c.description.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
-    const title = c.title.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
     return `  {
     slug: "${c.slug}",
     service: "${c.service}",
     ville: "${c.ville}",
     villeSlug: "${c.villeSlug}",
     secteurDominant: "${c.secteurDominant}",
-    title: "${title}",
-    description: "${desc}",
   }`;
   });
 
@@ -143,8 +139,6 @@ export interface ServiceCityCombo {
   ville: string;
   villeSlug: CitySlug;
   secteurDominant: string;
-  title: string;
-  description: string;
 }
 
 export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [

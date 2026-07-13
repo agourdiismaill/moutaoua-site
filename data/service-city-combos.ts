@@ -19,8 +19,6 @@ export interface ServiceCityCombo {
   ville: string;
   villeSlug: CitySlug;
   secteurDominant: string;
-  title: string;
-  description: string;
 }
 
 export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
@@ -30,8 +28,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Agents IA à Agadir | Mohtaoua",
-    description: "Agents IA à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ai-agents-casablanca",
@@ -39,8 +35,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Agents IA à Casablanca | Mohtaoua",
-    description: "Agents IA à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ai-agents-fes",
@@ -48,8 +42,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Agents IA à Fès | Mohtaoua",
-    description: "Agents IA à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ai-agents-kenitra",
@@ -57,8 +49,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Agents IA à Kenitra | Mohtaoua",
-    description: "Agents IA à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ai-agents-marrakech",
@@ -66,8 +56,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Agents IA à Marrakech | Mohtaoua",
-    description: "Agents IA à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ai-agents-meknes",
@@ -75,8 +63,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Agents IA à Meknès | Mohtaoua",
-    description: "Agents IA à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ai-agents-oujda",
@@ -84,8 +70,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Agents IA à Oujda | Mohtaoua",
-    description: "Agents IA à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ai-agents-rabat",
@@ -93,8 +77,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Agents IA à Rabat | Mohtaoua",
-    description: "Agents IA à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ai-agents-tanger",
@@ -102,8 +84,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Agents IA à Tanger | Mohtaoua",
-    description: "Agents IA à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-agadir",
@@ -111,8 +91,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Applications Android à Agadir | Mohtaoua",
-    description: "Applications Android à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-casablanca",
@@ -120,8 +98,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Applications Android à Casablanca | Mohtaoua",
-    description: "Applications Android à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-fes",
@@ -129,8 +105,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Applications Android à Fès | Mohtaoua",
-    description: "Applications Android à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-kenitra",
@@ -138,8 +112,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Applications Android à Kenitra | Mohtaoua",
-    description: "Applications Android à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-marrakech",
@@ -147,8 +119,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Applications Android à Marrakech | Mohtaoua",
-    description: "Applications Android à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-meknes",
@@ -156,8 +126,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Applications Android à Meknès | Mohtaoua",
-    description: "Applications Android à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-oujda",
@@ -165,8 +133,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Applications Android à Oujda | Mohtaoua",
-    description: "Applications Android à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-rabat",
@@ -174,8 +140,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Applications Android à Rabat | Mohtaoua",
-    description: "Applications Android à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "android-tanger",
@@ -183,8 +147,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Applications Android à Tanger | Mohtaoua",
-    description: "Applications Android à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-agadir",
@@ -192,8 +154,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Intégration API à Agadir | Mohtaoua",
-    description: "Intégration API à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-casablanca",
@@ -201,8 +161,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Intégration API à Casablanca | Mohtaoua",
-    description: "Intégration API à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-fes",
@@ -210,8 +168,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Intégration API à Fès | Mohtaoua",
-    description: "Intégration API à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-kenitra",
@@ -219,8 +175,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Intégration API à Kenitra | Mohtaoua",
-    description: "Intégration API à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-marrakech",
@@ -228,8 +182,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Intégration API à Marrakech | Mohtaoua",
-    description: "Intégration API à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-meknes",
@@ -237,8 +189,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Intégration API à Meknès | Mohtaoua",
-    description: "Intégration API à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-oujda",
@@ -246,8 +196,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Intégration API à Oujda | Mohtaoua",
-    description: "Intégration API à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-rabat",
@@ -255,8 +203,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Intégration API à Rabat | Mohtaoua",
-    description: "Intégration API à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "api-integration-tanger",
@@ -264,8 +210,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Intégration API à Tanger | Mohtaoua",
-    description: "Intégration API à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-agadir",
@@ -273,8 +217,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Automatisation à Agadir | Mohtaoua",
-    description: "Automatisation à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-casablanca",
@@ -282,8 +224,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Automatisation à Casablanca | Mohtaoua",
-    description: "Automatisation à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-fes",
@@ -291,8 +231,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Automatisation à Fès | Mohtaoua",
-    description: "Automatisation à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-kenitra",
@@ -300,8 +238,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Automatisation à Kenitra | Mohtaoua",
-    description: "Automatisation à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-marrakech",
@@ -309,8 +245,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Automatisation à Marrakech | Mohtaoua",
-    description: "Automatisation à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-meknes",
@@ -318,8 +252,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Automatisation à Meknès | Mohtaoua",
-    description: "Automatisation à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-oujda",
@@ -327,8 +259,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Automatisation à Oujda | Mohtaoua",
-    description: "Automatisation à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-rabat",
@@ -336,8 +266,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Automatisation à Rabat | Mohtaoua",
-    description: "Automatisation à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "automation-tanger",
@@ -345,8 +273,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Automatisation à Tanger | Mohtaoua",
-    description: "Automatisation à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-agadir",
@@ -354,8 +280,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Plateformes de Réservation à Agadir | Mohtaoua",
-    description: "Plateformes de Réservation à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-casablanca",
@@ -363,8 +287,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Plateformes de Réservation à Casablanca | Mohtaoua",
-    description: "Plateformes de Réservation à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-fes",
@@ -372,8 +294,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Plateformes de Réservation à Fès | Mohtaoua",
-    description: "Plateformes de Réservation à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-kenitra",
@@ -381,8 +301,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Plateformes de Réservation à Kenitra | Mohtaoua",
-    description: "Plateformes de Réservation à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-marrakech",
@@ -390,8 +308,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Plateformes de Réservation à Marrakech | Mohtaoua",
-    description: "Plateformes de Réservation à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-meknes",
@@ -399,8 +315,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Plateformes de Réservation à Meknès | Mohtaoua",
-    description: "Plateformes de Réservation à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-oujda",
@@ -408,8 +322,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Plateformes de Réservation à Oujda | Mohtaoua",
-    description: "Plateformes de Réservation à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-rabat",
@@ -417,8 +329,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Plateformes de Réservation à Rabat | Mohtaoua",
-    description: "Plateformes de Réservation à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booking-platforms-tanger",
@@ -426,8 +336,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Plateformes de Réservation à Tanger | Mohtaoua",
-    description: "Plateformes de Réservation à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-agadir",
@@ -435,8 +343,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Design de Stands à Agadir | Mohtaoua",
-    description: "Design de Stands à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-casablanca",
@@ -444,8 +350,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Design de Stands à Casablanca | Mohtaoua",
-    description: "Design de Stands à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-fes",
@@ -453,8 +357,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Design de Stands à Fès | Mohtaoua",
-    description: "Design de Stands à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-kenitra",
@@ -462,8 +364,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Design de Stands à Kenitra | Mohtaoua",
-    description: "Design de Stands à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-marrakech",
@@ -471,8 +371,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Design de Stands à Marrakech | Mohtaoua",
-    description: "Design de Stands à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-meknes",
@@ -480,8 +378,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Design de Stands à Meknès | Mohtaoua",
-    description: "Design de Stands à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-oujda",
@@ -489,8 +385,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Design de Stands à Oujda | Mohtaoua",
-    description: "Design de Stands à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-rabat",
@@ -498,8 +392,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Design de Stands à Rabat | Mohtaoua",
-    description: "Design de Stands à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "booth-design-tanger",
@@ -507,8 +399,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Design de Stands à Tanger | Mohtaoua",
-    description: "Design de Stands à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-agadir",
@@ -516,8 +406,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Brand Activation à Agadir | Mohtaoua",
-    description: "Brand Activation à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-casablanca",
@@ -525,8 +413,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Brand Activation à Casablanca | Mohtaoua",
-    description: "Brand Activation à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-fes",
@@ -534,8 +420,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Brand Activation à Fès | Mohtaoua",
-    description: "Brand Activation à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-kenitra",
@@ -543,8 +427,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Brand Activation à Kenitra | Mohtaoua",
-    description: "Brand Activation à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-marrakech",
@@ -552,8 +434,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Brand Activation à Marrakech | Mohtaoua",
-    description: "Brand Activation à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-meknes",
@@ -561,8 +441,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Brand Activation à Meknès | Mohtaoua",
-    description: "Brand Activation à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-oujda",
@@ -570,8 +448,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Brand Activation à Oujda | Mohtaoua",
-    description: "Brand Activation à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-rabat",
@@ -579,8 +455,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Brand Activation à Rabat | Mohtaoua",
-    description: "Brand Activation à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-activation-tanger",
@@ -588,8 +462,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Brand Activation à Tanger | Mohtaoua",
-    description: "Brand Activation à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-agadir",
@@ -597,8 +469,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Identité de Marque à Agadir | Mohtaoua",
-    description: "Identité de Marque à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-casablanca",
@@ -606,8 +476,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Identité de Marque à Casablanca | Mohtaoua",
-    description: "Identité de Marque à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-fes",
@@ -615,8 +483,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Identité de Marque à Fès | Mohtaoua",
-    description: "Identité de Marque à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-kenitra",
@@ -624,8 +490,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Identité de Marque à Kenitra | Mohtaoua",
-    description: "Identité de Marque à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-marrakech",
@@ -633,8 +497,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Identité de Marque à Marrakech | Mohtaoua",
-    description: "Identité de Marque à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-meknes",
@@ -642,8 +504,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Identité de Marque à Meknès | Mohtaoua",
-    description: "Identité de Marque à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-oujda",
@@ -651,8 +511,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Identité de Marque à Oujda | Mohtaoua",
-    description: "Identité de Marque à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-rabat",
@@ -660,8 +518,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Identité de Marque à Rabat | Mohtaoua",
-    description: "Identité de Marque à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brand-identity-tanger",
@@ -669,8 +525,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Identité de Marque à Tanger | Mohtaoua",
-    description: "Identité de Marque à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-agadir",
@@ -678,8 +532,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Brochures à Agadir | Mohtaoua",
-    description: "Brochures à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-casablanca",
@@ -687,8 +539,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Brochures à Casablanca | Mohtaoua",
-    description: "Brochures à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-fes",
@@ -696,8 +546,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Brochures à Fès | Mohtaoua",
-    description: "Brochures à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-kenitra",
@@ -705,8 +553,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Brochures à Kenitra | Mohtaoua",
-    description: "Brochures à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-marrakech",
@@ -714,8 +560,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Brochures à Marrakech | Mohtaoua",
-    description: "Brochures à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-meknes",
@@ -723,8 +567,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Brochures à Meknès | Mohtaoua",
-    description: "Brochures à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-oujda",
@@ -732,8 +574,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Brochures à Oujda | Mohtaoua",
-    description: "Brochures à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-rabat",
@@ -741,8 +581,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Brochures à Rabat | Mohtaoua",
-    description: "Brochures à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "brochure-tanger",
@@ -750,8 +588,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Brochures à Tanger | Mohtaoua",
-    description: "Brochures à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-agadir",
@@ -759,8 +595,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Plateformes Métier à Agadir | Mohtaoua",
-    description: "Plateformes Métier à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-casablanca",
@@ -768,8 +602,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Plateformes Métier à Casablanca | Mohtaoua",
-    description: "Plateformes Métier à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-fes",
@@ -777,8 +609,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Plateformes Métier à Fès | Mohtaoua",
-    description: "Plateformes Métier à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-kenitra",
@@ -786,8 +616,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Plateformes Métier à Kenitra | Mohtaoua",
-    description: "Plateformes Métier à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-marrakech",
@@ -795,8 +623,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Plateformes Métier à Marrakech | Mohtaoua",
-    description: "Plateformes Métier à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-meknes",
@@ -804,8 +630,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Plateformes Métier à Meknès | Mohtaoua",
-    description: "Plateformes Métier à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-oujda",
@@ -813,8 +637,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Plateformes Métier à Oujda | Mohtaoua",
-    description: "Plateformes Métier à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-rabat",
@@ -822,8 +644,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Plateformes Métier à Rabat | Mohtaoua",
-    description: "Plateformes Métier à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "business-platforms-tanger",
@@ -831,8 +651,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Plateformes Métier à Tanger | Mohtaoua",
-    description: "Plateformes Métier à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-agadir",
@@ -840,8 +658,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Catalogues à Agadir | Mohtaoua",
-    description: "Catalogues à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-casablanca",
@@ -849,8 +665,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Catalogues à Casablanca | Mohtaoua",
-    description: "Catalogues à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-fes",
@@ -858,8 +672,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Catalogues à Fès | Mohtaoua",
-    description: "Catalogues à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-kenitra",
@@ -867,8 +679,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Catalogues à Kenitra | Mohtaoua",
-    description: "Catalogues à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-marrakech",
@@ -876,8 +686,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Catalogues à Marrakech | Mohtaoua",
-    description: "Catalogues à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-meknes",
@@ -885,8 +693,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Catalogues à Meknès | Mohtaoua",
-    description: "Catalogues à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-oujda",
@@ -894,8 +700,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Catalogues à Oujda | Mohtaoua",
-    description: "Catalogues à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-rabat",
@@ -903,8 +707,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Catalogues à Rabat | Mohtaoua",
-    description: "Catalogues à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "catalogue-tanger",
@@ -912,8 +714,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Catalogues à Tanger | Mohtaoua",
-    description: "Catalogues à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-agadir",
@@ -921,8 +721,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Chatbots à Agadir | Mohtaoua",
-    description: "Chatbots à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-casablanca",
@@ -930,8 +728,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Chatbots à Casablanca | Mohtaoua",
-    description: "Chatbots à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-fes",
@@ -939,8 +735,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Chatbots à Fès | Mohtaoua",
-    description: "Chatbots à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-kenitra",
@@ -948,8 +742,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Chatbots à Kenitra | Mohtaoua",
-    description: "Chatbots à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-marrakech",
@@ -957,8 +749,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Chatbots à Marrakech | Mohtaoua",
-    description: "Chatbots à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-meknes",
@@ -966,8 +756,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Chatbots à Meknès | Mohtaoua",
-    description: "Chatbots à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-oujda",
@@ -975,8 +763,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Chatbots à Oujda | Mohtaoua",
-    description: "Chatbots à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-rabat",
@@ -984,8 +770,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Chatbots à Rabat | Mohtaoua",
-    description: "Chatbots à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "chatbots-tanger",
@@ -993,8 +777,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Chatbots à Tanger | Mohtaoua",
-    description: "Chatbots à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-agadir",
@@ -1002,8 +784,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Photographie Commerciale à Agadir | Mohtaoua",
-    description: "Photographie Commerciale à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-casablanca",
@@ -1011,8 +791,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Photographie Commerciale à Casablanca | Mohtaoua",
-    description: "Photographie Commerciale à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-fes",
@@ -1020,8 +798,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Photographie Commerciale à Fès | Mohtaoua",
-    description: "Photographie Commerciale à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-kenitra",
@@ -1029,8 +805,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Photographie Commerciale à Kenitra | Mohtaoua",
-    description: "Photographie Commerciale à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-marrakech",
@@ -1038,8 +812,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Photographie Commerciale à Marrakech | Mohtaoua",
-    description: "Photographie Commerciale à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-meknes",
@@ -1047,8 +819,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Photographie Commerciale à Meknès | Mohtaoua",
-    description: "Photographie Commerciale à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-oujda",
@@ -1056,8 +826,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Photographie Commerciale à Oujda | Mohtaoua",
-    description: "Photographie Commerciale à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-rabat",
@@ -1065,8 +833,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Photographie Commerciale à Rabat | Mohtaoua",
-    description: "Photographie Commerciale à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "commercial-photography-tanger",
@@ -1074,8 +840,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Photographie Commerciale à Tanger | Mohtaoua",
-    description: "Photographie Commerciale à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-agadir",
@@ -1083,8 +847,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Community Management à Agadir | Mohtaoua",
-    description: "Community Management à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-casablanca",
@@ -1092,8 +854,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Community Management à Casablanca | Mohtaoua",
-    description: "Community Management à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-fes",
@@ -1101,8 +861,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Community Management à Fès | Mohtaoua",
-    description: "Community Management à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-kenitra",
@@ -1110,8 +868,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Community Management à Kenitra | Mohtaoua",
-    description: "Community Management à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-marrakech",
@@ -1119,8 +875,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Community Management à Marrakech | Mohtaoua",
-    description: "Community Management à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-meknes",
@@ -1128,8 +882,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Community Management à Meknès | Mohtaoua",
-    description: "Community Management à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-oujda",
@@ -1137,8 +889,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Community Management à Oujda | Mohtaoua",
-    description: "Community Management à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-rabat",
@@ -1146,8 +896,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Community Management à Rabat | Mohtaoua",
-    description: "Community Management à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "community-management-tanger",
@@ -1155,8 +903,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Community Management à Tanger | Mohtaoua",
-    description: "Community Management à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-agadir",
@@ -1164,8 +910,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Conférences à Agadir | Mohtaoua",
-    description: "Conférences à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-casablanca",
@@ -1173,8 +917,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Conférences à Casablanca | Mohtaoua",
-    description: "Conférences à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-fes",
@@ -1182,8 +924,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Conférences à Fès | Mohtaoua",
-    description: "Conférences à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-kenitra",
@@ -1191,8 +931,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Conférences à Kenitra | Mohtaoua",
-    description: "Conférences à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-marrakech",
@@ -1200,8 +938,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Conférences à Marrakech | Mohtaoua",
-    description: "Conférences à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-meknes",
@@ -1209,8 +945,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Conférences à Meknès | Mohtaoua",
-    description: "Conférences à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-oujda",
@@ -1218,8 +952,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Conférences à Oujda | Mohtaoua",
-    description: "Conférences à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-rabat",
@@ -1227,8 +959,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Conférences à Rabat | Mohtaoua",
-    description: "Conférences à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "conferences-tanger",
@@ -1236,8 +966,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Conférences à Tanger | Mohtaoua",
-    description: "Conférences à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-agadir",
@@ -1245,8 +973,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Content Marketing à Agadir | Mohtaoua",
-    description: "Content Marketing à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-casablanca",
@@ -1254,8 +980,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Content Marketing à Casablanca | Mohtaoua",
-    description: "Content Marketing à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-fes",
@@ -1263,8 +987,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Content Marketing à Fès | Mohtaoua",
-    description: "Content Marketing à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-kenitra",
@@ -1272,8 +994,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Content Marketing à Kenitra | Mohtaoua",
-    description: "Content Marketing à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-marrakech",
@@ -1281,8 +1001,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Content Marketing à Marrakech | Mohtaoua",
-    description: "Content Marketing à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-meknes",
@@ -1290,8 +1008,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Content Marketing à Meknès | Mohtaoua",
-    description: "Content Marketing à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-oujda",
@@ -1299,8 +1015,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Content Marketing à Oujda | Mohtaoua",
-    description: "Content Marketing à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-rabat",
@@ -1308,8 +1022,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Content Marketing à Rabat | Mohtaoua",
-    description: "Content Marketing à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "content-marketing-tanger",
@@ -1317,8 +1029,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Content Marketing à Tanger | Mohtaoua",
-    description: "Content Marketing à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-agadir",
@@ -1326,8 +1036,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Événements Corporate à Agadir | Mohtaoua",
-    description: "Événements Corporate à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-casablanca",
@@ -1335,8 +1043,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Événements Corporate à Casablanca | Mohtaoua",
-    description: "Événements Corporate à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-fes",
@@ -1344,8 +1050,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Événements Corporate à Fès | Mohtaoua",
-    description: "Événements Corporate à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-kenitra",
@@ -1353,8 +1057,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Événements Corporate à Kenitra | Mohtaoua",
-    description: "Événements Corporate à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-marrakech",
@@ -1362,8 +1064,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Événements Corporate à Marrakech | Mohtaoua",
-    description: "Événements Corporate à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-meknes",
@@ -1371,8 +1071,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Événements Corporate à Meknès | Mohtaoua",
-    description: "Événements Corporate à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-oujda",
@@ -1380,8 +1078,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Événements Corporate à Oujda | Mohtaoua",
-    description: "Événements Corporate à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-rabat",
@@ -1389,8 +1085,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Événements Corporate à Rabat | Mohtaoua",
-    description: "Événements Corporate à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-events-tanger",
@@ -1398,8 +1092,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Événements Corporate à Tanger | Mohtaoua",
-    description: "Événements Corporate à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-agadir",
@@ -1407,8 +1099,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Photographie Corporate à Agadir | Mohtaoua",
-    description: "Photographie Corporate à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-casablanca",
@@ -1416,8 +1106,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Photographie Corporate à Casablanca | Mohtaoua",
-    description: "Photographie Corporate à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-fes",
@@ -1425,8 +1113,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Photographie Corporate à Fès | Mohtaoua",
-    description: "Photographie Corporate à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-kenitra",
@@ -1434,8 +1120,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Photographie Corporate à Kenitra | Mohtaoua",
-    description: "Photographie Corporate à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-marrakech",
@@ -1443,8 +1127,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Photographie Corporate à Marrakech | Mohtaoua",
-    description: "Photographie Corporate à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-meknes",
@@ -1452,8 +1134,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Photographie Corporate à Meknès | Mohtaoua",
-    description: "Photographie Corporate à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-oujda",
@@ -1461,8 +1141,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Photographie Corporate à Oujda | Mohtaoua",
-    description: "Photographie Corporate à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-rabat",
@@ -1470,8 +1148,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Photographie Corporate à Rabat | Mohtaoua",
-    description: "Photographie Corporate à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-photography-tanger",
@@ -1479,8 +1155,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Photographie Corporate à Tanger | Mohtaoua",
-    description: "Photographie Corporate à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-agadir",
@@ -1488,8 +1162,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Sites Web Corporate à Agadir | Mohtaoua",
-    description: "Sites Web Corporate à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-casablanca",
@@ -1497,8 +1169,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Sites Web Corporate à Casablanca | Mohtaoua",
-    description: "Sites Web Corporate à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-fes",
@@ -1506,8 +1176,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Sites Web Corporate à Fès | Mohtaoua",
-    description: "Sites Web Corporate à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-kenitra",
@@ -1515,8 +1183,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Sites Web Corporate à Kenitra | Mohtaoua",
-    description: "Sites Web Corporate à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-marrakech",
@@ -1524,8 +1190,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Sites Web Corporate à Marrakech | Mohtaoua",
-    description: "Sites Web Corporate à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-meknes",
@@ -1533,8 +1197,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Sites Web Corporate à Meknès | Mohtaoua",
-    description: "Sites Web Corporate à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-oujda",
@@ -1542,8 +1204,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Sites Web Corporate à Oujda | Mohtaoua",
-    description: "Sites Web Corporate à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-rabat",
@@ -1551,8 +1211,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Sites Web Corporate à Rabat | Mohtaoua",
-    description: "Sites Web Corporate à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "corporate-websites-tanger",
@@ -1560,8 +1218,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Sites Web Corporate à Tanger | Mohtaoua",
-    description: "Sites Web Corporate à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-agadir",
@@ -1569,8 +1225,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "CRM & Pilotage Data à Agadir | Mohtaoua",
-    description: "CRM & Pilotage Data à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-casablanca",
@@ -1578,8 +1232,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "CRM & Pilotage Data à Casablanca | Mohtaoua",
-    description: "CRM & Pilotage Data à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-fes",
@@ -1587,8 +1239,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "CRM & Pilotage Data à Fès | Mohtaoua",
-    description: "CRM & Pilotage Data à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-kenitra",
@@ -1596,8 +1246,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "CRM & Pilotage Data à Kenitra | Mohtaoua",
-    description: "CRM & Pilotage Data à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-marrakech",
@@ -1605,8 +1253,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "CRM & Pilotage Data à Marrakech | Mohtaoua",
-    description: "CRM & Pilotage Data à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-meknes",
@@ -1614,8 +1260,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "CRM & Pilotage Data à Meknès | Mohtaoua",
-    description: "CRM & Pilotage Data à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-oujda",
@@ -1623,8 +1267,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "CRM & Pilotage Data à Oujda | Mohtaoua",
-    description: "CRM & Pilotage Data à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-rabat",
@@ -1632,8 +1274,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "CRM & Pilotage Data à Rabat | Mohtaoua",
-    description: "CRM & Pilotage Data à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "crm-data-tanger",
@@ -1641,8 +1281,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "CRM & Pilotage Data à Tanger | Mohtaoua",
-    description: "CRM & Pilotage Data à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-agadir",
@@ -1650,8 +1288,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Logiciels Sur Mesure à Agadir | Mohtaoua",
-    description: "Logiciels Sur Mesure à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-casablanca",
@@ -1659,8 +1295,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Logiciels Sur Mesure à Casablanca | Mohtaoua",
-    description: "Logiciels Sur Mesure à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-fes",
@@ -1668,8 +1302,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Logiciels Sur Mesure à Fès | Mohtaoua",
-    description: "Logiciels Sur Mesure à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-kenitra",
@@ -1677,8 +1309,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Logiciels Sur Mesure à Kenitra | Mohtaoua",
-    description: "Logiciels Sur Mesure à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-marrakech",
@@ -1686,8 +1316,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Logiciels Sur Mesure à Marrakech | Mohtaoua",
-    description: "Logiciels Sur Mesure à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-meknes",
@@ -1695,8 +1323,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Logiciels Sur Mesure à Meknès | Mohtaoua",
-    description: "Logiciels Sur Mesure à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-oujda",
@@ -1704,8 +1330,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Logiciels Sur Mesure à Oujda | Mohtaoua",
-    description: "Logiciels Sur Mesure à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-rabat",
@@ -1713,8 +1337,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Logiciels Sur Mesure à Rabat | Mohtaoua",
-    description: "Logiciels Sur Mesure à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "custom-software-tanger",
@@ -1722,8 +1344,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Logiciels Sur Mesure à Tanger | Mohtaoua",
-    description: "Logiciels Sur Mesure à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-agadir",
@@ -1731,8 +1351,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Prises de Vue Drone à Agadir | Mohtaoua",
-    description: "Prises de Vue Drone à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-casablanca",
@@ -1740,8 +1358,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Prises de Vue Drone à Casablanca | Mohtaoua",
-    description: "Prises de Vue Drone à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-fes",
@@ -1749,8 +1365,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Prises de Vue Drone à Fès | Mohtaoua",
-    description: "Prises de Vue Drone à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-kenitra",
@@ -1758,8 +1372,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Prises de Vue Drone à Kenitra | Mohtaoua",
-    description: "Prises de Vue Drone à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-marrakech",
@@ -1767,8 +1379,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Prises de Vue Drone à Marrakech | Mohtaoua",
-    description: "Prises de Vue Drone à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-meknes",
@@ -1776,8 +1386,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Prises de Vue Drone à Meknès | Mohtaoua",
-    description: "Prises de Vue Drone à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-oujda",
@@ -1785,8 +1393,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Prises de Vue Drone à Oujda | Mohtaoua",
-    description: "Prises de Vue Drone à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-rabat",
@@ -1794,8 +1400,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Prises de Vue Drone à Rabat | Mohtaoua",
-    description: "Prises de Vue Drone à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "drone-tanger",
@@ -1803,8 +1407,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Prises de Vue Drone à Tanger | Mohtaoua",
-    description: "Prises de Vue Drone à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-agadir",
@@ -1812,8 +1414,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "E-commerce à Agadir | Mohtaoua",
-    description: "E-commerce à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-casablanca",
@@ -1821,8 +1421,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "E-commerce à Casablanca | Mohtaoua",
-    description: "E-commerce à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-fes",
@@ -1830,8 +1428,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "E-commerce à Fès | Mohtaoua",
-    description: "E-commerce à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-kenitra",
@@ -1839,8 +1435,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "E-commerce à Kenitra | Mohtaoua",
-    description: "E-commerce à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-marrakech",
@@ -1848,8 +1442,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "E-commerce à Marrakech | Mohtaoua",
-    description: "E-commerce à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-meknes",
@@ -1857,8 +1449,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "E-commerce à Meknès | Mohtaoua",
-    description: "E-commerce à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-oujda",
@@ -1866,8 +1456,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "E-commerce à Oujda | Mohtaoua",
-    description: "E-commerce à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-rabat",
@@ -1875,8 +1463,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "E-commerce à Rabat | Mohtaoua",
-    description: "E-commerce à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "e-commerce-tanger",
@@ -1884,8 +1470,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "E-commerce à Tanger | Mohtaoua",
-    description: "E-commerce à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-agadir",
@@ -1893,8 +1477,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Email Marketing à Agadir | Mohtaoua",
-    description: "Email Marketing à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-casablanca",
@@ -1902,8 +1484,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Email Marketing à Casablanca | Mohtaoua",
-    description: "Email Marketing à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-fes",
@@ -1911,8 +1491,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Email Marketing à Fès | Mohtaoua",
-    description: "Email Marketing à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-kenitra",
@@ -1920,8 +1498,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Email Marketing à Kenitra | Mohtaoua",
-    description: "Email Marketing à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-marrakech",
@@ -1929,8 +1505,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Email Marketing à Marrakech | Mohtaoua",
-    description: "Email Marketing à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-meknes",
@@ -1938,8 +1512,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Email Marketing à Meknès | Mohtaoua",
-    description: "Email Marketing à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-oujda",
@@ -1947,8 +1519,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Email Marketing à Oujda | Mohtaoua",
-    description: "Email Marketing à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-rabat",
@@ -1956,8 +1526,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Email Marketing à Rabat | Mohtaoua",
-    description: "Email Marketing à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "email-marketing-tanger",
@@ -1965,8 +1533,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Email Marketing à Tanger | Mohtaoua",
-    description: "Email Marketing à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-agadir",
@@ -1974,8 +1540,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "ERP à Agadir | Mohtaoua",
-    description: "ERP à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-casablanca",
@@ -1983,8 +1547,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "ERP à Casablanca | Mohtaoua",
-    description: "ERP à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-fes",
@@ -1992,8 +1554,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "ERP à Fès | Mohtaoua",
-    description: "ERP à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-kenitra",
@@ -2001,8 +1561,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "ERP à Kenitra | Mohtaoua",
-    description: "ERP à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-marrakech",
@@ -2010,8 +1568,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "ERP à Marrakech | Mohtaoua",
-    description: "ERP à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-meknes",
@@ -2019,8 +1575,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "ERP à Meknès | Mohtaoua",
-    description: "ERP à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-oujda",
@@ -2028,8 +1582,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "ERP à Oujda | Mohtaoua",
-    description: "ERP à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-rabat",
@@ -2037,8 +1589,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "ERP à Rabat | Mohtaoua",
-    description: "ERP à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "erp-tanger",
@@ -2046,8 +1596,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "ERP à Tanger | Mohtaoua",
-    description: "ERP à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-agadir",
@@ -2055,8 +1603,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Communication Événementielle à Agadir | Mohtaoua",
-    description: "Communication Événementielle à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-casablanca",
@@ -2064,8 +1610,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Communication Événementielle à Casablanca | Mohtaoua",
-    description: "Communication Événementielle à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-fes",
@@ -2073,8 +1617,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Communication Événementielle à Fès | Mohtaoua",
-    description: "Communication Événementielle à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-kenitra",
@@ -2082,8 +1624,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Communication Événementielle à Kenitra | Mohtaoua",
-    description: "Communication Événementielle à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-marrakech",
@@ -2091,8 +1631,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Communication Événementielle à Marrakech | Mohtaoua",
-    description: "Communication Événementielle à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-meknes",
@@ -2100,8 +1638,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Communication Événementielle à Meknès | Mohtaoua",
-    description: "Communication Événementielle à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-oujda",
@@ -2109,8 +1645,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Communication Événementielle à Oujda | Mohtaoua",
-    description: "Communication Événementielle à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-rabat",
@@ -2118,8 +1652,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Communication Événementielle à Rabat | Mohtaoua",
-    description: "Communication Événementielle à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "event-communication-tanger",
@@ -2127,8 +1659,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Communication Événementielle à Tanger | Mohtaoua",
-    description: "Communication Événementielle à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-agadir",
@@ -2136,8 +1666,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Applications Flutter à Agadir | Mohtaoua",
-    description: "Applications Flutter à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-casablanca",
@@ -2145,8 +1673,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Applications Flutter à Casablanca | Mohtaoua",
-    description: "Applications Flutter à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-fes",
@@ -2154,8 +1680,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Applications Flutter à Fès | Mohtaoua",
-    description: "Applications Flutter à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-kenitra",
@@ -2163,8 +1687,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Applications Flutter à Kenitra | Mohtaoua",
-    description: "Applications Flutter à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-marrakech",
@@ -2172,8 +1694,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Applications Flutter à Marrakech | Mohtaoua",
-    description: "Applications Flutter à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-meknes",
@@ -2181,8 +1701,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Applications Flutter à Meknès | Mohtaoua",
-    description: "Applications Flutter à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-oujda",
@@ -2190,8 +1708,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Applications Flutter à Oujda | Mohtaoua",
-    description: "Applications Flutter à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-rabat",
@@ -2199,8 +1715,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Applications Flutter à Rabat | Mohtaoua",
-    description: "Applications Flutter à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flutter-tanger",
@@ -2208,8 +1722,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Applications Flutter à Tanger | Mohtaoua",
-    description: "Applications Flutter à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-agadir",
@@ -2217,8 +1729,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Flyers à Agadir | Mohtaoua",
-    description: "Flyers à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-casablanca",
@@ -2226,8 +1736,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Flyers à Casablanca | Mohtaoua",
-    description: "Flyers à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-fes",
@@ -2235,8 +1743,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Flyers à Fès | Mohtaoua",
-    description: "Flyers à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-kenitra",
@@ -2244,8 +1750,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Flyers à Kenitra | Mohtaoua",
-    description: "Flyers à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-marrakech",
@@ -2253,8 +1757,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Flyers à Marrakech | Mohtaoua",
-    description: "Flyers à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-meknes",
@@ -2262,8 +1764,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Flyers à Meknès | Mohtaoua",
-    description: "Flyers à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-oujda",
@@ -2271,8 +1771,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Flyers à Oujda | Mohtaoua",
-    description: "Flyers à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-rabat",
@@ -2280,8 +1778,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Flyers à Rabat | Mohtaoua",
-    description: "Flyers à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "flyers-tanger",
@@ -2289,8 +1785,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Flyers à Tanger | Mohtaoua",
-    description: "Flyers à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-agadir",
@@ -2298,8 +1792,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "GEO — Generative Engine Optimization à Agadir | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-casablanca",
@@ -2307,8 +1799,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "GEO — Generative Engine Optimization à Casablanca | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-fes",
@@ -2316,8 +1806,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "GEO — Generative Engine Optimization à Fès | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-kenitra",
@@ -2325,8 +1813,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "GEO — Generative Engine Optimization à Kenitra | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-marrakech",
@@ -2334,8 +1820,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "GEO — Generative Engine Optimization à Marrakech | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-meknes",
@@ -2343,8 +1827,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "GEO — Generative Engine Optimization à Meknès | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-oujda",
@@ -2352,8 +1834,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "GEO — Generative Engine Optimization à Oujda | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-rabat",
@@ -2361,8 +1841,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "GEO — Generative Engine Optimization à Rabat | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "geo-tanger",
@@ -2370,8 +1848,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "GEO — Generative Engine Optimization à Tanger | Mohtaoua",
-    description: "GEO — Generative Engine Optimization à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-agadir",
@@ -2379,8 +1855,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Google Ads à Agadir | Mohtaoua",
-    description: "Google Ads à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-casablanca",
@@ -2388,8 +1862,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Google Ads à Casablanca | Mohtaoua",
-    description: "Google Ads à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-fes",
@@ -2397,8 +1869,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Google Ads à Fès | Mohtaoua",
-    description: "Google Ads à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-kenitra",
@@ -2406,8 +1876,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Google Ads à Kenitra | Mohtaoua",
-    description: "Google Ads à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-marrakech",
@@ -2415,8 +1883,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Google Ads à Marrakech | Mohtaoua",
-    description: "Google Ads à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-meknes",
@@ -2424,8 +1890,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Google Ads à Meknès | Mohtaoua",
-    description: "Google Ads à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-oujda",
@@ -2433,8 +1897,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Google Ads à Oujda | Mohtaoua",
-    description: "Google Ads à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-rabat",
@@ -2442,8 +1904,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Google Ads à Rabat | Mohtaoua",
-    description: "Google Ads à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "google-ads-tanger",
@@ -2451,8 +1911,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Google Ads à Tanger | Mohtaoua",
-    description: "Google Ads à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-agadir",
@@ -2460,8 +1918,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Design Graphique à Agadir | Mohtaoua",
-    description: "Design Graphique à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-casablanca",
@@ -2469,8 +1925,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Design Graphique à Casablanca | Mohtaoua",
-    description: "Design Graphique à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-fes",
@@ -2478,8 +1932,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Design Graphique à Fès | Mohtaoua",
-    description: "Design Graphique à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-kenitra",
@@ -2487,8 +1939,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Design Graphique à Kenitra | Mohtaoua",
-    description: "Design Graphique à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-marrakech",
@@ -2496,8 +1946,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Design Graphique à Marrakech | Mohtaoua",
-    description: "Design Graphique à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-meknes",
@@ -2505,8 +1953,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Design Graphique à Meknès | Mohtaoua",
-    description: "Design Graphique à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-oujda",
@@ -2514,8 +1960,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Design Graphique à Oujda | Mohtaoua",
-    description: "Design Graphique à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-rabat",
@@ -2523,8 +1967,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Design Graphique à Rabat | Mohtaoua",
-    description: "Design Graphique à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "graphic-design-tanger",
@@ -2532,8 +1974,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Design Graphique à Tanger | Mohtaoua",
-    description: "Design Graphique à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-agadir",
@@ -2541,8 +1981,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Infographies à Agadir | Mohtaoua",
-    description: "Infographies à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-casablanca",
@@ -2550,8 +1988,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Infographies à Casablanca | Mohtaoua",
-    description: "Infographies à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-fes",
@@ -2559,8 +1995,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Infographies à Fès | Mohtaoua",
-    description: "Infographies à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-kenitra",
@@ -2568,8 +2002,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Infographies à Kenitra | Mohtaoua",
-    description: "Infographies à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-marrakech",
@@ -2577,8 +2009,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Infographies à Marrakech | Mohtaoua",
-    description: "Infographies à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-meknes",
@@ -2586,8 +2016,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Infographies à Meknès | Mohtaoua",
-    description: "Infographies à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-oujda",
@@ -2595,8 +2023,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Infographies à Oujda | Mohtaoua",
-    description: "Infographies à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-rabat",
@@ -2604,8 +2030,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Infographies à Rabat | Mohtaoua",
-    description: "Infographies à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "infographics-tanger",
@@ -2613,8 +2037,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Infographies à Tanger | Mohtaoua",
-    description: "Infographies à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-agadir",
@@ -2622,8 +2044,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Applications iOS à Agadir | Mohtaoua",
-    description: "Applications iOS à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-casablanca",
@@ -2631,8 +2051,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Applications iOS à Casablanca | Mohtaoua",
-    description: "Applications iOS à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-fes",
@@ -2640,8 +2058,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Applications iOS à Fès | Mohtaoua",
-    description: "Applications iOS à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-kenitra",
@@ -2649,8 +2065,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Applications iOS à Kenitra | Mohtaoua",
-    description: "Applications iOS à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-marrakech",
@@ -2658,8 +2072,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Applications iOS à Marrakech | Mohtaoua",
-    description: "Applications iOS à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-meknes",
@@ -2667,8 +2079,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Applications iOS à Meknès | Mohtaoua",
-    description: "Applications iOS à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-oujda",
@@ -2676,8 +2086,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Applications iOS à Oujda | Mohtaoua",
-    description: "Applications iOS à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-rabat",
@@ -2685,8 +2093,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Applications iOS à Rabat | Mohtaoua",
-    description: "Applications iOS à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "ios-tanger",
@@ -2694,8 +2100,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Applications iOS à Tanger | Mohtaoua",
-    description: "Applications iOS à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-agadir",
@@ -2703,8 +2107,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Landing Pages & CRO à Agadir | Mohtaoua",
-    description: "Landing Pages & CRO à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-casablanca",
@@ -2712,8 +2114,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Landing Pages & CRO à Casablanca | Mohtaoua",
-    description: "Landing Pages & CRO à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-fes",
@@ -2721,8 +2121,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Landing Pages & CRO à Fès | Mohtaoua",
-    description: "Landing Pages & CRO à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-kenitra",
@@ -2730,8 +2128,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Landing Pages & CRO à Kenitra | Mohtaoua",
-    description: "Landing Pages & CRO à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-marrakech",
@@ -2739,8 +2135,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Landing Pages & CRO à Marrakech | Mohtaoua",
-    description: "Landing Pages & CRO à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-meknes",
@@ -2748,8 +2142,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Landing Pages & CRO à Meknès | Mohtaoua",
-    description: "Landing Pages & CRO à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-oujda",
@@ -2757,8 +2149,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Landing Pages & CRO à Oujda | Mohtaoua",
-    description: "Landing Pages & CRO à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-rabat",
@@ -2766,8 +2156,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Landing Pages & CRO à Rabat | Mohtaoua",
-    description: "Landing Pages & CRO à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "landing-pages-tanger",
@@ -2775,8 +2163,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Landing Pages & CRO à Tanger | Mohtaoua",
-    description: "Landing Pages & CRO à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-agadir",
@@ -2784,8 +2170,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Lead Generation à Agadir | Mohtaoua",
-    description: "Lead Generation à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-casablanca",
@@ -2793,8 +2177,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Lead Generation à Casablanca | Mohtaoua",
-    description: "Lead Generation à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-fes",
@@ -2802,8 +2184,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Lead Generation à Fès | Mohtaoua",
-    description: "Lead Generation à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-kenitra",
@@ -2811,8 +2191,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Lead Generation à Kenitra | Mohtaoua",
-    description: "Lead Generation à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-marrakech",
@@ -2820,8 +2198,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Lead Generation à Marrakech | Mohtaoua",
-    description: "Lead Generation à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-meknes",
@@ -2829,8 +2205,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Lead Generation à Meknès | Mohtaoua",
-    description: "Lead Generation à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-oujda",
@@ -2838,8 +2212,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Lead Generation à Oujda | Mohtaoua",
-    description: "Lead Generation à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-rabat",
@@ -2847,8 +2219,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Lead Generation à Rabat | Mohtaoua",
-    description: "Lead Generation à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "lead-generation-tanger",
@@ -2856,8 +2226,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Lead Generation à Tanger | Mohtaoua",
-    description: "Lead Generation à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-agadir",
@@ -2865,8 +2233,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Logo à Agadir | Mohtaoua",
-    description: "Logo à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-casablanca",
@@ -2874,8 +2240,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Logo à Casablanca | Mohtaoua",
-    description: "Logo à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-fes",
@@ -2883,8 +2247,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Logo à Fès | Mohtaoua",
-    description: "Logo à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-kenitra",
@@ -2892,8 +2254,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Logo à Kenitra | Mohtaoua",
-    description: "Logo à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-marrakech",
@@ -2901,8 +2261,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Logo à Marrakech | Mohtaoua",
-    description: "Logo à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-meknes",
@@ -2910,8 +2268,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Logo à Meknès | Mohtaoua",
-    description: "Logo à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-oujda",
@@ -2919,8 +2275,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Logo à Oujda | Mohtaoua",
-    description: "Logo à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-rabat",
@@ -2928,8 +2282,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Logo à Rabat | Mohtaoua",
-    description: "Logo à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "logo-tanger",
@@ -2937,8 +2289,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Logo à Tanger | Mohtaoua",
-    description: "Logo à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-agadir",
@@ -2946,8 +2296,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Marketing Automation à Agadir | Mohtaoua",
-    description: "Marketing Automation à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-casablanca",
@@ -2955,8 +2303,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Marketing Automation à Casablanca | Mohtaoua",
-    description: "Marketing Automation à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-fes",
@@ -2964,8 +2310,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Marketing Automation à Fès | Mohtaoua",
-    description: "Marketing Automation à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-kenitra",
@@ -2973,8 +2317,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Marketing Automation à Kenitra | Mohtaoua",
-    description: "Marketing Automation à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-marrakech",
@@ -2982,8 +2324,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Marketing Automation à Marrakech | Mohtaoua",
-    description: "Marketing Automation à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-meknes",
@@ -2991,8 +2331,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Marketing Automation à Meknès | Mohtaoua",
-    description: "Marketing Automation à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-oujda",
@@ -3000,8 +2338,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Marketing Automation à Oujda | Mohtaoua",
-    description: "Marketing Automation à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-rabat",
@@ -3009,8 +2345,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Marketing Automation à Rabat | Mohtaoua",
-    description: "Marketing Automation à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketing-automation-tanger",
@@ -3018,8 +2352,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Marketing Automation à Tanger | Mohtaoua",
-    description: "Marketing Automation à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-agadir",
@@ -3027,8 +2359,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Marketplaces à Agadir | Mohtaoua",
-    description: "Marketplaces à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-casablanca",
@@ -3036,8 +2366,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Marketplaces à Casablanca | Mohtaoua",
-    description: "Marketplaces à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-fes",
@@ -3045,8 +2373,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Marketplaces à Fès | Mohtaoua",
-    description: "Marketplaces à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-kenitra",
@@ -3054,8 +2380,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Marketplaces à Kenitra | Mohtaoua",
-    description: "Marketplaces à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-marrakech",
@@ -3063,8 +2387,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Marketplaces à Marrakech | Mohtaoua",
-    description: "Marketplaces à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-meknes",
@@ -3072,8 +2394,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Marketplaces à Meknès | Mohtaoua",
-    description: "Marketplaces à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-oujda",
@@ -3081,8 +2401,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Marketplaces à Oujda | Mohtaoua",
-    description: "Marketplaces à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-rabat",
@@ -3090,8 +2408,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Marketplaces à Rabat | Mohtaoua",
-    description: "Marketplaces à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "marketplaces-tanger",
@@ -3099,8 +2415,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Marketplaces à Tanger | Mohtaoua",
-    description: "Marketplaces à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-agadir",
@@ -3108,8 +2422,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Facebook & Meta Ads à Agadir | Mohtaoua",
-    description: "Facebook & Meta Ads à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-casablanca",
@@ -3117,8 +2429,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Facebook & Meta Ads à Casablanca | Mohtaoua",
-    description: "Facebook & Meta Ads à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-fes",
@@ -3126,8 +2436,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Facebook & Meta Ads à Fès | Mohtaoua",
-    description: "Facebook & Meta Ads à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-kenitra",
@@ -3135,8 +2443,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Facebook & Meta Ads à Kenitra | Mohtaoua",
-    description: "Facebook & Meta Ads à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-marrakech",
@@ -3144,8 +2450,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Facebook & Meta Ads à Marrakech | Mohtaoua",
-    description: "Facebook & Meta Ads à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-meknes",
@@ -3153,8 +2457,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Facebook & Meta Ads à Meknès | Mohtaoua",
-    description: "Facebook & Meta Ads à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-oujda",
@@ -3162,8 +2464,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Facebook & Meta Ads à Oujda | Mohtaoua",
-    description: "Facebook & Meta Ads à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-rabat",
@@ -3171,8 +2471,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Facebook & Meta Ads à Rabat | Mohtaoua",
-    description: "Facebook & Meta Ads à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "meta-ads-tanger",
@@ -3180,8 +2478,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Facebook & Meta Ads à Tanger | Mohtaoua",
-    description: "Facebook & Meta Ads à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-agadir",
@@ -3189,8 +2485,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Motion Graphics à Agadir | Mohtaoua",
-    description: "Motion Graphics à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-casablanca",
@@ -3198,8 +2492,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Motion Graphics à Casablanca | Mohtaoua",
-    description: "Motion Graphics à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-fes",
@@ -3207,8 +2499,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Motion Graphics à Fès | Mohtaoua",
-    description: "Motion Graphics à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-kenitra",
@@ -3216,8 +2506,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Motion Graphics à Kenitra | Mohtaoua",
-    description: "Motion Graphics à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-marrakech",
@@ -3225,8 +2513,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Motion Graphics à Marrakech | Mohtaoua",
-    description: "Motion Graphics à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-meknes",
@@ -3234,8 +2520,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Motion Graphics à Meknès | Mohtaoua",
-    description: "Motion Graphics à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-oujda",
@@ -3243,8 +2527,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Motion Graphics à Oujda | Mohtaoua",
-    description: "Motion Graphics à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-rabat",
@@ -3252,8 +2534,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Motion Graphics à Rabat | Mohtaoua",
-    description: "Motion Graphics à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "motion-graphics-tanger",
@@ -3261,8 +2541,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Motion Graphics à Tanger | Mohtaoua",
-    description: "Motion Graphics à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-agadir",
@@ -3270,8 +2548,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Packaging à Agadir | Mohtaoua",
-    description: "Packaging à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-casablanca",
@@ -3279,8 +2555,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Packaging à Casablanca | Mohtaoua",
-    description: "Packaging à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-fes",
@@ -3288,8 +2562,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Packaging à Fès | Mohtaoua",
-    description: "Packaging à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-kenitra",
@@ -3297,8 +2569,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Packaging à Kenitra | Mohtaoua",
-    description: "Packaging à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-marrakech",
@@ -3306,8 +2576,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Packaging à Marrakech | Mohtaoua",
-    description: "Packaging à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-meknes",
@@ -3315,8 +2583,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Packaging à Meknès | Mohtaoua",
-    description: "Packaging à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-oujda",
@@ -3324,8 +2590,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Packaging à Oujda | Mohtaoua",
-    description: "Packaging à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-rabat",
@@ -3333,8 +2597,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Packaging à Rabat | Mohtaoua",
-    description: "Packaging à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "packaging-tanger",
@@ -3342,8 +2604,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Packaging à Tanger | Mohtaoua",
-    description: "Packaging à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-agadir",
@@ -3351,8 +2611,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Portails Web à Agadir | Mohtaoua",
-    description: "Portails Web à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-casablanca",
@@ -3360,8 +2618,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Portails Web à Casablanca | Mohtaoua",
-    description: "Portails Web à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-fes",
@@ -3369,8 +2625,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Portails Web à Fès | Mohtaoua",
-    description: "Portails Web à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-kenitra",
@@ -3378,8 +2632,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Portails Web à Kenitra | Mohtaoua",
-    description: "Portails Web à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-marrakech",
@@ -3387,8 +2639,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Portails Web à Marrakech | Mohtaoua",
-    description: "Portails Web à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-meknes",
@@ -3396,8 +2646,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Portails Web à Meknès | Mohtaoua",
-    description: "Portails Web à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-oujda",
@@ -3405,8 +2653,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Portails Web à Oujda | Mohtaoua",
-    description: "Portails Web à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-rabat",
@@ -3414,8 +2660,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Portails Web à Rabat | Mohtaoua",
-    description: "Portails Web à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "portals-tanger",
@@ -3423,8 +2667,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Portails Web à Tanger | Mohtaoua",
-    description: "Portails Web à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-agadir",
@@ -3432,8 +2674,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Présentations à Agadir | Mohtaoua",
-    description: "Présentations à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-casablanca",
@@ -3441,8 +2681,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Présentations à Casablanca | Mohtaoua",
-    description: "Présentations à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-fes",
@@ -3450,8 +2688,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Présentations à Fès | Mohtaoua",
-    description: "Présentations à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-kenitra",
@@ -3459,8 +2695,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Présentations à Kenitra | Mohtaoua",
-    description: "Présentations à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-marrakech",
@@ -3468,8 +2702,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Présentations à Marrakech | Mohtaoua",
-    description: "Présentations à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-meknes",
@@ -3477,8 +2709,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Présentations à Meknès | Mohtaoua",
-    description: "Présentations à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-oujda",
@@ -3486,8 +2716,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Présentations à Oujda | Mohtaoua",
-    description: "Présentations à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-rabat",
@@ -3495,8 +2723,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Présentations à Rabat | Mohtaoua",
-    description: "Présentations à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "presentation-design-tanger",
@@ -3504,8 +2730,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Présentations à Tanger | Mohtaoua",
-    description: "Présentations à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-agadir",
@@ -3513,8 +2737,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Photographie Produit à Agadir | Mohtaoua",
-    description: "Photographie Produit à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-casablanca",
@@ -3522,8 +2744,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Photographie Produit à Casablanca | Mohtaoua",
-    description: "Photographie Produit à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-fes",
@@ -3531,8 +2751,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Photographie Produit à Fès | Mohtaoua",
-    description: "Photographie Produit à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-kenitra",
@@ -3540,8 +2758,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Photographie Produit à Kenitra | Mohtaoua",
-    description: "Photographie Produit à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-marrakech",
@@ -3549,8 +2765,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Photographie Produit à Marrakech | Mohtaoua",
-    description: "Photographie Produit à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-meknes",
@@ -3558,8 +2772,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Photographie Produit à Meknès | Mohtaoua",
-    description: "Photographie Produit à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-oujda",
@@ -3567,8 +2779,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Photographie Produit à Oujda | Mohtaoua",
-    description: "Photographie Produit à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-rabat",
@@ -3576,8 +2786,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Photographie Produit à Rabat | Mohtaoua",
-    description: "Photographie Produit à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "product-photography-tanger",
@@ -3585,8 +2793,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Photographie Produit à Tanger | Mohtaoua",
-    description: "Photographie Produit à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-agadir",
@@ -3594,8 +2800,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Applications React Native à Agadir | Mohtaoua",
-    description: "Applications React Native à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-casablanca",
@@ -3603,8 +2807,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Applications React Native à Casablanca | Mohtaoua",
-    description: "Applications React Native à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-fes",
@@ -3612,8 +2814,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Applications React Native à Fès | Mohtaoua",
-    description: "Applications React Native à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-kenitra",
@@ -3621,8 +2821,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Applications React Native à Kenitra | Mohtaoua",
-    description: "Applications React Native à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-marrakech",
@@ -3630,8 +2828,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Applications React Native à Marrakech | Mohtaoua",
-    description: "Applications React Native à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-meknes",
@@ -3639,8 +2835,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Applications React Native à Meknès | Mohtaoua",
-    description: "Applications React Native à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-oujda",
@@ -3648,8 +2842,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Applications React Native à Oujda | Mohtaoua",
-    description: "Applications React Native à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-rabat",
@@ -3657,8 +2849,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Applications React Native à Rabat | Mohtaoua",
-    description: "Applications React Native à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "react-native-tanger",
@@ -3666,8 +2856,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Applications React Native à Tanger | Mohtaoua",
-    description: "Applications React Native à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-agadir",
@@ -3675,8 +2863,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Reels & Shorts à Agadir | Mohtaoua",
-    description: "Reels & Shorts à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-casablanca",
@@ -3684,8 +2870,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Reels & Shorts à Casablanca | Mohtaoua",
-    description: "Reels & Shorts à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-fes",
@@ -3693,8 +2877,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Reels & Shorts à Fès | Mohtaoua",
-    description: "Reels & Shorts à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-kenitra",
@@ -3702,8 +2884,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Reels & Shorts à Kenitra | Mohtaoua",
-    description: "Reels & Shorts à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-marrakech",
@@ -3711,8 +2891,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Reels & Shorts à Marrakech | Mohtaoua",
-    description: "Reels & Shorts à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-meknes",
@@ -3720,8 +2898,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Reels & Shorts à Meknès | Mohtaoua",
-    description: "Reels & Shorts à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-oujda",
@@ -3729,8 +2905,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Reels & Shorts à Oujda | Mohtaoua",
-    description: "Reels & Shorts à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-rabat",
@@ -3738,8 +2912,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Reels & Shorts à Rabat | Mohtaoua",
-    description: "Reels & Shorts à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "reels-tanger",
@@ -3747,8 +2919,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Reels & Shorts à Tanger | Mohtaoua",
-    description: "Reels & Shorts à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-agadir",
@@ -3756,8 +2926,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "SaaS à Agadir | Mohtaoua",
-    description: "SaaS à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-casablanca",
@@ -3765,8 +2933,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "SaaS à Casablanca | Mohtaoua",
-    description: "SaaS à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-fes",
@@ -3774,8 +2940,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "SaaS à Fès | Mohtaoua",
-    description: "SaaS à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-kenitra",
@@ -3783,8 +2947,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "SaaS à Kenitra | Mohtaoua",
-    description: "SaaS à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-marrakech",
@@ -3792,8 +2954,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "SaaS à Marrakech | Mohtaoua",
-    description: "SaaS à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-meknes",
@@ -3801,8 +2961,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "SaaS à Meknès | Mohtaoua",
-    description: "SaaS à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-oujda",
@@ -3810,8 +2968,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "SaaS à Oujda | Mohtaoua",
-    description: "SaaS à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-rabat",
@@ -3819,8 +2975,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "SaaS à Rabat | Mohtaoua",
-    description: "SaaS à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "saas-tanger",
@@ -3828,8 +2982,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "SaaS à Tanger | Mohtaoua",
-    description: "SaaS à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-agadir",
@@ -3837,8 +2989,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "SEO à Agadir | Mohtaoua",
-    description: "SEO à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-casablanca",
@@ -3846,8 +2996,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "SEO à Casablanca | Mohtaoua",
-    description: "SEO à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-fes",
@@ -3855,8 +3003,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "SEO à Fès | Mohtaoua",
-    description: "SEO à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-kenitra",
@@ -3864,8 +3010,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "SEO à Kenitra | Mohtaoua",
-    description: "SEO à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-marrakech",
@@ -3873,8 +3017,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "SEO à Marrakech | Mohtaoua",
-    description: "SEO à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-meknes",
@@ -3882,8 +3024,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "SEO à Meknès | Mohtaoua",
-    description: "SEO à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-oujda",
@@ -3891,8 +3031,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "SEO à Oujda | Mohtaoua",
-    description: "SEO à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-rabat",
@@ -3900,8 +3038,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "SEO à Rabat | Mohtaoua",
-    description: "SEO à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "seo-tanger",
@@ -3909,8 +3045,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "SEO à Tanger | Mohtaoua",
-    description: "SEO à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-agadir",
@@ -3918,8 +3052,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Gestion des réseaux sociaux à Agadir | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-casablanca",
@@ -3927,8 +3059,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Gestion des réseaux sociaux à Casablanca | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-fes",
@@ -3936,8 +3066,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Gestion des réseaux sociaux à Fès | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-kenitra",
@@ -3945,8 +3073,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Gestion des réseaux sociaux à Kenitra | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-marrakech",
@@ -3954,8 +3080,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Gestion des réseaux sociaux à Marrakech | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-meknes",
@@ -3963,8 +3087,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Gestion des réseaux sociaux à Meknès | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-oujda",
@@ -3972,8 +3094,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Gestion des réseaux sociaux à Oujda | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-rabat",
@@ -3981,8 +3101,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Gestion des réseaux sociaux à Rabat | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "social-media-tanger",
@@ -3990,8 +3108,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Gestion des réseaux sociaux à Tanger | Mohtaoua",
-    description: "Gestion des réseaux sociaux à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-agadir",
@@ -3999,8 +3115,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "TikTok Ads à Agadir | Mohtaoua",
-    description: "TikTok Ads à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-casablanca",
@@ -4008,8 +3122,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "TikTok Ads à Casablanca | Mohtaoua",
-    description: "TikTok Ads à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-fes",
@@ -4017,8 +3129,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "TikTok Ads à Fès | Mohtaoua",
-    description: "TikTok Ads à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-kenitra",
@@ -4026,8 +3136,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "TikTok Ads à Kenitra | Mohtaoua",
-    description: "TikTok Ads à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-marrakech",
@@ -4035,8 +3143,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "TikTok Ads à Marrakech | Mohtaoua",
-    description: "TikTok Ads à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-meknes",
@@ -4044,8 +3150,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "TikTok Ads à Meknès | Mohtaoua",
-    description: "TikTok Ads à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-oujda",
@@ -4053,8 +3157,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "TikTok Ads à Oujda | Mohtaoua",
-    description: "TikTok Ads à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-rabat",
@@ -4062,8 +3164,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "TikTok Ads à Rabat | Mohtaoua",
-    description: "TikTok Ads à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "tiktok-ads-tanger",
@@ -4071,8 +3171,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "TikTok Ads à Tanger | Mohtaoua",
-    description: "TikTok Ads à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-agadir",
@@ -4080,8 +3178,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Événements Formation à Agadir | Mohtaoua",
-    description: "Événements Formation à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-casablanca",
@@ -4089,8 +3185,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Événements Formation à Casablanca | Mohtaoua",
-    description: "Événements Formation à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-fes",
@@ -4098,8 +3192,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Événements Formation à Fès | Mohtaoua",
-    description: "Événements Formation à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-kenitra",
@@ -4107,8 +3199,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Événements Formation à Kenitra | Mohtaoua",
-    description: "Événements Formation à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-marrakech",
@@ -4116,8 +3206,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Événements Formation à Marrakech | Mohtaoua",
-    description: "Événements Formation à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-meknes",
@@ -4125,8 +3213,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Événements Formation à Meknès | Mohtaoua",
-    description: "Événements Formation à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-oujda",
@@ -4134,8 +3220,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Événements Formation à Oujda | Mohtaoua",
-    description: "Événements Formation à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-rabat",
@@ -4143,8 +3227,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Événements Formation à Rabat | Mohtaoua",
-    description: "Événements Formation à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "training-events-tanger",
@@ -4152,8 +3234,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Événements Formation à Tanger | Mohtaoua",
-    description: "Événements Formation à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-agadir",
@@ -4161,8 +3241,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Production Vidéo à Agadir | Mohtaoua",
-    description: "Production Vidéo à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-casablanca",
@@ -4170,8 +3248,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Production Vidéo à Casablanca | Mohtaoua",
-    description: "Production Vidéo à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-fes",
@@ -4179,8 +3255,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Production Vidéo à Fès | Mohtaoua",
-    description: "Production Vidéo à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-kenitra",
@@ -4188,8 +3262,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Production Vidéo à Kenitra | Mohtaoua",
-    description: "Production Vidéo à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-marrakech",
@@ -4197,8 +3269,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Production Vidéo à Marrakech | Mohtaoua",
-    description: "Production Vidéo à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-meknes",
@@ -4206,8 +3276,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Production Vidéo à Meknès | Mohtaoua",
-    description: "Production Vidéo à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-oujda",
@@ -4215,8 +3283,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Production Vidéo à Oujda | Mohtaoua",
-    description: "Production Vidéo à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-rabat",
@@ -4224,8 +3290,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Production Vidéo à Rabat | Mohtaoua",
-    description: "Production Vidéo à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "video-production-tanger",
@@ -4233,8 +3297,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Production Vidéo à Tanger | Mohtaoua",
-    description: "Production Vidéo à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-agadir",
@@ -4242,8 +3304,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Agadir",
     villeSlug: "agadir",
     secteurDominant: "tourisme-agro",
-    title: "Workflow Automation à Agadir | Mohtaoua",
-    description: "Workflow Automation à Agadir : accompagnement expert pour les entreprises de tourisme, agroalimentaire et pêche. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-casablanca",
@@ -4251,8 +3311,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Casablanca",
     villeSlug: "casablanca",
     secteurDominant: "finance-industrie",
-    title: "Workflow Automation à Casablanca | Mohtaoua",
-    description: "Workflow Automation à Casablanca : accompagnement expert pour les entreprises de finance, industrie et grandes PME. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-fes",
@@ -4260,8 +3318,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Fès",
     villeSlug: "fes",
     secteurDominant: "artisanat-commerce",
-    title: "Workflow Automation à Fès | Mohtaoua",
-    description: "Workflow Automation à Fès : accompagnement expert pour les entreprises de artisanat, commerce et éducation. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-kenitra",
@@ -4269,8 +3325,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Kenitra",
     villeSlug: "kenitra",
     secteurDominant: "industrie-logistique",
-    title: "Workflow Automation à Kenitra | Mohtaoua",
-    description: "Workflow Automation à Kenitra : accompagnement expert pour les entreprises de industrie et logistique portuaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-marrakech",
@@ -4278,8 +3332,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Marrakech",
     villeSlug: "marrakech",
     secteurDominant: "tourisme-immobilier",
-    title: "Workflow Automation à Marrakech | Mohtaoua",
-    description: "Workflow Automation à Marrakech : accompagnement expert pour les entreprises de tourisme, immobilier et hôtellerie. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-meknes",
@@ -4287,8 +3339,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Meknès",
     villeSlug: "meknes",
     secteurDominant: "industrie-agro",
-    title: "Workflow Automation à Meknès | Mohtaoua",
-    description: "Workflow Automation à Meknès : accompagnement expert pour les entreprises de industrie et agroalimentaire. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-oujda",
@@ -4296,8 +3346,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Oujda",
     villeSlug: "oujda",
     secteurDominant: "commerce-transfrontalier",
-    title: "Workflow Automation à Oujda | Mohtaoua",
-    description: "Workflow Automation à Oujda : accompagnement expert pour les entreprises de commerce et échanges transfrontaliers. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-rabat",
@@ -4305,8 +3353,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Rabat",
     villeSlug: "rabat",
     secteurDominant: "administration-services",
-    title: "Workflow Automation à Rabat | Mohtaoua",
-    description: "Workflow Automation à Rabat : accompagnement expert pour les entreprises de administration, services publics et B2B. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
   {
     slug: "workflow-automation-tanger",
@@ -4314,8 +3360,6 @@ export const SERVICE_CITY_COMBOS: ServiceCityCombo[] = [
     ville: "Tanger",
     villeSlug: "tanger",
     secteurDominant: "logistique-industrie",
-    title: "Workflow Automation à Tanger | Mohtaoua",
-    description: "Workflow Automation à Tanger : accompagnement expert pour les entreprises de logistique, industrie et export. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua.",
   },
 ];
 

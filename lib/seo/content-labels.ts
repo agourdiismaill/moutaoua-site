@@ -67,7 +67,8 @@ function getRawDescription(node: ContentNode, src: ContentLabelSources): string 
       return src.solutions(`items.${node.slug}.description`);
     case "service-city": {
       const combo = getServiceCityCombo(node.slug);
-      return combo?.description ?? "";
+      if (!combo) return "";
+      return src.services(`items.${combo.service}.description`);
     }
     case "resource":
       return src.internalLinking(`resources.${node.slug}.description`);
