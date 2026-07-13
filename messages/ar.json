@@ -15,7 +15,9 @@
   },
   "nav": {
     "home": "الرئيسية",
+    "about": "من نحن",
     "services": "الخدمات",
+    "solutions": "الحلول",
     "industries": "القطاعات",
     "portfolio": "المحفظة",
     "caseStudies": "دراسات الحالة",
@@ -41,7 +43,9 @@
     "resources": "الموارد",
     "guideMetaAds": "دليل Meta Ads",
     "guideGoogleAds": "دليل Google Ads",
-    "compareMetaGoogle": "Meta مقابل Google Ads"
+    "compareMetaGoogle": "Meta مقابل Google Ads",
+    "industries": "القطاعات",
+    "solutions": "الحلول"
   },
   "hero": {
     "badge": "وكالة رقمية متميزة 360° — المغرب",
@@ -64,22 +68,33 @@
     "statSectors": "15+"
   },
   "contactForm": {
-    "successTitle": "تم إرسال الرسالة!",
-    "successMessage": "شكراً لطلبكم. سيتواصل معكم فريقنا خلال 24 ساعة عمل لجدولة التدقيق المجاني.",
-    "sendAnother": "إرسال رسالة أخرى",
+    "successTitle": "تم إرسال الطلب!",
+    "successMessage": "شكراً لطلب عرض السعر. سيتواصل معكم فريقنا خلال 24 ساعة عمل بعرض مخصص لمشروعكم.",
+    "sendAnother": "إرسال طلب آخر",
     "name": "الاسم الكامل",
     "company": "الشركة",
     "email": "البريد الإلكتروني",
     "phone": "الهاتف",
-    "budget": "ميزانية المشروع الشهرية",
+    "projectType": "نوع المشروع",
+    "projectTypePlaceholder": "ماذا تحتاجون؟",
+    "projectTypeMarketing": "تسويق وإعلانات (Meta، Google، TikTok…)",
+    "projectTypeWeb": "موقع، تجارة إلكترونية أو صفحة هبوط",
+    "projectTypeSoftware": "برمجيات، ERP، SaaS أو أتمتة",
+    "projectTypeMobile": "تطبيق جوال (iOS، Android، Flutter…)",
+    "projectTypeDesign": "تصميم وهوية بصرية",
+    "projectTypePhotoVideo": "صورة، فيديو، Reels وموشن",
+    "projectTypeEvents": "فعالية مؤسسية أو تفعيل",
+    "projectTypeOther": "أخرى / احتياجات متعددة",
+    "budget": "الميزانية التقديرية",
     "budgetPlaceholder": "اختر نطاقاً",
     "budgetUnder10k": "أقل من 10 000 درهم",
     "budget10to30k": "10 000 – 30 000 درهم",
     "budget30to100k": "30 000 – 100 000 درهم",
     "budgetOver100k": "أكثر من 100 000 درهم",
-    "message": "مشروعكم",
-    "messagePlaceholder": "أخبرونا عن أهداف نموكم…",
-    "submit": "طلب التدقيق المجاني",
+    "budgetUndecided": "غير محدد بعد",
+    "message": "صفوا احتياجكم",
+    "messagePlaceholder": "اشرحوا مشروعكم وأهدافكم ومواعيدكم… (تسويق، موقع، تطبيق، تصميم، إلخ.)",
+    "submit": "طلب عرض سعر",
     "submitting": "جاري الإرسال…",
     "disclaimer": "بإرسال هذا النموذج، توافقون على أن يتواصل معكم فريقنا وتقبلون <privacyLink>سياسة الخصوصية</privacyLink>.",
     "errorGeneric": "حدث خطأ. أعد المحاولة أو راسلونا على contact@mohtaoua.ma.",
@@ -103,6 +118,7 @@
   },
   "navMega": {
     "viewAllServices": "عرض جميع الخدمات",
-    "viewAllIndustries": "عرض جميع القطاعات"
+    "viewAllIndustries": "عرض جميع القطاعات",
+    "viewAllSolutions": "عرض جميع الحلول"
   }
 }

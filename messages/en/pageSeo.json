@@ -19,21 +19,21 @@
     ]
   },
   "contact": {
-    "what": "Contact page to request a free digital audit for your business.",
-    "who": "Decision-makers ready to discuss strategy, budget and growth goals.",
+    "what": "Contact page to request a custom quote: marketing, web, software, design or events.",
+    "who": "Decision-makers describing their needs and comparing support options.",
     "benefits": [
       "Response within 24 business hours",
-      "Free audit with no commitment",
+      "Tailored quote",
       "Team based in Casablanca"
     ],
     "topics": [
-      "Free audit",
+      "Quote request",
       "Contact form",
       "WhatsApp",
       "Location"
     ],
     "takeaways": [
-      "Prepare your business goals",
+      "Specify project type and estimated budget",
       "We cover all of Morocco"
     ]
   },
@@ -110,6 +110,26 @@
     "takeaways": [
       "Content optimized for SEO and GEO",
       "Updated regularly"
+    ]
+  },
+  "about": {
+    "what": "About Mohtaoua: premium 360° digital agency in Morocco, mission, values and proprietary solutions.",
+    "who": "Prospects and partners discovering the company before requesting a quote.",
+    "benefits": [
+      "Clear view of Mohtaoua expertise",
+      "Products and services at a glance",
+      "Local team based in Casablanca"
+    ],
+    "topics": [
+      "Mission & values",
+      "Proprietary solutions",
+      "Key figures",
+      "Clients & references"
+    ],
+    "takeaways": [
+      "Agency + software publisher",
+      "200+ projects delivered",
+      "Free audit within 24h"
     ]
   }
 }

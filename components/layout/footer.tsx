@@ -90,6 +90,22 @@ export async function Footer() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/industries"
+                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+              >
+                {t("industries")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/solutions"
+                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+              >
+                {t("solutions")}
+              </Link>
+            </li>
           </ul>
         </nav>
 

@@ -12,10 +12,44 @@ import { Label } from "@/components/ui/label";
 
 type Status = "idle" | "loading" | "success" | "error";
 
-export function ContactForm() {
+const PROJECT_TYPES = [
+  "marketing",
+  "web",
+  "software",
+  "mobile",
+  "design",
+  "photo-video",
+  "events",
+  "other",
+] as const;
+
+const PROJECT_TYPE_LABEL_KEYS: Record<(typeof PROJECT_TYPES)[number], string> = {
+  marketing: "projectTypeMarketing",
+  web: "projectTypeWeb",
+  software: "projectTypeSoftware",
+  mobile: "projectTypeMobile",
+  design: "projectTypeDesign",
+  "photo-video": "projectTypePhotoVideo",
+  events: "projectTypeEvents",
+  other: "projectTypeOther",
+};
+
+const selectClassName =
+  "flex h-14 w-full rounded-xl border border-input bg-muted/60 px-4 text-base text-foreground transition-all focus-visible:border-primary focus-visible:bg-card focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-primary/15";
+
+export function ContactForm({
+  defaultProjectType,
+}: {
+  defaultProjectType?: string;
+}) {
   const t = useTranslations("contactForm");
   const [status, setStatus] = React.useState<Status>("idle");
   const [errorMessage, setErrorMessage] = React.useState("");
+
+  const initialProjectType =
+    defaultProjectType && PROJECT_TYPES.includes(defaultProjectType as (typeof PROJECT_TYPES)[number])
+      ? defaultProjectType
+      : "";
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -105,13 +139,27 @@ export function ContactForm() {
               </Field>
             </div>
 
-            <Field id="budget" label={t("budget")}>
+            <Field id="projectType" label={t("projectType")} required>
               <select
-                id="budget"
-                name="budget"
-                defaultValue=""
-                className="flex h-14 w-full rounded-xl border border-input bg-muted/60 px-4 text-base text-foreground transition-all focus-visible:border-primary focus-visible:bg-card focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-primary/15"
+                id="projectType"
+                name="projectType"
+                required
+                defaultValue={initialProjectType}
+                className={selectClassName}
               >
+                <option value="" disabled>
+                  {t("projectTypePlaceholder")}
+                </option>
+                {PROJECT_TYPES.map((type) => (
+                  <option key={type} value={type}>
+                    {t(PROJECT_TYPE_LABEL_KEYS[type])}
+                  </option>
+                ))}
+              </select>
+            </Field>
+
+            <Field id="budget" label={t("budget")}>
+              <select id="budget" name="budget" defaultValue="" className={selectClassName}>
                 <option value="" disabled>
                   {t("budgetPlaceholder")}
                 </option>
@@ -119,6 +167,7 @@ export function ContactForm() {
                 <option value="10-30k">{t("budget10to30k")}</option>
                 <option value="30-100k">{t("budget30to100k")}</option>
                 <option value=">100k">{t("budgetOver100k")}</option>
+                <option value="undecided">{t("budgetUndecided")}</option>
               </select>
             </Field>
 

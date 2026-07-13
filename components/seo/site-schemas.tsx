@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { JsonLdScript } from "@/components/seo/json-ld-script";
 import {
-  buildLocalBusinessSchema,
   buildOrganizationSchema,
   buildWebSiteSchema,
 } from "@/lib/seo/schema";
@@ -31,7 +30,6 @@ export async function SiteSchemas({ locale }: { locale: string }) {
 
   const graph = [
     buildOrganizationSchema(orgInput),
-    buildLocalBusinessSchema(orgInput),
     buildWebSiteSchema({
       name: siteConfig.name,
       description: t("description"),

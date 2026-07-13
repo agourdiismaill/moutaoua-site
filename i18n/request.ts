@@ -27,6 +27,8 @@ const modules = [
   "pillars",
   "industries",
   "industryPages",
+  "solutions",
+  "solutionPages",
 ] as const;
 
 async function loadMessages(locale: string) {

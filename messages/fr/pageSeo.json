@@ -19,21 +19,21 @@
     ]
   },
   "contact": {
-    "what": "Page de contact pour demander un audit digital gratuit pour votre entreprise.",
-    "who": "Décideurs prêts à discuter stratégie, budget et objectifs de croissance.",
+    "what": "Page de contact pour demander un devis personnalisé : marketing, web, logiciels, design ou événements.",
+    "who": "Décideurs qui décrivent leur besoin et comparent les options d'accompagnement.",
     "benefits": [
       "Réponse sous 24h",
-      "Audit gratuit",
+      "Devis sur mesure",
       "Équipe basée à Casablanca"
     ],
     "topics": [
-      "Audit gratuit",
+      "Demande de devis",
       "Formulaire",
       "WhatsApp",
       "Casablanca"
     ],
     "takeaways": [
-      "Préparez vos objectifs business",
+      "Précisez le type de projet et votre budget estimé",
       "Nous couvrons tout le Maroc"
     ]
   },
@@ -110,6 +110,26 @@
     "takeaways": [
       "Contenu optimisé SEO et GEO",
       "Mis à jour régulièrement"
+    ]
+  },
+  "about": {
+    "what": "Présentation de Mohtaoua : agence digitale premium 360° au Maroc, mission, valeurs et solutions propriétaires.",
+    "who": "Prospects et partenaires qui découvrent l'entreprise avant de demander un devis.",
+    "benefits": [
+      "Vision claire de l'expertise Mohtaoua",
+      "Produits et services en un coup d'œil",
+      "Équipe locale basée à Casablanca"
+    ],
+    "topics": [
+      "Mission & valeurs",
+      "Solutions propriétaires",
+      "Chiffres clés",
+      "Clients & références"
+    ],
+    "takeaways": [
+      "Agence + éditeur de solutions",
+      "200+ projets livrés",
+      "Audit gratuit sous 24h"
     ]
   }
 }

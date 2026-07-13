@@ -27,14 +27,14 @@ import type { AIOverviewContent } from "@/lib/seo/types";
 import { estimateReadingTimeFromParts } from "@/lib/seo/reading-time";
 import { serviceMeta } from "@/data/services";
 import { industryMeta } from "@/data/industries";
-import { portfolioMeta } from "@/data/portfolio";
+import { portfolioMeta, millenniaCreativeMeta } from "@/data/portfolio";
 import { pricingMeta } from "@/data/pricing";
 import { statMeta } from "@/data/site";
 import { resultMeta } from "@/data/results";
 import { videoMeta } from "@/data/videos";
 import { testimonialMeta } from "@/data/testimonials";
 import { reelMeta } from "@/data/showcase-videos";
-import { millenniaCreativeMeta } from "@/data/portfolio";
+import { solutionMeta, SOLUTION_SLUGS, type SolutionSlug } from "@/data/solutions";
 import type { LightboxImage } from "@/components/shared/lightbox";
 import type { ReelVideo } from "@/data/showcase-videos";
 
@@ -220,6 +220,7 @@ export function getLocalizedReelVideos(t: TFunction): ReelVideo[] {
   return reelMeta.map((meta) => ({
     id: meta.id,
     src: meta.src,
+    poster: meta.poster,
     title: t("reelTitle", { n: meta.index }),
   }));
 }
@@ -399,5 +400,68 @@ export function getLocalizedComparison(t: TFunction, slug: string) {
     rows: t.raw(`items.${slug}.rows`) as { criteria: string; meta: string; google: string }[],
     verdict: t(`items.${slug}.verdict`),
     faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
+  };
+}
+
+export function getSolutionsHubOverview(t: TFunction): AIOverviewContent {
+  const overview = t.raw("hub.hubOverview") as Omit<AIOverviewContent, "readingTimeMinutes">;
+  const textParts = [
+    overview.what,
+    overview.who,
+    ...overview.benefits,
+    ...overview.topics,
+    ...overview.takeaways,
+  ];
+  return {
+    ...overview,
+    readingTimeMinutes: estimateReadingTimeFromParts(textParts),
+  };
+}
+
+export function getLocalizedSolutions(t: TFunction) {
+  return solutionMeta.map((meta) => ({
+    slug: meta.slug,
+    icon: meta.icon,
+    category: meta.category,
+    title: t(`items.${meta.slug}.title`),
+    description: t(`items.${meta.slug}.description`),
+  }));
+}
+
+export function getSolutionPageSlugs(): SolutionSlug[] {
+  return [...SOLUTION_SLUGS];
+}
+
+export function getLocalizedSolutionPage(t: TFunction, slug: string) {
+  const overviewRaw = t.raw(`items.${slug}.overview`) as Omit<AIOverviewContent, "readingTimeMinutes">;
+  const textParts = [
+    t(`items.${slug}.problem`),
+    t(`items.${slug}.solution`),
+    ...((t.raw(`items.${slug}.howItWorks`) as string[]) ?? []),
+    ...overviewRaw.benefits,
+    ...overviewRaw.takeaways,
+  ];
+
+  const pricingRaw = t.raw(`items.${slug}.pricing`) as { note: string; cta: string };
+
+  return {
+    slug,
+    metaTitle: t(`items.${slug}.metaTitle`),
+    metaDescription: t(`items.${slug}.metaDescription`),
+    badge: t(`items.${slug}.badge`),
+    overview: {
+      ...overviewRaw,
+      readingTimeMinutes: estimateReadingTimeFromParts(textParts),
+    } satisfies AIOverviewContent,
+    problem: t(`items.${slug}.problem`),
+    solution: t(`items.${slug}.solution`),
+    features: t.raw(`items.${slug}.features`) as string[],
+    benefits: t.raw(`items.${slug}.benefits`) as string[],
+    targetAudience: t.raw(`items.${slug}.targetAudience`) as string[],
+    howItWorks: t.raw(`items.${slug}.howItWorks`) as string[],
+    industries: t.raw(`items.${slug}.industries`) as string[],
+    pricing: pricingRaw,
+    faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
+    screenshotAlts: (t.raw(`items.${slug}.screenshots`) as { alt: string }[]).map((s) => s.alt),
   };
 }

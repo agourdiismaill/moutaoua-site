@@ -9,11 +9,13 @@ export async function loadContentLabelSources(locale: string): Promise<ContentLa
   const tc = await getTranslations("caseStudies");
   const tcomp = await getTranslations("compare");
   const tind = await getTranslations("industries");
+  const tsol = await getTranslations("solutions");
   const tseo = await getTranslations("seo");
 
   return {
     locale,
     services: (key) => ts(key),
+    solutions: (key) => tsol(key),
     blog: (key) => tb(key),
     guides: (key) => tg(key),
     caseStudies: (key) => tc(key),

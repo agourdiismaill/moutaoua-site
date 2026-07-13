@@ -59,6 +59,8 @@
     "adBudgetNote": "Ad budget paid separately by the client.",
     "adPlatformsHeading": "Ad campaigns:",
     "customNote": "Web development, software, mobile and design: custom quote after free audit.",
+    "quoteTitle": "Web, software or design project?",
+    "quoteCta": "Request a quote",
     "capabilitiesHeading": "We also cover:",
     "capabilities": [
       "Websites",
@@ -99,6 +101,8 @@
     "eyebrow": "Our capabilities",
     "title": "Everything your business needs",
     "description": "From brand strategy to custom software, we cover your entire digital transformation.",
+    "viewDetail": "View details: {title}",
+    "viewDetailShort": "View service",
     "items": {
       "brands": {
         "title": "We create brands",
@@ -139,5 +143,11 @@
     "title": "Solutions for every industry",
     "description": "Education, healthcare, e-commerce, real estate, restaurants, hospitality and more.",
     "cta": "See all industries"
+  },
+  "solutionsTeaser": {
+    "eyebrow": "Solutions",
+    "title": "Our digital products",
+    "description": "Mohtaoua's proprietary software: CRM, ERP, AI, WhatsApp, DMS and more.",
+    "cta": "See all solutions"
   }
 }

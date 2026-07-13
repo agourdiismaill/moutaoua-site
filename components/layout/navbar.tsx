@@ -54,7 +54,7 @@ export function Navbar() {
                 ? pathname === "/"
                 : pathname.startsWith(item.href);
 
-            if (item.key === "services" || item.key === "industries") {
+            if (item.key === "services" || item.key === "solutions") {
               return (
                 <NavMegaMenu
                   key={item.href}

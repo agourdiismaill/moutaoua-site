@@ -1,0 +1,964 @@
+{
+  "labels": {
+    "aiOverview": "Résumé de la page",
+    "what": "De quoi parle cette page ?",
+    "who": "À qui s'adresse-t-elle ?",
+    "benefits": "Bénéfices clés",
+    "topics": "Sujets couverts",
+    "takeaways": "Points à retenir",
+    "readingTime": "{minutes} min de lecture",
+    "problem": "Le problème",
+    "solution": "Notre solution",
+    "features": "Fonctionnalités",
+    "productBenefits": "Avantages",
+    "targetAudience": "Public cible",
+    "howItWorks": "Comment ça marche",
+    "industries": "Secteurs d'application",
+    "screenshots": "Aperçu produit",
+    "pricing": "Tarification",
+    "demo": "Demander une démo",
+    "share": "Partager",
+    "home": "Accueil",
+    "solutions": "Solutions",
+    "relatedServices": "Services associés",
+    "relatedSolutions": "Solutions associées",
+    "caseStudies": "Études de cas",
+    "demoTitle": "Demandez votre démo",
+    "demoDescription": "Découvrez la solution en action. Réponse sous 24h."
+  },
+  "trust": {
+    "experience": "Solutions propriétaires développées et déployées par l'équipe Mohtaoua au Maroc.",
+    "methodology": "Démo → configuration → déploiement → formation → support continu.",
+    "updatedAt": "13 juillet 2026",
+    "references": [
+      "Retail & e-commerce",
+      "Santé & cliniques",
+      "Restauration & hôtellerie",
+      "PME & startups",
+      "Industrie & BTP"
+    ]
+  },
+  "items": {
+    "e-nfc": {
+      "metaTitle": "e-NFC — Cartes digitales & networking intelligent | Mohtaoua",
+      "metaDescription": "Cartes NFC, QR codes et profils digitaux pour partager vos coordonnées en un geste. Solution Mohtaoua pour commerciaux, événements et marques.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Cartes de visite digitales, produits NFC, QR codes et profils intelligents pour le networking professionnel.",
+        "who": "Commerciaux B2B, Dirigeants et fondateurs, Équipes événementielles, Agences immobilières, Centres de formation",
+        "benefits": [
+          "Image premium et mémorable",
+          "Zéro papier, mise à jour instantanée",
+          "Capture automatique des leads",
+          "ROI mesurable sur événements"
+        ],
+        "topics": [
+          "Cartes NFC personnalisées",
+          "Profils digitaux multilingues",
+          "QR codes dynamiques",
+          "Analytics de scans",
+          "Intégration CRM"
+        ],
+        "takeaways": [
+          "Image premium et mémorable",
+          "Zéro papier, mise à jour instantanée",
+          "Capture automatique des leads"
+        ]
+      },
+      "problem": "Les cartes papier se perdent, les coordonnées deviennent obsolètes et le suivi des contacts après un salon ou un rendez-vous reste manuel et fragmenté.",
+      "solution": "e-NFC centralise votre identité professionnelle sur une carte NFC ou un QR code : profil enrichi, partage instantané, analytics et synchronisation CRM.",
+      "features": [
+        "Cartes NFC personnalisées",
+        "Profils digitaux multilingues",
+        "QR codes dynamiques",
+        "Analytics de scans",
+        "Intégration CRM",
+        "Gestion d'équipe"
+      ],
+      "benefits": [
+        "Image premium et mémorable",
+        "Zéro papier, mise à jour instantanée",
+        "Capture automatique des leads",
+        "ROI mesurable sur événements"
+      ],
+      "targetAudience": [
+        "Commerciaux B2B",
+        "Dirigeants et fondateurs",
+        "Équipes événementielles",
+        "Agences immobilières",
+        "Centres de formation"
+      ],
+      "howItWorks": [
+        "Création du profil digital et design de carte",
+        "Production NFC ou déploiement QR",
+        "Formation équipe et intégration CRM",
+        "Suivi analytics et optimisation"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Restaurants",
+        "Immobilier",
+        "Éducation",
+        "PME"
+      ],
+      "pricing": {
+        "note": "À partir de 299 MAD/carte — packs équipe sur devis",
+        "cta": "Demander une démo"
+      },
+      "faqs": [
+        {
+          "question": "Faut-il une application pour scanner ?",
+          "answer": "Non, un simple tap NFC ou scan QR ouvre le profil dans le navigateur, compatible iOS et Android."
+        },
+        {
+          "question": "Peut-on mettre à jour le profil sans changer la carte ?",
+          "answer": "Oui, le contenu est dynamique : vous modifiez le profil, la carte reste identique."
+        },
+        {
+          "question": "e-NFC s'intègre-t-il à notre CRM ?",
+          "answer": "Oui, export des contacts et webhooks vers HubSpot, Pipedrive ou CRM Mohtaoua."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Interface profil e-NFC"
+        },
+        {
+          "alt": "Dashboard analytics scans"
+        },
+        {
+          "alt": "Design carte NFC personnalisée"
+        }
+      ]
+    },
+    "archidoc": {
+      "metaTitle": "Archidoc — GED, OCR & archivage documentaire | Mohtaoua",
+      "metaDescription": "Solution GED Mohtaoua : numérisation, OCR, classement automatique et archivage sécurisé pour cabinets, cliniques et administrations.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Gestion documentaire, archivage sécurisé, OCR et GED pour la transformation digitale de vos dossiers.",
+        "who": "Cabinets juridiques, Cabinets comptables, Cliniques et hôpitaux, Administrations, Industries",
+        "benefits": [
+          "Gain de temps administratif",
+          "Conformité et traçabilité",
+          "Réduction des coûts de stockage",
+          "Accès distant sécurisé"
+        ],
+        "topics": [
+          "Numérisation & OCR",
+          "Classement automatique",
+          "Workflows de validation",
+          "Recherche full-text",
+          "Archivage légal"
+        ],
+        "takeaways": [
+          "Gain de temps administratif",
+          "Conformité et traçabilité",
+          "Réduction des coûts de stockage"
+        ]
+      },
+      "problem": "Dossiers papier éparpillés, recherche lente, risques de perte et conformité difficile à prouver lors d'audits.",
+      "solution": "Archidoc digitalise, indexe et sécurise vos documents avec OCR multilingue, workflows de validation et recherche full-text instantanée.",
+      "features": [
+        "Numérisation & OCR",
+        "Classement automatique",
+        "Workflows de validation",
+        "Recherche full-text",
+        "Archivage légal",
+        "Accès par rôles"
+      ],
+      "benefits": [
+        "Gain de temps administratif",
+        "Conformité et traçabilité",
+        "Réduction des coûts de stockage",
+        "Accès distant sécurisé"
+      ],
+      "targetAudience": [
+        "Cabinets juridiques",
+        "Cabinets comptables",
+        "Cliniques et hôpitaux",
+        "Administrations",
+        "Industries"
+      ],
+      "howItWorks": [
+        "Audit documentaire et plan de classement",
+        "Import/scan et traitement OCR",
+        "Configuration workflows et droits",
+        "Formation et migration progressive"
+      ],
+      "industries": [
+        "Santé",
+        "Juridique",
+        "Comptabilité",
+        "Secteur public",
+        "Industrie"
+      ],
+      "pricing": {
+        "note": "Licence mensuelle selon volume — devis personnalisé",
+        "cta": "Demander une démo"
+      },
+      "faqs": [
+        {
+          "question": "Archidoc est-il hébergé au Maroc ?",
+          "answer": "Oui, hébergement sécurisé avec options cloud privé et sauvegardes chiffrées."
+        },
+        {
+          "question": "L'OCR fonctionne-t-il en arabe et français ?",
+          "answer": "Oui, OCR multilingue arabe, français et anglais avec correction assistée."
+        },
+        {
+          "question": "Peut-on conserver la valeur probante ?",
+          "answer": "Archivage conforme avec horodatage, empreintes et journal d'audit."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Interface Archidoc GED"
+        },
+        {
+          "alt": "Workflow validation documents"
+        },
+        {
+          "alt": "Recherche documentaire"
+        }
+      ]
+    },
+    "erp-restaurant": {
+      "metaTitle": "ERP Restaurant — POS, cuisine & stock | Mohtaoua",
+      "metaDescription": "ERP restauration Mohtaoua : point de vente, gestion cuisine, inventaire, achats fournisseurs et tableaux de bord pour restaurants et chaînes.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Logiciel complet de gestion restaurant : caisse POS, cuisine, stock, achats et analytics.",
+        "who": "Restaurants indépendants, Chaînes de restauration, Dark kitchens, Hôtels avec F&B, Traiteurs",
+        "benefits": [
+          "Moins de gaspillage alimentaire",
+          "Service plus rapide",
+          "Marges maîtrisées",
+          "Pilotage multi-établissements"
+        ],
+        "topics": [
+          "Caisse POS tactile",
+          "Tickets cuisine KDS",
+          "Gestion stocks & recettes",
+          "Achats fournisseurs",
+          "Multi-sites"
+        ],
+        "takeaways": [
+          "Moins de gaspillage alimentaire",
+          "Service plus rapide",
+          "Marges maîtrisées"
+        ]
+      },
+      "problem": "Caisse, cuisine et stocks gérés dans des outils séparés : ruptures, erreurs de commande et marges invisibles en temps réel.",
+      "solution": "ERP Restaurant unifie POS, tickets cuisine, inventaire et achats dans une plateforme cloud avec analytics de marge par plat.",
+      "features": [
+        "Caisse POS tactile",
+        "Tickets cuisine KDS",
+        "Gestion stocks & recettes",
+        "Achats fournisseurs",
+        "Multi-sites",
+        "Rapports financiers"
+      ],
+      "benefits": [
+        "Moins de gaspillage alimentaire",
+        "Service plus rapide",
+        "Marges maîtrisées",
+        "Pilotage multi-établissements"
+      ],
+      "targetAudience": [
+        "Restaurants indépendants",
+        "Chaînes de restauration",
+        "Dark kitchens",
+        "Hôtels avec F&B",
+        "Traiteurs"
+      ],
+      "howItWorks": [
+        "Paramétrage menu et recettes",
+        "Installation POS et écrans cuisine",
+        "Formation équipe service & cuisine",
+        "Suivi KPIs et optimisation"
+      ],
+      "industries": [
+        "Restaurants",
+        "Hôtels",
+        "Retail alimentaire",
+        "Événementiel",
+        "SPA restauration"
+      ],
+      "pricing": {
+        "note": "Abonnement mensuel par établissement — essai 14 jours",
+        "cta": "Demander une démo"
+      },
+      "faqs": [
+        {
+          "question": "Fonctionne-t-il hors connexion ?",
+          "answer": "Le POS continue en mode offline et synchronise dès le retour réseau."
+        },
+        {
+          "question": "Compatible avec imprimantes existantes ?",
+          "answer": "Oui, compatibilité ESC/POS et intégrations caisses certifiées."
+        },
+        {
+          "question": "Gère-t-on plusieurs restaurants ?",
+          "answer": "Oui, dashboard centralisé avec rapports consolidés par site."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Interface caisse POS"
+        },
+        {
+          "alt": "Écran cuisine KDS"
+        },
+        {
+          "alt": "Dashboard stocks restaurant"
+        }
+      ]
+    },
+    "crm": {
+      "metaTitle": "CRM — Gestion relation client & automatisation | Mohtaoua",
+      "metaDescription": "CRM Mohtaoua : pipelines, scoring leads, automatisations email/WhatsApp et reporting pour accélérer vos ventes au Maroc.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "CRM avec automatisation, suivi des leads et pipelines commerciaux pour PME et équipes sales.",
+        "who": "Équipes commerciales, Centres de formation, Agences immobilières, Cliniques, PME B2B",
+        "benefits": [
+          "Plus de conversions",
+          "Relances systématiques",
+          "Visibilité management",
+          "Onboarding rapide"
+        ],
+        "topics": [
+          "Pipeline visuel",
+          "Scoring leads",
+          "Automatisations",
+          "Intégration email",
+          "WhatsApp natif"
+        ],
+        "takeaways": [
+          "Plus de conversions",
+          "Relances systématiques",
+          "Visibilité management"
+        ]
+      },
+      "problem": "Leads dans Excel et WhatsApp, relances oubliées et absence de visibilité sur le pipeline commercial.",
+      "solution": "CRM Mohtaoua centralise contacts, deals et activités avec automatisations, rappels et tableaux de bord en temps réel.",
+      "features": [
+        "Pipeline visuel",
+        "Scoring leads",
+        "Automatisations",
+        "Intégration email",
+        "WhatsApp natif",
+        "Reporting & prévisions"
+      ],
+      "benefits": [
+        "Plus de conversions",
+        "Relances systématiques",
+        "Visibilité management",
+        "Onboarding rapide"
+      ],
+      "targetAudience": [
+        "Équipes commerciales",
+        "Centres de formation",
+        "Agences immobilières",
+        "Cliniques",
+        "PME B2B"
+      ],
+      "howItWorks": [
+        "Import contacts et configuration pipeline",
+        "Règles d'automatisation et templates",
+        "Formation commerciaux",
+        "Optimisation continue des conversions"
+      ],
+      "industries": [
+        "Éducation",
+        "Santé",
+        "Immobilier",
+        "Retail",
+        "PME"
+      ],
+      "pricing": {
+        "note": "Par utilisateur/mois — essai gratuit 30 jours",
+        "cta": "Demander une démo"
+      },
+      "faqs": [
+        {
+          "question": "Différence avec le service CRM Mohtaoua ?",
+          "answer": "Ce produit est la plateforme logicielle ; le service couvre l'intégration sur mesure avec vos outils."
+        },
+        {
+          "question": "Migration depuis Excel ?",
+          "answer": "Import CSV assisté et mapping des champs en 1 journée."
+        },
+        {
+          "question": "WhatsApp intégré ?",
+          "answer": "Oui, conversations synchronisées dans la fiche contact."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Pipeline CRM"
+        },
+        {
+          "alt": "Fiche contact enrichie"
+        },
+        {
+          "alt": "Dashboard commercial"
+        }
+      ]
+    },
+    "ai-agents": {
+      "metaTitle": "AI Agents — Assistants IA & bots entreprise | Mohtaoua",
+      "metaDescription": "Agents IA Mohtaoua : support client 24/7, assistants internes, qualification leads et automatisation intelligente.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Assistants IA, bots support client et assistants internes pour automatiser vos processus métier.",
+        "who": "E-commerce, Cliniques, Centres de formation, Hôtels, PME services",
+        "benefits": [
+          "Support 24/7",
+          "Réduction charge équipe",
+          "Réponses cohérentes",
+          "Scalable sans recrutement"
+        ],
+        "topics": [
+          "Agents multicanal",
+          "Base de connaissances",
+          "Qualification leads",
+          "Escalade humaine",
+          "Analytics conversations"
+        ],
+        "takeaways": [
+          "Support 24/7",
+          "Réduction charge équipe",
+          "Réponses cohérentes"
+        ]
+      },
+      "problem": "Support saturé, réponses répétitives et knowledge interne difficile d'accès pour les équipes.",
+      "solution": "AI Agents déploie des assistants entraînés sur vos données : FAQ client, qualification leads, aide interne RH/commercial.",
+      "features": [
+        "Agents multicanal",
+        "Base de connaissances",
+        "Qualification leads",
+        "Escalade humaine",
+        "Analytics conversations",
+        "API & webhooks"
+      ],
+      "benefits": [
+        "Support 24/7",
+        "Réduction charge équipe",
+        "Réponses cohérentes",
+        "Scalable sans recrutement"
+      ],
+      "targetAudience": [
+        "E-commerce",
+        "Cliniques",
+        "Centres de formation",
+        "Hôtels",
+        "PME services"
+      ],
+      "howItWorks": [
+        "Audit use cases et données",
+        "Entraînement agent sur KB",
+        "Déploiement web/WhatsApp",
+        "Monitoring et amélioration continue"
+      ],
+      "industries": [
+        "Santé",
+        "Éducation",
+        "Retail",
+        "Hôtellerie",
+        "PME"
+      ],
+      "pricing": {
+        "note": "Abonnement selon volume de conversations",
+        "cta": "Demander une démo"
+      },
+      "faqs": [
+        {
+          "question": "Les données restent-elles privées ?",
+          "answer": "Oui, isolation tenant, chiffrement et option on-premise."
+        },
+        {
+          "question": "Peut-on connecter notre CRM ?",
+          "answer": "Oui, création automatique de leads et mise à jour statuts."
+        },
+        {
+          "question": "Quelles langues ?",
+          "answer": "Français, arabe darija/français et anglais natifs."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Interface agent IA"
+        },
+        {
+          "alt": "Analytics conversations"
+        },
+        {
+          "alt": "Configuration knowledge base"
+        }
+      ]
+    },
+    "whatsapp-automation": {
+      "metaTitle": "WhatsApp Automation — Bots & notifications | Mohtaoua",
+      "metaDescription": "Automatisez WhatsApp : réponses instantanées, rappels RDV, nurturing leads et sync CRM. Solution Mohtaoua pour entreprises marocaines.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Conversations automatisées, notifications, rappels et intégration CRM via WhatsApp Business API.",
+        "who": "Centres de formation, Cliniques, Immobilier, E-commerce, Services B2C",
+        "benefits": [
+          "Réponse instantanée 24/7",
+          "Taux de conversion WhatsApp +40%",
+          "Équipe focus sur closing",
+          "Conformité Meta"
+        ],
+        "topics": [
+          "Flows conversationnels",
+          "Templates Meta approuvés",
+          "Rappels automatiques",
+          "Sync CRM",
+          "Multi-agents"
+        ],
+        "takeaways": [
+          "Réponse instantanée 24/7",
+          "Taux de conversion WhatsApp +40%",
+          "Équipe focus sur closing"
+        ]
+      },
+      "problem": "Centaines de messages WhatsApp non traités, relances manuelles et perte de leads faute de réponse rapide.",
+      "solution": "WhatsApp Automation connecte l'API Business à des flows intelligents : accueil, qualification, rappels et handoff commercial.",
+      "features": [
+        "Flows conversationnels",
+        "Templates Meta approuvés",
+        "Rappels automatiques",
+        "Sync CRM",
+        "Multi-agents",
+        "Analytics délivrabilité"
+      ],
+      "benefits": [
+        "Réponse instantanée 24/7",
+        "Taux de conversion WhatsApp +40%",
+        "Équipe focus sur closing",
+        "Conformité Meta"
+      ],
+      "targetAudience": [
+        "Centres de formation",
+        "Cliniques",
+        "Immobilier",
+        "E-commerce",
+        "Services B2C"
+      ],
+      "howItWorks": [
+        "Vérification compte Business API",
+        "Design flows et templates",
+        "Intégration CRM/site",
+        "Lancement et optimisation"
+      ],
+      "industries": [
+        "Éducation",
+        "Santé",
+        "Cliniques",
+        "Restaurants",
+        "Immobilier"
+      ],
+      "pricing": {
+        "note": "Setup + abonnement mensuel — coûts Meta facturés au réel",
+        "cta": "Demander une démo"
+      },
+      "faqs": [
+        {
+          "question": "Faut-il WhatsApp Business API ?",
+          "answer": "Oui, nous gérons la migration depuis l'app standard ou Business."
+        },
+        {
+          "question": "Peut-on envoyer des campagnes ?",
+          "answer": "Oui, via templates approuvés Meta avec segmentation CRM."
+        },
+        {
+          "question": "Plusieurs agents sur un numéro ?",
+          "answer": "Oui, inbox partagée avec attribution et historique unifié."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Flow WhatsApp automation"
+        },
+        {
+          "alt": "Inbox multi-agents"
+        },
+        {
+          "alt": "Stats conversations WhatsApp"
+        }
+      ]
+    },
+    "business-automation": {
+      "metaTitle": "Business Automation — Workflows IA & n8n | Mohtaoua",
+      "metaDescription": "Automatisez vos processus : n8n, APIs, IA et connecteurs entre CRM, ERP, email et outils métier. Solution Mohtaoua.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Automatisation de workflows avec IA, APIs, n8n et intégrations modernes pour gagner en productivité.",
+        "who": "DSI & IT, Ops & finance, Cabinets comptables, Industries, Administrations",
+        "benefits": [
+          "-60% tâches manuelles",
+          "Données synchronisées",
+          "Moins d'erreurs",
+          "ROI en semaines"
+        ],
+        "topics": [
+          "Workflows n8n",
+          "Connecteurs 200+",
+          "Triggers temps réel",
+          "IA décisionnelle",
+          "Monitoring & logs"
+        ],
+        "takeaways": [
+          "-60% tâches manuelles",
+          "Données synchronisées",
+          "Moins d'erreurs"
+        ]
+      },
+      "problem": "Tâches répétitives entre outils non connectés : saisies doubles, erreurs et lenteur opérationnelle.",
+      "solution": "Business Automation orchestre vos workflows avec n8n, APIs et IA : sync données, alertes, rapports et actions déclenchées.",
+      "features": [
+        "Workflows n8n",
+        "Connecteurs 200+",
+        "Triggers temps réel",
+        "IA décisionnelle",
+        "Monitoring & logs",
+        "Hébergement sécurisé"
+      ],
+      "benefits": [
+        "-60% tâches manuelles",
+        "Données synchronisées",
+        "Moins d'erreurs",
+        "ROI en semaines"
+      ],
+      "targetAudience": [
+        "DSI & IT",
+        "Ops & finance",
+        "Cabinets comptables",
+        "Industries",
+        "Administrations"
+      ],
+      "howItWorks": [
+        "Cartographie processus",
+        "Design workflows n8n",
+        "Tests et mise en production",
+        "Maintenance et évolutions"
+      ],
+      "industries": [
+        "Industrie",
+        "Comptabilité",
+        "Secteur public",
+        "PME",
+        "Santé"
+      ],
+      "pricing": {
+        "note": "Projet setup + maintenance mensuelle",
+        "cta": "Demander un audit"
+      },
+      "faqs": [
+        {
+          "question": "n8n self-hosted ou cloud ?",
+          "answer": "Les deux — cloud Mohtaoua ou déploiement on-premise selon vos exigences."
+        },
+        {
+          "question": "Quels outils connectables ?",
+          "answer": "CRM, ERP, Google Workspace, Meta, WhatsApp, bases SQL, Shopify et APIs custom."
+        },
+        {
+          "question": "Qui maintient les workflows ?",
+          "answer": "Mohtaoua assure maintenance, monitoring et évolutions sous contrat."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Workflow n8n"
+        },
+        {
+          "alt": "Dashboard monitoring"
+        },
+        {
+          "alt": "Intégrations API"
+        }
+      ]
+    },
+    "website-builder": {
+      "metaTitle": "Website Builder — Sites web & e-commerce | Mohtaoua",
+      "metaDescription": "Créez sites corporate, landing pages et boutiques en ligne premium avec SEO, analytics et intégrations CRM.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Sites professionnels, landing pages et e-commerce performants avec SEO intégré.",
+        "who": "PME, Startups, Immobilier, Hôtellerie, Retail",
+        "benefits": [
+          "Time-to-market rapide",
+          "SEO natif",
+          "Conversion optimisée",
+          "Hébergement inclus"
+        ],
+        "topics": [
+          "Templates premium",
+          "Éditeur visuel",
+          "E-commerce intégré",
+          "SEO & schema.org",
+          "Analytics GTM/GA4"
+        ],
+        "takeaways": [
+          "Time-to-market rapide",
+          "SEO natif",
+          "Conversion optimisée"
+        ]
+      },
+      "problem": "Sites lents, templates génériques et absence d'intégration marketing pour convertir le trafic.",
+      "solution": "Website Builder Mohtaoua combine design premium, performance Core Web Vitals, SEO technique et formulaires connectés au CRM.",
+      "features": [
+        "Templates premium",
+        "Éditeur visuel",
+        "E-commerce intégré",
+        "SEO & schema.org",
+        "Analytics GTM/GA4",
+        "Multilingue fr/en/ar"
+      ],
+      "benefits": [
+        "Time-to-market rapide",
+        "SEO natif",
+        "Conversion optimisée",
+        "Hébergement inclus"
+      ],
+      "targetAudience": [
+        "PME",
+        "Startups",
+        "Immobilier",
+        "Hôtellerie",
+        "Retail"
+      ],
+      "howItWorks": [
+        "Choix template et charte",
+        "Contenu et pages clés",
+        "Intégrations CRM/analytics",
+        "Lancement et optimisation CRO"
+      ],
+      "industries": [
+        "Retail",
+        "Immobilier",
+        "Hôtels",
+        "Éducation",
+        "PME"
+      ],
+      "pricing": {
+        "note": "Abonnement mensuel ou projet one-shot — devis sur mesure",
+        "cta": "Demander une démo"
+      },
+      "faqs": [
+        {
+          "question": "Différence avec le service sites web ?",
+          "answer": "Website Builder est la plateforme ; le service inclut stratégie, copywriting et design sur mesure."
+        },
+        {
+          "question": "Peut-on migrer un site existant ?",
+          "answer": "Oui, migration contenu et redirections SEO incluses."
+        },
+        {
+          "question": "E-commerce Maroc ?",
+          "answer": "Paiement CMI, cash on delivery et livraison intégrables."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Éditeur site web"
+        },
+        {
+          "alt": "Landing page template"
+        },
+        {
+          "alt": "Dashboard analytics site"
+        }
+      ]
+    },
+    "mobile-applications": {
+      "metaTitle": "Mobile Applications — Android, iOS & Flutter | Mohtaoua",
+      "metaDescription": "Apps mobiles sur mesure : Android, iOS, Flutter et React Native. Solution Mohtaoua pour retail, santé, hôtellerie et startups.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Applications Android, iOS et cross-platform pour digitaliser vos services et fidéliser vos clients.",
+        "who": "Retail & e-commerce, Santé & cliniques, Restaurants & livraison, Hôtels, Startups",
+        "benefits": [
+          "Une codebase, deux stores",
+          "Engagement client mobile",
+          "Notifications ciblées",
+          "Maintenance centralisée"
+        ],
+        "topics": [
+          "Android & iOS",
+          "Flutter / React Native",
+          "Backend API",
+          "Push notifications",
+          "Paiement in-app"
+        ],
+        "takeaways": [
+          "Une codebase, deux stores",
+          "Engagement client mobile",
+          "Notifications ciblées"
+        ]
+      },
+      "problem": "Expérience mobile absente ou app native coûteuse à maintenir sur deux stores séparément.",
+      "solution": "Mobile Applications Mohtaoua livre des apps natives ou cross-platform avec backend, push notifications et analytics intégrés.",
+      "features": [
+        "Android & iOS",
+        "Flutter / React Native",
+        "Backend API",
+        "Push notifications",
+        "Paiement in-app",
+        "Analytics & crash reporting"
+      ],
+      "benefits": [
+        "Une codebase, deux stores",
+        "Engagement client mobile",
+        "Notifications ciblées",
+        "Maintenance centralisée"
+      ],
+      "targetAudience": [
+        "Retail & e-commerce",
+        "Santé & cliniques",
+        "Restaurants & livraison",
+        "Hôtels",
+        "Startups"
+      ],
+      "howItWorks": [
+        "Specs UX/UI mobile",
+        "Développement sprint agile",
+        "Tests stores & soumission",
+        "Maintenance et évolutions"
+      ],
+      "industries": [
+        "Retail",
+        "Santé",
+        "Restaurants",
+        "Hôtels",
+        "Startups"
+      ],
+      "pricing": {
+        "note": "Projet forfaitaire — maintenance mensuelle optionnelle",
+        "cta": "Demander un devis"
+      },
+      "faqs": [
+        {
+          "question": "Native ou cross-platform ?",
+          "answer": "Nous recommandons Flutter/RN pour 90% des cas — native si besoin spécifique (AR, perf extrême)."
+        },
+        {
+          "question": "Publication stores incluse ?",
+          "answer": "Oui, soumission Google Play et App Store avec assets store."
+        },
+        {
+          "question": "Backend inclus ?",
+          "answer": "Oui, API sécurisée, auth et sync cloud inclus dans l'offre standard."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "App mobile écran accueil"
+        },
+        {
+          "alt": "Interface app iOS/Android"
+        },
+        {
+          "alt": "Dashboard admin app"
+        }
+      ]
+    },
+    "business-intelligence": {
+      "metaTitle": "Business Intelligence — Dashboards & KPI | Mohtaoua",
+      "metaDescription": "BI Mohtaoua : dashboards temps réel, rapports automatisés et visualisation KPI pour retail, industrie, hôtellerie et santé.",
+      "badge": "Produit Mohtaoua",
+      "overview": {
+        "what": "Tableaux de bord, analytics, reporting et visualisation KPI pour piloter votre activité.",
+        "who": "Direction générale, Directeurs marketing, Ops & finance, Retail chains, Industries",
+        "benefits": [
+          "Décisions data-driven",
+          "Vision 360° activité",
+          "Gain de temps reporting",
+          "Alignement équipes"
+        ],
+        "topics": [
+          "Dashboards temps réel",
+          "ETL multi-sources",
+          "KPIs personnalisés",
+          "Alertes automatiques",
+          "Export PDF/Excel"
+        ],
+        "takeaways": [
+          "Décisions data-driven",
+          "Vision 360° activité",
+          "Gain de temps reporting"
+        ]
+      },
+      "problem": "Données éparpillées dans Excel, ERP et ads sans vision consolidée pour décider rapidement.",
+      "solution": "Business Intelligence connecte vos sources, modélise les KPIs métier et livre des dashboards interactifs accessibles à tous les niveaux.",
+      "features": [
+        "Dashboards temps réel",
+        "ETL multi-sources",
+        "KPIs personnalisés",
+        "Alertes automatiques",
+        "Export PDF/Excel",
+        "Accès mobile"
+      ],
+      "benefits": [
+        "Décisions data-driven",
+        "Vision 360° activité",
+        "Gain de temps reporting",
+        "Alignement équipes"
+      ],
+      "targetAudience": [
+        "Direction générale",
+        "Directeurs marketing",
+        "Ops & finance",
+        "Retail chains",
+        "Industries"
+      ],
+      "howItWorks": [
+        "Audit sources de données",
+        "Modélisation KPIs",
+        "Construction dashboards",
+        "Formation et gouvernance data"
+      ],
+      "industries": [
+        "Retail",
+        "Industrie",
+        "Hôtellerie",
+        "Santé",
+        "Secteur public"
+      ],
+      "pricing": {
+        "note": "Licence selon sources et utilisateurs",
+        "cta": "Demander une démo"
+      },
+      "faqs": [
+        {
+          "question": "Quelles sources connectables ?",
+          "answer": "ERP, CRM, Meta Ads, Google Ads, Shopify, bases SQL et fichiers Excel."
+        },
+        {
+          "question": "Temps réel ou batch ?",
+          "answer": "Les deux — refresh configurable de 5 min à quotidien selon la source."
+        },
+        {
+          "question": "Hébergement des données ?",
+          "answer": "Cloud sécurisé Mohtaoua ou data warehouse client (BigQuery, PostgreSQL)."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "Dashboard BI KPI"
+        },
+        {
+          "alt": "Rapport automatisé"
+        },
+        {
+          "alt": "Vue mobile analytics"
+        }
+      ]
+    }
+  }
+}

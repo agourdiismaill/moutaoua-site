@@ -63,11 +63,15 @@ export function PricingSection({
         <AdPlatformsBar />
         <CapabilitiesBar />
 
-        {ts("customNote") ? (
-          <p className="mt-10 text-center text-sm text-muted-foreground">
-            {ts("customNote")}
-          </p>
-        ) : null}
+        <div className="mt-10 rounded-2xl border border-border bg-muted/30 p-8 text-center">
+          <p className="text-base font-semibold text-foreground">{ts("quoteTitle")}</p>
+          {ts("customNote") ? (
+            <p className="mt-2 text-sm text-muted-foreground">{ts("customNote")}</p>
+          ) : null}
+          <Button asChild className="mt-6 uppercase tracking-wide" variant="primary">
+            <Link href="/contact?devis=1">{ts("quoteCta")}</Link>
+          </Button>
+        </div>
       </div>
     </section>
   );

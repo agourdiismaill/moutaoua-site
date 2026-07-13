@@ -8,9 +8,10 @@ import { cn } from "@/lib/utils";
 import { SERVICE_PILLARS } from "@/data/pillars";
 import { getServicesByPillar } from "@/data/services";
 import { FEATURED_INDUSTRY_SLUGS } from "@/data/industries";
+import { SOLUTION_SLUGS } from "@/data/solutions";
 import { AnimatePresence, motion } from "framer-motion";
 
-type MegaKey = "services" | "industries";
+type MegaKey = "services" | "industries" | "solutions";
 
 export function NavMegaMenu({
   menuKey,
@@ -27,6 +28,7 @@ export function NavMegaMenu({
   const tp = useTranslations("pillars");
   const ts = useTranslations("services");
   const ti = useTranslations("industries");
+  const tsol = useTranslations("solutions");
   const tnav = useTranslations("navMega");
 
   const timeoutRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -101,6 +103,24 @@ export function NavMegaMenu({
                   className="block rounded-lg border border-border px-3 py-2 text-center text-sm font-medium text-primary transition-colors hover:bg-primary/5"
                 >
                   {tnav("viewAllServices")}
+                </Link>
+              </div>
+            ) : menuKey === "solutions" ? (
+              <div className="space-y-1">
+                {SOLUTION_SLUGS.map((slug) => (
+                  <Link
+                    key={slug}
+                    href={`/solutions/${slug}`}
+                    className="block rounded-lg px-2 py-2 text-sm transition-colors hover:bg-muted hover:text-primary"
+                  >
+                    {tsol(`items.${slug}.title`)}
+                  </Link>
+                ))}
+                <Link
+                  href="/solutions"
+                  className="mt-2 block rounded-lg border border-border px-3 py-2 text-center text-sm font-medium text-primary transition-colors hover:bg-primary/5"
+                >
+                  {tnav("viewAllSolutions")}
                 </Link>
               </div>
             ) : (

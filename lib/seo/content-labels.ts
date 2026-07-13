@@ -7,6 +7,7 @@ type TranslationFn = (key: string, values?: Record<string, string>) => string;
 export type ContentLabelSources = {
   locale: string;
   services: TranslationFn;
+  solutions: TranslationFn;
   blog: TranslationFn;
   guides: TranslationFn;
   caseStudies: TranslationFn;
@@ -31,6 +32,8 @@ function getRawTitle(node: ContentNode, src: ContentLabelSources): string {
       return src.compare(`items.${node.slug}.title`);
     case "industry":
       return src.industries(`items.${node.slug}.title`);
+    case "solution":
+      return src.solutions(`items.${node.slug}.title`);
     case "resource":
       return src.internalLinking(`resources.${node.slug}.title`);
     default:
@@ -52,6 +55,8 @@ function getRawDescription(node: ContentNode, src: ContentLabelSources): string 
       return src.compare(`items.${node.slug}.description`);
     case "industry":
       return src.industries(`items.${node.slug}.description`);
+    case "solution":
+      return src.solutions(`items.${node.slug}.description`);
     case "resource":
       return src.internalLinking(`resources.${node.slug}.description`);
     default:
@@ -93,6 +98,7 @@ export function sectionTitle(type: ContentType, src: ContentLabelSources): strin
     "case-study": "relatedCaseStudies",
     comparison: "relatedComparisons",
     industry: "relatedIndustries",
+    solution: "relatedSolutions",
     resource: "relatedResources",
   };
   return src.internalLinking(`sections.${keyMap[type]}`);

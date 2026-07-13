@@ -8,6 +8,7 @@ type ContactPayload = {
   email: string;
   company?: string;
   phone?: string;
+  projectType?: string;
   budget?: string;
   message: string;
   website?: string;
@@ -43,6 +44,7 @@ export async function POST(request: Request) {
   const message = body.message?.trim();
   const company = body.company?.trim() || "—";
   const phone = body.phone?.trim() || "—";
+  const projectType = body.projectType?.trim() || "—";
   const budget = body.budget?.trim() || "—";
 
   if (!name || !email || !message) {
@@ -67,11 +69,12 @@ export async function POST(request: Request) {
   }
 
   const html = `
-    <h2>Nouveau message — ${escapeHtml(siteConfig.name)}</h2>
+    <h2>Nouvelle demande de devis — ${escapeHtml(siteConfig.name)}</h2>
     <p><strong>Nom :</strong> ${escapeHtml(name)}</p>
     <p><strong>Email :</strong> ${escapeHtml(email)}</p>
-    <p><strong>Organisme :</strong> ${escapeHtml(company)}</p>
+    <p><strong>Entreprise :</strong> ${escapeHtml(company)}</p>
     <p><strong>Téléphone :</strong> ${escapeHtml(phone)}</p>
+    <p><strong>Type de projet :</strong> ${escapeHtml(projectType)}</p>
     <p><strong>Budget :</strong> ${escapeHtml(budget)}</p>
     <p><strong>Message :</strong></p>
     <p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
@@ -87,7 +90,7 @@ export async function POST(request: Request) {
       from,
       to: [to],
       reply_to: email,
-      subject: `[Contact] ${name}${company !== "—" ? ` — ${company}` : ""}`,
+      subject: `[Devis] ${name}${company !== "—" ? ` — ${company}` : ""}`,
       html,
     }),
   });

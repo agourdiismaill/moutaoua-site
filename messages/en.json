@@ -15,7 +15,9 @@
   },
   "nav": {
     "home": "Home",
+    "about": "About",
     "services": "Services",
+    "solutions": "Solutions",
     "industries": "Industries",
     "portfolio": "Portfolio",
     "caseStudies": "Case Studies",
@@ -41,7 +43,9 @@
     "resources": "Resources",
     "guideMetaAds": "Meta Ads Guide",
     "guideGoogleAds": "Google Ads Guide",
-    "compareMetaGoogle": "Meta vs Google Ads"
+    "compareMetaGoogle": "Meta vs Google Ads",
+    "industries": "Industries",
+    "solutions": "Solutions"
   },
   "hero": {
     "badge": "Premium 360° Digital Agency — Morocco",
@@ -64,22 +68,33 @@
     "statSectors": "15+"
   },
   "contactForm": {
-    "successTitle": "Message sent!",
-    "successMessage": "Thank you for your request. Our team will get back to you within 24 business hours to schedule your free audit.",
-    "sendAnother": "Send another message",
+    "successTitle": "Request sent!",
+    "successMessage": "Thank you for your quote request. Our team will get back to you within 24 business hours with a proposal tailored to your project.",
+    "sendAnother": "Send another request",
     "name": "Full name",
     "company": "Company",
     "email": "Email",
     "phone": "Phone",
-    "budget": "Monthly project budget",
+    "projectType": "Project type",
+    "projectTypePlaceholder": "What do you need?",
+    "projectTypeMarketing": "Marketing & ads (Meta, Google, TikTok…)",
+    "projectTypeWeb": "Website, e-commerce or landing page",
+    "projectTypeSoftware": "Software, ERP, SaaS or automation",
+    "projectTypeMobile": "Mobile app (iOS, Android, Flutter…)",
+    "projectTypeDesign": "Design, branding & visual identity",
+    "projectTypePhotoVideo": "Photo, video, Reels & motion",
+    "projectTypeEvents": "Corporate event or brand activation",
+    "projectTypeOther": "Other / multiple needs",
+    "budget": "Estimated budget",
     "budgetPlaceholder": "Select a range",
     "budgetUnder10k": "Under 10,000 MAD",
     "budget10to30k": "10,000 – 30,000 MAD",
     "budget30to100k": "30,000 – 100,000 MAD",
     "budgetOver100k": "Over 100,000 MAD",
-    "message": "Your project",
-    "messagePlaceholder": "Tell us about your growth goals…",
-    "submit": "Request my free audit",
+    "budgetUndecided": "Not sure yet",
+    "message": "Describe your need",
+    "messagePlaceholder": "Explain your project, goals, timeline and constraints… (marketing, website, app, design, etc.)",
+    "submit": "Request a quote",
     "submitting": "Sending…",
     "disclaimer": "By submitting this form, you agree to be contacted by our team and accept our <privacyLink>privacy policy</privacyLink>.",
     "errorGeneric": "Something went wrong. Please try again or email us at contact@mohtaoua.ma.",
@@ -103,6 +118,7 @@
   },
   "navMega": {
     "viewAllServices": "View all services",
-    "viewAllIndustries": "View all industries"
+    "viewAllIndustries": "View all industries",
+    "viewAllSolutions": "View all solutions"
   }
 }

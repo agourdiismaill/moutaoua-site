@@ -218,6 +218,32 @@ export function buildServiceSchema(input: {
   };
 }
 
+export function buildSoftwareApplicationSchema(input: {
+  name: string;
+  description: string;
+  url: string;
+  features: string[];
+  applicationCategory?: string;
+}): SchemaRecord {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: input.name,
+    description: input.description,
+    url: input.url,
+    applicationCategory: input.applicationCategory ?? "BusinessApplication",
+    operatingSystem: "Web, Android, iOS",
+    offers: {
+      "@type": "Offer",
+      url: `${siteConfig.url}/fr/contact`,
+      availability: "https://schema.org/InStock",
+      seller: { "@id": `${siteConfig.url}/#organization` },
+    },
+    provider: { "@id": `${siteConfig.url}/#organization` },
+    featureList: input.features.join(", "),
+  };
+}
+
 export function buildArticleSchema(input: {
   headline: string;
   description: string;

@@ -4,6 +4,7 @@ import type { BreadcrumbItem } from "@/lib/seo/types";
 export type BreadcrumbLabels = {
   home: string;
   services: string;
+  solutions?: string;
   blog: string;
   guides: string;
   caseStudies: string;
@@ -25,6 +26,12 @@ export function buildContentBreadcrumb(
       return [
         home,
         { label: labels.industries ?? "Industries", href: "/industries" },
+        { label: labels.current },
+      ];
+    case "solution":
+      return [
+        home,
+        { label: labels.solutions ?? "Solutions", href: "/solutions" },
         { label: labels.current },
       ];
     case "blog":

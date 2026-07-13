@@ -84,6 +84,7 @@ export function PortfolioGrid({ className }: { className?: string }) {
                   src={item.cover}
                   alt={item.alt}
                   fill
+                  loading="lazy"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />

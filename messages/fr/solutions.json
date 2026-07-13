@@ -1,0 +1,76 @@
+{
+  "hub": {
+    "metaTitle": "Solutions — Produits digitaux & logiciels Mohtaoua",
+    "metaDescription": "Découvrez les solutions propriétaires Mohtaoua : e-NFC, Archidoc, ERP Restaurant, CRM, agents IA, WhatsApp, automatisation, sites web, mobile et BI.",
+    "eyebrow": "Nos Solutions",
+    "title": "Produits digitaux <highlight>premium</highlight>",
+    "titleHighlight": "premium",
+    "description": "Logiciels, plateformes et outils propriétaires conçus par Mohtaoua pour accélérer la transformation digitale des entreprises marocaines.",
+    "hubOverview": {
+      "what": "Catalogue des solutions digitales Mohtaoua : produits SaaS, plateformes métier et outils d'automatisation développés en interne.",
+      "who": "Dirigeants, DSI, responsables opérations et fondateurs qui cherchent des solutions clés en main plutôt que du développement sur mesure.",
+      "benefits": [
+        "Produits éprouvés et maintenus par Mohtaoua",
+        "Déploiement rapide et accompagnement local",
+        "Intégration avec vos outils existants",
+        "Support en français, arabe et anglais"
+      ],
+      "topics": [
+        "Cartes NFC & networking",
+        "GED & archivage",
+        "ERP restauration",
+        "CRM & automatisation",
+        "IA & WhatsApp",
+        "Sites web & mobile",
+        "Business Intelligence"
+      ],
+      "takeaways": [
+        "10 solutions propriétaires",
+        "Adaptées à 15+ secteurs",
+        "Démo gratuite sur demande"
+      ]
+    }
+  },
+  "items": {
+    "e-nfc": {
+      "title": "e-NFC",
+      "description": "Cartes de visite digitales, produits NFC, QR codes et profils intelligents pour le networking professionnel."
+    },
+    "archidoc": {
+      "title": "Archidoc",
+      "description": "Gestion documentaire, archivage sécurisé, OCR et GED pour la transformation digitale de vos dossiers."
+    },
+    "erp-restaurant": {
+      "title": "ERP Restaurant",
+      "description": "Logiciel complet de gestion restaurant : caisse POS, cuisine, stock, achats et analytics."
+    },
+    "crm": {
+      "title": "CRM Mohtaoua",
+      "description": "CRM avec automatisation, suivi des leads et pipelines commerciaux pour PME et équipes sales."
+    },
+    "ai-agents": {
+      "title": "AI Agents",
+      "description": "Assistants IA, bots support client et assistants internes pour automatiser vos processus métier."
+    },
+    "whatsapp-automation": {
+      "title": "WhatsApp Automation",
+      "description": "Conversations automatisées, notifications, rappels et intégration CRM via WhatsApp Business API."
+    },
+    "business-automation": {
+      "title": "Business Automation",
+      "description": "Automatisation de workflows avec IA, APIs, n8n et intégrations modernes pour gagner en productivité."
+    },
+    "website-builder": {
+      "title": "Website Builder",
+      "description": "Sites professionnels, landing pages et e-commerce performants avec SEO intégré."
+    },
+    "mobile-applications": {
+      "title": "Mobile Applications",
+      "description": "Applications Android, iOS et cross-platform pour digitaliser vos services et fidéliser vos clients."
+    },
+    "business-intelligence": {
+      "title": "Business Intelligence",
+      "description": "Tableaux de bord, analytics, reporting et visualisation KPI pour piloter votre activité."
+    }
+  }
+}

@@ -25,8 +25,9 @@ export const siteConfig = {
 
 export const mainNav = [
   { key: "home", href: "/" },
+  { key: "about", href: "/about" },
   { key: "services", href: "/services" },
-  { key: "industries", href: "/industries" },
+  { key: "solutions", href: "/solutions" },
   { key: "portfolio", href: "/portfolio" },
   { key: "caseStudies", href: "/case-studies" },
   { key: "insights", href: "/blog" },

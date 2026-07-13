@@ -19,10 +19,13 @@ export async function generateMetadata({
 
 export default async function ContactPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>;
+  searchParams: Promise<{ type?: string; devis?: string }>;
 }) {
   const { locale } = await params;
+  const { type } = await searchParams;
   setRequestLocale(locale);
   const t = await getTranslations("pages.contact");
   const ts = await getTranslations("shared");
@@ -97,7 +100,7 @@ export default async function ContactPage({
           </Reveal>
 
           <Reveal delay={0.1}>
-            <ContactForm />
+            <ContactForm defaultProjectType={type} />
           </Reveal>
         </div>
       </section>

@@ -6,7 +6,8 @@
     "relatedCaseStudies": "Case studies",
     "relatedComparisons": "Comparisons",
     "relatedResources": "Useful resources",
-    "relatedIndustries": "Related industries"
+    "relatedIndustries": "Related industries",
+    "relatedSolutions": "Related solutions"
   },
   "sidebar": {
     "relatedContent": "Related content",
@@ -46,6 +47,10 @@
     "industries": {
       "title": "Industries",
       "description": "Digital solutions by sector: healthcare, real estate, e-commerce, education and more."
+    },
+    "solutions": {
+      "title": "Proprietary solutions",
+      "description": "Mohtaoua digital products: CRM, ERP, AI, WhatsApp, DMS and more."
     },
     "portfolio": {
       "title": "Portfolio",

@@ -8,6 +8,7 @@ import {
   COMPARISON_SLUGS,
 } from "@/data/blog";
 import { INDUSTRY_SLUGS } from "@/data/industries";
+import { SOLUTION_SLUGS } from "@/data/solutions";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -25,6 +26,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog",
     "/pricing",
     "/contact",
+    "/about",
+    "/solutions",
     "/legal/privacy",
     "/legal/terms",
     "/legal/cookies",
@@ -156,10 +159,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
+  const solutionRoutes = routing.locales.flatMap((locale) =>
+    SOLUTION_SLUGS.map((slug) => {
+      const path = `/solutions/${slug}`;
+      return {
+        url: `${base}/${locale}${path}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.82,
+        alternates: { languages: buildLanguages(path) },
+      };
+    })
+  );
+
   return [
     ...routes,
     ...caseStudyRoutes,
     ...serviceRoutes,
+    ...solutionRoutes,
     ...blogRoutes,
     ...guideRoutes,
     ...compareRoutes,

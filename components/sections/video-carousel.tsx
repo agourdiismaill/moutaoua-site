@@ -7,6 +7,7 @@ import { ChevronLeft, ChevronRight, Play, X } from "lucide-react";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { getLocalizedReelVideos } from "@/lib/i18n-content";
 import type { ReelVideo } from "@/data/showcase-videos";
+import { LazyVideo } from "@/components/shared/lazy-video";
 import { cn } from "@/lib/utils";
 
 export function VideoCarousel({ className }: { className?: string }) {
@@ -109,27 +110,11 @@ function ReelCard({
   playLabel: string;
   onPlay: () => void;
 }) {
-  const ref = React.useRef<HTMLVideoElement>(null);
-
-  const handleEnter = () => {
-    const el = ref.current;
-    if (el) el.play().catch(() => {});
-  };
-  const handleLeave = () => {
-    const el = ref.current;
-    if (el) {
-      el.pause();
-      el.currentTime = 0;
-    }
-  };
-
   return (
     <motion.button
       type="button"
       data-card
       onClick={onPlay}
-      onMouseEnter={handleEnter}
-      onMouseLeave={handleLeave}
       aria-label={playLabel}
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -137,14 +122,13 @@ function ReelCard({
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className="group relative aspect-[9/16] w-[60%] shrink-0 snap-start overflow-hidden rounded-2xl border border-border bg-black shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-soft-lg sm:w-[42%] md:w-[240px]"
     >
-      <video
-        ref={ref}
-        src={`${video.src}#t=0.1`}
-        preload="metadata"
+      <LazyVideo
+        src={video.src}
+        poster={video.poster}
         muted
         loop
         playsInline
-        className="absolute inset-0 h-full w-full object-cover"
+        aria-hidden
       />
       <span className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10" />
       <span className="absolute inset-0 grid place-items-center transition-opacity duration-300 group-hover:opacity-0">
@@ -246,13 +230,15 @@ function ReelPlayer({
             className="relative aspect-[9/16] max-h-[88vh] overflow-hidden rounded-2xl bg-black"
             onClick={(e) => e.stopPropagation()}
           >
-            <video
+            <LazyVideo
               key={videos[index].src}
               src={videos[index].src}
+              poster={videos[index].poster}
               controls
               autoPlay
               playsInline
-              className="h-full w-full object-contain"
+              eager
+              videoClassName="object-contain"
             />
           </motion.div>
         </motion.div>

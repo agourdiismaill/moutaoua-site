@@ -13,9 +13,11 @@ import {
 } from "@/data/blog";
 import { CASE_STUDY_PUBLISHED, CASE_STUDY_SLUGS, SERVICE_SLUGS } from "@/data/meta";
 import { INDUSTRY_SLUGS } from "@/data/industries";
+import { SOLUTION_SLUGS, solutionMeta, SOLUTION_PUBLISHED } from "@/data/solutions";
 
 export type ContentType =
   | "service"
+  | "solution"
   | "blog"
   | "guide"
   | "comparison"
@@ -30,6 +32,7 @@ export type ContentNode = {
   path: string;
   topics: string[];
   services?: string[];
+  solutions?: string[];
   category?: (typeof BLOG_CATEGORIES)[number];
   tags?: string[];
   priority?: number;
@@ -365,6 +368,66 @@ export const EXPLICIT_RELATIONS: Record<
     service: ["corporate-websites", "video-production", "seo"],
     industry: ["hotels"],
   },
+  "e-nfc": {
+    service: ["brand-identity", "corporate-websites", "graphic-design"],
+    solution: ["crm", "whatsapp-automation"],
+    "case-study": ["nova-industrie-web"],
+    industry: ["retail", "hotels", "restaurants"],
+  },
+  archidoc: {
+    service: ["custom-software", "workflow-automation", "api-integration"],
+    solution: ["business-automation", "crm"],
+    "case-study": ["nova-industrie-web", "medina-clinic-digital"],
+    industry: ["healthcare", "law-firms", "government"],
+  },
+  "erp-restaurant": {
+    service: ["erp", "custom-software", "automation"],
+    solution: ["crm", "business-intelligence"],
+    "case-study": ["atlas-ecommerce-growth"],
+    industry: ["restaurants", "hotels"],
+  },
+  crm: {
+    service: ["crm-data", "marketing-automation", "lead-generation"],
+    solution: ["whatsapp-automation", "ai-agents", "business-intelligence"],
+    "case-study": ["edunext-automation", "skola-formation"],
+    industry: ["education", "healthcare", "real-estate"],
+  },
+  "ai-agents": {
+    service: ["ai-agents", "chatbots", "automation"],
+    solution: ["whatsapp-automation", "business-automation", "crm"],
+    "case-study": ["edunext-automation"],
+    industry: ["healthcare", "education", "retail"],
+  },
+  "whatsapp-automation": {
+    service: ["marketing-automation", "crm-data", "chatbots"],
+    solution: ["crm", "ai-agents", "business-automation"],
+    "case-study": ["skola-formation", "medina-clinic-digital"],
+    industry: ["education", "healthcare", "clinics"],
+  },
+  "business-automation": {
+    service: ["workflow-automation", "api-integration", "automation"],
+    solution: ["ai-agents", "crm", "archidoc"],
+    "case-study": ["edunext-automation", "nova-industrie-web"],
+    industry: ["factories", "accounting-firms", "government"],
+  },
+  "website-builder": {
+    service: ["corporate-websites", "landing-pages", "e-commerce"],
+    solution: ["crm", "business-intelligence"],
+    "case-study": ["nova-industrie-web", "atlas-ecommerce-growth"],
+    industry: ["retail", "real-estate", "hotels"],
+  },
+  "mobile-applications": {
+    service: ["android", "ios", "flutter", "react-native"],
+    solution: ["crm", "business-intelligence"],
+    "case-study": ["atlas-ecommerce-growth"],
+    industry: ["retail", "healthcare", "startups"],
+  },
+  "business-intelligence": {
+    service: ["erp", "custom-software", "crm-data"],
+    solution: ["crm", "erp-restaurant", "business-automation"],
+    "case-study": ["atlas-ecommerce-growth", "nova-industrie-web"],
+    industry: ["retail", "factories", "hotels"],
+  },
 };
 
 const serviceRelations: Record<string, string[]> = {
@@ -443,6 +506,23 @@ function buildIndustryNodes(): ContentNode[] {
   }));
 }
 
+function buildSolutionNodes(): ContentNode[] {
+  return SOLUTION_SLUGS.map((slug) => {
+    const meta = solutionMeta.find((s) => s.slug === slug)!;
+    return {
+      id: `solution:${slug}`,
+      type: "solution" as const,
+      slug,
+      path: `/solutions/${slug}`,
+      topics: normalizeTopics([slug, ...meta.relatedServices, ...meta.relatedSolutions]),
+      services: meta.relatedServices,
+      solutions: [slug, ...meta.relatedSolutions],
+      priority: 72,
+      published: SOLUTION_PUBLISHED[slug],
+    };
+  });
+}
+
 function buildCaseStudyNodes(): ContentNode[] {
   return CASE_STUDY_SLUGS.map((slug) => {
     const meta = caseStudyMeta[slug];
@@ -468,6 +548,14 @@ const RESOURCE_NODES: ContentNode[] = [
     path: "/industries",
     topics: ["industries", "business"],
     priority: 57,
+  },
+  {
+    id: "resource:solutions",
+    type: "resource",
+    slug: "solutions",
+    path: "/solutions",
+    topics: ["solutions", "software", "saas"],
+    priority: 58,
   },
   {
     id: "resource:portfolio",
@@ -529,6 +617,7 @@ const RESOURCE_NODES: ContentNode[] = [
 
 export const CONTENT_NODES: ContentNode[] = [
   ...buildServiceNodes(),
+  ...buildSolutionNodes(),
   ...buildBlogNodes(),
   ...buildGuideNodes(),
   ...buildComparisonNodes(),
@@ -579,6 +668,10 @@ export const PAGE_LINKING_CONFIG: Record<
   industry: {
     sections: ["service", "case-study", "blog", "resource"],
     limits: { service: 3, "case-study": 2, blog: 2, resource: 3 },
+  },
+  solution: {
+    sections: ["solution", "service", "case-study", "blog", "resource"],
+    limits: { solution: 3, service: 3, "case-study": 2, blog: 2, resource: 3 },
   },
   resource: {
     sections: ["blog", "guide", "service", "resource"],

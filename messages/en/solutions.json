@@ -1,0 +1,76 @@
+{
+  "hub": {
+    "metaTitle": "Solutions — Mohtaoua Digital Products & Software",
+    "metaDescription": "Explore Mohtaoua's proprietary solutions: e-NFC, Archidoc, Restaurant ERP, CRM, AI agents, WhatsApp automation, websites, mobile apps and BI.",
+    "eyebrow": "Our Solutions",
+    "title": "<highlight>Premium</highlight> digital products",
+    "titleHighlight": "Premium",
+    "description": "Proprietary software, platforms and automation tools built by Mohtaoua to accelerate digital transformation for Moroccan businesses.",
+    "hubOverview": {
+      "what": "Mohtaoua's digital solutions catalog: SaaS products, industry platforms and automation tools developed in-house.",
+      "who": "Executives, IT leaders, operations managers and founders looking for turnkey products rather than custom development.",
+      "benefits": [
+        "Battle-tested products maintained by Mohtaoua",
+        "Fast deployment with local support",
+        "Integration with your existing stack",
+        "Support in French, Arabic and English"
+      ],
+      "topics": [
+        "NFC cards & networking",
+        "DMS & archiving",
+        "Restaurant ERP",
+        "CRM & automation",
+        "AI & WhatsApp",
+        "Websites & mobile",
+        "Business Intelligence"
+      ],
+      "takeaways": [
+        "10 proprietary solutions",
+        "Adapted to 15+ industries",
+        "Free demo on request"
+      ]
+    }
+  },
+  "items": {
+    "e-nfc": {
+      "title": "e-NFC",
+      "description": "Digital business cards, NFC products, QR codes and smart profiles for professional networking."
+    },
+    "archidoc": {
+      "title": "Archidoc",
+      "description": "Document management, secure archiving, OCR and DMS for your digital transformation."
+    },
+    "erp-restaurant": {
+      "title": "Restaurant ERP",
+      "description": "Complete restaurant management: POS, kitchen display, inventory, purchasing and analytics."
+    },
+    "crm": {
+      "title": "Mohtaoua CRM",
+      "description": "CRM with automation, lead tracking and sales pipelines for SMBs and sales teams."
+    },
+    "ai-agents": {
+      "title": "AI Agents",
+      "description": "AI assistants, customer support bots and internal business assistants."
+    },
+    "whatsapp-automation": {
+      "title": "WhatsApp Automation",
+      "description": "Automated conversations, notifications, reminders and CRM integration via WhatsApp Business API."
+    },
+    "business-automation": {
+      "title": "Business Automation",
+      "description": "Workflow automation with AI, APIs, n8n and modern integrations for productivity."
+    },
+    "website-builder": {
+      "title": "Website Builder",
+      "description": "Professional websites, landing pages and high-performance e-commerce with built-in SEO."
+    },
+    "mobile-applications": {
+      "title": "Mobile Applications",
+      "description": "Android, iOS and cross-platform apps to digitize services and retain customers."
+    },
+    "business-intelligence": {
+      "title": "Business Intelligence",
+      "description": "Dashboards, analytics, reporting and KPI visualization to steer your business."
+    }
+  }
+}

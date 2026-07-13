@@ -12,7 +12,8 @@ type PageKey =
   | "videos"
   | "caseStudies"
   | "industries"
-  | "portfolio";
+  | "portfolio"
+  | "about";
 
 const pagePaths: Record<PageKey, string> = {
   services: "/services",
@@ -23,6 +24,7 @@ const pagePaths: Record<PageKey, string> = {
   caseStudies: "/case-studies",
   industries: "/industries",
   portfolio: "/portfolio",
+  about: "/about",
 };
 
 type PageOverrides = {

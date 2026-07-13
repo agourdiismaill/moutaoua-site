@@ -6,7 +6,8 @@
     "relatedCaseStudies": "Études de cas",
     "relatedComparisons": "Comparatifs",
     "relatedResources": "Ressources utiles",
-    "relatedIndustries": "Industries associées"
+    "relatedIndustries": "Industries associées",
+    "relatedSolutions": "Solutions associées"
   },
   "sidebar": {
     "relatedContent": "Contenu lié",
@@ -46,6 +47,10 @@
     "industries": {
       "title": "Industries",
       "description": "Solutions digitales par secteur : santé, immobilier, e-commerce, éducation et plus."
+    },
+    "solutions": {
+      "title": "Solutions propriétaires",
+      "description": "Produits digitaux Mohtaoua : CRM, ERP, IA, WhatsApp, GED et plus."
     },
     "portfolio": {
       "title": "Portfolio",

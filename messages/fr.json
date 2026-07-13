@@ -15,7 +15,9 @@
   },
   "nav": {
     "home": "Accueil",
+    "about": "À propos",
     "services": "Services",
+    "solutions": "Solutions",
     "industries": "Industries",
     "portfolio": "Portfolio",
     "caseStudies": "Études de cas",
@@ -41,7 +43,9 @@
     "resources": "Ressources",
     "guideMetaAds": "Guide Meta Ads",
     "guideGoogleAds": "Guide Google Ads",
-    "compareMetaGoogle": "Meta vs Google Ads"
+    "compareMetaGoogle": "Meta vs Google Ads",
+    "industries": "Industries",
+    "solutions": "Solutions"
   },
   "hero": {
     "badge": "Agence Digitale Premium 360° — Maroc",
@@ -64,22 +68,33 @@
     "statSectors": "15+"
   },
   "contactForm": {
-    "successTitle": "Message envoyé !",
-    "successMessage": "Merci pour votre demande. Notre équipe vous recontacte sous 24h ouvrées pour planifier votre audit gratuit.",
-    "sendAnother": "Envoyer un autre message",
+    "successTitle": "Demande envoyée !",
+    "successMessage": "Merci pour votre demande de devis. Notre équipe vous recontacte sous 24h ouvrées avec une proposition adaptée à votre projet.",
+    "sendAnother": "Envoyer une autre demande",
     "name": "Nom complet",
     "company": "Entreprise",
     "email": "Email",
     "phone": "Téléphone",
-    "budget": "Budget projet mensuel",
+    "projectType": "Type de projet",
+    "projectTypePlaceholder": "Que souhaitez-vous ?",
+    "projectTypeMarketing": "Marketing & publicité (Meta, Google, TikTok…)",
+    "projectTypeWeb": "Site web, e-commerce ou landing page",
+    "projectTypeSoftware": "Logiciel, ERP, SaaS ou automatisation",
+    "projectTypeMobile": "Application mobile (iOS, Android, Flutter…)",
+    "projectTypeDesign": "Design, branding & identité visuelle",
+    "projectTypePhotoVideo": "Photo, vidéo, Reels & motion",
+    "projectTypeEvents": "Événement corporate ou activation",
+    "projectTypeOther": "Autre / plusieurs besoins",
+    "budget": "Budget estimé",
     "budgetPlaceholder": "Sélectionnez une fourchette",
     "budgetUnder10k": "Moins de 10 000 DH",
     "budget10to30k": "10 000 – 30 000 DH",
     "budget30to100k": "30 000 – 100 000 DH",
     "budgetOver100k": "Plus de 100 000 DH",
-    "message": "Votre projet",
-    "messagePlaceholder": "Parlez-nous de vos objectifs de croissance…",
-    "submit": "Demander mon audit gratuit",
+    "budgetUndecided": "Je ne sais pas encore",
+    "message": "Décrivez votre besoin",
+    "messagePlaceholder": "Expliquez votre projet, vos objectifs, délais et contraintes… (marketing, site, app, design, etc.)",
+    "submit": "Demander un devis",
     "submitting": "Envoi en cours…",
     "disclaimer": "En soumettant ce formulaire, vous acceptez d'être recontacté par notre équipe et notre <privacyLink>politique de confidentialité</privacyLink>.",
     "errorGeneric": "Une erreur est survenue. Réessayez ou écrivez-nous à contact@mohtaoua.ma.",
@@ -103,6 +118,7 @@
   },
   "navMega": {
     "viewAllServices": "Voir tous les services",
-    "viewAllIndustries": "Voir toutes les industries"
+    "viewAllIndustries": "Voir toutes les industries",
+    "viewAllSolutions": "Voir toutes les solutions"
   }
 }

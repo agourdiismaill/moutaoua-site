@@ -1,0 +1,961 @@
+{
+  "labels": {
+    "aiOverview": "ملخص الصفحة",
+    "what": "عن ماذا تتحدث؟",
+    "who": "لمن؟",
+    "benefits": "فوائد رئيسية",
+    "topics": "مواضيع",
+    "takeaways": "نقاط للتذكر",
+    "readingTime": "{minutes} د قراءة",
+    "problem": "المشكلة",
+    "solution": "حلنا",
+    "features": "الميزات",
+    "productBenefits": "المزايا",
+    "targetAudience": "الجمهور المستهدف",
+    "howItWorks": "كيف يعمل",
+    "industries": "القطاعات",
+    "screenshots": "معاينة المنتج",
+    "pricing": "التسعير",
+    "demo": "طلب عرض",
+    "share": "مشاركة",
+    "home": "الرئيسية",
+    "solutions": "الحلول",
+    "relatedServices": "خدمات مرتبطة",
+    "relatedSolutions": "حلول مرتبطة",
+    "caseStudies": "دراسات حالة",
+    "demoTitle": "اطلب عرضاً تجريبياً",
+    "demoDescription": "اكتشف الحل. رد خلال 24 ساعة."
+  },
+  "trust": {
+    "experience": "حلول ملكية طورتها موحتاوا في المغرب.",
+    "methodology": "عرض → إعداد → نشر → تدريب → دعم.",
+    "updatedAt": "13 juillet 2026",
+    "references": [
+      "تجارة",
+      "صحة",
+      "مطاعm وفنادق",
+      "PME",
+      "صناعة"
+    ]
+  },
+  "items": {
+    "e-nfc": {
+      "metaTitle": "e-NFC — بطاقات رقمية وتواصل ذكي | موحتاوا",
+      "metaDescription": "بطاقات NFC ورموز QR وملفات رقمية لمشاركة بيانات الاتصال بلمسة واحدة.",
+      "badge": "منتج موحتاوا",
+      "overview": {
+        "what": "بطاقات أعمال رقمية، منتجات NFC، رموز QR وملفات تعريف ذكية للتواصل المهني.",
+        "who": "فرق المبيعات, المديرون, فرق الفعاليات, وكالات العقار, مراكز التكوين",
+        "benefits": [
+          "صورة متميزة",
+          "بدون ورق وتحديث فوري",
+          "التقاط leads تلقائياً",
+          "ROI قابل للقياس"
+        ],
+        "topics": [
+          "بطاقات NFC مخصصة",
+          "ملفات متعددة اللغات",
+          "رموز QR ديناميكية",
+          "تحليلات المسح",
+          "تكامل CRM"
+        ],
+        "takeaways": [
+          "صورة متميزة",
+          "بدون ورق وتحديث فوري",
+          "التقاط leads تلقائياً"
+        ]
+      },
+      "problem": "البطاقات الورقية تضيع والبيانات تصبح قديمة والمتابعة بعد الفعاليات تبقى يدوية.",
+      "solution": "e-NFC يجمع هويتكم المهنية على بطاقة NFC أو QR: ملف غني، مشاركة فورية، تحليلات ومزامنة CRM.",
+      "features": [
+        "بطاقات NFC مخصصة",
+        "ملفات متعددة اللغات",
+        "رموز QR ديناميكية",
+        "تحليلات المسح",
+        "تكامل CRM",
+        "إدارة الفريق"
+      ],
+      "benefits": [
+        "صورة متميزة",
+        "بدون ورق وتحديث فوري",
+        "التقاط leads تلقائياً",
+        "ROI قابل للقياس"
+      ],
+      "targetAudience": [
+        "فرق المبيعات",
+        "المديرون",
+        "فرق الفعاليات",
+        "وكالات العقار",
+        "مراكز التكوين"
+      ],
+      "howItWorks": [
+        "إنشاء الملف والتصميم",
+        "إنتاج NFC أو QR",
+        "تدريب الفريق وتكامل CRM",
+        "متابعة التحليلات"
+      ],
+      "industries": [
+        "تجارة",
+        "فنادق",
+        "مطاعم",
+        "عقار",
+        "تعليم",
+        "PME"
+      ],
+      "pricing": {
+        "note": "من 299 درهم/بطاقة — عروض الفريق حسب الطلب",
+        "cta": "طلب عرض تجريبي"
+      },
+      "faqs": [
+        {
+          "question": "هل يلزم تطبيق للمسح؟",
+          "answer": "لا، اللمس أو المسح يفتح الملف في المتصفح."
+        },
+        {
+          "question": "هل يمكن تحديث الملف دون تغيير البطاقة؟",
+          "answer": "نعم، المحتوى ديناميكي."
+        },
+        {
+          "question": "هل يتكامل مع CRM؟",
+          "answer": "نعم، تصدير وج webhooks."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "واجهة e-NFC"
+        },
+        {
+          "alt": "لوحة التحليلات"
+        },
+        {
+          "alt": "تصميم البطاقة"
+        }
+      ]
+    },
+    "archidoc": {
+      "metaTitle": "Archidoc — GED وOCR وأرشفة | موحتاوا",
+      "metaDescription": "حل GED: رقمنة، OCR، تصنيف تلقائي وأرشفة آمنة.",
+      "badge": "منتج موحتاوا",
+      "overview": {
+        "what": "إدارة المستندات، الأرشفة الآمنة، OCR وGED للتحول الرقمي.",
+        "who": "محامون, محاسبون, عيادات, إدارات, مصانع",
+        "benefits": [
+          "توفير وقت",
+          "امتثال",
+          "تقليل التكلفة",
+          "وصول آمن"
+        ],
+        "topics": [
+          "مسح وOCR",
+          "تصنيف تلقائي",
+          "سير عمل",
+          "بحث نصي",
+          "أرشفة قانونية"
+        ],
+        "takeaways": [
+          "توفير وقت",
+          "امتثال",
+          "تقليل التكلفة"
+        ]
+      },
+      "problem": "ملفات ورقية م scattered، بحث بطيء ومخاطر فقدان.",
+      "solution": "Archidoc يرقمن ويفهرس ويؤمن المستندات مع OCR وسير عمل وبحث فوري.",
+      "features": [
+        "مسح وOCR",
+        "تصنيف تلقائي",
+        "سير عمل",
+        "بحث نصي",
+        "أرشفة قانونية",
+        "صلاحيات"
+      ],
+      "benefits": [
+        "توفير وقت",
+        "امتثال",
+        "تقليل التكلفة",
+        "وصول آمن"
+      ],
+      "targetAudience": [
+        "محامون",
+        "محاسبون",
+        "عيادات",
+        "إدارات",
+        "مصانع"
+      ],
+      "howItWorks": [
+        "تدقيق وخطة",
+        "استيراد وOCR",
+        "إعداد السير",
+        "تدريب وترحيل"
+      ],
+      "industries": [
+        "صحة",
+        "قانون",
+        "محاسبة",
+        "عمومي",
+        "صناعة"
+      ],
+      "pricing": {
+        "note": "ترخيص شهري حسب الحجم",
+        "cta": "طلب عرض"
+      },
+      "faqs": [
+        {
+          "question": "هل الاستضافة في المغرب؟",
+          "answer": "نعم، استضافة آمنة."
+        },
+        {
+          "question": "OCR بالعربية؟",
+          "answer": "نعم، متعدد اللغات."
+        },
+        {
+          "question": "أرشفة قانونية؟",
+          "answer": "نعم، مع طوابع زمنية وسجل."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "واجهة Archidoc"
+        },
+        {
+          "alt": "سير العمل"
+        },
+        {
+          "alt": "البحث"
+        }
+      ]
+    },
+    "erp-restaurant": {
+      "metaTitle": "ERP المطاعm — POS ومطبخ | موحتاوا",
+      "metaDescription": "ERP للمطاعm: نقطة بيع، مطبخ، مخزون ومشتريات.",
+      "badge": "منتج موحتاوا",
+      "overview": {
+        "what": "إدارة مطاعم كاملة: POS، المطبخ، المخزون والمشتريات.",
+        "who": "مطاعm, سلاسl, dark kitchens, فنادق, تموين",
+        "benefits": [
+          "أقل هدر",
+          "خدمة أسرع",
+          "هوامش محكمة",
+          "تحكم مركزي"
+        ],
+        "topics": [
+          "POS",
+          "شاشة مطبخ",
+          "مخزون ووصفات",
+          "مشتريات",
+          "متعدد المواقع"
+        ],
+        "takeaways": [
+          "أقل هدر",
+          "خدمة أسرع",
+          "هوامش محكمة"
+        ]
+      },
+      "problem": "أدوات منفصلة للcaisse والمطبخ والمخزون.",
+      "solution": "ERP ي unify POS والمطبخ والم stocks والمشتريات.",
+      "features": [
+        "POS",
+        "شاشة مطبخ",
+        "مخزون ووصفات",
+        "مشتريات",
+        "متعدد المواقع",
+        "تقارير"
+      ],
+      "benefits": [
+        "أقل هدر",
+        "خدمة أسرع",
+        "هوامش محكمة",
+        "تحكم مركزي"
+      ],
+      "targetAudience": [
+        "مطاعm",
+        "سلاسl",
+        "dark kitchens",
+        "فنادق",
+        "تموين"
+      ],
+      "howItWorks": [
+        "إعداد القائمة",
+        "تركيب POS",
+        "تدريب",
+        "متابعة KPI"
+      ],
+      "industries": [
+        "مطاعm",
+        "فنادق",
+        "تجارة",
+        "فعاليات"
+      ],
+      "pricing": {
+        "note": "اشتراك شهري — تجربة 14 يوم",
+        "cta": "طلب عرض"
+      },
+      "faqs": [
+        {
+          "question": "offline؟",
+          "answer": "نعم."
+        },
+        {
+          "question": "طابعات؟",
+          "answer": "نعم ESC/POS."
+        },
+        {
+          "question": "عدة فروع؟",
+          "answer": "نعم."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "POS"
+        },
+        {
+          "alt": "مطبخ"
+        },
+        {
+          "alt": "مخزون"
+        }
+      ]
+    },
+    "crm": {
+      "metaTitle": "CRM — إدارة العملاء | موحتاوا",
+      "metaDescription": "CRM: مسارات، scoring، أتمتة email/WhatsApp وتقارير.",
+      "badge": "منتج موحتاوا",
+      "overview": {
+        "what": "CRM مع أتمتة وتتبع leads ومسارات مبيعات.",
+        "who": "مبيعات, تكوين, عقار, عيادات, PME",
+        "benefits": [
+          "تحويل أعلى",
+          "متابعة منظمة",
+          "رؤية الإدارة",
+          "بدء سريع"
+        ],
+        "topics": [
+          "مسار بصري",
+          "scoring",
+          "أتمتة",
+          "email",
+          "WhatsApp"
+        ],
+        "takeaways": [
+          "تحويل أعلى",
+          "متابعة منظمة",
+          "رؤية الإدارة"
+        ]
+      },
+      "problem": "Leads في Excel وWhatsApp بدون متابعة.",
+      "solution": "CRM يcentralize جهات الاتصال والصفقات والأنشطة.",
+      "features": [
+        "مسار بصري",
+        "scoring",
+        "أتمتة",
+        "email",
+        "WhatsApp",
+        "تقارير"
+      ],
+      "benefits": [
+        "تحويل أعلى",
+        "متابعة منظمة",
+        "رؤية الإدارة",
+        "بدء سريع"
+      ],
+      "targetAudience": [
+        "مبيعات",
+        "تكوين",
+        "عقار",
+        "عيادات",
+        "PME"
+      ],
+      "howItWorks": [
+        "استيراد",
+        "قواعد",
+        "تدريب",
+        "تحسين"
+      ],
+      "industries": [
+        "تعليم",
+        "صحة",
+        "عقار",
+        "تجارة",
+        "PME"
+      ],
+      "pricing": {
+        "note": "لكل مستخدم/شهر",
+        "cta": "طلب عرض"
+      },
+      "faqs": [
+        {
+          "question": "الفرق عن خدمة CRM؟",
+          "answer": "هذا المنتج؛ الخدمة للتكامل."
+        },
+        {
+          "question": "من Excel؟",
+          "answer": "استيراد CSV."
+        },
+        {
+          "question": "WhatsApp؟",
+          "answer": "نعم."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "مسار"
+        },
+        {
+          "alt": "جهة اتصال"
+        },
+        {
+          "alt": "لوحة"
+        }
+      ]
+    },
+    "ai-agents": {
+      "metaTitle": "AI Agents — مساعدو IA | موحتاوا",
+      "metaDescription": "وكلاء IA: دعم 24/7، تأهيل leads وأتمتة.",
+      "badge": "منتج موحتاowa",
+      "overview": {
+        "what": "مساعدو ذكاء اصطناعي وبots دعم ومساعدون داخليون.",
+        "who": "تجارة, عيادات, تكوين, فنادق, PME",
+        "benefits": [
+          "24/7",
+          "تقليل الحمل",
+          "إجابات متسقة",
+          "قابل للتوسع"
+        ],
+        "topics": [
+          "متعدد القنوات",
+          "قاعدة معرفة",
+          "تأهيل",
+          "تصعيد",
+          "تحليلات"
+        ],
+        "takeaways": [
+          "24/7",
+          "تقليل الحمل",
+          "إجابات متسقة"
+        ]
+      },
+      "problem": "دعم م overloaded وإجابات متكررة.",
+      "solution": "AI Agents مدربون على بياناتكم.",
+      "features": [
+        "متعدد القنوات",
+        "قاعدة معرفة",
+        "تأهيل",
+        "تصعيد",
+        "تحليلات",
+        "API"
+      ],
+      "benefits": [
+        "24/7",
+        "تقليل الحمل",
+        "إجابات متسقة",
+        "قابل للتوسع"
+      ],
+      "targetAudience": [
+        "تجارة",
+        "عيادات",
+        "تكوين",
+        "فنادق",
+        "PME"
+      ],
+      "howItWorks": [
+        "تدقيق",
+        "تدريب",
+        "نشر",
+        "مراقبة"
+      ],
+      "industries": [
+        "صحة",
+        "تعليم",
+        "تجارة",
+        "فنادق",
+        "PME"
+      ],
+      "pricing": {
+        "note": "حسب حجم المحادثات",
+        "cta": "طلب عرض"
+      },
+      "faqs": [
+        {
+          "question": "خصوصية؟",
+          "answer": "نعم."
+        },
+        {
+          "question": "CRM؟",
+          "answer": "نعم."
+        },
+        {
+          "question": "لغات؟",
+          "answer": "فرنسية وعربية وإنجليزية."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "واجهة"
+        },
+        {
+          "alt": "تحليلات"
+        },
+        {
+          "alt": "KB"
+        }
+      ]
+    },
+    "whatsapp-automation": {
+      "metaTitle": "WhatsApp Automation | موحتاوا",
+      "metaDescription": "أتمتة WhatsApp Business API.",
+      "badge": "منتج موحتاوا",
+      "overview": {
+        "what": "محادثات آلية وإشعارات وتكامل CRM.",
+        "who": "تكوين, عيادات, عقار, تجارة",
+        "benefits": [
+          "24/7",
+          "+40% تحويل",
+          "تركيز على الإغلاق",
+          "امتثال"
+        ],
+        "topics": [
+          "flows",
+          "قوالب Meta",
+          "تذكيرات",
+          "CRM",
+          "multi-agent"
+        ],
+        "takeaways": [
+          "24/7",
+          "+40% تحويل",
+          "تركيز على الإغلاق"
+        ]
+      },
+      "problem": "رسائل غير معالجة وفقدان leads.",
+      "solution": "ربط API بflows ذكية.",
+      "features": [
+        "flows",
+        "قوالب Meta",
+        "تذكيرات",
+        "CRM",
+        "multi-agent",
+        "تحليلات"
+      ],
+      "benefits": [
+        "24/7",
+        "+40% تحويل",
+        "تركيز على الإغلاق",
+        "امتثال"
+      ],
+      "targetAudience": [
+        "تكوين",
+        "عيادات",
+        "عقار",
+        "تجارة"
+      ],
+      "howItWorks": [
+        "API",
+        "flows",
+        "تكامل",
+        "إطلاق"
+      ],
+      "industries": [
+        "تعليم",
+        "صحة",
+        "عيادات",
+        "مطاعm",
+        "عقار"
+      ],
+      "pricing": {
+        "note": "setup + اشتراك",
+        "cta": "طلب عرض"
+      },
+      "faqs": [
+        {
+          "question": "API؟",
+          "answer": "نعم."
+        },
+        {
+          "question": "حملات؟",
+          "answer": "نعم."
+        },
+        {
+          "question": "عدة agents؟",
+          "answer": "نعم."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "flow"
+        },
+        {
+          "alt": "inbox"
+        },
+        {
+          "alt": "stats"
+        }
+      ]
+    },
+    "business-automation": {
+      "metaTitle": "Business Automation | موحتاوا",
+      "metaDescription": "n8n وAPIs وIA لربط أدواتكم.",
+      "badge": "منتج موحتاوا",
+      "overview": {
+        "what": "أتمتة سير العمل بIA وAPIs وn8n.",
+        "who": "IT, ops, محاسبة, صناعة, عمومي",
+        "benefits": [
+          "-60% يدوي",
+          "مزامنة",
+          "أقل أخطاء",
+          "ROI سريع"
+        ],
+        "topics": [
+          "n8n",
+          "200+ موصل",
+          "triggers",
+          "IA",
+          "monitoring"
+        ],
+        "takeaways": [
+          "-60% يدوي",
+          "مزامنة",
+          "أقل أخطاء"
+        ]
+      },
+      "problem": "مهام متكررة بين أدوات غير متصلة.",
+      "solution": "أتمتة بn8n وAPIs.",
+      "features": [
+        "n8n",
+        "200+ موصل",
+        "triggers",
+        "IA",
+        "monitoring",
+        "استضافة"
+      ],
+      "benefits": [
+        "-60% يدوي",
+        "مزامنة",
+        "أقل أخطاء",
+        "ROI سريع"
+      ],
+      "targetAudience": [
+        "IT",
+        "ops",
+        "محاسبة",
+        "صناعة",
+        "عمومي"
+      ],
+      "howItWorks": [
+        "رسم",
+        "تصميم",
+        "اختبار",
+        "صيانة"
+      ],
+      "industries": [
+        "صناعة",
+        "محاسبة",
+        "عمومي",
+        "PME",
+        "صحة"
+      ],
+      "pricing": {
+        "note": "setup + صيانة",
+        "cta": "طلب تدقيق"
+      },
+      "faqs": [
+        {
+          "question": "n8n؟",
+          "answer": "cloud أو on-premise."
+        },
+        {
+          "question": "أدوات؟",
+          "answer": "CRM, ERP, Google..."
+        },
+        {
+          "question": "صيانة؟",
+          "answer": "موحتاوا."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "workflow"
+        },
+        {
+          "alt": "monitoring"
+        },
+        {
+          "alt": "API"
+        }
+      ]
+    },
+    "website-builder": {
+      "metaTitle": "Website Builder | موحتاowa",
+      "metaDescription": "مواقع وSEO وتكامل CRM.",
+      "badge": "منتج موحتاowa",
+      "overview": {
+        "what": "مواقع احترافية وصفحات هبوط وتجارة إلكترونية.",
+        "who": "PME, startups, عقار, فنادق",
+        "benefits": [
+          "إطلاق سريع",
+          "SEO",
+          "تحويل",
+          "استضافة"
+        ],
+        "topics": [
+          "قوالب",
+          "محرر",
+          "e-commerce",
+          "SEO",
+          "analytics"
+        ],
+        "takeaways": [
+          "إطلاق سريع",
+          "SEO",
+          "تحويل"
+        ]
+      },
+      "problem": "مواقع بطيئة وقوالب عامة.",
+      "solution": "منصة تصميم premium وSEO.",
+      "features": [
+        "قوالب",
+        "محرر",
+        "e-commerce",
+        "SEO",
+        "analytics",
+        "متعدد اللغات"
+      ],
+      "benefits": [
+        "إطلاق سريع",
+        "SEO",
+        "تحويل",
+        "استضافة"
+      ],
+      "targetAudience": [
+        "PME",
+        "startups",
+        "عقار",
+        "فنادق"
+      ],
+      "howItWorks": [
+        "قالب",
+        "محتوى",
+        "تكامل",
+        "إطلاق"
+      ],
+      "industries": [
+        "تجارة",
+        "عقار",
+        "فنادق",
+        "تعليم",
+        "PME"
+      ],
+      "pricing": {
+        "note": "اشتراك أو مشروع",
+        "cta": "طلب عرض"
+      },
+      "faqs": [
+        {
+          "question": "الفرق عن الخدمة؟",
+          "answer": "المنصة vs مشروع مخصص."
+        },
+        {
+          "question": "ترحيل؟",
+          "answer": "نعم."
+        },
+        {
+          "question": "دفع المغرب؟",
+          "answer": "CMI وCOD."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "محرر"
+        },
+        {
+          "alt": "landing"
+        },
+        {
+          "alt": "analytics"
+        }
+      ]
+    },
+    "mobile-applications": {
+      "metaTitle": "Mobile Applications | موحتاowa",
+      "metaDescription": "تطبيقات مخصصة Flutter/React Native.",
+      "badge": "منتج موحتاowa",
+      "overview": {
+        "what": "Android وiOS وتطبيقات cross-platform.",
+        "who": "تجارة, صحة, مطاعm, فنادق, startups",
+        "benefits": [
+          "codebase واحد",
+          "engagement",
+          "إشعارات",
+          "صيانة"
+        ],
+        "topics": [
+          "Android/iOS",
+          "Flutter/RN",
+          "API",
+          "push",
+          "دفع"
+        ],
+        "takeaways": [
+          "codebase واحد",
+          "engagement",
+          "إشعارات"
+        ]
+      },
+      "problem": "لا تجربة mobile أو صيانة مكلفة.",
+      "solution": "apps native أو cross-platform مع backend.",
+      "features": [
+        "Android/iOS",
+        "Flutter/RN",
+        "API",
+        "push",
+        "دفع",
+        "analytics"
+      ],
+      "benefits": [
+        "codebase واحد",
+        "engagement",
+        "إشعارات",
+        "صيانة"
+      ],
+      "targetAudience": [
+        "تجارة",
+        "صحة",
+        "مطاعm",
+        "فنادق",
+        "startups"
+      ],
+      "howItWorks": [
+        "UX",
+        "تطوير",
+        "stores",
+        "صيانة"
+      ],
+      "industries": [
+        "تجارة",
+        "صحة",
+        "مطاعm",
+        "فنادق",
+        "startups"
+      ],
+      "pricing": {
+        "note": "مشروع + صيانة",
+        "cta": "طلب devis"
+      },
+      "faqs": [
+        {
+          "question": "native؟",
+          "answer": "Flutter/RN غالباً."
+        },
+        {
+          "question": "stores؟",
+          "answer": "نعم."
+        },
+        {
+          "question": "backend؟",
+          "answer": "نعم."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "app"
+        },
+        {
+          "alt": "interface"
+        },
+        {
+          "alt": "admin"
+        }
+      ]
+    },
+    "business-intelligence": {
+      "metaTitle": "BI — Dashboards | موحتاowa",
+      "metaDescription": "BI: dashboards وKPIs وتقارير.",
+      "badge": "منتج موحتاowa",
+      "overview": {
+        "what": "لوحات تحكم وتقارير وKPI.",
+        "who": "إدارة, marketing, ops, سلاسl, صناعة",
+        "benefits": [
+          "قرارات data-driven",
+          "رؤية 360",
+          "توفير وقت",
+          "محاذاة"
+        ],
+        "topics": [
+          "dashboards",
+          "ETL",
+          "KPIs",
+          "تنبيهات",
+          "export"
+        ],
+        "takeaways": [
+          "قرارات data-driven",
+          "رؤية 360",
+          "توفير وقت"
+        ]
+      },
+      "problem": "بيانات scattered بدون رؤية موحدة.",
+      "solution": "BI يربط المصادر ويعرض KPIs.",
+      "features": [
+        "dashboards",
+        "ETL",
+        "KPIs",
+        "تنبيهات",
+        "export",
+        "mobile"
+      ],
+      "benefits": [
+        "قرارات data-driven",
+        "رؤية 360",
+        "توفير وقت",
+        "محاذاة"
+      ],
+      "targetAudience": [
+        "إدارة",
+        "marketing",
+        "ops",
+        "سلاسl",
+        "صناعة"
+      ],
+      "howItWorks": [
+        "تدقيق",
+        "نمذجة",
+        "بناء",
+        "تدريب"
+      ],
+      "industries": [
+        "تجارة",
+        "صناعة",
+        "فنادق",
+        "صحة",
+        "عمومي"
+      ],
+      "pricing": {
+        "note": "ترخيص",
+        "cta": "طلب عرض"
+      },
+      "faqs": [
+        {
+          "question": "مصادر؟",
+          "answer": "ERP, CRM, ads..."
+        },
+        {
+          "question": "real-time؟",
+          "answer": "نعم."
+        },
+        {
+          "question": "استضافة؟",
+          "answer": "cloud أو warehouse."
+        }
+      ],
+      "screenshots": [
+        {
+          "alt": "dashboard"
+        },
+        {
+          "alt": "report"
+        },
+        {
+          "alt": "mobile"
+        }
+      ]
+    }
+  }
+}

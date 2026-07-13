@@ -6,7 +6,8 @@
     "relatedCaseStudies": "دراسات حالة",
     "relatedComparisons": "مقارنات",
     "relatedResources": "موارد مفيدة",
-    "relatedIndustries": "قطاعات مرتبطة"
+    "relatedIndustries": "قطاعات مرتبطة",
+    "relatedSolutions": "حلول مرتبطة"
   },
   "sidebar": {
     "relatedContent": "محتوى ذو صلة",
@@ -46,6 +47,10 @@
     "industries": {
       "title": "القطاعات",
       "description": "حلول رقمية حسب القطاع: صحة، عقار، تجارة إلكترونية، تعليم والمزيد."
+    },
+    "solutions": {
+      "title": "حلول مخصصة",
+      "description": "منتجات موحتاوا: CRM، ERP، IA، WhatsApp، GED والمزيد."
     },
     "portfolio": {
       "title": "معرض الأعمال",

@@ -21,11 +21,11 @@
     "description": "Monthly marketing or custom projects: choose the support that fits your ambitions."
   },
   "contact": {
-    "metaTitle": "Contact",
-    "metaDescription": "Request your free digital audit. Our team will get back to you within 24h to accelerate your business growth.",
+    "metaTitle": "Contact & quote",
+    "metaDescription": "Request a custom quote: marketing, web, software, mobile, design or events. Response within 24h.",
     "eyebrow": "Contact",
-    "title": "Let's talk about your <highlight>growth</highlight>",
-    "description": "Get a free audit and a concrete action plan for your digital growth. Guaranteed response within 24 business hours.",
+    "title": "Request your <highlight>quote</highlight>",
+    "description": "Describe your project and receive a tailored proposal. Guaranteed response within 24 business hours.",
     "email": "Email",
     "phone": "Phone",
     "address": "Address",
@@ -46,6 +46,22 @@
     "eyebrow": "Case Studies",
     "title": "<highlight>Measurable</highlight> transformations",
     "description": "Dive into our missions: strategy, execution, technologies and measurable results."
+  },
+  "about": {
+    "metaTitle": "About — Mohtaoua Digital Agency Morocco",
+    "metaDescription": "Mohtaoua: premium 360° digital agency in Morocco. Marketing, technology, design, AI and proprietary business solutions.",
+    "eyebrow": "About",
+    "title": "The agency that <highlight>transforms</highlight>",
+    "description": "From Casablanca, we support Moroccan businesses with agency services and proprietary digital products.",
+    "missionTitle": "Our mission",
+    "missionText": "To become Morocco's reference partner for digital transformation — combining agency expertise and proprietary software solutions.",
+    "valuesTitle": "Our values",
+    "values": [
+      "Excellence and premium quality",
+      "Transparency and measurable results",
+      "Continuous innovation (AI, automation)",
+      "Local proximity and support"
+    ]
   },
   "caseStudyDetail": {
     "backLink": "All case studies",

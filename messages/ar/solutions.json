@@ -1,0 +1,76 @@
+{
+  "hub": {
+    "metaTitle": "الحلول — منتجات وبرمجيات موحتاوا الرقمية",
+    "metaDescription": "اكتشف حلول موحتاوا: e-NFC، Archidoc، ERP للمطاعم، CRM، وكلاء الذكاء الاصطناعي، أتمتة واتساب، المواقع، التطبيقات وBI.",
+    "eyebrow": "حلولنا",
+    "title": "منتجات رقمية <highlight>متميزة</highlight>",
+    "titleHighlight": "متميزة",
+    "description": "برمجيات ومنصات وأدوات أتمتة ملكية طورتها موحتاوا لتسريع التحول الرقمي للمقاولات المغربية.",
+    "hubOverview": {
+      "what": "كتalog حلول موحتاowa الرقمية: منتجات SaaS ومنصات قطاعية وأدوات أتمتة مطورة داخلياً.",
+      "who": "المديرون ومسؤولو تقنية المعلومات والعمليات والمؤسسون الذين يبحثون عن حلول جاهزة.",
+      "benefits": [
+        "منتجات مجربة وصيانة من موحتاوا",
+        "نشر سريع مع دعم محلي",
+        "تكامل مع أدواتكم الحالية",
+        "دعم بالفرنسية والعربية والإنجليزية"
+      ],
+      "topics": [
+        "بطاقات NFC",
+        "أرشفة المستندات",
+        "ERP للمطاعم",
+        "CRM والأتمتة",
+        "الذكاء الاصطناعي وواتساب",
+        "المواقع والتطبيقات",
+        "Business Intelligence"
+      ],
+      "takeaways": [
+        "10 حلول ملكية",
+        "مناسبة لـ 15+ قطاعاً",
+        "عرض تجريبي مجاني"
+      ]
+    }
+  },
+  "items": {
+    "e-nfc": {
+      "title": "e-NFC",
+      "description": "بطاقات أعمال رقمية، منتجات NFC، رموز QR وملفات تعريف ذكية للتواصل المهني."
+    },
+    "archidoc": {
+      "title": "Archidoc",
+      "description": "إدارة المستندات، الأرشفة الآمنة، OCR وGED للتحول الرقمي."
+    },
+    "erp-restaurant": {
+      "title": "ERP المطاعم",
+      "description": "إدارة مطاعم كاملة: POS، المطبخ، المخزون والمشتريات."
+    },
+    "crm": {
+      "title": "CRM موحتاوا",
+      "description": "CRM مع أتمتة وتتبع leads ومسارات مبيعات."
+    },
+    "ai-agents": {
+      "title": "AI Agents",
+      "description": "مساعدو ذكاء اصطناعي وبots دعم ومساعدون داخليون."
+    },
+    "whatsapp-automation": {
+      "title": "أتمتة WhatsApp",
+      "description": "محادثات آلية وإشعارات وتكامل CRM."
+    },
+    "business-automation": {
+      "title": "أتمتة الأعمال",
+      "description": "أتمتة سير العمل بIA وAPIs وn8n."
+    },
+    "website-builder": {
+      "title": "Website Builder",
+      "description": "مواقع احترافية وصفحات هبوط وتجارة إلكترونية."
+    },
+    "mobile-applications": {
+      "title": "تطبيقات الجوال",
+      "description": "Android وiOS وتطبيقات cross-platform."
+    },
+    "business-intelligence": {
+      "title": "Business Intelligence",
+      "description": "لوحات تحكم وتقارير وKPI."
+    }
+  }
+}

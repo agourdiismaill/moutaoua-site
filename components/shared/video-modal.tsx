@@ -39,6 +39,8 @@ export function VideoModal({
                   src={video.videoUrl}
                   controls
                   autoPlay
+                  preload="none"
+                  playsInline
                 />
               ) : null}
             </div>

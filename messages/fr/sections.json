@@ -8,6 +8,8 @@
     "eyebrow": "Nos capacités",
     "title": "Tout ce dont votre entreprise a besoin",
     "description": "De la stratégie de marque au logiciel sur mesure, nous couvrons l'ensemble de votre transformation digitale.",
+    "viewDetail": "Voir le détail : {title}",
+    "viewDetailShort": "Voir le service",
     "items": {
       "brands": {
         "title": "Nous créons des marques",
@@ -48,6 +50,12 @@
     "title": "Des solutions pour chaque secteur",
     "description": "Éducation, santé, e-commerce, immobilier, restauration, hôtellerie et bien plus.",
     "cta": "Voir toutes les industries"
+  },
+  "solutionsTeaser": {
+    "eyebrow": "Solutions",
+    "title": "Nos produits digitaux",
+    "description": "Logiciels et plateformes propriétaires Mohtaoua : CRM, ERP, IA, WhatsApp, GED et plus.",
+    "cta": "Voir toutes les solutions"
   },
   "stats": {
     "eyebrow": "Performances",
@@ -104,6 +112,8 @@
     "adBudgetNote": "Budget publicitaire payé séparément par le client.",
     "adPlatformsHeading": "Campagnes publicitaires :",
     "customNote": "Développement web, logiciels, mobile et design : devis sur mesure après audit gratuit.",
+    "quoteTitle": "Projet web, logiciel ou design ?",
+    "quoteCta": "Demander un devis",
     "capabilitiesHeading": "Nous couvrons aussi :",
     "capabilities": [
       "Sites web",

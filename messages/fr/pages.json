@@ -22,11 +22,11 @@
     "description": "Marketing mensuel ou projet 360° sur mesure : web, apps, design et campagnes."
   },
   "contact": {
-    "metaTitle": "Contact",
-    "metaDescription": "Demandez votre audit digital gratuit. Notre équipe vous recontacte sous 24h pour accélérer la croissance de votre entreprise.",
+    "metaTitle": "Contact & devis",
+    "metaDescription": "Demandez un devis personnalisé : marketing, web, logiciels, mobile, design ou événements. Réponse sous 24h.",
     "eyebrow": "Contact",
-    "title": "Parlons de votre <highlight>croissance</highlight>",
-    "description": "Recevez un audit gratuit et un plan d'action concret pour votre croissance digitale. Réponse garantie sous 24h ouvrées.",
+    "title": "Demandez votre <highlight>devis</highlight>",
+    "description": "Décrivez votre projet et recevez une proposition sur mesure. Réponse garantie sous 24h ouvrées.",
     "email": "Email",
     "phone": "Téléphone",
     "address": "Adresse",
@@ -47,6 +47,22 @@
     "eyebrow": "Études de cas",
     "title": "Des transformations <highlight>mesurables</highlight>",
     "description": "Plongez dans nos missions : stratégie, exécution, technologies et résultats mesurables."
+  },
+  "about": {
+    "metaTitle": "À propos — Agence Digitale Mohtaoua Maroc",
+    "metaDescription": "Mohtaoua : agence digitale premium 360° au Maroc. Marketing, technologie, design, IA et solutions propriétaires pour entreprises.",
+    "eyebrow": "À propos",
+    "title": "L'agence qui <highlight>transforme</highlight>",
+    "description": "Depuis Casablanca, nous accompagnons les entreprises marocaines avec services et produits digitaux propriétaires.",
+    "missionTitle": "Notre mission",
+    "missionText": "Devenir le partenaire de référence de la transformation digitale au Maroc — en combinant expertise agence et solutions logicielles propriétaires.",
+    "valuesTitle": "Nos valeurs",
+    "values": [
+      "Excellence et qualité premium",
+      "Transparence et résultats mesurables",
+      "Innovation continue (IA, automatisation)",
+      "Proximité et support local"
+    ]
   },
   "caseStudyDetail": {
     "backLink": "Toutes les études de cas",
