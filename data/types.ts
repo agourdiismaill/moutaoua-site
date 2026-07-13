@@ -54,6 +54,7 @@ export interface Testimonial {
   author: string;
   role: string;
   company: string;
+  city?: string;
   avatar?: string;
   rating?: number;
   /** BCP-47 language code (e.g. "ar", "de"); enables RTL for Arabic */

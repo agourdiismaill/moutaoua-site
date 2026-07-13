@@ -10,11 +10,12 @@ export async function loadContentLabelSources(locale: string): Promise<ContentLa
   const tcomp = await getTranslations("compare");
   const tind = await getTranslations("industries");
   const tsol = await getTranslations("solutions");
+  const tsc = await getTranslations("serviceCityPages");
   const tseo = await getTranslations("seo");
 
   return {
     locale,
-    services: (key) => ts(key),
+    services: (key, values) => ts(key, values),
     solutions: (key) => tsol(key),
     blog: (key) => tb(key),
     guides: (key) => tg(key),
@@ -23,6 +24,7 @@ export async function loadContentLabelSources(locale: string): Promise<ContentLa
     industries: (key) => tind(key),
     internalLinking: (key) => ti(key),
     seo: (key) => tseo(key),
+    serviceCity: (key, values) => tsc(key, values),
     anchors: ti.raw("anchors") as Record<string, string[]>,
   };
 }

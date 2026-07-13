@@ -60,6 +60,22 @@ Localisation : Casablanca, Maroc
 - CRM & Data : https://mohtaoua.ma/fr/services/crm-data
 - Réseaux sociaux : https://mohtaoua.ma/fr/services/social-media
 
+## Services locaux (ville × service — 477 pages)
+
+Hub : pages `/fr/services/{service}-{ville}` pour 53 expertises × 9 villes (Casablanca, Rabat, Marrakech, Tanger, Agadir, Fès, Meknès, Oujda, Kénitra).
+
+Exemples phares :
+- Meta Ads Casablanca : https://mohtaoua.ma/fr/services/meta-ads-casablanca
+- Meta Ads Rabat : https://mohtaoua.ma/fr/services/meta-ads-rabat
+- Meta Ads Marrakech : https://mohtaoua.ma/fr/services/meta-ads-marrakech
+- Google Ads Casablanca : https://mohtaoua.ma/fr/services/google-ads-casablanca
+- SEO Casablanca : https://mohtaoua.ma/fr/services/seo-casablanca
+- Sites corporate Rabat : https://mohtaoua.ma/fr/services/corporate-websites-rabat
+- E-commerce Marrakech : https://mohtaoua.ma/fr/services/e-commerce-marrakech
+- CRM Casablanca : https://mohtaoua.ma/fr/services/crm-data-casablanca
+- Agents IA Casablanca : https://mohtaoua.ma/fr/services/ai-agents-casablanca
+- Production vidéo Marrakech : https://mohtaoua.ma/fr/services/video-production-marrakech
+
 ## Services phares (web & tech)
 
 - Sites corporate : https://mohtaoua.ma/fr/services/corporate-websites

@@ -1,0 +1,167 @@
+{
+  "labels": {
+    "h1": "{service} à {ville}",
+    "breadcrumb": "{service} à {ville}",
+    "process": "Notre méthode à {ville}",
+    "features": "Ce que comprend {service}",
+    "localProof": "Ils nous font confiance à {ville}",
+    "localProofFallback": "Mohtaoua accompagne des entreprises à {ville} et dans tout le Maroc.",
+    "linkToService": "Voir la fiche complète {service}",
+    "share": "Partager",
+    "home": "Accueil",
+    "services": "Services"
+  },
+  "meta": {
+    "title": "{service} à {ville} | Mohtaoua",
+    "description": "{service} à {ville} : accompagnement expert pour les entreprises de {sector}. Stratégie, exécution et reporting transparent. Audit gratuit avec Mohtaoua."
+  },
+  "content": {
+    "lead": "Vous cherchez un partenaire fiable pour {service} à {ville} ? Mohtaoua combine expertise marketing, technologie et créativité pour accélérer votre croissance dans un marché local exigeant.",
+    "intro": "À {ville}, les entreprises du secteur {sector} doivent se démarquer face à une concurrence de plus en plus digitale. {description} Notre équipe déploie des stratégies sur mesure, adaptées aux réalités du terrain marocain et aux attentes de vos clients locaux.",
+    "closing": "Que vous soyez une PME en phase de lancement ou un acteur établi à {ville}, nous structurons votre {service} avec des objectifs mesurables, un suivi hebdomadaire et une transparence totale sur les résultats."
+  },
+  "processSteps": [
+    "Audit gratuit de votre situation actuelle et de vos objectifs à {ville}",
+    "Stratégie personnalisée alignée sur votre secteur et votre budget",
+    "Mise en œuvre, création des assets et lancement des campagnes ou livrables",
+    "Optimisation continue, reporting clair et recommandations d'actions"
+  ],
+  "sectors": {
+    "finance-industrie": {
+      "label": "finance, industrie et grandes PME",
+      "context": "Casablanca concentre le plus grand bassin économique du Maroc : sièges sociaux, industries, banques et scale-ups en forte croissance. Les décideurs y attendent des prestataires capables de livrer vite, avec un ROI démontrable et une exécution premium.",
+      "challenges": "Dans cet environnement, la visibilité digitale n'est plus un luxe : sans présence structurée, les prospects comparent vos concurrents en quelques clics et choisissent celui qui inspire le plus confiance en ligne.",
+      "opportunity": "Un positionnement local fort sur Casablanca permet de capter des leads B2B et B2C qualifiés, de renforcer votre image de marque et d'accélérer vos cycles de vente grâce à des parcours clients optimisés."
+    },
+    "administration-services": {
+      "label": "administration, services publics et B2B",
+      "context": "Rabat et sa région abritent institutions, cabinets de conseil, intégrateurs et entreprises de services qui vendent à des clients exigeants. Le ton, la crédibilité et la clarté du message digital sont déterminants pour convertir.",
+      "challenges": "Les cycles de décision sont souvent plus longs : sans nurturing, CRM et contenus de réassurance, les opportunités se refroidissent avant la signature.",
+      "opportunity": "Une stratégie digitale structurée à Rabat vous aide à générer des leads qualifiés, à professionnaliser votre image et à automatiser le suivi commercial pour ne perdre aucune opportunité."
+    },
+    "tourisme-immobilier": {
+      "label": "tourisme, immobilier et hôtellerie",
+      "context": "Marrakech attire investisseurs, promoteurs, hôteliers et acteurs du luxe. La saisonnalité, la concurrence internationale et l'importance du visuel imposent une exécution irréprochable sur tous les canaux.",
+      "challenges": "Beaucoup d'acteurs misent uniquement sur le bouche-à-oreille ou des campagnes ponctuelles, sans tracking ni optimisation — ce qui gaspille le budget en haute saison.",
+      "opportunity": "Combiner contenus premium, publicité ciblée et SEO local à Marrakech maximise vos réservations, visites et demandes de devis tout au long de l'année."
+    },
+    "logistique-industrie": {
+      "label": "logistique, industrie et export",
+      "context": "Tanger, porte de l'Afrique et hub logistique majeur, concentre industriels, exportateurs et prestataires B2B. Les acheteurs comparent les offres en ligne avant tout premier contact commercial.",
+      "challenges": "Sans site performant, contenus multilingues et génération de leads structurée, les entreprises tangéroises perdent des appels d'offres et des opportunités export.",
+      "opportunity": "Investir dans le digital à Tanger renforce votre crédibilité auprès des donneurs d'ordre, facilite l'acquisition internationale et soutient votre croissance industrielle."
+    },
+    "tourisme-agro": {
+      "label": "tourisme, agroalimentaire et pêche",
+      "context": "Agadir combine tourisme balnéaire, filière agro et activités liées à la mer. Les entreprises locales doivent capter une clientèle mixte — résidents, touristes et distributeurs nationaux.",
+      "challenges": "La saisonnalité touristique et la fragmentation des canaux rendent difficile le pilotage d'un budget marketing cohérent sans données fiables.",
+      "opportunity": "Une approche data-driven à Agadir permet d'aligner acquisition, image de marque et conversion sur les périodes les plus rentables de votre activité."
+    },
+    "artisanat-commerce": {
+      "label": "artisanat, commerce et éducation",
+      "context": "Fès possède un tissu économique riche mêlant artisanat, commerce traditionnel, éducation et tourisme culturel. La différenciation passe par une narration de marque authentique et une présence digitale soignée.",
+      "challenges": "Nombre d'acteurs locaux sous-investissent dans le digital, laissant le terrain libre à des concurrents mieux positionnés sur Google et les réseaux sociaux.",
+      "opportunity": "Structurer votre acquisition et votre image à Fès vous permet de toucher une clientèle locale et nationale tout en valorisant l'identité de votre marque."
+    },
+    "industrie-agro": {
+      "label": "industrie et agroalimentaire",
+      "context": "Meknès est un pôle industriel et agroalimentaire stratégique. Les entreprises y cherchent des partenaires capables de moderniser leur communication et leurs outils commerciaux sans perturber les opérations.",
+      "challenges": "Processus de vente encore très terrain, peu de suivi digital des prospects et sites web obsolètes qui freinent la crédibilité auprès des acheteurs professionnels.",
+      "opportunity": "Digitaliser votre acquisition à Meknès améliore la productivité commerciale, réduit les délais de réponse et ouvre de nouveaux marchés régionaux."
+    },
+    "commerce-transfrontalier": {
+      "label": "commerce et échanges transfrontaliers",
+      "context": "Oujda, ville frontalière dynamique, voit émerger commerçants, distributeurs et PME orientés vers l'Algérie et l'est du Maroc. La réactivité et la confiance sont des critères d'achat essentiels.",
+      "challenges": "Peu d'entreprises exploitent pleinement WhatsApp, la pub géolocalisée et le SEO pour capter une demande locale très concrète et immédiate.",
+      "opportunity": "Une stratégie digitale adaptée à Oujda transforme votre visibilité en flux de prospects qualifiés, avec un coût d'acquisition maîtrisé."
+    },
+    "industrie-logistique": {
+      "label": "industrie et logistique portuaire",
+      "context": "Kénitra et sa zone industrielle accueillent manufacturiers, logisticiens et sous-traitants au service de grands comptes. La conformité, la fiabilité et la performance sont au cœur des attentes clients.",
+      "challenges": "Sans présence digitale professionnelle, les PME locales peinent à être référencées par les donneurs d'ordre qui recherchent leurs prestataires en ligne.",
+      "opportunity": "Renforcer votre {service} à Kénitra consolide votre image B2B, facilite le recrutement de talents et soutient votre développement commercial régional."
+    }
+  },
+  "cities": {
+    "casablanca": {
+      "localInsight": "À Casablanca, nos clients apprécient notre capacité à piloter des projets ambitieux : campagnes multi-canaux, sites à fort trafic, intégrations CRM et reporting exécutif. Nous adaptons chaque livrable aux quartiers et audiences ciblés — Maarif, Anfa, Sidi Maarouf ou zones industrielles.",
+      "marketNote": "Le marché casaoui récompense la vitesse d'exécution et la preuve par les chiffres : nous fixons des KPI dès le lancement et ajustons chaque semaine."
+    },
+    "rabat": {
+      "localInsight": "À Rabat et Salé, nous travaillons avec des structures qui exigent rigueur et clarté : institutions, cabinets, écoles et entreprises de services. Nos livrables respectent des standards éditoriaux élevés et des processus de validation structurés.",
+      "marketNote": "Le public rabati répond bien aux contenus pédagogiques, aux études de cas et aux parcours de conversion progressifs plutôt qu'aux approches trop agressives."
+    },
+    "marrakech": {
+      "localInsight": "À Marrakech, l'esthétique et l'émotion priment : nos campagnes et créations valorisent l'expérience client, que vous visiez Guéliz, Hivernage ou la clientèle internationale en quête d'authenticité.",
+      "marketNote": "Nous calibrons les budgets selon la haute saison, les événements locaux et les pics de demande pour maximiser chaque dirham investi."
+    },
+    "tanger": {
+      "localInsight": "À Tanger, nous accompagnons des acteurs B2B et industriels qui exportent ou servent le grand Nord. Nos contenus peuvent être déclinés en français, arabe et anglais selon vos marchés cibles.",
+      "marketNote": "La proximité avec l'Europe et les zones franches impose une communication crédible et internationale — nous y veillons sur chaque touchpoint."
+    },
+    "agadir": {
+      "localInsight": "À Agadir, nous combinons acquisition touristique et développement commercial local : créatives adaptées au mobile, messages clairs et suivi WhatsApp pour convertir rapidement les demandes entrantes.",
+      "marketNote": "La double saisonnalité tourisme / agro nécessite un calendrier média flexible — nous le construisons avec vous en amont."
+    },
+    "fes": {
+      "localInsight": "À Fès, nous mettons en avant l'authenticité de votre marque tout en modernisant vos canaux d'acquisition : réseaux sociaux, Google et contenus qui parlent à la population locale et aux visiteurs.",
+      "marketNote": "Le bouche-à-oreille y reste fort : nous le digitalisons via avis, preuves sociales et campagnes de notoriété géolocalisées."
+    },
+    "meknes": {
+      "localInsight": "À Meknès, nous aidons industriels et commerçants à professionnaliser leur présence en ligne sans jargon inutile : sites clairs, fiches produits et génération de leads pour vos équipes terrain.",
+      "marketNote": "Les acheteurs locaux comparent plusieurs fournisseurs — être visible et crédible en premier fait souvent la différence."
+    },
+    "oujda": {
+      "localInsight": "À Oujda, nous privilégions des tactiques concrètes et rapides : WhatsApp Business, pub géolocalisée, landing pages mobiles et relances automatisées pour ne perdre aucun prospect.",
+      "marketNote": "La réactivité est clé : nous configurons des alertes et des processus de réponse en moins de 24 h ouvrées."
+    },
+    "kenitra": {
+      "localInsight": "À Kénitra, nous servons des PME industrielles qui ont besoin de crédibilité B2B : sites corporate, fiches techniques, SEO et contenus orientés donneurs d'ordre.",
+      "marketNote": "Nous alignons votre communication sur les exigences des grands comptes voisins tout en restant agiles comme une PME locale."
+    }
+  },
+  "pillars": {
+    "marketing": {
+      "intro": "Côté marketing, nous structurons vos audiences, vos messages et vos budgets pour générer des leads rentables — pas seulement du trafic.",
+      "value": "Tracking complet, créatives testées A/B, tableaux de bord partagés et recommandations hebdomadaires : vous savez exactement où va chaque dirham."
+    },
+    "web": {
+      "intro": "Côté web, nous concevons des expériences rapides, mobile-first et orientées conversion, adaptées aux usages marocains.",
+      "value": "Performance, SEO technique et parcours utilisateur simplifié : votre site devient un véritable outil commercial, pas une simple vitrine."
+    },
+    "software": {
+      "intro": "Côté logiciel, nous développons des outils sur mesure, automatisations et intégrations qui fluidifient vos opérations.",
+      "value": "Moins de tâches manuelles, données centralisées et décisions plus rapides pour vos équipes à {ville} et au-delà."
+    },
+    "mobile": {
+      "intro": "Côté mobile, nous livrons des applications iOS, Android ou cross-platform alignées sur vos objectifs business.",
+      "value": "UX soignée, notifications pertinentes et analytics intégrés pour fidéliser vos utilisateurs locaux."
+    },
+    "creative": {
+      "intro": "Côté créatif, nous renforçons votre identité visuelle et produisons des assets qui inspirent confiance.",
+      "value": "Cohérence de marque sur tous les supports — du logo au packaging — pour une image premium à {ville}."
+    },
+    "photo-video": {
+      "intro": "Côté photo et vidéo, nous capturons votre univers avec une qualité broadcast adaptée aux réseaux et à la pub.",
+      "value": "Contenus prêts pour Meta, TikTok, YouTube et votre site : un seul tournage, multiples déclinaisons."
+    },
+    "events": {
+      "intro": "Côté événements, nous orchestrons l'expérience, la communication et les assets pour marquer les esprits.",
+      "value": "De la conception du stand à la couverture social media, nous maximisons la visibilité de chaque activation à {ville}."
+    }
+  },
+  "faqTemplates": [
+    {
+      "question": "Pourquoi confier {service} à Mohtaoua à {ville} ?",
+      "answer": "Mohtaoua est une agence 360° basée au Maroc : nous combinons marketing, web, logiciel et créatif sous un seul interlocuteur. À {ville}, nous adaptons chaque stratégie au secteur {sector} avec des KPI transparents et un audit gratuit pour démarrer."
+    },
+    {
+      "question": "Combien de temps pour lancer {service} à {ville} ?",
+      "answer": "Selon le périmètre, comptez 1 à 3 semaines pour les campagnes ou landing pages, et 4 à 8 semaines pour un site ou un outil sur mesure. Nous établissons un planning clair dès l'audit initial."
+    },
+    {
+      "question": "Travaillez-vous avec des PME locales à {ville} ?",
+      "answer": "Oui. Nous accompagnons PME, startups et structures établies à {ville} et dans tout le Maroc. Nos packs sont modulables et un devis personnalisé est disponible sur /contact après audit gratuit."
+    }
+  ]
+}

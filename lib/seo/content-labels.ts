@@ -1,8 +1,9 @@
 import type { ContentNode, ContentType } from "@/data/content-graph";
+import { getServiceCityCombo } from "@/data/service-city-combos";
 import { pickAnchorText, getAnchorVariants } from "@/lib/seo/anchor-text";
 import type { RelatedLink } from "@/lib/seo/types";
 
-type TranslationFn = (key: string, values?: Record<string, string>) => string;
+type TranslationFn = (key: string, values?: Record<string, string | number>) => string;
 
 export type ContentLabelSources = {
   locale: string;
@@ -15,6 +16,7 @@ export type ContentLabelSources = {
   industries: TranslationFn;
   internalLinking: TranslationFn;
   seo: TranslationFn;
+  serviceCity: TranslationFn;
   anchors: Record<string, string[]>;
 };
 
@@ -34,6 +36,12 @@ function getRawTitle(node: ContentNode, src: ContentLabelSources): string {
       return src.industries(`items.${node.slug}.title`);
     case "solution":
       return src.solutions(`items.${node.slug}.title`);
+    case "service-city": {
+      const combo = getServiceCityCombo(node.slug);
+      if (!combo) return node.slug;
+      const serviceTitle = src.services(`items.${combo.service}.title`);
+      return src.serviceCity("labels.h1", { service: serviceTitle, ville: combo.ville });
+    }
     case "resource":
       return src.internalLinking(`resources.${node.slug}.title`);
     default:
@@ -57,6 +65,10 @@ function getRawDescription(node: ContentNode, src: ContentLabelSources): string 
       return src.industries(`items.${node.slug}.description`);
     case "solution":
       return src.solutions(`items.${node.slug}.description`);
+    case "service-city": {
+      const combo = getServiceCityCombo(node.slug);
+      return combo?.description ?? "";
+    }
     case "resource":
       return src.internalLinking(`resources.${node.slug}.description`);
     default:
@@ -99,6 +111,7 @@ export function sectionTitle(type: ContentType, src: ContentLabelSources): strin
     comparison: "relatedComparisons",
     industry: "relatedIndustries",
     solution: "relatedSolutions",
+    "service-city": "relatedServiceCities",
     resource: "relatedResources",
   };
   return src.internalLinking(`sections.${keyMap[type]}`);

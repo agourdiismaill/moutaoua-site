@@ -186,6 +186,7 @@ export function buildServiceSchema(input: {
   description: string;
   url: string;
   features: string[];
+  areaServedCity?: string;
 }): SchemaRecord {
   return {
     "@context": "https://schema.org",
@@ -194,10 +195,19 @@ export function buildServiceSchema(input: {
     description: input.description,
     url: input.url,
     provider: { "@id": `${siteConfig.url}/#organization` },
-    areaServed: {
-      "@type": "Country",
-      name: "Morocco",
-    },
+    areaServed: input.areaServedCity
+      ? {
+          "@type": "City",
+          name: input.areaServedCity,
+          containedInPlace: {
+            "@type": "Country",
+            name: "Morocco",
+          },
+        }
+      : {
+          "@type": "Country",
+          name: "Morocco",
+        },
     serviceType: input.name,
     offers: {
       "@type": "Offer",

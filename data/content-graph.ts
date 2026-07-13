@@ -14,9 +14,11 @@ import {
 import { CASE_STUDY_PUBLISHED, CASE_STUDY_SLUGS, SERVICE_SLUGS } from "@/data/meta";
 import { INDUSTRY_SLUGS } from "@/data/industries";
 import { SOLUTION_SLUGS, solutionMeta, SOLUTION_PUBLISHED } from "@/data/solutions";
+import { SERVICE_CITY_COMBOS } from "@/data/service-city-combos";
 
 export type ContentType =
   | "service"
+  | "service-city"
   | "solution"
   | "blog"
   | "guide"
@@ -210,6 +212,13 @@ export const EXPLICIT_RELATIONS: Record<
 > = {
   "meta-ads": {
     service: ["google-ads", "landing-pages", "marketing-automation", "crm-data"],
+    "service-city": [
+      "meta-ads-casablanca",
+      "meta-ads-rabat",
+      "meta-ads-marrakech",
+      "meta-ads-tanger",
+      "meta-ads-agadir",
+    ],
     guide: ["meta-ads-centre-formation"],
     "case-study": ["skola-formation", "atlas-ecommerce-growth"],
     blog: [
@@ -222,6 +231,11 @@ export const EXPLICIT_RELATIONS: Record<
   },
   "google-ads": {
     service: ["meta-ads", "landing-pages", "crm-data"],
+    "service-city": [
+      "google-ads-casablanca",
+      "google-ads-rabat",
+      "google-ads-marrakech",
+    ],
     guide: ["google-ads-centre-formation"],
     "case-study": ["campusup-search", "medina-clinic-digital"],
     blog: [
@@ -439,6 +453,18 @@ const serviceRelations: Record<string, string[]> = {
   "crm-data": ["marketing-automation", "meta-ads", "google-ads"],
 };
 
+function buildServiceCityNodes(): ContentNode[] {
+  return SERVICE_CITY_COMBOS.map((combo) => ({
+    id: `service-city:${combo.slug}`,
+    type: "service-city" as const,
+    slug: combo.slug,
+    path: `/services/${combo.slug}`,
+    topics: normalizeTopics([combo.service, combo.villeSlug, combo.secteurDominant]),
+    services: [combo.service],
+    priority: 60,
+  }));
+}
+
 function buildServiceNodes(): ContentNode[] {
   return SERVICE_SLUGS.map((slug) => ({
     id: `service:${slug}`,
@@ -617,6 +643,7 @@ const RESOURCE_NODES: ContentNode[] = [
 
 export const CONTENT_NODES: ContentNode[] = [
   ...buildServiceNodes(),
+  ...buildServiceCityNodes(),
   ...buildSolutionNodes(),
   ...buildBlogNodes(),
   ...buildGuideNodes(),
@@ -646,8 +673,12 @@ export const PAGE_LINKING_CONFIG: Record<
   { sections: ContentType[]; limits: Partial<Record<ContentType, number>> }
 > = {
   service: {
-    sections: ["service", "blog", "guide", "case-study", "resource"],
-    limits: { service: 3, blog: 3, guide: 2, "case-study": 2, resource: 4 },
+    sections: ["service", "service-city", "blog", "guide", "case-study", "resource"],
+    limits: { service: 3, "service-city": 3, blog: 3, guide: 2, "case-study": 2, resource: 4 },
+  },
+  "service-city": {
+    sections: ["service-city", "service", "blog", "resource"],
+    limits: { "service-city": 4, service: 2, blog: 2, resource: 3 },
   },
   blog: {
     sections: ["blog", "service", "guide", "comparison", "resource"],

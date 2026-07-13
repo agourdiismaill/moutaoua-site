@@ -1,0 +1,167 @@
+{
+  "labels": {
+    "h1": "{service} in {ville}",
+    "breadcrumb": "{service} in {ville}",
+    "process": "Our approach in {ville}",
+    "features": "What {service} includes",
+    "localProof": "Trusted in {ville}",
+    "localProofFallback": "Mohtaoua supports businesses in {ville} and across Morocco.",
+    "linkToService": "View full {service} page",
+    "share": "Share",
+    "home": "Home",
+    "services": "Services"
+  },
+  "meta": {
+    "title": "{service} in {ville} | Mohtaoua",
+    "description": "{service} in {ville}: expert support for {sector} businesses. Strategy, execution and transparent reporting. Free audit with Mohtaoua."
+  },
+  "content": {
+    "lead": "Looking for a trusted partner for {service} in {ville}? Mohtaoua combines marketing, technology and creative expertise to accelerate your growth in a demanding local market.",
+    "intro": "In {ville}, {sector} businesses must stand out in an increasingly digital competitive landscape. {description} Our team deploys tailored strategies adapted to Moroccan market realities and your local customers expectations.",
+    "closing": "Whether you are a growing SME or an established player in {ville}, we structure your {service} with measurable goals, weekly follow-up and full transparency on results."
+  },
+  "processSteps": [
+    "Free audit of your current situation and goals in {ville}",
+    "Custom strategy aligned with your sector and budget",
+    "Implementation, asset creation and campaign or deliverable launch",
+    "Continuous optimization, clear reporting and action recommendations"
+  ],
+  "sectors": {
+    "finance-industrie": {
+      "label": "finance, industry and large SMEs",
+      "context": "Casablanca hosts Morocco's largest economic basin: headquarters, industries, banks and fast-growing scale-ups. Decision-makers expect providers who deliver quickly with demonstrable ROI and premium execution.",
+      "challenges": "In this environment, digital visibility is no longer optional: without a structured presence, prospects compare your competitors in a few clicks and choose whoever inspires the most trust online.",
+      "opportunity": "Strong local positioning in Casablanca captures qualified B2B and B2C leads, strengthens your brand image and accelerates sales cycles through optimized customer journeys."
+    },
+    "administration-services": {
+      "label": "government, public services and B2B",
+      "context": "Rabat and its region host institutions, consultancies, integrators and service companies selling to demanding clients. Tone, credibility and clarity of the digital message are decisive for conversion.",
+      "challenges": "Decision cycles are often longer: without nurturing, CRM and reassurance content, opportunities cool before signing.",
+      "opportunity": "A structured digital strategy in Rabat helps you generate qualified leads, professionalize your image and automate sales follow-up so no opportunity is lost."
+    },
+    "tourisme-immobilier": {
+      "label": "tourism, real estate and hospitality",
+      "context": "Marrakech attracts investors, developers, hoteliers and luxury players. Seasonality, international competition and the importance of visuals require flawless execution across all channels.",
+      "challenges": "Many players rely only on word of mouth or one-off campaigns, without tracking or optimization — wasting budget in high season.",
+      "opportunity": "Combining premium content, targeted advertising and local SEO in Marrakech maximizes bookings, visits and quote requests throughout the year."
+    },
+    "logistique-industrie": {
+      "label": "logistics, industry and export",
+      "context": "Tangier, gateway to Africa and a major logistics hub, concentrates industrialists, exporters and B2B providers. Buyers compare offers online before any first commercial contact.",
+      "challenges": "Without a performant website, multilingual content and structured lead generation, Tangier businesses lose tenders and export opportunities.",
+      "opportunity": "Investing in digital in Tangier strengthens credibility with buyers, facilitates international acquisition and supports industrial growth."
+    },
+    "tourisme-agro": {
+      "label": "tourism, agri-food and fisheries",
+      "context": "Agadir combines seaside tourism, agri-business and sea-related activities. Local companies must capture a mixed clientele — residents, tourists and national distributors.",
+      "challenges": "Tourist seasonality and fragmented channels make it hard to manage a coherent media budget without reliable data.",
+      "opportunity": "A data-driven approach in Agadir aligns acquisition, brand image and conversion with the most profitable periods of your activity."
+    },
+    "artisanat-commerce": {
+      "label": "crafts, retail and education",
+      "context": "Fes has a rich economic fabric mixing crafts, traditional commerce, education and cultural tourism. Differentiation comes through authentic brand storytelling and a polished digital presence.",
+      "challenges": "Many local players under-invest in digital, leaving the field open to better-positioned competitors on Google and social media.",
+      "opportunity": "Structuring your acquisition and image in Fes lets you reach local and national customers while showcasing your brand identity."
+    },
+    "industrie-agro": {
+      "label": "industry and agri-food",
+      "context": "Meknes is a strategic industrial and agri-food hub. Companies seek partners who can modernize communication and sales tools without disrupting operations.",
+      "challenges": "Sales processes remain very field-based, with little digital lead tracking and outdated websites that hurt credibility with professional buyers.",
+      "opportunity": "Digitizing acquisition in Meknes improves sales productivity, reduces response times and opens new regional markets."
+    },
+    "commerce-transfrontalier": {
+      "label": "cross-border trade and commerce",
+      "context": "Oujda, a dynamic border city, sees merchants, distributors and SMEs oriented toward Algeria and eastern Morocco. Responsiveness and trust are essential buying criteria.",
+      "challenges": "Few businesses fully leverage WhatsApp, geo-targeted ads and SEO to capture very concrete, immediate local demand.",
+      "opportunity": "A digital strategy adapted to Oujda turns visibility into qualified prospect flows, with controlled acquisition cost."
+    },
+    "industrie-logistique": {
+      "label": "industry and port logistics",
+      "context": "Kenitra and its industrial zone host manufacturers, logisticians and subcontractors serving major accounts. Compliance, reliability and performance are at the heart of client expectations.",
+      "challenges": "Without a professional digital presence, local SMEs struggle to be referenced by buyers who search for providers online.",
+      "opportunity": "Strengthening your {service} in Kenitra consolidates your B2B image, facilitates talent recruitment and supports regional commercial development."
+    }
+  },
+  "cities": {
+    "casablanca": {
+      "localInsight": "In Casablanca, our clients value our ability to run ambitious projects: multi-channel campaigns, high-traffic sites, CRM integrations and executive reporting. We tailor every deliverable to targeted neighborhoods and audiences — Maarif, Anfa, Sidi Maarouf or industrial zones.",
+      "marketNote": "The Casablanca market rewards execution speed and proof by numbers: we set KPIs from launch and adjust every week."
+    },
+    "rabat": {
+      "localInsight": "In Rabat and Salé, we work with organizations that demand rigor and clarity: institutions, consultancies, schools and service companies. Our deliverables meet high editorial standards and structured validation processes.",
+      "marketNote": "The Rabat audience responds well to educational content, case studies and progressive conversion paths rather than overly aggressive approaches."
+    },
+    "marrakech": {
+      "localInsight": "In Marrakech, aesthetics and emotion come first: our campaigns and creatives highlight the customer experience, whether you target Gueliz, Hivernage or international clients seeking authenticity.",
+      "marketNote": "We calibrate budgets according to high season, local events and demand peaks to maximize every dirham invested."
+    },
+    "tanger": {
+      "localInsight": "In Tangier, we support B2B and industrial players who export or serve the greater North. Our content can be delivered in French, Arabic and English depending on your target markets.",
+      "marketNote": "Proximity to Europe and free zones requires credible, international communication — we ensure this on every touchpoint."
+    },
+    "agadir": {
+      "localInsight": "In Agadir, we combine tourist acquisition and local commercial development: mobile-friendly creatives, clear messages and WhatsApp follow-up to convert incoming requests quickly.",
+      "marketNote": "Dual tourism / agri seasonality requires a flexible media calendar — we build it with you upfront."
+    },
+    "fes": {
+      "localInsight": "In Fes, we highlight your brand authenticity while modernizing acquisition channels: social media, Google and content that speaks to the local population and visitors.",
+      "marketNote": "Word of mouth remains strong: we digitize it through reviews, social proof and geo-targeted awareness campaigns."
+    },
+    "meknes": {
+      "localInsight": "In Meknes, we help industrialists and retailers professionalize their online presence without unnecessary jargon: clear sites, product sheets and lead generation for field teams.",
+      "marketNote": "Local buyers compare several suppliers — being visible and credible first often makes the difference."
+    },
+    "oujda": {
+      "localInsight": "In Oujda, we favor concrete, fast tactics: WhatsApp Business, geo-targeted ads, mobile landing pages and automated follow-ups so no prospect is lost.",
+      "marketNote": "Responsiveness is key: we configure alerts and response processes in under one business day."
+    },
+    "kenitra": {
+      "localInsight": "In Kenitra, we serve industrial SMEs that need B2B credibility: corporate sites, technical sheets, SEO and content oriented toward buyers.",
+      "marketNote": "We align your communication with major account requirements while staying agile as a local SME."
+    }
+  },
+  "pillars": {
+    "marketing": {
+      "intro": "Côté marketing, nous structurons vos audiences, vos messages et vos budgets pour générer des leads rentables — pas seulement du trafic.",
+      "value": "Tracking complet, créatives testées A/B, tableaux de bord partagés et recommandations hebdomadaires : vous savez exactement où va chaque dirham."
+    },
+    "web": {
+      "intro": "Côté web, nous concevons des expériences rapides, mobile-first et orientées conversion, adaptées aux usages marocains.",
+      "value": "Performance, SEO technique et parcours utilisateur simplifié : votre site devient un véritable outil commercial, pas une simple vitrine."
+    },
+    "software": {
+      "intro": "Côté logiciel, nous développons des outils sur mesure, automatisations et intégrations qui fluidifient vos opérations.",
+      "value": "Moins de tâches manuelles, données centralisées et décisions plus rapides pour vos équipes à {ville} et au-delà."
+    },
+    "mobile": {
+      "intro": "Côté mobile, nous livrons des applications iOS, Android ou cross-platform alignées sur vos objectifs business.",
+      "value": "UX soignée, notifications pertinentes et analytics intégrés pour fidéliser vos utilisateurs locaux."
+    },
+    "creative": {
+      "intro": "Côté créatif, nous renforçons votre identité visuelle et produisons des assets qui inspirent confiance.",
+      "value": "Cohérence de marque sur tous les supports — du logo au packaging — pour une image premium à {ville}."
+    },
+    "photo-video": {
+      "intro": "Côté photo et vidéo, nous capturons votre univers avec une qualité broadcast adaptée aux réseaux et à la pub.",
+      "value": "Contenus prêts pour Meta, TikTok, YouTube et votre site : un seul tournage, multiples déclinaisons."
+    },
+    "events": {
+      "intro": "Côté événements, nous orchestrons l'expérience, la communication et les assets pour marquer les esprits.",
+      "value": "De la conception du stand à la couverture social media, nous maximisons la visibilité de chaque activation à {ville}."
+    }
+  },
+  "faqTemplates": [
+    {
+      "question": "Why trust Mohtaoua for {service} in {ville}?",
+      "answer": "Mohtaoua is a 360° agency based in Morocco: we combine marketing, web, software and creative under one partner. In {ville}, we tailor every strategy to the {sector} sector with transparent KPIs and a free audit to get started."
+    },
+    {
+      "question": "How long to launch {service} in {ville}?",
+      "answer": "Depending on scope, expect 1–3 weeks for campaigns or landing pages, and 4–8 weeks for a custom website or tool. We set a clear timeline from the initial audit."
+    },
+    {
+      "question": "Do you work with local SMEs in {ville}?",
+      "answer": "Yes. We support SMEs, startups and established businesses in {ville} and across Morocco. Our packs are flexible and a personalized quote is available at /contact after a free audit."
+    }
+  ]
+}

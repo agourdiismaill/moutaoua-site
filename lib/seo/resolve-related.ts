@@ -49,6 +49,32 @@ function scoreCandidate(current: ContentNode, candidate: ContentNode): number {
   const candidateSolutions = candidate.solutions ?? [];
   if (currentSolutions.some((s) => candidateSolutions.includes(s))) score += 35;
 
+  if (
+    current.type === "service-city" &&
+    candidate.type === "service-city" &&
+    current.services?.[0] &&
+    current.services[0] === candidate.services?.[0] &&
+    current.slug !== candidate.slug
+  ) {
+    score += 45;
+  }
+
+  if (
+    current.type === "service" &&
+    candidate.type === "service-city" &&
+    current.services?.[0] === candidate.services?.[0]
+  ) {
+    score += 35;
+  }
+
+  if (
+    current.type === "service-city" &&
+    candidate.type === "service" &&
+    current.services?.[0] === candidate.slug
+  ) {
+    score += 50;
+  }
+
   score += topicOverlap(current.topics, candidate.topics) * 25;
 
   if (current.category && candidate.category === current.category) score += 20;
@@ -85,7 +111,7 @@ function getCurrentNode(type: ContentType, slug: string): ContentNode {
           ? `/solutions/${slug}`
           : type === "case-study"
             ? `/case-studies/${slug}`
-            : type === "service"
+            : type === "service" || type === "service-city"
               ? `/services/${slug}`
               : `/${type}/${slug}`,
     topics: normalizeTopics([slug]),

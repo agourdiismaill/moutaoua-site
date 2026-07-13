@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:service-city-combos": "node scripts/generate-service-city-combos.mjs"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.2",

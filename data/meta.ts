@@ -138,7 +138,7 @@ export const RESULT_IDS = [
 
 export const VIDEO_IDS = ["v1", "v2", "v3", "v4", "v5", "v6"] as const;
 
-export const TESTIMONIAL_IDS = ["t1", "t2", "t3", "t4", "t5", "t6"] as const;
+export const TESTIMONIAL_IDS = ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"] as const;
 
 export const CASE_STUDY_SLUGS = [
   "skola-formation",

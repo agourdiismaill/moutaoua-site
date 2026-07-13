@@ -161,6 +161,7 @@ export function getLocalizedVideoCategories(t: TFunction): string[] {
 export function getLocalizedTestimonials(t: TFunction): Testimonial[] {
   return testimonialMeta.map((meta) => ({
     ...meta,
+    city: meta.city,
     quote: t(`items.${meta.id}.quote`),
     author: t(`items.${meta.id}.author`),
     role: t(`items.${meta.id}.role`),

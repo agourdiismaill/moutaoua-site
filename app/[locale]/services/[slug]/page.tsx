@@ -11,24 +11,36 @@ import { SeoFaqSection } from "@/components/seo/faq-section";
 import { JsonLdScript } from "@/components/seo/json-ld-script";
 import { ShareButtons } from "@/components/seo/share-buttons";
 import { TrustSection } from "@/components/seo/trust-section";
+import { ServiceCityDetail } from "@/components/seo/service-city-detail";
 import { InternalLinkingSections } from "@/components/seo/internal-linking/internal-linking-sections";
 import { buildSeoMetadata } from "@/lib/seo/metadata";
 import { buildServiceSchema, buildWebPageSchema } from "@/lib/seo/schema";
 import { buildContentBreadcrumb } from "@/lib/seo/breadcrumbs";
 import { buildPageUrl } from "@/lib/i18n-metadata";
+import { buildServiceCityPageContent } from "@/lib/service-city/content";
 import {
   getLocalizedServicePage,
   getLocalizedServices,
+  getLocalizedTestimonials,
   getServicePageSlugs,
 } from "@/lib/i18n-content";
 import { serviceMeta } from "@/data/services";
+import {
+  getServiceCityCombo,
+  isServiceCitySlug,
+  SERVICE_CITY_COMBO_SLUGS,
+} from "@/data/service-city-combos";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 import { SERVICE_SLUGS } from "@/data/meta";
 
 export function generateStaticParams() {
-  return routing.locales.flatMap((locale) =>
+  const serviceParams = routing.locales.flatMap((locale) =>
     getServicePageSlugs().map((slug) => ({ locale, slug }))
   );
+  const cityParams = routing.locales.flatMap((locale) =>
+    SERVICE_CITY_COMBO_SLUGS.map((slug) => ({ locale, slug }))
+  );
+  return [...serviceParams, ...cityParams];
 }
 
 export async function generateMetadata({
@@ -37,6 +49,22 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
+
+  if (isServiceCitySlug(slug)) {
+    const combo = getServiceCityCombo(slug)!;
+    const tServices = await getTranslations({ locale, namespace: "services" });
+    const t = await getTranslations({ locale, namespace: "serviceCityPages" });
+    const service = getLocalizedServices(tServices).find((s) => s.slug === combo.service);
+    if (!service) return {};
+    const content = buildServiceCityPageContent(t, combo, service);
+    return buildSeoMetadata({
+      locale,
+      path: `/services/${slug}`,
+      title: content.metaTitle,
+      description: content.metaDescription,
+    });
+  }
+
   if (!SERVICE_SLUGS.includes(slug as (typeof SERVICE_SLUGS)[number])) {
     return {};
   }
@@ -60,6 +88,47 @@ export default async function ServiceDetailPage({
 }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
+
+  if (isServiceCitySlug(slug)) {
+    const combo = getServiceCityCombo(slug);
+    if (!combo || !serviceMeta.some((s) => s.slug === combo.service)) notFound();
+
+    const t = await getTranslations("serviceCityPages");
+    const tPages = await getTranslations("servicePages");
+    const ts = await getTranslations("services");
+    const tt = await getTranslations("testimonials");
+    const service = getLocalizedServices(ts).find((s) => s.slug === combo.service)!;
+    const path = `/services/${slug}`;
+    const pageUrl = buildPageUrl(locale, path);
+    const content = buildServiceCityPageContent(t, combo, service);
+
+    const breadcrumb = buildContentBreadcrumb("service", {
+      home: t("labels.home"),
+      services: t("labels.services"),
+      blog: "",
+      guides: "",
+      caseStudies: "",
+      compare: "",
+      current: content.h1,
+    });
+
+    return (
+      <ServiceCityDetail
+        locale={locale}
+        combo={combo}
+        service={service}
+        testimonials={getLocalizedTestimonials(tt)}
+        breadcrumb={breadcrumb}
+        pageUrl={pageUrl}
+        t={t}
+        tPages={tPages}
+      >
+        <Suspense fallback={null}>
+          <InternalLinkingSections type="service-city" slug={slug} locale={locale} />
+        </Suspense>
+      </ServiceCityDetail>
+    );
+  }
 
   if (!serviceMeta.some((s) => s.slug === slug)) notFound();
 

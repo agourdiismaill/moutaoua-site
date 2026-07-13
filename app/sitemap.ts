@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/data/site";
 import { getCaseStudySlugs } from "@/data/case-studies";
 import { SERVICE_SLUGS } from "@/data/meta";
+import { SERVICE_CITY_COMBO_SLUGS } from "@/data/service-city-combos";
 import {
   BLOG_POST_SLUGS,
   GUIDE_SLUGS,
@@ -71,13 +72,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   const serviceRoutes = routing.locales.flatMap((locale) =>
-    SERVICE_SLUGS.map((slug) => {
+    [...SERVICE_SLUGS, ...SERVICE_CITY_COMBO_SLUGS].map((slug) => {
       const path = `/services/${slug}`;
       return {
         url: `${base}/${locale}${path}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
-        priority: 0.85,
+        priority: SERVICE_CITY_COMBO_SLUGS.includes(slug) ? 0.72 : 0.85,
         alternates: {
           languages: buildLanguages(path),
         },
