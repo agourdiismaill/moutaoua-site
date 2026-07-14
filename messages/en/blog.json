@@ -965,6 +965,189 @@
           "answer": "Yes. We install tracking, create audiences, produce creative and manage the prospecting/retargeting budget. See our packs on /pricing or request an audit on /contact."
         }
       ]
+    },
+    "tiktok-ads-maroc-guide": {
+      "title": "TikTok Ads in Morocco: the complete guide to generating leads in 2026",
+      "excerpt": "Formats, targeting, creatives, budgets and realistic CPLs: everything you need to turn TikTok into a profitable acquisition channel in Morocco.",
+      "category": "publicite",
+      "cover": "/logo-full.svg",
+      "overview": {
+        "what": "A practical, complete guide to launching, structuring and making TikTok Ads campaigns profitable in Morocco: formats, targeting, creatives, budget and tracking.",
+        "who": "Moroccan business owners, marketing managers and e-commerce brands looking to reach 18-34 year olds where Meta and Google are saturating.",
+        "benefits": [
+          "A TikTok campaign structure ready to deploy",
+          "Concrete creative rules (3-second hook, native format)",
+          "Realistic budgets and CPLs per industry in Morocco"
+        ],
+        "topics": [
+          "TikTok Ads Morocco",
+          "TikTok advertising",
+          "TikTok lead generation",
+          "Spark Ads",
+          "Short-form video creatives"
+        ],
+        "takeaways": [
+          "TikTok reaches over 40% of 18-34 year olds in Morocco with CPMs 30-50% lower than Meta",
+          "Creative drives 70% of performance: shoot native, vertical, with a hook in the first 3 seconds",
+          "Start with 150-300 MAD/day and native Lead Forms before sending traffic to a landing page"
+        ]
+      },
+      "sections": [
+        {
+          "id": "intro",
+          "heading": "Why TikTok Ads has become essential in Morocco",
+          "paragraphs": [
+            "In 2026, TikTok is no longer an entertainment platform for teenagers: it is the medium where Moroccans aged 18 to 34 spend more than an hour a day on average. While Meta's advertising costs rise every quarter and Google Ads saturates on commercial keywords, TikTok still offers CPMs 30 to 50% lower and an organic reach the other platforms lost long ago.",
+            "For a Moroccan business — training center, e-commerce brand, restaurant, clinic or real estate agency — ignoring TikTok in 2026 means handing an entire acquisition channel to your competitors. This guide covers everything you need to launch your first profitable campaign: formats, targeting, creatives, realistic budgets and the mistakes that cost real money."
+          ]
+        },
+        {
+          "id": "audience",
+          "heading": "TikTok in Morocco: who will you actually reach?",
+          "paragraphs": [
+            "TikTok has several million active users in Morocco, heavily concentrated in Casablanca, Rabat, Marrakech and Tangier. Contrary to popular belief, the audience is not limited to 15-24 year olds: the 25-34 bracket is now the fastest growing, and 35-44 year olds are arriving en masse. This is precisely the audience making purchase decisions: enrolling in a course, booking, buying online, requesting a quote.",
+            "Behavior also differs from Meta: on TikTok, users discover. They are not actively searching for a product, but they are in an exploratory mindset that makes native advertising extremely effective when it doesn't look like advertising. That is the platform's golden rule: \"Don't make ads, make TikToks\"."
+          ],
+          "bullets": [
+            "Over 40% of Moroccan 18-34 year olds active weekly on the platform",
+            "Average session time higher than Instagram and Facebook",
+            "French- and Arabic-speaking audience: adapt your creatives to both",
+            "Fast growth in the 25-44 segments — the purchase decision-makers"
+          ]
+        },
+        {
+          "id": "probleme",
+          "heading": "The problem: why most TikTok campaigns fail",
+          "paragraphs": [
+            "Most Moroccan advertisers who test TikTok Ads give up after a month. The reason is almost always the same: they recycle their Meta creatives or TV spots. A corporate video with an animated logo and stock music gets skipped in under a second on TikTok. The platform algorithmically punishes content with low completion rates: your CPM climbs, your reach collapses.",
+            "The second classic failure is lack of creative volume. On Meta, a good creative can run for three months. On TikTok, creative fatigue hits within 7 to 14 days. Without a production system capable of shipping 3 to 5 new videos per week, performance erodes mechanically, whatever your budget."
+          ]
+        },
+        {
+          "id": "formats",
+          "heading": "The TikTok Ads formats that work in Morocco",
+          "paragraphs": [
+            "TikTok offers several formats, but three concentrate most of the results for Moroccan advertisers. In-Feed Ads are the standard format: your video appears in the \"For You\" feed with a call-to-action button to your site, form or WhatsApp. Spark Ads amplify existing organic content — yours or a partner creator's — while keeping the social interactions, which massively reinforces social proof.",
+            "Lead Generation Ads, finally, collect contact details directly inside the app through a pre-filled native form. For training centers, clinics and B2C services in Morocco, it is the format with the best cost per lead: no page-load friction, no mobile drop-off."
+          ],
+          "bullets": [
+            "In-Feed Ads: the core format, ideal for traffic and site conversions",
+            "Spark Ads: organic post amplification, +30-60% engagement vs standard In-Feed",
+            "Lead Generation Ads: native form, CPL typically 20-40% lower than a landing page",
+            "TopView and Branded Effects: reserved for big brands with six-figure budgets"
+          ]
+        },
+        {
+          "id": "etapes",
+          "heading": "Launching your first campaign: the 6-step method",
+          "paragraphs": [
+            "Here is the exact sequence we apply to every new TikTok Ads account in Morocco. It favors simplicity at launch: an over-fragmented structure spreads budget thin and prevents the algorithm from learning."
+          ],
+          "bullets": [
+            "1. Create your TikTok Business Center account and install the TikTok Pixel (+ Events API for e-commerce) before spending anything",
+            "2. Set one objective per campaign: lead generation, site conversions or WhatsApp traffic — never several at once",
+            "3. Start with broad targeting: Morocco, 20-45, no interest stacking. Let the algorithm find your buyers",
+            "4. Launch with 3 to 5 different creatives in a single ad group, 150-300 MAD/day budget",
+            "5. Wait 4 to 7 days before changing anything: the algorithm needs about 50 conversions to exit the learning phase",
+            "6. Kill underperforming creatives, duplicate winners with new hook variations"
+          ]
+        },
+        {
+          "id": "creatives",
+          "heading": "Creatives: the 3-second rule",
+          "paragraphs": [
+            "On TikTok, creative accounts for roughly 70% of campaign performance — far more than targeting. The absolute rule: capture attention within the first 3 seconds, or the user scrolls and the algorithm penalizes you. Hooks that work in Morocco combine a direct verbal opener (\"Looking for a web development course in Casablanca?\"), on-screen text in Darija or French depending on the audience, and a human face from the very first frame.",
+            "Shoot vertical 9:16, in real conditions, with a smartphone: over-production kills performance. The best-converting formats are the face-to-camera customer testimonial, the before/after, the product demo in context, and the creator speaking directly to camera like organic content. Always add subtitles: over 60% of views happen with sound off."
+          ],
+          "bullets": [
+            "Verbal hook + on-screen text within the first 3 seconds",
+            "Native vertical 9:16, shot on a smartphone",
+            "Darija for mass-market, French for premium and B2B",
+            "Mandatory subtitles, clear call to action before second 20",
+            "Refresh 3 to 5 creatives per week to avoid fatigue"
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Budget, bidding and realistic CPLs in Morocco",
+          "paragraphs": [
+            "TikTok Ads remains the most affordable paid channel on the Moroccan market in 2026. Expect an average CPM of 10 to 25 MAD depending on industry and season, versus 30 to 60 MAD on Meta for comparable audiences. The technical minimum budget is about 200 MAD per day at campaign level, but we recommend 150 to 300 MAD per day per ad group to give the algorithm enough signal.",
+            "On cost per lead, the ranges we observe with our Moroccan clients: 15-40 MAD for education and B2C services with native Lead Forms, 25-60 MAD for real estate and automotive, 8-20 MAD per WhatsApp conversation for restaurants and retail. Use Lowest Cost bidding at launch; switch to Cost Cap only once your baseline CPL has stabilized over 3-4 weeks."
+          ]
+        },
+        {
+          "id": "tracking",
+          "heading": "Tracking: what to install before spending a single dirham",
+          "paragraphs": [
+            "Without reliable measurement, TikTok Ads becomes a lottery. The bare minimum: the TikTok Pixel on your site with standard events (ViewContent, AddToCart, SubmitForm, Purchase), the server-side Events API if you run e-commerce — essential since iOS restrictions —, and clean UTMs to cross-check in GA4. If your leads go to WhatsApp, track the click as a conversion and connect your CRM to follow the lead-to-customer rate.",
+            "That last number is what matters: a 20 MAD CPL converting 5% of leads into customers costs more than a 40 MAD CPL converting at 20%. Steer by cost per acquired customer, never by cost per lead alone."
+          ]
+        },
+        {
+          "id": "secteurs",
+          "heading": "What works by industry in Morocco",
+          "paragraphs": [
+            "Every industry has its own codes on TikTok. Here are the approaches generating measurable results for Moroccan advertisers in 2026."
+          ],
+          "bullets": [
+            "Education & training: alumni testimonials + native Lead Form, performance peaks at back-to-school and bac results season",
+            "E-commerce: product demos + Spark Ads with creators, dynamic catalog for retargeting",
+            "Food & restaurants: kitchen prep videos, limited offers, click-to-WhatsApp or Google Maps",
+            "Real estate: 30-45 second vertical virtual tours, 28-45 targeting, Lead Form with budget qualification",
+            "Clinics & aesthetics: platform-compliant before/afters, practitioner expertise face-to-camera"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "The 7 mistakes that burn your budget",
+          "paragraphs": [
+            "These mistakes show up in nearly every account we audit. Avoiding them saves you months and thousands of dirhams."
+          ],
+          "bullets": [
+            "Recycling Meta creatives or TV spots instead of producing native TikTok content",
+            "Touching the campaign during the learning phase (the first 50 conversions)",
+            "Over-segmenting with audiences too narrow for Moroccan volume",
+            "Launching without Pixel or Events API, then flying blind on views",
+            "Ignoring comments: on TikTok, replying feeds both the algorithm and trust",
+            "Sending traffic to a slow, non-mobile-optimized page instead of a native Lead Form",
+            "Quitting after 2 weeks: high-performing TikTok accounts are built over 60-90 days"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "TikTok in your media mix: a complement, not a replacement",
+          "paragraphs": [
+            "TikTok Ads replaces neither Meta nor Google: it complements them. The winning setup we deploy in Morocco: TikTok for discovery and low-cost demand generation, Meta for retargeting and conversion, Google to capture the search intent TikTok created. Advertisers who measure the cross-channel effect see their blended CPL drop 10-20% after 2-3 months of TikTok activation.",
+            "If you want to launch TikTok Ads without the trial-and-error phase, our team handles strategy, native creative production and continuous optimization for Moroccan businesses across industries. Request your free audit: we assess your TikTok potential and hand you a quantified action plan."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What minimum budget do I need to start TikTok Ads in Morocco?",
+          "answer": "Technically 200 MAD/day at campaign level. In practice, plan 150 to 300 MAD per day per ad group for at least 30 days — a test budget of 5,000 to 9,000 MAD to gather reliable data and exit the learning phase."
+        },
+        {
+          "question": "Does TikTok Ads work for B2B in Morocco?",
+          "answer": "Yes, but differently. Moroccan decision-makers are on TikTok personally. Expert face-to-camera content (tips, behind-the-scenes) generates qualified B2B leads, especially for professional training, services and software. CPL is often lower than LinkedIn Ads."
+        },
+        {
+          "question": "Should I create content in Darija or French?",
+          "answer": "Both, depending on your audience. Darija performs better for mass-market (e-commerce, food, retail) with higher completion rates. French remains relevant for premium, B2B and higher education. Test both variants on the same offer: the CPL gap is often 20-40%."
+        },
+        {
+          "question": "How long before I see results?",
+          "answer": "First conversions usually arrive within 7 days. Expect 3-4 weeks for a stabilized CPL and 60-90 days for a fully optimized account with a working creative system. Quitting before 30 days is the most expensive mistake."
+        },
+        {
+          "question": "Native Lead Form or landing page: which should I choose?",
+          "answer": "Start with the native Lead Form: 20-40% lower CPL thanks to zero friction. Move to a landing page when you need better qualification (budget, city, program) or online sales. Many of our clients combine both: Lead Form for volume, landing page for quality."
+        },
+        {
+          "question": "Can TikTok Ads replace Meta Ads?",
+          "answer": "No. TikTok excels at discovery and cost of reach; Meta remains superior for retargeting and conversion data depth. The optimal mix in Morocco typically allocates 20-35% of media budget to TikTok, alongside Meta and Google — with a measurable drop in blended CPL."
+        }
+      ]
     }
   },
   "backToBlog": "Back to Insights"

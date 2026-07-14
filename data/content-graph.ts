@@ -137,6 +137,12 @@ const blogMeta: Record<
     topics: ["transformation-digitale", "pme", "crm-data", "ai-agents"],
     priority: 94,
   },
+  "tiktok-ads-maroc-guide": {
+    category: "publicite",
+    services: ["tiktok-ads", "meta-ads", "reels", "landing-pages"],
+    topics: ["tiktok-ads", "publicite", "acquisition", "leads", "reels"],
+    priority: 93,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
@@ -306,6 +312,22 @@ export const EXPLICIT_RELATIONS: Record<
     guide: ["meta-ads-centre-formation", "google-ads-centre-formation"],
     comparison: ["meta-ads-vs-google-ads"],
     "case-study": ["skola-formation", "campusup-search"],
+  },
+  "tiktok-ads-maroc-guide": {
+    service: ["tiktok-ads", "meta-ads", "reels", "landing-pages"],
+    blog: [
+      "meta-ads-vs-google-ads-formation",
+      "retargeting-leads-formation-maroc",
+      "budget-marketing-centre-formation-maroc",
+      "generer-leads-centre-formation-maroc",
+    ],
+    "case-study": ["atlas-ecommerce-growth", "millennia-group-prive"],
+    comparison: ["meta-ads-vs-google-ads"],
+  },
+  "tiktok-ads": {
+    service: ["meta-ads", "reels", "social-media", "landing-pages"],
+    blog: ["tiktok-ads-maroc-guide", "retargeting-leads-formation-maroc"],
+    "case-study": ["millennia-group-prive"],
   },
   "meta-ads-centre-formation": {
     service: ["meta-ads", "landing-pages", "google-ads"],
