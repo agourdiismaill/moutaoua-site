@@ -3135,5 +3135,9 @@
         }
       ]
     }
+  },
+  "context": {
+    "title": "لمزيد من التفاصيل",
+    "body": "اطّلع على <pricing>أسعارنا وباقاتنا</pricing> لإطلاق {service}. نرافق أيضًا قطاع <industry>{industryName}</industry> ونعمل في مختلف المدن المغربية — اكتشف <city>{service} في {cityName}</city>."
   }
 }

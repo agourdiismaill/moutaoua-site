@@ -3167,5 +3167,9 @@
         "answer": "Oui. Marketing, web, logiciels, mobile, design, photo/vidéo, événements et IA."
       }
     ]
+  },
+  "context": {
+    "title": "Pour aller plus loin",
+    "body": "Consultez nos <pricing>tarifs et packs</pricing> pour lancer {service}. Nous accompagnons notamment le secteur <industry>{industryName}</industry> et intervenons partout au Maroc — découvrez <city>{service} à {cityName}</city>."
   }
 }

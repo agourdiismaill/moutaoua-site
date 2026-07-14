@@ -3135,5 +3135,9 @@
         }
       ]
     }
+  },
+  "context": {
+    "title": "Go further",
+    "body": "Check our <pricing>pricing and packages</pricing> to get started with {service}. We also support the <industry>{industryName}</industry> industry and operate across Morocco — see <city>{service} in {cityName}</city>."
   }
 }

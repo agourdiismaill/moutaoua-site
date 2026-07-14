@@ -44,12 +44,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ),
   });
 
+  const basePathPriority = (path: string): number => {
+    if (path === "") return 1.0;
+    if (path === "/pricing" || path === "/services") return 0.9;
+    if (path === "/industries" || path === "/solutions") return 0.7;
+    if (path === "/blog" || path === "/case-studies") return 0.5;
+    return 0.8;
+  };
+
   const routes = routing.locales.flatMap((locale) =>
     paths.map((path) => ({
       url: `${base}/${locale}${path}`,
       lastModified: now,
       changeFrequency: "monthly" as const,
-      priority: path === "" ? 1 : 0.8,
+      priority: basePathPriority(path),
       alternates: {
         languages: buildLanguages(path),
       },
@@ -63,7 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${base}/${locale}${path}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
-        priority: 0.7,
+        priority: 0.5,
         alternates: {
           languages: buildLanguages(path),
         },
@@ -78,7 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${base}/${locale}${path}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
-        priority: SERVICE_CITY_COMBO_SLUGS.includes(slug) ? 0.72 : 0.85,
+        priority: SERVICE_CITY_COMBO_SLUGS.includes(slug) ? 0.6 : 0.9,
         alternates: {
           languages: buildLanguages(path),
         },
@@ -93,7 +101,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${base}/${locale}${path}`,
         lastModified: now,
         changeFrequency: "weekly" as const,
-        priority: 0.75,
+        priority: 0.5,
         alternates: { languages: buildLanguages(path) },
       };
     })
@@ -132,33 +140,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${base}/${locale}${path}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
-        priority: 0.75,
+        priority: 0.7,
         alternates: { languages: buildLanguages(path) },
       };
     })
   );
-
-  const hubIndustryRoutes = routing.locales.map((locale) => {
-    const path = "/industries";
-    return {
-      url: `${base}/${locale}${path}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.85,
-      alternates: { languages: buildLanguages(path) },
-    };
-  });
-
-  const portfolioRoutes = routing.locales.map((locale) => {
-    const path = "/portfolio";
-    return {
-      url: `${base}/${locale}${path}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-      alternates: { languages: buildLanguages(path) },
-    };
-  });
 
   const solutionRoutes = routing.locales.flatMap((locale) =>
     SOLUTION_SLUGS.map((slug) => {
@@ -167,7 +153,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${base}/${locale}${path}`,
         lastModified: now,
         changeFrequency: "monthly" as const,
-        priority: 0.82,
+        priority: 0.7,
         alternates: { languages: buildLanguages(path) },
       };
     })
@@ -182,7 +168,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...guideRoutes,
     ...compareRoutes,
     ...industryRoutes,
-    ...hubIndustryRoutes,
-    ...portfolioRoutes,
   ];
 }

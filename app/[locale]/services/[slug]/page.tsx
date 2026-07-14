@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Check } from "lucide-react";
+import { Link } from "@/i18n/routing";
 import { Icon } from "@/components/shared/icon";
 import { CtaSection } from "@/components/sections/cta-section";
 import { AIOverview } from "@/components/seo/ai-overview";
@@ -30,8 +31,32 @@ import {
   isServiceCitySlug,
   SERVICE_CITY_COMBO_SLUGS,
 } from "@/data/service-city-combos";
+import { INDUSTRY_SLUGS, industryServiceMap } from "@/data/industries";
+import { CITY_SLUGS, TARGET_CITIES } from "@/data/city-sectors";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 import { SERVICE_SLUGS } from "@/data/meta";
+
+/**
+ * Cibles des liens contextuels in-body : industrie pertinente
+ * (inversée depuis industryServiceMap) et ville en rotation,
+ * pour répartir le maillage sur toutes les pages locales.
+ */
+function getContextualTargets(slug: string) {
+  const serviceIdx = Math.max(
+    0,
+    SERVICE_SLUGS.indexOf(slug as (typeof SERVICE_SLUGS)[number])
+  );
+  const industry =
+    INDUSTRY_SLUGS.find((ind) => industryServiceMap[ind]?.includes(slug)) ??
+    INDUSTRY_SLUGS[serviceIdx % INDUSTRY_SLUGS.length];
+  const city = TARGET_CITIES[serviceIdx % TARGET_CITIES.length];
+  const citySlug = `${slug}-${CITY_SLUGS[city]}`;
+  return {
+    industry,
+    city,
+    citySlug: isServiceCitySlug(citySlug) ? citySlug : null,
+  };
+}
 
 export function generateStaticParams() {
   const serviceParams = routing.locales.flatMap((locale) =>
@@ -136,7 +161,9 @@ export default async function ServiceDetailPage({
   const ts = await getTranslations("services");
   const tSeo = await getTranslations("seo");
   const ti = await getTranslations("internalLinking");
+  const tIndustries = await getTranslations("industries");
   const service = getLocalizedServices(ts).find((s) => s.slug === slug)!;
+  const contextTargets = getContextualTargets(slug);
   const page = getLocalizedServicePage(t, slug, service);
   const path = `/services/${slug}`;
   const pageUrl = buildPageUrl(locale, path);
@@ -216,6 +243,44 @@ export default async function ServiceDetailPage({
             <h2 className="mb-4 text-2xl font-semibold tracking-tight">{t("labels.solution")}</h2>
             <p className="leading-relaxed text-muted-foreground">{page.solution}</p>
           </section>
+        </div>
+      </section>
+
+      <section className="section-pad pt-0" aria-label={t("context.title")}>
+        <div className="container-max">
+          <div className="rounded-3xl border border-border bg-surface-bright p-8">
+            <p className="leading-relaxed text-muted-foreground">
+              {t.rich("context.body", {
+                service: service.title,
+                industryName: tIndustries(`items.${contextTargets.industry}.title`),
+                cityName: contextTargets.city,
+                pricing: (chunks) => (
+                  <Link href="/pricing" className="font-medium text-primary hover:underline">
+                    {chunks}
+                  </Link>
+                ),
+                industry: (chunks) => (
+                  <Link
+                    href={`/industries/${contextTargets.industry}`}
+                    className="font-medium text-primary hover:underline"
+                  >
+                    {chunks}
+                  </Link>
+                ),
+                city: (chunks) =>
+                  contextTargets.citySlug ? (
+                    <Link
+                      href={`/services/${contextTargets.citySlug}`}
+                      className="font-medium text-primary hover:underline"
+                    >
+                      {chunks}
+                    </Link>
+                  ) : (
+                    <span>{chunks}</span>
+                  ),
+              })}
+            </p>
+          </div>
         </div>
       </section>
 

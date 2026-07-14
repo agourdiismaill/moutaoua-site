@@ -384,7 +384,7 @@ export const EXPLICIT_RELATIONS: Record<
   },
   "e-nfc": {
     service: ["brand-identity", "corporate-websites", "graphic-design"],
-    solution: ["crm", "whatsapp-automation"],
+    solution: ["crm", "whatsapp-automation", "mobile-applications"],
     "case-study": ["nova-industrie-web"],
     industry: ["retail", "hotels", "restaurants"],
   },
@@ -426,7 +426,7 @@ export const EXPLICIT_RELATIONS: Record<
   },
   "website-builder": {
     service: ["corporate-websites", "landing-pages", "e-commerce"],
-    solution: ["crm", "business-intelligence"],
+    solution: ["crm", "mobile-applications", "business-intelligence"],
     "case-study": ["nova-industrie-web", "atlas-ecommerce-growth"],
     industry: ["retail", "real-estate", "hotels"],
   },
@@ -697,8 +697,8 @@ export const PAGE_LINKING_CONFIG: Record<
     limits: { service: 2, blog: 2, guide: 2, resource: 3 },
   },
   industry: {
-    sections: ["service", "case-study", "blog", "resource"],
-    limits: { service: 3, "case-study": 2, blog: 2, resource: 3 },
+    sections: ["service", "industry", "case-study", "blog", "resource"],
+    limits: { service: 3, industry: 3, "case-study": 2, blog: 2, resource: 3 },
   },
   solution: {
     sections: ["solution", "service", "case-study", "blog", "resource"],

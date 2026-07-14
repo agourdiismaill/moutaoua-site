@@ -106,6 +106,14 @@ export async function Footer() {
                 {t("solutions")}
               </Link>
             </li>
+            <li>
+              <Link
+                href="/videos"
+                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+              >
+                {t("videos")}
+              </Link>
+            </li>
           </ul>
         </nav>
 

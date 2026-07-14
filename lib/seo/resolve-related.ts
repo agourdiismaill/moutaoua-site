@@ -13,6 +13,32 @@ import {
   type ContentNode,
   type ContentType,
 } from "@/data/content-graph";
+import { getServiceCityCombo, type CitySlug } from "@/data/service-city-combos";
+import { INDUSTRY_SLUGS } from "@/data/industries";
+import { SERVICE_SLUGS } from "@/data/meta";
+
+/** Ordre canonique des villes pour la rotation du maillage */
+const CITY_ORDER: CitySlug[] = [
+  "casablanca",
+  "rabat",
+  "marrakech",
+  "tanger",
+  "agadir",
+  "fes",
+  "meknes",
+  "oujda",
+  "kenitra",
+];
+
+function cityIndexOf(serviceCitySlug: string): number {
+  const combo = getServiceCityCombo(serviceCitySlug);
+  return combo ? CITY_ORDER.indexOf(combo.villeSlug) : -1;
+}
+
+/** Distance cyclique (1..n-1) entre deux positions d'un anneau */
+function ringDistance(from: number, to: number, size: number): number {
+  return ((to - from) % size + size) % size;
+}
 
 export type ScoredNode = ContentNode & { score: number };
 
@@ -56,7 +82,16 @@ function scoreCandidate(current: ContentNode, candidate: ContentNode): number {
     current.services[0] === candidate.services?.[0] &&
     current.slug !== candidate.slug
   ) {
-    score += 45;
+    // Rotation en anneau : chaque page ville pointe vers les 4 villes
+    // suivantes du cycle, pour qu'aucune ville ne reste orpheline.
+    const curCity = cityIndexOf(current.slug);
+    const candCity = cityIndexOf(candidate.slug);
+    if (curCity >= 0 && candCity >= 0) {
+      const d = ringDistance(curCity, candCity, CITY_ORDER.length);
+      score += d >= 1 && d <= 4 ? 45 + (5 - d) : 10;
+    } else {
+      score += 45;
+    }
   }
 
   if (
@@ -64,7 +99,34 @@ function scoreCandidate(current: ContentNode, candidate: ContentNode): number {
     candidate.type === "service-city" &&
     current.services?.[0] === candidate.services?.[0]
   ) {
-    score += 35;
+    // Décalage par service : les pages service ne pointent pas toutes
+    // vers les mêmes villes, la couverture tourne sur les 9 villes.
+    const serviceIdx = SERVICE_SLUGS.indexOf(
+      current.slug as (typeof SERVICE_SLUGS)[number]
+    );
+    const candCity = cityIndexOf(candidate.slug);
+    if (serviceIdx >= 0 && candCity >= 0) {
+      const start = serviceIdx % CITY_ORDER.length;
+      const d = ringDistance(start, candCity, CITY_ORDER.length);
+      score += 35 + (CITY_ORDER.length - d);
+    } else {
+      score += 35;
+    }
+  }
+
+  if (current.type === "industry" && candidate.type === "industry") {
+    // Rotation en anneau entre industries : garantit >=3 liens entrants
+    // à chaque page industrie, y compris les non "featured".
+    const curIdx = INDUSTRY_SLUGS.indexOf(
+      current.slug as (typeof INDUSTRY_SLUGS)[number]
+    );
+    const candIdx = INDUSTRY_SLUGS.indexOf(
+      candidate.slug as (typeof INDUSTRY_SLUGS)[number]
+    );
+    if (curIdx >= 0 && candIdx >= 0) {
+      const d = ringDistance(curIdx, candIdx, INDUSTRY_SLUGS.length);
+      if (d >= 1 && d <= 3) score += 40 + (4 - d);
+    }
   }
 
   if (
