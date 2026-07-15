@@ -12,6 +12,7 @@ export const BLOG_POST_SLUGS = [
   "tiktok-ads-maroc-guide",
   "crm-entreprise-maroc-guide",
   "marketing-automation-maroc-guide",
+  "archidoc-archivage-electronique-maroc",
 ] as const;
 
 export const BLOG_CATEGORIES = [
@@ -69,6 +70,7 @@ export const BLOG_PUBLISHED: Record<BlogPostSlug, string> = {
   "tiktok-ads-maroc-guide": "2026-07-15",
   "crm-entreprise-maroc-guide": "2026-07-16",
   "marketing-automation-maroc-guide": "2026-07-17",
+  "archidoc-archivage-electronique-maroc": "2026-07-18",
 };
 
 export const AUTHOR = {

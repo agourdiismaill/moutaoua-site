@@ -164,6 +164,12 @@ const blogMeta: Record<
     topics: ["marketing-automation", "whatsapp", "nurturing", "hubspot", "make", "zapier"],
     priority: 97,
   },
+  "archidoc-archivage-electronique-maroc": {
+    category: "business",
+    services: ["custom-software", "workflow-automation", "crm-data", "api-integration"],
+    topics: ["archidoc", "ged", "archivage", "ocr", "cndp", "conformite"],
+    priority: 98,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
@@ -439,11 +445,22 @@ export const EXPLICIT_RELATIONS: Record<
       "crm-entreprise-maroc-guide",
       "whatsapp-convertir-leads-formation-maroc",
       "checklist-landing-page-formation",
-      "generer-leads-centre-formation-maroc",
+      "archidoc-archivage-electronique-maroc",
     ],
     "case-study": ["edunext-automation", "skola-formation"],
     solution: ["crm", "whatsapp-automation"],
     guide: ["guide-marketing-digital-maroc"],
+  },
+  "archidoc-archivage-electronique-maroc": {
+    service: ["custom-software", "workflow-automation", "api-integration", "crm-data"],
+    blog: [
+      "crm-entreprise-maroc-guide",
+      "transformation-digitale-pme-maroc",
+      "marketing-automation-maroc-guide",
+    ],
+    solution: ["archidoc", "crm", "business-automation"],
+    industry: ["law-firms", "healthcare", "accounting-firms", "government", "factories"],
+    "case-study": ["medina-clinic-digital", "nova-industrie-web"],
   },
   "tiktok-ads": {
     service: ["meta-ads", "reels", "social-media", "landing-pages"],
@@ -606,6 +623,7 @@ export const EXPLICIT_RELATIONS: Record<
     solution: ["business-automation", "crm"],
     "case-study": ["nova-industrie-web", "medina-clinic-digital"],
     industry: ["healthcare", "law-firms", "government"],
+    blog: ["archidoc-archivage-electronique-maroc", "crm-entreprise-maroc-guide", "transformation-digitale-pme-maroc"],
   },
   "erp-restaurant": {
     service: ["erp", "custom-software", "automation"],

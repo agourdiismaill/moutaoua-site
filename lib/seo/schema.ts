@@ -286,6 +286,32 @@ export function buildArticleSchema(input: {
   };
 }
 
+export function buildVideoObjectSchema(input: {
+  name: string;
+  description: string;
+  contentUrl: string;
+  thumbnailUrl: string;
+  uploadDate: string;
+}): SchemaRecord {
+  return {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: input.name,
+    description: input.description,
+    contentUrl: input.contentUrl,
+    thumbnailUrl: input.thumbnailUrl,
+    uploadDate: input.uploadDate,
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}/logo-full.svg`,
+      },
+    },
+  };
+}
+
 export function buildBlogPostingSchema(input: {
   headline: string;
   description: string;

@@ -1537,6 +1537,210 @@
           "answer": "Pour 1-2 commerciaux, WhatsApp Business App avec réponses rapides manuelles peut suffire au début. Dès que vous dépassez 50 leads/mois ou 3 utilisateurs, l'API Business devient nécessaire pour assignation, historique CRM et templates."
         }
       ]
+    },
+    "archidoc-archivage-electronique-maroc": {
+      "cover": "/logo-full.svg",
+      "title": "Archivage électronique au Maroc : cadre légal, démarrage et solution Archidoc",
+      "excerpt": "Loi 09-08, conservation des documents, valeur probante : guide complet pour passer à l'archivage numérique avec Archidoc, la GED Mohtaoua hébergée au Maroc.",
+      "category": "business",
+      "overview": {
+        "what": "Guide expert sur l'archivage électronique au Maroc : obligations légales, méthode de démarrage, avantages d'Archidoc (GED, OCR, workflows) et intégration CRM pour cabinets, cliniques et administrations.",
+        "who": "Dirigeants, DSI, responsables administratifs, cabinets juridiques et comptables, cliniques et services publics qui gèrent encore des dossiers papier.",
+        "benefits": [
+          "Comprendre le cadre légal marocain (CNDP, conservation, preuve électronique)",
+          "Plan de migration en 4 étapes sans bloquer l'activité",
+          "Découvrir Archidoc : OCR multilingue, workflows et archivage conforme"
+        ],
+        "topics": [
+          "Archivage électronique Maroc",
+          "GED",
+          "Archidoc",
+          "Loi 09-08 CNDP",
+          "OCR arabe français",
+          "Valeur probante"
+        ],
+        "takeaways": [
+          "L'archivage papier coûte cher, ralentit les audits et expose aux pertes — la digitalisation n'est plus optionnelle",
+          "La loi 09-08 et la loi 53-05 encadrent données personnelles et échanges électroniques au Maroc",
+          "Archidoc combine GED, OCR, workflows et hébergement sécurisé au Maroc, avec options selon volume"
+        ]
+      },
+      "sections": [
+        {
+          "id": "intro",
+          "heading": "Pourquoi l'archivage électronique est devenu prioritaire au Maroc",
+          "paragraphs": [
+            "Cabinets juridiques, comptables, cliniques, administrations et industries marocaines produvent des milliers de documents chaque année : contrats, factures, dossiers patients, pièces comptables, correspondances. Stockés en cartons, classeurs et armoires, ces documents deviennent introuvables, illisibles ou perdus — au moment précis où un audit, un contrôle fiscal ou un contentieux les exige.",
+            "L'archivage électronique (ou GED — Gestion Électronique des Documents) répond à un double enjeu : gagner en productivité au quotidien et respecter les obligations légales de conservation et de protection des données. Ce guide explique comment démarrer au Maroc, ce que dit le droit local, et pourquoi Archidoc — solution propriétaire Mohtaoua — est conçue pour ce contexte."
+          ]
+        },
+        {
+          "id": "probleme",
+          "heading": "Le problème des dossiers papier",
+          "paragraphs": [
+            "Sans système centralisé, chaque collaborateur archive « à sa manière ». Une recherche de contrat signé en 2022 peut prendre une heure. Un dossier patient incomplet bloque une consultation. Un audit CNDP ou un contrôle révèle l'absence de traçabilité sur qui a consulté quoi. Les coûts de stockage physique (m², archiviste, transport) augmentent chaque année alors que le volume numérique pourrait être indexé en secondes."
+          ],
+          "bullets": [
+            "Recherche lente et doublons (plusieurs versions du même document)",
+            "Risque de perte, dégradation ou accès non autorisé",
+            "Difficulté à prouver la conformité lors d'audits",
+            "Télétravail impossible sans accès distant sécurisé",
+            "Coûts de stockage physique en hausse"
+          ]
+        },
+        {
+          "id": "cadre-legal",
+          "heading": "Cadre juridique marocain : ce que votre entreprise doit savoir",
+          "paragraphs": [
+            "Le Maroc dispose d'un cadre juridique structurant la protection des données et les échanges électroniques. Ce n'est pas un conseil juridique formel — consultez votre avocat pour votre secteur — mais voici les textes de référence que tout responsable archivage doit connaître.",
+            "La loi n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel, modifiée par la loi n° 43-20, encadre la collecte, le traitement et la conservation des données personnelles. La CNDP (Commission Nationale de contrôle de la protection des Données à caractère Personnel) veille au respect de ces règles. Tout système d'archivage contenant des données personnelles (dossiers clients, patients, salariés) doit garantir sécurité, limitation des accès et traçabilité.",
+            "La loi n° 53-05 relative à l'échange électronique des données juridiques pose les bases de la reconnaissance des documents et signatures électroniques dans les relations juridiques. Combinée à des mécanismes d'horodatage, d'empreintes et de journal d'audit, un archivage électronique bien conçu peut renforcer la valeur probante de vos documents numériques.",
+            "Par ailleurs, le Code de commerce et les usages comptables imposent des durées de conservation spécifiques (souvent 10 ans pour les pièces comptables). Votre politique d'archivage doit prévoir des durées de rétention, des règles de destruction sécurisée et des exports pour les contrôles."
+          ],
+          "bullets": [
+            "Loi 09-08 + loi 43-20 : protection des données, déclarations CNDP si applicable",
+            "Loi 53-05 : échange électronique et cadre de la preuve numérique",
+            "Conservation légale : durées variables selon type de document (comptable, RH, juridique)",
+            "Exigences sectorielles : santé, juridique, public — règles additionnelles possibles",
+            "Hébergement et transferts : privilégier un hébergement au Maroc pour données sensibles"
+          ]
+        },
+        {
+          "id": "comment-commencer",
+          "heading": "Comment commencer l'archivage électronique en 4 étapes",
+          "paragraphs": [
+            "La migration ne se fait pas en un week-end. Une approche progressive limite les risques et favorise l'adoption par les équipes."
+          ],
+          "bullets": [
+            "Étape 1 — Audit documentaire : inventorier types de documents, volumes, départements, durées légales de conservation",
+            "Étape 2 — Plan de classement : arborescence unique (par client, dossier, année, type) validée par la direction",
+            "Étape 3 — Numérisation & import : scanner l'historique prioritaire + connecter les nouveaux flux (email, ERP, CRM)",
+            "Étape 4 — Workflows & droits : définir qui consulte, valide, signe ; former ; mesurer le temps de recherche avant/après"
+          ]
+        },
+        {
+          "id": "demo-archidoc",
+          "heading": "Démonstration Archidoc en vidéo",
+          "paragraphs": [
+            "Découvrez en quelques minutes comment Archidoc structure l'import, le classement OCR et la recherche documentaire. Cette démo présente l'interface, les workflows et la logique d'archivage sécurisé pensée pour les organisations marocaines."
+          ],
+          "video": {
+            "src": "/blog/videos/archidoc-demo.mp4",
+            "caption": "Démonstration Archidoc — GED, OCR et archivage documentaire sécurisé"
+          }
+        },
+        {
+          "id": "archidoc",
+          "heading": "Archidoc : la GED Mohtaoua pour le Maroc",
+          "paragraphs": [
+            "Archidoc est la solution de gestion documentaire et d'archivage développée par Mohtaoua. Elle digitalise, indexe et sécurise vos documents avec OCR multilingue (arabe, français, anglais), workflows de validation, recherche full-text instantanée et archivage conforme aux exigences de traçabilité.",
+            "Contrairement à une simple bibliothèque de fichiers, Archidoc structure le cycle de vie documentaire : réception, indexation, validation, conservation, consultation et destruction programmée. Elle s'intègre à l'écosystème Mohtaoua : CRM pour lier documents et relations clients, automatisation pour les relances et notifications, et API pour connecter ERP ou outils métier."
+          ]
+        },
+        {
+          "id": "avantages",
+          "heading": "Les avantages concrets d'Archidoc",
+          "paragraphs": [
+            "Les organisations qui déploient Archidoc constatent des gains mesurables dès les premières semaines."
+          ],
+          "bullets": [
+            "Recherche full-text en secondes (OCR sur PDF scannés et images)",
+            "Gain de temps administratif : fin des classeurs et recherches manuelles",
+            "Conformité : journal d'audit, horodatage, empreintes, droits par rôle",
+            "Réduction des coûts de stockage physique et des risques de perte",
+            "Accès distant sécurisé pour télétravail et multi-sites",
+            "OCR arabe et français : adapté au contexte marocain bilingue",
+            "Hébergement sécurisé au Maroc avec sauvegardes chiffrées"
+          ]
+        },
+        {
+          "id": "options",
+          "heading": "Options et modules Archidoc",
+          "paragraphs": [
+            "Archidoc s'adapte à votre volume et à votre secteur. La licence est mensuelle selon le volume documentaire et les modules activés — devis personnalisé après audit."
+          ],
+          "bullets": [
+            "Module Numérisation & OCR : import masse, reconnaissance multilingue, correction assistée",
+            "Module GED & classement : arborescence, métadonnées, versioning",
+            "Module Workflows : circuits de validation, signatures, notifications",
+            "Module Archivage légal : rétention, gel légal, export audit",
+            "Module Accès & sécurité : rôles, MFA, logs de consultation",
+            "Intégration CRM Mohtaoua : lier dossiers clients et pièces jointes",
+            "API & connecteurs : ERP, email, scanners réseau"
+          ]
+        },
+        {
+          "id": "secteurs",
+          "heading": "Pour quels secteurs au Maroc ?",
+          "paragraphs": [
+            "Archidoc est déployée chez des profils exigeants en confidentialité et en volume documentaire."
+          ],
+          "bullets": [
+            "Cabinets juridiques : dossiers clients, conclusions, pièces, délais",
+            "Cabinets comptables : pièces comptables, déclarations, conservation 10 ans",
+            "Cliniques & hôpitaux : dossiers patients, comptes-rendus, imagerie (hors PACS)",
+            "Administrations & collectivités : courrier, marchés publics, archives",
+            "Industries : qualité, conformité, contrats fournisseurs"
+          ]
+        },
+        {
+          "id": "crm",
+          "heading": "Archidoc + CRM Mohtaoua : le duo documentaire et commercial",
+          "paragraphs": [
+            "L'archivage ne vit pas en silo. Relier Archidoc au CRM Mohtaoua permet d'associer chaque document à un contact, une opportunité ou un dossier client. Un commercial retrouve le devis signé en un clic ; un comptable accède aux pièces liées à la facture ; un cabinet juridique ouvre le dossier complet depuis la fiche client.",
+            "Cette intégration évite la double saisie et garantit que les documents produits par vos campagnes (contrats, KYC, pièces d'identité) sont stockés au bon endroit, avec les bonnes permissions, dès leur réception via formulaire, WhatsApp ou email."
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Erreurs fréquentes à éviter",
+          "paragraphs": [
+            "Ces erreurs retardent ou font échouer les projets GED au Maroc."
+          ],
+          "bullets": [
+            "Numériser sans plan de classement (on recrée le chaos numérique)",
+            "Ignorer la CNDP et les durées légales de conservation",
+            "Choisir un hébergement hors Maroc sans analyse des transferts",
+            "Oublier la formation des équipes — l'outil reste vide",
+            "Négliger les workflows de validation sur documents sensibles",
+            "Ne pas prévoir la migration progressive (tout scanner d'un coup)"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Passez à l'archivage structuré avec Archidoc",
+          "paragraphs": [
+            "L'archivage électronique n'est plus un projet « pour plus tard » : c'est une condition de compétitivité, de conformité et de sérénité face aux audits. Archidoc vous accompagne de l'audit documentaire à la formation, avec une solution hébergée au Maroc et pensée pour l'arabe, le français et les réalités des PME et structures réglementées.",
+            "Demandez une démo personnalisée sur la page solution Archidoc ou contactez Mohtaoua pour un audit documentaire gratuit : nous évaluons votre volume, votre cadre légal et vous proposons un plan de déploiement chiffré."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Archidoc est-il conforme à la loi 09-08 au Maroc ?",
+          "answer": "Archidoc intègre contrôle d'accès, journal d'audit, chiffrement et hébergement sécurisé au Maroc. La conformité complète dépend aussi de vos processus internes et de vos déclarations CNDP le cas échéant. Nous vous accompagnons sur la mise en conformité technique."
+        },
+        {
+          "question": "L'OCR fonctionne-t-il en arabe et en français ?",
+          "answer": "Oui. Archidoc propose un OCR multilingue arabe, français et anglais avec correction assistée — essentiel pour les documents marocains bilingues."
+        },
+        {
+          "question": "Peut-on conserver la valeur probante des documents ?",
+          "answer": "Archidoc applique horodatage, empreintes et journal d'audit pour renforcer la traçabilité. La valeur probante juridique dépend du type de document et du cadre légal applicable — nous configurons l'archivage selon vos exigences sectorielles."
+        },
+        {
+          "question": "Combien de temps pour déployer Archidoc ?",
+          "answer": "Un pilote sur un département peut être opérationnel en 2 à 3 semaines. Une migration complète se planifie sur 1 à 3 mois selon le volume historique à numériser."
+        },
+        {
+          "question": "Archidoc remplace-t-il un CRM ?",
+          "answer": "Non, Archidoc est une GED d'archivage. Elle se connecte au CRM Mohtaoua pour lier documents et relations clients — le duo couvre archivage et suivi commercial."
+        },
+        {
+          "question": "Quel budget pour Archidoc ?",
+          "answer": "Licence mensuelle selon volume documentaire et modules (OCR, workflows, archivage légal). Devis personnalisé après audit — voir la page /solutions/archidoc."
+        }
+      ]
     }
   },
   "backToBlog": "Retour aux Insights"

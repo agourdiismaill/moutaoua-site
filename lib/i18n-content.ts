@@ -353,6 +353,11 @@ export type BlogSection = {
   heading: string;
   paragraphs: string[];
   bullets?: string[];
+  video?: {
+    src: string;
+    poster?: string;
+    caption?: string;
+  };
 };
 
 export function getLocalizedBlogPosts(t: TFunction) {
@@ -366,6 +371,7 @@ export function getLocalizedBlogPosts(t: TFunction) {
       faqs: { question: string; answer: string }[];
       overview?: Omit<AIOverviewContent, "readingTimeMinutes">;
       relatedServices?: string[];
+      video?: { src: string; poster?: string; caption?: string };
     };
     const categoryLabel = t(`categories.${post.category}`);
     return {

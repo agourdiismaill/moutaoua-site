@@ -1536,6 +1536,203 @@
           "answer": "For 1-2 reps, WhatsApp Business App with quick replies may suffice initially. Beyond 50 leads/month or 3 users, Business API becomes necessary."
         }
       ]
+    },
+    "archidoc-archivage-electronique-maroc": {
+      "cover": "/logo-full.svg",
+      "title": "Electronic archiving in Morocco: legal framework, getting started and Archidoc",
+      "excerpt": "Law 09-08, document retention, legal validity: complete guide to digital archiving with Archidoc, Mohtaoua's Morocco-hosted DMS.",
+      "category": "business",
+      "overview": {
+        "what": "Expert guide on electronic archiving in Morocco: legal obligations, startup method, Archidoc benefits (DMS, OCR, workflows) and CRM integration.",
+        "who": "Executives, IT managers, legal and accounting firms, clinics and public services still managing paper files.",
+        "benefits": [
+          "Understand Moroccan legal framework (CNDP, retention, electronic proof)",
+          "4-step migration plan without disrupting operations",
+          "Discover Archidoc: multilingual OCR, workflows and compliant archiving"
+        ],
+        "topics": [
+          "Electronic archiving Morocco",
+          "DMS",
+          "Archidoc",
+          "Law 09-08",
+          "OCR",
+          "Legal validity"
+        ],
+        "takeaways": [
+          "Paper archiving is costly and risky — digitization is no longer optional",
+          "Laws 09-08 and 53-05 frame data protection and electronic exchanges in Morocco",
+          "Archidoc combines DMS, OCR, workflows and secure Morocco hosting"
+        ]
+      },
+      "sections": [
+        {
+          "id": "intro",
+          "heading": "Why electronic archiving is now a priority in Morocco",
+          "paragraphs": [
+            "Moroccan businesses produce thousands of documents yearly. Stored in boxes and binders, they become impossible to find when audits or disputes arise. Electronic archiving (DMS) addresses productivity and legal compliance — this guide explains how to start and why Archidoc by Mohtaoua fits the local context."
+          ]
+        },
+        {
+          "id": "probleme",
+          "heading": "The paper file problem",
+          "paragraphs": [
+            "Without a centralized system, every employee archives differently. Searches take hours, audits fail, and physical storage costs keep rising."
+          ],
+          "bullets": [
+            "Slow search and duplicate versions",
+            "Loss and unauthorized access risks",
+            "Hard to prove compliance",
+            "No secure remote access",
+            "Rising storage costs"
+          ]
+        },
+        {
+          "id": "cadre-legal",
+          "heading": "Moroccan legal framework",
+          "paragraphs": [
+            "Law 09-08 (as amended by Law 43-20) governs personal data protection under CNDP supervision. Law 53-05 covers electronic exchange of legal data and electronic signatures. Commercial code imposes retention periods (often 10 years for accounting records). Consult legal counsel for your sector — this is general information."
+          ],
+          "bullets": [
+            "Law 09-08 + 43-20: data protection",
+            "Law 53-05: electronic proof",
+            "Retention by document type",
+            "Sector-specific rules",
+            "Prefer Morocco hosting for sensitive data"
+          ]
+        },
+        {
+          "id": "comment-commencer",
+          "heading": "How to start in 4 steps",
+          "bullets": [
+            "Step 1 — Document audit: types, volumes, departments, legal retention",
+            "Step 2 — Classification plan: single tree validated by management",
+            "Step 3 — Scan & import: priority history + new flows",
+            "Step 4 — Workflows & rights: roles, training, measure search time"
+          ],
+          "paragraphs": [
+            "Progressive migration limits risk and improves team adoption."
+          ]
+        },
+        {
+          "id": "demo-archidoc",
+          "heading": "Archidoc video demonstration",
+          "paragraphs": [
+            "Watch how Archidoc handles import, OCR classification and secure document search — designed for Moroccan organizations."
+          ],
+          "video": {
+            "src": "/blog/videos/archidoc-demo.mp4",
+            "caption": "Archidoc demo — DMS, OCR and secure document archiving"
+          }
+        },
+        {
+          "id": "archidoc",
+          "heading": "Archidoc: Mohtaoua's DMS for Morocco",
+          "paragraphs": [
+            "Archidoc digitizes, indexes and secures documents with multilingual OCR, validation workflows, full-text search and compliant archiving. It integrates with Mohtaoua CRM, automation and APIs for ERP connectivity."
+          ]
+        },
+        {
+          "id": "avantages",
+          "heading": "Concrete benefits of Archidoc",
+          "bullets": [
+            "Full-text search in seconds",
+            "Less admin time, no more binders",
+            "Audit trail, timestamps, role-based access",
+            "Lower physical storage costs",
+            "Secure remote access",
+            "Arabic & French OCR",
+            "Secure hosting in Morocco"
+          ],
+          "paragraphs": [
+            "Measurable gains within the first weeks of deployment."
+          ]
+        },
+        {
+          "id": "options",
+          "heading": "Archidoc options and modules",
+          "paragraphs": [
+            "Monthly license based on document volume and modules — custom quote after audit."
+          ],
+          "bullets": [
+            "Scanning & OCR module",
+            "DMS & classification",
+            "Validation workflows",
+            "Legal archiving & retention",
+            "Access & security roles",
+            "Mohtaoua CRM integration",
+            "API & connectors"
+          ]
+        },
+        {
+          "id": "secteurs",
+          "heading": "Which sectors in Morocco?",
+          "bullets": [
+            "Law firms",
+            "Accounting firms",
+            "Clinics & hospitals",
+            "Public administration",
+            "Industry & compliance"
+          ],
+          "paragraphs": [
+            "Archidoc serves profiles with high confidentiality and document volume."
+          ]
+        },
+        {
+          "id": "crm",
+          "heading": "Archidoc + Mohtaoua CRM",
+          "paragraphs": [
+            "Link every document to a contact, opportunity or client file. Sales finds signed quotes instantly; accounting accesses invoice attachments; law firms open complete case files from the client record."
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Common mistakes to avoid",
+          "bullets": [
+            "Scanning without a classification plan",
+            "Ignoring CNDP and retention rules",
+            "Offshore hosting without transfer analysis",
+            "Skipping team training",
+            "No validation workflows on sensitive docs",
+            "Trying to digitize everything at once"
+          ],
+          "paragraphs": [
+            "These mistakes delay or derail DMS projects in Morocco."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Move to structured archiving with Archidoc",
+          "paragraphs": [
+            "Electronic archiving is a compliance and competitiveness requirement. Request a personalized demo at /solutions/archidoc or contact Mohtaoua for a free document audit."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is Archidoc compliant with Law 09-08?",
+          "answer": "Archidoc includes access control, audit logs, encryption and Morocco hosting. Full compliance also depends on your processes and CNDP declarations if applicable."
+        },
+        {
+          "question": "Does OCR work in Arabic and French?",
+          "answer": "Yes — multilingual OCR with assisted correction for Moroccan bilingual documents."
+        },
+        {
+          "question": "Can we preserve legal validity?",
+          "answer": "Archidoc uses timestamps, hashes and audit trails. Legal validity depends on document type and applicable law."
+        },
+        {
+          "question": "Deployment timeline?",
+          "answer": "Department pilot in 2-3 weeks. Full migration planned over 1-3 months depending on volume."
+        },
+        {
+          "question": "Does Archidoc replace a CRM?",
+          "answer": "No — it's a DMS that connects to Mohtaoua CRM for document-client linking."
+        },
+        {
+          "question": "Pricing?",
+          "answer": "Monthly license by volume and modules. Custom quote after audit on /solutions/archidoc."
+        }
+      ]
     }
   },
   "backToBlog": "Back to Insights"

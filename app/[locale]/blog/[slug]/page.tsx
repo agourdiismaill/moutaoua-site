@@ -24,7 +24,7 @@ import { getLocalizedBlogPost } from "@/lib/i18n-content";
 import { buildContentBreadcrumb } from "@/lib/seo/breadcrumbs";
 import { buildPageUrl } from "@/lib/i18n-metadata";
 import { buildSeoMetadata } from "@/lib/seo/metadata";
-import { buildBlogPostingSchema } from "@/lib/seo/schema";
+import { buildBlogPostingSchema, buildVideoObjectSchema } from "@/lib/seo/schema";
 import { estimateReadingTimeFromParts } from "@/lib/seo/reading-time";
 import { siteConfig } from "@/data/site";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
@@ -96,6 +96,7 @@ export default async function BlogPostPage({
   const readingMinutes = estimateReadingTimeFromParts(textParts);
 
   const toc = post.sections.map((s) => ({ id: s.id, label: s.heading }));
+  const demoVideo = post.sections.find((s) => s.video)?.video;
 
   const overviewLabels = {
     title: tServicePages("labels.aiOverview"),
@@ -120,6 +121,17 @@ export default async function BlogPostPage({
           authorName: t("author.name"),
         })}
       />
+      {demoVideo && (
+        <JsonLdScript
+          data={buildVideoObjectSchema({
+            name: post.title,
+            description: post.excerpt,
+            contentUrl: `${siteConfig.url}${demoVideo.src}`,
+            thumbnailUrl: `${siteConfig.url}${post.cover}`,
+            uploadDate: post.published,
+          })}
+        />
+      )}
 
       <header className="section-pad pt-32 md:pt-40">
         <div className="container-max space-y-6">
@@ -199,6 +211,24 @@ export default async function BlogPostPage({
                       </li>
                     ))}
                   </ul>
+                )}
+                {section.video && (
+                  <figure className="mt-6 overflow-hidden rounded-2xl border border-border bg-card shadow-soft">
+                    <video
+                      controls
+                      playsInline
+                      preload="metadata"
+                      poster={section.video.poster}
+                      className="aspect-video w-full bg-black object-contain"
+                    >
+                      <source src={section.video.src} type="video/mp4" />
+                    </video>
+                    {section.video.caption && (
+                      <figcaption className="border-t border-border px-4 py-3 text-sm text-muted-foreground">
+                        {section.video.caption}
+                      </figcaption>
+                    )}
+                  </figure>
                 )}
               </section>
             ))}
