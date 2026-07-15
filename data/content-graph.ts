@@ -143,6 +143,12 @@ const blogMeta: Record<
     topics: ["tiktok-ads", "publicite", "acquisition", "leads", "reels"],
     priority: 93,
   },
+  "crm-entreprise-maroc-guide": {
+    category: "automation",
+    services: ["crm-data", "marketing-automation", "lead-generation", "whatsapp-automation"],
+    topics: ["crm-data", "marketing-automation", "whatsapp", "leads", "hubspot", "pipedrive"],
+    priority: 96,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
@@ -267,9 +273,10 @@ export const EXPLICIT_RELATIONS: Record<
     "case-study": ["millennia-group-prive"],
   },
   "crm-data": {
-    service: ["marketing-automation", "meta-ads", "google-ads"],
+    service: ["marketing-automation", "meta-ads", "google-ads", "lead-generation"],
     "case-study": ["edunext-automation"],
-    blog: ["whatsapp-convertir-leads-formation-maroc"],
+    blog: ["whatsapp-convertir-leads-formation-maroc", "crm-entreprise-maroc-guide"],
+    solution: ["crm", "whatsapp-automation"],
   },
   "generer-leads-centre-formation-maroc": {
     service: ["meta-ads", "google-ads", "landing-pages"],
@@ -290,7 +297,7 @@ export const EXPLICIT_RELATIONS: Record<
   },
   "whatsapp-convertir-leads-formation-maroc": {
     service: ["marketing-automation", "crm-data"],
-    blog: ["checklist-landing-page-formation", "generer-leads-centre-formation-maroc"],
+    blog: ["checklist-landing-page-formation", "generer-leads-centre-formation-maroc", "crm-entreprise-maroc-guide"],
     "case-study": ["edunext-automation"],
   },
   "budget-marketing-centre-formation-maroc": {
@@ -320,9 +327,21 @@ export const EXPLICIT_RELATIONS: Record<
       "retargeting-leads-formation-maroc",
       "budget-marketing-centre-formation-maroc",
       "generer-leads-centre-formation-maroc",
+      "crm-entreprise-maroc-guide",
     ],
     "case-study": ["atlas-ecommerce-growth", "millennia-group-prive"],
     comparison: ["meta-ads-vs-google-ads"],
+  },
+  "crm-entreprise-maroc-guide": {
+    service: ["crm-data", "marketing-automation", "lead-generation", "whatsapp-automation"],
+    blog: [
+      "whatsapp-convertir-leads-formation-maroc",
+      "tiktok-ads-maroc-guide",
+      "generer-leads-centre-formation-maroc",
+      "transformation-digitale-pme-maroc",
+    ],
+    "case-study": ["edunext-automation", "skola-formation"],
+    solution: ["crm", "whatsapp-automation"],
   },
   "tiktok-ads": {
     service: ["meta-ads", "reels", "social-media", "landing-pages"],
