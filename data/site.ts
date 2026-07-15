@@ -5,9 +5,9 @@ export const siteConfig = {
   shortName: "Mohtaoua",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://mohtaoua.ma",
   email: "contact@mohtaoua.ma",
-  phone: "+212 642-830060",
+  phone: "+212 694-615342",
   phone2: "+212 664-593758",
-  whatsapp: "+212 642-830060",
+  whatsapp: "+212 694-615342",
   postalCode: "20270",
   /** Legal identifiers — complete before public launch if available */
   legalForm: "",
