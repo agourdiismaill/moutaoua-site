@@ -38,9 +38,11 @@ type PageOverrides = {
 export async function LocalizedPageHeader({
   page,
   overrides,
+  visual,
 }: {
   page: PageKey;
   overrides?: PageOverrides;
+  visual?: React.ReactNode;
 }) {
   const t = await getTranslations(`pages.${page}`);
 
@@ -55,6 +57,7 @@ export async function LocalizedPageHeader({
             highlight: (chunks) => <span className="text-gradient">{chunks}</span>,
           })}
       description={overrides?.description ?? t("description")}
+      visual={visual}
     />
   );
 }

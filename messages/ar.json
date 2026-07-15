@@ -46,7 +46,9 @@
     "compareMetaGoogle": "Meta مقابل Google Ads",
     "industries": "القطاعات",
     "solutions": "الحلول",
-    "videos": "مكتبة الفيديو"
+    "videos": "مكتبة الفيديو",
+    "socialProof": "شريك النمو الرقمي للشركات المغربية",
+    "certifications": "منهجية منظمة وتقارير شفافة وخبرة معتمدة من شركائنا في المنصات."
   },
   "hero": {
     "badge": "وكالة رقمية متميزة 360° — المغرب",
@@ -66,7 +68,19 @@
     "clientAlt": "عميل شركة",
     "dashboardAlt": "لوحة تحكم رقمية تعرض أداء التسويق والتكنولوجيا",
     "statProjects": "200+",
-    "statSectors": "15+"
+    "statSectors": "15+",
+    "dashboardLive": "بيانات مباشرة",
+    "dashboardEyebrow": "نظرة عامة",
+    "dashboardTitle": "الأداء الرقمي",
+    "dashboardTabsLabel": "طرق عرض لوحة التحكم",
+    "dashboardTabs": {
+      "overview": "نظرة عامة",
+      "acquisition": "الاستحواذ",
+      "pipeline": "مسار العملاء"
+    },
+    "dashboardChartTitle": "تطور الأداء",
+    "dashboardInsight": "الحملات تتقدم فوق المتوسط",
+    "dashboardViewCount": "العرض {count} من 3"
   },
   "contactForm": {
     "successTitle": "تم إرسال الطلب!",

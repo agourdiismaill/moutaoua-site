@@ -7,6 +7,7 @@ import { CtaSection } from "@/components/sections/cta-section";
 import { AIOverview } from "@/components/seo/ai-overview";
 import { Breadcrumb } from "@/components/seo/breadcrumb";
 import { SeoFaqSection } from "@/components/seo/faq-section";
+import { PremiumIllustration } from "@/components/shared/premium-illustration";
 import { getHomeOverview, getLocalizedFaqs } from "@/lib/i18n-content";
 
 export async function generateMetadata({
@@ -40,9 +41,18 @@ export default async function ServicesPage({
 
   return (
     <>
-      <LocalizedPageHeader page="services" />
-      <section className="section-pad pt-0">
-        <div className="container-max space-y-8">
+      <LocalizedPageHeader
+        page="services"
+        visual={
+          <PremiumIllustration
+            variant="dashboard"
+            label={tServicePages("labels.breadcrumbServices")}
+            className="w-full"
+          />
+        }
+      />
+      <section className="section-pad py-8 md:py-12">
+        <div className="container-max space-y-5">
           <Breadcrumb
             items={[
               { label: tServicePages("labels.home"), href: "/" },
@@ -55,14 +65,14 @@ export default async function ServicesPage({
           />
         </div>
       </section>
-      <ServicesByPillar withFeatures heading={false} className="pt-0" />
-      <Stats heading={false} className="bg-surface-bright" />
+      <ServicesByPillar withFeatures heading={false} className="py-12 md:py-24" />
+      <Stats heading={false} className="bg-surface-bright py-12 md:py-24" />
       <SeoFaqSection
         eyebrow="FAQ"
         title={tFaqSection("title")}
         description={tFaqSection("description")}
         faqs={getLocalizedFaqs(tFaqItems).slice(0, 6)}
-        className="pt-0"
+        className="py-12 md:py-24"
       />
       <CtaSection />
     </>

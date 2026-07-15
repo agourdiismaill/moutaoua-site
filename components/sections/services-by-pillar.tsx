@@ -3,8 +3,9 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
-import { Check } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 import { Icon } from "@/components/shared/icon";
+import { ServiceVisual } from "@/components/shared/premium-illustration";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { SERVICE_PILLARS } from "@/data/pillars";
@@ -23,6 +24,7 @@ export function ServicesByPillar({
   className?: string;
 }) {
   const ts = useTranslations("sections.services");
+  const tc = useTranslations("sections.capabilities");
   const tp = useTranslations("pillars");
   const t = useTranslations("services");
   const allServices = getLocalizedServices(t);
@@ -35,7 +37,7 @@ export function ServicesByPillar({
             eyebrow={ts("eyebrow")}
             title={ts("title")}
             description={ts("description")}
-            className="mb-16"
+          className="mb-10"
           />
         )}
 
@@ -63,21 +65,25 @@ export function ServicesByPillar({
                   initial="hidden"
                   whileInView="visible"
                   viewport={viewportOnce}
-                  className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+                  className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3"
                 >
                   {items.map((service) => (
                     <motion.article
                       key={service.slug}
                       variants={fadeUp}
                       className={cn(
-                        "group relative flex flex-col gap-4 rounded-2xl border border-border bg-card p-8 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-soft-lg",
+                        "group relative flex flex-col gap-4 overflow-hidden rounded-2xl border border-border bg-card p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-soft-lg md:p-7",
                         service.highlighted && "ring-1 ring-primary/20"
                       )}
                     >
-                      <Link href={`/services/${service.slug}`} className="flex flex-col gap-4">
-                        <span className="grid size-14 place-items-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/10 text-primary transition-transform duration-300 group-hover:scale-110">
-                          <Icon name={service.icon} className="size-7" />
-                        </span>
+                      <ServiceVisual kind={getServiceVisualKind(service.slug)} />
+                      <Link href={`/services/${service.slug}`} className="relative z-10 flex flex-1 flex-col gap-4">
+                        <div className="flex items-start justify-between gap-4">
+                          <span className="grid size-14 place-items-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/10 text-primary transition-transform duration-300 group-hover:scale-110">
+                            <Icon name={service.icon} className="size-7" />
+                          </span>
+                          <span className="mt-1 size-2 rounded-full bg-primary/20 transition-all duration-300 group-hover:mr-1 group-hover:bg-primary" />
+                        </div>
                         <h3 className="text-xl font-semibold tracking-tight">{service.title}</h3>
                         <p className="text-sm leading-relaxed text-muted-foreground">
                           {service.description}
@@ -85,7 +91,7 @@ export function ServicesByPillar({
                       </Link>
 
                       {withFeatures && (
-                        <ul className="mt-2 space-y-2.5 border-t border-border pt-4">
+                        <ul className="relative z-10 space-y-2 border-t border-border pt-4">
                           {service.features.map((f) => (
                             <li key={f} className="flex items-start gap-2.5 text-sm text-muted-foreground">
                               <Check className="mt-0.5 size-4 shrink-0 text-primary" />
@@ -94,6 +100,13 @@ export function ServicesByPillar({
                           ))}
                         </ul>
                       )}
+                      <Link
+                        href={`/services/${service.slug}`}
+                        className="relative z-10 mt-auto inline-flex items-center gap-2 pt-1 text-sm font-semibold text-primary transition-[gap] duration-300 hover:gap-3"
+                      >
+                        {tc("viewDetailShort")}
+                        <ArrowRight className="size-4" />
+                      </Link>
                     </motion.article>
                   ))}
                 </motion.div>
@@ -104,4 +117,18 @@ export function ServicesByPillar({
       </div>
     </section>
   );
+}
+
+function getServiceVisualKind(slug: string) {
+  if (["ai-agents", "chatbots", "geo"].includes(slug)) return "ai" as const;
+  if (["custom-software", "saas", "api-integration", "automation", "workflow-automation"].includes(slug)) {
+    return "software" as const;
+  }
+  if (["crm-data", "lead-generation", "marketing-automation"].includes(slug)) return "crm" as const;
+  if (["erp", "business-platforms", "business-intelligence"].includes(slug)) return "erp" as const;
+  if (["archidoc", "content-marketing", "brochure", "catalogue"].includes(slug)) return "documents" as const;
+  if (["e-nfc", "mobile-applications", "android", "ios", "flutter", "react-native"].includes(slug)) {
+    return "nfc" as const;
+  }
+  return "marketing" as const;
 }

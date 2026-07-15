@@ -7,6 +7,7 @@ import {
 import { JsonLdScript } from "@/components/seo/json-ld-script";
 import { buildFaqSchema } from "@/lib/seo/schema";
 import { SectionHeading } from "@/components/shared/section-heading";
+import { PremiumIllustration } from "@/components/shared/premium-illustration";
 import { cn } from "@/lib/utils";
 
 type SeoFaqSectionProps = {
@@ -36,15 +37,22 @@ export function SeoFaqSection({
           description={description}
           className="mb-12"
         />
-        <div className="mx-auto max-w-3xl rounded-3xl border border-border bg-card px-6 shadow-soft md:px-10">
-          <Accordion type="single" collapsible className="w-full">
-            {faqs.map((faq, index) => (
-              <AccordionItem key={`${faq.question}-${index}`} value={`faq-${index}`} className="last:border-0">
-                <AccordionTrigger>{faq.question}</AccordionTrigger>
-                <AccordionContent>{faq.answer}</AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+        <div className="grid items-start gap-6 lg:grid-cols-[0.72fr_1.28fr]">
+          <PremiumIllustration
+            variant="analytics"
+            className="hidden lg:block"
+            label="Illustration d'analyse et d'accompagnement"
+          />
+          <div className="rounded-3xl border border-border bg-card px-5 shadow-soft md:px-8">
+            <Accordion type="single" collapsible className="w-full">
+              {faqs.map((faq, index) => (
+                <AccordionItem key={`${faq.question}-${index}`} value={`faq-${index}`} className="last:border-0">
+                  <AccordionTrigger>{faq.question}</AccordionTrigger>
+                  <AccordionContent>{faq.answer}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
         </div>
       </div>
     </section>

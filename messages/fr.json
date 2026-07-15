@@ -46,7 +46,9 @@
     "compareMetaGoogle": "Meta vs Google Ads",
     "industries": "Industries",
     "solutions": "Solutions",
-    "videos": "Vidéothèque"
+    "videos": "Vidéothèque",
+    "socialProof": "Partenaire digital de croissance pour les entreprises marocaines",
+    "certifications": "Méthode structurée, reporting transparent et expertise certifiée par nos plateformes partenaires."
   },
   "hero": {
     "badge": "Agence Digitale Premium 360° — Maroc",
@@ -66,7 +68,19 @@
     "clientAlt": "Client entreprise",
     "dashboardAlt": "Tableau de bord digital affichant les performances marketing et technologiques",
     "statProjects": "200+",
-    "statSectors": "15+"
+    "statSectors": "15+",
+    "dashboardLive": "Données en direct",
+    "dashboardEyebrow": "Vue d'ensemble",
+    "dashboardTitle": "Performance digitale",
+    "dashboardTabsLabel": "Vues du tableau de bord",
+    "dashboardTabs": {
+      "overview": "Vue globale",
+      "acquisition": "Acquisition",
+      "pipeline": "Pipeline"
+    },
+    "dashboardChartTitle": "Évolution des performances",
+    "dashboardInsight": "Les campagnes progressent au-dessus de la moyenne",
+    "dashboardViewCount": "Vue {count} sur 3"
   },
   "contactForm": {
     "successTitle": "Demande envoyée !",

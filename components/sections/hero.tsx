@@ -1,12 +1,12 @@
 "use client";
 
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { AvatarInitials } from "@/components/shared/avatar-initials";
+import { InteractiveDashboard } from "@/components/sections/interactive-dashboard";
 import { fadeUp, slideInRight, staggerContainer } from "@/lib/motion";
 
 export function Hero() {
@@ -102,22 +102,7 @@ export function Hero() {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             className="glass relative z-10 rounded-3xl p-2 shadow-soft-lg"
           >
-            <div className="overflow-hidden rounded-2xl border border-border bg-surface-bright">
-              <div className="flex h-9 items-center gap-2 border-b border-border bg-muted/60 px-4">
-                <span className="size-3 rounded-full bg-red-400" />
-                <span className="size-3 rounded-full bg-amber-400" />
-                <span className="size-3 rounded-full bg-emerald-400" />
-              </div>
-              <Image
-                src="/dashboard/performance.png"
-                alt={t("dashboardAlt")}
-                width={1024}
-                height={835}
-                priority
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="h-auto w-full object-cover"
-              />
-            </div>
+            <InteractiveDashboard />
           </motion.div>
 
           <motion.div

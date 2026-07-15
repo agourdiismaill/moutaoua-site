@@ -32,39 +32,42 @@ export function Stats({
           />
         )}
 
-        <motion.div
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={viewportOnce}
-          className="grid grid-cols-2 gap-4 md:gap-6 lg:grid-cols-4"
-        >
-          {stats.map((stat) => (
-            <motion.div
-              key={stat.id}
-              variants={fadeUp}
-              className="glass flex flex-col items-center justify-center rounded-2xl p-6 text-center transition-transform duration-300 hover:-translate-y-2 md:p-8"
-            >
-              <span className="mb-4 grid size-12 place-items-center rounded-xl bg-gradient-to-br from-primary/15 to-secondary/10 text-primary">
-                <Icon name={stat.icon} className="size-6" />
-              </span>
-              <div className="text-3xl font-bold tracking-tight text-gradient md:text-4xl">
-                <AnimatedCounter
-                  value={stat.value}
-                  prefix={stat.prefix}
-                  suffix={stat.suffix}
-                  decimals={stat.decimals}
-                />
-              </div>
-              <p className="mt-2 text-xs font-medium uppercase tracking-wider text-muted-foreground md:text-sm">
-                {stat.label}
-              </p>
-            </motion.div>
-          ))}
-        </motion.div>
-        <p className="mt-10 text-center text-xs leading-relaxed text-muted-foreground">
-          {ts("disclaimer")}
-        </p>
+        <div className="relative overflow-hidden rounded-[2rem] bg-gradient-brand p-4 shadow-glow md:p-6">
+          <div className="pointer-events-none absolute inset-0 grid-backdrop opacity-20" />
+          <motion.div
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewportOnce}
+            className="relative grid grid-cols-2 gap-3 md:gap-4 lg:grid-cols-4"
+          >
+            {stats.map((stat) => (
+              <motion.div
+                key={stat.id}
+                variants={fadeUp}
+                className="glass flex flex-col items-center justify-center rounded-2xl p-5 text-center transition-transform duration-300 hover:-translate-y-1 md:p-7"
+              >
+                <span className="mb-3 grid size-11 place-items-center rounded-xl bg-primary/10 text-primary">
+                  <Icon name={stat.icon} className="size-5" />
+                </span>
+                <div className="text-3xl font-bold tracking-tight text-gradient md:text-4xl">
+                  <AnimatedCounter
+                    value={stat.value}
+                    prefix={stat.prefix}
+                    suffix={stat.suffix}
+                    decimals={stat.decimals}
+                  />
+                </div>
+                <p className="mt-2 text-xs font-medium uppercase tracking-wider text-muted-foreground md:text-sm">
+                  {stat.label}
+                </p>
+              </motion.div>
+            ))}
+          </motion.div>
+          <p className="relative mt-6 text-center text-xs leading-relaxed text-white/75">
+            {ts("disclaimer")}
+          </p>
+        </div>
       </div>
     </section>
   );

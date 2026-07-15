@@ -9,13 +9,35 @@ import { getLocalizedServices } from "@/lib/i18n-content";
 export async function Footer() {
   const t = await getTranslations("footer");
   const ts = await getTranslations("services");
+  const tsolutions = await getTranslations("solutions");
   const tshared = await getTranslations("shared");
   const services = getLocalizedServices(ts);
+  const solutionLinks = [
+    "crm",
+    "ai-agents",
+    "archidoc",
+    "e-nfc",
+  ] as const;
   const year = new Date().getFullYear();
 
   return (
     <footer className="border-t border-border bg-surface-bright">
-      <div className="container-max grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-5">
+      <div className="container-max py-8">
+        <div className="flex flex-col gap-5 rounded-2xl border border-border bg-card/60 p-5 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="text-sm font-semibold">{t("socialProof")}</p>
+            <p className="mt-1 text-xs text-muted-foreground">{t("certifications")}</p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {["Next.js", "Meta Ads", "Google Ads", "CRM", "IA"].map((technology) => (
+              <span key={technology} className="rounded-full border border-border bg-background px-3 py-1.5 text-xs font-medium text-muted-foreground">
+                {technology}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="container-max grid gap-10 pb-12 md:grid-cols-2 lg:grid-cols-5">
         <div className="space-y-4">
           <Link href="/" className="inline-flex">
             <BrandLogo size="md" collapsed={false} />
@@ -57,6 +79,22 @@ export async function Footer() {
                   className="text-sm text-muted-foreground transition-colors hover:text-primary"
                 >
                   {s.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <nav className="space-y-4" aria-label={t("solutions")}>
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">{t("solutions")}</h3>
+          <ul className="space-y-2.5">
+            {solutionLinks.map((slug) => (
+              <li key={slug}>
+                <Link
+                  href={`/solutions/${slug}`}
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  {tsolutions(`items.${slug}.title`)}
                 </Link>
               </li>
             ))}

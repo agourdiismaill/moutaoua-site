@@ -46,7 +46,9 @@
     "compareMetaGoogle": "Meta vs Google Ads",
     "industries": "Industries",
     "solutions": "Solutions",
-    "videos": "Video library"
+    "videos": "Video library",
+    "socialProof": "Digital growth partner for Moroccan businesses",
+    "certifications": "Structured methodology, transparent reporting and expertise certified by our platform partners."
   },
   "hero": {
     "badge": "Premium 360° Digital Agency — Morocco",
@@ -66,7 +68,19 @@
     "clientAlt": "Business client",
     "dashboardAlt": "Digital dashboard showing marketing and technology performance",
     "statProjects": "200+",
-    "statSectors": "15+"
+    "statSectors": "15+",
+    "dashboardLive": "Live data",
+    "dashboardEyebrow": "Overview",
+    "dashboardTitle": "Digital performance",
+    "dashboardTabsLabel": "Dashboard views",
+    "dashboardTabs": {
+      "overview": "Overview",
+      "acquisition": "Acquisition",
+      "pipeline": "Pipeline"
+    },
+    "dashboardChartTitle": "Performance trend",
+    "dashboardInsight": "Campaigns are trending above average",
+    "dashboardViewCount": "View {count} of 3"
   },
   "contactForm": {
     "successTitle": "Request sent!",
