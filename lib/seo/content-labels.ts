@@ -19,6 +19,7 @@ export type ContentLabelSources = {
   seo: TranslationFn;
   serviceCity: TranslationFn;
   agencyHub: TranslationFn;
+  pricingPages: TranslationFn;
   anchors: Record<string, string[]>;
 };
 
@@ -50,6 +51,8 @@ function getRawTitle(node: ContentNode, src: ContentLabelSources): string {
         ? src.agencyHub(`items.${hub.type}.${hub.villeSlug}.h1`)
         : node.slug;
     }
+    case "pricing-page":
+      return src.pricingPages(`items.${node.slug}.h1`);
     case "resource":
       return src.internalLinking(`resources.${node.slug}.title`);
     default:
@@ -84,6 +87,8 @@ function getRawDescription(node: ContentNode, src: ContentLabelSources): string 
         ? src.agencyHub(`items.${hub.type}.${hub.villeSlug}.metaDescription`)
         : "";
     }
+    case "pricing-page":
+      return src.pricingPages(`items.${node.slug}.metaDescription`);
     case "resource":
       return src.internalLinking(`resources.${node.slug}.description`);
     default:
@@ -128,6 +133,7 @@ export function sectionTitle(type: ContentType, src: ContentLabelSources): strin
     solution: "relatedSolutions",
     "service-city": "relatedServiceCities",
     "agency-hub": "relatedAgencyHubs",
+    "pricing-page": "relatedPricingPages",
     resource: "relatedResources",
   };
   return src.internalLinking(`sections.${keyMap[type]}`);

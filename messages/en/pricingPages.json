@@ -1,0 +1,395 @@
+{
+  "labels": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "share": "Share",
+    "aiOverview": "Overview",
+    "what": "What is this page about?",
+    "who": "Who is it for?",
+    "benefits": "Benefits",
+    "topics": "Topics covered",
+    "takeaways": "Key takeaways",
+    "readingTime": "Estimated reading time",
+    "indicativePrice": "Indicative range",
+    "perMonth": "per month",
+    "perProject": "per project",
+    "included": "Included",
+    "faq": "Frequently asked questions"
+  },
+  "items": {
+    "creation-site-web-maroc": {
+      "metaTitle": "Website creation price Morocco 2026 | Indicative ranges",
+      "metaDescription": "How much does a website cost in Morocco? Indicative ranges by tier (basic, standard, premium), pricing factors and FAQ. Custom quote after audit.",
+      "h1": "Website creation price in Morocco",
+      "intro": "Website cost in Morocco varies by project type, page count, features and design level. This page shows indicative ranges — a firm quote requires scoping your exact needs.",
+      "overview": {
+        "what": "Pricing guide for website creation in Morocco with three indicative tiers and key budget factors.",
+        "who": "SME leaders, retailers, training centers and organizations planning a corporate, brochure or e-commerce site.",
+        "benefits": [
+          "Understand ballpark figures before a sales call",
+          "Identify the project level matching your ambition",
+          "Anticipate cost items (design, development, content, SEO)"
+        ],
+        "topics": [
+          "Tier ranges",
+          "Pricing factors",
+          "What's included",
+          "Web service link"
+        ],
+        "takeaways": [
+          "Three indicative tiers: basic, standard, premium",
+          "Typical project budget from 6,000 to 120,000 MAD",
+          "Firm quote only after audit and scoping"
+        ]
+      },
+      "factorsTitle": "Factors that influence website price",
+      "factors": [
+        "Page count and site architecture complexity",
+        "Custom design vs adapted template",
+        "Features (forms, blog, multilingual, e-commerce)",
+        "CRM, analytics and marketing tool integrations",
+        "Copywriting, translation and initial SEO",
+        "Maintenance, hosting and post-launch updates"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Basic",
+          "description": "Compact brochure site for a professional online presence.",
+          "includes": [
+            "5 to 8 pages",
+            "Design aligned with your brand",
+            "Contact form",
+            "Responsive mobile version",
+            "Basic SEO setup"
+          ]
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Enriched corporate or brochure site with content and integrations.",
+          "includes": [
+            "10 to 20 pages",
+            "Custom design",
+            "Blog or news section",
+            "Multilingual (2 languages)",
+            "Marketing integrations (GA4, pixels)",
+            "On-page SEO optimization"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Custom project: e-commerce, portal or advanced platform.",
+          "includes": [
+            "Complex architecture or e-commerce",
+            "Advanced UX/UI design",
+            "CRM and automation integrations",
+            "Enhanced performance and security",
+            "Editorial and SEO support",
+            "Planned maintenance and updates"
+          ]
+        }
+      },
+      "disclaimer": "These ranges are indicative and may vary by sector, timeline and technical requirements. Mohtaoua does not commit to fixed pricing without a prior audit. Request a custom quote for an exact figure.",
+      "contextLinks": {
+        "service": "Explore our corporate website service",
+        "packs": "View our marketing packs and pricing"
+      },
+      "faqs": [
+        {
+          "question": "How much does a brochure website cost in Morocco?",
+          "answer": "A professional brochure site typically ranges from 6,000 to 35,000 MAD depending on pages, design and features. E-commerce or custom projects can exceed 40,000 MAD."
+        },
+        {
+          "question": "Does the price include hosting and domain?",
+          "answer": "Often not in the initial creation price. Hosting, domain and maintenance may be billed as a separate annual subscription, specified in the quote."
+        },
+        {
+          "question": "Do you offer staged payment?",
+          "answer": "Yes, depending on project size. A payment schedule is defined in the quote after scope validation."
+        },
+        {
+          "question": "How do I get an exact quote?",
+          "answer": "Contact us for a free audit. We scope needs, features and timeline before providing a firm quote."
+        }
+      ]
+    },
+    "seo-maroc": {
+      "metaTitle": "SEO price Morocco 2026 | Indicative monthly ranges",
+      "metaDescription": "How much does SEO cost in Morocco? Indicative monthly ranges by tier, pricing factors and FAQ. Organic search for Moroccan businesses.",
+      "h1": "SEO price in Morocco",
+      "intro": "SEO budget in Morocco depends on keyword competition, current site health and visibility goals. Here are indicative monthly ranges — a custom plan always follows an audit.",
+      "overview": {
+        "what": "Pricing guide for organic search (SEO) in Morocco with three monthly support tiers.",
+        "who": "Businesses, e-commerce and training centers seeking qualified organic traffic.",
+        "benefits": [
+          "Anticipate a realistic SEO budget",
+          "Understand what's included at each tier",
+          "Align SEO investment with business goals"
+        ],
+        "topics": [
+          "Monthly ranges",
+          "Pricing factors",
+          "SEO deliverables",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Typical monthly budget from 3,000 to 40,000 MAD",
+          "Technical and editorial audit as prerequisite",
+          "SEO results over 3 to 12 months depending on competition"
+        ]
+      },
+      "factorsTitle": "Factors that influence SEO price",
+      "factors": [
+        "Competition on target keywords",
+        "Technical site health (speed, structure, indexing)",
+        "Content volume to produce or optimize",
+        "Languages and markets targeted",
+        "Link building and current domain authority",
+        "Reporting and optimization frequency"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Basic",
+          "description": "Local SEO or low-competition niche.",
+          "includes": [
+            "Initial technical audit",
+            "Priority on-page optimization",
+            "Tracking 10 to 20 keywords",
+            "Monthly summary report"
+          ]
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "National SEO for SMEs with lead goals.",
+          "includes": [
+            "Technical and semantic audit",
+            "Editorial plan and monthly optimizations",
+            "Tracking 30 to 60 keywords",
+            "Content creation or optimization",
+            "Detailed reporting and recommendations"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Competitive multi-market or e-commerce SEO.",
+          "includes": [
+            "Full multi-language SEO strategy",
+            "Regular editorial production",
+            "Link building and domain authority",
+            "Advanced tracking and dashboards",
+            "Coordination with paid media and CRO"
+          ]
+        }
+      },
+      "disclaimer": "These monthly ranges are indicative. SEO is an ongoing investment: results depend on competition, site quality and action consistency. No ranking guarantees without a prior audit.",
+      "contextLinks": {
+        "service": "Explore our SEO service",
+        "packs": "View our marketing packs and pricing"
+      },
+      "faqs": [
+        {
+          "question": "How much does SEO cost per month in Morocco?",
+          "answer": "Typically 3,000 to 15,000 MAD/month for an SME, up to 40,000 MAD/month for highly competitive or multi-language markets."
+        },
+        {
+          "question": "How long until SEO results?",
+          "answer": "Early signals often appear within 3 to 6 months. Significant results usually require 6 to 12 months depending on competition."
+        },
+        {
+          "question": "Is SEO compatible with Google Ads?",
+          "answer": "Yes, and often recommended: paid drives immediate leads while SEO builds durable visibility."
+        },
+        {
+          "question": "How do I get a custom SEO quote?",
+          "answer": "Request a free audit. We analyze your site, competitors and goals before proposing a plan and monthly budget."
+        }
+      ]
+    },
+    "application-mobile-maroc": {
+      "metaTitle": "Mobile app price Morocco 2026 | Indicative ranges",
+      "metaDescription": "How much does a mobile app cost in Morocco? Ranges by tier (MVP, standard, premium), technical factors and FAQ.",
+      "h1": "Mobile app price in Morocco",
+      "intro": "Mobile app cost in Morocco varies widely by platform (iOS, Android), features, backend integrations and design level. This page provides indicative ballpark figures.",
+      "overview": {
+        "what": "Pricing guide for mobile app development in Morocco.",
+        "who": "Startups, SMEs and organizations launching a business app, marketplace or customer service app.",
+        "benefits": [
+          "Estimate budget before detailed specifications",
+          "Understand technology choice impact (Flutter, native)",
+          "Anticipate post-launch maintenance costs"
+        ],
+        "topics": [
+          "Project ranges",
+          "Technical factors",
+          "Complexity tiers",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Typical project budget from 60,000 to 800,000 MAD",
+          "MVP possible from 60,000 MAD depending on scope",
+          "Maintenance and updates to plan after launch"
+        ]
+      },
+      "factorsTitle": "Factors that influence mobile app price",
+      "factors": [
+        "Target platforms (iOS, Android or cross-platform)",
+        "Screen count and user journey complexity",
+        "Authentication, payment, geolocation, notifications",
+        "Backend, API and third-party integrations (CRM, ERP)",
+        "Custom UX/UI design vs standard components",
+        "Testing, store deployment and maintenance"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "MVP",
+          "description": "Minimum viable app to validate a concept.",
+          "includes": [
+            "5 to 10 main screens",
+            "One platform or cross-platform (Flutter)",
+            "Basic authentication",
+            "Light or no-code backend",
+            "Single store publication"
+          ]
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Full business app iOS + Android.",
+          "includes": [
+            "15 to 30 screens",
+            "Cross-platform Flutter or native",
+            "Custom API backend",
+            "Push notifications and analytics",
+            "Custom UX/UI design",
+            "Testing and store deployment"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Complex platform, marketplace or high-traffic app.",
+          "includes": [
+            "Scalable architecture",
+            "Advanced features (payment, real-time, offline)",
+            "CRM/ERP integrations",
+            "Enhanced security and performance",
+            "Product support and iterations",
+            "Maintenance and SLA"
+          ]
+        }
+      },
+      "disclaimer": "These ranges are indicative. Choice between Flutter, React Native or native, plus backend complexity, can shift budget by 30 to 50%. Precise technical scoping is required before any firm quote.",
+      "contextLinks": {
+        "service": "Explore our Flutter mobile development service",
+        "packs": "View our packs and pricing"
+      },
+      "faqs": [
+        {
+          "question": "How much does a mobile app cost in Morocco?",
+          "answer": "An MVP starts around 60,000 MAD. A full business app often ranges from 130,000 to 300,000 MAD. Complex platforms can exceed 350,000 MAD."
+        },
+        {
+          "question": "Flutter or native: impact on price?",
+          "answer": "Flutter (cross-platform) generally reduces cost vs two separate native apps. Native may be preferable for very platform-specific needs."
+        },
+        {
+          "question": "Does the price include maintenance?",
+          "answer": "Post-launch maintenance (fixes, OS updates, evolutions) is often billed as a separate monthly subscription, defined in the contract."
+        },
+        {
+          "question": "How do I get a mobile app quote?",
+          "answer": "Contact us with your specifications or request a scoping workshop. We quote after detailed technical analysis."
+        }
+      ]
+    },
+    "logo-maroc": {
+      "metaTitle": "Logo price Morocco 2026 | Visual identity creation ranges",
+      "metaDescription": "How much does a logo cost in Morocco? Indicative ranges by tier, pricing factors and FAQ. Professional logo and visual identity creation.",
+      "h1": "Logo price in Morocco",
+      "intro": "Logo price in Morocco depends on creative research depth, variation count and whether a full brand guidelines package is delivered. Here are indicative ranges to guide you.",
+      "overview": {
+        "what": "Pricing guide for logo and visual identity creation in Morocco.",
+        "who": "Entrepreneurs, SMEs, artisans and organizations launching or refreshing their brand image.",
+        "benefits": [
+          "Understand difference between simple logo and full identity",
+          "Anticipate creative budget",
+          "Know what's delivered at each tier"
+        ],
+        "topics": [
+          "Project ranges",
+          "Creative factors",
+          "Deliverables",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Logo alone: 2,500 to 15,000 MAD depending on tier",
+          "Full identity: up to 40,000 MAD",
+          "Source files and guidelines included in standard and premium tiers"
+        ]
+      },
+      "factorsTitle": "Factors that influence logo price",
+      "factors": [
+        "Number of creative proposals and revision rounds",
+        "Strategic research and brand workshop",
+        "Variations (color, monochrome, favicon, social media)",
+        "Source file delivery (AI, SVG, PNG)",
+        "Brand guidelines and print/digital assets",
+        "Timeline and sector exclusivity"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Basic",
+          "description": "Simple logo for quick launch.",
+          "includes": [
+            "2 to 3 proposals",
+            "2 revision rounds",
+            "PNG and JPG files",
+            "Color and monochrome versions"
+          ]
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Professional logo with variations and source files.",
+          "includes": [
+            "3 to 5 proposals",
+            "Targeted creative research",
+            "Source files (AI, SVG)",
+            "Social media and favicon variations",
+            "Mini color and typography guidelines"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Full visual identity and brand platform.",
+          "includes": [
+            "Strategic brand workshop",
+            "Logo and complete graphic system",
+            "Detailed brand guidelines",
+            "Social and print templates",
+            "Image rollout support"
+          ]
+        }
+      },
+      "disclaimer": "These ranges are indicative. Very low-cost logos may lack originality or usable files. Mohtaoua delivers professional assets suited to your sector — firm quote after creative brief.",
+      "contextLinks": {
+        "service": "Explore our logo design service",
+        "packs": "View our packs and pricing"
+      },
+      "faqs": [
+        {
+          "question": "How much does a logo cost in Morocco?",
+          "answer": "A professional logo typically ranges from 2,500 to 15,000 MAD. Full visual identity with guidelines can reach 18,000 to 40,000 MAD."
+        },
+        {
+          "question": "What files are delivered?",
+          "answer": "Depending on tier: PNG, JPG, and in standard/premium source files (AI, SVG) plus web and print variations."
+        },
+        {
+          "question": "How many revisions are included?",
+          "answer": "Generally 2 to 3 revision rounds per tier. Additional revisions may be billed if the brief changes significantly."
+        },
+        {
+          "question": "How do I order a logo?",
+          "answer": "Contact us for a creative brief. We scope deliverables, timeline and budget before starting graphic research."
+        }
+      ]
+    }
+  }
+}

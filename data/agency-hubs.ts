@@ -131,6 +131,13 @@ export const AGENCY_HUBS: AgencyHub[] = [
     villeSlug: "agadir",
     secteurDominant: CITY_SECTORS.Agadir,
   },
+  {
+    slug: "agence-communication-fes",
+    type: "communication",
+    ville: "Fès",
+    villeSlug: "fes",
+    secteurDominant: CITY_SECTORS.Fès,
+  },
 ];
 
 export const AGENCY_HUB_SLUGS = AGENCY_HUBS.map((hub) => hub.slug);

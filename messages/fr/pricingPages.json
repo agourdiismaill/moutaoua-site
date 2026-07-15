@@ -1,0 +1,395 @@
+{
+  "labels": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "share": "Partager",
+    "aiOverview": "Vue d'ensemble",
+    "what": "De quoi parle cette page ?",
+    "who": "Pour qui ?",
+    "benefits": "Bénéfices",
+    "topics": "Sujets couverts",
+    "takeaways": "À retenir",
+    "readingTime": "Temps de lecture estimé",
+    "indicativePrice": "Fourchette indicative",
+    "perMonth": "par mois",
+    "perProject": "par projet",
+    "included": "Inclus",
+    "faq": "Questions fréquentes"
+  },
+  "items": {
+    "creation-site-web-maroc": {
+      "metaTitle": "Prix création site web Maroc 2026 | Fourchettes indicatives",
+      "metaDescription": "Combien coûte un site web au Maroc ? Fourchettes indicatives par niveau (basique, standard, premium), facteurs de prix et FAQ. Devis personnalisé après audit.",
+      "h1": "Prix création site web au Maroc",
+      "intro": "Le coût d'un site web au Maroc varie selon le type de projet, le nombre de pages, les fonctionnalités et le niveau de design. Cette page présente des fourchettes indicatives — un devis ferme nécessite un cadrage précis de votre besoin.",
+      "overview": {
+        "what": "Guide des fourchettes de prix pour la création de sites web au Maroc, avec trois niveaux indicatifs et les facteurs qui influencent le budget.",
+        "who": "Dirigeants de PME, commerçants, centres de formation et organisations qui prévoient un site vitrine, corporate ou e-commerce.",
+        "benefits": [
+          "Comprendre les ordres de grandeur avant un appel commercial",
+          "Identifier le niveau de projet adapté à votre ambition",
+          "Anticiper les postes de coût (design, développement, contenu, SEO)"
+        ],
+        "topics": [
+          "Fourchettes par niveau",
+          "Facteurs de prix",
+          "Inclus par formule",
+          "Lien avec le service sites web"
+        ],
+        "takeaways": [
+          "Trois niveaux indicatifs : basique, standard, premium",
+          "Budget projet typique de 6 000 à 120 000 MAD",
+          "Devis ferme uniquement après audit et cadrage"
+        ]
+      },
+      "factorsTitle": "Facteurs qui influencent le prix d'un site web",
+      "factors": [
+        "Nombre de pages et complexité de l'arborescence",
+        "Design sur-mesure vs template adapté",
+        "Fonctionnalités (formulaires, blog, multilingue, e-commerce)",
+        "Intégration CRM, analytics et outils marketing",
+        "Rédaction, traduction et optimisation SEO initiale",
+        "Maintenance, hébergement et évolutions post-lancement"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Basique",
+          "description": "Site vitrine compact pour une présence en ligne professionnelle.",
+          "includes": [
+            "5 à 8 pages",
+            "Design adapté à votre charte",
+            "Formulaire de contact",
+            "Version mobile responsive",
+            "Configuration SEO de base"
+          ]
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Site corporate ou vitrine enrichi avec contenus et intégrations.",
+          "includes": [
+            "10 à 20 pages",
+            "Design personnalisé",
+            "Blog ou actualités",
+            "Multilingue (2 langues)",
+            "Intégrations marketing (GA4, pixels)",
+            "Optimisation SEO on-page"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Projet sur-mesure : e-commerce, portail ou plateforme avancée.",
+          "includes": [
+            "Architecture complexe ou e-commerce",
+            "Design UX/UI avancé",
+            "Intégrations CRM et automatisation",
+            "Performance et sécurité renforcées",
+            "Accompagnement éditorial et SEO",
+            "Maintenance et évolutions planifiées"
+          ]
+        }
+      },
+      "disclaimer": "Ces fourchettes sont indicatives et peuvent varier selon votre secteur, vos délais et vos exigences techniques. Mohtaoua ne s'engage sur aucun prix ferme sans audit préalable. Demandez un devis personnalisé pour un chiffrage exact.",
+      "contextLinks": {
+        "service": "Découvrir notre service création de sites web",
+        "packs": "Voir nos packs marketing et tarifs"
+      },
+      "faqs": [
+        {
+          "question": "Combien coûte un site vitrine au Maroc ?",
+          "answer": "Un site vitrine professionnel se situe généralement entre 6 000 et 35 000 MAD selon le nombre de pages, le design et les fonctionnalités. Les projets e-commerce ou sur-mesure peuvent dépasser 40 000 MAD."
+        },
+        {
+          "question": "Le prix inclut-il l'hébergement et le nom de domaine ?",
+          "answer": "Souvent non dans le prix de création initial. L'hébergement, le domaine et la maintenance peuvent faire l'objet d'un abonnement annuel séparé, à préciser dans le devis."
+        },
+        {
+          "question": "Proposez-vous un paiement échelonné ?",
+          "answer": "Oui, selon l'ampleur du projet. Un échéancier est défini dans le devis après validation du périmètre."
+        },
+        {
+          "question": "Comment obtenir un devis exact ?",
+          "answer": "Contactez-nous pour un audit gratuit. Nous cadrons le besoin, les fonctionnalités et les délais avant de proposer un chiffrage ferme."
+        }
+      ]
+    },
+    "seo-maroc": {
+      "metaTitle": "Prix SEO Maroc 2026 | Fourchettes mensuelles indicatives",
+      "metaDescription": "Combien coûte le SEO au Maroc ? Fourchettes mensuelles par niveau, facteurs de prix et FAQ. Référencement naturel pour entreprises marocaines.",
+      "h1": "Prix SEO au Maroc",
+      "intro": "Le budget SEO au Maroc dépend de la concurrence sur vos mots-clés, de l'état actuel de votre site et de vos objectifs de visibilité. Voici des fourchettes mensuelles indicatives — un plan personnalisé suit toujours un audit.",
+      "overview": {
+        "what": "Guide des fourchettes de prix pour le référencement naturel (SEO) au Maroc, avec trois niveaux d'accompagnement mensuel.",
+        "who": "Entreprises, e-commerces et centres de formation qui veulent générer du trafic organique qualifié.",
+        "benefits": [
+          "Anticiper un budget SEO réaliste",
+          "Comprendre ce qui est inclus à chaque niveau",
+          "Aligner investissement SEO et objectifs business"
+        ],
+        "topics": [
+          "Fourchettes mensuelles",
+          "Facteurs de prix",
+          "Livrables SEO",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Budget mensuel typique de 3 000 à 40 000 MAD",
+          "Audit technique et éditorial en prérequis",
+          "Résultats SEO sur 3 à 12 mois selon la concurrence"
+        ]
+      },
+      "factorsTitle": "Facteurs qui influencent le prix du SEO",
+      "factors": [
+        "Concurrence sur vos mots-clés cibles",
+        "État technique du site (vitesse, structure, indexation)",
+        "Volume de contenus à produire ou optimiser",
+        "Nombre de langues et marchés visés",
+        "Netlinking et autorité de domaine actuelle",
+        "Reporting et fréquence des optimisations"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Basique",
+          "description": "SEO local ou niche à faible concurrence.",
+          "includes": [
+            "Audit technique initial",
+            "Optimisation on-page prioritaire",
+            "Suivi de 10 à 20 mots-clés",
+            "Rapport mensuel synthétique"
+          ]
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "SEO national pour PME avec objectifs de leads.",
+          "includes": [
+            "Audit technique et sémantique",
+            "Plan éditorial et optimisations mensuelles",
+            "Suivi de 30 à 60 mots-clés",
+            "Création ou optimisation de contenus",
+            "Reporting détaillé et recommandations"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "SEO compétitif multi-marchés ou e-commerce.",
+          "includes": [
+            "Stratégie SEO complète multi-langues",
+            "Production éditoriale régulière",
+            "Netlinking et autorité de domaine",
+            "Suivi avancé et tableaux de bord",
+            "Coordination avec paid media et CRO"
+          ]
+        }
+      },
+      "disclaimer": "Ces fourchettes mensuelles sont indicatives. Le SEO est un investissement continu : les résultats dépendent de la concurrence, de la qualité du site et de la régularité des actions. Aucun engagement de positionnement sans audit préalable.",
+      "contextLinks": {
+        "service": "Découvrir notre service SEO",
+        "packs": "Voir nos packs marketing et tarifs"
+      },
+      "faqs": [
+        {
+          "question": "Combien coûte le SEO par mois au Maroc ?",
+          "answer": "Comptez généralement entre 3 000 et 15 000 MAD/mois pour une PME, et jusqu'à 40 000 MAD/mois pour des marchés très concurrentiels ou multi-langues."
+        },
+        {
+          "question": "En combien de temps voit-on des résultats SEO ?",
+          "answer": "Les premiers signaux apparaissent souvent entre 3 et 6 mois. Des résultats significatifs demandent généralement 6 à 12 mois selon la concurrence."
+        },
+        {
+          "question": "Le SEO est-il compatible avec Google Ads ?",
+          "answer": "Oui, et c'est souvent recommandé : le paid génère des leads immédiats pendant que le SEO construit une visibilité durable."
+        },
+        {
+          "question": "Comment obtenir un devis SEO personnalisé ?",
+          "answer": "Demandez un audit gratuit. Nous analysons votre site, vos concurrents et vos objectifs avant de proposer un plan et un budget mensuel."
+        }
+      ]
+    },
+    "application-mobile-maroc": {
+      "metaTitle": "Prix application mobile Maroc 2026 | Fourchettes indicatives",
+      "metaDescription": "Combien coûte une application mobile au Maroc ? Fourchettes par niveau (MVP, standard, premium), facteurs techniques et FAQ.",
+      "h1": "Prix application mobile au Maroc",
+      "intro": "Le coût d'une application mobile au Maroc varie fortement selon les plateformes (iOS, Android), les fonctionnalités, les intégrations backend et le niveau de design. Cette page donne des ordres de grandeur indicatifs.",
+      "overview": {
+        "what": "Guide des fourchettes de prix pour le développement d'applications mobiles au Maroc.",
+        "who": "Startups, PME et organisations qui lancent une app métier, marketplace ou service client.",
+        "benefits": [
+          "Estimer un budget avant le cahier des charges détaillé",
+          "Comprendre l'impact du choix technologique (Flutter, natif)",
+          "Anticiper les coûts de maintenance post-lancement"
+        ],
+        "topics": [
+          "Fourchettes projet",
+          "Facteurs techniques",
+          "Niveaux de complexité",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Budget projet typique de 60 000 à 800 000 MAD",
+          "MVP possible dès 60 000 MAD selon le périmètre",
+          "Maintenance et évolutions à prévoir après le lancement"
+        ]
+      },
+      "factorsTitle": "Facteurs qui influencent le prix d'une application mobile",
+      "factors": [
+        "Plateformes cibles (iOS, Android ou cross-platform)",
+        "Nombre d'écrans et complexité des parcours utilisateur",
+        "Authentification, paiement, géolocalisation, notifications",
+        "Backend, API et intégrations tierces (CRM, ERP)",
+        "Design UX/UI sur-mesure vs composants standards",
+        "Tests, déploiement stores et maintenance"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "MVP",
+          "description": "Application minimale viable pour valider un concept.",
+          "includes": [
+            "5 à 10 écrans principaux",
+            "Une plateforme ou cross-platform (Flutter)",
+            "Authentification basique",
+            "Backend léger ou no-code",
+            "Publication sur un store"
+          ]
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Application métier complète iOS + Android.",
+          "includes": [
+            "15 à 30 écrans",
+            "Cross-platform Flutter ou natif",
+            "Backend API sur-mesure",
+            "Notifications push et analytics",
+            "Design UX/UI personnalisé",
+            "Tests et déploiement stores"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Plateforme complexe, marketplace ou app à fort trafic.",
+          "includes": [
+            "Architecture scalable",
+            "Fonctionnalités avancées (paiement, temps réel, offline)",
+            "Intégrations CRM/ERP",
+            "Sécurité et performance renforcées",
+            "Accompagnement produit et itérations",
+            "Maintenance et SLA"
+          ]
+        }
+      },
+      "disclaimer": "Ces fourchettes sont indicatives. Le choix entre Flutter, React Native ou natif, ainsi que la complexité du backend, peut faire varier le budget de 30 à 50 %. Un cadrage technique précis est indispensable avant tout devis ferme.",
+      "contextLinks": {
+        "service": "Découvrir notre service développement mobile Flutter",
+        "packs": "Voir nos packs et tarifs"
+      },
+      "faqs": [
+        {
+          "question": "Combien coûte une application mobile au Maroc ?",
+          "answer": "Un MVP démarre autour de 60 000 MAD. Une application métier complète se situe souvent entre 130 000 et 300 000 MAD. Les plateformes complexes peuvent dépasser 350 000 MAD."
+        },
+        {
+          "question": "Flutter ou natif : quel impact sur le prix ?",
+          "answer": "Flutter (cross-platform) réduit généralement le coût vs deux apps natives séparées. Le natif peut être préférable pour des besoins très spécifiques à une plateforme."
+        },
+        {
+          "question": "Le prix inclut-il la maintenance ?",
+          "answer": "La maintenance post-lancement (correctifs, mises à jour OS, évolutions) est souvent facturée en abonnement mensuel séparé, à définir dans le contrat."
+        },
+        {
+          "question": "Comment obtenir un devis application mobile ?",
+          "answer": "Contactez-nous avec votre cahier des charges ou demandez un atelier de cadrage. Nous chiffrons après analyse technique détaillée."
+        }
+      ]
+    },
+    "logo-maroc": {
+      "metaTitle": "Prix logo Maroc 2026 | Fourchettes création identité visuelle",
+      "metaDescription": "Combien coûte un logo au Maroc ? Fourchettes indicatives par niveau, facteurs de prix et FAQ. Création logo et identité visuelle professionnelle.",
+      "h1": "Prix logo au Maroc",
+      "intro": "Le prix d'un logo au Maroc dépend du niveau de recherche créative, du nombre de déclinaisons et de la livraison d'une charte graphique complète. Voici des fourchettes indicatives pour vous orienter.",
+      "overview": {
+        "what": "Guide des fourchettes de prix pour la création de logo et identité visuelle au Maroc.",
+        "who": "Entrepreneurs, PME, artisans et organisations qui lancent ou renouvellent leur image de marque.",
+        "benefits": [
+          "Comprendre la différence entre logo simple et identité complète",
+          "Anticiper le budget créatif",
+          "Savoir ce qui est livré à chaque niveau"
+        ],
+        "topics": [
+          "Fourchettes projet",
+          "Facteurs créatifs",
+          "Livrables",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Logo seul : 2 500 à 15 000 MAD selon le niveau",
+          "Identité complète : jusqu'à 40 000 MAD",
+          "Fichiers sources et charte inclus dans les formules standard et premium"
+        ]
+      },
+      "factorsTitle": "Facteurs qui influencent le prix d'un logo",
+      "factors": [
+        "Nombre de propositions créatives et tours de révision",
+        "Recherche stratégique et atelier de marque",
+        "Déclinaisons (couleur, noir/blanc, favicon, réseaux sociaux)",
+        "Livraison des fichiers sources (AI, SVG, PNG)",
+        "Charte graphique et supports print/digital",
+        "Délais et exclusivité sectorielle"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Basique",
+          "description": "Logo simple pour démarrage rapide.",
+          "includes": [
+            "2 à 3 propositions",
+            "2 tours de révision",
+            "Fichiers PNG et JPG",
+            "Versions couleur et monochrome"
+          ]
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Logo professionnel avec déclinaisons et fichiers sources.",
+          "includes": [
+            "3 à 5 propositions",
+            "Recherche créative ciblée",
+            "Fichiers sources (AI, SVG)",
+            "Déclinaisons réseaux sociaux et favicon",
+            "Mini charte couleurs et typographies"
+          ]
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Identité visuelle complète et plateforme de marque.",
+          "includes": [
+            "Atelier stratégique de marque",
+            "Logo et système graphique complet",
+            "Charte graphique détaillée",
+            "Templates réseaux sociaux et print",
+            "Accompagnement déploiement image"
+          ]
+        }
+      },
+      "disclaimer": "Ces fourchettes sont indicatives. Un logo à très bas prix peut manquer d'originalité ou de fichiers exploitables. Mohtaoua privilégie des livrables professionnels adaptés à votre secteur — devis ferme après brief créatif.",
+      "contextLinks": {
+        "service": "Découvrir notre service création de logo",
+        "packs": "Voir nos packs et tarifs"
+      },
+      "faqs": [
+        {
+          "question": "Combien coûte un logo au Maroc ?",
+          "answer": "Un logo professionnel se situe généralement entre 2 500 et 15 000 MAD. Une identité visuelle complète avec charte peut atteindre 18 000 à 40 000 MAD."
+        },
+        {
+          "question": "Quels fichiers sont livrés ?",
+          "answer": "Selon la formule : PNG, JPG, et en standard/premium les fichiers sources (AI, SVG) plus les déclinaisons pour web et print."
+        },
+        {
+          "question": "Combien de révisions sont incluses ?",
+          "answer": "En général 2 à 3 tours de révision selon la formule. Des révisions supplémentaires peuvent être facturées si le brief évolue significativement."
+        },
+        {
+          "question": "Comment commander un logo ?",
+          "answer": "Contactez-nous pour un brief créatif. Nous cadrons le périmètre, le calendrier et le budget avant de lancer la recherche graphique."
+        }
+      ]
+    }
+  }
+}

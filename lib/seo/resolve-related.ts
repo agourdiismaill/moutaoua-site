@@ -209,6 +209,8 @@ function getCurrentNode(type: ContentType, slug: string): ContentNode {
     path:
       type === "agency-hub"
         ? `/agences/${slug}`
+        : type === "pricing-page"
+          ? `/prix/${slug}`
         : type === "industry"
         ? `/industries/${slug}`
         : type === "solution"

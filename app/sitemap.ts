@@ -11,6 +11,7 @@ import {
 import { INDUSTRY_SLUGS } from "@/data/industries";
 import { SOLUTION_SLUGS } from "@/data/solutions";
 import { AGENCY_HUB_SLUGS } from "@/data/agency-hubs";
+import { PRICING_PAGE_SLUGS } from "@/data/pricing-pages";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -173,6 +174,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
+  const pricingSeoRoutes = routing.locales.flatMap((locale) =>
+    PRICING_PAGE_SLUGS.map((slug) => {
+      const path = `/prix/${slug}`;
+      return {
+        url: `${base}/${locale}${path}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+        alternates: { languages: buildLanguages(path) },
+      };
+    })
+  );
+
   return [
     ...routes,
     ...caseStudyRoutes,
@@ -183,5 +197,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...compareRoutes,
     ...industryRoutes,
     ...agencyHubRoutes,
+    ...pricingSeoRoutes,
   ];
 }

@@ -35,6 +35,7 @@ import { videoMeta } from "@/data/videos";
 import { testimonialMeta } from "@/data/testimonials";
 import { reelMeta } from "@/data/showcase-videos";
 import { solutionMeta, SOLUTION_SLUGS, type SolutionSlug } from "@/data/solutions";
+import type { PricingPageSlug } from "@/data/pricing-pages";
 import type { LightboxImage } from "@/components/shared/lightbox";
 import type { ReelVideo } from "@/data/showcase-videos";
 
@@ -465,4 +466,50 @@ export function getLocalizedSolutionPage(t: TFunction, slug: string) {
     faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
     screenshotAlts: (t.raw(`items.${slug}.screenshots`) as { alt: string }[]).map((s) => s.alt),
   };
+}
+
+export function getLocalizedPricingPage(t: TFunction, slug: string) {
+  const overviewRaw = t.raw(`items.${slug}.overview`) as Omit<
+    AIOverviewContent,
+    "readingTimeMinutes"
+  >;
+  const textParts = [
+    t(`items.${slug}.intro`),
+    ...overviewRaw.benefits,
+    ...overviewRaw.takeaways,
+    ...((t.raw(`items.${slug}.factors`) as string[]) ?? []),
+  ];
+
+  return {
+    slug,
+    metaTitle: t(`items.${slug}.metaTitle`),
+    metaDescription: t(`items.${slug}.metaDescription`),
+    h1: t(`items.${slug}.h1`),
+    intro: t(`items.${slug}.intro`),
+    overview: {
+      ...overviewRaw,
+      readingTimeMinutes: estimateReadingTimeFromParts(textParts),
+    } satisfies AIOverviewContent,
+    factorsTitle: t(`items.${slug}.factorsTitle`),
+    factors: t.raw(`items.${slug}.factors`) as string[],
+    tiers: t.raw(`items.${slug}.tiers`) as Record<
+      "basic" | "standard" | "premium",
+      { name: string; description: string; includes: string[] }
+    >,
+    disclaimer: t(`items.${slug}.disclaimer`),
+    contextLinks: t.raw(`items.${slug}.contextLinks`) as {
+      service: string;
+      packs: string;
+    },
+    faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
+  };
+}
+
+export function getPricingPageSlugs(): PricingPageSlug[] {
+  return [
+    "creation-site-web-maroc",
+    "seo-maroc",
+    "application-mobile-maroc",
+    "logo-maroc",
+  ];
 }

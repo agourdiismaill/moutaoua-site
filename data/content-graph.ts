@@ -16,11 +16,13 @@ import { INDUSTRY_SLUGS } from "@/data/industries";
 import { SOLUTION_SLUGS, solutionMeta, SOLUTION_PUBLISHED } from "@/data/solutions";
 import { SERVICE_CITY_COMBOS } from "@/data/service-city-combos";
 import { AGENCY_HUBS } from "@/data/agency-hubs";
+import { PRICING_PAGES } from "@/data/pricing-pages";
 
 export type ContentType =
   | "service"
   | "service-city"
   | "agency-hub"
+  | "pricing-page"
   | "solution"
   | "blog"
   | "guide"
@@ -571,6 +573,22 @@ function buildAgencyHubNodes(): ContentNode[] {
   }));
 }
 
+function buildPricingPageNodes(): ContentNode[] {
+  return PRICING_PAGES.map((page) => ({
+    id: `pricing-page:${page.slug}`,
+    type: "pricing-page" as const,
+    slug: page.slug,
+    path: `/prix/${page.slug}`,
+    topics: normalizeTopics([
+      "pricing",
+      page.primaryService,
+      ...page.relatedServices,
+    ]),
+    services: [page.primaryService, ...page.relatedServices],
+    priority: 66,
+  }));
+}
+
 function buildServiceNodes(): ContentNode[] {
   return SERVICE_SLUGS.map((slug) => ({
     id: `service:${slug}`,
@@ -751,6 +769,7 @@ export const CONTENT_NODES: ContentNode[] = [
   ...buildServiceNodes(),
   ...buildServiceCityNodes(),
   ...buildAgencyHubNodes(),
+  ...buildPricingPageNodes(),
   ...buildSolutionNodes(),
   ...buildBlogNodes(),
   ...buildGuideNodes(),
@@ -790,6 +809,10 @@ export const PAGE_LINKING_CONFIG: Record<
   "agency-hub": {
     sections: ["service-city", "service", "industry", "blog", "resource"],
     limits: { "service-city": 6, service: 3, industry: 2, blog: 2, resource: 3 },
+  },
+  "pricing-page": {
+    sections: ["service", "pricing-page", "resource", "blog"],
+    limits: { service: 3, "pricing-page": 3, resource: 3, blog: 2 },
   },
   blog: {
     sections: ["blog", "service", "guide", "comparison", "resource"],
