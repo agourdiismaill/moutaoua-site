@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { AgencyHubDetail } from "@/components/seo/agency-hub-detail";
 import {
   AGENCY_HUBS,
+  filterHubCityServices,
   getAgencyHub,
   isAgencyHubSlug,
 } from "@/data/agency-hubs";
@@ -42,7 +43,9 @@ export async function generateMetadata({
   if (!hub) return {};
 
   const t = await getTranslations({ locale, namespace: "agencyHubPages" });
-  const content = t.raw(`items.${hub.villeSlug}`) as AgencyHubPageContent;
+  const content = t.raw(
+    `items.${hub.type}.${hub.villeSlug}`
+  ) as AgencyHubPageContent;
 
   return buildSeoMetadata({
     locale,
@@ -67,11 +70,12 @@ export default async function AgencyHubPage({
   const t = await getTranslations("agencyHubPages");
   const ts = await getTranslations("services");
   const tp = await getTranslations("pillars");
-  const content = t.raw(`items.${hub.villeSlug}`) as AgencyHubPageContent;
+  const content = t.raw(
+    `items.${hub.type}.${hub.villeSlug}`
+  ) as AgencyHubPageContent;
   const services = getLocalizedServices(ts);
-  const cityServices = SERVICE_CITY_COMBOS.filter(
-    (combo) => combo.villeSlug === hub.villeSlug
-  );
+  const cityServices = filterHubCityServices(SERVICE_CITY_COMBOS, hub);
+  const isCommunication = hub.type === "communication";
   const pageUrl = buildPageUrl(locale, `/agences/${slug}`);
 
   return (
@@ -88,12 +92,18 @@ export default async function AgencyHubPage({
         topics: t("labels.topics"),
         takeaways: t("labels.takeaways"),
         readingTime: t("labels.readingTime", { minutes: 6 }),
-        challenges: t("labels.challenges", { ville: hub.ville }),
+        challenges: isCommunication
+          ? t("labels.challengesCommunication", { ville: hub.ville })
+          : t("labels.challenges", { ville: hub.ville }),
         approach: t("labels.approach"),
-        servicesInCity: t("labels.servicesInCity", { ville: hub.ville }),
-        servicesInCityDescription: t("labels.servicesInCityDescription", {
-          ville: hub.ville,
-        }),
+        servicesInCity: isCommunication
+          ? t("labels.servicesInCityCommunication", { ville: hub.ville })
+          : t("labels.servicesInCity", { ville: hub.ville }),
+        servicesInCityDescription: isCommunication
+          ? t("labels.servicesInCityDescriptionCommunication", {
+              ville: hub.ville,
+            })
+          : t("labels.servicesInCityDescription", { ville: hub.ville }),
       }}
       breadcrumb={[
         { label: t("labels.home"), href: "/" },

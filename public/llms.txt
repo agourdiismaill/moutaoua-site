@@ -72,6 +72,11 @@ Hub : 477 pages `/fr/services/{service}-{ville}` pour 53 services locaux × 9 vi
 - Agence digitale Tanger : https://mohtaoua.ma/fr/agences/agence-digitale-tanger
 - Agence digitale Agadir : https://mohtaoua.ma/fr/agences/agence-digitale-agadir
 - Agence digitale Fès : https://mohtaoua.ma/fr/agences/agence-digitale-fes
+- Agence communication Casablanca : https://mohtaoua.ma/fr/agences/agence-communication-casablanca
+- Agence communication Rabat : https://mohtaoua.ma/fr/agences/agence-communication-rabat
+- Agence communication Marrakech : https://mohtaoua.ma/fr/agences/agence-communication-marrakech
+- Agence communication Tanger : https://mohtaoua.ma/fr/agences/agence-communication-tanger
+- Agence communication Agadir : https://mohtaoua.ma/fr/agences/agence-communication-agadir
 
 Exemples phares :
 - Meta Ads Casablanca : https://mohtaoua.ma/fr/services/meta-ads-casablanca

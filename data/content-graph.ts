@@ -563,7 +563,7 @@ function buildAgencyHubNodes(): ContentNode[] {
     slug: hub.slug,
     path: `/agences/${hub.slug}`,
     topics: normalizeTopics([
-      "agence-digitale",
+      hub.type === "communication" ? "agence-communication" : "agence-digitale",
       hub.villeSlug,
       hub.secteurDominant,
     ]),

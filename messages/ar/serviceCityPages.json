@@ -165,8 +165,15 @@
     }
   ],
   "localContext": {
-    "title": "وكالتك الرقمية المحلية",
-    "prefix": "لاستكمال {service} في {ville}، اكتشف",
-    "agencyLink": "كل خدمات وكالتنا الرقمية في {ville}"
+    "digitale": {
+      "title": "وكالتك الرقمية المحلية",
+      "prefix": "لإكمال {service} في {ville}، اكتشف",
+      "agencyLink": "كل خدمات وكالتنا الرقمية في {ville}"
+    },
+    "communication": {
+      "title": "وكالة التواصل المحلية الخاصة بك",
+      "prefix": "لإكمال {service} في {ville}، استكشف",
+      "agencyLink": "كل خبراتنا في التواصل في {ville}"
+    }
   }
 }

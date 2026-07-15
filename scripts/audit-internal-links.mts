@@ -10,7 +10,13 @@ import {
   SERVICE_CITY_COMBOS,
   SERVICE_CITY_COMBO_SLUGS,
 } from "../data/service-city-combos";
-import { AGENCY_HUBS, getAgencyHubByCity } from "../data/agency-hubs";
+import {
+  AGENCY_HUBS,
+  getAgencyHubByCity,
+  getAgencyHubForServiceCity,
+  getAgencyHubTypeForService,
+  filterHubCityServices,
+} from "../data/agency-hubs";
 import { BLOG_POST_SLUGS, GUIDE_SLUGS, COMPARISON_SLUGS } from "../data/blog";
 import { INDUSTRY_SLUGS, FEATURED_INDUSTRY_SLUGS, industryServiceMap, industryCaseStudyMap } from "../data/industries";
 import { SOLUTION_SLUGS } from "../data/solutions";
@@ -117,7 +123,7 @@ for (const s of SERVICE_SLUGS) {
   if (SERVICE_CITY_COMBO_SLUGS.includes(localServiceSlug)) {
     addLink(from, `/services/${localServiceSlug}`);
   } else {
-    const hub = getAgencyHubByCity(citySlug);
+    const hub = getAgencyHubByCity(citySlug, getAgencyHubTypeForService(s));
     if (hub) addLink(from, `/agences/${hub.slug}`);
   }
 }
@@ -129,16 +135,16 @@ for (const c of SERVICE_CITY_COMBOS) {
   addLink(from, `/services/${c.service}`); // lien explicite vers le service parent
   addLink(from, "/contact");
   addLink(from, "/case-studies");
-  const agencyHub = getAgencyHubByCity(c.villeSlug);
+  // Lien réciproque vers le hub pertinent (communication pour les services
+  // créatifs/contenus, digitale sinon)
+  const agencyHub = getAgencyHubForServiceCity(c.service, c.villeSlug);
   if (agencyHub) addLink(from, `/agences/${agencyHub.slug}`);
 }
 
-// Hubs agence : lien exhaustif vers chaque service-ville réellement généré
+// Hubs agence : lien exhaustif vers chaque service-ville de sa grille filtrée
 for (const hub of AGENCY_HUBS) {
   const from = `/agences/${hub.slug}`;
-  for (const combo of SERVICE_CITY_COMBOS.filter(
-    (item) => item.villeSlug === hub.villeSlug
-  )) {
+  for (const combo of filterHubCityServices(SERVICE_CITY_COMBOS, hub)) {
     addLink(from, `/services/${combo.slug}`);
   }
   addResolved(from, "agency-hub", hub.slug);

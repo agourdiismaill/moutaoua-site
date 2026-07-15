@@ -11,7 +11,10 @@ import { ShareButtons } from "@/components/seo/share-buttons";
 import { buildServiceSchema, buildWebPageSchema, buildFaqSchema } from "@/lib/seo/schema";
 import { buildServiceCityPageContent } from "@/lib/service-city/content";
 import { filterTestimonialsByCity } from "@/lib/service-city/testimonials";
-import { getAgencyHubByCity } from "@/data/agency-hubs";
+import {
+  getAgencyHubForServiceCity,
+  getAgencyHubTypeForService,
+} from "@/data/agency-hubs";
 import type { ServiceCityCombo } from "@/data/service-city-combos";
 import type { Service, Testimonial } from "@/data/types";
 import type { BreadcrumbItem } from "@/lib/seo/types";
@@ -46,7 +49,8 @@ export function ServiceCityDetail({
 }: Props) {
   const content = buildServiceCityPageContent(t, combo, service);
   const localTestimonials = filterTestimonialsByCity(testimonials, combo.ville);
-  const agencyHub = getAgencyHubByCity(combo.villeSlug);
+  const hubType = getAgencyHubTypeForService(combo.service);
+  const agencyHub = getAgencyHubForServiceCity(combo.service, combo.villeSlug);
   const hreflangLocale =
     locale === "ar" ? "ar-MA" : locale === "en" ? "en-US" : "fr-MA";
 
@@ -106,10 +110,13 @@ export function ServiceCityDetail({
       </section>
 
       {agencyHub ? (
-        <section className="section-pad pt-0" aria-label={t("localContext.title")}>
+        <section
+          className="section-pad pt-0"
+          aria-label={t(`localContext.${hubType}.title`)}
+        >
           <div className="container-max">
             <p className="rounded-3xl border border-border bg-surface-bright p-8 leading-relaxed text-muted-foreground">
-              {t("localContext.prefix", {
+              {t(`localContext.${hubType}.prefix`, {
                 service: service.title,
                 ville: combo.ville,
               })}{" "}
@@ -117,7 +124,7 @@ export function ServiceCityDetail({
                 href={`/agences/${agencyHub.slug}`}
                 className="font-medium text-primary hover:underline"
               >
-                {t("localContext.agencyLink", { ville: combo.ville })}
+                {t(`localContext.${hubType}.agencyLink`, { ville: combo.ville })}
               </Link>
               .
             </p>

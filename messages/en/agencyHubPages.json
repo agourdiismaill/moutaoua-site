@@ -12,380 +12,702 @@
     "challenges": "Digital challenges in {ville}",
     "approach": "Our local approach",
     "servicesInCity": "Our services in {ville}",
-    "servicesInCityDescription": "Explore every Mohtaoua expertise available in {ville}. Each link opens the dedicated local service page."
+    "servicesInCityDescription": "Explore every Mohtaoua expertise available in {ville}. Each link opens the dedicated local service page.",
+    "servicesInCityCommunication": "Our communication expertise in {ville}",
+    "servicesInCityDescriptionCommunication": "Identity, content, social media, photo/video production and events. Each link opens the dedicated local expertise page.",
+    "challengesCommunication": "Communication challenges in {ville}"
   },
   "items": {
-    "casablanca": {
-      "metaTitle": "Digital Agency Casablanca | Mohtaoua 360°",
-      "metaDescription": "Digital agency in Casablanca: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
-      "h1": "Digital agency in Casablanca",
-      "intro": "Mohtaoua supports Casablanca businesses with a 360° team connecting marketing, technology, creative and automation.",
-      "overview": {
-        "what": "The local hub gathering every Mohtaoua digital expertise available to Casablanca businesses.",
-        "who": "Leaders and digital teams in Casablanca SMEs, startups, institutions and enterprises.",
-        "benefits": [
-          "One marketing and technology partner",
-          "Local expertise tied to business goals",
-          "Transparent management"
+    "digitale": {
+      "casablanca": {
+        "metaTitle": "Digital Agency Casablanca | Mohtaoua 360°",
+        "metaDescription": "Digital agency in Casablanca: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
+        "h1": "Digital agency in Casablanca",
+        "intro": "Mohtaoua supports Casablanca businesses with a 360° team connecting marketing, technology, creative and automation.",
+        "overview": {
+          "what": "The local hub gathering every Mohtaoua digital expertise available to Casablanca businesses.",
+          "who": "Leaders and digital teams in Casablanca SMEs, startups, institutions and enterprises.",
+          "benefits": [
+            "One marketing and technology partner",
+            "Local expertise tied to business goals",
+            "Transparent management"
+          ],
+          "topics": [
+            "Digital acquisition",
+            "Web and e-commerce",
+            "Software, CRM and automation",
+            "Branding, photo and video"
+          ],
+          "takeaways": [
+            "53 services in Casablanca",
+            "Morocco-based multidisciplinary team",
+            "Free prioritized audit"
+          ]
+        },
+        "paragraphs": [
+          "Casablanca concentrates Morocco's corporate headquarters, industrial groups, banks, startups and most competitive service companies. In this environment, fragmented digital activity is no longer enough: brand, acquisition, website, data and sales must work together.",
+          "Our role as a digital agency in Casablanca is to build that complete system. We start from business goals, identify friction points and bring together the right expertise: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
+          "Every engagement is managed with indicators tied to the expected outcome: qualified-lead cost, conversion, attributed revenue, organic visibility, tool adoption or productivity gains.",
+          "The section below links every local service page in Casablanca, helping you explore each expertise and its local context."
         ],
-        "topics": [
-          "Digital acquisition",
-          "Web and e-commerce",
-          "Software, CRM and automation",
-          "Branding, photo and video"
+        "challenges": [
+          "Differentiate in a competitive market",
+          "Connect marketing and sales",
+          "Modernize tools safely",
+          "Scale consistent content"
         ],
-        "takeaways": [
-          "53 services in Casablanca",
-          "Morocco-based multidisciplinary team",
-          "Free prioritized audit"
+        "approach": [
+          "Brand and channel audit",
+          "Prioritized roadmap",
+          "Dedicated multidisciplinary team",
+          "Regular reporting"
+        ],
+        "faqs": [
+          {
+            "question": "Which services do you offer in Casablanca?",
+            "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+          },
+          {
+            "question": "Do you work with SMEs and enterprises?",
+            "answer": "Yes. Scope and team adapt to each organization's maturity and constraints."
+          },
+          {
+            "question": "Can you work at our Casablanca office?",
+            "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit for a prioritized action plan before any firm quote."
+          }
         ]
       },
-      "paragraphs": [
-        "Casablanca concentrates Morocco's corporate headquarters, industrial groups, banks, startups and most competitive service companies. In this environment, fragmented digital activity is no longer enough: brand, acquisition, website, data and sales must work together.",
-        "Our role as a digital agency in Casablanca is to build that complete system. We start from business goals, identify friction points and bring together the right expertise: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
-        "Every engagement is managed with indicators tied to the expected outcome: qualified-lead cost, conversion, attributed revenue, organic visibility, tool adoption or productivity gains.",
-        "The section below links every local service page in Casablanca, helping you explore each expertise and its local context."
-      ],
-      "challenges": [
-        "Differentiate in a competitive market",
-        "Connect marketing and sales",
-        "Modernize tools safely",
-        "Scale consistent content"
-      ],
-      "approach": [
-        "Brand and channel audit",
-        "Prioritized roadmap",
-        "Dedicated multidisciplinary team",
-        "Regular reporting"
-      ],
-      "faqs": [
-        {
-          "question": "Which services do you offer in Casablanca?",
-          "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+      "rabat": {
+        "metaTitle": "Digital Agency Rabat | Mohtaoua 360°",
+        "metaDescription": "Digital agency in Rabat: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
+        "h1": "Digital agency in Rabat",
+        "intro": "Mohtaoua supports Rabat businesses with a 360° team connecting marketing, technology, creative and automation.",
+        "overview": {
+          "what": "The local hub gathering every Mohtaoua digital expertise available to Rabat businesses.",
+          "who": "Leaders and digital teams in institutions, consultancies, schools and service companies.",
+          "benefits": [
+            "One marketing and technology partner",
+            "Expertise suited to B2B and institutional sales cycles",
+            "Transparent management"
+          ],
+          "topics": [
+            "Digital acquisition",
+            "Web and e-commerce",
+            "Software, CRM and automation",
+            "Branding, photo and video"
+          ],
+          "takeaways": [
+            "53 services in Rabat",
+            "Morocco-based multidisciplinary team",
+            "Free prioritized audit"
+          ]
         },
-        {
-          "question": "Do you work with SMEs and enterprises?",
-          "answer": "Yes. Scope and team adapt to each organization's maturity and constraints."
+        "paragraphs": [
+          "Rabat and its region host institutions, consultancies, integrators and service companies selling to demanding clients. Tone, credibility and message clarity are decisive for conversion.",
+          "Our role as a digital agency in Rabat is to build a complete system: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
+          "Every engagement is managed with indicators tied to qualified-lead cost, conversion, attributed revenue, organic visibility or productivity gains.",
+          "The section below links every local service page in Rabat, helping you explore each expertise and its local context."
+        ],
+        "challenges": [
+          "Convince demanding decision-makers in long sales cycles",
+          "Professionalize digital image without losing editorial rigor",
+          "Connect acquisition, nurturing and sales follow-up",
+          "Automate follow-up without losing the human relationship"
+        ],
+        "approach": [
+          "Brand and channel audit",
+          "Prioritized roadmap",
+          "Dedicated multidisciplinary team",
+          "Regular reporting"
+        ],
+        "faqs": [
+          {
+            "question": "Which services do you offer in Rabat?",
+            "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+          },
+          {
+            "question": "Do you work with institutions and SMEs?",
+            "answer": "Yes. Scope and team adapt to each organization's maturity and constraints."
+          },
+          {
+            "question": "Can you work at our Rabat office?",
+            "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit for a prioritized action plan before any firm quote."
+          }
+        ]
+      },
+      "marrakech": {
+        "metaTitle": "Digital Agency Marrakech | Mohtaoua 360°",
+        "metaDescription": "Digital agency in Marrakech: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
+        "h1": "Digital agency in Marrakech",
+        "intro": "Mohtaoua supports Marrakech businesses with a 360° team connecting marketing, technology, creative and automation.",
+        "overview": {
+          "what": "The local hub gathering every Mohtaoua digital expertise available to Marrakech businesses.",
+          "who": "Leaders and marketing teams in hotels, real-estate developers, tourism players and premium brands.",
+          "benefits": [
+            "Creative execution matching an international market",
+            "Campaigns calibrated to local seasonality",
+            "Transparent management"
+          ],
+          "topics": [
+            "Digital acquisition",
+            "Web and e-commerce",
+            "Software, CRM and automation",
+            "Branding, photo and video"
+          ],
+          "takeaways": [
+            "53 services in Marrakech",
+            "Morocco-based multidisciplinary team",
+            "Free prioritized audit"
+          ]
         },
-        {
-          "question": "Can you work at our Casablanca office?",
-          "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
+        "paragraphs": [
+          "Marrakech attracts investors, developers, hoteliers and luxury players. Seasonality, international competition and visual impact require flawless execution across every channel.",
+          "Our role as a digital agency in Marrakech is to build a complete system: SEO, media, premium content, web, software, CRM, automation, design and audiovisual production.",
+          "Every engagement is managed with indicators tied to bookings, quote requests, qualified-lead cost, conversion and organic visibility.",
+          "The section below links every local service page in Marrakech, helping you explore each expertise and its local context."
+        ],
+        "challenges": [
+          "Maximize ROI in high season without wasting budget",
+          "Stand out in a highly visual, competitive market",
+          "Connect marketing and sales",
+          "Scale consistent content"
+        ],
+        "approach": [
+          "Brand and channel audit",
+          "Media calendar aligned with seasonality and local events",
+          "Dedicated multidisciplinary team",
+          "Regular reporting"
+        ],
+        "faqs": [
+          {
+            "question": "Which services do you offer in Marrakech?",
+            "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+          },
+          {
+            "question": "Do you work with hospitality and real estate?",
+            "answer": "Yes. We support hotels, riads, developers and tourism players with seasonality-aware strategies."
+          },
+          {
+            "question": "Can you work at our Marrakech office?",
+            "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit for a prioritized action plan before any firm quote."
+          }
+        ]
+      },
+      "tanger": {
+        "metaTitle": "Digital Agency Tangier | Mohtaoua 360°",
+        "metaDescription": "Digital agency in Tangier: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
+        "h1": "Digital agency in Tangier",
+        "intro": "Mohtaoua supports Tangier businesses with a 360° team connecting marketing, technology, creative and automation.",
+        "overview": {
+          "what": "The local hub gathering every Mohtaoua digital expertise available to Tangier businesses.",
+          "who": "Leaders and digital teams in industrial, export, logistics and B2B service companies.",
+          "benefits": [
+            "Credible communication for local and international markets",
+            "Multilingual content adapted to export",
+            "Transparent management"
+          ],
+          "topics": [
+            "Digital acquisition",
+            "Web and e-commerce",
+            "Software, CRM and automation",
+            "Branding, photo and video"
+          ],
+          "takeaways": [
+            "53 services in Tangier",
+            "Morocco-based multidisciplinary team",
+            "Free prioritized audit"
+          ]
         },
-        {
-          "question": "How do we start?",
-          "answer": "Request a free audit for a prioritized action plan before any firm quote."
-        }
-      ]
+        "paragraphs": [
+          "Tangier, gateway to Africa and a major logistics hub, concentrates industrial, export and B2B service companies. Buyers compare offers online before any first commercial contact.",
+          "Our role as a digital agency in Tangier is to build a complete system: SEO, media, multilingual content, web, software, CRM, automation, design and audiovisual production.",
+          "Every engagement is managed with indicators tied to qualified leads, tenders, conversion, organic visibility and credibility with decision-makers.",
+          "The section below links every local service page in Tangier, helping you explore each expertise and its local context."
+        ],
+        "challenges": [
+          "Strengthen B2B credibility with decision-makers",
+          "Generate structured leads for export and tenders",
+          "Modernize tools safely",
+          "Produce consistent multilingual content"
+        ],
+        "approach": [
+          "Brand and channel audit",
+          "Prioritized roadmap",
+          "Dedicated multidisciplinary team",
+          "Regular reporting"
+        ],
+        "faqs": [
+          {
+            "question": "Which services do you offer in Tangier?",
+            "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+          },
+          {
+            "question": "Do you work with export companies?",
+            "answer": "Yes. We adapt content and campaigns to target markets in French, Arabic and English as needed."
+          },
+          {
+            "question": "Can you work at our Tangier office?",
+            "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit for a prioritized action plan before any firm quote."
+          }
+        ]
+      },
+      "agadir": {
+        "metaTitle": "Digital Agency Agadir | Mohtaoua 360°",
+        "metaDescription": "Digital agency in Agadir: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
+        "h1": "Digital agency in Agadir",
+        "intro": "Mohtaoua supports Agadir businesses with a 360° team connecting marketing, technology, creative and automation.",
+        "overview": {
+          "what": "The local hub gathering every Mohtaoua digital expertise available to Agadir businesses.",
+          "who": "Leaders and marketing teams in tourism, agri-food, fishing and local retail.",
+          "benefits": [
+            "Data-driven approach adapted to dual seasonality",
+            "Mobile and WhatsApp-optimized creatives",
+            "Transparent management"
+          ],
+          "topics": [
+            "Digital acquisition",
+            "Web and e-commerce",
+            "Software, CRM and automation",
+            "Branding, photo and video"
+          ],
+          "takeaways": [
+            "53 services in Agadir",
+            "Morocco-based multidisciplinary team",
+            "Free prioritized audit"
+          ]
+        },
+        "paragraphs": [
+          "Agadir combines seaside tourism, agri-food and sea-related activities. Local businesses must reach a mixed audience — residents, tourists and national distributors.",
+          "Our role as a digital agency in Agadir is to build a complete system: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
+          "Every engagement is managed with indicators tied to bookings, inbound requests, lead cost, conversion and visibility during the most profitable periods.",
+          "The section below links every local service page in Agadir, helping you explore each expertise and its local context."
+        ],
+        "challenges": [
+          "Manage marketing budget despite tourist seasonality",
+          "Convert quickly via mobile and WhatsApp",
+          "Connect marketing and sales",
+          "Produce consistent content for varied audiences"
+        ],
+        "approach": [
+          "Brand and channel audit",
+          "Flexible tourism / agri-food media calendar",
+          "Dedicated multidisciplinary team",
+          "Regular reporting"
+        ],
+        "faqs": [
+          {
+            "question": "Which services do you offer in Agadir?",
+            "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+          },
+          {
+            "question": "Do you work with tourism and agri-food?",
+            "answer": "Yes. We adapt strategies to seasonal peaks and each sector's specifics."
+          },
+          {
+            "question": "Can you work at our Agadir office?",
+            "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit for a prioritized action plan before any firm quote."
+          }
+        ]
+      },
+      "fes": {
+        "metaTitle": "Digital Agency Fes | Mohtaoua 360°",
+        "metaDescription": "Digital agency in Fes: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
+        "h1": "Digital agency in Fes",
+        "intro": "Mohtaoua supports Fes businesses with a 360° team connecting marketing, technology, creative and automation.",
+        "overview": {
+          "what": "The local hub gathering every Mohtaoua digital expertise available to Fes businesses.",
+          "who": "Leaders and marketing teams in crafts, retail, education and cultural tourism.",
+          "benefits": [
+            "Authentic and modern brand storytelling",
+            "Polished digital presence for local and national audiences",
+            "Transparent management"
+          ],
+          "topics": [
+            "Digital acquisition",
+            "Web and e-commerce",
+            "Software, CRM and automation",
+            "Branding, photo and video"
+          ],
+          "takeaways": [
+            "53 services in Fes",
+            "Morocco-based multidisciplinary team",
+            "Free prioritized audit"
+          ]
+        },
+        "paragraphs": [
+          "Fes has a rich economic fabric mixing crafts, traditional commerce, education and cultural tourism. Differentiation comes from authentic brand storytelling and a polished digital presence.",
+          "Our role as a digital agency in Fes is to build a complete system: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
+          "Every engagement is managed with indicators tied to local awareness, qualified leads, conversion, customer reviews and organic visibility.",
+          "The section below links every local service page in Fes, helping you explore each expertise and its local context."
+        ],
+        "challenges": [
+          "Digitize word-of-mouth without losing authenticity",
+          "Compete with better-ranked online competitors",
+          "Connect marketing and sales",
+          "Strengthen brand identity across every channel"
+        ],
+        "approach": [
+          "Brand and channel audit",
+          "Prioritized roadmap",
+          "Dedicated multidisciplinary team",
+          "Regular reporting"
+        ],
+        "faqs": [
+          {
+            "question": "Which services do you offer in Fes?",
+            "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+          },
+          {
+            "question": "Do you work with crafts and local retail?",
+            "answer": "Yes. We help local players modernize acquisition while preserving brand authenticity."
+          },
+          {
+            "question": "Can you work at our Fes office?",
+            "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit for a prioritized action plan before any firm quote."
+          }
+        ]
+      }
     },
-    "rabat": {
-      "metaTitle": "Digital Agency Rabat | Mohtaoua 360°",
-      "metaDescription": "Digital agency in Rabat: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
-      "h1": "Digital agency in Rabat",
-      "intro": "Mohtaoua supports Rabat businesses with a 360° team connecting marketing, technology, creative and automation.",
-      "overview": {
-        "what": "The local hub gathering every Mohtaoua digital expertise available to Rabat businesses.",
-        "who": "Leaders and digital teams in institutions, consultancies, schools and service companies.",
-        "benefits": [
-          "One marketing and technology partner",
-          "Expertise suited to B2B and institutional sales cycles",
-          "Transparent management"
+    "communication": {
+      "casablanca": {
+        "metaTitle": "Communication Agency Casablanca | Brand Strategy & Image",
+        "metaDescription": "Communication agency in Casablanca: brand strategy, visual identity, content, social media and creative production. 25 local expertise areas and a free audit.",
+        "h1": "Communication agency in Casablanca",
+        "intro": "In Casablanca, your brand must stand out in a fiercely competitive ecosystem. Mohtaoua structures your communication: positioning, visual identity, content, social media and creative production, with consistency across every touchpoint.",
+        "overview": {
+          "what": "The communication hub gathering our brand, content, creative and events expertise for Casablanca businesses.",
+          "who": "Communication directors, brand managers and content-focused marketing teams.",
+          "benefits": [
+            "A clear, differentiating brand message",
+            "Consistent creative execution across every channel",
+            "Centralized production: design, photo, video and print"
+          ],
+          "topics": [
+            "Brand platform",
+            "Visual identity",
+            "Content and social media",
+            "Photo and video production",
+            "Event communication"
+          ],
+          "takeaways": [
+            "25 communication expertise areas in Casablanca",
+            "Creative and strategic team based in Morocco",
+            "Free audit with editorial recommendations"
+          ]
+        },
+        "paragraphs": [
+          "Casablanca concentrates Morocco's most exposed brands: groups, franchises, financial institutions and service companies compete for attention. A scattered image across suppliers weakens awareness and blurs the message.",
+          "Our role as a communication agency in Casablanca is to build one brand platform, then roll it out consistently: visual identity, editorial line, social content, PR and audiovisual production.",
+          "We don't think performance alone: communication serves reputation, brand preference and internal pride. Every message reinforces a recognizable territory rather than isolated visuals.",
+          "The section below links our communication expertise available in Casablanca: branding, creative, content, photo, video and events, each on its dedicated local page."
         ],
-        "topics": [
-          "Digital acquisition",
-          "Web and e-commerce",
-          "Software, CRM and automation",
-          "Branding, photo and video"
+        "challenges": [
+          "A brand message diluted across agencies and formats",
+          "Inconsistent visual identity from one channel to another",
+          "No editorial calendar or content line",
+          "A weakly differentiating brand image versus competitors"
         ],
-        "takeaways": [
-          "53 services in Rabat",
-          "Morocco-based multidisciplinary team",
-          "Free prioritized audit"
+        "approach": [
+          "Brand, editorial territory and collateral audit",
+          "Brand platform: positioning, messages and guidelines",
+          "Content, creative and messaging production",
+          "Coordinated distribution, PR and awareness measurement"
+        ],
+        "faqs": [
+          {
+            "question": "What does your communication agency in Casablanca cover?",
+            "answer": "Brand strategy and platform, visual identity, graphic design, content, social media, photo, video, motion design and event communication."
+          },
+          {
+            "question": "How is this different from your digital agency in Casablanca?",
+            "answer": "The communication agency focuses on brand, image and content; the digital agency drives acquisition, web, software and performance. They are complementary."
+          },
+          {
+            "question": "Do you handle PR and events too?",
+            "answer": "Yes. We cover PR, corporate communication, brand activation and event organization in Casablanca."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit. We review your current image and provide prioritized editorial recommendations before any firm quote."
+          }
         ]
       },
-      "paragraphs": [
-        "Rabat and its region host institutions, consultancies, integrators and service companies selling to demanding clients. Tone, credibility and message clarity are decisive for conversion.",
-        "Our role as a digital agency in Rabat is to build a complete system: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
-        "Every engagement is managed with indicators tied to qualified-lead cost, conversion, attributed revenue, organic visibility or productivity gains.",
-        "The section below links every local service page in Rabat, helping you explore each expertise and its local context."
-      ],
-      "challenges": [
-        "Convince demanding decision-makers in long sales cycles",
-        "Professionalize digital image without losing editorial rigor",
-        "Connect acquisition, nurturing and sales follow-up",
-        "Automate follow-up without losing the human relationship"
-      ],
-      "approach": [
-        "Brand and channel audit",
-        "Prioritized roadmap",
-        "Dedicated multidisciplinary team",
-        "Regular reporting"
-      ],
-      "faqs": [
-        {
-          "question": "Which services do you offer in Rabat?",
-          "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+      "rabat": {
+        "metaTitle": "Communication Agency Rabat | Brand, Content & Public Relations",
+        "metaDescription": "Communication agency in Rabat: brand strategy, identity, institutional content and public relations. 25 local expertise areas and a free audit.",
+        "h1": "Communication agency in Rabat",
+        "intro": "In Rabat, credibility and clarity come first. Mohtaoua builds rigorous communication for institutions, consultancies and service companies: brand, institutional content, PR and polished collateral.",
+        "overview": {
+          "what": "The communication hub gathering our brand, institutional content, creative and events expertise for Rabat organizations.",
+          "who": "Communication directors of institutions, consultancies, schools and service companies focused on image.",
+          "benefits": [
+            "A credible, consistent institutional image",
+            "Educational and reassuring content",
+            "Rigorous, validated editorial production"
+          ],
+          "topics": [
+            "Brand platform",
+            "Visual identity",
+            "Institutional content",
+            "Public relations",
+            "Event communication"
+          ],
+          "takeaways": [
+            "25 communication expertise areas in Rabat",
+            "Editorial and creative team based in Morocco",
+            "Free audit with editorial recommendations"
+          ]
         },
-        {
-          "question": "Do you work with institutions and SMEs?",
-          "answer": "Yes. Scope and team adapt to each organization's maturity and constraints."
-        },
-        {
-          "question": "Can you work at our Rabat office?",
-          "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
-        },
-        {
-          "question": "How do we start?",
-          "answer": "Request a free audit for a prioritized action plan before any firm quote."
-        }
-      ]
-    },
-    "marrakech": {
-      "metaTitle": "Digital Agency Marrakech | Mohtaoua 360°",
-      "metaDescription": "Digital agency in Marrakech: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
-      "h1": "Digital agency in Marrakech",
-      "intro": "Mohtaoua supports Marrakech businesses with a 360° team connecting marketing, technology, creative and automation.",
-      "overview": {
-        "what": "The local hub gathering every Mohtaoua digital expertise available to Marrakech businesses.",
-        "who": "Leaders and marketing teams in hotels, real-estate developers, tourism players and premium brands.",
-        "benefits": [
-          "Creative execution matching an international market",
-          "Campaigns calibrated to local seasonality",
-          "Transparent management"
+        "paragraphs": [
+          "Rabat hosts institutions, administrations, consultancies and service companies whose reputation rests on trust. Sloppy or inconsistent communication directly undermines credibility.",
+          "Our role as a communication agency in Rabat is to set a clear brand platform, then produce institutional content, collateral and messaging to high editorial standards.",
+          "We favor pedagogy, proof and reassurance over aggressive selling: communication must build authority and trust over the long term.",
+          "The section below links our communication expertise available in Rabat: branding, creative, content, photo, video and events, each on its dedicated local page."
         ],
-        "topics": [
-          "Digital acquisition",
-          "Web and e-commerce",
-          "Software, CRM and automation",
-          "Branding, photo and video"
+        "challenges": [
+          "An institutional image lacking unity",
+          "Content that is too technical or inaccessible",
+          "No reassuring editorial line",
+          "Communication undervalued internally"
         ],
-        "takeaways": [
-          "53 services in Marrakech",
-          "Morocco-based multidisciplinary team",
-          "Free prioritized audit"
+        "approach": [
+          "Brand, editorial territory and collateral audit",
+          "Brand platform and institutional messages",
+          "Content, collateral and messaging production",
+          "Public relations and reputation measurement"
+        ],
+        "faqs": [
+          {
+            "question": "What does your communication agency in Rabat cover?",
+            "answer": "Brand strategy and platform, visual identity, institutional content, social media, photo, video, PR and event communication."
+          },
+          {
+            "question": "How is this different from your digital agency in Rabat?",
+            "answer": "The communication agency carries brand, image and content; the digital agency drives acquisition, web and performance. They complement each other."
+          },
+          {
+            "question": "Do you work with public institutions?",
+            "answer": "Yes. We support institutions, administrations and organizations with structured validation processes and an appropriate tone."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit. We review your image and provide prioritized editorial recommendations before any firm quote."
+          }
         ]
       },
-      "paragraphs": [
-        "Marrakech attracts investors, developers, hoteliers and luxury players. Seasonality, international competition and visual impact require flawless execution across every channel.",
-        "Our role as a digital agency in Marrakech is to build a complete system: SEO, media, premium content, web, software, CRM, automation, design and audiovisual production.",
-        "Every engagement is managed with indicators tied to bookings, quote requests, qualified-lead cost, conversion and organic visibility.",
-        "The section below links every local service page in Marrakech, helping you explore each expertise and its local context."
-      ],
-      "challenges": [
-        "Maximize ROI in high season without wasting budget",
-        "Stand out in a highly visual, competitive market",
-        "Connect marketing and sales",
-        "Scale consistent content"
-      ],
-      "approach": [
-        "Brand and channel audit",
-        "Media calendar aligned with seasonality and local events",
-        "Dedicated multidisciplinary team",
-        "Regular reporting"
-      ],
-      "faqs": [
-        {
-          "question": "Which services do you offer in Marrakech?",
-          "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+      "marrakech": {
+        "metaTitle": "Communication Agency Marrakech | Brand Image & Premium Content",
+        "metaDescription": "Communication agency in Marrakech: brand image, art direction, premium content, photo and video. 25 local expertise areas and a free audit.",
+        "h1": "Communication agency in Marrakech",
+        "intro": "In Marrakech, emotion and aesthetics sell. Mohtaoua shapes a premium brand image: art direction, polished content, photo, video and experiences that showcase the customer experience.",
+        "overview": {
+          "what": "The communication hub gathering our brand, art direction, premium content and events expertise for Marrakech players.",
+          "who": "Hotels, riads, developers, lifestyle brands and tourism and luxury players.",
+          "benefits": [
+            "A desirable, consistent brand image",
+            "Premium visual content suited to luxury",
+            "High-end photo and video production"
+          ],
+          "topics": [
+            "Brand platform",
+            "Art direction",
+            "Premium content",
+            "Photo and video",
+            "Event communication"
+          ],
+          "takeaways": [
+            "25 communication expertise areas in Marrakech",
+            "Creative and artistic team based in Morocco",
+            "Free audit with editorial recommendations"
+          ]
         },
-        {
-          "question": "Do you work with hospitality and real estate?",
-          "answer": "Yes. We support hotels, riads, developers and tourism players with seasonality-aware strategies."
-        },
-        {
-          "question": "Can you work at our Marrakech office?",
-          "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
-        },
-        {
-          "question": "How do we start?",
-          "answer": "Request a free audit for a prioritized action plan before any firm quote."
-        }
-      ]
-    },
-    "tanger": {
-      "metaTitle": "Digital Agency Tangier | Mohtaoua 360°",
-      "metaDescription": "Digital agency in Tangier: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
-      "h1": "Digital agency in Tangier",
-      "intro": "Mohtaoua supports Tangier businesses with a 360° team connecting marketing, technology, creative and automation.",
-      "overview": {
-        "what": "The local hub gathering every Mohtaoua digital expertise available to Tangier businesses.",
-        "who": "Leaders and digital teams in industrial, export, logistics and B2B service companies.",
-        "benefits": [
-          "Credible communication for local and international markets",
-          "Multilingual content adapted to export",
-          "Transparent management"
+        "paragraphs": [
+          "Marrakech lives on image: hotels, riads, developers and lifestyle brands compete on aesthetics and experience. Bland or inconsistent communication goes unnoticed by a demanding international clientele.",
+          "Our role as a communication agency in Marrakech is to build strong art direction, then roll it out into premium content: identity, photo, video, social media and polished messaging.",
+          "We put emotion and storytelling at the service of the brand, with flawless visual execution reflecting positioning and quality level.",
+          "The section below links our communication expertise available in Marrakech: branding, creative, content, photo, video and events, each on its dedicated local page."
         ],
-        "topics": [
-          "Digital acquisition",
-          "Web and e-commerce",
-          "Software, CRM and automation",
-          "Branding, photo and video"
+        "challenges": [
+          "A brand image below the intended quality level",
+          "Irregular visual content from one season to another",
+          "Weak storytelling versus international competition",
+          "Creative production scattered across suppliers"
         ],
-        "takeaways": [
-          "53 services in Tangier",
-          "Morocco-based multidisciplinary team",
-          "Free prioritized audit"
+        "approach": [
+          "Brand, artistic territory and content audit",
+          "Art direction and brand platform",
+          "Photo, video and premium content production",
+          "Distribution and awareness measurement"
+        ],
+        "faqs": [
+          {
+            "question": "What does your communication agency in Marrakech cover?",
+            "answer": "Art direction, brand platform, visual identity, premium content, photo, video, motion design and event communication."
+          },
+          {
+            "question": "How is this different from your digital agency in Marrakech?",
+            "answer": "The communication agency carries image and creative; the digital agency drives acquisition, bookings and performance. They complement each other."
+          },
+          {
+            "question": "Do you produce photo and video on site?",
+            "answer": "Yes. Art direction, photography, video, motion and Reels can be produced in Marrakech depending on your project."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit. We review your image and provide prioritized creative recommendations before any firm quote."
+          }
         ]
       },
-      "paragraphs": [
-        "Tangier, gateway to Africa and a major logistics hub, concentrates industrial, export and B2B service companies. Buyers compare offers online before any first commercial contact.",
-        "Our role as a digital agency in Tangier is to build a complete system: SEO, media, multilingual content, web, software, CRM, automation, design and audiovisual production.",
-        "Every engagement is managed with indicators tied to qualified leads, tenders, conversion, organic visibility and credibility with decision-makers.",
-        "The section below links every local service page in Tangier, helping you explore each expertise and its local context."
-      ],
-      "challenges": [
-        "Strengthen B2B credibility with decision-makers",
-        "Generate structured leads for export and tenders",
-        "Modernize tools safely",
-        "Produce consistent multilingual content"
-      ],
-      "approach": [
-        "Brand and channel audit",
-        "Prioritized roadmap",
-        "Dedicated multidisciplinary team",
-        "Regular reporting"
-      ],
-      "faqs": [
-        {
-          "question": "Which services do you offer in Tangier?",
-          "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+      "tanger": {
+        "metaTitle": "Communication Agency Tangier | Brand, Multilingual Content & B2B",
+        "metaDescription": "Communication agency in Tangier: brand image, multilingual content, B2B collateral and production. 25 local expertise areas and a free audit.",
+        "h1": "Communication agency in Tangier",
+        "intro": "In Tangier, international credibility depends on image. Mohtaoua builds solid B2B communication: brand, multilingual content, sales collateral and production tailored to export markets.",
+        "overview": {
+          "what": "The communication hub gathering our brand, multilingual content, creative and events expertise for Tangier businesses.",
+          "who": "Industrial, export, logistics and B2B service companies focused on international markets.",
+          "benefits": [
+            "A credible image with decision-makers",
+            "Consistent multilingual content",
+            "Professional sales and corporate collateral"
+          ],
+          "topics": [
+            "Brand platform",
+            "Visual identity",
+            "Multilingual content",
+            "B2B collateral",
+            "Event communication"
+          ],
+          "takeaways": [
+            "25 communication expertise areas in Tangier",
+            "Editorial and creative team based in Morocco",
+            "Free audit with editorial recommendations"
+          ]
         },
-        {
-          "question": "Do you work with export companies?",
-          "answer": "Yes. We adapt content and campaigns to target markets in French, Arabic and English as needed."
-        },
-        {
-          "question": "Can you work at our Tangier office?",
-          "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
-        },
-        {
-          "question": "How do we start?",
-          "answer": "Request a free audit for a prioritized action plan before any firm quote."
-        }
-      ]
-    },
-    "agadir": {
-      "metaTitle": "Digital Agency Agadir | Mohtaoua 360°",
-      "metaDescription": "Digital agency in Agadir: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
-      "h1": "Digital agency in Agadir",
-      "intro": "Mohtaoua supports Agadir businesses with a 360° team connecting marketing, technology, creative and automation.",
-      "overview": {
-        "what": "The local hub gathering every Mohtaoua digital expertise available to Agadir businesses.",
-        "who": "Leaders and marketing teams in tourism, agri-food, fishing and local retail.",
-        "benefits": [
-          "Data-driven approach adapted to dual seasonality",
-          "Mobile and WhatsApp-optimized creatives",
-          "Transparent management"
+        "paragraphs": [
+          "Tangier, an industrial and logistics hub oriented toward Europe, demands credible communication: decision-makers and international partners judge a company on its image before any contact.",
+          "Our role as a communication agency in Tangier is to set a clear brand platform, then produce multilingual content, corporate collateral and messaging to international standards.",
+          "We ensure consistency across French, Arabic and English, and the quality of the sales collateral supporting export growth.",
+          "The section below links our communication expertise available in Tangier: branding, creative, content, photo, video and events, each on its dedicated local page."
         ],
-        "topics": [
-          "Digital acquisition",
-          "Web and e-commerce",
-          "Software, CRM and automation",
-          "Branding, photo and video"
+        "challenges": [
+          "A weakly credible image with international partners",
+          "Inconsistent or poorly translated multilingual content",
+          "Dated sales collateral",
+          "A weakly differentiating brand in tenders"
         ],
-        "takeaways": [
-          "53 services in Agadir",
-          "Morocco-based multidisciplinary team",
-          "Free prioritized audit"
+        "approach": [
+          "Brand, collateral and multilingual content audit",
+          "Brand platform and B2B messages",
+          "Collateral, content and messaging production",
+          "Distribution and awareness measurement"
+        ],
+        "faqs": [
+          {
+            "question": "What does your communication agency in Tangier cover?",
+            "answer": "Brand strategy and platform, visual identity, multilingual content, B2B collateral, photo, video and event communication."
+          },
+          {
+            "question": "How is this different from your digital agency in Tangier?",
+            "answer": "The communication agency carries brand, image and content; the digital agency drives acquisition, web and performance. They complement each other."
+          },
+          {
+            "question": "Do you produce content in several languages?",
+            "answer": "Yes. We produce content and collateral in French, Arabic and English depending on your target markets."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit. We review your image and provide prioritized editorial recommendations before any firm quote."
+          }
         ]
       },
-      "paragraphs": [
-        "Agadir combines seaside tourism, agri-food and sea-related activities. Local businesses must reach a mixed audience — residents, tourists and national distributors.",
-        "Our role as a digital agency in Agadir is to build a complete system: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
-        "Every engagement is managed with indicators tied to bookings, inbound requests, lead cost, conversion and visibility during the most profitable periods.",
-        "The section below links every local service page in Agadir, helping you explore each expertise and its local context."
-      ],
-      "challenges": [
-        "Manage marketing budget despite tourist seasonality",
-        "Convert quickly via mobile and WhatsApp",
-        "Connect marketing and sales",
-        "Produce consistent content for varied audiences"
-      ],
-      "approach": [
-        "Brand and channel audit",
-        "Flexible tourism / agri-food media calendar",
-        "Dedicated multidisciplinary team",
-        "Regular reporting"
-      ],
-      "faqs": [
-        {
-          "question": "Which services do you offer in Agadir?",
-          "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+      "agadir": {
+        "metaTitle": "Communication Agency Agadir | Brand Image & Local Content",
+        "metaDescription": "Communication agency in Agadir: brand image, content, photo/video and local communication for tourism and agri-food. 25 local expertise areas and a free audit.",
+        "h1": "Communication agency in Agadir",
+        "intro": "In Agadir, the brand must speak to a mixed audience: residents, tourists and distributors. Mohtaoua builds clear, local communication: image, content, photo, video and tailored collateral.",
+        "overview": {
+          "what": "The communication hub gathering our brand, content, creative and events expertise for Agadir businesses.",
+          "who": "Tourism, agri-food, fishing and local retail players.",
+          "benefits": [
+            "A clear brand image for a mixed audience",
+            "Content adapted to mobile and local context",
+            "Regular photo and video production"
+          ],
+          "topics": [
+            "Brand platform",
+            "Visual identity",
+            "Local content",
+            "Photo and video",
+            "Event communication"
+          ],
+          "takeaways": [
+            "25 communication expertise areas in Agadir",
+            "Creative and editorial team based in Morocco",
+            "Free audit with editorial recommendations"
+          ]
         },
-        {
-          "question": "Do you work with tourism and agri-food?",
-          "answer": "Yes. We adapt strategies to seasonal peaks and each sector's specifics."
-        },
-        {
-          "question": "Can you work at our Agadir office?",
-          "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
-        },
-        {
-          "question": "How do we start?",
-          "answer": "Request a free audit for a prioritized action plan before any firm quote."
-        }
-      ]
-    },
-    "fes": {
-      "metaTitle": "Digital Agency Fes | Mohtaoua 360°",
-      "metaDescription": "Digital agency in Fes: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
-      "h1": "Digital agency in Fes",
-      "intro": "Mohtaoua supports Fes businesses with a 360° team connecting marketing, technology, creative and automation.",
-      "overview": {
-        "what": "The local hub gathering every Mohtaoua digital expertise available to Fes businesses.",
-        "who": "Leaders and marketing teams in crafts, retail, education and cultural tourism.",
-        "benefits": [
-          "Authentic and modern brand storytelling",
-          "Polished digital presence for local and national audiences",
-          "Transparent management"
+        "paragraphs": [
+          "Agadir combines tourism, agri-food and local retail. Brands must speak to very different audiences — residents, tourists and distributors — without losing consistency.",
+          "Our role as a communication agency in Agadir is to build a clear brand platform, then produce content, visuals and collateral tailored to each audience and season.",
+          "We focus on readability, mobile adaptation and regular messaging, so the brand stays present all year round.",
+          "The section below links our communication expertise available in Agadir: branding, creative, content, photo, video and events, each on its dedicated local page."
         ],
-        "topics": [
-          "Digital acquisition",
-          "Web and e-commerce",
-          "Software, CRM and automation",
-          "Branding, photo and video"
+        "challenges": [
+          "An image that struggles to speak to very different audiences",
+          "Irregular content depending on the season",
+          "Insufficient visual production",
+          "A brand that is hard to identify locally"
         ],
-        "takeaways": [
-          "53 services in Fes",
-          "Morocco-based multidisciplinary team",
-          "Free prioritized audit"
+        "approach": [
+          "Brand, audience and content audit",
+          "Brand platform and editorial line",
+          "Content, visual and collateral production",
+          "Local distribution and awareness measurement"
+        ],
+        "faqs": [
+          {
+            "question": "What does your communication agency in Agadir cover?",
+            "answer": "Brand strategy and platform, visual identity, content, social media, photo, video and event communication."
+          },
+          {
+            "question": "How is this different from your digital agency in Agadir?",
+            "answer": "The communication agency carries brand, image and content; the digital agency drives acquisition and performance. They complement each other."
+          },
+          {
+            "question": "Do you produce photo and video in Agadir?",
+            "answer": "Yes. Photography, video, motion and Reels can be produced locally depending on your project."
+          },
+          {
+            "question": "How do we start?",
+            "answer": "Request a free audit. We review your image and provide prioritized editorial recommendations before any firm quote."
+          }
         ]
-      },
-      "paragraphs": [
-        "Fes has a rich economic fabric mixing crafts, traditional commerce, education and cultural tourism. Differentiation comes from authentic brand storytelling and a polished digital presence.",
-        "Our role as a digital agency in Fes is to build a complete system: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
-        "Every engagement is managed with indicators tied to local awareness, qualified leads, conversion, customer reviews and organic visibility.",
-        "The section below links every local service page in Fes, helping you explore each expertise and its local context."
-      ],
-      "challenges": [
-        "Digitize word-of-mouth without losing authenticity",
-        "Compete with better-ranked online competitors",
-        "Connect marketing and sales",
-        "Strengthen brand identity across every channel"
-      ],
-      "approach": [
-        "Brand and channel audit",
-        "Prioritized roadmap",
-        "Dedicated multidisciplinary team",
-        "Regular reporting"
-      ],
-      "faqs": [
-        {
-          "question": "Which services do you offer in Fes?",
-          "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
-        },
-        {
-          "question": "Do you work with crafts and local retail?",
-          "answer": "Yes. We help local players modernize acquisition while preserving brand authenticity."
-        },
-        {
-          "question": "Can you work at our Fes office?",
-          "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
-        },
-        {
-          "question": "How do we start?",
-          "answer": "Request a free audit for a prioritized action plan before any firm quote."
-        }
-      ]
+      }
     }
   }
 }

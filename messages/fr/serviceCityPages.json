@@ -165,8 +165,15 @@
     }
   ],
   "localContext": {
-    "title": "Votre agence digitale locale",
-    "prefix": "Pour compléter {service} à {ville}, découvrez",
-    "agencyLink": "tous les services de notre agence digitale à {ville}"
+    "digitale": {
+      "title": "Votre agence digitale locale",
+      "prefix": "Pour compléter {service} à {ville}, découvrez",
+      "agencyLink": "tous les services de notre agence digitale à {ville}"
+    },
+    "communication": {
+      "title": "Votre agence de communication locale",
+      "prefix": "Pour compléter {service} à {ville}, explorez",
+      "agencyLink": "toutes nos expertises communication à {ville}"
+    }
   }
 }

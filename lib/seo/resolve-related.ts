@@ -14,7 +14,7 @@ import {
   type ContentType,
 } from "@/data/content-graph";
 import { getServiceCityCombo, type CitySlug } from "@/data/service-city-combos";
-import { getAgencyHub } from "@/data/agency-hubs";
+import { getAgencyHub, isCommunicationHubService } from "@/data/agency-hubs";
 import { INDUSTRY_SLUGS } from "@/data/industries";
 import { SERVICE_SLUGS } from "@/data/meta";
 
@@ -111,11 +111,23 @@ function scoreCandidate(current: ContentNode, candidate: ContentNode): number {
   ) {
     const currentCity = getNodeCity(current);
     const candidateCity = getNodeCity(candidate);
-    if (currentCity && candidateCity && currentCity === candidateCity) {
-      score += 60;
-    } else {
+    if (!currentCity || !candidateCity || currentCity !== candidateCity) {
       return -Infinity;
     }
+    // Un hub communication ne relie que ses services communication ;
+    // un hub digitale relie tous les services de la ville.
+    const hubNode = current.type === "agency-hub" ? current : candidate;
+    const cityNode = current.type === "service-city" ? current : candidate;
+    const hub = getAgencyHub(hubNode.slug);
+    const combo = getServiceCityCombo(cityNode.slug);
+    if (
+      hub?.type === "communication" &&
+      combo &&
+      !isCommunicationHubService(combo.service)
+    ) {
+      return -Infinity;
+    }
+    score += 60;
   }
 
   if (

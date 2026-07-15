@@ -46,7 +46,9 @@ function getRawTitle(node: ContentNode, src: ContentLabelSources): string {
     }
     case "agency-hub": {
       const hub = getAgencyHub(node.slug);
-      return hub ? src.agencyHub(`items.${hub.villeSlug}.h1`) : node.slug;
+      return hub
+        ? src.agencyHub(`items.${hub.type}.${hub.villeSlug}.h1`)
+        : node.slug;
     }
     case "resource":
       return src.internalLinking(`resources.${node.slug}.title`);
@@ -79,7 +81,7 @@ function getRawDescription(node: ContentNode, src: ContentLabelSources): string 
     case "agency-hub": {
       const hub = getAgencyHub(node.slug);
       return hub
-        ? src.agencyHub(`items.${hub.villeSlug}.metaDescription`)
+        ? src.agencyHub(`items.${hub.type}.${hub.villeSlug}.metaDescription`)
         : "";
     }
     case "resource":
