@@ -1,11 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { motion } from "framer-motion";
 import { ArrowRight, Check } from "lucide-react";
 import { Icon } from "@/components/shared/icon";
-import { ServiceVisual } from "@/components/shared/premium-illustration";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { SERVICE_PILLARS } from "@/data/pillars";
@@ -76,7 +76,7 @@ export function ServicesByPillar({
                         service.highlighted && "ring-1 ring-primary/20"
                       )}
                     >
-                      <ServiceVisual kind={getServiceVisualKind(service.slug)} />
+                      <ServiceIllustration slug={service.slug} />
                       <Link href={`/services/${service.slug}`} className="relative z-10 flex flex-1 flex-col gap-4">
                         <div className="flex items-start justify-between gap-4">
                           <span className="grid size-14 place-items-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/10 text-primary transition-transform duration-300 group-hover:scale-110">
@@ -119,16 +119,45 @@ export function ServicesByPillar({
   );
 }
 
-function getServiceVisualKind(slug: string) {
-  if (["ai-agents", "chatbots", "geo"].includes(slug)) return "ai" as const;
-  if (["custom-software", "saas", "api-integration", "automation", "workflow-automation"].includes(slug)) {
-    return "software" as const;
+function ServiceIllustration({ slug }: { slug: string }) {
+  const illustration = getIllustrationSlug(slug);
+
+  return (
+    <Image
+      src={`/illustrations/${illustration}.webp`}
+      alt=""
+      width={144}
+      height={144}
+      loading="lazy"
+      sizes="144px"
+      aria-hidden="true"
+      className="pointer-events-none absolute -right-4 -top-5 z-0 size-36 object-contain opacity-80 transition-transform duration-500 group-hover:scale-105"
+    />
+  );
+}
+
+function getIllustrationSlug(slug: string) {
+  if (["ai-agents", "geo"].includes(slug)) return "ai-agents";
+  if (["chatbots"].includes(slug)) return "chatbots";
+  if (["custom-software", "saas", "business-platforms", "api-integration"].includes(slug)) {
+    return "website-development";
   }
-  if (["crm-data", "lead-generation", "marketing-automation"].includes(slug)) return "crm" as const;
-  if (["erp", "business-platforms", "business-intelligence"].includes(slug)) return "erp" as const;
-  if (["archidoc", "content-marketing", "brochure", "catalogue"].includes(slug)) return "documents" as const;
-  if (["e-nfc", "mobile-applications", "android", "ios", "flutter", "react-native"].includes(slug)) {
-    return "nfc" as const;
+  if (["automation", "workflow-automation", "marketing-automation"].includes(slug)) return "automation";
+  if (["crm-data", "lead-generation"].includes(slug)) return "crm";
+  if (["erp"].includes(slug)) return "erp";
+  if (["android", "ios", "flutter", "react-native"].includes(slug)) return "mobile-apps";
+  if (["google-ads"].includes(slug)) return "google-ads";
+  if (["meta-ads"].includes(slug)) return "meta-ads";
+  if (["tiktok-ads"].includes(slug)) return "tiktok-ads";
+  if (["seo"].includes(slug)) return "seo";
+  if (["brand-identity", "logo", "graphic-design", "agence-creative-maroc"].includes(slug)) return "branding";
+  if (["brochure", "catalogue", "flyers", "packaging"].includes(slug)) return "brochure";
+  if (["commercial-photography", "corporate-photography", "product-photography"].includes(slug)) {
+    return "photography";
   }
-  return "marketing" as const;
+  if (["video-production", "reels", "motion-graphics"].includes(slug)) return "video-production";
+  if (["corporate-events", "conferences", "training-events", "booth-design", "brand-activation", "event-communication"].includes(slug)) {
+    return "events";
+  }
+  return "website-development";
 }

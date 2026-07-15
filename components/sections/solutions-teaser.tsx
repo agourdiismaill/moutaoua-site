@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { ArrowRight } from "lucide-react";
@@ -53,8 +54,18 @@ export function SolutionsTeaser({ className }: { className?: string }) {
               <motion.div key={solution.slug} variants={fadeUp}>
                 <Link
                   href={`/solutions/${solution.slug}`}
-                  className="group flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-soft-lg"
+                  className="group relative flex flex-col items-center gap-3 overflow-hidden rounded-2xl border border-border bg-card p-6 text-center shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-soft-lg"
                 >
+                  <Image
+                    src={`/illustrations/${getSolutionIllustration(solution.slug)}.webp`}
+                    alt=""
+                    width={112}
+                    height={112}
+                    loading="lazy"
+                    sizes="112px"
+                    aria-hidden="true"
+                    className="pointer-events-none absolute -right-5 -top-5 size-28 object-contain opacity-70 transition-transform duration-500 group-hover:scale-105"
+                  />
                   <span className="grid size-12 place-items-center rounded-xl bg-gradient-to-br from-primary/15 to-secondary/10 text-primary transition-transform duration-300 group-hover:scale-110">
                     <Icon name={meta?.icon ?? "Sparkles"} className="size-6" />
                   </span>
@@ -76,4 +87,19 @@ export function SolutionsTeaser({ className }: { className?: string }) {
       </div>
     </section>
   );
+}
+
+function getSolutionIllustration(slug: string) {
+  const illustrations: Record<string, string> = {
+    "e-nfc": "e-nfc",
+    crm: "crm",
+    "ai-agents": "ai-agents",
+    "erp-restaurant": "erp",
+    archidoc: "archidoc",
+    "website-builder": "website-development",
+    "business-intelligence": "cloud",
+    "whatsapp-automation": "chatbots",
+  };
+
+  return illustrations[slug] ?? "website-development";
 }
