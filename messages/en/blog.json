@@ -1341,6 +1341,201 @@
           "answer": "SaaS (HubSpot, Pipedrive) if your processes are standard and your team < 20 people. Custom CRM if you have specific workflows (multi-branch, regulated sector, ERP/payment integration), or if you want a unified WhatsApp + acquisition + billing stack without multiplying subscriptions."
         }
       ]
+    },
+    "marketing-automation-maroc-guide": {
+      "cover": "/logo-full.svg",
+      "title": "Marketing automation in Morocco: automate leads without losing the human touch",
+      "excerpt": "Email sequences, WhatsApp follow-ups, scoring and nurturing: a complete guide to marketing automation for Moroccan SMEs and training centers.",
+      "category": "automation",
+      "overview": {
+        "what": "Expert guide to deploy marketing automation in Morocco: workflows, tools, Meta/Google/WhatsApp/CRM integrations and KPIs to convert more without growing your team.",
+        "who": "Business owners and marketing/sales leads who generate leads but lack structured follow-up.",
+        "benefits": [
+          "3 ready-to-deploy workflows (welcome, nurturing, reactivation)",
+          "Tool stack suited to Moroccan SME budgets",
+          "Acquisition → CRM → WhatsApp connection explained step by step"
+        ],
+        "topics": [
+          "Marketing automation Morocco",
+          "Lead nurturing",
+          "WhatsApp automation",
+          "HubSpot",
+          "Make Zapier",
+          "Lead scoring"
+        ],
+        "takeaways": [
+          "Automation doesn't replace sales — it ensures no lead is forgotten",
+          "WhatsApp + email + CRM is the winning trio in Morocco, not email alone",
+          "3 well-configured workflows can double your 24-hour contact rate"
+        ]
+      },
+      "sections": [
+        {
+          "id": "intro",
+          "heading": "Why marketing automation has become critical in Morocco",
+          "paragraphs": [
+            "In 2026, most Moroccan businesses invest in digital acquisition: Meta Ads, Google Ads, TikTok, landing pages. The problem is no longer generating leads — it's processing them fast and often enough to convert. Without automation, your sales team spends the day copy-pasting WhatsApp messages and manually chasing warm prospects.",
+            "Marketing automation structures these repetitive tasks: instant lead welcome, assignment to the right rep, follow-up sequences, appointment reminders, scoring and human handoff at the right moment. This guide shows how to deploy it in Morocco without turning your business into an impersonal message factory."
+          ]
+        },
+        {
+          "id": "probleme",
+          "heading": "The problem: you pay for acquisition, you lose on conversion",
+          "paragraphs": [
+            "We see the same scenario every week: 200 leads per month via Meta Ads, 40% never contacted within 24 hours, 25% with no follow-up after the first exchange. The sales team is overwhelmed and leadership can't tell if campaigns or follow-up is the bottleneck.",
+            "Automation doesn't create magic — it applies rules you define once, systematically. A form submission triggers a WhatsApp notification to sales, a welcome message to the prospect, a J+1 reminder task if no response, and a move to 'cold lead' at J+7 for reactivation."
+          ],
+          "bullets": [
+            "First contact delay too long (target: < 1 h in B2C)",
+            "Follow-ups forgotten when the team is in meetings or on weekends",
+            "No segmentation: same message for hot leads and curious browsers",
+            "Marketing and sales on different tools without sync",
+            "Unable to measure conversion by source and sequence"
+          ]
+        },
+        {
+          "id": "definition",
+          "heading": "What marketing automation really means",
+          "paragraphs": [
+            "Marketing automation orchestrates marketing and sales actions triggered by an event: form submission, ad click, email open, CRM status change, key date (back-to-school, trial end). Actions can be emails, WhatsApp messages, SMS, internal notifications, CRM field updates or rep assignment.",
+            "It's not industrialized spam. The best implementations in Morocco combine automation with human touchpoints: the automatic message confirms receipt and offers a slot; the rep takes over for the sale."
+          ]
+        },
+        {
+          "id": "workflows",
+          "heading": "The 3 essential workflows to start",
+          "paragraphs": [
+            "Don't deploy 20 scenarios at once. Three workflows cover 80% of Moroccan SME needs."
+          ],
+          "bullets": [
+            "Workflow 1 — Lead welcome: form or Lead Ad → CRM creation → rep notification → WhatsApp welcome → 60 min callback task",
+            "Workflow 2 — Warm nurturing: no response J+1 → value message → J+3 meeting offer → J+7 last touch before archive",
+            "Workflow 3 — Reactivation: cold leads > 30 days → targeted campaign → pipeline re-entry if response"
+          ]
+        },
+        {
+          "id": "outils",
+          "heading": "Which tools for marketing automation in Morocco?",
+          "paragraphs": [
+            "Choice depends on your existing stack, budget and WhatsApp's role in your process."
+          ],
+          "bullets": [
+            "HubSpot: marketing workflows + integrated CRM",
+            "Make or Zapier: Meta, Google, WhatsApp API, CRM connectors",
+            "Brevo: email + SMS + simple automation",
+            "Mohtaoua solution: native WhatsApp + CRM + campaigns automation",
+            "WhatsApp Business API: essential to scale beyond 2 reps on one number"
+          ]
+        },
+        {
+          "id": "etapes",
+          "heading": "Deploy automation in 5 steps",
+          "paragraphs": [
+            "Follow this sequence to avoid three-month projects with no measurable results."
+          ],
+          "bullets": [
+            "1. Map the current journey from lead source to signature",
+            "2. Define 3 priority triggers and associated messages",
+            "3. Connect sources: Meta Lead Ads, site form, Google Ads → CRM",
+            "4. Write WhatsApp and email scripts (human tone) and validate with sales",
+            "5. Pilot on one channel, measure 30 days, then expand"
+          ]
+        },
+        {
+          "id": "whatsapp",
+          "heading": "WhatsApp: the #1 channel to automate in Morocco",
+          "paragraphs": [
+            "Email alone isn't enough: WhatsApp open rates far exceed email for B2C and training in Morocco. Automate at minimum: instant acknowledgment, 24h appointment reminder, post-visit follow-up. Use Meta-approved templates for messages outside the 24h window.",
+            "Watch the automation/spam line: limit to 3-4 automatic touchpoints before human intervention. Personalize with first name, requested program and city when relevant."
+          ]
+        },
+        {
+          "id": "integrations",
+          "heading": "Connect acquisition, CRM and automation",
+          "paragraphs": [
+            "Automation only works if data flows between systems."
+          ],
+          "bullets": [
+            "Meta Lead Ads → CRM + WhatsApp sequence (real-time)",
+            "Google Ads forms → CRM with UTM preserved",
+            "Landing page → webhook → CRM → automation",
+            "CRM → Meta/Google CAPI: send 'Qualified lead' and 'Sale' events",
+            "Calendar → automatic reminders and CRM status updates"
+          ]
+        },
+        {
+          "id": "scoring",
+          "heading": "Scoring and automatic qualification",
+          "paragraphs": [
+            "Not all leads deserve the same immediate effort. Simple scoring — based on source, declared budget, responsiveness and engagement — lets you prioritize hot leads for a call within the hour and put curious leads in automatic nurturing."
+          ]
+        },
+        {
+          "id": "kpis",
+          "heading": "Weekly KPIs to track",
+          "paragraphs": [
+            "Measure automation on conversion, not message volume."
+          ],
+          "bullets": [
+            "Average first contact delay (before / after automation)",
+            "Contact rate at J+1 and J+7",
+            "Lead → meeting and lead → client conversion rates",
+            "WhatsApp vs email sequence response rates",
+            "Cost per acquired client by source",
+            "Cold lead reactivation rate"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Mistakes that kill automation projects",
+          "paragraphs": [
+            "These traps appear in most projects we take over mid-flight."
+          ],
+          "bullets": [
+            "Automating before having a clean CRM",
+            "Messages too long or corporate on WhatsApp",
+            "No human handoff rule",
+            "Too many parallel workflows at launch",
+            "Not testing on mobile",
+            "Ignoring consent and opt-out",
+            "Not training sales reps"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Automation + human: the winning model",
+          "paragraphs": [
+            "Marketing automation in Morocco isn't a luxury for multinationals. With three workflows, a connected CRM and well-integrated WhatsApp, a 5-person SME can handle the lead volume of a structure three times larger.",
+            "At Mohtaoua, we design and deploy custom automation systems for Moroccan businesses. Request a free audit: we'll map your leaks and propose a priced automation plan ready to deploy in 30 days."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Where to start if I've never done automation?",
+          "answer": "Start with the lead welcome workflow: rep notification + automatic WhatsApp + callback task. Fastest ROI, needs only CRM and form or Meta Lead Ads connection."
+        },
+        {
+          "question": "Make or Zapier for a Moroccan SME?",
+          "answer": "Make is often more cost-effective for medium volume. Zapier is simpler to start. Both connect Meta, Google, HubSpot and WhatsApp via API. Typical budget: $15-50/month."
+        },
+        {
+          "question": "Will automation dehumanize our customer relationship?",
+          "answer": "No, if you limit automation to logistics (welcome, reminders, informative nurturing) and keep humans for selling and negotiation."
+        },
+        {
+          "question": "How long to set up 3 workflows?",
+          "answer": "Count 2-4 weeks for audit, scripts, configuration, tests and training. A single-channel pilot can go live in 10 days."
+        },
+        {
+          "question": "Do I need a CRM before automation?",
+          "answer": "Yes in 95% of cases. Automation without centralized CRM creates follow-ups in a vacuum. HubSpot free or Mohtaoua CRM is enough to start."
+        },
+        {
+          "question": "WhatsApp automation without Business API?",
+          "answer": "For 1-2 reps, WhatsApp Business App with quick replies may suffice initially. Beyond 50 leads/month or 3 users, Business API becomes necessary."
+        }
+      ]
     }
   },
   "backToBlog": "Back to Insights"

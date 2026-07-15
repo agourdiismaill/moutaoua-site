@@ -158,6 +158,12 @@ const blogMeta: Record<
     topics: ["crm-data", "marketing-automation", "whatsapp", "leads", "hubspot", "pipedrive"],
     priority: 96,
   },
+  "marketing-automation-maroc-guide": {
+    category: "automation",
+    services: ["marketing-automation", "crm-data", "workflow-automation", "lead-generation"],
+    topics: ["marketing-automation", "whatsapp", "nurturing", "hubspot", "make", "zapier"],
+    priority: 97,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
@@ -318,7 +324,12 @@ export const EXPLICIT_RELATIONS: Record<
   "marketing-automation": {
     service: ["crm-data", "landing-pages", "meta-ads"],
     "case-study": ["edunext-automation"],
-    blog: ["whatsapp-convertir-leads-formation-maroc", "checklist-landing-page-formation", "campagne-inscriptions-rentree-formation-maroc"],
+    blog: [
+      "marketing-automation-maroc-guide",
+      "whatsapp-convertir-leads-formation-maroc",
+      "crm-entreprise-maroc-guide",
+      "checklist-landing-page-formation",
+    ],
   },
   "landing-pages": {
     service: ["meta-ads", "google-ads", "marketing-automation"],
@@ -416,10 +427,23 @@ export const EXPLICIT_RELATIONS: Record<
       "tiktok-ads-maroc-guide",
       "generer-leads-centre-formation-maroc",
       "transformation-digitale-pme-maroc",
+      "marketing-automation-maroc-guide",
     ],
     "case-study": ["edunext-automation", "skola-formation"],
     solution: ["crm", "whatsapp-automation"],
     comparison: ["crm-vs-excel", "erp-vs-crm"],
+  },
+  "marketing-automation-maroc-guide": {
+    service: ["marketing-automation", "crm-data", "workflow-automation", "lead-generation"],
+    blog: [
+      "crm-entreprise-maroc-guide",
+      "whatsapp-convertir-leads-formation-maroc",
+      "checklist-landing-page-formation",
+      "generer-leads-centre-formation-maroc",
+    ],
+    "case-study": ["edunext-automation", "skola-formation"],
+    solution: ["crm", "whatsapp-automation"],
+    guide: ["guide-marketing-digital-maroc"],
   },
   "tiktok-ads": {
     service: ["meta-ads", "reels", "social-media", "landing-pages"],
