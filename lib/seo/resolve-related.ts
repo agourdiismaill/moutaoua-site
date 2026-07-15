@@ -14,7 +14,7 @@ import {
   type ContentType,
 } from "@/data/content-graph";
 import { getServiceCityCombo, type CitySlug } from "@/data/service-city-combos";
-import { getAgencyHub, isCommunicationHubService } from "@/data/agency-hubs";
+import { getAgencyHub, getAgencyHubForServiceCity } from "@/data/agency-hubs";
 import { INDUSTRY_SLUGS } from "@/data/industries";
 import { SERVICE_SLUGS } from "@/data/meta";
 
@@ -114,18 +114,22 @@ function scoreCandidate(current: ContentNode, candidate: ContentNode): number {
     if (!currentCity || !candidateCity || currentCity !== candidateCity) {
       return -Infinity;
     }
-    // Un hub communication ne relie que ses services communication ;
-    // un hub digitale relie tous les services de la ville.
+    // Un service-ville ne relie qu'un seul hub : celui choisi par le routage
+    // réciproque (communication pour les services créatifs/contenus, digitale
+    // sinon). On aligne la parenté sur getAgencyHubForServiceCity pour que la
+    // section "contenus liés" et le lien contextuel désignent le même hub.
     const hubNode = current.type === "agency-hub" ? current : candidate;
     const cityNode = current.type === "service-city" ? current : candidate;
     const hub = getAgencyHub(hubNode.slug);
     const combo = getServiceCityCombo(cityNode.slug);
-    if (
-      hub?.type === "communication" &&
-      combo &&
-      !isCommunicationHubService(combo.service)
-    ) {
-      return -Infinity;
+    if (hub && combo) {
+      const allowedHub = getAgencyHubForServiceCity(
+        combo.service,
+        combo.villeSlug
+      );
+      if (allowedHub && allowedHub.slug !== hub.slug) {
+        return -Infinity;
+      }
     }
     score += 60;
   }
