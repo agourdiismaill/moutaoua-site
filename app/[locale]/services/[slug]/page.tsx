@@ -30,10 +30,11 @@ import {
   getServiceCityCombo,
   isServiceCitySlug,
   SERVICE_CITY_COMBO_SLUGS,
+  type CitySlug,
 } from "@/data/service-city-combos";
 import { INDUSTRY_SLUGS, industryServiceMap } from "@/data/industries";
 import { CITY_SLUGS, TARGET_CITIES } from "@/data/city-sectors";
-import { AGENCY_HUBS } from "@/data/agency-hubs";
+import { getAgencyHubByCity } from "@/data/agency-hubs";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 import { SERVICE_SLUGS } from "@/data/meta";
 
@@ -51,9 +52,12 @@ function getContextualTargets(slug: string) {
     INDUSTRY_SLUGS.find((ind) => industryServiceMap[ind]?.includes(slug)) ??
     INDUSTRY_SLUGS[serviceIdx % INDUSTRY_SLUGS.length];
   const city = TARGET_CITIES[serviceIdx % TARGET_CITIES.length];
-  const citySlug = `${slug}-${CITY_SLUGS[city]}`;
+  const citySlugKey = CITY_SLUGS[city] as CitySlug;
+  const citySlug = `${slug}-${citySlugKey}`;
   const localServiceExists = isServiceCitySlug(citySlug);
-  const fallbackHub = localServiceExists ? undefined : AGENCY_HUBS[0];
+  const fallbackHub = localServiceExists
+    ? undefined
+    : getAgencyHubByCity(citySlugKey);
   return {
     industry,
     city: fallbackHub?.ville ?? city,

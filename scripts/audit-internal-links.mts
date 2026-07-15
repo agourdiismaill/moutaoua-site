@@ -116,8 +116,9 @@ for (const s of SERVICE_SLUGS) {
   const localServiceSlug = `${s}-${citySlug}`;
   if (SERVICE_CITY_COMBO_SLUGS.includes(localServiceSlug)) {
     addLink(from, `/services/${localServiceSlug}`);
-  } else if (AGENCY_HUBS[0]) {
-    addLink(from, `/agences/${AGENCY_HUBS[0].slug}`);
+  } else {
+    const hub = getAgencyHubByCity(citySlug);
+    if (hub) addLink(from, `/agences/${hub.slug}`);
   }
 }
 
