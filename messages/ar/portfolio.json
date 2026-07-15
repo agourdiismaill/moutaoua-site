@@ -68,6 +68,11 @@
     "filterService": "الخدمة",
     "filterTech": "التكنولوجيا",
     "filterAll": "الكل",
+    "filterAny": "الكل",
+    "searchPlaceholder": "ابحث عن مشروع…",
+    "showingProjects": "عرض {count} مشاريع",
+    "clearAll": "مسح الكل",
+    "noResults": "لا توجد مشاريع تطابق هذه الفلاتر.",
     "viewCaseStudy": "عرض دراسة الحالة",
     "items": {
       "millennia-branding": {

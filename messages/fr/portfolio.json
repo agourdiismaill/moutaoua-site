@@ -68,6 +68,11 @@
     "filterService": "Service",
     "filterTech": "Technologie",
     "filterAll": "Tous",
+    "filterAny": "Tous",
+    "searchPlaceholder": "Rechercher un projet…",
+    "showingProjects": "{count} projets affichés",
+    "clearAll": "Tout effacer",
+    "noResults": "Aucun projet ne correspond à ces filtres.",
     "viewCaseStudy": "Voir l'étude de cas",
     "items": {
       "millennia-branding": {
