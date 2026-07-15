@@ -3,7 +3,6 @@ import { Linkedin, Instagram, Youtube, Mail, MapPin, Phone } from "lucide-react"
 import { Link } from "@/i18n/routing";
 import { BrandLogo } from "@/components/shared/brand-logo";
 import { mainNav, siteConfig } from "@/data/site";
-import { COMPARISON_SLUGS, GUIDE_SLUGS } from "@/data/blog";
 import { getLocalizedServices } from "@/lib/i18n-content";
 
 export async function Footer() {
@@ -98,60 +97,6 @@ export async function Footer() {
                 </Link>
               </li>
             ))}
-          </ul>
-        </nav>
-
-        <nav className="space-y-4" aria-label={t("resources")}>
-          <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">
-            {t("resources")}
-          </h3>
-          <ul className="space-y-2.5">
-            {GUIDE_SLUGS.map((slug) => (
-              <li key={slug}>
-                <Link
-                  href={`/guides/${slug}`}
-                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
-                >
-                  {slug === "meta-ads-centre-formation"
-                    ? t("guideMetaAds")
-                    : t("guideGoogleAds")}
-                </Link>
-              </li>
-            ))}
-            {COMPARISON_SLUGS.map((slug) => (
-              <li key={slug}>
-                <Link
-                  href={`/compare/${slug}`}
-                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
-                >
-                  {t("compareMetaGoogle")}
-                </Link>
-              </li>
-            ))}
-            <li>
-              <Link
-                href="/industries"
-                className="text-sm text-muted-foreground transition-colors hover:text-primary"
-              >
-                {t("industries")}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/solutions"
-                className="text-sm text-muted-foreground transition-colors hover:text-primary"
-              >
-                {t("solutions")}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/videos"
-                className="text-sm text-muted-foreground transition-colors hover:text-primary"
-              >
-                {t("videos")}
-              </Link>
-            </li>
           </ul>
         </nav>
 
