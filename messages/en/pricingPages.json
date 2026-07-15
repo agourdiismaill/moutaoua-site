@@ -14,7 +14,8 @@
     "perMonth": "per month",
     "perProject": "per project",
     "included": "Included",
-    "faq": "Frequently asked questions"
+    "faq": "Frequently asked questions",
+    "mediaBudgetPerMonth": "media budget / month"
   },
   "items": {
     "creation-site-web-maroc": {
@@ -388,6 +389,194 @@
         {
           "question": "How do I order a logo?",
           "answer": "Contact us for a creative brief. We scope deliverables, timeline and budget before starting graphic research."
+        }
+      ]
+    },
+    "google-ads-maroc": {
+      "metaTitle": "Google Ads price Morocco 2026 | Indicative media budget",
+      "metaDescription": "How much to invest in Google Ads in Morocco? Monthly media budget ranges (excluding agency fees), factors and FAQ.",
+      "h1": "Google Ads price in Morocco",
+      "intro": "This page presents indicative Google Ads media budget ranges — the amount invested directly on Google's platform. Campaign management fees are billed separately by the agency.",
+      "budgetNotes": {
+        "mediaBudget": "The amounts below represent monthly Google Ads media budget only. They do not include Mohtaoua fees for campaign management.",
+        "agencyFees": "Management fees: typically 15 to 25% of media budget or a monthly flat fee depending on scope. See /pricing or request a quote after audit."
+      },
+      "overview": {
+        "what": "Guide to Google Ads media budget ranges in Morocco, separate from agency fees.",
+        "who": "SMEs, e-commerce businesses and organisations structuring their Search/Display campaigns.",
+        "benefits": [
+          "Anticipate platform budget",
+          "Separate media from fees",
+          "Size spend by competition"
+        ],
+        "topics": [
+          "Media budget",
+          "Agency fees",
+          "Factors",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Media budget: 4,000 to 45,000 MAD/month",
+          "Fees charged separately",
+          "Quote after audit"
+        ]
+      },
+      "factorsTitle": "Factors that influence Google Ads media budget",
+      "factors": [
+        "Keyword competition",
+        "Geographic area",
+        "Campaign type",
+        "Seasonality",
+        "Landing page quality",
+        "Goal (leads, sales)"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Test / local",
+          "description": "Local or niche campaign.",
+          "includes": [
+            "1–2 Search campaigns",
+            "Restricted area",
+            "Conversion tracking",
+            "Monthly optimisation"
+          ]
+        },
+        "standard": {
+          "name": "SME growth",
+          "description": "National acquisition.",
+          "includes": [
+            "Search + extensions",
+            "Multiple ad groups",
+            "A/B tests",
+            "Weekly optimisation"
+          ]
+        },
+        "premium": {
+          "name": "Scale",
+          "description": "Competitive markets.",
+          "includes": [
+            "Performance Max + Search",
+            "Remarketing",
+            "Creative tests",
+            "Advanced reporting"
+          ]
+        }
+      },
+      "disclaimer": "Indicative media budget ranges only. Management fees not included. Firm quote after audit.",
+      "contextLinks": {
+        "service": "Explore our Google Ads service",
+        "packs": "View our marketing packs"
+      },
+      "faqs": [
+        {
+          "question": "Does the price include agency management?",
+          "answer": "No. These are media budgets on Google. Management is billed separately."
+        },
+        {
+          "question": "Minimum media budget?",
+          "answer": "Around 4,000 to 6,000 MAD/month for usable Search data."
+        },
+        {
+          "question": "Pay for management only?",
+          "answer": "You cannot run ads without a media budget on the platform."
+        },
+        {
+          "question": "How to get a full quote?",
+          "answer": "Free audit: recommended media budget + management fees."
+        }
+      ]
+    },
+    "meta-ads-maroc": {
+      "metaTitle": "Meta Ads price Morocco 2026 | Indicative media budget",
+      "metaDescription": "Meta Ads media budget in Morocco (excluding agency fees). Ranges, factors and FAQ.",
+      "h1": "Meta Ads price in Morocco",
+      "intro": "Meta Ads (Facebook/Instagram) media budget ranges. Management fees are separate and billed by the agency.",
+      "budgetNotes": {
+        "mediaBudget": "Amounts = monthly Meta media budget only. Excludes Mohtaoua fees.",
+        "agencyFees": "Fees: 15–25% of media or monthly flat fee. See /pricing."
+      },
+      "overview": {
+        "what": "Guide to Meta Ads media budget in Morocco.",
+        "who": "Brands and SMEs on Facebook/Instagram.",
+        "benefits": [
+          "Clarify media vs fees",
+          "Size creative and delivery",
+          "Align with business goals"
+        ],
+        "topics": [
+          "Media budget",
+          "Fees",
+          "Meta factors",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Media: 5,000 to 50,000 MAD/month",
+          "Management billed separately",
+          "Free audit"
+        ]
+      },
+      "factorsTitle": "Factors influencing Meta Ads media budget",
+      "factors": [
+        "Target audience",
+        "Campaign objective",
+        "Creative production cost",
+        "Seasonality",
+        "Industry competition",
+        "Pixel quality"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Test / awareness",
+          "description": "Local audience test.",
+          "includes": [
+            "1–2 campaigns",
+            "Geo targeting",
+            "Image/carousel",
+            "Conversion tracking"
+          ]
+        },
+        "standard": {
+          "name": "SME acquisition",
+          "description": "Steady leads or sales.",
+          "includes": [
+            "Lead/sales campaigns",
+            "Retargeting",
+            "Creative tests",
+            "Ongoing optimisation"
+          ]
+        },
+        "premium": {
+          "name": "Scale",
+          "description": "High volume.",
+          "includes": [
+            "Full funnel",
+            "E-commerce catalogue",
+            "Advanced A/B tests",
+            "Detailed reporting"
+          ]
+        }
+      },
+      "disclaimer": "Indicative Meta media budget only. Agency fees not included.",
+      "contextLinks": {
+        "service": "Explore our Meta Ads service",
+        "packs": "View our marketing packs"
+      },
+      "faqs": [
+        {
+          "question": "Does it include ad creative?",
+          "answer": "Not for the media spend shown. Creative and management = separate package or /pricing packs."
+        },
+        {
+          "question": "Minimum Meta media budget?",
+          "answer": "Around 5,000 MAD/month to test in Morocco."
+        },
+        {
+          "question": "Difference from /pricing?",
+          "answer": "Packs include management and creative. This page isolates the media line item."
+        },
+        {
+          "question": "How to get a quote?",
+          "answer": "Free audit: media + fees based on your goals."
         }
       ]
     }

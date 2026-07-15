@@ -82,6 +82,12 @@ for (const locale of LOCALES) {
         }
       }
       if (!isNonEmptyArray(item.faqs)) errors.push(`${prefix}.faqs vide`);
+      if (
+        (slug === "google-ads-maroc" || slug === "meta-ads-maroc") &&
+        (!item.budgetNotes?.mediaBudget || !item.budgetNotes?.agencyFees)
+      ) {
+        errors.push(`${prefix}.budgetNotes incomplet (média + honoraires)`);
+      }
     }
 
     if (errors.length) {

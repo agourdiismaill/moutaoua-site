@@ -5,36 +5,41 @@
     "meta-ads-vs-google-ads": {
       "title": "Meta Ads vs Google Ads: which channel to choose?",
       "description": "Comparison for businesses in Morocco: cost, intent, timeline and use cases.",
+      "columns": {
+        "criteria": "Criterion",
+        "left": "Meta Ads",
+        "right": "Google Ads"
+      },
       "rows": [
         {
           "criteria": "Type of demand",
-          "meta": "Created demand (interruption)",
-          "google": "Existing demand (search)"
+          "left": "Created demand (interruption)",
+          "right": "Existing demand (search)"
         },
         {
           "criteria": "Time to first leads",
-          "meta": "7-14 days",
-          "google": "3-10 days"
+          "left": "7-14 days",
+          "right": "3-10 days"
         },
         {
-          "criteria": "Average training CPL",
-          "meta": "Often lower in volume",
-          "google": "Often more qualified"
+          "criteria": "Average CPL",
+          "left": "Often lower in volume",
+          "right": "Often more qualified"
         },
         {
           "criteria": "Creative format",
-          "meta": "Video, image, carousel",
-          "google": "Text, extensions"
+          "left": "Video, image, carousel",
+          "right": "Text, extensions"
         },
         {
           "criteria": "Best for",
-          "meta": "Launch, awareness, promotion",
-          "google": "Searched offers"
+          "left": "Launch, awareness, promotion",
+          "right": "Searched offers"
         },
         {
           "criteria": "Recommended minimum budget",
-          "meta": "8,000 MAD/month",
-          "google": "6,000 MAD/month"
+          "left": "8,000 MAD/month",
+          "right": "6,000 MAD/month"
         }
       ],
       "verdict": "Combine both: Meta for volume and awareness, Google for high-intent conversion.",
@@ -48,6 +53,179 @@
           "answer": "Google if your offer is searched for; Meta if you need to create demand."
         }
       ]
+    },
+    "seo-vs-google-ads": {
+      "title": "SEO vs Google Ads: organic or paid?",
+      "description": "Comparison for businesses in Morocco: timeline, cost, control and how organic search complements paid Google.",
+      "columns": {
+        "criteria": "Criterion",
+        "left": "SEO",
+        "right": "Google Ads"
+      },
+      "rows": [
+        {
+          "criteria": "Traffic type",
+          "left": "Organic (no cost per click)",
+          "right": "Paid (auctions)"
+        },
+        {
+          "criteria": "Time to first results",
+          "left": "3 to 12 months",
+          "right": "A few days"
+        },
+        {
+          "criteria": "Recurring cost",
+          "left": "Monthly SEO fees",
+          "right": "Media budget + management"
+        },
+        {
+          "criteria": "Ranking control",
+          "left": "Indirect (algorithms)",
+          "right": "Direct (bids, budgets)"
+        },
+        {
+          "criteria": "Durability",
+          "left": "Cumulative long-term effect",
+          "right": "Stops when budget stops"
+        },
+        {
+          "criteria": "Best for",
+          "left": "Durable authority",
+          "right": "Immediate leads, searched offers"
+        }
+      ],
+      "verdict": "Both complement each other: Google Ads for immediacy and message testing; SEO for durable visibility and less paid dependency.",
+      "faqs": [
+        {
+          "question": "Should I choose between SEO and Google Ads?",
+          "answer": "No. Most performing SMEs combine both: Ads for quick leads, SEO to build organic presence."
+        },
+        {
+          "question": "Does SEO replace Google Ads?",
+          "answer": "No. SEO takes time. Google Ads bridges the gap and helps test keywords and landing pages."
+        },
+        {
+          "question": "Which budget to prioritize at launch?",
+          "answer": "If your offer is already searched, start with Google Ads. In parallel, launch an SEO foundation for the medium term."
+        }
+      ]
+    },
+    "wordpress-vs-laravel": {
+      "title": "WordPress vs Laravel: which choice for your web project?",
+      "description": "Compare brochure CMS (WordPress) and custom development (Laravel/Next.js) to qualify your needs in Morocco.",
+      "columns": {
+        "criteria": "Criterion",
+        "left": "WordPress / CMS",
+        "right": "Laravel / custom"
+      },
+      "rows": [
+        {
+          "criteria": "Ideal use case",
+          "left": "Brochure site, blog, small shop",
+          "right": "Business platform, complex logic"
+        },
+        {
+          "criteria": "Time to launch",
+          "left": "Fast (weeks)",
+          "right": "Longer (months)"
+        },
+        {
+          "criteria": "Initial cost",
+          "left": "Generally lower",
+          "right": "Higher investment"
+        },
+        {
+          "criteria": "Technical scalability",
+          "left": "Limited by plugins",
+          "right": "Scalable architecture"
+        },
+        {
+          "criteria": "Performance & security",
+          "left": "Depends on extensions",
+          "right": "Full code control"
+        },
+        {
+          "criteria": "Maintenance",
+          "left": "Plugin/theme updates",
+          "right": "Dedicated app maintenance"
+        }
+      ],
+      "verdict": "WordPress suits simple brochure and content sites. Laravel (or Next.js at Mohtaoua) makes sense when the project becomes a real business product with workflows, integrations and scale.",
+      "faqs": [
+        {
+          "question": "Does Mohtaoua develop in WordPress?",
+          "answer": "We favor Next.js for corporate sites and performant platforms. WordPress remains a market reference we compare to help you scope the right project level."
+        },
+        {
+          "question": "Can I migrate from WordPress to custom?",
+          "answer": "Yes. We audit content, SEO and integrations before a progressive migration to preserve traffic and conversions."
+        },
+        {
+          "question": "How do I know which to choose?",
+          "answer": "If you mainly need editorial pages and a blog, a CMS is enough. If you have user roles, APIs, payments or business rules, go custom."
+        }
+      ]
+    },
+    "crm-vs-excel": {
+      "title": "CRM vs Excel: why structure your sales follow-up?",
+      "description": "Understand Excel limits for lead tracking and when to move to a structured CRM.",
+      "columns": {
+        "criteria": "Criterion",
+        "left": "Excel / spreadsheet",
+        "right": "Structured CRM"
+      },
+      "rows": [
+        {
+          "criteria": "Lead tracking",
+          "left": "Manual lists, multiple versions",
+          "right": "Visual pipeline, centralized history"
+        },
+        {
+          "criteria": "Reminders & follow-ups",
+          "left": "None automatic",
+          "right": "Tasks, notifications, sequences"
+        },
+        {
+          "criteria": "Team collaboration",
+          "left": "Version conflicts",
+          "right": "Role-based access, single source of truth"
+        },
+        {
+          "criteria": "Reporting",
+          "left": "Pivot tables to maintain",
+          "right": "Real-time dashboards"
+        },
+        {
+          "criteria": "Integrations",
+          "left": "Manual import/export",
+          "right": "Forms, Ads, WhatsApp, email"
+        },
+        {
+          "criteria": "Scalability",
+          "left": "Unmanageable beyond ~100 active leads",
+          "right": "Built for growing volume"
+        }
+      ],
+      "verdict": "Excel remains useful for ad-hoc analysis, but a CRM becomes essential when several people manage leads, follow-ups are critical and you need pipeline visibility. Both can coexist: CRM for operations, Excel for occasional exports.",
+      "faqs": [
+        {
+          "question": "Is Excel bad for managing leads?",
+          "answer": "Not when starting very small. It becomes risky as the team grows: missed follow-ups, duplicates, no pipeline view."
+        },
+        {
+          "question": "When to switch to CRM?",
+          "answer": "When you lose opportunities due to poor follow-up, several salespeople are involved, or you run Ads/WhatsApp campaigns with lead volume."
+        },
+        {
+          "question": "How does Mohtaoua CRM fit?",
+          "answer": "Our CRM-data service and CRM solution cover structuring, integrations and automation — beyond a simple spreadsheet."
+        }
+      ]
     }
+  },
+  "labels": {
+    "criteria": "Criterion",
+    "verdict": "Verdict:",
+    "faq": "Frequently asked questions"
   }
 }

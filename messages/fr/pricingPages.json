@@ -14,7 +14,8 @@
     "perMonth": "par mois",
     "perProject": "par projet",
     "included": "Inclus",
-    "faq": "Questions fréquentes"
+    "faq": "Questions fréquentes",
+    "mediaBudgetPerMonth": "budget média / mois"
   },
   "items": {
     "creation-site-web-maroc": {
@@ -388,6 +389,194 @@
         {
           "question": "Comment commander un logo ?",
           "answer": "Contactez-nous pour un brief créatif. Nous cadrons le périmètre, le calendrier et le budget avant de lancer la recherche graphique."
+        }
+      ]
+    },
+    "google-ads-maroc": {
+      "metaTitle": "Prix Google Ads Maroc 2026 | Budget média indicatif",
+      "metaDescription": "Combien investir en Google Ads au Maroc ? Fourchettes de budget média mensuel (hors honoraires agence), facteurs et FAQ.",
+      "h1": "Prix Google Ads au Maroc",
+      "intro": "Cette page présente des fourchettes indicatives de budget média Google Ads — le montant investi directement sur la plateforme Google. Les honoraires de gestion de campagne sont facturés séparément par l'agence.",
+      "budgetNotes": {
+        "mediaBudget": "Les montants ci-dessous représentent uniquement le budget média mensuel sur Google Ads. Ils n'incluent pas les honoraires Mohtaoua pour la gestion de campagne.",
+        "agencyFees": "Honoraires de gestion : généralement 15 à 25 % du budget média ou forfait mensuel selon le périmètre. Voir /pricing ou demandez un devis après audit."
+      },
+      "overview": {
+        "what": "Guide des fourchettes de budget média Google Ads au Maroc, distinct des honoraires d'agence.",
+        "who": "PME, e-commerces et organisations qui structurent leurs campagnes Search/Display.",
+        "benefits": [
+          "Anticiper le budget plateforme",
+          "Séparer média et honoraires",
+          "Dimensionner selon la concurrence"
+        ],
+        "topics": [
+          "Budget média",
+          "Honoraires agence",
+          "Facteurs",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Budget média : 4 000 à 45 000 MAD/mois",
+          "Honoraires en sus",
+          "Devis après audit"
+        ]
+      },
+      "factorsTitle": "Facteurs qui influencent le budget média Google Ads",
+      "factors": [
+        "Concurrence mots-clés",
+        "Zone géographique",
+        "Type de campagne",
+        "Saisonnalité",
+        "Qualité landing pages",
+        "Objectif (leads, ventes)"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Test / local",
+          "description": "Campagne locale ou niche.",
+          "includes": [
+            "1–2 campagnes Search",
+            "Zone restreinte",
+            "Suivi conversions",
+            "Optimisation mensuelle"
+          ]
+        },
+        "standard": {
+          "name": "Croissance PME",
+          "description": "Acquisition nationale.",
+          "includes": [
+            "Search + extensions",
+            "Multi groupes d'annonces",
+            "A/B tests",
+            "Optimisation hebdomadaire"
+          ]
+        },
+        "premium": {
+          "name": "Scale",
+          "description": "Marchés concurrentiels.",
+          "includes": [
+            "Performance Max + Search",
+            "Remarketing",
+            "Tests créatifs",
+            "Reporting avancé"
+          ]
+        }
+      },
+      "disclaimer": "Fourchettes de budget média indicatives uniquement. Honoraires de gestion non inclus. Devis ferme après audit.",
+      "contextLinks": {
+        "service": "Découvrir notre service Google Ads",
+        "packs": "Voir nos packs marketing"
+      },
+      "faqs": [
+        {
+          "question": "Le prix inclut-il la gestion agence ?",
+          "answer": "Non. Ce sont des budgets média sur Google. La gestion est facturée séparément."
+        },
+        {
+          "question": "Budget média minimum ?",
+          "answer": "Environ 4 000 à 6 000 MAD/mois pour des données Search exploitables."
+        },
+        {
+          "question": "Payer uniquement la gestion ?",
+          "answer": "Impossible de diffuser sans budget média sur la plateforme."
+        },
+        {
+          "question": "Obtenir un devis complet ?",
+          "answer": "Audit gratuit : budget média recommandé + honoraires de gestion."
+        }
+      ]
+    },
+    "meta-ads-maroc": {
+      "metaTitle": "Prix Meta Ads Maroc 2026 | Budget média indicatif",
+      "metaDescription": "Budget média Meta Ads au Maroc (hors honoraires agence). Fourchettes, facteurs et FAQ.",
+      "h1": "Prix Meta Ads au Maroc",
+      "intro": "Fourchettes de budget média Meta Ads (Facebook/Instagram). Les honoraires de gestion sont distincts et facturés par l'agence.",
+      "budgetNotes": {
+        "mediaBudget": "Montants = budget média mensuel Meta uniquement. Hors honoraires Mohtaoua.",
+        "agencyFees": "Honoraires : 15–25 % du média ou forfait mensuel. Voir /pricing."
+      },
+      "overview": {
+        "what": "Guide budget média Meta Ads au Maroc.",
+        "who": "Marques et PME sur Facebook/Instagram.",
+        "benefits": [
+          "Clarifier média vs honoraires",
+          "Dimensionner création et diffusion",
+          "Aligner sur objectifs business"
+        ],
+        "topics": [
+          "Budget média",
+          "Honoraires",
+          "Facteurs Meta",
+          "FAQ"
+        ],
+        "takeaways": [
+          "Média : 5 000 à 50 000 MAD/mois",
+          "Gestion à part",
+          "Audit gratuit"
+        ]
+      },
+      "factorsTitle": "Facteurs budget média Meta Ads",
+      "factors": [
+        "Audience cible",
+        "Objectif campagne",
+        "Coût créatives",
+        "Saisonnalité",
+        "Concurrence secteur",
+        "Qualité pixel"
+      ],
+      "tiers": {
+        "basic": {
+          "name": "Test / notoriété",
+          "description": "Test audience locale.",
+          "includes": [
+            "1–2 campagnes",
+            "Ciblage geo",
+            "Image/carrousel",
+            "Suivi conversions"
+          ]
+        },
+        "standard": {
+          "name": "Acquisition PME",
+          "description": "Leads ou ventes réguliers.",
+          "includes": [
+            "Campagnes leads/ventes",
+            "Retargeting",
+            "Tests créatifs",
+            "Optimisation continue"
+          ]
+        },
+        "premium": {
+          "name": "Scale",
+          "description": "Volume élevé.",
+          "includes": [
+            "Full funnel",
+            "Catalogue e-commerce",
+            "A/B avancés",
+            "Reporting détaillé"
+          ]
+        }
+      },
+      "disclaimer": "Budget média Meta indicatif uniquement. Honoraires agence non inclus.",
+      "contextLinks": {
+        "service": "Découvrir notre service Meta Ads",
+        "packs": "Voir nos packs marketing"
+      },
+      "faqs": [
+        {
+          "question": "Inclut-il la création publicitaire ?",
+          "answer": "Non pour le média affiché. Création et gestion = forfait séparé ou packs /pricing."
+        },
+        {
+          "question": "Budget média minimum Meta ?",
+          "answer": "Environ 5 000 MAD/mois pour tester au Maroc."
+        },
+        {
+          "question": "Différence avec /pricing ?",
+          "answer": "Les packs incluent gestion et création. Cette page isole le poste média."
+        },
+        {
+          "question": "Obtenir un devis ?",
+          "answer": "Audit gratuit : média + honoraires selon objectifs."
         }
       ]
     }

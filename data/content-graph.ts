@@ -395,6 +395,30 @@ export const EXPLICIT_RELATIONS: Record<
     blog: ["meta-ads-vs-google-ads-formation"],
     guide: ["meta-ads-centre-formation", "google-ads-centre-formation"],
   },
+  "seo-vs-google-ads": {
+    service: ["seo", "google-ads"],
+    guide: ["seo-entreprise-maroc", "google-ads-centre-formation"],
+    comparison: ["meta-ads-vs-google-ads"],
+  },
+  "wordpress-vs-laravel": {
+    service: ["corporate-websites", "custom-software"],
+    guide: ["agence-digitale-maroc-guide"],
+  },
+  "crm-vs-excel": {
+    service: ["crm-data", "marketing-automation"],
+    solution: ["crm"],
+    blog: ["crm-entreprise-maroc-guide"],
+  },
+  "google-ads-maroc": {
+    service: ["google-ads", "landing-pages"],
+    "pricing-page": ["meta-ads-maroc", "seo-maroc"],
+    comparison: ["seo-vs-google-ads", "meta-ads-vs-google-ads"],
+  },
+  "meta-ads-maroc": {
+    service: ["meta-ads", "landing-pages"],
+    "pricing-page": ["google-ads-maroc", "seo-maroc"],
+    comparison: ["meta-ads-vs-google-ads"],
+  },
   "skola-formation": {
     service: ["meta-ads", "landing-pages", "marketing-automation"],
     blog: ["generer-leads-centre-formation-maroc", "meta-ads-vs-google-ads-formation"],

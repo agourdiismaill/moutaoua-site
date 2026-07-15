@@ -5,36 +5,41 @@
     "meta-ads-vs-google-ads": {
       "title": "Meta Ads vs Google Ads : quel canal choisir ?",
       "description": "Comparaison pour entreprises au Maroc : coût, intention, délai et cas d'usage.",
+      "columns": {
+        "criteria": "Critère",
+        "left": "Meta Ads",
+        "right": "Google Ads"
+      },
       "rows": [
         {
           "criteria": "Type de demande",
-          "meta": "Demande créée (interruption)",
-          "google": "Demande existante (recherche)"
+          "left": "Demande créée (interruption)",
+          "right": "Demande existante (recherche)"
         },
         {
           "criteria": "Délai premiers leads",
-          "meta": "7-14 jours",
-          "google": "3-10 jours"
+          "left": "7-14 jours",
+          "right": "3-10 jours"
         },
         {
           "criteria": "CPL moyen",
-          "meta": "Souvent plus bas en volume",
-          "google": "Souvent plus qualifié"
+          "left": "Souvent plus bas en volume",
+          "right": "Souvent plus qualifié"
         },
         {
           "criteria": "Format créatif",
-          "meta": "Vidéo, image, carrousel",
-          "google": "Texte, extensions"
+          "left": "Vidéo, image, carrousel",
+          "right": "Texte, extensions"
         },
         {
           "criteria": "Meilleur pour",
-          "meta": "Lancement, notoriété, promo",
-          "google": "Offres recherchées"
+          "left": "Lancement, notoriété, promo",
+          "right": "Offres recherchées"
         },
         {
           "criteria": "Budget minimum conseillé",
-          "meta": "8 000 MAD/mois",
-          "google": "6 000 MAD/mois"
+          "left": "8 000 MAD/mois",
+          "right": "6 000 MAD/mois"
         }
       ],
       "verdict": "Combinez les deux : Meta pour le volume et la notoriété, Google pour la conversion à forte intention.",
@@ -48,6 +53,179 @@
           "answer": "Google si votre offre est recherchée ; Meta si vous devez créer la demande."
         }
       ]
+    },
+    "seo-vs-google-ads": {
+      "title": "SEO vs Google Ads : organique ou payant ?",
+      "description": "Comparaison pour entreprises au Maroc : délai, coût, contrôle et complémentarité entre référencement naturel et publicité Google.",
+      "columns": {
+        "criteria": "Critère",
+        "left": "SEO",
+        "right": "Google Ads"
+      },
+      "rows": [
+        {
+          "criteria": "Type de trafic",
+          "left": "Organique (gratuit au clic)",
+          "right": "Payant (enchères)"
+        },
+        {
+          "criteria": "Délai premiers résultats",
+          "left": "3 à 12 mois",
+          "right": "Quelques jours"
+        },
+        {
+          "criteria": "Coût récurrent",
+          "left": "Honoraires SEO mensuels",
+          "right": "Budget média + gestion"
+        },
+        {
+          "criteria": "Contrôle du positionnement",
+          "left": "Indirect (algorithmes)",
+          "right": "Direct (enchères, budgets)"
+        },
+        {
+          "criteria": "Durabilité",
+          "left": "Effet cumulatif long terme",
+          "right": "S'arrête si budget coupé"
+        },
+        {
+          "criteria": "Meilleur pour",
+          "left": "Notoriété durable, autorité",
+          "right": "Leads immédiats, offres recherchées"
+        }
+      ],
+      "verdict": "Les deux sont complémentaires : Google Ads pour l'immédiat et le test de messages ; SEO pour construire une visibilité durable et réduire la dépendance au paid.",
+      "faqs": [
+        {
+          "question": "Dois-je choisir entre SEO et Google Ads ?",
+          "answer": "Non. La plupart des PME performantes combinent les deux : Ads pour générer des leads rapidement, SEO pour consolider la présence organique."
+        },
+        {
+          "question": "Le SEO remplace-t-il Google Ads ?",
+          "answer": "Non. Le SEO met du temps à produire des résultats significatifs. Google Ads comble ce délai et permet de tester mots-clés et landing pages."
+        },
+        {
+          "question": "Quel budget prioriser au démarrage ?",
+          "answer": "Si votre offre est déjà recherchée, commencez par Google Ads. Parallèlement, lancez un socle SEO (technique + contenus) pour le moyen terme."
+        }
+      ]
+    },
+    "wordpress-vs-laravel": {
+      "title": "WordPress vs Laravel : quel choix pour votre projet web ?",
+      "description": "Comparer CMS vitrine (WordPress) et développement sur mesure (Laravel/Next.js) pour qualifier votre besoin au Maroc.",
+      "columns": {
+        "criteria": "Critère",
+        "left": "WordPress / CMS",
+        "right": "Laravel / sur-mesure"
+      },
+      "rows": [
+        {
+          "criteria": "Cas d'usage idéal",
+          "left": "Site vitrine, blog, petite boutique",
+          "right": "Plateforme métier, logique complexe"
+        },
+        {
+          "criteria": "Délai de mise en ligne",
+          "left": "Rapide (semaines)",
+          "right": "Plus long (mois)"
+        },
+        {
+          "criteria": "Coût initial",
+          "left": "Généralement plus bas",
+          "right": "Investissement plus élevé"
+        },
+        {
+          "criteria": "Évolutivité technique",
+          "left": "Limitée par les plugins",
+          "right": "Architecture scalable"
+        },
+        {
+          "criteria": "Performance & sécurité",
+          "left": "Dépend des extensions",
+          "right": "Contrôle total du code"
+        },
+        {
+          "criteria": "Maintenance",
+          "left": "Mises à jour plugins/thème",
+          "right": "Maintenance applicative dédiée"
+        }
+      ],
+      "verdict": "WordPress convient aux sites vitrine et contenus simples. Laravel (ou Next.js chez Mohtaoua) est pertinent dès que votre projet devient un vrai produit métier avec workflows, intégrations et montée en charge.",
+      "faqs": [
+        {
+          "question": "Mohtaoua développe-t-elle en WordPress ?",
+          "answer": "Nous privilégions Next.js pour les sites corporate et les plateformes performantes. WordPress reste une référence marché que nous comparons pour vous aider à cadrer le bon niveau de projet."
+        },
+        {
+          "question": "Puis-je migrer de WordPress vers du sur-mesure ?",
+          "answer": "Oui. Nous auditons contenus, SEO et intégrations avant une migration progressive pour préserver le trafic et les conversions."
+        },
+        {
+          "question": "Comment savoir lequel choisir ?",
+          "answer": "Si vous avez surtout besoin de pages éditoriales et d'un blog, un CMS suffit. Si vous avez des rôles utilisateurs, API, paiements ou règles métier, partez sur du sur-mesure."
+        }
+      ]
+    },
+    "crm-vs-excel": {
+      "title": "CRM vs Excel : pourquoi structurer votre suivi commercial ?",
+      "description": "Comprendre les limites d'Excel pour la gestion des leads et prospects, et quand passer à un CRM structuré.",
+      "columns": {
+        "criteria": "Critère",
+        "left": "Excel / tableur",
+        "right": "CRM structuré"
+      },
+      "rows": [
+        {
+          "criteria": "Suivi des leads",
+          "left": "Listes manuelles, versions multiples",
+          "right": "Pipeline visuel, historique centralisé"
+        },
+        {
+          "criteria": "Rappels & relances",
+          "left": "Aucun automatique",
+          "right": "Tâches, notifications, séquences"
+        },
+        {
+          "criteria": "Collaboration équipe",
+          "left": "Conflits de versions",
+          "right": "Accès par rôle, une source de vérité"
+        },
+        {
+          "criteria": "Reporting",
+          "left": "Tableaux croisés à maintenir",
+          "right": "Tableaux de bord temps réel"
+        },
+        {
+          "criteria": "Intégrations",
+          "left": "Imports/exports manuels",
+          "right": "Formulaires, Ads, WhatsApp, email"
+        },
+        {
+          "criteria": "Scalabilité",
+          "left": "Devient ingérable au-delà de ~100 leads actifs",
+          "right": "Conçu pour volumes croissants"
+        }
+      ],
+      "verdict": "Excel reste utile pour des analyses ponctuelles, mais un CRM devient indispensable dès que plusieurs personnes gèrent des leads, que les relances sont critiques et que vous voulez mesurer votre pipeline. Les deux peuvent coexister : CRM pour l'opérationnel, Excel pour des exports ponctuels.",
+      "faqs": [
+        {
+          "question": "Excel est-il « mauvais » pour gérer des leads ?",
+          "answer": "Non pour démarrer très petit. Il devient risqué quand l'équipe grandit : oublis de relance, doublons, absence de vision pipeline."
+        },
+        {
+          "question": "Quand passer au CRM ?",
+          "answer": "Dès que vous perdez des opportunités faute de suivi, que plusieurs commerciaux interviennent ou que vous lancez des campagnes Ads/WhatsApp avec volume de leads."
+        },
+        {
+          "question": "Quel lien avec Mohtaoua CRM ?",
+          "answer": "Notre service CRM-data et la solution CRM Mohtaoua couvrent structuration, intégrations et automatisation — au-delà d'un simple tableur."
+        }
+      ]
     }
+  },
+  "labels": {
+    "criteria": "Critère",
+    "verdict": "Verdict :",
+    "faq": "Questions fréquentes"
   }
 }

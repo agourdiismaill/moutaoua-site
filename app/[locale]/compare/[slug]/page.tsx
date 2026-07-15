@@ -6,6 +6,7 @@ import { COMPARISON_SLUGS } from "@/data/blog";
 import { getLocalizedComparison } from "@/lib/i18n-content";
 import { buildSeoMetadata } from "@/lib/seo/metadata";
 import { Breadcrumb } from "@/components/seo/breadcrumb";
+import { ComparisonTable } from "@/components/seo/comparison-table";
 import { SeoFaqSection } from "@/components/seo/faq-section";
 import { JsonLdScript } from "@/components/seo/json-ld-script";
 import { InternalLinkingSections } from "@/components/seo/internal-linking/internal-linking-sections";
@@ -84,32 +85,15 @@ export default async function ComparePage({
       </header>
 
       <section className="section-pad pt-0">
-        <div className="container-max overflow-x-auto rounded-3xl border border-border bg-card shadow-soft">
-          <table className="w-full min-w-[640px] text-left text-sm">
-            <thead>
-              <tr className="border-b border-border bg-surface-bright">
-                <th className="p-4 font-semibold">Critère</th>
-                <th className="p-4 font-semibold">Meta Ads</th>
-                <th className="p-4 font-semibold">Google Ads</th>
-              </tr>
-            </thead>
-            <tbody>
-              {comparison.rows.map((row) => (
-                <tr key={row.criteria} className="border-b border-border last:border-0">
-                  <td className="p-4 font-medium">{row.criteria}</td>
-                  <td className="p-4 text-muted-foreground">{row.meta}</td>
-                  <td className="p-4 text-muted-foreground">{row.google}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <p className="container-max mt-8 rounded-2xl border border-primary/20 bg-primary/5 p-6 text-foreground">
-          <strong>Verdict :</strong> {comparison.verdict}
-        </p>
+        <ComparisonTable
+          columns={comparison.columns}
+          rows={comparison.rows}
+          verdictLabel={t("labels.verdict")}
+          verdict={comparison.verdict}
+        />
       </section>
 
-      <SeoFaqSection title="FAQ" faqs={comparison.faqs} />
+      <SeoFaqSection title={t("labels.faq")} faqs={comparison.faqs} />
 
       <Suspense fallback={null}>
         <InternalLinkingSections type="comparison" slug={slug} locale={locale} />

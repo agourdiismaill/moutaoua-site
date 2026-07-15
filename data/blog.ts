@@ -38,6 +38,9 @@ export const GUIDE_SLUGS = [
 
 export const COMPARISON_SLUGS = [
   "meta-ads-vs-google-ads",
+  "seo-vs-google-ads",
+  "wordpress-vs-laravel",
+  "crm-vs-excel",
 ] as const;
 
 export type BlogPostSlug = (typeof BLOG_POST_SLUGS)[number];

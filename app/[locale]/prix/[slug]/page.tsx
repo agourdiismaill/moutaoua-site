@@ -79,6 +79,7 @@ export default async function PricingSeoPage({
     indicativePrice: t("labels.indicativePrice"),
     perMonth: t("labels.perMonth"),
     perProject: t("labels.perProject"),
+    mediaBudgetPerMonth: t("labels.mediaBudgetPerMonth"),
     included: t("labels.included"),
     faq: t("labels.faq"),
   };

@@ -28,6 +28,10 @@ type PricingPageContent = {
   factorsTitle: string;
   factors: string[];
   tiers: Record<PricingTierId, TierContent>;
+  budgetNotes?: {
+    mediaBudget?: string;
+    agencyFees?: string;
+  };
   disclaimer: string;
   contextLinks: {
     service: string;
@@ -47,6 +51,7 @@ type Labels = {
   indicativePrice: string;
   perMonth: string;
   perProject: string;
+  mediaBudgetPerMonth: string;
   included: string;
   faq: string;
 };
@@ -142,11 +147,27 @@ export function PricingSeoDetail({
       </section>
 
       <section className="section-pad pt-0">
+        {content.budgetNotes?.mediaBudget ? (
+          <div className="container-max mb-6 max-w-4xl space-y-4">
+            <p className="rounded-2xl border border-primary/20 bg-primary/5 p-5 text-sm leading-relaxed text-foreground">
+              {content.budgetNotes.mediaBudget}
+            </p>
+            {content.budgetNotes.agencyFees ? (
+              <p className="rounded-2xl border border-border bg-card p-5 text-sm leading-relaxed text-muted-foreground">
+                {content.budgetNotes.agencyFees}
+              </p>
+            ) : null}
+          </div>
+        ) : null}
         <div className="container-max grid gap-6 lg:grid-cols-3">
           {page.tiers.map((tier) => {
             const tierContent = content.tiers[tier.id];
             const periodLabel =
-              tier.period === "month" ? labels.perMonth : labels.perProject;
+              page.budgetScope === "media-monthly"
+                ? labels.mediaBudgetPerMonth
+                : tier.period === "month"
+                  ? labels.perMonth
+                  : labels.perProject;
             return (
               <section
                 key={tier.id}

@@ -85,6 +85,14 @@ Hub : 477 pages `/fr/services/{service}-{ville}` pour 53 services locaux × 9 vi
 - Prix SEO Maroc : https://mohtaoua.ma/fr/prix/seo-maroc
 - Prix application mobile Maroc : https://mohtaoua.ma/fr/prix/application-mobile-maroc
 - Prix logo Maroc : https://mohtaoua.ma/fr/prix/logo-maroc
+- Prix Google Ads Maroc : https://mohtaoua.ma/fr/prix/google-ads-maroc
+- Prix Meta Ads Maroc : https://mohtaoua.ma/fr/prix/meta-ads-maroc
+
+## Comparatifs
+
+- SEO vs Google Ads : https://mohtaoua.ma/fr/compare/seo-vs-google-ads
+- WordPress vs Laravel : https://mohtaoua.ma/fr/compare/wordpress-vs-laravel
+- CRM vs Excel : https://mohtaoua.ma/fr/compare/crm-vs-excel
 
 Exemples phares :
 - Meta Ads Casablanca : https://mohtaoua.ma/fr/services/meta-ads-casablanca

@@ -395,11 +395,17 @@ export function getLocalizedGuide(t: TFunction, slug: string) {
 
 export function getLocalizedComparison(t: TFunction, slug: string) {
   if (!COMPARISON_SLUGS.includes(slug as (typeof COMPARISON_SLUGS)[number])) return null;
+  const columns = t.raw(`items.${slug}.columns`) as {
+    criteria: string;
+    left: string;
+    right: string;
+  };
   return {
     slug,
     title: t(`items.${slug}.title`),
     description: t(`items.${slug}.description`),
-    rows: t.raw(`items.${slug}.rows`) as { criteria: string; meta: string; google: string }[],
+    columns,
+    rows: t.raw(`items.${slug}.rows`) as { criteria: string; left: string; right: string }[],
     verdict: t(`items.${slug}.verdict`),
     faqs: t.raw(`items.${slug}.faqs`) as { question: string; answer: string }[],
   };
@@ -496,6 +502,12 @@ export function getLocalizedPricingPage(t: TFunction, slug: string) {
       "basic" | "standard" | "premium",
       { name: string; description: string; includes: string[] }
     >,
+    budgetNotes: t.has(`items.${slug}.budgetNotes`)
+      ? (t.raw(`items.${slug}.budgetNotes`) as {
+          mediaBudget?: string;
+          agencyFees?: string;
+        })
+      : undefined,
     disclaimer: t(`items.${slug}.disclaimer`),
     contextLinks: t.raw(`items.${slug}.contextLinks`) as {
       service: string;
@@ -511,5 +523,7 @@ export function getPricingPageSlugs(): PricingPageSlug[] {
     "seo-maroc",
     "application-mobile-maroc",
     "logo-maroc",
+    "google-ads-maroc",
+    "meta-ads-maroc",
   ];
 }
