@@ -10,10 +10,20 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getLocalizedPortfolioItems } from "@/lib/i18n-content";
 import { cn } from "@/lib/utils";
 
+/** Convert kebab-case / snake_case slugs into readable labels. */
+function humanizeSlug(value: string) {
+  if (!/[-_]/.test(value) && /[A-Z]/.test(value)) return value;
+  return value
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase())
+    .trim();
+}
+
 export function PortfolioGrid({ className }: { className?: string }) {
   const tp = useTranslations("portfolio");
   const t = useTranslations("portfolio.hub");
   const ti = useTranslations("industries");
+  const ts = useTranslations("services");
   const items = getLocalizedPortfolioItems(tp);
   const [industryFilter, setIndustryFilter] = useState("all");
   const [serviceFilter, setServiceFilter] = useState("all");
@@ -32,6 +42,17 @@ export function PortfolioGrid({ className }: { className?: string }) {
     [items]
   );
 
+  const industryLabel = (slug: string) => {
+    const key = `items.${slug}.title`;
+    return ti.has(key) ? ti(key) : humanizeSlug(slug);
+  };
+  const serviceLabel = (slug: string) => {
+    const key = `items.${slug}.title`;
+    return ts.has(key) ? ts(key) : humanizeSlug(slug);
+  };
+  const techLabel = (value: string) =>
+    /[-_]/.test(value) ? humanizeSlug(value) : value;
+
   const filtered = items.filter((item) => {
     if (industryFilter !== "all" && item.industry !== industryFilter) return false;
     if (serviceFilter !== "all" && !item.services.includes(serviceFilter)) return false;
@@ -49,13 +70,7 @@ export function PortfolioGrid({ className }: { className?: string }) {
             value={industryFilter}
             options={industries}
             onChange={setIndustryFilter}
-            getLabel={(slug) => {
-              try {
-                return ti(`items.${slug}.title`);
-              } catch {
-                return slug;
-              }
-            }}
+            getLabel={industryLabel}
           />
           <FilterRow
             label={t("filterService")}
@@ -63,6 +78,7 @@ export function PortfolioGrid({ className }: { className?: string }) {
             value={serviceFilter}
             options={services}
             onChange={setServiceFilter}
+            getLabel={serviceLabel}
           />
           <FilterRow
             label={t("filterTech")}
@@ -70,6 +86,7 @@ export function PortfolioGrid({ className }: { className?: string }) {
             value={techFilter}
             options={technologies}
             onChange={setTechFilter}
+            getLabel={techLabel}
           />
         </div>
 
@@ -131,7 +148,7 @@ function FilterRow({
   value: string;
   options: string[];
   onChange: (v: string) => void;
-  getLabel?: (slug: string) => string;
+  getLabel: (slug: string) => string;
 }) {
   return (
     <div className="space-y-2">
@@ -150,7 +167,7 @@ function FilterRow({
               value={opt}
               className="rounded-full border border-border bg-card px-3 py-1.5 text-xs data-[state=active]:border-primary data-[state=active]:bg-primary/10"
             >
-              {getLabel ? getLabel(opt) : opt}
+              {getLabel(opt)}
             </TabsTrigger>
           ))}
         </TabsList>
