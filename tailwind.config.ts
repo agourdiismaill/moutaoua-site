@@ -84,8 +84,8 @@ const config: Config = {
         container: "1280px",
       },
       spacing: {
-        "section-mobile": "80px",
-        "section-desktop": "160px",
+        "section-mobile": "48px",
+        "section-desktop": "88px",
         gutter: "32px",
       },
       boxShadow: {
