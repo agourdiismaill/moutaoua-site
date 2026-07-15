@@ -221,6 +221,118 @@
           "answer": "Our CRM-data service and CRM solution cover structuring, integrations and automation — beyond a simple spreadsheet."
         }
       ]
+    },
+    "erp-vs-crm": {
+      "title": "ERP vs CRM: which system should structure your business?",
+      "description": "Compare ERP (operations) and CRM (customer relationship) to choose the right digital foundation in Morocco.",
+      "columns": {
+        "criteria": "Criterion",
+        "left": "ERP",
+        "right": "CRM"
+      },
+      "rows": [
+        {
+          "criteria": "Main goal",
+          "left": "Manage inventory, purchasing, production, finance",
+          "right": "Track leads, opportunities and customer relationships"
+        },
+        {
+          "criteria": "Typical users",
+          "left": "Management, finance, logistics, operations",
+          "right": "Sales, marketing, support, management"
+        },
+        {
+          "criteria": "Key data",
+          "left": "Orders, stock, invoicing, costs",
+          "right": "Contacts, pipeline, interaction history"
+        },
+        {
+          "criteria": "Automation",
+          "left": "Business workflows and operational alerts",
+          "right": "Follow-ups, sequences, lead scoring"
+        },
+        {
+          "criteria": "Integrations",
+          "left": "Accounting, warehouse, production",
+          "right": "Forms, Ads, WhatsApp, email"
+        },
+        {
+          "criteria": "Best for",
+          "left": "SMEs with complex operational flows",
+          "right": "Sales teams focused on conversion"
+        }
+      ],
+      "verdict": "ERP and CRM are not interchangeable: ERP structures internal operations, CRM accelerates commercial conversion. Growing businesses usually combine both.",
+      "faqs": [
+        {
+          "question": "Should I start with ERP or CRM?",
+          "answer": "If your priority is converting and tracking leads, start with CRM (crm-data). If operations (stock, production, invoicing) is the bottleneck, ERP comes first."
+        },
+        {
+          "question": "Can a CRM replace an ERP?",
+          "answer": "No. A CRM does not manage production, inventory or operational accounting. It complements ERP by linking sales to execution."
+        },
+        {
+          "question": "Does Mohtaoua support both?",
+          "answer": "Yes: custom ERP service, CRM & data service, and a packaged CRM solution to get started quickly."
+        }
+      ]
+    },
+    "flutter-vs-react-native": {
+      "title": "Flutter vs React Native: which mobile stack to choose?",
+      "description": "Compare Flutter and React Native to qualify your cross-platform mobile app project in Morocco.",
+      "columns": {
+        "criteria": "Criterion",
+        "left": "Flutter",
+        "right": "React Native"
+      },
+      "rows": [
+        {
+          "criteria": "Language",
+          "left": "Dart",
+          "right": "JavaScript / TypeScript"
+        },
+        {
+          "criteria": "UI rendering",
+          "left": "Skia engine (native-like UI)",
+          "right": "Bridge to native components"
+        },
+        {
+          "criteria": "Performance",
+          "left": "Very stable, smooth animations",
+          "right": "Good, depends on native bridge"
+        },
+        {
+          "criteria": "Ecosystem",
+          "left": "Google, fast growth",
+          "right": "Meta, large JS community"
+        },
+        {
+          "criteria": "Time-to-market",
+          "left": "Fast with consistent UI",
+          "right": "Fast if you already have React/web"
+        },
+        {
+          "criteria": "Best for",
+          "left": "Product apps with polished UI",
+          "right": "Apps when your team already knows React"
+        }
+      ],
+      "verdict": "Flutter excels for homogeneous, high-performance UI. React Native makes sense if your team already masters JavaScript. Both support iOS + Android from one codebase.",
+      "faqs": [
+        {
+          "question": "Flutter or React Native for a startup?",
+          "answer": "Flutter for premium UI and a robust single codebase. React Native if you leverage an existing React team."
+        },
+        {
+          "question": "Can both publish to iOS and Android?",
+          "answer": "Yes. Mohtaoua ships to both stores with Flutter or React Native, depending on your stack and constraints."
+        },
+        {
+          "question": "What budget for a mobile app in Morocco?",
+          "answer": "See our mobile app pricing page for ranges by complexity (MVP, standard, premium)."
+        }
+      ]
     }
   },
   "labels": {

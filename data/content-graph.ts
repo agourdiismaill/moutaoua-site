@@ -181,6 +181,54 @@ const guideMeta: Record<string, { services: string[]; topics: string[]; priority
     topics: ["business", "acquisition"],
     priority: 84,
   },
+  "comment-creer-site-web-professionnel": {
+    services: ["corporate-websites", "landing-pages"],
+    topics: ["web", "development", "conversion"],
+    priority: 83,
+  },
+  "combien-coute-site-web-maroc": {
+    services: ["corporate-websites"],
+    topics: ["web", "pricing", "business"],
+    priority: 82,
+  },
+  "guide-marketing-digital-maroc": {
+    services: ["meta-ads", "google-ads", "seo", "lead-generation"],
+    topics: ["marketing", "acquisition", "publicite"],
+    priority: 85,
+  },
+};
+
+const comparisonMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
+  "meta-ads-vs-google-ads": {
+    services: ["meta-ads", "google-ads"],
+    topics: ["meta-ads", "google-ads", "publicite"],
+    priority: 75,
+  },
+  "seo-vs-google-ads": {
+    services: ["seo", "google-ads"],
+    topics: ["seo", "google-ads", "publicite"],
+    priority: 74,
+  },
+  "wordpress-vs-laravel": {
+    services: ["corporate-websites", "custom-software"],
+    topics: ["web", "development"],
+    priority: 73,
+  },
+  "crm-vs-excel": {
+    services: ["crm-data", "marketing-automation"],
+    topics: ["crm", "automation"],
+    priority: 72,
+  },
+  "erp-vs-crm": {
+    services: ["erp", "crm-data"],
+    topics: ["erp", "crm", "software"],
+    priority: 71,
+  },
+  "flutter-vs-react-native": {
+    services: ["flutter", "react-native"],
+    topics: ["mobile", "development"],
+    priority: 70,
+  },
 };
 
 const caseStudyMeta: Record<string, { tags: string[]; services: string[]; priority?: number }> = {
@@ -286,6 +334,7 @@ export const EXPLICIT_RELATIONS: Record<
     "case-study": ["edunext-automation"],
     blog: ["whatsapp-convertir-leads-formation-maroc", "crm-entreprise-maroc-guide"],
     solution: ["crm", "whatsapp-automation"],
+    comparison: ["crm-vs-excel", "erp-vs-crm"],
   },
   "agence-communication-maroc": {
     service: ["brand-identity", "content-marketing", "community-management", "video-production"],
@@ -295,12 +344,12 @@ export const EXPLICIT_RELATIONS: Record<
   "agence-marketing-digital-maroc": {
     service: ["meta-ads", "google-ads", "seo", "marketing-automation"],
     blog: ["generer-leads-centre-formation-maroc", "budget-marketing-centre-formation-maroc"],
-    guide: ["agence-digitale-maroc-guide"],
+    guide: ["agence-digitale-maroc-guide", "guide-marketing-digital-maroc"],
   },
   "marketing-digital-maroc": {
     service: ["meta-ads", "google-ads", "seo", "lead-generation"],
     blog: ["budget-marketing-centre-formation-maroc", "transformation-digitale-pme-maroc"],
-    guide: ["agence-digitale-maroc-guide"],
+    guide: ["agence-digitale-maroc-guide", "guide-marketing-digital-maroc"],
   },
   "agence-creative-maroc": {
     service: ["brand-identity", "graphic-design", "video-production", "reels"],
@@ -370,6 +419,7 @@ export const EXPLICIT_RELATIONS: Record<
     ],
     "case-study": ["edunext-automation", "skola-formation"],
     solution: ["crm", "whatsapp-automation"],
+    comparison: ["crm-vs-excel", "erp-vs-crm"],
   },
   "tiktok-ads": {
     service: ["meta-ads", "reels", "social-media", "landing-pages"],
@@ -402,12 +452,55 @@ export const EXPLICIT_RELATIONS: Record<
   },
   "wordpress-vs-laravel": {
     service: ["corporate-websites", "custom-software"],
-    guide: ["agence-digitale-maroc-guide"],
+    guide: ["agence-digitale-maroc-guide", "comment-creer-site-web-professionnel", "combien-coute-site-web-maroc"],
   },
   "crm-vs-excel": {
     service: ["crm-data", "marketing-automation"],
     solution: ["crm"],
     blog: ["crm-entreprise-maroc-guide"],
+    comparison: ["erp-vs-crm"],
+  },
+  "erp-vs-crm": {
+    service: ["erp", "crm-data"],
+    solution: ["crm"],
+    comparison: ["crm-vs-excel"],
+    blog: ["crm-entreprise-maroc-guide"],
+  },
+  "flutter-vs-react-native": {
+    service: ["flutter", "react-native", "android", "ios"],
+    solution: ["mobile-applications"],
+    "pricing-page": ["application-mobile-maroc"],
+  },
+  "comment-creer-site-web-professionnel": {
+    service: ["corporate-websites", "landing-pages"],
+    solution: ["website-builder"],
+    comparison: ["wordpress-vs-laravel"],
+    guide: ["seo-entreprise-maroc", "combien-coute-site-web-maroc"],
+    "pricing-page": ["creation-site-web-maroc"],
+  },
+  "combien-coute-site-web-maroc": {
+    service: ["corporate-websites"],
+    "pricing-page": ["creation-site-web-maroc"],
+    comparison: ["wordpress-vs-laravel"],
+    guide: ["comment-creer-site-web-professionnel", "agence-digitale-maroc-guide"],
+  },
+  "guide-marketing-digital-maroc": {
+    service: ["meta-ads", "google-ads", "seo", "lead-generation"],
+    guide: ["meta-ads-centre-formation", "google-ads-centre-formation", "seo-entreprise-maroc"],
+    comparison: ["meta-ads-vs-google-ads", "seo-vs-google-ads"],
+    "agency-hub": ["marketing-digital-maroc", "agence-marketing-digital-maroc"],
+  },
+  "creation-site-web-maroc": {
+    service: ["corporate-websites", "landing-pages"],
+    guide: ["comment-creer-site-web-professionnel", "combien-coute-site-web-maroc"],
+    comparison: ["wordpress-vs-laravel"],
+    "pricing-page": ["seo-maroc", "logo-maroc"],
+  },
+  "application-mobile-maroc": {
+    service: ["flutter", "react-native", "android", "ios"],
+    solution: ["mobile-applications"],
+    comparison: ["flutter-vs-react-native"],
+    "pricing-page": ["creation-site-web-maroc"],
   },
   "google-ads-maroc": {
     service: ["google-ads", "landing-pages"],
@@ -440,7 +533,9 @@ export const EXPLICIT_RELATIONS: Record<
     service: ["seo", "brand-identity", "landing-pages"],
     "case-study": ["nova-industrie-web", "riad-hotel-digital", "medina-clinic-digital"],
     blog: ["transformation-digitale-pme-maroc"],
-    guide: ["seo-entreprise-maroc"],
+    guide: ["seo-entreprise-maroc", "comment-creer-site-web-professionnel", "combien-coute-site-web-maroc"],
+    comparison: ["wordpress-vs-laravel"],
+    "pricing-page": ["creation-site-web-maroc"],
   },
   "e-commerce": {
     service: ["meta-ads", "product-photography", "marketing-automation"],
@@ -453,7 +548,8 @@ export const EXPLICIT_RELATIONS: Record<
   seo: {
     service: ["corporate-websites", "landing-pages"],
     "case-study": ["nova-industrie-web", "medina-clinic-digital", "riad-hotel-digital"],
-    guide: ["seo-entreprise-maroc"],
+    guide: ["seo-entreprise-maroc", "guide-marketing-digital-maroc"],
+    comparison: ["seo-vs-google-ads"],
   },
   "video-production": {
     service: ["social-media", "corporate-websites"],
@@ -498,6 +594,7 @@ export const EXPLICIT_RELATIONS: Record<
     solution: ["whatsapp-automation", "ai-agents", "business-intelligence"],
     "case-study": ["edunext-automation", "skola-formation"],
     industry: ["education", "healthcare", "real-estate"],
+    comparison: ["crm-vs-excel", "erp-vs-crm"],
   },
   "ai-agents": {
     service: ["ai-agents", "chatbots", "automation"],
@@ -528,6 +625,8 @@ export const EXPLICIT_RELATIONS: Record<
     solution: ["crm", "business-intelligence"],
     "case-study": ["atlas-ecommerce-growth"],
     industry: ["retail", "healthcare", "startups"],
+    comparison: ["flutter-vs-react-native"],
+    "pricing-page": ["application-mobile-maroc"],
   },
   "business-intelligence": {
     service: ["erp", "custom-software", "crm-data"],
@@ -658,15 +757,22 @@ function buildGuideNodes(): ContentNode[] {
 }
 
 function buildComparisonNodes(): ContentNode[] {
-  return COMPARISON_SLUGS.map((slug) => ({
-    id: `comparison:${slug}`,
-    type: "comparison" as const,
-    slug,
-    path: `/compare/${slug}`,
-    topics: normalizeTopics(["meta-ads", "google-ads", "publicite"]),
-    services: ["meta-ads", "google-ads"],
-    priority: 75,
-  }));
+  return COMPARISON_SLUGS.map((slug) => {
+    const meta = comparisonMeta[slug] ?? {
+      services: ["meta-ads", "google-ads"],
+      topics: ["meta-ads", "google-ads", "publicite"],
+      priority: 75,
+    };
+    return {
+      id: `comparison:${slug}`,
+      type: "comparison" as const,
+      slug,
+      path: `/compare/${slug}`,
+      topics: normalizeTopics(meta.topics),
+      services: meta.services,
+      priority: meta.priority ?? 75,
+    };
+  });
 }
 
 function buildIndustryNodes(): ContentNode[] {

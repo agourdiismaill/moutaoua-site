@@ -93,6 +93,8 @@ Hub : 477 pages `/fr/services/{service}-{ville}` pour 53 services locaux × 9 vi
 - SEO vs Google Ads : https://mohtaoua.ma/fr/compare/seo-vs-google-ads
 - WordPress vs Laravel : https://mohtaoua.ma/fr/compare/wordpress-vs-laravel
 - CRM vs Excel : https://mohtaoua.ma/fr/compare/crm-vs-excel
+- ERP vs CRM : https://mohtaoua.ma/fr/compare/erp-vs-crm
+- Flutter vs React Native : https://mohtaoua.ma/fr/compare/flutter-vs-react-native
 
 Exemples phares :
 - Meta Ads Casablanca : https://mohtaoua.ma/fr/services/meta-ads-casablanca
@@ -127,6 +129,9 @@ Exemples phares :
 - Google Ads pour entreprises : https://mohtaoua.ma/fr/guides/google-ads-centre-formation
 - SEO entreprise Maroc : https://mohtaoua.ma/fr/guides/seo-entreprise-maroc
 - Choisir une agence digitale : https://mohtaoua.ma/fr/guides/agence-digitale-maroc-guide
+- Créer un site web professionnel : https://mohtaoua.ma/fr/guides/comment-creer-site-web-professionnel
+- Prix site web au Maroc : https://mohtaoua.ma/fr/guides/combien-coute-site-web-maroc
+- Marketing digital au Maroc : https://mohtaoua.ma/fr/guides/guide-marketing-digital-maroc
 
 ## Comparatif
 

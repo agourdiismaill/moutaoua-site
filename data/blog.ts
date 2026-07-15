@@ -34,6 +34,9 @@ export const GUIDE_SLUGS = [
   "google-ads-centre-formation",
   "seo-entreprise-maroc",
   "agence-digitale-maroc-guide",
+  "comment-creer-site-web-professionnel",
+  "combien-coute-site-web-maroc",
+  "guide-marketing-digital-maroc",
 ] as const;
 
 export const COMPARISON_SLUGS = [
@@ -41,6 +44,8 @@ export const COMPARISON_SLUGS = [
   "seo-vs-google-ads",
   "wordpress-vs-laravel",
   "crm-vs-excel",
+  "erp-vs-crm",
+  "flutter-vs-react-native",
 ] as const;
 
 export type BlogPostSlug = (typeof BLOG_POST_SLUGS)[number];

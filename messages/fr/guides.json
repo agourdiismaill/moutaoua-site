@@ -113,6 +113,88 @@
           "answer": "À partir de 8 000 MAD/mois pour du marketing actif, hors média."
         }
       ]
+    },
+    "comment-creer-site-web-professionnel": {
+      "title": "Comment créer un site web professionnel au Maroc",
+      "description": "Étapes concrètes pour lancer un site corporate crédible : cadrage, contenu, design, technique et mise en ligne.",
+      "steps": [
+        "Définir l'objectif business (leads, ventes, notoriété) et le persona",
+        "Structurer l'arborescence (accueil, services, preuves, contact)",
+        "Rédiger des contenus clairs orientés conversion",
+        "Choisir design responsive aligné à votre identité",
+        "Développer sur une stack performante (Next.js recommandé)",
+        "Configurer SEO technique, analytics et formulaires",
+        "Tester mobile, vitesse et parcours contact avant mise en ligne"
+      ],
+      "mistakes": [
+        "Copier un template sans stratégie de conversion",
+        "Négliger la vitesse mobile et le SEO de base",
+        "Oublier les preuves sociales et appels à l'action"
+      ],
+      "faqs": [
+        {
+          "question": "Combien de pages minimum pour un site pro ?",
+          "answer": "Souvent 5 à 8 pages structurées : accueil, services, à propos, réalisations, blog/ressources, contact."
+        },
+        {
+          "question": "WordPress ou développement sur mesure ?",
+          "answer": "CMS pour un site simple ; Next.js/sur-mesure dès que performance, SEO et évolutivité sont critiques."
+        }
+      ]
+    },
+    "combien-coute-site-web-maroc": {
+      "title": "Combien coûte un site web au Maroc ?",
+      "description": "Fourchettes de prix réalistes selon le type de site, les fonctionnalités et le niveau d'accompagnement.",
+      "steps": [
+        "Identifier le type de site (vitrine, corporate, e-commerce, plateforme)",
+        "Lister les fonctionnalités indispensables vs optionnelles",
+        "Estimer le contenu (rédaction, photos, traductions)",
+        "Comparer prestataire freelance vs agence 360°",
+        "Demander un devis détaillé par postes (design, dev, SEO, maintenance)",
+        "Prévoir un budget maintenance et évolutions annuelles"
+      ],
+      "mistakes": [
+        "Comparer uniquement le prix initial sans maintenance",
+        "Sous-estimer la rédaction et les visuels",
+        "Choisir la solution la moins chère sans audit technique"
+      ],
+      "faqs": [
+        {
+          "question": "Quel budget pour un site vitrine corporate ?",
+          "answer": "En général entre 6 000 et 35 000 MAD selon design, contenus et intégrations. Voir notre page prix création site web."
+        },
+        {
+          "question": "Le SEO est-il inclus dans le prix du site ?",
+          "answer": "Le socle technique SEO oui ; la stratégie SEO continue est souvent un budget mensuel séparé."
+        }
+      ]
+    },
+    "guide-marketing-digital-maroc": {
+      "title": "Guide marketing digital au Maroc",
+      "description": "Feuille de route pour structurer acquisition, conversion et fidélisation : canaux, outils et priorités budget.",
+      "steps": [
+        "Clarifier objectifs et KPIs (leads, CA, coût d'acquisition)",
+        "Cartographier parcours client (awareness → conversion → fidélisation)",
+        "Choisir les canaux prioritaires (Meta, Google, SEO, email, WhatsApp)",
+        "Mettre en place tracking et CRM pour mesurer chaque euro",
+        "Créer landing pages et contenus alignés à l'intention",
+        "Tester, optimiser hebdomadairement, scaler ce qui fonctionne"
+      ],
+      "mistakes": [
+        "Disperser le budget sur trop de canaux sans data",
+        "Envoyer le trafic vers la page d'accueil générique",
+        "Ignorer le nurturing post-lead (email, WhatsApp, retargeting)"
+      ],
+      "faqs": [
+        {
+          "question": "Par quel canal commencer au Maroc ?",
+          "answer": "Meta Ads pour créer la demande, Google Ads si votre offre est déjà recherchée, SEO en parallèle pour le moyen terme."
+        },
+        {
+          "question": "Quel budget marketing digital minimum ?",
+          "answer": "À partir de 8 000 MAD/mois hors média pour une exécution structurée ; le média varie selon secteur et objectifs."
+        }
+      ]
     }
   }
 }

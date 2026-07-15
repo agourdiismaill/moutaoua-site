@@ -113,6 +113,88 @@
           "answer": "From 8,000 MAD/month for active marketing, excluding media."
         }
       ]
+    },
+    "comment-creer-site-web-professionnel": {
+      "title": "How to create a professional website in Morocco",
+      "description": "Concrete steps to launch a credible corporate site: scope, content, design, tech and go-live.",
+      "steps": [
+        "Define business goal (leads, sales, awareness) and persona",
+        "Structure site map (home, services, proof, contact)",
+        "Write clear conversion-oriented copy",
+        "Choose responsive design aligned with your brand",
+        "Build on a performant stack (Next.js recommended)",
+        "Set up technical SEO, analytics and forms",
+        "Test mobile, speed and contact flow before launch"
+      ],
+      "mistakes": [
+        "Copying a template without conversion strategy",
+        "Neglecting mobile speed and basic SEO",
+        "Forgetting social proof and clear calls to action"
+      ],
+      "faqs": [
+        {
+          "question": "How many pages for a pro site?",
+          "answer": "Often 5 to 8 structured pages: home, services, about, work, blog/resources, contact."
+        },
+        {
+          "question": "WordPress or custom development?",
+          "answer": "CMS for a simple site; Next.js/custom when performance, SEO and scalability matter."
+        }
+      ]
+    },
+    "combien-coute-site-web-maroc": {
+      "title": "How much does a website cost in Morocco?",
+      "description": "Realistic price ranges by site type, features and level of agency support.",
+      "steps": [
+        "Identify site type (brochure, corporate, e-commerce, platform)",
+        "List must-have vs optional features",
+        "Estimate content (copy, photos, translations)",
+        "Compare freelancer vs 360° agency",
+        "Request a detailed quote (design, dev, SEO, maintenance)",
+        "Plan annual maintenance and evolution budget"
+      ],
+      "mistakes": [
+        "Comparing upfront price only without maintenance",
+        "Underestimating copy and visuals",
+        "Choosing the cheapest option without technical audit"
+      ],
+      "faqs": [
+        {
+          "question": "Budget for a corporate brochure site?",
+          "answer": "Typically 6,000 to 35,000 MAD depending on design, content and integrations. See our website creation pricing page."
+        },
+        {
+          "question": "Is SEO included in the site price?",
+          "answer": "Technical SEO foundation yes; ongoing SEO strategy is usually a separate monthly budget."
+        }
+      ]
+    },
+    "guide-marketing-digital-maroc": {
+      "title": "Digital marketing guide for Morocco",
+      "description": "Roadmap to structure acquisition, conversion and retention: channels, tools and budget priorities.",
+      "steps": [
+        "Clarify goals and KPIs (leads, revenue, acquisition cost)",
+        "Map customer journey (awareness → conversion → retention)",
+        "Pick priority channels (Meta, Google, SEO, email, WhatsApp)",
+        "Set up tracking and CRM to measure every dirham",
+        "Create landing pages and content matched to intent",
+        "Test, optimize weekly, scale what works"
+      ],
+      "mistakes": [
+        "Spreading budget across too many channels without data",
+        "Sending traffic to a generic homepage",
+        "Ignoring post-lead nurturing (email, WhatsApp, retargeting)"
+      ],
+      "faqs": [
+        {
+          "question": "Which channel to start with in Morocco?",
+          "answer": "Meta Ads to create demand, Google Ads if your offer is already searched, SEO in parallel for mid-term."
+        },
+        {
+          "question": "Minimum digital marketing budget?",
+          "answer": "From 8,000 MAD/month excl. media for structured execution; media varies by sector and goals."
+        }
+      ]
     }
   }
 }
