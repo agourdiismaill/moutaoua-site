@@ -5,9 +5,9 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { VideoCard } from "./video-card";
 import { VideoModal } from "@/components/shared/video-modal";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getLocalizedVideoCategories, getLocalizedVideos } from "@/lib/i18n-content";
 import { staggerFast, viewportOnce } from "@/lib/motion";
+import { cn } from "@/lib/utils";
 import type { VideoItem } from "@/data/types";
 
 export function VideoGrid({
@@ -39,16 +39,22 @@ export function VideoGrid({
   return (
     <div className="space-y-10">
       {withFilter && categoryKeys.length > 1 && (
-        <div className="flex justify-center overflow-x-auto hide-scrollbar">
-          <Tabs value={active} onValueChange={setActive}>
-            <TabsList>
-              {categoryKeys.map((key, i) => (
-                <TabsTrigger key={key} value={key}>
-                  {categories[i]}
-                </TabsTrigger>
-              ))}
-            </TabsList>
-          </Tabs>
+        <div className="flex flex-wrap justify-center gap-2">
+          {categoryKeys.map((key, i) => (
+            <button
+              key={key}
+              type="button"
+              onClick={() => setActive(key)}
+              className={cn(
+                "rounded-full border px-3.5 py-1.5 text-xs font-medium transition-colors",
+                active === key
+                  ? "border-primary bg-primary text-primary-foreground"
+                  : "border-border bg-card text-muted-foreground hover:border-primary/40 hover:text-foreground"
+              )}
+            >
+              {categories[i]}
+            </button>
+          ))}
         </div>
       )}
 
