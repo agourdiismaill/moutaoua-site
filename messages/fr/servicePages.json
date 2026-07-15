@@ -3134,6 +3134,245 @@
           "answer": "Demandez un audit gratuit — réponse sous 24h avec plan d'action concret."
         }
       ]
+    },
+    "agence-communication-maroc": {
+      "metaTitle": "Agence de Communication au Maroc | Mohtaoua",
+      "metaDescription": "Agence de communication 360° au Maroc : stratégie, branding, contenus et campagnes multicanales. Audit gratuit avec Mohtaoua.",
+      "overview": {
+        "what": "Une offre de communication intégrée qui aligne positionnement, identité, contenus et diffusion.",
+        "who": "Dirigeants et responsables marketing qui veulent une marque cohérente et un partenaire capable de piloter tous les canaux.",
+        "benefits": [
+          "Un message de marque clair et différenciant",
+          "Une exécution cohérente sur chaque point de contact",
+          "Des campagnes mesurées par des indicateurs business"
+        ],
+        "topics": [
+          "Stratégie de communication",
+          "Branding",
+          "Contenus",
+          "Média",
+          "Reporting"
+        ],
+        "takeaways": [
+          "Un interlocuteur pour la stratégie et la production",
+          "Une équipe multidisciplinaire basée au Maroc",
+          "Un audit initial gratuit et actionnable"
+        ]
+      },
+      "problem": "Votre communication est dispersée entre plusieurs prestataires, sans message central, calendrier commun ni mesure fiable de son impact.",
+      "solution": "Nous construisons une plateforme de communication unique, puis orchestrons branding, contenus, campagnes et supports autour d'objectifs mesurables.",
+      "howItWorks": [
+        "Audit de marque, audiences et canaux",
+        "Positionnement, messages et plan de communication",
+        "Création des campagnes et des contenus",
+        "Diffusion, mesure et optimisation continue"
+      ],
+      "industries": [
+        "Éducation",
+        "Santé",
+        "Immobilier",
+        "Hôtellerie",
+        "Retail",
+        "B2B"
+      ],
+      "faqs": [
+        {
+          "question": "Quels services couvre votre agence de communication ?",
+          "answer": "Stratégie, branding, identité visuelle, création de contenu, réseaux sociaux, publicité, vidéo, supports imprimés et communication événementielle."
+        },
+        {
+          "question": "Travaillez-vous avec des entreprises hors Casablanca ?",
+          "answer": "Oui. Nous accompagnons des organisations partout au Maroc avec des ateliers à distance ou sur site selon le projet."
+        },
+        {
+          "question": "Comment mesurez-vous les résultats ?",
+          "answer": "Nous définissons des KPI liés à la notoriété, l'engagement, la génération de demande et les conversions, puis partageons un reporting régulier."
+        },
+        {
+          "question": "Peut-on commencer par un audit ?",
+          "answer": "Oui. L'audit gratuit identifie les incohérences, les opportunités prioritaires et les actions à lancer sur 90 jours."
+        }
+      ]
+    },
+    "agence-marketing-digital-maroc": {
+      "metaTitle": "Agence Marketing Digital Maroc | Acquisition & ROI",
+      "metaDescription": "Agence marketing digital au Maroc : SEO, Meta Ads, Google Ads, TikTok, CRM et automation. Stratégie orientée ROI et audit gratuit.",
+      "overview": {
+        "what": "Un accompagnement d'agence pour piloter l'ensemble de votre acquisition et de votre conversion digitale.",
+        "who": "Entreprises qui cherchent une équipe experte et un interlocuteur unique plutôt qu'une accumulation de prestataires.",
+        "benefits": [
+          "Canaux d'acquisition coordonnés",
+          "Leads suivis jusqu'à la vente dans le CRM",
+          "Budgets arbitrés selon la rentabilité réelle"
+        ],
+        "topics": [
+          "SEO",
+          "Google Ads",
+          "Meta Ads",
+          "TikTok Ads",
+          "CRM",
+          "Automation"
+        ],
+        "takeaways": [
+          "Stratégie et exécution réunies",
+          "Reporting orienté chiffre d'affaires",
+          "Optimisation continue par la donnée"
+        ]
+      },
+      "problem": "Vos canaux digitaux fonctionnent en silos : les campagnes génèrent des leads, mais l'attribution, le suivi commercial et la rentabilité restent flous.",
+      "solution": "Mohtaoua relie acquisition, landing pages, tracking, CRM et relances dans un dispositif unique piloté par le coût d'acquisition client.",
+      "howItWorks": [
+        "Audit des performances et du parcours de conversion",
+        "Priorisation des canaux selon vos objectifs",
+        "Déploiement des campagnes, contenus et outils",
+        "Optimisation hebdomadaire et reporting business"
+      ],
+      "industries": [
+        "E-commerce",
+        "Services",
+        "Santé",
+        "Immobilier",
+        "Éducation",
+        "Industrie"
+      ],
+      "faqs": [
+        {
+          "question": "Quels canaux gérez-vous ?",
+          "answer": "SEO, GEO, Google Ads, Meta Ads, TikTok Ads, social media, email, landing pages, CRM et marketing automation."
+        },
+        {
+          "question": "Quel budget faut-il prévoir ?",
+          "answer": "Le budget dépend du marché et des objectifs. Après audit, nous recommandons un scénario progressif sans engagement sur un résultat irréaliste."
+        },
+        {
+          "question": "Le budget média est-il inclus ?",
+          "answer": "Non. Les honoraires couvrent la stratégie, la production et le pilotage ; les dépenses publicitaires sont payées directement aux plateformes."
+        },
+        {
+          "question": "Comment choisissez-vous les canaux ?",
+          "answer": "Nous croisons intention de recherche, maturité de l'audience, économie unitaire et capacité commerciale avant de répartir le budget."
+        }
+      ]
+    },
+    "marketing-digital-maroc": {
+      "metaTitle": "Marketing Digital au Maroc : Stratégie 360° | Mohtaoua",
+      "metaDescription": "Structurez votre marketing digital au Maroc : audit, acquisition, contenus, conversion, CRM et mesure. Plan d'action adapté à votre entreprise.",
+      "overview": {
+        "what": "Une méthodologie complète pour structurer le marketing digital comme un système de croissance.",
+        "who": "PME, startups et grands comptes qui veulent prioriser leurs actions et mieux rentabiliser leurs investissements digitaux.",
+        "benefits": [
+          "Une feuille de route claire et priorisée",
+          "Un parcours prospect cohérent de l'audience à la vente",
+          "Des décisions fondées sur des données fiables"
+        ],
+        "topics": [
+          "Stratégie digitale",
+          "Acquisition",
+          "Contenus",
+          "Conversion",
+          "CRM",
+          "Analytics"
+        ],
+        "takeaways": [
+          "Commencer par les objectifs business",
+          "Mesurer la qualité des leads, pas seulement leur volume",
+          "Relier marketing et processus commercial"
+        ]
+      },
+      "problem": "Vous multipliez les publications, campagnes et outils sans feuille de route commune, ce qui disperse les ressources et empêche d'identifier les leviers rentables.",
+      "solution": "Nous auditons le parcours actuel, choisissons les canaux prioritaires et construisons un plan combinant acquisition, contenu, conversion et fidélisation.",
+      "howItWorks": [
+        "Diagnostic des audiences, offres et données",
+        "Définition des objectifs et indicateurs",
+        "Plan d'action trimestriel priorisé",
+        "Exécution, apprentissage et amélioration continue"
+      ],
+      "industries": [
+        "PME",
+        "Startups",
+        "E-commerce",
+        "B2B",
+        "Services",
+        "Retail"
+      ],
+      "faqs": [
+        {
+          "question": "Par où commencer en marketing digital ?",
+          "answer": "Commencez par clarifier votre cible, votre offre, votre objectif commercial et votre capacité de suivi avant de sélectionner les canaux."
+        },
+        {
+          "question": "Faut-il être présent sur tous les réseaux ?",
+          "answer": "Non. Il vaut mieux maîtriser les canaux où votre audience recherche ou découvre votre offre que disperser les efforts."
+        },
+        {
+          "question": "Quand peut-on mesurer les résultats ?",
+          "answer": "Les premières données arrivent rapidement, mais une lecture fiable exige généralement plusieurs semaines et un volume suffisant de conversions."
+        },
+        {
+          "question": "Mohtaoua peut-elle exécuter le plan ?",
+          "answer": "Oui. Notre équipe couvre stratégie, publicité, SEO, contenus, web, CRM, automatisation et analyse."
+        }
+      ]
+    },
+    "agence-creative-maroc": {
+      "metaTitle": "Agence Créative au Maroc | Branding, Design & Contenu",
+      "metaDescription": "Agence créative au Maroc : concepts de campagne, identité, design, photo et vidéo. Donnez à votre marque une expression distinctive.",
+      "overview": {
+        "what": "Une direction créative complète pour transformer votre stratégie de marque en identité et campagnes mémorables.",
+        "who": "Marques en lancement, repositionnement ou croissance qui veulent se différencier sur des marchés encombrés.",
+        "benefits": [
+          "Une idée créative cohérente avec le positionnement",
+          "Des assets adaptés à chaque canal",
+          "Une production centralisée et plus rapide"
+        ],
+        "topics": [
+          "Direction artistique",
+          "Branding",
+          "Design",
+          "Campagnes",
+          "Photo",
+          "Vidéo"
+        ],
+        "takeaways": [
+          "La création sert un objectif de marque",
+          "Chaque format respecte une direction commune",
+          "Les concepts sont déclinables et mesurables"
+        ]
+      },
+      "problem": "Votre marque produit des visuels isolés sans territoire créatif reconnaissable, ce qui réduit la mémorisation et la cohérence des campagnes.",
+      "solution": "Nous définissons le concept, la direction artistique et le système visuel, puis produisons les déclinaisons digitales, imprimées et audiovisuelles.",
+      "howItWorks": [
+        "Immersion dans la marque et son marché",
+        "Concepts créatifs et pistes artistiques",
+        "Production et déclinaison multiformat",
+        "Contrôle qualité et optimisation des assets"
+      ],
+      "industries": [
+        "Retail",
+        "Hôtellerie",
+        "Immobilier",
+        "E-commerce",
+        "Beauté",
+        "Corporate"
+      ],
+      "faqs": [
+        {
+          "question": "Quelle différence entre agence créative et agence de communication ?",
+          "answer": "L'agence créative se concentre sur les concepts, l'identité et la production ; l'agence de communication orchestre aussi la stratégie et la diffusion."
+        },
+        {
+          "question": "Produisez-vous aussi photo et vidéo ?",
+          "answer": "Oui. Direction artistique, photographie, vidéo, motion design, Reels et adaptations publicitaires peuvent être réunis dans le projet."
+        },
+        {
+          "question": "Pouvez-vous travailler avec notre identité existante ?",
+          "answer": "Oui. Nous pouvons l'enrichir, créer une campagne dans ses codes ou recommander une évolution si elle limite la marque."
+        },
+        {
+          "question": "Combien de pistes créatives présentez-vous ?",
+          "answer": "Le nombre dépend du périmètre. Nous privilégions quelques pistes argumentées plutôt qu'un grand volume de propositions superficielles."
+        }
+      ]
     }
   },
   "generic": {

@@ -6,7 +6,11 @@
  */
 
 import { SERVICE_SLUGS, CASE_STUDY_SLUGS } from "../data/meta";
-import { SERVICE_CITY_COMBOS } from "../data/service-city-combos";
+import {
+  SERVICE_CITY_COMBOS,
+  SERVICE_CITY_COMBO_SLUGS,
+} from "../data/service-city-combos";
+import { AGENCY_HUBS, getAgencyHubByCity } from "../data/agency-hubs";
 import { BLOG_POST_SLUGS, GUIDE_SLUGS, COMPARISON_SLUGS } from "../data/blog";
 import { INDUSTRY_SLUGS, FEATURED_INDUSTRY_SLUGS, industryServiceMap, industryCaseStudyMap } from "../data/industries";
 import { SOLUTION_SLUGS } from "../data/solutions";
@@ -37,6 +41,7 @@ const routes: Route[] = [
   { path: "/about", kind: "page" },
   ...SERVICE_SLUGS.map((s) => ({ path: `/services/${s}`, kind: "service" })),
   ...SERVICE_CITY_COMBOS.map((c) => ({ path: `/services/${c.slug}`, kind: "service-city" })),
+  ...AGENCY_HUBS.map((hub) => ({ path: `/agences/${hub.slug}`, kind: "agency-hub" })),
   ...INDUSTRY_SLUGS.map((s) => ({ path: `/industries/${s}`, kind: "industry" })),
   ...SOLUTION_SLUGS.map((s) => ({ path: `/solutions/${s}`, kind: "solution" })),
   ...BLOG_POST_SLUGS.map((s) => ({ path: `/blog/${s}`, kind: "blog" })),
@@ -108,7 +113,12 @@ for (const s of SERVICE_SLUGS) {
     INDUSTRY_SLUGS[serviceIdx % INDUSTRY_SLUGS.length];
   addLink(from, `/industries/${industry}`);
   const citySlug = CITY_ORDER[serviceIdx % CITY_ORDER.length];
-  addLink(from, `/services/${s}-${citySlug}`);
+  const localServiceSlug = `${s}-${citySlug}`;
+  if (SERVICE_CITY_COMBO_SLUGS.includes(localServiceSlug)) {
+    addLink(from, `/services/${localServiceSlug}`);
+  } else if (AGENCY_HUBS[0]) {
+    addLink(from, `/agences/${AGENCY_HUBS[0].slug}`);
+  }
 }
 
 // Pages service-ville
@@ -118,6 +128,20 @@ for (const c of SERVICE_CITY_COMBOS) {
   addLink(from, `/services/${c.service}`); // lien explicite vers le service parent
   addLink(from, "/contact");
   addLink(from, "/case-studies");
+  const agencyHub = getAgencyHubByCity(c.villeSlug);
+  if (agencyHub) addLink(from, `/agences/${agencyHub.slug}`);
+}
+
+// Hubs agence : lien exhaustif vers chaque service-ville réellement généré
+for (const hub of AGENCY_HUBS) {
+  const from = `/agences/${hub.slug}`;
+  for (const combo of SERVICE_CITY_COMBOS.filter(
+    (item) => item.villeSlug === hub.villeSlug
+  )) {
+    addLink(from, `/services/${combo.slug}`);
+  }
+  addResolved(from, "agency-hub", hub.slug);
+  addLink(from, "/contact");
 }
 
 // Pages industrie : services recommandés + case studies liés

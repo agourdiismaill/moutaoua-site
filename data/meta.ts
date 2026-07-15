@@ -13,6 +13,10 @@ export const SERVICE_SLUGS = [
   "crm-data",
   "lead-generation",
   "community-management",
+  // Communication
+  "agence-communication-maroc",
+  "agence-marketing-digital-maroc",
+  "marketing-digital-maroc",
   // Web
   "corporate-websites",
   "landing-pages",
@@ -45,6 +49,7 @@ export const SERVICE_SLUGS = [
   "packaging",
   "infographics",
   "presentation-design",
+  "agence-creative-maroc",
   // Photo & Video
   "commercial-photography",
   "corporate-photography",
@@ -77,6 +82,9 @@ export const SERVICE_DETAIL_SLUGS = [
   "crm-data",
   "lead-generation",
   "community-management",
+  "agence-communication-maroc",
+  "agence-marketing-digital-maroc",
+  "marketing-digital-maroc",
   "corporate-websites",
   "landing-pages",
   "e-commerce",
@@ -105,6 +113,7 @@ export const SERVICE_DETAIL_SLUGS = [
   "packaging",
   "infographics",
   "presentation-design",
+  "agence-creative-maroc",
   "commercial-photography",
   "corporate-photography",
   "product-photography",

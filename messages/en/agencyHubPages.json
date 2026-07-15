@@ -1,0 +1,81 @@
+{
+  "labels": {
+    "home": "Home",
+    "share": "Share",
+    "aiOverview": "Page summary",
+    "what": "What is this page about?",
+    "who": "Who is it for?",
+    "benefits": "Key benefits",
+    "topics": "Topics covered",
+    "takeaways": "Key takeaways",
+    "readingTime": "{minutes} min read",
+    "challenges": "Digital challenges in {ville}",
+    "approach": "Our local approach",
+    "servicesInCity": "Our services in {ville}",
+    "servicesInCityDescription": "Explore every Mohtaoua expertise available in {ville}. Each link opens the dedicated local service page."
+  },
+  "items": {
+    "casablanca": {
+      "metaTitle": "Digital Agency Casablanca | Mohtaoua 360°",
+      "metaDescription": "Digital agency in Casablanca: marketing, web, software, mobile, design and automation. 53 local services and a free audit.",
+      "h1": "Digital agency in Casablanca",
+      "intro": "Mohtaoua supports Casablanca businesses with a 360° team connecting marketing, technology, creative and automation.",
+      "overview": {
+        "what": "The local hub gathering every Mohtaoua digital expertise available to Casablanca businesses.",
+        "who": "Leaders and digital teams in Casablanca SMEs, startups, institutions and enterprises.",
+        "benefits": [
+          "One marketing and technology partner",
+          "Local expertise tied to business goals",
+          "Transparent management"
+        ],
+        "topics": [
+          "Digital acquisition",
+          "Web and e-commerce",
+          "Software, CRM and automation",
+          "Branding, photo and video"
+        ],
+        "takeaways": [
+          "53 services in Casablanca",
+          "Morocco-based multidisciplinary team",
+          "Free prioritized audit"
+        ]
+      },
+      "paragraphs": [
+        "Casablanca concentrates Morocco's corporate headquarters, industrial groups, banks, startups and most competitive service companies. In this environment, fragmented digital activity is no longer enough: brand, acquisition, website, data and sales must work together.",
+        "Our role as a digital agency in Casablanca is to build that complete system. We start from business goals, identify friction points and bring together the right expertise: SEO, media, content, web, software, CRM, automation, design and audiovisual production.",
+        "Every engagement is managed with indicators tied to the expected outcome: qualified-lead cost, conversion, attributed revenue, organic visibility, tool adoption or productivity gains.",
+        "The section below links every local service page in Casablanca, helping you explore each expertise and its local context."
+      ],
+      "challenges": [
+        "Differentiate in a competitive market",
+        "Connect marketing and sales",
+        "Modernize tools safely",
+        "Scale consistent content"
+      ],
+      "approach": [
+        "Brand and channel audit",
+        "Prioritized roadmap",
+        "Dedicated multidisciplinary team",
+        "Regular reporting"
+      ],
+      "faqs": [
+        {
+          "question": "Which services do you offer in Casablanca?",
+          "answer": "We cover 53 areas across marketing, web, software, mobile, CRM, automation, AI, branding, photo, video and events."
+        },
+        {
+          "question": "Do you work with SMEs and enterprises?",
+          "answer": "Yes. Scope and team adapt to each organization's maturity and constraints."
+        },
+        {
+          "question": "Can you work at our Casablanca office?",
+          "answer": "Yes. Workshops, shoots and strategic meetings can be held on-site or remotely."
+        },
+        {
+          "question": "How do we start?",
+          "answer": "Request a free audit for a prioritized action plan before any firm quote."
+        }
+      ]
+    }
+  }
+}

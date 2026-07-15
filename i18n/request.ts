@@ -30,6 +30,7 @@ const modules = [
   "solutions",
   "solutionPages",
   "serviceCityPages",
+  "agencyHubPages",
 ] as const;
 
 async function loadMessages(locale: string) {

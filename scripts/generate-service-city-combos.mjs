@@ -73,6 +73,16 @@ function extractExclusions() {
   return new Set(pairs.map((m) => `${m[1]}::${m[2]}`));
 }
 
+function extractExcludedServices() {
+  const path = join(root, "data/service-city-exclusions.ts");
+  const content = readFileSync(path, "utf8");
+  const match = content.match(
+    /export const SERVICE_CITY_EXCLUDED_SERVICES[^=]*=\s*\[([\s\S]*?)\];/
+  );
+  if (!match) return new Set();
+  return new Set([...match[1].matchAll(/"([^"]+)"/g)].map((m) => m[1]));
+}
+
 function loadServiceTitles() {
   const servicesJson = JSON.parse(
     readFileSync(join(root, "messages/fr/services.json"), "utf8")
@@ -88,10 +98,12 @@ function buildDescription(serviceTitle, ville, secteurDominant) {
 function main() {
   const services = extractServiceSlugs();
   const exclusions = extractExclusions();
+  const excludedServices = extractExcludedServices();
   const titles = loadServiceTitles();
   const combos = [];
 
   for (const service of services) {
+    if (excludedServices.has(service)) continue;
     for (const ville of TARGET_CITIES) {
       if (exclusions.has(`${service}::${ville}`)) continue;
       const villeSlug = CITY_SLUGS[ville];

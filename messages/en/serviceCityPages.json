@@ -163,5 +163,10 @@
       "question": "Do you work with local SMEs in {ville}?",
       "answer": "Yes. We support SMEs, startups and established businesses in {ville} and across Morocco. Our packs are flexible and a personalized quote is available at /contact after a free audit."
     }
-  ]
+  ],
+  "localContext": {
+    "title": "Your local digital agency",
+    "prefix": "To complement {service} in {ville}, explore",
+    "agencyLink": "all services from our digital agency in {ville}"
+  }
 }

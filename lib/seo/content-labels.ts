@@ -1,5 +1,6 @@
 import type { ContentNode, ContentType } from "@/data/content-graph";
 import { getServiceCityCombo } from "@/data/service-city-combos";
+import { getAgencyHub } from "@/data/agency-hubs";
 import { pickAnchorText, getAnchorVariants } from "@/lib/seo/anchor-text";
 import type { RelatedLink } from "@/lib/seo/types";
 
@@ -17,6 +18,7 @@ export type ContentLabelSources = {
   internalLinking: TranslationFn;
   seo: TranslationFn;
   serviceCity: TranslationFn;
+  agencyHub: TranslationFn;
   anchors: Record<string, string[]>;
 };
 
@@ -41,6 +43,10 @@ function getRawTitle(node: ContentNode, src: ContentLabelSources): string {
       if (!combo) return node.slug;
       const serviceTitle = src.services(`items.${combo.service}.title`);
       return src.serviceCity("labels.h1", { service: serviceTitle, ville: combo.ville });
+    }
+    case "agency-hub": {
+      const hub = getAgencyHub(node.slug);
+      return hub ? src.agencyHub(`items.${hub.villeSlug}.h1`) : node.slug;
     }
     case "resource":
       return src.internalLinking(`resources.${node.slug}.title`);
@@ -69,6 +75,12 @@ function getRawDescription(node: ContentNode, src: ContentLabelSources): string 
       const combo = getServiceCityCombo(node.slug);
       if (!combo) return "";
       return src.services(`items.${combo.service}.description`);
+    }
+    case "agency-hub": {
+      const hub = getAgencyHub(node.slug);
+      return hub
+        ? src.agencyHub(`items.${hub.villeSlug}.metaDescription`)
+        : "";
     }
     case "resource":
       return src.internalLinking(`resources.${node.slug}.description`);
@@ -113,6 +125,7 @@ export function sectionTitle(type: ContentType, src: ContentLabelSources): strin
     industry: "relatedIndustries",
     solution: "relatedSolutions",
     "service-city": "relatedServiceCities",
+    "agency-hub": "relatedAgencyHubs",
     resource: "relatedResources",
   };
   return src.internalLinking(`sections.${keyMap[type]}`);

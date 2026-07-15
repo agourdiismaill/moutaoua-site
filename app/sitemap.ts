@@ -10,6 +10,7 @@ import {
 } from "@/data/blog";
 import { INDUSTRY_SLUGS } from "@/data/industries";
 import { SOLUTION_SLUGS } from "@/data/solutions";
+import { AGENCY_HUB_SLUGS } from "@/data/agency-hubs";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -159,6 +160,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
+  const agencyHubRoutes = routing.locales.flatMap((locale) =>
+    AGENCY_HUB_SLUGS.map((slug) => {
+      const path = `/agences/${slug}`;
+      return {
+        url: `${base}/${locale}${path}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.8,
+        alternates: { languages: buildLanguages(path) },
+      };
+    })
+  );
+
   return [
     ...routes,
     ...caseStudyRoutes,
@@ -168,5 +182,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...guideRoutes,
     ...compareRoutes,
     ...industryRoutes,
+    ...agencyHubRoutes,
   ];
 }

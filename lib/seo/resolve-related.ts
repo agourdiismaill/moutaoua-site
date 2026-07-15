@@ -14,6 +14,7 @@ import {
   type ContentType,
 } from "@/data/content-graph";
 import { getServiceCityCombo, type CitySlug } from "@/data/service-city-combos";
+import { getAgencyHub } from "@/data/agency-hubs";
 import { INDUSTRY_SLUGS } from "@/data/industries";
 import { SERVICE_SLUGS } from "@/data/meta";
 
@@ -38,6 +39,16 @@ function cityIndexOf(serviceCitySlug: string): number {
 /** Distance cyclique (1..n-1) entre deux positions d'un anneau */
 function ringDistance(from: number, to: number, size: number): number {
   return ((to - from) % size + size) % size;
+}
+
+function getNodeCity(node: ContentNode): CitySlug | undefined {
+  if (node.type === "service-city") {
+    return getServiceCityCombo(node.slug)?.villeSlug;
+  }
+  if (node.type === "agency-hub") {
+    return getAgencyHub(node.slug)?.villeSlug;
+  }
+  return undefined;
 }
 
 export type ScoredNode = ContentNode & { score: number };
@@ -91,6 +102,19 @@ function scoreCandidate(current: ContentNode, candidate: ContentNode): number {
       score += d >= 1 && d <= 4 ? 45 + (5 - d) : 10;
     } else {
       score += 45;
+    }
+  }
+
+  if (
+    (current.type === "agency-hub" && candidate.type === "service-city") ||
+    (current.type === "service-city" && candidate.type === "agency-hub")
+  ) {
+    const currentCity = getNodeCity(current);
+    const candidateCity = getNodeCity(candidate);
+    if (currentCity && candidateCity && currentCity === candidateCity) {
+      score += 60;
+    } else {
+      return -Infinity;
     }
   }
 
@@ -167,7 +191,9 @@ function getCurrentNode(type: ContentType, slug: string): ContentNode {
     type,
     slug,
     path:
-      type === "industry"
+      type === "agency-hub"
+        ? `/agences/${slug}`
+        : type === "industry"
         ? `/industries/${slug}`
         : type === "solution"
           ? `/solutions/${slug}`

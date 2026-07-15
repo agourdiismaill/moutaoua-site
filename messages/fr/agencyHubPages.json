@@ -1,0 +1,81 @@
+{
+  "labels": {
+    "home": "Accueil",
+    "share": "Partager",
+    "aiOverview": "Résumé de la page",
+    "what": "De quoi parle cette page ?",
+    "who": "À qui s'adresse-t-elle ?",
+    "benefits": "Bénéfices clés",
+    "topics": "Sujets couverts",
+    "takeaways": "Points à retenir",
+    "readingTime": "{minutes} min de lecture",
+    "challenges": "Enjeux digitaux à {ville}",
+    "approach": "Notre approche locale",
+    "servicesInCity": "Nos services à {ville}",
+    "servicesInCityDescription": "Explorez toutes les expertises Mohtaoua disponibles à {ville}. Chaque lien mène vers une page locale dédiée au service."
+  },
+  "items": {
+    "casablanca": {
+      "metaTitle": "Agence Digitale Casablanca | Mohtaoua 360°",
+      "metaDescription": "Agence digitale à Casablanca : marketing, web, logiciels, mobile, design et automatisation. 53 expertises locales et audit gratuit.",
+      "h1": "Agence digitale à Casablanca",
+      "intro": "Mohtaoua accompagne les entreprises de Casablanca avec une équipe 360° capable de relier marketing, technologie, création et automatisation.",
+      "overview": {
+        "what": "Le hub local qui rassemble toutes les expertises digitales proposées par Mohtaoua aux entreprises de Casablanca.",
+        "who": "Dirigeants, directions marketing et équipes digitales de PME, startups, institutions et grands comptes casablancais.",
+        "benefits": [
+          "Un partenaire unique pour le marketing et la technologie",
+          "Des expertises locales reliées à vos objectifs business",
+          "Un pilotage transparent de la stratégie à l'optimisation"
+        ],
+        "topics": [
+          "Acquisition digitale",
+          "Sites web et e-commerce",
+          "Logiciels, CRM et automatisation",
+          "Branding, photo et vidéo"
+        ],
+        "takeaways": [
+          "53 services disponibles à Casablanca",
+          "Équipe multidisciplinaire basée au Maroc",
+          "Audit gratuit avec plan d'action priorisé"
+        ]
+      },
+      "paragraphs": [
+        "Casablanca concentre les sièges sociaux, groupes industriels, banques, startups et entreprises de services les plus compétitifs du Maroc. Dans cet environnement, une présence digitale fragmentée ne suffit plus : la marque, l'acquisition, le site, les données et le processus commercial doivent fonctionner ensemble.",
+        "Notre rôle d'agence digitale à Casablanca consiste à construire ce système complet. Nous partons des objectifs commerciaux, identifions les points de friction, puis réunissons les expertises nécessaires : SEO, publicité, contenus, web, logiciels, CRM, automatisation, design et production audiovisuelle.",
+        "Chaque mission est pilotée avec des indicateurs adaptés au résultat attendu : coût par lead qualifié, conversion, chiffre d'affaires attribué, visibilité organique, adoption d'un outil ou gains de productivité. Vous disposez ainsi d'une lecture claire des actions et des arbitrages.",
+        "La section ci-dessous relie directement toutes nos pages service à Casablanca. Elle permet de comparer les expertises, d'approfondir votre besoin et d'accéder au contenu local spécifique de chaque prestation."
+      ],
+      "challenges": [
+        "Se différencier dans un marché local très concurrentiel",
+        "Relier campagnes marketing et suivi commercial",
+        "Moderniser les outils sans interrompre les opérations",
+        "Produire des contenus cohérents à grande échelle"
+      ],
+      "approach": [
+        "Audit de la marque, des canaux, du site et des données",
+        "Feuille de route priorisée selon impact et faisabilité",
+        "Équipe dédiée réunissant stratégie, création et technologie",
+        "Reporting régulier et optimisation continue"
+      ],
+      "faqs": [
+        {
+          "question": "Quels services propose votre agence digitale à Casablanca ?",
+          "answer": "Nous couvrons 53 expertises : marketing digital, SEO, publicité, web, e-commerce, logiciels, applications mobiles, CRM, automatisation, IA, branding, photo, vidéo et événements."
+        },
+        {
+          "question": "Travaillez-vous avec les PME et les grands comptes ?",
+          "answer": "Oui. Le périmètre et l'équipe sont adaptés à la maturité, aux objectifs et aux contraintes de chaque organisation."
+        },
+        {
+          "question": "Pouvez-vous intervenir dans nos locaux à Casablanca ?",
+          "answer": "Oui. Les ateliers de cadrage, tournages et réunions stratégiques peuvent être réalisés sur site ou à distance."
+        },
+        {
+          "question": "Comment démarrer avec Mohtaoua ?",
+          "answer": "Demandez un audit gratuit. Nous analysons votre situation et proposons un plan d'action priorisé, sans devis ferme avant d'avoir cadré le besoin."
+        }
+      ]
+    }
+  }
+}

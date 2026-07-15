@@ -15,10 +15,12 @@ import { CASE_STUDY_PUBLISHED, CASE_STUDY_SLUGS, SERVICE_SLUGS } from "@/data/me
 import { INDUSTRY_SLUGS } from "@/data/industries";
 import { SOLUTION_SLUGS, solutionMeta, SOLUTION_PUBLISHED } from "@/data/solutions";
 import { SERVICE_CITY_COMBOS } from "@/data/service-city-combos";
+import { AGENCY_HUBS } from "@/data/agency-hubs";
 
 export type ContentType =
   | "service"
   | "service-city"
+  | "agency-hub"
   | "solution"
   | "blog"
   | "guide"
@@ -74,6 +76,11 @@ export const TAG_ALIASES: Record<string, string> = {
   acquisition: "acquisition",
   publicite: "publicite",
   leads: "acquisition",
+  communication: "agence-communication-maroc",
+  "agence communication": "agence-communication-maroc",
+  "marketing digital": "marketing-digital-maroc",
+  "agence marketing digital": "agence-marketing-digital-maroc",
+  "agence creative": "agence-creative-maroc",
 };
 
 export function normalizeTopic(raw: string): string {
@@ -277,6 +284,25 @@ export const EXPLICIT_RELATIONS: Record<
     "case-study": ["edunext-automation"],
     blog: ["whatsapp-convertir-leads-formation-maroc", "crm-entreprise-maroc-guide"],
     solution: ["crm", "whatsapp-automation"],
+  },
+  "agence-communication-maroc": {
+    service: ["brand-identity", "content-marketing", "community-management", "video-production"],
+    guide: ["agence-digitale-maroc-guide"],
+    "case-study": ["millennia-group-prive", "riad-hotel-digital"],
+  },
+  "agence-marketing-digital-maroc": {
+    service: ["meta-ads", "google-ads", "seo", "marketing-automation"],
+    blog: ["generer-leads-centre-formation-maroc", "budget-marketing-centre-formation-maroc"],
+    guide: ["agence-digitale-maroc-guide"],
+  },
+  "marketing-digital-maroc": {
+    service: ["meta-ads", "google-ads", "seo", "lead-generation"],
+    blog: ["budget-marketing-centre-formation-maroc", "transformation-digitale-pme-maroc"],
+    guide: ["agence-digitale-maroc-guide"],
+  },
+  "agence-creative-maroc": {
+    service: ["brand-identity", "graphic-design", "video-production", "reels"],
+    "case-study": ["millennia-group-prive", "atlas-ecommerce-growth"],
   },
   "generer-leads-centre-formation-maroc": {
     service: ["meta-ads", "google-ads", "landing-pages"],
@@ -492,6 +518,30 @@ const serviceRelations: Record<string, string[]> = {
   "landing-pages": ["meta-ads", "google-ads", "marketing-automation"],
   "social-media": ["meta-ads", "landing-pages", "marketing-automation"],
   "crm-data": ["marketing-automation", "meta-ads", "google-ads"],
+  "agence-communication-maroc": [
+    "brand-identity",
+    "content-marketing",
+    "community-management",
+    "video-production",
+  ],
+  "agence-marketing-digital-maroc": [
+    "meta-ads",
+    "google-ads",
+    "seo",
+    "marketing-automation",
+  ],
+  "marketing-digital-maroc": [
+    "meta-ads",
+    "google-ads",
+    "seo",
+    "lead-generation",
+  ],
+  "agence-creative-maroc": [
+    "brand-identity",
+    "graphic-design",
+    "video-production",
+    "reels",
+  ],
 };
 
 function buildServiceCityNodes(): ContentNode[] {
@@ -503,6 +553,21 @@ function buildServiceCityNodes(): ContentNode[] {
     topics: normalizeTopics([combo.service, combo.villeSlug, combo.secteurDominant]),
     services: [combo.service],
     priority: 60,
+  }));
+}
+
+function buildAgencyHubNodes(): ContentNode[] {
+  return AGENCY_HUBS.map((hub) => ({
+    id: `agency-hub:${hub.slug}`,
+    type: "agency-hub" as const,
+    slug: hub.slug,
+    path: `/agences/${hub.slug}`,
+    topics: normalizeTopics([
+      "agence-digitale",
+      hub.villeSlug,
+      hub.secteurDominant,
+    ]),
+    priority: 68,
   }));
 }
 
@@ -685,6 +750,7 @@ const RESOURCE_NODES: ContentNode[] = [
 export const CONTENT_NODES: ContentNode[] = [
   ...buildServiceNodes(),
   ...buildServiceCityNodes(),
+  ...buildAgencyHubNodes(),
   ...buildSolutionNodes(),
   ...buildBlogNodes(),
   ...buildGuideNodes(),
@@ -718,8 +784,12 @@ export const PAGE_LINKING_CONFIG: Record<
     limits: { service: 3, "service-city": 3, blog: 3, guide: 2, "case-study": 2, resource: 4 },
   },
   "service-city": {
-    sections: ["service-city", "service", "blog", "resource"],
-    limits: { "service-city": 4, service: 2, blog: 2, resource: 3 },
+    sections: ["agency-hub", "service-city", "service", "blog", "resource"],
+    limits: { "agency-hub": 1, "service-city": 4, service: 2, blog: 2, resource: 3 },
+  },
+  "agency-hub": {
+    sections: ["service-city", "service", "industry", "blog", "resource"],
+    limits: { "service-city": 6, service: 3, industry: 2, blog: 2, resource: 3 },
   },
   blog: {
     sections: ["blog", "service", "guide", "comparison", "resource"],

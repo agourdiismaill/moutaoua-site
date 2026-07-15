@@ -582,6 +582,50 @@
         "Reporting transparent",
         "Support continu"
       ]
+    },
+    "agence-communication-maroc": {
+      "title": "Agence de Communication Maroc",
+      "description": "Stratégie, contenus et campagnes intégrées pour construire une marque cohérente et visible.",
+      "longDescription": "Mohtaoua orchestre votre communication de la plateforme de marque à la diffusion multicanale, avec une équipe locale et des résultats mesurables.",
+      "features": [
+        "Stratégie de communication",
+        "Plateforme de marque",
+        "Campagnes multicanales",
+        "Pilotage et reporting"
+      ]
+    },
+    "agence-marketing-digital-maroc": {
+      "title": "Agence Marketing Digital Maroc",
+      "description": "Acquisition, SEO, contenus, CRM et automatisation réunis dans une stratégie orientée croissance.",
+      "longDescription": "Un partenaire unique pour concevoir, exécuter et optimiser votre marketing digital au Maroc, de la génération de demande à la conversion commerciale.",
+      "features": [
+        "Stratégie d'acquisition",
+        "SEO et publicité digitale",
+        "CRM et automatisation",
+        "Attribution et reporting"
+      ]
+    },
+    "marketing-digital-maroc": {
+      "title": "Marketing Digital Maroc",
+      "description": "Une stratégie digitale structurée pour attirer, convertir et fidéliser vos clients au Maroc.",
+      "longDescription": "Audit, plan d'action, choix des canaux, contenus, campagnes et mesure : nous transformons le marketing digital en système de croissance pilotable.",
+      "features": [
+        "Audit marketing digital",
+        "Plan d'action multicanal",
+        "Optimisation des conversions",
+        "Tableaux de bord business"
+      ]
+    },
+    "agence-creative-maroc": {
+      "title": "Agence Créative Maroc",
+      "description": "Concepts, identité visuelle et contenus créatifs conçus pour rendre votre marque mémorable.",
+      "longDescription": "Direction artistique, campagnes, design et production de contenus : Mohtaoua donne une expression distinctive à votre marque sur tous les points de contact.",
+      "features": [
+        "Direction artistique",
+        "Concepts de campagne",
+        "Identité et design",
+        "Production de contenus"
+      ]
     }
   }
 }

@@ -582,6 +582,50 @@
         "Transparent reporting",
         "Ongoing support"
       ]
+    },
+    "agence-communication-maroc": {
+      "title": "Communication Agency Morocco",
+      "description": "Integrated strategy, content and campaigns for a consistent, visible brand.",
+      "longDescription": "Mohtaoua coordinates your communication from brand platform to multichannel distribution, with a local team and measurable outcomes.",
+      "features": [
+        "Communication strategy",
+        "Brand platform",
+        "Multichannel campaigns",
+        "Reporting"
+      ]
+    },
+    "agence-marketing-digital-maroc": {
+      "title": "Digital Marketing Agency Morocco",
+      "description": "Acquisition, SEO, content, CRM and automation in one growth strategy.",
+      "longDescription": "One partner to design, execute and optimize your digital marketing in Morocco, from demand generation to sales conversion.",
+      "features": [
+        "Acquisition strategy",
+        "SEO and paid media",
+        "CRM and automation",
+        "Attribution"
+      ]
+    },
+    "marketing-digital-maroc": {
+      "title": "Digital Marketing Morocco",
+      "description": "A structured strategy to attract, convert and retain customers in Morocco.",
+      "longDescription": "Audit, roadmap, channel selection, content, campaigns and measurement: we turn digital marketing into a manageable growth system.",
+      "features": [
+        "Digital audit",
+        "Multichannel roadmap",
+        "Conversion optimization",
+        "Business dashboards"
+      ]
+    },
+    "agence-creative-maroc": {
+      "title": "Creative Agency Morocco",
+      "description": "Concepts, visual identity and creative content that make your brand memorable.",
+      "longDescription": "Art direction, campaigns, design and content production: Mohtaoua gives your brand a distinctive expression across every touchpoint.",
+      "features": [
+        "Art direction",
+        "Campaign concepts",
+        "Identity and design",
+        "Content production"
+      ]
     }
   }
 }

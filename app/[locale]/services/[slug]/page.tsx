@@ -33,6 +33,7 @@ import {
 } from "@/data/service-city-combos";
 import { INDUSTRY_SLUGS, industryServiceMap } from "@/data/industries";
 import { CITY_SLUGS, TARGET_CITIES } from "@/data/city-sectors";
+import { AGENCY_HUBS } from "@/data/agency-hubs";
 import { hreflangByLocale, routing, type Locale } from "@/i18n/routing";
 import { SERVICE_SLUGS } from "@/data/meta";
 
@@ -51,10 +52,16 @@ function getContextualTargets(slug: string) {
     INDUSTRY_SLUGS[serviceIdx % INDUSTRY_SLUGS.length];
   const city = TARGET_CITIES[serviceIdx % TARGET_CITIES.length];
   const citySlug = `${slug}-${CITY_SLUGS[city]}`;
+  const localServiceExists = isServiceCitySlug(citySlug);
+  const fallbackHub = localServiceExists ? undefined : AGENCY_HUBS[0];
   return {
     industry,
-    city,
-    citySlug: isServiceCitySlug(citySlug) ? citySlug : null,
+    city: fallbackHub?.ville ?? city,
+    cityHref: localServiceExists
+      ? `/services/${citySlug}`
+      : fallbackHub
+        ? `/agences/${fallbackHub.slug}`
+        : null,
   };
 }
 
@@ -268,9 +275,9 @@ export default async function ServiceDetailPage({
                   </Link>
                 ),
                 city: (chunks) =>
-                  contextTargets.citySlug ? (
+                  contextTargets.cityHref ? (
                     <Link
-                      href={`/services/${contextTargets.citySlug}`}
+                      href={contextTargets.cityHref}
                       className="font-medium text-primary hover:underline"
                     >
                       {chunks}

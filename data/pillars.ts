@@ -2,6 +2,7 @@
 
 export const SERVICE_PILLARS = [
   "marketing",
+  "communication",
   "web",
   "software",
   "mobile",
@@ -17,10 +18,11 @@ export const pillarMeta: Record<
   { icon: string; order: number }
 > = {
   marketing: { icon: "Megaphone", order: 1 },
-  web: { icon: "Globe", order: 2 },
-  software: { icon: "Code2", order: 3 },
-  mobile: { icon: "Smartphone", order: 4 },
-  creative: { icon: "Palette", order: 5 },
-  "photo-video": { icon: "Video", order: 6 },
-  events: { icon: "CalendarDays", order: 7 },
+  communication: { icon: "MessageCircle", order: 2 },
+  web: { icon: "Globe", order: 3 },
+  software: { icon: "Code2", order: 4 },
+  mobile: { icon: "Smartphone", order: 5 },
+  creative: { icon: "Palette", order: 6 },
+  "photo-video": { icon: "Video", order: 7 },
+  events: { icon: "CalendarDays", order: 8 },
 };

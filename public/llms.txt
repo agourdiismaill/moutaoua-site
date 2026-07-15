@@ -12,7 +12,7 @@ Localisation : Casablanca, Maroc
 
 - Accueil : https://mohtaoua.ma/fr
 - À propos : https://mohtaoua.ma/fr/about
-- Services (53 expertises) : https://mohtaoua.ma/fr/services
+- Services (57 expertises) : https://mohtaoua.ma/fr/services
 - Solutions (produits propriétaires) : https://mohtaoua.ma/fr/solutions
 - Industries : https://mohtaoua.ma/fr/industries
 - Portfolio : https://mohtaoua.ma/fr/portfolio
@@ -62,7 +62,11 @@ Localisation : Casablanca, Maroc
 
 ## Services locaux (ville × service — 477 pages)
 
-Hub : pages `/fr/services/{service}-{ville}` pour 53 expertises × 9 villes (Casablanca, Rabat, Marrakech, Tanger, Agadir, Fès, Meknès, Oujda, Kénitra).
+Hub : 477 pages `/fr/services/{service}-{ville}` pour 53 services locaux × 9 villes (Casablanca, Rabat, Marrakech, Tanger, Agadir, Fès, Meknès, Oujda, Kénitra). Les 4 pages agence généralistes ne sont pas déclinées en service-ville afin d'éviter la cannibalisation avec les hubs locaux.
+
+## Agences digitales locales
+
+- Agence digitale Casablanca : https://mohtaoua.ma/fr/agences/agence-digitale-casablanca
 
 Exemples phares :
 - Meta Ads Casablanca : https://mohtaoua.ma/fr/services/meta-ads-casablanca

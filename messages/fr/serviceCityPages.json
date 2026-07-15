@@ -163,5 +163,10 @@
       "question": "Travaillez-vous avec des PME locales à {ville} ?",
       "answer": "Oui. Nous accompagnons PME, startups et structures établies à {ville} et dans tout le Maroc. Nos packs sont modulables et un devis personnalisé est disponible sur /contact après audit gratuit."
     }
-  ]
+  ],
+  "localContext": {
+    "title": "Votre agence digitale locale",
+    "prefix": "Pour compléter {service} à {ville}, découvrez",
+    "agencyLink": "tous les services de notre agence digitale à {ville}"
+  }
 }

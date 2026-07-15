@@ -19,6 +19,15 @@ export const serviceMeta: ServiceMetaEntry[] = [
   { slug: "crm-data", icon: "Database", pillar: "marketing" },
   { slug: "lead-generation", icon: "UserPlus", pillar: "marketing" },
   { slug: "community-management", icon: "Share2", pillar: "marketing" },
+  // Communication
+  { slug: "agence-communication-maroc", icon: "MessageCircle", pillar: "communication" },
+  {
+    slug: "agence-marketing-digital-maroc",
+    icon: "Target",
+    highlighted: true,
+    pillar: "communication",
+  },
+  { slug: "marketing-digital-maroc", icon: "LineChart", pillar: "communication" },
   // Web
   { slug: "corporate-websites", icon: "Globe", pillar: "web" },
   { slug: "landing-pages", icon: "LayoutTemplate", pillar: "web" },
@@ -51,6 +60,7 @@ export const serviceMeta: ServiceMetaEntry[] = [
   { slug: "packaging", icon: "Package", pillar: "creative" },
   { slug: "infographics", icon: "BarChart3", pillar: "creative" },
   { slug: "presentation-design", icon: "Presentation", pillar: "creative" },
+  { slug: "agence-creative-maroc", icon: "Palette", pillar: "creative" },
   // Photo & Video
   { slug: "commercial-photography", icon: "Camera", pillar: "photo-video" },
   { slug: "corporate-photography", icon: "Camera", pillar: "photo-video" },
