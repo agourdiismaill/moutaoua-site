@@ -44,7 +44,7 @@ export function Navbar() {
           href="/"
           className="flex shrink-0 items-center transition-transform active:scale-95"
         >
-          <BrandLogo size="md" collapsed />
+          <BrandLogo size="md" collapsed={scrolled} />
         </Link>
 
         <ul className="hidden min-w-0 flex-1 items-center justify-center gap-0.5 px-2 xl:flex">
