@@ -19,6 +19,7 @@ import {
 import {
   BLOG_POST_SLUGS,
   BLOG_PUBLISHED,
+  BLOG_COVERS,
   GUIDE_SLUGS,
   COMPARISON_SLUGS,
   type BlogPostSlug,
@@ -370,6 +371,7 @@ export function getLocalizedBlogPosts(t: TFunction) {
     return {
       slug,
       ...post,
+      cover: BLOG_COVERS[slug],
       categoryLabel,
       published: BLOG_PUBLISHED[slug],
     };

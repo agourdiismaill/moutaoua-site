@@ -52,6 +52,10 @@ export type BlogPostSlug = (typeof BLOG_POST_SLUGS)[number];
 export type GuideSlug = (typeof GUIDE_SLUGS)[number];
 export type ComparisonSlug = (typeof COMPARISON_SLUGS)[number];
 
+export const BLOG_COVERS: Record<BlogPostSlug, string> = Object.fromEntries(
+  BLOG_POST_SLUGS.map((slug) => [slug, `/blog/${slug}.webp`])
+) as Record<BlogPostSlug, string>;
+
 export const BLOG_PUBLISHED: Record<BlogPostSlug, string> = {
   "generer-leads-centre-formation-maroc": "2026-03-15",
   "meta-ads-vs-google-ads-formation": "2026-04-02",

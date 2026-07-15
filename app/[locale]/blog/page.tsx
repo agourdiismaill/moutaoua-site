@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Suspense } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/routing";
@@ -74,18 +75,29 @@ export default async function BlogPage({
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group flex flex-col rounded-2xl border border-border bg-card p-6 shadow-soft transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-soft-lg"
+                className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-soft transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-soft-lg"
               >
-                <p className="text-xs font-medium uppercase tracking-wide text-primary">
-                  {post.categoryLabel}
-                </p>
-                <h2 className="mt-3 text-xl font-semibold tracking-tight group-hover:text-primary">
-                  {post.title}
-                </h2>
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
-                  {post.excerpt}
-                </p>
-                <span className="mt-4 text-sm font-medium text-primary">{t("readMore")} →</span>
+                <div className="relative aspect-video overflow-hidden bg-surface-bright">
+                  <Image
+                    src={post.cover}
+                    alt={post.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="flex flex-1 flex-col p-6">
+                  <p className="text-xs font-medium uppercase tracking-wide text-primary">
+                    {post.categoryLabel}
+                  </p>
+                  <h2 className="mt-3 text-xl font-semibold tracking-tight group-hover:text-primary">
+                    {post.title}
+                  </h2>
+                  <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
+                    {post.excerpt}
+                  </p>
+                  <span className="mt-4 text-sm font-medium text-primary">{t("readMore")} →</span>
+                </div>
               </Link>
             ))}
           </div>

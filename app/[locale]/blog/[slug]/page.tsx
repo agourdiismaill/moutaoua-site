@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -48,6 +49,16 @@ export async function generateMetadata({
     path: `/blog/${slug}`,
     title: post.title,
     description: post.excerpt,
+    openGraph: {
+      images: [
+        {
+          url: post.cover,
+          width: 1024,
+          height: 576,
+          alt: post.title,
+        },
+      ],
+    },
   });
 }
 
@@ -132,6 +143,21 @@ export default async function BlogPostPage({
           </div>
         </div>
       </header>
+
+      <section className="section-pad pt-0">
+        <div className="container-max">
+          <div className="relative aspect-video overflow-hidden rounded-3xl border border-border bg-card shadow-soft-lg">
+            <Image
+              src={post.cover}
+              alt={post.title}
+              fill
+              priority
+              sizes="(max-width: 1280px) 100vw, 1200px"
+              className="object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
       {post.overview && (
         <section className="section-pad pt-0" aria-label={overviewLabels.title}>
