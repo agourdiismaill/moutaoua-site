@@ -490,6 +490,7 @@
           "heading": "Conclusion : investir avec méthode, pas au feeling",
           "paragraphs": [
             "Un budget marketing n'est pas une dépense : c'est un levier d'conversion mesurable. Fixez votre CAC cible, calculez le volume de leads nécessaire, testez sur 90 jours, puis scalez ce qui convertit.",
+            "En 2026, intégrez aussi la TVA à 20 % sur la publicité digitale (Meta, Google, TikTok) dans votre modèle de coûts : voir notre guide dédié sur /blog/tva-20-pourcent-ads-maroc-2026.",
             "Notre équipe réalise un audit budget gratuit : analyse de votre offre, simulation CPL/CAC et recommandation de répartition Meta/Google."
           ]
         }
@@ -1739,6 +1740,202 @@
         {
           "question": "Quel budget pour Archidoc ?",
           "answer": "Licence mensuelle selon volume documentaire et modules (OCR, workflows, archivage légal). Devis personnalisé après audit — voir la page /solutions/archidoc."
+        }
+      ]
+    },
+    "tva-20-pourcent-ads-maroc-2026": {
+      "title": "TVA 20 % sur Meta Ads, Google Ads et TikTok au Maroc : ce qui change en 2026",
+      "excerpt": "Le Trésor et la DGI appliquent la TVA à 20 % sur la publicité digitale. Auto-liquidation B2B, plateforme Taxation on digital services, impact réel sur CPL, CAC et budget média.",
+      "category": "publicite",
+      "cover": "/logo-full.svg",
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "tiktok-ads"
+      ],
+      "overview": {
+        "what": "Guide expert sur la TVA à 20 % applicable aux services numériques et à la publicité en ligne (Meta Ads, Google Ads, TikTok Ads) au Maroc en 2026 : cadre légal, régimes B2B/B2C, impact budgétaire et checklist opérationnelle.",
+        "who": "Dirigeants, DAF, responsables marketing et agences qui achètent de la publicité digitale au Maroc et doivent recalibrer leurs budgets média face à la fiscalité.",
+        "benefits": [
+          "Distinction claire auto-liquidation B2B vs enregistrement plateforme B2C",
+          "Exemples chiffrés en dirhams (CPL, CAC, budget mensuel)",
+          "Checklist de conformité et de pilotage média"
+        ],
+        "topics": [
+          "TVA 20 % Maroc",
+          "Meta Ads fiscalité",
+          "Google Ads TVA",
+          "Services numériques DGI",
+          "Auto-liquidation",
+          "Budget média"
+        ],
+        "takeaways": [
+          "La publicité digitale est un service numérique soumis au taux normal de TVA de 20 % (art. 99-A du CGI).",
+          "Pour une entreprise assujettie, l’auto-liquidation + RAS sécurise le recouvrement ; l’opération est souvent neutre si droit à déduction intégral.",
+          "Depuis le 11 juin 2026, les prestataires étrangers ciblant les non-assujettis doivent s’enregistrer sur « Taxation on digital services » (SIMPL / tax.gov.ma)."
+        ]
+      },
+      "sections": [
+        {
+          "id": "intro",
+          "heading": "Introduction : pourquoi tout le monde parle de « 20 % sur les ads »",
+          "paragraphs": [
+            "Depuis la Loi de finances 2024 et l’activation opérationnelle du téléservice « Taxation on digital services » le 11 juin 2026, une question revient dans presque tous les audits marketing que nous menons au Maroc : « Est-ce que le Trésor me prend vraiment 20 % sur mes Meta Ads et Google Ads ? » La réponse courte : oui, la publicité en ligne entre dans le champ de la TVA au taux normal de 20 %. La réponse utile : le coût net pour votre entreprise dépend de votre statut fiscal (assujetti ou non), du régime applicable (auto-liquidation vs collecte par la plateforme) et de votre droit à déduction.",
+            "Ce guide démêle le bruit médiatique. Il ne remplace pas un conseil d’expert-comptable : il traduit le cadre fiscal en décisions marketing concrètes — recalcul de CPL, de CAC et de budget mensuel — pour les annonceurs marocains qui investissent sur Meta, Google, TikTok, LinkedIn ou le programmatique.",
+            "Point important : il ne s’agit pas d’une obligation de consacrer 20 % de votre budget à la télévision nationale. C’est une confusion fréquente. Ici, « 20 % » désigne le taux de TVA (taxe sur la valeur ajoutée) appliqué aux services numériques, y compris l’achat d’espaces publicitaires digitaux."
+          ]
+        },
+        {
+          "id": "cadre-legal",
+          "heading": "Cadre légal : ce que disent le CGI et la DGI",
+          "paragraphs": [
+            "La Loi de finances 2024 a élargi le champ de la TVA aux prestations fournies à distance de manière dématérialisée par des prestataires étrangers. Le Code général des impôts (CGI) ne crée pas une catégorie isolée « services numériques », mais ces prestations relèvent des opérations imposables (art. 89) et des règles de territorialité (art. 88), telles que précisées par les notes circulaires (notamment NC 717 et NC 735).",
+            "En pratique, sont clairement concernés : les logiciels SaaS, le cloud, le streaming, les contenus numériques… et la publicité en ligne — achats d’espaces sur Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads et plateformes programmatiques. Ces services ne figurent pas dans les listes de taux réduit de l’article 99-B : ils sont donc soumis au taux normal de 20 % (art. 99-A). Après la réforme TVA 2024-2026, le Maroc converge vers deux taux principaux : 20 % et 10 %.",
+            "Deux mécanismes coexistent selon le client. Pour une entreprise marocaine assujettie (B2B), le client auto-liquide la TVA et opère une retenue à la source (RAS) de 100 % du montant de la TVA due lorsque le prestataire est non résident sans établissement au Maroc (art. 115 et 117-III du CGI). Pour les clients non assujettis (B2C — particuliers, certaines structures), l’article 115 bis et le décret d’application ont ouvert la voie à l’enregistrement des prestataires étrangers via la plateforme DGI."
+          ],
+          "bullets": [
+            "Textes clés : art. 88, 89, 99-A, 115, 115 bis, 117-III du CGI ; LdF 2024 ; décret n° 2-25-862",
+            "Portail opérationnel : « Taxation on digital services » via SIMPL / tax.gov.ma (depuis le 11 juin 2026)",
+            "Taux : 20 % (normal) — pas de taux réduit pour la pub digitale",
+            "Conservation des justificatifs : 10 ans (art. 211 du CGI)"
+          ]
+        },
+        {
+          "id": "b2b-autoliquidation",
+          "heading": "Régime B2B : auto-liquidation et impact réel sur votre trésorerie",
+          "paragraphs": [
+            "Si vous êtes une société marocaine assujettie à la TVA et que vous achetez des services numériques à un prestataire étranger sans établissement stable au Maroc, c’est généralement vous qui déclarez et acquittez la TVA à la place du fournisseur. Concrètement : facture HT reçue → calcul de 20 % → déclaration sur SIMPL TVA (ligne acquisitions auprès de non-résidents) → versement de la RAS TVA → et, si vous avez un droit à déduction intégral, déduction simultanée du même montant.",
+            "Dans le cas idéal (assujetti total, activité 100 % taxable), l’opération est neutre sur le montant net de TVA à payer : vous collectez/déclarez 20 % et vous déduisez 20 %. Ce n’est pas « gratuit » pour autant : vous devez processer la déclaration, gérer les devises, conserver les preuves de paiement, et anticiper l’impact de trésorerie si vous êtes en crédit de TVA ou si un prorata de déduction s’applique.",
+            "Exemple chiffré : vous dépensez 50 000 DH HT de média Meta/Google sur le mois. TVA théorique = 10 000 DH. Vous déclarez 10 000 DH en TVA due sur acquisitions non-résidents et, si droit à déduction intégral, 10 000 DH en TVA déductible. Votre « coût média économique » reste 50 000 DH HT — mais votre cash-out plateforme peut déjà inclure des frais, du change, et éventuellement une TVA facturée selon le mode de facturation de la plateforme."
+          ],
+          "bullets": [
+            "Assujetti total + droit à déduction : effet souvent neutre sur la TVA nette",
+            "Prorata de déduction : une partie de la TVA devient un coût réel",
+            "Crédit de TVA : la RAS peut créer une tension de trésorerie temporaire",
+            "Toujours croiser factures plateforme, relevés bancaires et déclaration SIMPL"
+          ]
+        },
+        {
+          "id": "b2c-plateforme",
+          "heading": "Régime B2C : la plateforme « Taxation on digital services » (juin 2026)",
+          "paragraphs": [
+            "Pour les prestataires non résidents qui vendent des services dématérialisés à des clients non assujettis situés au Maroc, la DGI a rendu opérationnel, depuis le 11 juin 2026, le téléservice « Taxation on digital services ». Les obligations des fournisseurs concernés incluent typiquement : immatriculation et identifiant fiscal, déclaration trimestrielle du chiffre d’affaires réalisé au Maroc, paiement de la TVA correspondante (sans droit à déduction pour le non-résident dans ce schéma), et tenue d’un registre détaillé des prestations — à conserver et à mettre à disposition de l’administration.",
+            "La localisation du client au Maroc peut s’appuyer sur plusieurs indices : adresse de facturation, carte bancaire émise au Maroc, adresse IP, etc. Côté prix, l’obligation fiscale pèse sur le prestataire ; la répercussion commerciale (hausse affichée TTC ou absorption) reste une décision de la plateforme.",
+            "Pour un annonceur professionnel, le message n’est pas « Meta va forcément me facturer +20 % demain matin ». Le message est : votre conformité B2B (auto-liquidation) et la stratégie tarifaire des plateformes évoluent en parallèle. Anticipez les deux dans votre modèle de coût d’acquisition."
+          ]
+        },
+        {
+          "id": "impact-media",
+          "heading": "Impact marketing : CPL, CAC et budget média à recalculer",
+          "paragraphs": [
+            "Le piège classique en 2026 est de piloter un compte Meta Ads « au feeling » sans distinguer coût HT, TVA et cash réellement sorti. Si votre tableau de bord Ads Manager affiche 40 DH de CPL et que vous comparez ce chiffre à un CAC cible calculé TTC ou hors fiscalité, vous prenez de mauvaises décisions de scale.",
+            "Scénario A — entreprise assujettie avec déduction intégrale : le CPL « économique » reste proche du CPL HT plateforme. Vous pouvez scaler tant que le CAC HT reste sous votre plafond. Scénario B — structure avec prorata ou faible récupération de TVA : chaque 100 DH de média peut coûter jusqu’à ~120 DH en charge réelle. Votre CPL « all-in » grimpe d’environ 20 %, et le volume de leads finançable avec le même budget cash baisse.",
+            "Exemple : budget cash mensuel 60 000 DH. Sans friction TVA récupérable, vous achetez ~60 000 DH HT de média. Avec un surcoût effectif de 20 % non récupéré, vous n’achetez plus que ~50 000 DH HT de média pour le même cash. À CPL constant de 50 DH, vous perdez ~200 leads/mois — soit, à 15 % de conversion lead→client, environ 30 clients potentiels."
+          ],
+          "bullets": [
+            "Séparez toujours : spend Ads Manager (souvent HT) vs cash bancaire vs TVA déclarée",
+            "Recalculez le CAC avec la fiscalité réellement supportée",
+            "Si TVA récupérable : ne baissez pas vos objectifs média par panique",
+            "Si TVA non récupérable : intégrez +20 % dans le modèle avant de scaler"
+          ]
+        },
+        {
+          "id": "etapes",
+          "heading": "Checklist en 8 étapes pour les annonceurs marocains",
+          "paragraphs": [
+            "Voici la séquence que nous recommandons à chaque client avant d’augmenter un budget Meta, Google ou TikTok en 2026. Elle aligne marketing, finance et conformité."
+          ],
+          "bullets": [
+            "1. Clarifiez votre statut : assujetti TVA ou non ; taux de prorata de déduction éventuel",
+            "2. Cartographiez vos prestataires étrangers : Meta, Google, TikTok, LinkedIn, outils SaaS ads, tracking",
+            "3. Centralisez factures, relevés et exports Ads Manager dans un dossier « média + fiscalité »",
+            "4. Avec votre expert-comptable : validez le schéma d’auto-liquidation / RAS applicable",
+            "5. Recalculez CPL et CAC « all-in » sur les 90 derniers jours",
+            "6. Mettez à jour vos plafonds d’enchères et vos seuils de kill dans Ads Manager",
+            "7. Séparez budget média HT, honoraires agence et outils (CRM, automation) — trois postes distincts",
+            "8. Planifiez un point mensuel marketing × finance : écarts change, TVA, cash-out vs spend"
+          ]
+        },
+        {
+          "id": "meilleures-pratiques",
+          "heading": "Bonnes pratiques : piloter la performance malgré la fiscalité",
+          "paragraphs": [
+            "La fiscalité ne remplace pas la stratégie média. Les comptes qui restent rentables après 2026 sont ceux qui améliorent le taux de conversion lead→client et réduisent le gaspillage créatif, pas ceux qui coupent aveuglément le budget de 20 %.",
+            "Priorisez le tracking (Pixel, Conversions API, Google tag + consentement), les landing pages rapides, le retargeting maîtrisé et un CRM qui mesure le vrai CAC. Un CPL qui monte de 10 % mais un taux de closing qui passe de 12 % à 18 % améliore encore votre économie unitaire.",
+            "Côté mix, diversifiez Meta + Google + TikTok pour réduire la dépendance à un CPM qui monte. Et documentez chaque hypothèse budgétaire : « spend HT », « TVA estimée », « cash max », « leads cibles », « CAC plafond ». Cette discipline est devenue un avantage concurrentiel au Maroc."
+          ],
+          "bullets": [
+            "Mesurez le CAC client réel, pas seulement le CPL Ads Manager",
+            "Réservez 15–25 % du média aux tests créatifs même en période de tension fiscale",
+            "Alignez agence média et cabinet comptable sur les mêmes définitions de coût",
+            "Réévaluez les campagnes à faible ROAS avant de « payer » un surcoût fiscal inutile"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "Les 7 erreurs qui coûtent cher en 2026",
+          "paragraphs": [
+            "Ces erreurs reviennent dans les audits que nous réalisons auprès d’entreprises marocaines qui investissent entre 15 000 et 150 000 DH/mois en publicité digitale."
+          ],
+          "bullets": [
+            "Confondre obligation TVA 20 % et « obligation de faire 20 % de TV »",
+            "Couper le budget média de 20 % sans vérifier si la TVA est récupérable",
+            "Piloter au CPL Ads Manager sans intégrer change, frais et fiscalité",
+            "Ignorer l’auto-liquidation et laisser un écart de conformité s’accumuler",
+            "Mélanger budget média, honoraires et outils dans une seule ligne Excel",
+            "Scaler une campagne non rentable « avant TVA » qui bascule dans le rouge « après TVA »",
+            "Attendre que la plateforme « facture clairement » pour commencer à documenter"
+          ]
+        },
+        {
+          "id": "conseil-expert",
+          "heading": "Conseil d’expert Mohtaoua : transformer la contrainte en avantage",
+          "paragraphs": [
+            "Les annonceurs qui traiteront la TVA 20 % comme un simple « malus » perdront du volume. Ceux qui en feront un prétexte pour professionnaliser leur stack (tracking, CRM, reporting HT/TTC, closing WhatsApp) gagneront des parts de marché pendant que leurs concurrents paniquent.",
+            "Chez Mohtaoua, nous auditons vos comptes Meta, Google et TikTok, recalculons vos seuils de rentabilité avec votre réalité fiscale, et réallouons le budget vers les campagnes et créatives qui supportent réellement un coût d’acquisition plus exigeant. La fiscalité fixe le cadre ; la performance décide qui grandit."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion : budgétez la TVA, pas la peur",
+          "paragraphs": [
+            "Oui, le Maroc applique la TVA à 20 % sur les services numériques, y compris la publicité digitale. Oui, le dispositif s’est durci opérationnellement en 2026 avec la plateforme DGI pour les prestataires étrangers. Non, cela ne signifie pas automatiquement que chaque dirham investi en Meta Ads « coûte 20 % de plus » à votre entreprise assujettie avec droit à déduction.",
+            "Travaillez avec votre expert-comptable sur le régime exact, et avec votre agence sur le modèle CPL/CAC mis à jour. Ensuite, scalez ce qui reste rentable. Si vous voulez un audit média + modèle de coûts 2026, contactez Mohtaoua : nous vous remettons un diagnostic chiffré et un plan d’action sur Meta, Google et TikTok."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "La TVA 20 % s’applique-t-elle vraiment à Meta Ads et Google Ads au Maroc ?",
+          "answer": "Oui. La publicité en ligne est un service numérique soumis au taux normal de TVA de 20 % (art. 99-A du CGI), dès lors que les règles de territorialité rattachent la prestation au Maroc (client établi au Maroc)."
+        },
+        {
+          "question": "Est-ce une obligation de mettre 20 % du budget en télévision ?",
+          "answer": "Non. C’est une confusion fréquente. Il n’existe pas d’obligation générale d’allouer 20 % de votre budget ads à la TV nationale. Le « 20 % » désigne ici le taux de TVA sur les services numériques / la publicité digitale."
+        },
+        {
+          "question": "Mon entreprise assujettie paie-t-elle vraiment +20 % net ?",
+          "answer": "Pas forcément. En B2B, l’auto-liquidation + déduction (si droit intégral) rend souvent l’opération neutre sur la TVA nette. Un prorata de déduction ou un crédit de TVA peut toutefois créer un coût ou un effet de trésorerie. Validez avec votre expert-comptable."
+        },
+        {
+          "question": "Qu’est-ce que la plateforme Taxation on digital services ?",
+          "answer": "C’est le téléservice DGI (via SIMPL / tax.gov.ma), opérationnel depuis le 11 juin 2026, permettant aux prestataires étrangers de s’enregistrer, déclarer le CA réalisé au Maroc auprès de clients non assujettis, et payer la TVA correspondante."
+        },
+        {
+          "question": "Comment recalculer mon CPL après la TVA ?",
+          "answer": "Partagez spend Ads Manager, cash bancaire et TVA déclarée/récupérée. CPL all-in = cash réellement supporté ÷ leads. Si la TVA est intégralement récupérée, le CPL économique reste proche du spend HT ; sinon, intégrez jusqu’à ~20 % de surcoût dans vos seuils."
+        },
+        {
+          "question": "Dois-je baisser mon budget Meta de 20 % ?",
+          "answer": "Seulement si votre modèle montre un surcoût non récupérable qui casse votre CAC cible. Sinon, optimisez d’abord créatives, conversion et closing. Couper le volume sans diagnostic est souvent plus coûteux que la fiscalité elle-même."
+        },
+        {
+          "question": "Qui doit déclarer : moi ou la plateforme ?",
+          "answer": "En B2B (client assujetti + prestataire non résident), c’est généralement le client marocain qui auto-liquide. En B2C (non-assujetti), le prestataire étranger est visé par l’enregistrement plateforme. Votre situation exacte dépend de votre statut et du mode de facturation : faites-le valider par un expert-comptable."
+        },
+        {
+          "question": "Mohtaoua peut-elle m’aider sur ce sujet ?",
+          "answer": "Nous ne remplaçons pas un cabinet fiscal, mais nous recalculons vos seuils média (CPL/CAC), réallouons Meta/Google/TikTok et alignons reporting HT/cash avec votre finance. Demandez un audit sur /contact ou consultez nos services Meta Ads et Google Ads."
         }
       ]
     }

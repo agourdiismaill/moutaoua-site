@@ -490,6 +490,7 @@
           "heading": "Conclusion: invest methodically, not by feeling",
           "paragraphs": [
             "A marketing budget is not an expense: it is a measurable conversion lever. Set your target CAC, calculate the volume of leads needed, test over 90 days, then scale what converts.",
+            "In 2026, also factor Morocco’s 20% VAT on digital ads (Meta, Google, TikTok) into your cost model — see /blog/tva-20-pourcent-ads-maroc-2026.",
             "Our team carries out a free budget audit: analysis of your offer, CPL/CAC simulation and Meta/Google distribution recommendation."
           ]
         }
@@ -1731,6 +1732,202 @@
         {
           "question": "Pricing?",
           "answer": "Monthly license by volume and modules. Custom quote after audit on /solutions/archidoc."
+        }
+      ]
+    },
+    "tva-20-pourcent-ads-maroc-2026": {
+      "title": "20% VAT on Meta Ads, Google Ads and TikTok in Morocco: what changes in 2026",
+      "excerpt": "Morocco’s Treasury and tax authority apply 20% VAT on digital advertising. B2B reverse charge, Taxation on digital services platform, and the real impact on CPL, CAC and media budgets.",
+      "category": "publicite",
+      "cover": "/logo-full.svg",
+      "relatedServices": [
+        "meta-ads",
+        "google-ads",
+        "tiktok-ads"
+      ],
+      "overview": {
+        "what": "Expert guide to Morocco’s 20% VAT on digital services and online advertising (Meta Ads, Google Ads, TikTok Ads) in 2026: legal framework, B2B/B2C regimes, budget impact and operational checklist.",
+        "who": "Founders, CFOs, marketing leads and agencies buying digital ads in Morocco who need to recalibrate media budgets under the new tax rules.",
+        "benefits": [
+          "Clear B2B reverse-charge vs B2C platform registration split",
+          "Worked examples in MAD (CPL, CAC, monthly budget)",
+          "Compliance and media-ops checklist"
+        ],
+        "topics": [
+          "Morocco 20% VAT",
+          "Meta Ads tax",
+          "Google Ads VAT",
+          "DGI digital services",
+          "Reverse charge",
+          "Media budget"
+        ],
+        "takeaways": [
+          "Online advertising is a digital service taxed at the standard 20% VAT rate (CGI art. 99-A).",
+          "For VAT-registered businesses, reverse charge + withholding often keeps net VAT neutral if full input credit applies.",
+          "Since 11 June 2026, foreign suppliers serving non-taxable customers must register on Taxation on digital services (SIMPL / tax.gov.ma)."
+        ]
+      },
+      "sections": [
+        {
+          "id": "intro",
+          "heading": "Introduction: why everyone talks about “20% on ads”",
+          "paragraphs": [
+            "Since the 2024 Finance Law and the go-live of the Taxation on digital services portal on 11 June 2026, nearly every media audit we run in Morocco starts with the same question: “Is the Treasury really taking 20% on my Meta and Google Ads?” Short answer: yes—online advertising falls under standard-rate VAT at 20%. Useful answer: your net cost depends on your VAT status, the applicable regime (reverse charge vs platform collection) and your right to deduct input VAT.",
+            "This guide cuts through the noise. It is not a substitute for a chartered accountant. It turns the tax framework into marketing decisions—recalculating CPL, CAC and monthly budgets—for Moroccan advertisers on Meta, Google, TikTok, LinkedIn and programmatic.",
+            "Important: this is not an obligation to put 20% of your budget into national television. That is a common mix-up. Here, “20%” means the VAT rate on digital services, including digital ad inventory."
+          ]
+        },
+        {
+          "id": "cadre-legal",
+          "heading": "Legal framework: what the CGI and DGI say",
+          "paragraphs": [
+            "The 2024 Finance Law expanded VAT to remotely supplied, dematerialised services by foreign providers. The General Tax Code does not create a standalone “digital services” category, but these supplies fall under taxable operations (art. 89) and territoriality rules (art. 88), as clarified in circulars (notably NC 717 and NC 735).",
+            "In practice this covers SaaS, cloud, streaming, digital content—and online advertising on Meta Ads, Google Ads, LinkedIn Ads, TikTok Ads and programmatic platforms. These services are not on the reduced-rate lists in art. 99-B, so the standard 20% rate (art. 99-A) applies. After the 2024–2026 VAT reform, Morocco mainly uses 20% and 10%.",
+            "Two mechanisms coexist. For a VAT-registered Moroccan business (B2B), the customer typically reverse-charges VAT and withholds 100% of the VAT due when the supplier is a non-resident without a Moroccan establishment (arts. 115 and 117-III). For non-taxable customers (B2C), art. 115 bis and the implementing decree enable foreign supplier registration via the DGI platform."
+          ],
+          "bullets": [
+            "Key texts: CGI arts. 88, 89, 99-A, 115, 115 bis, 117-III; 2024 Finance Law; Decree No. 2-25-862",
+            "Operational portal: Taxation on digital services via SIMPL / tax.gov.ma (since 11 June 2026)",
+            "Rate: 20% standard — no reduced rate for digital ads",
+            "Document retention: 10 years (CGI art. 211)"
+          ]
+        },
+        {
+          "id": "b2b-autoliquidation",
+          "heading": "B2B regime: reverse charge and real cash impact",
+          "paragraphs": [
+            "If you are a Moroccan VAT-registered company buying digital services from a foreign supplier without a permanent establishment, you usually declare and pay VAT instead of the supplier. Flow: net invoice → compute 20% → declare on SIMPL VAT → pay VAT withholding → and, with a full input credit, deduct the same amount.",
+            "In the ideal case (fully taxable activity, full deduction), net VAT is neutral. It is still not “free”: you must process filings, handle FX, keep payment proofs, and manage cash if you are in a VAT credit position or apply a partial recovery ratio.",
+            "Example: 50,000 MAD net media spend on Meta/Google. Theoretical VAT = 10,000 MAD. You declare 10,000 as VAT due on non-resident acquisitions and, with full credit, 10,000 as deductible VAT. Economic media cost stays ~50,000 MAD net—while bank cash-out may still include fees, FX and platform billing nuances."
+          ],
+          "bullets": [
+            "Full taxpayer + full credit: often VAT-neutral",
+            "Partial recovery: part of VAT becomes a real cost",
+            "VAT credit position: withholding can create temporary cash pressure",
+            "Always reconcile platform invoices, bank statements and SIMPL filings"
+          ]
+        },
+        {
+          "id": "b2c-plateforme",
+          "heading": "B2C regime: Taxation on digital services (June 2026)",
+          "paragraphs": [
+            "For non-resident suppliers selling dematerialised services to non-taxable customers in Morocco, the DGI opened Taxation on digital services on 11 June 2026. Typical duties: registration and tax ID, quarterly declaration of Moroccan turnover, payment of VAT due (without input credit for the non-resident in this scheme), and a detailed register of supplies.",
+            "Customer location may rely on billing address, Moroccan-issued cards, IP address and similar indicators. Tax liability sits with the supplier; whether prices rise TTC is a commercial choice.",
+            "For professional advertisers, the takeaway is not “Meta will definitely add +20% overnight”. It is: your B2B reverse-charge compliance and platform pricing strategies are evolving in parallel—model both in your CAC."
+          ]
+        },
+        {
+          "id": "impact-media",
+          "heading": "Marketing impact: recalculate CPL, CAC and media budget",
+          "paragraphs": [
+            "The classic 2026 trap is steering Meta Ads on Ads Manager CPL while your CAC target mixes TTC, FX and unrecovered VAT. Bad scale decisions follow.",
+            "Scenario A — recoverable VAT: economic CPL stays close to platform net spend. Scenario B — unrecovered VAT: every 100 MAD of media can cost ~120 MAD all-in. Financed lead volume falls for the same cash budget.",
+            "Example: 60,000 MAD monthly cash. With recoverable VAT you buy ~60,000 MAD net media. With a real +20% unrecovered load you buy ~50,000 MAD net. At a 50 MAD CPL that is ~200 fewer leads/month—about 30 potential customers at a 15% lead-to-customer rate."
+          ],
+          "bullets": [
+            "Separate Ads Manager spend, bank cash and declared/recovered VAT",
+            "Rebuild CAC with tax you actually bear",
+            "If VAT is recoverable: do not panic-cut media goals",
+            "If not recoverable: bake ~+20% into thresholds before scaling"
+          ]
+        },
+        {
+          "id": "etapes",
+          "heading": "8-step checklist for Moroccan advertisers",
+          "paragraphs": [
+            "Use this sequence before increasing Meta, Google or TikTok budgets in 2026—aligning marketing, finance and compliance."
+          ],
+          "bullets": [
+            "1. Confirm VAT status and any partial recovery ratio",
+            "2. Map foreign suppliers: Meta, Google, TikTok, LinkedIn, ad SaaS, tracking tools",
+            "3. Centralise invoices, bank proofs and Ads exports in a media+tax folder",
+            "4. Validate reverse-charge / withholding with your accountant",
+            "5. Recalculate all-in CPL and CAC over the last 90 days",
+            "6. Update bid caps and kill thresholds in Ads Manager",
+            "7. Split media (net), agency fees and tools into three budget lines",
+            "8. Run a monthly marketing × finance review: FX, VAT, cash vs spend"
+          ]
+        },
+        {
+          "id": "meilleures-pratiques",
+          "heading": "Best practices: performance under tax constraints",
+          "paragraphs": [
+            "Tax does not replace media strategy. Accounts that stay profitable improve lead-to-customer conversion and creative efficiency—they do not blindly cut spend by 20%.",
+            "Prioritise tracking (Pixel, CAPI, Google tag + consent), fast landing pages, disciplined retargeting and a CRM that measures true CAC. A CPL up 10% with closing from 12% to 18% can still improve unit economics.",
+            "Diversify Meta + Google + TikTok to reduce CPM dependency, and document every budget assumption: net spend, estimated VAT, max cash, target leads, CAC ceiling."
+          ],
+          "bullets": [
+            "Optimise for real customer CAC, not Ads Manager CPL alone",
+            "Keep 15–25% of media for creative tests even under tax pressure",
+            "Align agency and accountant on the same cost definitions",
+            "Kill weak-ROAS campaigns before funding avoidable tax drag"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "7 costly mistakes in 2026",
+          "paragraphs": [
+            "These show up repeatedly in audits of Moroccan companies spending 15,000–150,000 MAD/month on digital ads."
+          ],
+          "bullets": [
+            "Confusing 20% VAT with a “20% TV spend obligation”",
+            "Cutting media 20% without checking VAT recoverability",
+            "Steering on Ads Manager CPL without FX, fees and tax",
+            "Ignoring reverse charge and letting compliance gaps accumulate",
+            "Mixing media, fees and tools in one spreadsheet line",
+            "Scaling a campaign that is profitable “pre-VAT” but red “post-VAT”",
+            "Waiting for perfect platform invoices before documenting costs"
+          ]
+        },
+        {
+          "id": "conseil-expert",
+          "heading": "Mohtaoua expert advice: turn the constraint into an edge",
+          "paragraphs": [
+            "Advertisers who treat 20% VAT as a pure penalty will lose volume. Those who use it to professionalise tracking, CRM, HT/TTC reporting and WhatsApp closing will gain share while competitors panic.",
+            "Mohtaoua audits Meta, Google and TikTok accounts, recalculates profitability thresholds with your tax reality, and reallocates budget to campaigns that can sustain a stricter CAC. Tax sets the frame; performance decides who grows."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion: budget for VAT, not for fear",
+          "paragraphs": [
+            "Yes, Morocco applies 20% VAT to digital services including online ads. Yes, 2026 hardened the operational path via the DGI platform for foreign suppliers. No, that does not automatically mean every MAD of Meta Ads costs a recoverable VAT-registered business +20% net.",
+            "Work with your accountant on the exact regime and with your agency on an updated CPL/CAC model—then scale what remains profitable. For a 2026 media + cost-model audit, contact Mohtaoua."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does 20% VAT really apply to Meta Ads and Google Ads in Morocco?",
+          "answer": "Yes. Online advertising is a digital service under the standard 20% VAT rate (CGI art. 99-A) when territoriality rules attach the supply to Morocco (customer established in Morocco)."
+        },
+        {
+          "question": "Is this an obligation to put 20% of budget into TV?",
+          "answer": "No. That is a common confusion. There is no general rule forcing advertisers to allocate 20% of ad budget to national TV. Here “20%” means the VAT rate on digital services / digital ads."
+        },
+        {
+          "question": "Does my VAT-registered company really pay +20% net?",
+          "answer": "Not necessarily. In B2B, reverse charge plus full input credit often keeps net VAT neutral. Partial recovery or a VAT-credit cash position can still create cost or liquidity effects—confirm with your accountant."
+        },
+        {
+          "question": "What is Taxation on digital services?",
+          "answer": "The DGI e-service (via SIMPL / tax.gov.ma), live since 11 June 2026, for foreign suppliers to register, declare Moroccan turnover to non-taxable customers, and pay the related VAT."
+        },
+        {
+          "question": "How should I recalculate CPL after VAT?",
+          "answer": "Reconcile Ads Manager spend, bank cash and VAT declared/recovered. All-in CPL = cash you truly bear ÷ leads. If VAT is fully recovered, economic CPL stays near net spend; otherwise bake up to ~20% into thresholds."
+        },
+        {
+          "question": "Should I cut my Meta budget by 20%?",
+          "answer": "Only if unrecovered tax breaks your CAC target. Otherwise improve creatives, conversion and closing first. Blind volume cuts often cost more than the tax itself."
+        },
+        {
+          "question": "Who declares: me or the platform?",
+          "answer": "In B2B (taxable customer + non-resident supplier), the Moroccan customer usually reverse-charges. In B2C, the foreign supplier is targeted by platform registration. Exact treatment depends on status and billing—validate with a tax professional."
+        },
+        {
+          "question": "Can Mohtaoua help?",
+          "answer": "We are not a tax firm, but we recalculate media thresholds (CPL/CAC), reallocate Meta/Google/TikTok and align HT/cash reporting with your finance team. Request an audit via /contact."
         }
       ]
     }

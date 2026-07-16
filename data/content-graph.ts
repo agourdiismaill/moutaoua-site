@@ -170,6 +170,12 @@ const blogMeta: Record<
     topics: ["archidoc", "ged", "archivage", "ocr", "cndp", "conformite"],
     priority: 98,
   },
+  "tva-20-pourcent-ads-maroc-2026": {
+    category: "publicite",
+    services: ["meta-ads", "google-ads", "tiktok-ads"],
+    topics: ["tva", "fiscalite", "meta-ads", "google-ads", "tiktok-ads", "budget", "publicite"],
+    priority: 99,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
