@@ -1,39 +1,58 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { AvatarInitials } from "@/components/shared/avatar-initials";
-import { InteractiveDashboard } from "@/components/sections/interactive-dashboard";
 import { fadeUp, slideInRight, staggerContainer } from "@/lib/motion";
+
+const InteractiveDashboard = dynamic(
+  () =>
+    import("@/components/sections/interactive-dashboard").then(
+      (m) => m.InteractiveDashboard
+    ),
+  {
+    ssr: false,
+    loading: () => (
+      <div
+        className="min-h-[26rem] rounded-2xl border border-border bg-surface-bright"
+        aria-hidden
+      />
+    ),
+  }
+);
 
 export function Hero() {
   const t = useTranslations("hero");
   const avatarNames = (t.raw("avatarNames") as string[] | undefined) ?? [];
+  const reducedMotion = useReducedMotion();
 
   return (
     <section className="relative overflow-hidden pt-32 md:pt-40">
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-0 h-[500px] w-full -translate-x-1/2 grid-backdrop opacity-60" />
-        <div className="absolute -end-20 top-10 size-[28rem] rounded-full bg-secondary/20 blur-[120px]" />
-        <div className="absolute -start-20 top-40 size-[24rem] rounded-full bg-primary/20 blur-[120px]" />
+        <div className="absolute -end-20 top-10 hidden size-[28rem] rounded-full bg-secondary/20 blur-[120px] md:block" />
+        <div className="absolute -start-20 top-40 hidden size-[24rem] rounded-full bg-primary/20 blur-[120px] md:block" />
       </div>
 
       <div className="container-max grid items-center gap-12 pb-20 md:pb-28 lg:grid-cols-2 lg:gap-8">
         <motion.div
           variants={staggerContainer}
-          initial="hidden"
+          initial={reducedMotion ? false : "hidden"}
           animate="visible"
           className="flex flex-col items-start gap-6"
         >
           <motion.div
             variants={fadeUp}
-            className="inline-flex items-center gap-2 rounded-full border border-border bg-surface-container/80 px-4 py-2 text-sm font-medium text-primary backdrop-blur"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-surface-container/90 px-4 py-2 text-sm font-medium text-primary md:backdrop-blur"
           >
             <span className="relative flex size-2.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+              {!reducedMotion && (
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+              )}
               <span className="relative inline-flex size-2.5 rounded-full bg-primary" />
             </span>
             {t("badge")}
@@ -93,32 +112,36 @@ export function Hero() {
 
         <motion.div
           variants={slideInRight}
-          initial="hidden"
+          initial={reducedMotion ? false : "hidden"}
           animate="visible"
           className="relative"
         >
           <motion.div
-            animate={{ y: [0, -14, 0] }}
-            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+            animate={reducedMotion ? undefined : { y: [0, -14, 0] }}
+            transition={
+              reducedMotion
+                ? undefined
+                : { duration: 6, repeat: Infinity, ease: "easeInOut" }
+            }
             className="glass relative z-10 rounded-3xl p-2 shadow-soft-lg"
           >
             <InteractiveDashboard />
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={reducedMotion ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6 }}
-            className="absolute -start-4 top-16 z-20 hidden rounded-2xl border border-border bg-card/90 p-4 shadow-soft-lg backdrop-blur sm:block"
+            transition={reducedMotion ? undefined : { delay: 0.6 }}
+            className="absolute -start-4 top-16 z-20 hidden rounded-2xl border border-border bg-card/95 p-4 shadow-soft-lg md:block md:backdrop-blur"
           >
             <p className="text-xs text-muted-foreground">{t("costPerLead")}</p>
             <p className="text-2xl font-bold text-gradient">{t("statProjects")}</p>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={reducedMotion ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.8 }}
-            className="absolute -end-2 bottom-10 z-20 hidden rounded-2xl border border-border bg-card/90 p-4 shadow-soft-lg backdrop-blur sm:block"
+            transition={reducedMotion ? undefined : { delay: 0.8 }}
+            className="absolute -end-2 bottom-10 z-20 hidden rounded-2xl border border-border bg-card/95 p-4 shadow-soft-lg md:block md:backdrop-blur"
           >
             <p className="text-xs text-muted-foreground">{t("avgRoas")}</p>
             <p className="text-2xl font-bold text-gradient">{t("statSectors")}</p>

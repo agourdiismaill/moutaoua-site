@@ -27,6 +27,7 @@ type LazyVideoProps = Omit<
  * - Poster is a next/image (lazy), never <video poster> (which loads eagerly).
  * - By default, <source> is attached only when play is requested (click), not on scroll.
  * - preload="none" always for non-eager mode.
+ * - Autoplay starts muted (required on iOS / many mobile browsers).
  */
 export function LazyVideo({
   src,
@@ -38,6 +39,7 @@ export function LazyVideo({
   onPlayRequest,
   showPlayOverlay = false,
   autoPlay,
+  muted,
   ...props
 }: LazyVideoProps) {
   const videoRef = React.useRef<HTMLVideoElement>(null);
@@ -45,6 +47,7 @@ export function LazyVideo({
     eager || !loadOnPlay ? src : undefined
   );
   const [playing, setPlaying] = React.useState(Boolean(eager && autoPlay));
+  const shouldMute = muted ?? Boolean(autoPlay);
 
   React.useEffect(() => {
     if (eager) {
@@ -60,9 +63,10 @@ export function LazyVideo({
     const el = videoRef.current;
     if (!el || !activeSrc) return;
     if (autoPlay || playing) {
+      el.muted = shouldMute;
       void el.play().catch(() => undefined);
     }
-  }, [activeSrc, autoPlay, playing]);
+  }, [activeSrc, autoPlay, playing, shouldMute]);
 
   const startPlayback = React.useCallback(() => {
     setActiveSrc(src);
@@ -89,6 +93,7 @@ export function LazyVideo({
         <video
           ref={videoRef}
           {...props}
+          muted={shouldMute}
           autoPlay={autoPlay || playing}
           preload={eager ? "metadata" : "none"}
           className={cn(

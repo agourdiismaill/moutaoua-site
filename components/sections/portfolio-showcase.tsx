@@ -24,7 +24,7 @@ export function PortfolioShowcase({ className }: { className?: string }) {
           className="mb-16"
         />
 
-        <Gallery images={images} columns={4} aspect="portrait" />
+        <Gallery images={images} columns={4} aspect="portrait" limit={8} />
 
         <div className="mt-12 flex justify-center">
           <Button asChild size="lg" variant="outline">
