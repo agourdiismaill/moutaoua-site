@@ -2,7 +2,8 @@ import { millenniaCreativeIds } from "./portfolio-legacy";
 
 export const millenniaCreativeMeta = millenniaCreativeIds.map((id) => ({
   id,
-  src: `/realisations/millennia/${id}.png`,
+  /** WebP posters (~480px) — avoid multi‑MB JPEG files mislabeled as .png */
+  src: `/realisations/millennia/posters/${id}.webp`,
 }));
 
 export const PORTFOLIO_ITEM_SLUGS = [
@@ -32,7 +33,7 @@ export const portfolioMeta: {
     industry: "education",
     services: ["social-media", "brand-identity", "reels", "meta-ads"],
     technologies: ["Meta Ads", "Canva", "After Effects"],
-    cover: "/realisations/millennia/millennia-01.png",
+    cover: "/realisations/millennia/posters/millennia-01.webp",
     caseStudySlug: "millennia-group-prive",
     featured: true,
   },

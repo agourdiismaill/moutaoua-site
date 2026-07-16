@@ -20,17 +20,26 @@ interface GalleryProps {
   columns?: 2 | 3 | 4;
   /** thumbnail aspect ratio */
   aspect?: "video" | "square" | "portrait";
+  /** Cap visible thumbnails (full set still available in lightbox when opened from shown items). */
+  limit?: number;
 }
 
 /** Responsive thumbnail grid that opens a full lightbox on click. */
-export function Gallery({ images, className, columns = 3, aspect = "video" }: GalleryProps) {
+export function Gallery({
+  images,
+  className,
+  columns = 3,
+  aspect = "video",
+  limit,
+}: GalleryProps) {
   const [index, setIndex] = React.useState<number | null>(null);
+  const visible = typeof limit === "number" ? images.slice(0, limit) : images;
 
   const cols =
     columns === 2
       ? "sm:grid-cols-2"
       : columns === 4
-        ? "sm:grid-cols-2 lg:grid-cols-4"
+        ? "grid-cols-2 lg:grid-cols-4"
         : "sm:grid-cols-2 lg:grid-cols-3";
 
   const aspectClass =
@@ -42,8 +51,8 @@ export function Gallery({ images, className, columns = 3, aspect = "video" }: Ga
 
   return (
     <>
-      <div className={cn("grid grid-cols-1 gap-4", cols, className)}>
-        {images.map((img, i) => (
+      <div className={cn("grid grid-cols-2 gap-3 sm:gap-4", cols, className)}>
+        {visible.map((img, i) => (
           <button
             key={img.src + i}
             type="button"
@@ -58,7 +67,7 @@ export function Gallery({ images, className, columns = 3, aspect = "video" }: Ga
               alt={img.alt}
               fill
               loading="lazy"
-              sizes="(max-width: 768px) 100vw, 33vw"
+              sizes="(max-width: 640px) 45vw, (max-width: 1024px) 33vw, 240px"
               className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <span className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />

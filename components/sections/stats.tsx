@@ -45,7 +45,7 @@ export function Stats({
               <motion.div
                 key={stat.id}
                 variants={fadeUp}
-                className="glass flex flex-col items-center justify-center rounded-2xl p-5 text-center transition-transform duration-300 hover:-translate-y-1 md:p-7"
+                className="flex flex-col items-center justify-center rounded-2xl border border-white/25 bg-white/90 p-5 text-center shadow-soft transition-transform duration-300 hover:-translate-y-1 dark:bg-card/90 md:glass md:border-transparent md:p-7"
               >
                 <span className="mb-3 grid size-11 place-items-center rounded-xl bg-primary/10 text-primary">
                   <Icon name={stat.icon} className="size-5" />

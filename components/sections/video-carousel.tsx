@@ -11,19 +11,37 @@ import type { ReelVideo } from "@/data/showcase-videos";
 import { LazyVideo } from "@/components/shared/lazy-video";
 import { cn } from "@/lib/utils";
 
-/** Cards mounted at once (visible + buffer). */
-const WINDOW_SIZE = 8;
+/** Cards mounted at once (visible + buffer). Smaller on narrow viewports. */
+const WINDOW_SIZE_DESKTOP = 8;
+const WINDOW_SIZE_MOBILE = 5;
 /** Fixed card width + gap (must match ReelCard classes). */
 const CARD_WIDTH_PX = 240;
 const GAP_PX = 20;
 const SLOT_PX = CARD_WIDTH_PX + GAP_PX;
 
+function useCarouselWindowSize() {
+  const [size, setSize] = React.useState(WINDOW_SIZE_DESKTOP);
+
+  React.useEffect(() => {
+    const mq = window.matchMedia("(max-width: 767px)");
+    const apply = () =>
+      setSize(mq.matches ? WINDOW_SIZE_MOBILE : WINDOW_SIZE_DESKTOP);
+    apply();
+    mq.addEventListener("change", apply);
+    return () => mq.removeEventListener("change", apply);
+  }, []);
+
+  return size;
+}
+
 export function VideoCarousel({ className }: { className?: string }) {
   const t = useTranslations("sections.videoCarousel");
   const ts = useTranslations("showcase");
-  const reelVideos = getLocalizedReelVideos(ts);
+  const reelVideos = React.useMemo(() => getLocalizedReelVideos(ts), [ts]);
+  const windowSize = useCarouselWindowSize();
 
   const scrollerRef = React.useRef<HTMLDivElement>(null);
+  const rafRef = React.useRef<number | null>(null);
   const [active, setActive] = React.useState<number | null>(null);
   const [canPrev, setCanPrev] = React.useState(false);
   const [canNext, setCanNext] = React.useState(true);
@@ -33,11 +51,11 @@ export function VideoCarousel({ className }: { className?: string }) {
     const el = scrollerRef.current;
     if (!el) return;
     const start = Math.max(0, Math.floor(el.scrollLeft / SLOT_PX) - 1);
-    const maxStart = Math.max(0, reelVideos.length - WINDOW_SIZE);
+    const maxStart = Math.max(0, reelVideos.length - windowSize);
     setWindowStart(Math.min(start, maxStart));
     setCanPrev(el.scrollLeft > 8);
     setCanNext(el.scrollLeft + el.clientWidth < el.scrollWidth - 8);
-  }, [reelVideos.length]);
+  }, [reelVideos.length, windowSize]);
 
   React.useEffect(() => {
     updateWindow();
@@ -45,8 +63,11 @@ export function VideoCarousel({ className }: { className?: string }) {
     if (!el) return;
 
     const onScroll = () => {
-      // Use rAF to avoid forced layout thrash during scroll
-      requestAnimationFrame(updateWindow);
+      if (rafRef.current !== null) return;
+      rafRef.current = requestAnimationFrame(() => {
+        rafRef.current = null;
+        updateWindow();
+      });
     };
 
     el.addEventListener("scroll", onScroll, { passive: true });
@@ -54,6 +75,7 @@ export function VideoCarousel({ className }: { className?: string }) {
     return () => {
       el.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", updateWindow);
+      if (rafRef.current !== null) cancelAnimationFrame(rafRef.current);
     };
   }, [updateWindow]);
 
@@ -63,7 +85,7 @@ export function VideoCarousel({ className }: { className?: string }) {
     el.scrollBy({ left: dir * SLOT_PX * 2, behavior: "smooth" });
   };
 
-  const windowEnd = Math.min(windowStart + WINDOW_SIZE, reelVideos.length);
+  const windowEnd = Math.min(windowStart + windowSize, reelVideos.length);
   const visibleVideos = reelVideos.slice(windowStart, windowEnd);
   const leadingSlots = windowStart;
   const trailingSlots = Math.max(0, reelVideos.length - windowEnd);
@@ -226,7 +248,7 @@ function ReelPlayer({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 backdrop-blur-md"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 md:backdrop-blur-md"
           onClick={() => setIndex(null)}
         >
           <button
@@ -273,6 +295,7 @@ function ReelPlayer({
               poster={videos[index].poster}
               controls
               autoPlay
+              muted
               playsInline
               eager
               loadOnPlay={false}

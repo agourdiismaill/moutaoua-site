@@ -2,12 +2,6 @@ import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Hero } from "@/components/sections/hero";
-import { Stats } from "@/components/sections/stats";
-import { ClientLogos } from "@/components/sections/client-logos";
-import { CapabilitiesGrid } from "@/components/sections/capabilities-grid";
-import { ServicesSection } from "@/components/sections/services-section";
-import { IndustriesTeaser } from "@/components/sections/industries-teaser";
-import { SolutionsTeaser } from "@/components/sections/solutions-teaser";
 import { LocalBusinessJsonLd } from "@/components/shared/json-ld";
 import { AIOverview } from "@/components/seo/ai-overview";
 import { TrustSection } from "@/components/seo/trust-section";
@@ -15,6 +9,24 @@ import { buildSeoMetadata } from "@/lib/seo/metadata";
 import { getHomeOverview } from "@/lib/i18n-content";
 import { buildPageOpenGraph } from "@/lib/i18n-metadata";
 
+const Stats = dynamic(() =>
+  import("@/components/sections/stats").then((m) => m.Stats)
+);
+const ClientLogos = dynamic(() =>
+  import("@/components/sections/client-logos").then((m) => m.ClientLogos)
+);
+const CapabilitiesGrid = dynamic(() =>
+  import("@/components/sections/capabilities-grid").then((m) => m.CapabilitiesGrid)
+);
+const ServicesSection = dynamic(() =>
+  import("@/components/sections/services-section").then((m) => m.ServicesSection)
+);
+const IndustriesTeaser = dynamic(() =>
+  import("@/components/sections/industries-teaser").then((m) => m.IndustriesTeaser)
+);
+const SolutionsTeaser = dynamic(() =>
+  import("@/components/sections/solutions-teaser").then((m) => m.SolutionsTeaser)
+);
 const ResultsSection = dynamic(() =>
   import("@/components/sections/results-section").then((m) => m.ResultsSection)
 );

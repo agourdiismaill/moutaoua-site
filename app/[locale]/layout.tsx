@@ -13,6 +13,7 @@ import { GoogleTagManager } from "@/components/shared/google-tag-manager";
 import { GoogleAnalytics } from "@/components/shared/google-analytics";
 import { SiteSchemas } from "@/components/seo/site-schemas";
 import { withOgImage } from "@/lib/metadata";
+import { pickClientMessages } from "@/lib/client-messages";
 import { routing, isRtlLocale, type Locale } from "@/i18n/routing";
 import { siteConfig } from "@/data/site";
 import { cn } from "@/lib/utils";
@@ -25,7 +26,7 @@ const hanken = Hanken_Grotesk({
 
 const anybody = Anybody({
   subsets: ["latin"],
-  weight: ["600", "700", "800"],
+  weight: ["600", "700"],
   variable: "--font-anybody",
   display: "swap",
 });
@@ -107,8 +108,10 @@ export default async function LocaleLayout({
   }
 
   setRequestLocale(locale);
-  const messages = await getMessages();
+  const allMessages = await getMessages();
+  const messages = pickClientMessages(allMessages as Record<string, unknown>);
   const rtl = isRtlLocale(locale);
+  const loadArabicFont = locale === "ar";
 
   return (
     <html lang={locale} dir={rtl ? "rtl" : "ltr"} suppressHydrationWarning>
@@ -116,7 +119,7 @@ export default async function LocaleLayout({
         className={cn(
           hanken.variable,
           anybody.variable,
-          notoArabic.variable,
+          loadArabicFont && notoArabic.variable,
           rtl ? "font-arabic" : "font-sans"
         )}
       >

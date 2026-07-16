@@ -217,7 +217,7 @@ export default async function BlogPostPage({
                     <video
                       controls
                       playsInline
-                      preload="metadata"
+                      preload="none"
                       poster={section.video.poster}
                       className="aspect-video w-full bg-black object-contain"
                     >
