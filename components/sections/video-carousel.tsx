@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Play, X } from "lucide-react";
@@ -9,6 +10,13 @@ import { getLocalizedReelVideos } from "@/lib/i18n-content";
 import type { ReelVideo } from "@/data/showcase-videos";
 import { LazyVideo } from "@/components/shared/lazy-video";
 import { cn } from "@/lib/utils";
+
+/** Cards mounted at once (visible + buffer). */
+const WINDOW_SIZE = 8;
+/** Fixed card width + gap (must match ReelCard classes). */
+const CARD_WIDTH_PX = 240;
+const GAP_PX = 20;
+const SLOT_PX = CARD_WIDTH_PX + GAP_PX;
 
 export function VideoCarousel({ className }: { className?: string }) {
   const t = useTranslations("sections.videoCarousel");
@@ -19,33 +27,46 @@ export function VideoCarousel({ className }: { className?: string }) {
   const [active, setActive] = React.useState<number | null>(null);
   const [canPrev, setCanPrev] = React.useState(false);
   const [canNext, setCanNext] = React.useState(true);
+  const [windowStart, setWindowStart] = React.useState(0);
 
-  const updateArrows = React.useCallback(() => {
+  const updateWindow = React.useCallback(() => {
     const el = scrollerRef.current;
     if (!el) return;
+    const start = Math.max(0, Math.floor(el.scrollLeft / SLOT_PX) - 1);
+    const maxStart = Math.max(0, reelVideos.length - WINDOW_SIZE);
+    setWindowStart(Math.min(start, maxStart));
     setCanPrev(el.scrollLeft > 8);
     setCanNext(el.scrollLeft + el.clientWidth < el.scrollWidth - 8);
-  }, []);
+  }, [reelVideos.length]);
 
   React.useEffect(() => {
-    updateArrows();
+    updateWindow();
     const el = scrollerRef.current;
     if (!el) return;
-    el.addEventListener("scroll", updateArrows, { passive: true });
-    window.addEventListener("resize", updateArrows);
-    return () => {
-      el.removeEventListener("scroll", updateArrows);
-      window.removeEventListener("resize", updateArrows);
+
+    const onScroll = () => {
+      // Use rAF to avoid forced layout thrash during scroll
+      requestAnimationFrame(updateWindow);
     };
-  }, [updateArrows]);
+
+    el.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", updateWindow);
+    return () => {
+      el.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", updateWindow);
+    };
+  }, [updateWindow]);
 
   const scrollByCards = (dir: number) => {
     const el = scrollerRef.current;
     if (!el) return;
-    const card = el.querySelector<HTMLElement>("[data-card]");
-    const amount = card ? (card.offsetWidth + 20) * 2 : el.clientWidth * 0.8;
-    el.scrollBy({ left: dir * amount, behavior: "smooth" });
+    el.scrollBy({ left: dir * SLOT_PX * 2, behavior: "smooth" });
   };
+
+  const windowEnd = Math.min(windowStart + WINDOW_SIZE, reelVideos.length);
+  const visibleVideos = reelVideos.slice(windowStart, windowEnd);
+  const leadingSlots = windowStart;
+  const trailingSlots = Math.max(0, reelVideos.length - windowEnd);
 
   return (
     <section id="videos" className={cn("section-pad bg-surface-bright", className)}>
@@ -78,14 +99,33 @@ export function VideoCarousel({ className }: { className?: string }) {
           ref={scrollerRef}
           className="-mx-4 flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth px-4 pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         >
-          {reelVideos.map((video, i) => (
-            <ReelCard
-              key={video.id}
-              video={video}
-              playLabel={t("playAria", { title: video.title })}
-              onPlay={() => setActive(i)}
+          {leadingSlots > 0 && (
+            <div
+              aria-hidden
+              className="shrink-0"
+              style={{ width: leadingSlots * SLOT_PX - GAP_PX }}
             />
-          ))}
+          )}
+
+          {visibleVideos.map((video, i) => {
+            const absoluteIndex = windowStart + i;
+            return (
+              <ReelCard
+                key={video.id}
+                video={video}
+                playLabel={t("playAria", { title: video.title })}
+                onPlay={() => setActive(absoluteIndex)}
+              />
+            );
+          })}
+
+          {trailingSlots > 0 && (
+            <div
+              aria-hidden
+              className="shrink-0"
+              style={{ width: trailingSlots * SLOT_PX - GAP_PX }}
+            />
+          )}
         </div>
       </div>
 
@@ -111,24 +151,21 @@ function ReelCard({
   onPlay: () => void;
 }) {
   return (
-    <motion.button
+    <button
       type="button"
       data-card
       onClick={onPlay}
       aria-label={playLabel}
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.2 }}
-      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className="group relative aspect-[9/16] w-[60%] shrink-0 snap-start overflow-hidden rounded-2xl border border-border bg-black shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-soft-lg sm:w-[42%] md:w-[240px]"
+      className="group relative aspect-[9/16] w-[240px] shrink-0 snap-start overflow-hidden rounded-2xl border border-border bg-black shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-soft-lg"
     >
-      <LazyVideo
-        src={video.src}
-        poster={video.poster}
-        muted
-        loop
-        playsInline
-        aria-hidden
+      {/* Static WebP poster only — zero video bytes until modal play */}
+      <Image
+        src={video.poster}
+        alt=""
+        fill
+        loading="lazy"
+        sizes="240px"
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
       />
       <span className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10" />
       <span className="absolute inset-0 grid place-items-center transition-opacity duration-300 group-hover:opacity-0">
@@ -139,7 +176,7 @@ function ReelCard({
       <span className="absolute bottom-3 start-3 end-3 text-start text-sm font-medium text-white">
         {video.title}
       </span>
-    </motion.button>
+    </button>
   );
 }
 
@@ -238,6 +275,7 @@ function ReelPlayer({
               autoPlay
               playsInline
               eager
+              loadOnPlay={false}
               videoClassName="object-contain"
             />
           </motion.div>

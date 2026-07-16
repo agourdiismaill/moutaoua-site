@@ -18,7 +18,7 @@ export const reelMeta = Array.from({ length: VIDEO_COUNT }, (_, i) => {
   return {
     id: `reel-${n}`,
     src: `/videos/millennia/video-${n}.mp4`,
-    poster: `/realisations/millennia/millennia-${posterN}.png`,
+    poster: `/realisations/millennia/posters/millennia-${posterN}.webp`,
     index: i + 1,
   };
 });
