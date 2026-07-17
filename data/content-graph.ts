@@ -176,6 +176,12 @@ const blogMeta: Record<
     topics: ["tva", "fiscalite", "meta-ads", "google-ads", "tiktok-ads", "budget", "publicite"],
     priority: 99,
   },
+  "referencement-naturel-maroc-2026": {
+    category: "seo",
+    services: ["seo", "corporate-websites", "landing-pages", "google-ads"],
+    topics: ["seo", "geo", "referencement", "local-seo", "search-console", "maroc"],
+    priority: 100,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
