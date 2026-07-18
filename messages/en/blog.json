@@ -2152,6 +2152,239 @@
           "answer": "Yes — audit, technical work, Insights content, local pages, schema and reporting. See /services/seo or request an audit via /contact."
         }
       ]
+    },
+    "organisation-evenements-corporate-maroc": {
+      "title": "Corporate events in Morocco: 2026 budget, checklist and planning guide",
+      "excerpt": "How to plan a seminar, convention or product launch in Morocco: MAD budgets, timeline, suppliers, communications and ROI metrics.",
+      "category": "business",
+      "cover": "/logo-full.svg",
+      "relatedServices": [
+        "corporate-events",
+        "conferences",
+        "booth-design",
+        "brand-activation",
+        "event-communication"
+      ],
+      "overview": {
+        "what": "Operational guide to planning a corporate event in Morocco in 2026, from brief to post-event reporting.",
+        "who": "Executives, marketing, HR and communications teams planning seminars, conventions, launches, galas or brand activations.",
+        "benefits": [
+          "Indicative budget and cost allocation",
+          "Adaptable J-180 to J+7 timeline",
+          "Logistics, digital and ROI checklist"
+        ],
+        "topics": [
+          "Corporate events Morocco",
+          "Event agency",
+          "Event budget",
+          "Corporate seminar",
+          "Convention",
+          "Brand activation"
+        ],
+        "takeaways": [
+          "Set a measurable business objective before choosing a venue.",
+          "Book 3–6 months ahead for large formats and reserve 10–15% contingency.",
+          "Pre-, live and post-event communications turn a one-off expense into a marketing asset."
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Why corporate events are growing in Morocco",
+          "paragraphs": [
+            "Casablanca, Marrakech and Rabat concentrate much of Morocco’s professional events market. Companies organize conventions, launches, seminars, conferences, galas and brand activations. A well-designed physical experience builds trust, memory and business relationships that are difficult to reproduce online.",
+            "Mohtaoua’s Search Console already shows impressions for “corporate events” and “corporate event morocco”. Businesses are actively looking for partners able to manage concept, production, logistics and communications.",
+            "A successful event is more than a venue and catering. It aligns experience with a business goal, coordinates dependencies, manages risk, produces content and measures outcomes."
+          ]
+        },
+        {
+          "id": "types",
+          "heading": "Which corporate event format should you choose?",
+          "paragraphs": [
+            "Choose the format from the objective. A convention aligns teams; a launch drives visibility and demand; a seminar builds skills or cohesion; a gala strengthens stakeholder relationships.",
+            "Avoid a vague hybrid format that tries to achieve everything. Keep one primary objective and audience."
+          ],
+          "bullets": [
+            "Convention: strategy and internal alignment",
+            "Seminar/team building: cohesion and learning",
+            "Product launch: demonstration, press and leads",
+            "Conference: expertise and community",
+            "Gala: recognition and partner relations",
+            "Brand activation: trial and social content",
+            "Trade-show booth: B2B leads and meetings"
+          ]
+        },
+        {
+          "id": "objectifs",
+          "heading": "Step 1: turn the brief into measurable objectives",
+          "paragraphs": [
+            "Before discussing venues, finish this sentence: “At D+30, this event succeeds if…”. Examples include 80 qualified meetings, 120 trained salespeople, 300 registrations or 20 reusable content assets.",
+            "Specify audience, capacity, city, dates, standing, languages, accessibility, security and approvals. One client-side owner prevents contradictory decisions."
+          ],
+          "bullets": [
+            "One primary business objective and up to three KPIs",
+            "Priority audience",
+            "Target capacity and realistic attendance",
+            "Budget ceiling and contingency",
+            "Expected deliverables"
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Corporate event budget in Morocco in 2026",
+          "paragraphs": [
+            "Budget depends on city, season, attendance, venue, production and content. Public market benchmarks place a one-day Casablanca seminar for around 50 people near MAD 25,000–40,000. This is not a Mohtaoua price and must be confirmed by quote; accommodation, custom staging, artists and large launches can multiply the cost.",
+            "Build the budget by category, not a single number. Venue and catering are visible, but AV, transportation, safety, signage, registration and coordination determine quality.",
+            "Reserve 10–15% for weather, extra equipment, changing attendance or technical extensions."
+          ],
+          "bullets": [
+            "Venue, catering and accommodation",
+            "Staging, furniture and signage",
+            "Sound, light, screens, capture and streaming",
+            "Transport, reception, badges and security",
+            "Photo, video and social content",
+            "Design, production and coordination fees",
+            "10–15% contingency"
+          ]
+        },
+        {
+          "id": "villes",
+          "heading": "Choosing the city and venue",
+          "paragraphs": [
+            "Casablanca suits B2B conventions and launches, Rabat institutional events, Marrakech premium incentives, Tanger industrial/international formats and Agadir outdoor programs.",
+            "Audit power, rigging, acoustics, delivery access, Internet, evacuation, parking, accessibility and assembly hours before signing.",
+            "For large events, book 3–6 months ahead, especially during high-demand periods."
+          ]
+        },
+        {
+          "id": "retroplanning",
+          "heading": "Timeline from D-180 to D+7",
+          "paragraphs": [
+            "Use a shared plan with owners, deadlines, dependencies and approvals."
+          ],
+          "bullets": [
+            "D-180/120: objectives, budget, city, date, venues",
+            "D-120/90: contract venue, concept, main suppliers",
+            "D-90/60: program, speakers, visual identity, registration",
+            "D-60/30: production, content, transport, catering",
+            "D-30/7: confirmations, badges, run-of-show, crisis plan",
+            "D-1: setup and full rehearsal",
+            "D-day: central command and live content",
+            "D+1/7: thanks, survey, CRM, KPI and media"
+          ]
+        },
+        {
+          "id": "experience",
+          "heading": "Staging and participant experience",
+          "paragraphs": [
+            "Staging translates the brand into space: arrival, stage, signage, networking, lighting, screens and photo moments. Every element should guide the participant.",
+            "Design the full journey from invitation to exit. Queues, poor sound, unclear schedules and unstable Wi-Fi destroy perception faster than décor can repair it.",
+            "Plan for French, Arabic and English audiences, dietary needs, mobility and international guests."
+          ]
+        },
+        {
+          "id": "communication",
+          "heading": "Event communications before, live and after",
+          "paragraphs": [
+            "Before: landing page, segmented invitations, WhatsApp/email reminders and speaker content. Live: capture, interviews, rapid photos and moderation. After: replay, testimonials, summary and nurturing.",
+            "Connect registration to CRM. Hot leads need follow-up within 24–48 hours.",
+            "For SEO/GEO, publish a crawlable recap with lessons, quotes, optimized photos and FAQs."
+          ]
+        },
+        {
+          "id": "prestataires",
+          "heading": "Choosing a corporate event agency in Morocco",
+          "paragraphs": [
+            "Compare method, production capacity and transparency—not only price. Ask who owns delivery, what is outsourced, how changes are priced and what backup exists.",
+            "A 360° agency helps when staging must connect with branding, video, landing pages, CRM, Ads and reporting."
+          ],
+          "bullets": [
+            "Comparable portfolio",
+            "Itemized budget and change rules",
+            "Run-of-show, RACI and one project owner",
+            "Technical, weather and security backup",
+            "Clear content usage rights",
+            "Measurement and post-event deliverables"
+          ]
+        },
+        {
+          "id": "kpis",
+          "heading": "Measuring event ROI",
+          "paragraphs": [
+            "For commercial events track qualified leads, meetings, opportunities and attributed revenue. For internal events track attendance, satisfaction, comprehension and adoption. For launches track reach, media, trials and sales.",
+            "Measure at registration, on the day and through D+30/D+90 in CRM. Cost per participant alone is insufficient."
+          ],
+          "bullets": [
+            "Registration and attendance rate",
+            "Satisfaction/NPS",
+            "Session and content engagement",
+            "Qualified leads and CRM opportunities",
+            "Reach and content asset value",
+            "Cost per participant, lead and opportunity"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "10 common mistakes",
+          "paragraphs": [
+            "Most event crises start with an incomplete brief or late approval."
+          ],
+          "bullets": [
+            "Choosing the venue before the objective",
+            "Underestimating setup and rehearsal",
+            "No contingency budget",
+            "Signing without a technical visit",
+            "No weather/AV/Internet backup",
+            "Too many decision makers",
+            "Treating communications as optional",
+            "Collecting attendees without CRM logic",
+            "No lead follow-up within 48 hours",
+            "No quantified debrief or content library"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Conclusion: design an event as a business asset",
+          "paragraphs": [
+            "A successful Moroccan corporate event starts with a measurable goal, secures suppliers early, protects 10–15% contingency and plans communications and CRM from the brief.",
+            "Mohtaoua supports strategy through execution: concept, identity, production, coordination, photo/video, digital communications, landing pages and reporting."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What budget should I plan for a corporate event in Morocco?",
+          "answer": "It depends on format, city and scale. A public benchmark places a one-day Casablanca seminar for 50 people around MAD 25,000–40,000. Request an itemized quote and add 10–15% contingency."
+        },
+        {
+          "question": "How early should we start?",
+          "answer": "Small formats may need 4–8 weeks. Conventions, launches and 200+ attendees should allow 3–6 months."
+        },
+        {
+          "question": "Which Moroccan city should we choose?",
+          "answer": "Casablanca for business, Rabat for institutional, Marrakech for premium incentives, Tanger for industrial audiences and Agadir for outdoor formats."
+        },
+        {
+          "question": "What should an event agency quote include?",
+          "answer": "Concept, venue, AV, staging, catering, logistics, content, coordination, taxes and change conditions—itemized."
+        },
+        {
+          "question": "How do we measure ROI?",
+          "answer": "Define attendance, satisfaction, leads, meetings, opportunities, revenue, reach and content KPIs before selecting the venue."
+        },
+        {
+          "question": "Do we need streaming?",
+          "answer": "Only with a real remote audience. Streaming adds technical direction, redundant connectivity, capture and moderation."
+        },
+        {
+          "question": "Why keep contingency?",
+          "answer": "To absorb capacity, weather, transport and technical changes without harming experience. 10–15% is common."
+        },
+        {
+          "question": "Does Mohtaoua deliver turnkey events?",
+          "answer": "Yes: concept, production, staging, communications, photo/video, landing page, day-of coordination and reporting."
+        }
+      ]
     }
   },
   "backToBlog": "Back to Insights"

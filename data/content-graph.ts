@@ -182,6 +182,12 @@ const blogMeta: Record<
     topics: ["seo", "geo", "referencement", "local-seo", "search-console", "maroc"],
     priority: 100,
   },
+  "organisation-evenements-corporate-maroc": {
+    category: "business",
+    services: ["corporate-events", "conferences", "booth-design", "brand-activation", "event-communication"],
+    topics: ["corporate-events", "event", "conference", "seminar", "casablanca", "brand-activation"],
+    priority: 99,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {

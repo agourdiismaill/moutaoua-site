@@ -15,6 +15,7 @@ export const BLOG_POST_SLUGS = [
   "archidoc-archivage-electronique-maroc",
   "tva-20-pourcent-ads-maroc-2026",
   "referencement-naturel-maroc-2026",
+  "organisation-evenements-corporate-maroc",
 ] as const;
 
 export const BLOG_CATEGORIES = [
@@ -75,6 +76,7 @@ export const BLOG_PUBLISHED: Record<BlogPostSlug, string> = {
   "archidoc-archivage-electronique-maroc": "2026-07-18",
   "tva-20-pourcent-ads-maroc-2026": "2026-07-19",
   "referencement-naturel-maroc-2026": "2026-07-20",
+  "organisation-evenements-corporate-maroc": "2026-07-21",
 };
 
 export const AUTHOR = {
