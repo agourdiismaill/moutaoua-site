@@ -2385,6 +2385,248 @@
           "answer": "Yes: concept, production, staging, communications, photo/video, landing page, day-of coordination and reporting."
         }
       ]
+    },
+    "content-marketing-maroc-2026": {
+      "title": "Content marketing in Morocco 2026: strategy, budget and editorial calendar",
+      "excerpt": "A practical system for content that ranks on Google, earns AI citations and generates leads in Morocco: languages, formats, budget, calendar and KPIs.",
+      "category": "marketing",
+      "cover": "/blog/content-marketing-maroc-2026.webp",
+      "relatedServices": [
+        "content-marketing",
+        "seo",
+        "community-management",
+        "video-production",
+        "marketing-automation"
+      ],
+      "overview": {
+        "what": "Expert guide to building an SEO/GEO content marketing strategy for Morocco in 2026.",
+        "who": "Founders, marketing teams, SMEs and brands turning content into traffic, authority and measurable leads.",
+        "benefits": [
+          "Nine-step editorial method",
+          "Morocco-specific languages and formats",
+          "90-day calendar, budget and business KPIs"
+        ],
+        "topics": [
+          "Content marketing Morocco",
+          "Content strategy",
+          "Editorial calendar",
+          "SEO and GEO",
+          "Multilingual content",
+          "Content ROI"
+        ],
+        "takeaways": [
+          "Profitable content starts with customer intent, not a posting idea.",
+          "French, Arabic and Darija play different roles across sectors and channels.",
+          "Pillar content must be repurposed, distributed and connected to CRM."
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Why content marketing matters in Morocco",
+          "paragraphs": [
+            "Paid acquisition is becoming harder while buyers compare providers and demand proof. Content marketing attracts through useful answers, builds credibility and supports the path to a sales conversation.",
+            "Mohtaoua Search Console shows demand around content marketing Morocco, content creation agency and content management. This guide answers those needs without duplicating a service page.",
+            "In 2026, content serves both SEO for Google and GEO for generative engines. Both require real expertise, clear structure, proof and regular updates."
+          ]
+        },
+        {
+          "id": "probleme",
+          "heading": "Why most content strategies fail",
+          "paragraphs": [
+            "Publishing without a business goal produces activity, not pipeline. Irregular production, disconnected channels and generic AI text compound the problem."
+          ],
+          "bullets": [
+            "Topics chosen without GSC or customer research",
+            "Generic content without Morocco context",
+            "No links to offers or case studies",
+            "Production without distribution",
+            "Vanity metrics only"
+          ]
+        },
+        {
+          "id": "objectifs",
+          "heading": "Step 1: define objective and audience",
+          "paragraphs": [
+            "Give each content asset one job: create demand, capture search, compare, overcome objections, convert or retain. Define a 90-day measurable objective.",
+            "Build an operational persona with sector, role, pain, objections, language, channel and expected decision."
+          ],
+          "bullets": [
+            "Primary objective and KPI",
+            "Persona and journey stage",
+            "Concrete pain",
+            "Offer to support",
+            "One CTA"
+          ]
+        },
+        {
+          "id": "recherche",
+          "heading": "Step 2: find topics people actually search",
+          "paragraphs": [
+            "Start with Search Console, then Google Trends Morocco, Keyword Planner, autocomplete, sales calls and WhatsApp history.",
+            "Score opportunities by relevance, commercial intent, internal-link potential and competition. Check cannibalization before writing."
+          ]
+        },
+        {
+          "id": "langues",
+          "heading": "French, Arabic, Darija or English?",
+          "paragraphs": [
+            "French works strongly in B2B and premium services; standard Arabic in formal information; Darija in social B2C; English in tech, tourism and export.",
+            "Localize examples, objections and CTAs rather than translating mechanically."
+          ],
+          "bullets": [
+            "French: B2B and premium",
+            "Arabic: formal guides",
+            "Darija: proximity and short video",
+            "English: tech and export"
+          ]
+        },
+        {
+          "id": "formats",
+          "heading": "Step 3: build a format system",
+          "paragraphs": [
+            "One 1,800–3,000-word pillar can produce a newsletter, LinkedIn posts, a carousel, Reels scripts, FAQs and a webinar.",
+            "Use articles for search, case studies for proof, short video for discovery and email/WhatsApp for nurturing."
+          ],
+          "bullets": [
+            "SEO/GEO articles",
+            "Guides and checklists",
+            "Case studies",
+            "Short video",
+            "LinkedIn",
+            "Email/WhatsApp",
+            "Webinars"
+          ]
+        },
+        {
+          "id": "calendrier",
+          "heading": "A 90-day editorial calendar",
+          "paragraphs": [
+            "Plan quarterly and execute weekly. Include topic, intent, persona, keyword, pillar format, derivatives, owner, date, CTA and status.",
+            "A small team can start with one pillar per week plus two to four social derivatives and distribution."
+          ],
+          "bullets": [
+            "Week 1: priority pain",
+            "Week 2: comparison",
+            "Week 3: case study",
+            "Week 4: checklist/FAQ",
+            "Monthly: refresh via GSC"
+          ]
+        },
+        {
+          "id": "seo-geo",
+          "heading": "Optimize for SEO and GEO",
+          "paragraphs": [
+            "For Google: clear intent, title, H1, H2/H3, internal links, optimized images, FAQ, schema and mobile speed.",
+            "For AI: direct answers, lists, MAD examples, identifiable author and evidence. Refresh pages every 60–90 days."
+          ]
+        },
+        {
+          "id": "ia",
+          "heading": "Use AI without generic output",
+          "paragraphs": [
+            "Use AI to classify queries, structure drafts and repurpose. Humans own expertise, evidence, voice and validation.",
+            "Feed the process with proprietary sales calls, GSC data, cases and objections. Never invent results or sources."
+          ],
+          "bullets": [
+            "AI: research and variants",
+            "Human: expertise and proof",
+            "No fake numbers or clients",
+            "Final factual/brand review"
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Content marketing budget in Morocco",
+          "paragraphs": [
+            "Budget varies by frequency, expertise, languages, video and distribution. Public benchmarks often place SME digital marketing at MAD 5,000–20,000/month, with roughly 30–40% toward content and SEO. These are not universal rates.",
+            "Separate strategy, production, design/video, translation, paid distribution, tools and reporting. Start with a 90-day pilot."
+          ]
+        },
+        {
+          "id": "distribution",
+          "heading": "Distribute instead of waiting",
+          "paragraphs": [
+            "Use LinkedIn for B2B, Instagram/TikTok for discovery, email/WhatsApp for owned audiences, and sales teams for proof. Adapt the hook, not the core message."
+          ]
+        },
+        {
+          "id": "kpis",
+          "heading": "Measure content ROI",
+          "paragraphs": [
+            "Track visibility, engagement and business outcomes. Connect forms and CTAs to CRM with UTMs and content source."
+          ],
+          "bullets": [
+            "Non-brand impressions",
+            "CTR",
+            "Assisted conversions",
+            "CRM leads/opportunities",
+            "Organic CPL/CAC",
+            "Attributed revenue"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "10 content marketing mistakes",
+          "paragraphs": [
+            "Avoid activity that never builds authority or pipeline."
+          ],
+          "bullets": [
+            "No business objective",
+            "Raw AI copy",
+            "Wrong language",
+            "Cannibalization",
+            "Poor mobile performance",
+            "No calendar",
+            "No internal links/CTA",
+            "No distribution",
+            "Vanity metrics",
+            "No updates"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Turn content into a growth system",
+          "paragraphs": [
+            "Content marketing in Morocco combines demand research, local expertise, multi-format production, SEO/GEO, distribution and CRM measurement.",
+            "Start with one offer, three customer problems and a 90-day calendar. Mohtaoua can audit, plan, produce and connect the system to campaigns and CRM."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is content marketing?",
+          "answer": "A strategy that attracts, educates and converts through useful articles, guides, video, cases and newsletters."
+        },
+        {
+          "question": "Which language should I use?",
+          "answer": "French for B2B/premium, standard Arabic for formal information, Darija for B2C proximity and English for tech/export."
+        },
+        {
+          "question": "How much should we publish?",
+          "answer": "Quality and consistency beat volume. Start with one pillar weekly plus derivatives."
+        },
+        {
+          "question": "What monthly budget?",
+          "answer": "Public benchmarks suggest MAD 5,000–20,000 for SME digital marketing, often 30–40% for content/SEO. Validate by audit."
+        },
+        {
+          "question": "Is community management the same?",
+          "answer": "No. Content marketing defines the assets and conversion journey; community management distributes and engages mainly on social."
+        },
+        {
+          "question": "How do we optimize for AI?",
+          "answer": "Use direct answers, FAQs, proof, Morocco context, identifiable authors and crawlable updated pages."
+        },
+        {
+          "question": "How long before results?",
+          "answer": "Early GSC signals can appear in weeks; meaningful authority and leads often need 3–6 months."
+        },
+        {
+          "question": "Can Mohtaoua manage it?",
+          "answer": "Yes: GSC audit, strategy, calendar, SEO/GEO articles, video scripts, design, distribution and CRM reporting."
+        }
+      ]
     }
   },
   "backToBlog": "Back to Insights"

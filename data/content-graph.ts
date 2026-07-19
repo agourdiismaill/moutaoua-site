@@ -188,6 +188,12 @@ const blogMeta: Record<
     topics: ["corporate-events", "event", "conference", "seminar", "casablanca", "brand-activation"],
     priority: 99,
   },
+  "content-marketing-maroc-2026": {
+    category: "marketing",
+    services: ["content-marketing", "seo", "community-management", "video-production", "marketing-automation"],
+    topics: ["content-marketing", "content-strategy", "seo", "geo", "editorial-calendar", "maroc"],
+    priority: 100,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
