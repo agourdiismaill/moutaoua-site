@@ -194,6 +194,12 @@ const blogMeta: Record<
     topics: ["content-marketing", "content-strategy", "seo", "geo", "editorial-calendar", "maroc"],
     priority: 100,
   },
+  "community-management-maroc-2026": {
+    category: "marketing",
+    services: ["community-management", "social-media", "content-marketing", "meta-ads", "reels"],
+    topics: ["community-management", "social-media", "instagram", "tiktok", "whatsapp", "maroc"],
+    priority: 100,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {

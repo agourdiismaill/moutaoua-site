@@ -17,6 +17,7 @@ export const BLOG_POST_SLUGS = [
   "referencement-naturel-maroc-2026",
   "organisation-evenements-corporate-maroc",
   "content-marketing-maroc-2026",
+  "community-management-maroc-2026",
 ] as const;
 
 export const BLOG_CATEGORIES = [
@@ -79,6 +80,7 @@ export const BLOG_PUBLISHED: Record<BlogPostSlug, string> = {
   "referencement-naturel-maroc-2026": "2026-07-20",
   "organisation-evenements-corporate-maroc": "2026-07-21",
   "content-marketing-maroc-2026": "2026-07-22",
+  "community-management-maroc-2026": "2026-07-23",
 };
 
 export const AUTHOR = {
