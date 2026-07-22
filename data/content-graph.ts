@@ -200,6 +200,12 @@ const blogMeta: Record<
     topics: ["community-management", "social-media", "instagram", "tiktok", "whatsapp", "maroc"],
     priority: 100,
   },
+  "developpement-logiciel-sur-mesure-maroc-2026": {
+    category: "development",
+    services: ["custom-software", "erp", "saas", "api-integration", "business-platforms"],
+    topics: ["custom-software", "logiciel", "mvp", "erp", "api", "maroc"],
+    priority: 100,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {

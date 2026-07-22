@@ -2848,6 +2848,239 @@
           "answer": "Yes — strategy, production, animation and CRM-linked reporting."
         }
       ]
+    },
+    "developpement-logiciel-sur-mesure-maroc-2026": {
+      "title": "Custom software development in Morocco 2026: method, budget and ROI",
+      "excerpt": "When to choose custom over SaaS, how to scope a project, typical MAD budgets and timelines, and mistakes Moroccan SMEs should avoid.",
+      "category": "development",
+      "cover": "/blog/developpement-logiciel-sur-mesure-maroc-2026.webp",
+      "relatedServices": [
+        "custom-software",
+        "erp",
+        "saas",
+        "api-integration",
+        "business-platforms"
+      ],
+      "overview": {
+        "what": "Expert guide to decide, scope and run a custom software project in Morocco in 2026.",
+        "who": "Founders, COOs and IT leaders who outgrew Excel, generic tools or rigid SaaS.",
+        "benefits": [
+          "SaaS vs custom decision criteria",
+          "MVP and agile delivery method",
+          "Budget/timeline ranges and ROI checklist"
+        ],
+        "topics": [
+          "Custom software Morocco",
+          "Application development",
+          "MVP",
+          "IT budget",
+          "API integrations",
+          "Digital ROI"
+        ],
+        "takeaways": [
+          "Custom pays when processes are a competitive advantage.",
+          "An 8–16 week MVP beats a 12-month big bang.",
+          "True cost includes scoping, integrations, training and maintenance."
+        ]
+      },
+      "sections": [
+        {
+          "id": "introduction",
+          "heading": "Why custom software matters again in Morocco",
+          "paragraphs": [
+            "Many Moroccan companies stacked Excel, WhatsApp, a SaaS CRM and billing tools. It works until scale creates duplicates, errors and unreliable data.",
+            "Custom software fits that moment: build around real workflows instead of forcing the company into a generic product.",
+            "This guide covers when custom is rational, how to scope it, 2026 budgets/timelines and ROI — without duplicating Mohtaoua’s service page."
+          ]
+        },
+        {
+          "id": "definition",
+          "heading": "What is custom software?",
+          "paragraphs": [
+            "An application designed for your business rules, roles and integrations. You can evolve it and are not limited by a vendor roadmap.",
+            "Good designs often mix a custom core with SaaS bricks and APIs."
+          ],
+          "bullets": [
+            "Business web apps",
+            "Internal platforms",
+            "CRM/ERP extensions",
+            "API connectors",
+            "Field mobile modules"
+          ]
+        },
+        {
+          "id": "quand",
+          "heading": "When to choose custom (and when not to)",
+          "paragraphs": [
+            "Choose custom for unique processes, heavy manual work, broken toolchains or compliance needs. Stay on SaaS/no-code for standard needs or when budget cannot fund a useful MVP."
+          ],
+          "bullets": [
+            "Custom: unique processes",
+            "SaaS: standard needs",
+            "No-code: prototypes",
+            "Hybrid: SaaS + custom core"
+          ]
+        },
+        {
+          "id": "probleme",
+          "heading": "Symptoms that Excel and SaaS are not enough",
+          "paragraphs": [
+            "Operational signals usually appear before technical ones."
+          ],
+          "bullets": [
+            "Same data in 3 files",
+            "Manual WhatsApp→Excel copy",
+            "No audit trail",
+            "SaaS workarounds",
+            "No reliable dashboards"
+          ]
+        },
+        {
+          "id": "methode",
+          "heading": "8-step delivery method",
+          "paragraphs": [
+            "Business KPI → process map → make/buy → light brief → architecture → MVP → pilot iterations → production, training and roadmap."
+          ],
+          "bullets": [
+            "Named business sponsor",
+            "Pilots from week 2",
+            "Demos every 1–2 weeks",
+            "Written Definition of Done",
+            "Cutover/rollback plan"
+          ]
+        },
+        {
+          "id": "mvp",
+          "heading": "MVP in 8–16 weeks",
+          "paragraphs": [
+            "Focus on 1–2 critical processes, one primary user profile and essential integrations. Everything else stays prioritized backlog."
+          ]
+        },
+        {
+          "id": "stack",
+          "heading": "Realistic 2026 stack in Morocco",
+          "paragraphs": [
+            "Prefer maintainable stacks with local talent: modern web, PostgreSQL/MySQL, Flutter/React Native, cloud hosting suited to constraints. Contract for IP, Git access, environments, backups and logging."
+          ],
+          "bullets": [
+            "Web app + API",
+            "Auth and roles",
+            "CRM/payment/WhatsApp integrations",
+            "Observability",
+            "CNDP/privacy by design"
+          ]
+        },
+        {
+          "id": "budget",
+          "heading": "Custom software budget in Morocco",
+          "paragraphs": [
+            "Public market ranges often place focused internal tools in the tens of thousands of MAD, multi-module platforms around MAD 150,000–500,000+, and larger enterprise scopes above. Add ~15–25%/year for maintenance. These are benchmarks, not Mohtaoua quotes.",
+            "Prefer paid scoping, fixed MVP, then sprint/lot-based iterations."
+          ],
+          "bullets": [
+            "Focused tool: often MAD 40k–120k",
+            "Multi-module: often MAD 150k–500k+",
+            "Mobile + heavy integrations: higher",
+            "Annual maintenance ~15–25%"
+          ]
+        },
+        {
+          "id": "delais",
+          "heading": "Typical timelines",
+          "paragraphs": [
+            "Scoping 1–3 weeks, UX/architecture 1–3, MVP 8–16, stabilization 2–4, then V2 after field feedback."
+          ]
+        },
+        {
+          "id": "roi",
+          "heading": "Calculate ROI before signing",
+          "paragraphs": [
+            "Translate into hours saved, fewer errors, faster cycles and capacity gained. Compare with the cost of doing nothing for 12 months."
+          ],
+          "bullets": [
+            "Hours saved/month",
+            "Cycle-time reduction",
+            "Fewer disputes",
+            "Scale without proportional hiring",
+            "Better decisions from data"
+          ]
+        },
+        {
+          "id": "erreurs",
+          "heading": "10 mistakes that sink projects",
+          "paragraphs": [
+            "These explain most budget and delay overruns."
+          ],
+          "bullets": [
+            "No business sponsor",
+            "Unread 80-page specs",
+            "Big bang",
+            "Underestimated integrations",
+            "Poor UX/training",
+            "No acceptance criteria",
+            "No Git/docs",
+            "Security last",
+            "No maintenance budget",
+            "Cheapest vendor only"
+          ]
+        },
+        {
+          "id": "choisir",
+          "heading": "How to choose a team in Morocco",
+          "paragraphs": [
+            "Check similar cases, scoping quality, backlog transparency, references, IP, support SLA and team composition. Beware unrealistically cheap fixed quotes."
+          ]
+        },
+        {
+          "id": "geo",
+          "heading": "SEO and GEO for software expertise",
+          "paragraphs": [
+            "Publish clear answers on cost, timelines, SaaS vs custom and sector examples so Google and AI engines can cite you."
+          ]
+        },
+        {
+          "id": "conclusion",
+          "heading": "Software that serves the business",
+          "paragraphs": [
+            "Custom development is competitive when it targets a real advantage, a measurable MVP and a team that can maintain it.",
+            "Mohtaoua handles scoping, design, build, integrations and run. Request a free feasibility diagnostic via /services/custom-software."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is custom software development?",
+          "answer": "Building an application around your processes, with evolvable code and specific integrations."
+        },
+        {
+          "question": "How much does it cost in Morocco?",
+          "answer": "From focused tools (tens of thousands MAD) to multi-module platforms (often MAD 150k–500k+). Scope after discovery."
+        },
+        {
+          "question": "SaaS or custom?",
+          "answer": "SaaS for standard needs; custom for differentiating processes; hybrid is often best."
+        },
+        {
+          "question": "MVP timeline?",
+          "answer": "Typically 8–16 weeks after scoping for a focused scope."
+        },
+        {
+          "question": "Who owns the code?",
+          "answer": "Must be contractual; Mohtaoua clarifies IP and Git access in the quote."
+        },
+        {
+          "question": "Need an internal IT team?",
+          "answer": "Not always — you need a sponsor and pilot users."
+        },
+        {
+          "question": "How to handle CNDP?",
+          "answer": "Privacy by design: minimization, access control, logging, suitable hosting and contracts."
+        },
+        {
+          "question": "Does Mohtaoua build custom software?",
+          "answer": "Yes — business apps, platforms, APIs and tailored ERP/CRM modules."
+        }
+      ]
     }
   },
   "backToBlog": "Back to Insights"
