@@ -206,6 +206,12 @@ const blogMeta: Record<
     topics: ["custom-software", "logiciel", "mvp", "erp", "api", "maroc"],
     priority: 100,
   },
+  "google-ads-spa-institut-beaute-maroc": {
+    category: "publicite",
+    services: ["google-ads", "landing-pages", "meta-ads", "lead-generation"],
+    topics: ["google-ads", "spa", "beaute", "local", "performance-max", "reservations"],
+    priority: 98,
+  },
 };
 
 const guideMeta: Record<string, { services: string[]; topics: string[]; priority?: number }> = {
@@ -356,6 +362,7 @@ export const EXPLICIT_RELATIONS: Record<
     guide: ["google-ads-centre-formation"],
     "case-study": ["campusup-search", "medina-clinic-digital"],
     blog: [
+      "google-ads-spa-institut-beaute-maroc",
       "meta-ads-vs-google-ads-formation",
       "generer-leads-centre-formation-maroc",
       "campagne-inscriptions-rentree-formation-maroc",
@@ -497,6 +504,19 @@ export const EXPLICIT_RELATIONS: Record<
     solution: ["archidoc", "crm", "business-automation"],
     industry: ["law-firms", "healthcare", "accounting-firms", "government", "factories"],
     "case-study": ["medina-clinic-digital", "nova-industrie-web"],
+  },
+  "google-ads-spa-institut-beaute-maroc": {
+    service: ["google-ads", "landing-pages", "meta-ads", "lead-generation"],
+    blog: [
+      "meta-ads-vs-google-ads-formation",
+      "checklist-landing-page-formation",
+      "whatsapp-convertir-leads-formation-maroc",
+      "budget-marketing-centre-formation-maroc",
+      "tva-20-pourcent-ads-maroc-2026",
+    ],
+    guide: ["google-ads-centre-formation", "guide-marketing-digital-maroc"],
+    comparison: ["meta-ads-vs-google-ads", "seo-vs-google-ads"],
+    "case-study": ["medina-clinic-digital", "campusup-search"],
   },
   "tiktok-ads": {
     service: ["meta-ads", "reels", "social-media", "landing-pages"],
